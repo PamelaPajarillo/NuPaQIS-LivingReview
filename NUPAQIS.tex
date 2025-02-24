@@ -1,0 +1,57 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage{jheppub}
+\usepackage{braket}
+% \setcounter{tocdepth}{4}
+\setcounter{secnumdepth}{4}
+
+%\usepackage[hmargin=1.0in,vmargin=1.0in]{geometry}
+%\usepackage{cite}
+\usepackage[usenames,dvipsnames]{xcolor}	% For colors and names for color boxed links
+% hyperref included through jheppub
+\hypersetup{
+	colorlinks=false,		% Surround the links by color frames (false) or colors the text of the links (true)
+	citecolor=blue,		% Color of citation links
+	filecolor=black,		% Color of file links
+	linkcolor=red,		% Color of internal links (sections, pages, etc.)
+	urlcolor=black,		% Color of url hyperlinks
+	linkbordercolor=red, 	% Color of links to bibliography
+	citebordercolor=blue,	% Color of file links
+	urlbordercolor=blue	% Color of external links
+}
+% c.f.:
+%	http://inspirehep.net/info/faq/general#utf8
+%	https://tex.stackexchange.com/questions/172421/how-to-easily-use-utf-8-with-latex
+%\usepackage{fontspec}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Document body
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title{\boldmath A Living Review of Quantum Information Science in High Energy Physics}
+\author{Pamela Pajarillo,}
+\author{Sokratis Trifinopoulos,}
+\author{Jesse Thaler}
+\affiliation{Center for Theoretical Physics, Massachusetts Institute of Technology\\ Cambridge, MA 02139, USA}
+\emailAdd{pampaja@mit.edu}
+\emailAdd{trifinos@mit.edu}
+\emailAdd{jthaler@mit.edu}
+\abstract{Inspired by ``A Living Review of Machine Learning for Particle Physics"\footnote[1]{See \href{https://github.com/iml-wg/HEPML-LivingReview}{https://github.com/iml-wg/HEPML-LivingReview}.}, the goal of this document is to provide a nearly comprehensive list of citations for those developing and applying quantum information approaches to experimental, phenomenological, or theoretical analyses. Applications of quantum information science to high energy physics is a relatively new field of research. As a living document, it will be updated as often as possible with the relevant literature with the latest developments.  Suggestions are most welcome.}
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+\input{INTRODUCTION}
+\input{BYNUPA}
+\input{BYQIS}
+
+\clearpage
+\flushbottom
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% References
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\bibliographystyle{JHEP}
+\bibliography{NUPAQIS}
+
+\end{document}
