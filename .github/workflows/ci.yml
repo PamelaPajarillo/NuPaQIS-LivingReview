@@ -29,26 +29,26 @@ jobs:
 
     - name: Test README generation
       run: |
-        cp BY_HEP/README.md BY_HEP/README.bak
+        cp BY_NUPA/README.md BY_NUPA/README.bak
         cp BY_QIS/README.md BY_QIS/README.bak
-        cp HEPQIS.bib HEPQIS.bak
-        python make_hepqis.py
-        if [[ "$(diff BY_HEP/README.md BY_HEP/README.bak)" ]]; then
-           diff BY_HEP/README.md BY_HEP/README.bak
-           echo "ERROR: HEP README is out of sync"
-           echo "       run make_hepqis.py and commit changes"
+        cp NUPAQIS.bib NUPAQIS.bak
+        python make_nupaqis.py
+        if [[ "$(diff BY_NUPA/README.md BY_NUPA/README.bak)" ]]; then
+           diff BY_NUPA/README.md BY_NUPA/README.bak
+           echo "ERROR: NUPA README is out of sync"
+           echo "       run make_nupaqis.py and commit changes"
            exit 1
         fi
         if [[ "$(diff BY_QIS/README.md BY_QIS/README.bak)" ]]; then
            diff BY_QIS/README.md BY_QIS/README.bak
            echo "ERROR: QIS README is out of sync"
-           echo "       run make_hepqis.py and commit changes"
+           echo "       run make_nupaqis.py and commit changes"
            exit 1
         fi
-        if [[ "$(diff HEPQIS.bib HEPQIS.bak)" ]]; then
-           diff HEPQIS.bib HEPQIS.bak
+        if [[ "$(diff NUPAQIS.bib NUPAQIS.bak)" ]]; then
+           diff NUPAQIS.bib NUPAQIS.bak
            echo "ERROR: BIBTEX is out of sync"
-           echo "       run make_hepqis.py and commit changes"
+           echo "       run make_nupaqis.py and commit changes"
            exit 1
         fi
         ls -lhtra

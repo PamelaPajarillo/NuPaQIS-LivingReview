@@ -202,27 +202,20 @@ def get_categories(yaml_file):
     
     return df_categories[0], list_categories[0], df_categories[1], list_categories[1]
 
-def list_subcategories_to_md(OUTPUT_FILE_MAIN, OUTPUT_FILE_RUN, subcategories, df_csv, run_type):
+def list_subcategories_to_md(OUTPUT_FILE_MAIN, subcategories, df_csv, run_type):
     for category in subcategories:
         if (category != 'Reviews') and (category != 'Whitepapers'):
-            OUTPUT_FILE_MAIN.write("* [![Papers-%s](https://img.shields.io/badge/Link_to-Papers-AA96DA)](/BY_%s/README.md#%s-) [![Descriptions-%s](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_%s/CATEGORIES.md#%s-) **%s**  \n" % (category.replace(" ", "-").lower(), run_type, category.replace(" ", "-").lower(), category.replace(" ", "-").lower(), run_type, category.replace(" ", "-").lower(), category))
-            OUTPUT_FILE_RUN.write("## **%s** [![Papers-%s](https://img.shields.io/badge/Link_to-Papers-AA96DA)](/BY_%s/README.md#%s-)\n" % (category, category.replace(" ", "-").lower(), run_type, category.replace(" ", "-").lower()))
-            if str(df_csv.loc[df_csv['Category'] == category]['Description'].values[0]) != '':
-                OUTPUT_FILE_RUN.write("%s\n\n" % df_csv.loc[df_csv['Category'] == category]['Description'].values[0])
+            OUTPUT_FILE_MAIN.write("* [![Papers-%s](https://img.shields.io/badge/Link_to-%s_Papers-AA96DA)](/BY_%s/README.md#%s-) \n" % (category.replace(" ", "_"), category.replace(" ", "_"), run_type, category.replace(" ", "-").lower()))
     OUTPUT_FILE_MAIN.write("\n\n")
-    OUTPUT_FILE_RUN.write("\n\n")
     
 def write_papers_to_md(df, output_file, categories_main, categories_sub, main_type, sub_type):
-
-    # Indices of table to check for LaTeX formatting and change to Markdown
-    text_check = [15, 16, 17]
 
     # Get Categories
     for main_category in categories_main:
 
         # Print Title of Main Category
         if (main_category != 'Reviews') and (main_category != 'Whitepapers'):
-            output_file.write("##  **%s** [![Descriptions-%s](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_%s/CATEGORIES.md#%s-)\n\n" % (main_category, main_category.replace(" ", "-").lower(), main_type, main_category.replace(" ", "-").lower()))
+            output_file.write("##  **%s** \n\n" % (main_category))
         elif (main_category == 'Reviews'):
             output_file.write("## **Reviews and Whitepapers**\n\n")
 
@@ -237,10 +230,7 @@ def write_papers_to_md(df, output_file, categories_main, categories_sub, main_ty
 
             if len(papers) > 0:
                 # Print Title of Main Category
-                if (sub_category != 'Reviews') and (sub_category != 'Whitepapers'):
-                    output_file.write("###  **%s** [![Descriptions-%s](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_%s/CATEGORIES.md#%s-)\n\n" % (sub_category, sub_category.replace(" ", "-").lower(), main_type, main_category.replace(" ", "-").lower()))
-                else:
-                    output_file.write("###  **%s**\n\n" % (sub_category))
+                output_file.write("###  **%s**\n\n" % (sub_category))
 
                 # Formatting and write to file
                 for paper in papers:
@@ -256,29 +246,9 @@ def write_papers_to_md(df, output_file, categories_main, categories_sub, main_ty
 
                     # Write brief description and summary of paper
                     output_file.write("\n\n+ <strong>Authors:</strong> %s%s" % (paper[3], paper[9]))
-                    # if (str(paper[15]) != ''):
-                    #     output_file.write("\n+ <strong>NUPA Context:</strong> %s" % (paper[15].strip('\"')))
-                    # if (str(paper[16]) != ''):
-                    #     output_file.write("\n+ <strong>QIS Methods:</strong> %s" % (paper[16].strip('\"')))
-                    # if (str(paper[17]) != ''):
-                    #     output_file.write("\n+ <strong>Results and Conclusions:</strong> %s" % (paper[17].strip('\"')))
                     output_file.write("</details>\n\n")
                 
                 output_file.write("\n\n")
-
-def write_categories_to_tex(OUTPUT_FILE_MAIN, subcategories, df_csv, run_type):
-    if run_type == 'NUPA':
-        OUTPUT_FILE_MAIN.write("\subsection{Nuclear and Particle Physics Categories}  \n")
-    elif run_type == 'QIS':
-        OUTPUT_FILE_MAIN.write("\subsection{Quantum Information Science Categories}  \n")
-    
-    for category in subcategories:
-        if (category != 'Reviews') and (category != 'Whitepapers'):
-            OUTPUT_FILE_MAIN.write("\subsubsection{%s}  \n" % (category))
-            if str(df_csv.loc[df_csv['Category'] == category]['Description'].values[0]) != '':
-                OUTPUT_FILE_MAIN.write("%s\n\n" % df_csv.loc[df_csv['Category'] == category]['Description'].values[0])
-
-    OUTPUT_FILE_MAIN.write("\n\n")
 
 def write_papers_to_tex(df, file, categories_main, categories_sub, main_type, sub_type):
     # Get Categories and Subcategories

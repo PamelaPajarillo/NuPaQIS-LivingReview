@@ -1,8 +1,6 @@
 #  **A Living Review of Quantum Information Science in Nuclear and Particle Physics Organized by Quantum Information Science Topics**
 
-**⚠️⚠️⚠️ Warning! LaTeX formatting in GitHub (used in the descriptions of each paper) is not functioning properly. Please refer to Section 3 in the [PDF version found here](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/PamelaPajarillo/NUPAQIS-LivingReview/main/NUPAQIS.pdf) ⚠️⚠️⚠️**
-
-[![QIS_TO_NUPA](https://img.shields.io/badge/Link_to-Living_Review_by_NUPA-5BC0EB)](/BY_NUPA#a-living-review-of-quantum-information-science-in-high-energy-physics-organized-by-hep-topics) 	
+[![QIS_TO_NUPA](https://img.shields.io/badge/Link_to-Living_Review_by_Nuclear_and_Particle_Physics-5BC0EB)](/BY_NUPA#a-living-review-of-quantum-information-science-in-nuclear-and-particle-physics-organized-by-nupa-topics) 	
 [![QIS_TO_MAIN](https://img.shields.io/badge/Link_to-Living_Review_Home_-FDE74C)](/../../#readme) 
 
 ## **Reviews and Whitepapers**
@@ -103,9 +101,9 @@
 
 
 
-##  **Continuous Variable Quantum Computing** [![Descriptions-continuous-variable-quantum-computing](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#continuous-variable-quantum-computing-)
+##  **Continuous Variable Quantum Computing** 
 
-###  **Anomaly Detection** [![Descriptions-anomaly-detection](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#continuous-variable-quantum-computing-)
+###  **Anomaly Detection** 
 
 <details>
 <summary> <b>Unsupervised event classification with graphs on classical and photonic quantum computers</b> [<a href="https://arxiv.org/abs/2103.03897">arXiv</a>] [<a href="https://doi.org/10.1007/JHEP08(2021)170">DOI</a>] [<a href="https://inspirehep.net/literature/1850530">INSPIRE</a>] <code>Expand</code> </summary>
@@ -116,7 +114,7 @@
 
 
 
-###  **Detector Simulation** [![Descriptions-detector-simulation](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#continuous-variable-quantum-computing-)
+###  **Detector Simulation** 
 
 <details>
 <summary> <b>Quantum Generative Adversarial Networks in a Continuous-Variable Architecture to Simulate High Energy Physics Detectors</b> [<a href="https://arxiv.org/abs/2101.11132">arXiv</a>] [<a href="https://inspirehep.net/literature/1843063">INSPIRE</a>] <code>Expand</code><br> </summary>
@@ -126,9 +124,9 @@
 
 
 
-##  **Quantum Algorithms Based on Amplitude Amplification** [![Descriptions-quantum-algorithms-based-on-amplitude-amplification](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#quantum-algorithms-based-on-amplitude-amplification-)
+##  **Quantum Algorithms Based on Amplitude Amplification** 
 
-###  **Beyond the Standard Model** [![Descriptions-beyond-the-standard-model](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#quantum-algorithms-based-on-amplitude-amplification-)
+###  **Beyond the Standard Model** 
 
 <details>
 <summary> <b>Implementation and analysis of quantum computing application to Higgs boson reconstruction at the large Hadron Collider</b> [<a href="https://doi.org/10.1038/s41598-021-01552-4">DOI</a>] [<a href="https://inspirehep.net/literature/1976537">INSPIRE</a>] <code>Expand</code><br> </summary>
@@ -144,7 +142,7 @@
 
 
 
-###  **Jet Algorithms and Jet Tagging** [![Descriptions-jet-algorithms-and-jet-tagging](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#quantum-algorithms-based-on-amplitude-amplification-)
+###  **Jet Algorithms and Jet Tagging** 
 
 <details>
 <summary> <b>Quantum Algorithms in Particle Physics</b> [<a href="https://arxiv.org/abs/2401.16208">arXiv</a>] [<a href="https://doi.org/10.5506/APhysPolBSupp.17.2-A14">DOI</a>] [<a href="https://inspirehep.net/literature/2752456">INSPIRE</a>] <code>Expand</code> </summary>
@@ -162,7 +160,7 @@
 
 
 
-###  **Quantum Field Theories** [![Descriptions-quantum-field-theories](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#quantum-algorithms-based-on-amplitude-amplification-)
+###  **Quantum Field Theories** 
 
 <details>
 <summary> <b>Quantum Algorithms in Particle Physics</b> [<a href="https://arxiv.org/abs/2401.16208">arXiv</a>] [<a href="https://doi.org/10.5506/APhysPolBSupp.17.2-A14">DOI</a>] [<a href="https://inspirehep.net/literature/2752456">INSPIRE</a>] <code>Expand</code> </summary>
@@ -180,7 +178,7 @@
 
 
 
-###  **Track Reconstruction** [![Descriptions-track-reconstruction](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#quantum-algorithms-based-on-amplitude-amplification-)
+###  **Track Reconstruction** 
 
 <details>
 <summary> <b>Quantum speedup for track reconstruction in particle accelerators</b> [<a href="https://arxiv.org/abs/2104.11583">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.105.076012">DOI</a>] [<a href="https://inspirehep.net/literature/1860508">INSPIRE</a>] <code>Expand</code> </summary>
@@ -191,9 +189,9 @@
 
 
 
-##  **Quantum Annealing** [![Descriptions-quantum-annealing](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#quantum-annealing-)
+##  **Quantum Annealing** 
 
-###  **Anomaly Detection** [![Descriptions-anomaly-detection](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#quantum-annealing-)
+###  **Anomaly Detection** 
 
 <details>
 <summary> <b>A Quantum Algorithm for Model-Independent Searches for New Physics</b> [<a href="https://arxiv.org/abs/2003.02181">arXiv</a>] [<a href="https://doi.org/10.31526/lhep.2023.301">DOI</a>] [<a href="https://inspirehep.net/literature/1783878">INSPIRE</a>] <code>Expand</code> </summary>
@@ -204,7 +202,7 @@
 
 
 
-###  **Beyond the Standard Model** [![Descriptions-beyond-the-standard-model](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#quantum-annealing-)
+###  **Beyond the Standard Model** 
 
 <details>
 <summary> <b>Completely quantum neural networks</b> [<a href="https://arxiv.org/abs/2202.11727">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevA.106.022601">DOI</a>] [<a href="https://inspirehep.net/literature/2037675">INSPIRE</a>] <code>Expand</code> </summary>
@@ -222,7 +220,7 @@
 
 
 
-###  **Cosmology and Early Universe Physics** [![Descriptions-cosmology-and-early-universe-physics](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#quantum-annealing-)
+###  **Cosmology and Early Universe Physics** 
 
 <details>
 <summary> <b>Restricted Boltzmann Machines for galaxy morphology classification with a quantum annealer</b> [<a href="https://arxiv.org/abs/1911.06259">arXiv</a>] [<a href="https://inspirehep.net/literature/1771497">INSPIRE</a>] <code>Expand</code><br> </summary>
@@ -232,7 +230,7 @@
 
 
 
-###  **Detector Simulation** [![Descriptions-detector-simulation](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#quantum-annealing-)
+###  **Detector Simulation** 
 
 <details>
 <summary> <b>Hybrid actor-critic algorithm for quantum reinforcement learning at CERN beam lines</b> [<a href="https://arxiv.org/abs/2209.11044">arXiv</a>] [<a href="https://doi.org/10.1088/2058-9565/ad261b">DOI</a>] [<a href="https://inspirehep.net/literature/2155336">INSPIRE</a>] <code>Expand</code> </summary>
@@ -243,7 +241,7 @@
 
 
 
-###  **Event Classification** [![Descriptions-event-classification](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#quantum-annealing-)
+###  **Event Classification** 
 
 <details>
 <summary> <b>Quantum adiabatic machine learning by zooming into a region of the energy surface</b> [<a href="https://arxiv.org/abs/1908.04480">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevA.102.062405">DOI</a>] [<a href="https://inspirehep.net/literature/1749714">INSPIRE</a>] <code>Expand</code> </summary>
@@ -260,7 +258,7 @@
 
 
 
-###  **Jet Algorithms and Jet Tagging** [![Descriptions-jet-algorithms-and-jet-tagging](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#quantum-annealing-)
+###  **Jet Algorithms and Jet Tagging** 
 
 <details>
 <summary> <b>Degeneracy engineering for classical and quantum annealing: A case study of sparse linear regression in collider physics</b> [<a href="https://arxiv.org/abs/2205.10375">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.106.056008">DOI</a>] [<a href="https://inspirehep.net/literature/2086422">INSPIRE</a>] <code>Expand</code> </summary>
@@ -298,7 +296,7 @@
 
 
 
-###  **Lattice Field Theories** [![Descriptions-lattice-field-theories](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#quantum-annealing-)
+###  **Lattice Field Theories** 
 
 <details>
 <summary> <b>SU(2) lattice gauge theory on a quantum annealer</b> [<a href="https://arxiv.org/abs/2103.08661">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.104.034501">DOI</a>] [<a href="https://inspirehep.net/literature/1851893">INSPIRE</a>] <code>Expand</code> </summary>
@@ -316,7 +314,7 @@
 
 
 
-###  **Quantum Field Theories** [![Descriptions-quantum-field-theories](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#quantum-annealing-)
+###  **Quantum Field Theories** 
 
 <details>
 <summary> <b>Preparations for quantum simulations of quantum chromodynamics in <math display="inline"><mrow><mn>1</mn><mo>+</mo><mn>1</mn></mrow></math> dimensions. I. Axial gauge</b> [<a href="https://arxiv.org/abs/2207.01731">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.107.054512">DOI</a>] [<a href="https://inspirehep.net/literature/2106012">INSPIRE</a>] <code>Expand</code> </summary>
@@ -327,7 +325,7 @@
 
 
 
-###  **Track Reconstruction** [![Descriptions-track-reconstruction](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#quantum-annealing-)
+###  **Track Reconstruction** 
 
 <details>
 <summary> <b>Particle track classification using quantum associative memory</b> [<a href="https://arxiv.org/abs/2011.11848">arXiv</a>] [<a href="https://doi.org/10.1016/j.nima.2021.165557">DOI</a>] [<a href="https://inspirehep.net/literature/1832645">INSPIRE</a>] <code>Expand</code> </summary>
@@ -364,9 +362,9 @@
 
 
 
-##  **Quantum Autoencoders** [![Descriptions-quantum-autoencoders](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#quantum-autoencoders-)
+##  **Quantum Autoencoders** 
 
-###  **Anomaly Detection** [![Descriptions-anomaly-detection](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#quantum-autoencoders-)
+###  **Anomaly Detection** 
 
 <details>
 <summary> <b>Anomaly detection in high-energy physics using a quantum autoencoder</b> [<a href="https://arxiv.org/abs/2112.04958">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.105.095004">DOI</a>] [<a href="https://inspirehep.net/literature/1986866">INSPIRE</a>] <code>Expand</code> </summary>
@@ -377,9 +375,9 @@
 
 
 
-##  **Quantum Circuit Born Machines** [![Descriptions-quantum-circuit-born-machines](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#quantum-circuit-born-machines-)
+##  **Quantum Circuit Born Machines** 
 
-###  **Event Generation** [![Descriptions-event-generation](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#quantum-circuit-born-machines-)
+###  **Event Generation** 
 
 <details>
 <summary> <b>Unsupervised quantum circuit learning in high energy physics</b> [<a href="https://arxiv.org/abs/2203.03578">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.106.096006">DOI</a>] [<a href="https://inspirehep.net/literature/2047246">INSPIRE</a>] <code>Expand</code> </summary>
@@ -390,9 +388,9 @@
 
 
 
-##  **Quantum Kernel Methods** [![Descriptions-quantum-kernel-methods](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#quantum-kernel-methods-)
+##  **Quantum Kernel Methods** 
 
-###  **Anomaly Detection** [![Descriptions-anomaly-detection](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#quantum-kernel-methods-)
+###  **Anomaly Detection** 
 
 <details>
 <summary> <b>Quantum anomaly detection in the latent space of proton collision events at the LHC</b> [<a href="https://arxiv.org/abs/2301.10780">arXiv</a>] [<a href="https://doi.org/10.1038/s42005-024-01811-6">DOI</a>] [<a href="https://inspirehep.net/literature/2626710">INSPIRE</a>] <code>Expand</code> </summary>
@@ -410,7 +408,7 @@
 
 
 
-###  **Beyond the Standard Model** [![Descriptions-beyond-the-standard-model](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#quantum-kernel-methods-)
+###  **Beyond the Standard Model** 
 
 <details>
 <summary> <b>Unravelling physics beyond the standard model with classical and quantum anomaly detection</b> [<a href="https://arxiv.org/abs/2301.10787">arXiv</a>] [<a href="https://doi.org/10.1088/2632-2153/ad07f7">DOI</a>] [<a href="https://inspirehep.net/literature/2626691">INSPIRE</a>] <code>Expand</code> </summary>
@@ -421,7 +419,7 @@
 
 
 
-###  **Event Classification** [![Descriptions-event-classification](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#quantum-kernel-methods-)
+###  **Event Classification** 
 
 <details>
 <summary> <b>Application of quantum machine learning in a Higgs physics study at the CEPC</b> [<a href="https://arxiv.org/abs/2209.12788">arXiv</a>] [<a href="https://doi.org/10.1142/S0217751X24500076">DOI</a>] [<a href="https://inspirehep.net/literature/2156652">INSPIRE</a>] <code>Expand</code> </summary>
@@ -453,7 +451,7 @@
 
 
 
-###  **Track Reconstruction** [![Descriptions-track-reconstruction](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#quantum-kernel-methods-)
+###  **Track Reconstruction** 
 
 <details>
 <summary> <b>Reconstructing charged particle track segments with a quantum-enhanced support vector machine</b> [<a href="https://arxiv.org/abs/2212.07279">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.109.052002">DOI</a>] [<a href="https://inspirehep.net/literature/2614201">INSPIRE</a>] <code>Expand</code> </summary>
@@ -464,9 +462,9 @@
 
 
 
-##  **Quantum Neural Networks** [![Descriptions-quantum-neural-networks](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#quantum-neural-networks-)
+##  **Quantum Neural Networks** 
 
-###  **Event Classification** [![Descriptions-event-classification](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#quantum-neural-networks-)
+###  **Event Classification** 
 
 <details>
 <summary> <b>Enforcing exact permutation and rotational symmetries in the application of quantum neural networks on point cloud datasets</b> [<a href="https://arxiv.org/abs/2405.11150">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevResearch.6.043028">DOI</a>] [<a href="https://inspirehep.net/literature/2788456">INSPIRE</a>] <code>Expand</code> </summary>
@@ -484,7 +482,7 @@
 
 
 
-###  **Track Reconstruction** [![Descriptions-track-reconstruction](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#quantum-neural-networks-)
+###  **Track Reconstruction** 
 
 <details>
 <summary> <b>Hybrid quantum classical graph neural networks for particle track reconstruction</b> [<a href="https://arxiv.org/abs/2109.12636">arXiv</a>] [<a href="https://doi.org/10.1007/s42484-021-00055-9">DOI</a>] [<a href="https://inspirehep.net/literature/1929650">INSPIRE</a>] <code>Expand</code> </summary>
@@ -495,9 +493,9 @@
 
 
 
-##  **Quantum Generative Adversarial Networks** [![Descriptions-quantum-generative-adversarial-networks](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#quantum-generative-adversarial-networks-)
+##  **Quantum Generative Adversarial Networks** 
 
-###  **Detector Simulation** [![Descriptions-detector-simulation](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#quantum-generative-adversarial-networks-)
+###  **Detector Simulation** 
 
 <details>
 <summary> <b>Running the Dual-PQC GAN on noisy simulators and real quantum hardware</b> [<a href="https://arxiv.org/abs/2205.15003">arXiv</a>] [<a href="https://doi.org/10.1088/1742-6596/2438/1/012062">DOI</a>] [<a href="https://inspirehep.net/literature/2089215">INSPIRE</a>] <code>Expand</code> </summary>
@@ -521,7 +519,7 @@
 
 
 
-###  **Event Generation** [![Descriptions-event-generation](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#quantum-generative-adversarial-networks-)
+###  **Event Generation** 
 
 <details>
 <summary> <b>Generative invertible quantum neural networks</b> [<a href="https://arxiv.org/abs/2302.12906">arXiv</a>] [<a href="https://doi.org/10.21468/SciPostPhys.16.6.146">DOI</a>] [<a href="https://inspirehep.net/literature/2636778">INSPIRE</a>] <code>Expand</code> </summary>
@@ -546,9 +544,9 @@
 
 
 
-##  **Quantum Inspired Algorithms** [![Descriptions-quantum-inspired-algorithms](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#quantum-inspired-algorithms-)
+##  **Quantum Inspired Algorithms** 
 
-###  **Jet Algorithms and Jet Tagging** [![Descriptions-jet-algorithms-and-jet-tagging](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#quantum-inspired-algorithms-)
+###  **Jet Algorithms and Jet Tagging** 
 
 <details>
 <summary> <b>Quantum-inspired event reconstruction with Tensor Networks: Matrix Product States</b> [<a href="https://arxiv.org/abs/2106.08334">arXiv</a>] [<a href="https://doi.org/10.1007/JHEP08(2021)112">DOI</a>] [<a href="https://inspirehep.net/literature/1868807">INSPIRE</a>] <code>Expand</code> </summary>
@@ -566,9 +564,9 @@
 
 
 
-##  **Quantum Information Theory** [![Descriptions-quantum-information-theory](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#quantum-information-theory-)
+##  **Quantum Information Theory** 
 
-###  **Elementary Particle Systems** [![Descriptions-elementary-particle-systems](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#quantum-information-theory-)
+###  **Elementary Particle Systems** 
 
 <details>
 <summary> <b>Full quantum tomography of top quark decays</b> [<a href="https://arxiv.org/abs/2402.14725">arXiv</a>] [<a href="https://doi.org/10.1016/j.physletb.2024.138849">DOI</a>] [<a href="https://inspirehep.net/literature/2760765">INSPIRE</a>] <code>Expand</code> </summary>
@@ -649,7 +647,7 @@
 
 
 
-###  **Event Generation** [![Descriptions-event-generation](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#quantum-information-theory-)
+###  **Event Generation** 
 
 <details>
 <summary> <b>Three-Body Entanglement in Particle Decays</b> [<a href="https://arxiv.org/abs/2310.01477">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevLett.132.151602">DOI</a>] [<a href="https://inspirehep.net/literature/2705401">INSPIRE</a>] <code>Expand</code> </summary>
@@ -660,7 +658,7 @@
 
 
 
-###  **Quantum Field Theories** [![Descriptions-quantum-field-theories](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#quantum-information-theory-)
+###  **Quantum Field Theories** 
 
 <details>
 <summary> <b>Can Bell inequalities be tested via scattering cross-section at colliders ?</b> [<a href="https://arxiv.org/abs/2401.01162">arXiv</a>] [<a href="https://doi.org/10.1140/epjc/s10052-024-13584-x">DOI</a>] [<a href="https://inspirehep.net/literature/2742864">INSPIRE</a>] <code>Expand</code> </summary>
@@ -685,9 +683,9 @@
 
 
 
-##  **Quantum Sensors** [![Descriptions-quantum-sensors](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#quantum-sensors-)
+##  **Quantum Sensors** 
 
-###  **Beyond the Standard Model** [![Descriptions-beyond-the-standard-model](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#quantum-sensors-)
+###  **Beyond the Standard Model** 
 
 <details>
 <summary> <b>Searching for Dark Matter with a Superconducting Qubit</b> [<a href="https://arxiv.org/abs/2008.12231">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevLett.126.141302">DOI</a>] [<a href="https://inspirehep.net/literature/1813617">INSPIRE</a>] <code>Expand</code> </summary>
@@ -698,7 +696,7 @@
 
 
 
-##  **Quantum Simulations** [![Descriptions-quantum-simulations](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#quantum-simulations-)
+##  **Quantum Simulations** 
 
 ###  **Whitepapers**
 
@@ -711,7 +709,7 @@
 
 
 
-###  **Event Generation** [![Descriptions-event-generation](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#quantum-simulations-)
+###  **Event Generation** 
 
 <details>
 <summary> <b>Towards a quantum computing algorithm for helicity amplitudes and parton showers</b> [<a href="https://arxiv.org/abs/2010.00046">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.103.076020">DOI</a>] [<a href="https://inspirehep.net/literature/1820606">INSPIRE</a>] <code>Expand</code> </summary>
@@ -729,7 +727,7 @@
 
 
 
-###  **Lattice Field Theories** [![Descriptions-lattice-field-theories](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#quantum-simulations-)
+###  **Lattice Field Theories** 
 
 <details>
 <summary> <b>Steps toward quantum simulations of hadronization and energy loss in dense matter</b> [<a href="https://arxiv.org/abs/2405.06620">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevC.111.015202">DOI</a>] [<a href="https://inspirehep.net/literature/2785266">INSPIRE</a>] <code>Expand</code> </summary>
@@ -796,7 +794,7 @@
 
 
 
-###  **Neutrinos** [![Descriptions-neutrinos](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#quantum-simulations-)
+###  **Neutrinos** 
 
 <details>
 <summary> <b>Neutrino Oscillations in a Quantum Processor</b> [<a href="https://arxiv.org/abs/1904.10559">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevResearch.1.033176">DOI</a>] [<a href="https://inspirehep.net/literature/1731055">INSPIRE</a>] <code>Expand</code> </summary>
@@ -807,7 +805,7 @@
 
 
 
-###  **Quantum Field Theories** [![Descriptions-quantum-field-theories](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#quantum-simulations-)
+###  **Quantum Field Theories** 
 
 <details>
 <summary> <b>Quantum Simulation of SU(3) Lattice Yang-Mills Theory at Leading Order in Large-<math display="inline"><msub><mi>N</mi><mi>c</mi></msub></math> Expansion</b> [<a href="https://arxiv.org/abs/2402.10265">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevLett.133.111901">DOI</a>] [<a href="https://inspirehep.net/literature/2759081">INSPIRE</a>] <code>Expand</code> </summary>
@@ -935,9 +933,9 @@
 
 
 
-##  **Quantum Storage** [![Descriptions-quantum-storage](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#quantum-storage-)
+##  **Quantum Storage** 
 
-###  **Track Reconstruction** [![Descriptions-track-reconstruction](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#quantum-storage-)
+###  **Track Reconstruction** 
 
 <details>
 <summary> <b>Particle track classification using quantum associative memory</b> [<a href="https://arxiv.org/abs/2011.11848">arXiv</a>] [<a href="https://doi.org/10.1016/j.nima.2021.165557">DOI</a>] [<a href="https://inspirehep.net/literature/1832645">INSPIRE</a>] <code>Expand</code> </summary>
@@ -955,9 +953,9 @@
 
 
 
-##  **Quantum Unsupervised Clustering Algorithms** [![Descriptions-quantum-unsupervised-clustering-algorithms](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#quantum-unsupervised-clustering-algorithms-)
+##  **Quantum Unsupervised Clustering Algorithms** 
 
-###  **Anomaly Detection** [![Descriptions-anomaly-detection](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#quantum-unsupervised-clustering-algorithms-)
+###  **Anomaly Detection** 
 
 <details>
 <summary> <b>Quantum anomaly detection in the latent space of proton collision events at the LHC</b> [<a href="https://arxiv.org/abs/2301.10780">arXiv</a>] [<a href="https://doi.org/10.1038/s42005-024-01811-6">DOI</a>] [<a href="https://inspirehep.net/literature/2626710">INSPIRE</a>] <code>Expand</code> </summary>
@@ -975,7 +973,7 @@
 
 
 
-###  **Jet Algorithms and Jet Tagging** [![Descriptions-jet-algorithms-and-jet-tagging](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#quantum-unsupervised-clustering-algorithms-)
+###  **Jet Algorithms and Jet Tagging** 
 
 <details>
 <summary> <b>Quantum clustering and jet reconstruction at the LHC</b> [<a href="https://arxiv.org/abs/2204.06496">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.106.036021">DOI</a>] [<a href="https://inspirehep.net/literature/2066509">INSPIRE</a>] <code>Expand</code> </summary>
@@ -992,9 +990,9 @@
 
 
 
-##  **Quantum Walks** [![Descriptions-quantum-walks](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#quantum-walks-)
+##  **Quantum Walks** 
 
-###  **Event Generation** [![Descriptions-event-generation](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#quantum-walks-)
+###  **Event Generation** 
 
 <details>
 <summary> <b>Collider events on a quantum computer</b> [<a href="https://arxiv.org/abs/2207.10694">arXiv</a>] [<a href="https://doi.org/10.1007/JHEP11(2022)035">DOI</a>] [<a href="https://inspirehep.net/literature/2121169">INSPIRE</a>] <code>Expand</code> </summary>
@@ -1012,9 +1010,9 @@
 
 
 
-##  **Tensor Networks** [![Descriptions-tensor-networks](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#tensor-networks-)
+##  **Tensor Networks** 
 
-###  **Jet Algorithms and Jet Tagging** [![Descriptions-jet-algorithms-and-jet-tagging](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#tensor-networks-)
+###  **Jet Algorithms and Jet Tagging** 
 
 <details>
 <summary> <b>Classical versus quantum: Comparing tensor-network-based quantum circuits on Large Hadron Collider data</b> [<a href="https://arxiv.org/abs/2202.10471">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevA.106.062423">DOI</a>] [<a href="https://inspirehep.net/literature/2036371">INSPIRE</a>] <code>Expand</code> </summary>
@@ -1032,9 +1030,9 @@
 
 
 
-##  **Variational Quantum Circuits** [![Descriptions-variational-quantum-circuits](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#variational-quantum-circuits-)
+##  **Variational Quantum Circuits** 
 
-###  **Anomaly Detection** [![Descriptions-anomaly-detection](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#variational-quantum-circuits-)
+###  **Anomaly Detection** 
 
 <details>
 <summary> <b>Quantum anomaly detection for collider physics</b> [<a href="https://arxiv.org/abs/2206.08391">arXiv</a>] [<a href="https://doi.org/10.1007/JHEP02(2023)220">DOI</a>] [<a href="https://inspirehep.net/literature/2097616">INSPIRE</a>] <code>Expand</code> </summary>
@@ -1052,7 +1050,7 @@
 
 
 
-###  **Beyond the Standard Model** [![Descriptions-beyond-the-standard-model](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#variational-quantum-circuits-)
+###  **Beyond the Standard Model** 
 
 <details>
 <summary> <b>Fitting a collider in a quantum computer: tackling the challenges of quantum machine learning for big datasets</b> [<a href="https://arxiv.org/abs/2211.03233">arXiv</a>] [<a href="https://doi.org/10.3389/frai.2023.1268852">DOI</a>] [<a href="https://inspirehep.net/literature/2177375">INSPIRE</a>] <code>Expand</code> </summary>
@@ -1063,7 +1061,7 @@
 
 
 
-###  **Detector Simulation** [![Descriptions-detector-simulation](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#variational-quantum-circuits-)
+###  **Detector Simulation** 
 
 <details>
 <summary> <b>Precise image generation on current noisy quantum computing devices</b> [<a href="https://arxiv.org/abs/2307.05253">arXiv</a>] [<a href="https://doi.org/10.1088/2058-9565/ad0389">DOI</a>] [<a href="https://inspirehep.net/literature/2675992">INSPIRE</a>] <code>Expand</code> </summary>
@@ -1074,7 +1072,7 @@
 
 
 
-###  **Event Classification** [![Descriptions-event-classification](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#variational-quantum-circuits-)
+###  **Event Classification** 
 
 <details>
 <summary> <b>Quantum Vision Transformers for Quark–Gluon Classification</b> [<a href="https://arxiv.org/abs/2405.10284">arXiv</a>] [<a href="https://doi.org/10.3390/axioms13050323">DOI</a>] [<a href="https://inspirehep.net/literature/2787486">INSPIRE</a>] <code>Expand</code> </summary>
@@ -1126,7 +1124,7 @@
 
 
 
-###  **Event Generation** [![Descriptions-event-generation](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#variational-quantum-circuits-)
+###  **Event Generation** 
 
 <details>
 <summary> <b>Partonic collinear structure by quantum computing</b> [<a href="https://arxiv.org/abs/2106.03865">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.105.L111502">DOI</a>] [<a href="https://inspirehep.net/literature/1867955">INSPIRE</a>] <code>Expand</code> </summary>
@@ -1137,7 +1135,7 @@
 
 
 
-###  **Jet Algorithms and Jet Tagging** [![Descriptions-jet-algorithms-and-jet-tagging](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#variational-quantum-circuits-)
+###  **Jet Algorithms and Jet Tagging** 
 
 <details>
 <summary> <b>Quantum Machine Learning for b-jet charge identification</b> [<a href="https://arxiv.org/abs/2202.13943">arXiv</a>] [<a href="https://doi.org/10.1007/JHEP08(2022)014">DOI</a>] [<a href="https://inspirehep.net/literature/2039391">INSPIRE</a>] <code>Expand</code> </summary>
@@ -1148,7 +1146,7 @@
 
 
 
-###  **Neutrinos** [![Descriptions-neutrinos](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#variational-quantum-circuits-)
+###  **Neutrinos** 
 
 <details>
 <summary> <b>Hybrid Quantum-Classical Graph Convolutional Network</b> [<a href="https://arxiv.org/abs/2101.06189">arXiv</a>] [<a href="https://inspirehep.net/literature/1841358">INSPIRE</a>] <code>Expand</code><br> </summary>
@@ -1165,7 +1163,7 @@
 
 
 
-###  **Quantum Field Theories** [![Descriptions-quantum-field-theories](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#variational-quantum-circuits-)
+###  **Quantum Field Theories** 
 
 <details>
 <summary> <b>Quantum-classical simulation of quantum field theory by quantum circuit learning</b> [<a href="https://arxiv.org/abs/2311.16297">arXiv</a>] [<a href="https://inspirehep.net/literature/2727388">INSPIRE</a>] <code>Expand</code><br> </summary>
@@ -1175,7 +1173,7 @@
 
 
 
-###  **Track Reconstruction** [![Descriptions-track-reconstruction](https://img.shields.io/badge/Link_to-Description-0066CC)](/BY_QIS/CATEGORIES.md#variational-quantum-circuits-)
+###  **Track Reconstruction** 
 
 <details>
 <summary> <b>Quantum-Annealing-Inspired Algorithms for Track Reconstruction at High-Energy Colliders</b> [<a href="https://arxiv.org/abs/2402.14718">arXiv</a>] [<a href="https://doi.org/10.1007/s41781-024-00126-z">DOI</a>] [<a href="https://inspirehep.net/literature/2760751">INSPIRE</a>] <code>Expand</code> </summary>
