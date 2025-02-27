@@ -32,6 +32,7 @@ These are then organized by subtopics listed below.
 ##  **Quantum Information Science (QIS) Topics**
 
 * [![Papers-Continuous_Variable_Quantum_Computing](https://img.shields.io/badge/Link_to-Continuous_Variable_Quantum_Computing_Papers-AA96DA)](/BY_QIS/README.md#continuous-variable-quantum-computing-) 
+* [![Papers-Quantum_Algorithms](https://img.shields.io/badge/Link_to-Quantum_Algorithms_Papers-AA96DA)](/BY_QIS/README.md#quantum-algorithms-) 
 * [![Papers-Quantum_Algorithms_Based_on_Amplitude_Amplification](https://img.shields.io/badge/Link_to-Quantum_Algorithms_Based_on_Amplitude_Amplification_Papers-AA96DA)](/BY_QIS/README.md#quantum-algorithms-based-on-amplitude-amplification-) 
 * [![Papers-Quantum_Annealing](https://img.shields.io/badge/Link_to-Quantum_Annealing_Papers-AA96DA)](/BY_QIS/README.md#quantum-annealing-) 
 * [![Papers-Quantum_Autoencoders](https://img.shields.io/badge/Link_to-Quantum_Autoencoders_Papers-AA96DA)](/BY_QIS/README.md#quantum-autoencoders-) 

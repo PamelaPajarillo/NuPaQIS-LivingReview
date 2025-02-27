@@ -1,3 +1,11 @@
+- ID: '2894383'
+  NUPA_Categories: 'Event Generation'
+  QIS_Categories: 'Variational Quantum Circuits'
+
+- ID: '2820252'
+  NUPA_Categories: '''Event Generation'',''Detector Simulation'', ''Event Classification'''
+  QIS_Categories: '''Quantum Generative Adversarial Networks'', ''Quantum Kernel Methods'''
+
 - ID: '2788456'
   NUPA_Categories: '''Event Classification'''
   QIS_Categories: '''Quantum Neural Networks'''
@@ -69,6 +77,10 @@
 - ID: '2705401'
   NUPA_Categories: '''Event Generation'''
   QIS_Categories: '''Quantum Information Theory'''
+
+- ID: '2684188'
+  NUPA_Categories: '''Track Reconstruction'''
+  QIS_Categories: '''Quantum Algorithms'''
 
 - ID: '2675992'
   NUPA_Categories: '''Detector Simulation'''
@@ -192,6 +204,10 @@
 - ID: '2075444'
   NUPA_Categories: '''Elementary Particle Systems'''
   QIS_Categories: '''Quantum Information Theory'''
+
+- ID: '2073078'
+  NUPA_Categories: '''Beyond the Standard Model'''
+  QIS_Categories: '''Quantum Simulations'''
 
 - ID: '2069448'
   NUPA_Categories: '''Whitepapers''; ''Quantum Field Theories'''
