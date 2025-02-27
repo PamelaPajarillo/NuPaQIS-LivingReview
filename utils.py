@@ -205,7 +205,7 @@ def get_categories(yaml_file):
 def list_subcategories_to_md(OUTPUT_FILE_MAIN, subcategories, df_csv, run_type):
     for category in subcategories:
         if (category != 'Reviews') and (category != 'Whitepapers'):
-            OUTPUT_FILE_MAIN.write("* [![Papers-%s](https://img.shields.io/badge/Link_to-%s_Papers-AA96DA)](/BY_%s/README.md#%s-) \n" % (category.replace(" ", "_"), category.replace(" ", "_"), run_type, category.replace(" ", "-").lower()))
+            OUTPUT_FILE_MAIN.write("* [![Papers-%s](https://img.shields.io/badge/Link_to-%s_Papers-AA96DA)](/BY_%s/README.md#%s) \n" % (category.replace(" ", "_"), category.replace(" ", "_"), run_type, category.replace(" ", "-").lower()))
     OUTPUT_FILE_MAIN.write("\n\n")
     
 def write_papers_to_md(df, output_file, categories_main, categories_sub, main_type, sub_type):
