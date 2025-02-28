@@ -23,16 +23,16 @@ OUTPUT_FILE_MAIN.write("#  $\\textbf{A Living Review of Quantum Information Scie
 
 OUTPUT_FILE_MAIN.write("$\\textbf{Authors: Pamela Pajarillo, So Chigusa, Sokratis Trifinopoulos, Jesse Thaler}$ \n \n")
 OUTPUT_FILE_MAIN.write("[![DOWNLOAD_PDF](https://img.shields.io/badge/Download-PDF_Version-81b7df)](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/PamelaPajarillo/NUPAQIS-LivingReview/main/NUPAQIS.pdf) \n\n\n")
-OUTPUT_FILE_MAIN.write("$\\text{Inspired by ``A Living Review of Machine Learning for High Energy Physics\" (\\url{https://iml-wg.github.io/HEPML-LivingReview/}), the goal of this repository is to provide an extensive list of citations for those developing and applying quantum information approaches to experimental, phenomenological, or theoretical analyses.  Applications of quantum information science to high energy physics is a relatively new field of research.  This repository will be updated as often as possible with the relevant literature.  Suggestions are most welcome.}$\n\n")
+OUTPUT_FILE_MAIN.write("$\\text{Inspired by ``A Living Review of Machine Learning for High Energy Physics\" (https://iml-wg.github.io/HEPML-LivingReview/), the goal of this repository is to provide an extensive list of citations for those developing and applying quantum information approaches to experimental, phenomenological, or theoretical analyses.  Applications of quantum information science to high energy physics is a relatively new field of research.  This repository will be updated as often as possible with the relevant literature.  Suggestions are most welcome.}$\n\n")
 OUTPUT_FILE_MAIN.write("$\\text{The goal of this repository is to collect references for quantum information science as applied to particle and nuclear physics. The papers are listed in reverse chronological order.}$ \n\n")
 
-OUTPUT_FILE_MAIN.write("$\\text{The repository is organized in two ways:}$ \n* [![MAIN_TO_NUPA](https://img.shields.io/badge/Link_to-Living_Review_by_Nuclear_and_Particle_Physics-5BC0EB)](/BY_NUPA#a-living-review-of-quantum-information-science-in-nuclear-and-particle-physics-organized-by-nupa-topics)   $\\textbf{NuPa topics are the primary categories and QIS topics are the secondary categories}$\n * [![MAIN_TO_NUPA](https://img.shields.io/badge/Link_to-Living_Review_by_Quantum_Information_Science-9BC53D)](/BY_QIS#a-living-review-of-quantum-information-science-in-nuclear-and-particle-physics-organized-by-qis-topics)$   \\textbf{QIS topics are the primary categories and NuPa topics are the secondary categories}$\n\n")
+OUTPUT_FILE_MAIN.write("$\\text{The repository is organized in two ways:}$ \n* [![MAIN_TO_NUPA](https://img.shields.io/badge/Link_to-Living_Review_by_Nuclear_and_Particle_Physics-5BC0EB)](/BY_NUPA#a-living-review-of-quantum-information-science-in-nuclear-and-particle-physics-organized-by-nupa-topics)   $\\textbf{NuPa topics are the primary categories and QIS topics are the secondary categories}$\n * [![MAIN_TO_NUPA](https://img.shields.io/badge/Link_to-Living_Review_by_Quantum_Information_Science-9BC53D)](/BY_QIS#a-living-review-of-quantum-information-science-in-nuclear-and-particle-physics-organized-by-qis-topics)   $\\textbf{QIS topics are the primary categories and NuPa topics are the secondary categories}$\n\n")
 OUTPUT_FILE_MAIN.write("$\\text{These are then organized by subtopics listed below.}$ \n\n")
 
 # ***** LIST CATEGORIES -----------------------------------------------------------------------
-OUTPUT_FILE_MAIN.write("##  $\\textbf{\color{5BC0EB}{Nuclear and Particle Physics (NuPa) Topics}}$\n\n")
+OUTPUT_FILE_MAIN.write("##  $\\textbf{\color{#5BC0EB}{Nuclear and Particle Physics (NuPa) Topics}}$\n\n")
 list_subcategories_to_md(OUTPUT_FILE_MAIN, categories_nupa, df_csv_nupa, "NUPA")
-OUTPUT_FILE_MAIN.write("##  $\\textbf{\color{9BC53D}{Quantum Information Science (QIS) Topics}}$\n\n")
+OUTPUT_FILE_MAIN.write("##  $\\textbf{\color{#9BC53D}{Quantum Information Science (QIS) Topics}}$\n\n")
 list_subcategories_to_md(OUTPUT_FILE_MAIN, categories_qis, df_csv_qis, "QIS")
 
 OUTPUT_FILE_MAIN.close()
