@@ -205,7 +205,7 @@ def get_categories(yaml_file):
 def list_subcategories_to_md(OUTPUT_FILE_MAIN, subcategories, df_csv, run_type):
     for category in subcategories:
         if (category != 'Reviews') and (category != 'Whitepapers'):
-
+            # OUTPUT_FILE_MAIN.write("$\href{%s}{https://github.com/PamelaPajarillo/NuPaQIS-LivingReview/blob/main/BY_%s/README.md#%s}$" % (category, run_type, category.replace(" ", "-").lower()))
             OUTPUT_FILE_MAIN.write("* [%s](/BY_%s/README.md#%s) \n" % (category, run_type, category.replace(" ", "-").lower()))
     OUTPUT_FILE_MAIN.write("\n\n")
     
@@ -217,11 +217,11 @@ def write_papers_to_md(df, output_file, categories_main, categories_sub, main_ty
         # Print Title of Main Category
         if (main_category != 'Reviews') and (main_category != 'Whitepapers'):
             if main_type != "NUPA":
-                output_file.write("##  **<text style= \"color : blue\">%s</text>** \n\n" % (main_category))
+                output_file.write("##  $\\textbf{{\color{5BC0EB}%s}}$ \n\n" % (main_category.replace(" ", " \space ")))
             else:
-                output_file.write("##  **<text style= \"color : green\">%s</text>** \n\n" % (main_category))
+                output_file.write("##  $\\textbf{{\color{9BC53D}%s}}$ \n\n" % (main_category.replace(" ", " \space ")))
         elif (main_category == 'Reviews'):
-            output_file.write("## **Reviews and Whitepapers**\n\n")
+            output_file.write("##  $\\textbf{Reviews and Whitepapers}$ \n\n")
 
         # Retrieve papers by checking for substring in categories
         df_main = df.loc[df['%s_Primary' % main_type].str.contains(main_category, case=False)]
@@ -236,11 +236,14 @@ def write_papers_to_md(df, output_file, categories_main, categories_sub, main_ty
                 # Print Title of Category
                 if (main_category != 'Reviews') and (main_category != 'Whitepapers'):
                     if sub_type != "NUPA":
-                        output_file.write("###  **<text style= \"color : blue\">%s</text>** \n\n" % (sub_category))
+                        output_file.write("###  $\\textbf{{\color{5BC0EB}%s}}$ \n\n" % (sub_category.replace(" ", " \space ")))
                     else:
-                        output_file.write("###  **<text style= \"color : green\">%s</text>** \n\n" % (sub_category))
+                        output_file.write("###  $\\textbf{{\color{9BC53D}%s}}$ \n\n" % (sub_category.replace(" ", " \space ")))
+
                 else:
-                    output_file.write("###  **%s**\n\n" % (sub_category))
+                    output_file.write("##  $\\textbf{%s}$ \n\n" % (sub_category.replace(" ", " \space ")))
+                    # output_file.write("###  **%s**\n\n" % (sub_category))
+                    # output_file.write("###  **%s**\n\n" % (sub_category))
 
                 # Formatting and write to file
                 for paper in papers:
@@ -248,10 +251,13 @@ def write_papers_to_md(df, output_file, categories_main, categories_sub, main_ty
                     output_file.write("<details>\n")
 
                     if (str(paper[4]) != 'nan') and (str(paper[5]) != 'nan'):
+                        # output_file.write("$\\textbf{%s} \space [\href{%s}{arXiv}] \space [\href{%s}{DOI}] \space [\href{%s}{INSPIRE}]$ <code>Expand</code>" % (paper[1], paper[6], paper[7], paper[8]))
                         output_file.write("<summary> <b>%s</b> [<a href=\"%s\">arXiv</a>] [<a href=\"%s\">DOI</a>] [<a href=\"%s\">INSPIRE</a>] <code>Expand</code> </summary>" % (paper[1], paper[6], paper[7], paper[8]))
                     elif str(paper[4]) != 'nan':
+                        # output_file.write("$\\textbf{%s} \space [\href{%s}{arXiv}] \space [\href{%s}{INSPIRE}]$ <code>Expand</code>" % (paper[1], paper[6], paper[8]))
                         output_file.write("<summary> <b>%s</b> [<a href=\"%s\">arXiv</a>] [<a href=\"%s\">INSPIRE</a>] <code>Expand</code><br> </summary>" % (paper[1], paper[6], paper[8]))
                     elif str(paper[5])!= 'nan':
+                        # output_file.write("$\\textbf{%s} \space [\href{%s}{DOI}] \space [\href{%s}{INSPIRE}]$ <code>Expand</code>" % (paper[1], paper[7], paper[8]))
                         output_file.write("<summary> <b>%s</b> [<a href=\"%s\">DOI</a>] [<a href=\"%s\">INSPIRE</a>] <code>Expand</code><br> </summary>" % (paper[1], paper[7], paper[8]))
 
                     # Write brief description and summary of paper
