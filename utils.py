@@ -205,7 +205,8 @@ def get_categories(yaml_file):
 def list_subcategories_to_md(OUTPUT_FILE_MAIN, subcategories, df_csv, run_type):
     for category in subcategories:
         if (category != 'Reviews') and (category != 'Whitepapers'):
-            OUTPUT_FILE_MAIN.write("* [![Papers-%s](https://img.shields.io/badge/Link_to-%s_Papers-AA96DA)](/BY_%s/README.md#%s) \n" % (category.replace(" ", "_"), category.replace(" ", "_"), run_type, category.replace(" ", "-").lower()))
+
+            OUTPUT_FILE_MAIN.write("* [%s](/BY_%s/README.md#%s) \n" % (category, run_type, category.replace(" ", "-").lower()))
     OUTPUT_FILE_MAIN.write("\n\n")
     
 def write_papers_to_md(df, output_file, categories_main, categories_sub, main_type, sub_type):
@@ -215,7 +216,10 @@ def write_papers_to_md(df, output_file, categories_main, categories_sub, main_ty
 
         # Print Title of Main Category
         if (main_category != 'Reviews') and (main_category != 'Whitepapers'):
-            output_file.write("##  **%s** \n\n" % (main_category))
+            if main_type != "NUPA":
+                output_file.write("##  **<text style= \"color : blue\">%s</text>** \n\n" % (main_category))
+            else:
+                output_file.write("##  **<text style= \"color : green\">%s</text>** \n\n" % (main_category))
         elif (main_category == 'Reviews'):
             output_file.write("## **Reviews and Whitepapers**\n\n")
 
@@ -229,8 +233,14 @@ def write_papers_to_md(df, output_file, categories_main, categories_sub, main_ty
             papers = df_sub.values.tolist()
 
             if len(papers) > 0:
-                # Print Title of Main Category
-                output_file.write("###  **%s**\n\n" % (sub_category))
+                # Print Title of Category
+                if (main_category != 'Reviews') and (main_category != 'Whitepapers'):
+                    if sub_type != "NUPA":
+                        output_file.write("###  **<text style= \"color : blue\">%s</text>** \n\n" % (sub_category))
+                    else:
+                        output_file.write("###  **<text style= \"color : green\">%s</text>** \n\n" % (sub_category))
+                else:
+                    output_file.write("###  **%s**\n\n" % (sub_category))
 
                 # Formatting and write to file
                 for paper in papers:

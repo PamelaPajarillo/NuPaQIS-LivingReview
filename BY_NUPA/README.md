@@ -39,6 +39,13 @@
 + <strong>Published in <a href="https://doi.org/10.1103/PRXQuantum.5.037001">PRX Quantum 5, 037001 (2024)</a>:</strong> 01 August 2024</details>
 
 <details>
+<summary> <b>Review on Quantum Computing for Lattice Field Theory</b> [<a href="https://arxiv.org/abs/2302.00467">arXiv</a>] [<a href="https://doi.org/10.22323/1.430.0228">DOI</a>] [<a href="https://inspirehep.net/literature/2628722">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1419876"> Lena Funcke</a>, <a href="https://inspirehep.net/authors/1277625"> Tobias Hartung</a>, <a href="https://inspirehep.net/authors/1004503"> Karl Jansen</a>, <a href="https://inspirehep.net/authors/1885408"> Stefan Kühn</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2302.00467">arXiv:2302.00467</a>:</strong> 01 February 2023 
++ <strong>Published in <a href="https://doi.org/10.22323/1.430.0228">PoS</a>:</strong> 01 February 2023</details>
+
+<details>
 <summary> <b>Report of the Snowmass 2021 Theory Frontier Topical Group on Quantum Information Science</b> [<a href="https://arxiv.org/abs/2209.14839">arXiv</a>] [<a href="https://inspirehep.net/literature/2158315">INSPIRE</a>] <code>Expand</code><br> </summary>
 
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1014253"> Simon Catterall</a>, <a href="https://inspirehep.net/authors/1019568"> Roni Harnik</a>, <a href="https://inspirehep.net/authors/1005387"> Veronika E. Hubeny</a>, <a href="https://inspirehep.net/authors/1017103"> Christian W. Bauer</a>, <a href="https://inspirehep.net/authors/1252636"> Asher Berlin</a>, <a href="https://inspirehep.net/authors/1078382"> Zohreh Davoudi</a>, <a href="https://inspirehep.net/authors/1051565"> Thomas Faulkner</a>, <a href="https://inspirehep.net/authors/1029673"> Thomas Hartman</a>, <a href="https://inspirehep.net/authors/1019514"> Matthew Headrick</a>, <a href="https://inspirehep.net/authors/1051663"> Yonatan F. Kahn</a>, <a href="https://inspirehep.net/authors/1239062"> Henry Lamm</a>, <a href="https://inspirehep.net/authors/997658"> Yannick Meurice</a>, <a href="https://inspirehep.net/authors/1051391"> Surjeet Rajendran</a>, <a href="https://inspirehep.net/authors/1019440"> Mukund Rangamani</a>, <a href="https://inspirehep.net/authors/1064843"> Brian Swingle</a>
@@ -101,20 +108,9 @@
 
 
 
-###  **Quantum Simulations**
+##  **<text style= "color : green">Anomaly Detection</text>** 
 
-<details>
-<summary> <b>Review on Quantum Computing for Lattice Field Theory</b> [<a href="https://arxiv.org/abs/2302.00467">arXiv</a>] [<a href="https://doi.org/10.22323/1.430.0228">DOI</a>] [<a href="https://inspirehep.net/literature/2628722">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1419876"> Lena Funcke</a>, <a href="https://inspirehep.net/authors/1277625"> Tobias Hartung</a>, <a href="https://inspirehep.net/authors/1004503"> Karl Jansen</a>, <a href="https://inspirehep.net/authors/1885408"> Stefan Kühn</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2302.00467">arXiv:2302.00467</a>:</strong> 01 February 2023 
-+ <strong>Published in <a href="https://doi.org/10.22323/1.430.0228">PoS</a>:</strong> 01 February 2023</details>
-
-
-
-##  **Anomaly Detection** 
-
-###  **Continuous Variable Quantum Computing**
+###  **<text style= "color : blue">Continuous Variable Quantum Computing</text>** 
 
 <details>
 <summary> <b>Unsupervised event classification with graphs on classical and photonic quantum computers</b> [<a href="https://arxiv.org/abs/2103.03897">arXiv</a>] [<a href="https://doi.org/10.1007/JHEP08(2021)170">DOI</a>] [<a href="https://inspirehep.net/literature/1850530">INSPIRE</a>] <code>Expand</code> </summary>
@@ -125,7 +121,7 @@
 
 
 
-###  **Quantum Annealing**
+###  **<text style= "color : blue">Quantum Annealing</text>** 
 
 <details>
 <summary> <b>A Quantum Algorithm for Model-Independent Searches for New Physics</b> [<a href="https://arxiv.org/abs/2003.02181">arXiv</a>] [<a href="https://doi.org/10.31526/lhep.2023.301">DOI</a>] [<a href="https://inspirehep.net/literature/1783878">INSPIRE</a>] <code>Expand</code> </summary>
@@ -136,7 +132,7 @@
 
 
 
-###  **Quantum Autoencoders**
+###  **<text style= "color : blue">Quantum Autoencoders</text>** 
 
 <details>
 <summary> <b>Anomaly detection in high-energy physics using a quantum autoencoder</b> [<a href="https://arxiv.org/abs/2112.04958">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.105.095004">DOI</a>] [<a href="https://inspirehep.net/literature/1986866">INSPIRE</a>] <code>Expand</code> </summary>
@@ -147,7 +143,7 @@
 
 
 
-###  **Quantum Kernel Methods**
+###  **<text style= "color : blue">Quantum Kernel Methods</text>** 
 
 <details>
 <summary> <b>Quantum anomaly detection in the latent space of proton collision events at the LHC</b> [<a href="https://arxiv.org/abs/2301.10780">arXiv</a>] [<a href="https://doi.org/10.1038/s42005-024-01811-6">DOI</a>] [<a href="https://inspirehep.net/literature/2626710">INSPIRE</a>] <code>Expand</code> </summary>
@@ -165,7 +161,7 @@
 
 
 
-###  **Quantum Unsupervised Clustering Algorithms**
+###  **<text style= "color : blue">Quantum Unsupervised Clustering Algorithms</text>** 
 
 <details>
 <summary> <b>Quantum anomaly detection in the latent space of proton collision events at the LHC</b> [<a href="https://arxiv.org/abs/2301.10780">arXiv</a>] [<a href="https://doi.org/10.1038/s42005-024-01811-6">DOI</a>] [<a href="https://inspirehep.net/literature/2626710">INSPIRE</a>] <code>Expand</code> </summary>
@@ -183,7 +179,7 @@
 
 
 
-###  **Variational Quantum Circuits**
+###  **<text style= "color : blue">Variational Quantum Circuits</text>** 
 
 <details>
 <summary> <b>Quantum anomaly detection for collider physics</b> [<a href="https://arxiv.org/abs/2206.08391">arXiv</a>] [<a href="https://doi.org/10.1007/JHEP02(2023)220">DOI</a>] [<a href="https://inspirehep.net/literature/2097616">INSPIRE</a>] <code>Expand</code> </summary>
@@ -201,25 +197,9 @@
 
 
 
-##  **Beyond the Standard Model** 
+##  **<text style= "color : green">Beyond the Standard Model</text>** 
 
-###  **Quantum Algorithms**
-
-<details>
-<summary> <b>Implementation and analysis of quantum computing application to Higgs boson reconstruction at the large Hadron Collider</b> [<a href="https://doi.org/10.1038/s41598-021-01552-4">DOI</a>] [<a href="https://inspirehep.net/literature/1976537">INSPIRE</a>] <code>Expand</code><br> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1976538"> Anthony Alexiades Armenakas</a>, <a href="https://inspirehep.net/authors/1017606"> Oliver K. Baker</a>
-+ <strong>Published in <a href="https://doi.org/10.1038/s41598-021-01552-4">Sci.Rep.</a>:</strong> 24 November 2021</details>
-
-<details>
-<summary> <b>Application of a Quantum Search Algorithm to High- Energy Physics Data at the Large Hadron Collider</b> [<a href="https://arxiv.org/abs/2010.00649">arXiv</a>] [<a href="https://inspirehep.net/literature/1821295">INSPIRE</a>] <code>Expand</code><br> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/2391726"> Anthony E. Armenakas</a>, <a href="https://inspirehep.net/authors/1017606"> Oliver K. Baker</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2010.00649">arXiv:2010.00649</a>:</strong> 01 October 2020</details>
-
-
-
-###  **Quantum Algorithms Based on Amplitude Amplification**
+###  **<text style= "color : blue">Quantum Algorithms</text>** 
 
 <details>
 <summary> <b>Implementation and analysis of quantum computing application to Higgs boson reconstruction at the large Hadron Collider</b> [<a href="https://doi.org/10.1038/s41598-021-01552-4">DOI</a>] [<a href="https://inspirehep.net/literature/1976537">INSPIRE</a>] <code>Expand</code><br> </summary>
@@ -235,7 +215,23 @@
 
 
 
-###  **Quantum Annealing**
+###  **<text style= "color : blue">Quantum Algorithms Based on Amplitude Amplification</text>** 
+
+<details>
+<summary> <b>Implementation and analysis of quantum computing application to Higgs boson reconstruction at the large Hadron Collider</b> [<a href="https://doi.org/10.1038/s41598-021-01552-4">DOI</a>] [<a href="https://inspirehep.net/literature/1976537">INSPIRE</a>] <code>Expand</code><br> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1976538"> Anthony Alexiades Armenakas</a>, <a href="https://inspirehep.net/authors/1017606"> Oliver K. Baker</a>
++ <strong>Published in <a href="https://doi.org/10.1038/s41598-021-01552-4">Sci.Rep.</a>:</strong> 24 November 2021</details>
+
+<details>
+<summary> <b>Application of a Quantum Search Algorithm to High- Energy Physics Data at the Large Hadron Collider</b> [<a href="https://arxiv.org/abs/2010.00649">arXiv</a>] [<a href="https://inspirehep.net/literature/1821295">INSPIRE</a>] <code>Expand</code><br> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/2391726"> Anthony E. Armenakas</a>, <a href="https://inspirehep.net/authors/1017606"> Oliver K. Baker</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2010.00649">arXiv:2010.00649</a>:</strong> 01 October 2020</details>
+
+
+
+###  **<text style= "color : blue">Quantum Annealing</text>** 
 
 <details>
 <summary> <b>Completely quantum neural networks</b> [<a href="https://arxiv.org/abs/2202.11727">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevA.106.022601">DOI</a>] [<a href="https://inspirehep.net/literature/2037675">INSPIRE</a>] <code>Expand</code> </summary>
@@ -253,7 +249,7 @@
 
 
 
-###  **Quantum Kernel Methods**
+###  **<text style= "color : blue">Quantum Kernel Methods</text>** 
 
 <details>
 <summary> <b>Unravelling physics beyond the standard model with classical and quantum anomaly detection</b> [<a href="https://arxiv.org/abs/2301.10787">arXiv</a>] [<a href="https://doi.org/10.1088/2632-2153/ad07f7">DOI</a>] [<a href="https://inspirehep.net/literature/2626691">INSPIRE</a>] <code>Expand</code> </summary>
@@ -264,7 +260,7 @@
 
 
 
-###  **Quantum Sensors**
+###  **<text style= "color : blue">Quantum Sensors</text>** 
 
 <details>
 <summary> <b>Searching for Dark Matter with a Superconducting Qubit</b> [<a href="https://arxiv.org/abs/2008.12231">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevLett.126.141302">DOI</a>] [<a href="https://inspirehep.net/literature/1813617">INSPIRE</a>] <code>Expand</code> </summary>
@@ -275,7 +271,7 @@
 
 
 
-###  **Quantum Simulations**
+###  **<text style= "color : blue">Quantum Simulations</text>** 
 
 <details>
 <summary> <b>Quantum simulations of dark sector showers</b> [<a href="https://arxiv.org/abs/2204.12500">arXiv</a>] [<a href="https://doi.org/10.1016/j.physletb.2022.137466">DOI</a>] [<a href="https://inspirehep.net/literature/2073078">INSPIRE</a>] <code>Expand</code> </summary>
@@ -286,7 +282,7 @@
 
 
 
-###  **Variational Quantum Circuits**
+###  **<text style= "color : blue">Variational Quantum Circuits</text>** 
 
 <details>
 <summary> <b>Fitting a collider in a quantum computer: tackling the challenges of quantum machine learning for big datasets</b> [<a href="https://arxiv.org/abs/2211.03233">arXiv</a>] [<a href="https://doi.org/10.3389/frai.2023.1268852">DOI</a>] [<a href="https://inspirehep.net/literature/2177375">INSPIRE</a>] <code>Expand</code> </summary>
@@ -297,9 +293,9 @@
 
 
 
-##  **Cosmology and Early Universe Physics** 
+##  **<text style= "color : green">Cosmology and Early Universe Physics</text>** 
 
-###  **Quantum Annealing**
+###  **<text style= "color : blue">Quantum Annealing</text>** 
 
 <details>
 <summary> <b>Restricted Boltzmann Machines for galaxy morphology classification with a quantum annealer</b> [<a href="https://arxiv.org/abs/1911.06259">arXiv</a>] [<a href="https://inspirehep.net/literature/1771497">INSPIRE</a>] <code>Expand</code><br> </summary>
@@ -309,9 +305,9 @@
 
 
 
-##  **Detector Simulation** 
+##  **<text style= "color : green">Detector Simulation</text>** 
 
-###  **Continuous Variable Quantum Computing**
+###  **<text style= "color : blue">Continuous Variable Quantum Computing</text>** 
 
 <details>
 <summary> <b>Quantum Generative Adversarial Networks in a Continuous-Variable Architecture to Simulate High Energy Physics Detectors</b> [<a href="https://arxiv.org/abs/2101.11132">arXiv</a>] [<a href="https://inspirehep.net/literature/1843063">INSPIRE</a>] <code>Expand</code><br> </summary>
@@ -321,7 +317,7 @@
 
 
 
-###  **Quantum Annealing**
+###  **<text style= "color : blue">Quantum Annealing</text>** 
 
 <details>
 <summary> <b>Hybrid actor-critic algorithm for quantum reinforcement learning at CERN beam lines</b> [<a href="https://arxiv.org/abs/2209.11044">arXiv</a>] [<a href="https://doi.org/10.1088/2058-9565/ad261b">DOI</a>] [<a href="https://inspirehep.net/literature/2155336">INSPIRE</a>] <code>Expand</code> </summary>
@@ -332,7 +328,7 @@
 
 
 
-###  **Quantum Kernel Methods**
+###  **<text style= "color : blue">Quantum Kernel Methods</text>** 
 
 <details>
 <summary> <b>Quantum-centric Supercomputing for Physics Research</b> [<a href="https://arxiv.org/abs/2408.11741">arXiv</a>] [<a href="https://inspirehep.net/literature/2820252">INSPIRE</a>] <code>Expand</code><br> </summary>
@@ -342,7 +338,7 @@
 
 
 
-###  **Quantum Generative Adversarial Networks**
+###  **<text style= "color : blue">Quantum Generative Adversarial Networks</text>** 
 
 <details>
 <summary> <b>Quantum-centric Supercomputing for Physics Research</b> [<a href="https://arxiv.org/abs/2408.11741">arXiv</a>] [<a href="https://inspirehep.net/literature/2820252">INSPIRE</a>] <code>Expand</code><br> </summary>
@@ -372,7 +368,7 @@
 
 
 
-###  **Variational Quantum Circuits**
+###  **<text style= "color : blue">Variational Quantum Circuits</text>** 
 
 <details>
 <summary> <b>Precise image generation on current noisy quantum computing devices</b> [<a href="https://arxiv.org/abs/2307.05253">arXiv</a>] [<a href="https://doi.org/10.1088/2058-9565/ad0389">DOI</a>] [<a href="https://inspirehep.net/literature/2675992">INSPIRE</a>] <code>Expand</code> </summary>
@@ -383,9 +379,9 @@
 
 
 
-##  **Elementary Particle Systems** 
+##  **<text style= "color : green">Elementary Particle Systems</text>** 
 
-###  **Quantum Information Theory**
+###  **<text style= "color : blue">Quantum Information Theory</text>** 
 
 <details>
 <summary> <b>Full quantum tomography of top quark decays</b> [<a href="https://arxiv.org/abs/2402.14725">arXiv</a>] [<a href="https://doi.org/10.1016/j.physletb.2024.138849">DOI</a>] [<a href="https://inspirehep.net/literature/2760765">INSPIRE</a>] <code>Expand</code> </summary>
@@ -466,9 +462,9 @@
 
 
 
-##  **Event Classification** 
+##  **<text style= "color : green">Event Classification</text>** 
 
-###  **Quantum Annealing**
+###  **<text style= "color : blue">Quantum Annealing</text>** 
 
 <details>
 <summary> <b>Quantum adiabatic machine learning by zooming into a region of the energy surface</b> [<a href="https://arxiv.org/abs/1908.04480">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevA.102.062405">DOI</a>] [<a href="https://inspirehep.net/literature/1749714">INSPIRE</a>] <code>Expand</code> </summary>
@@ -485,7 +481,7 @@
 
 
 
-###  **Quantum Kernel Methods**
+###  **<text style= "color : blue">Quantum Kernel Methods</text>** 
 
 <details>
 <summary> <b>Quantum-centric Supercomputing for Physics Research</b> [<a href="https://arxiv.org/abs/2408.11741">arXiv</a>] [<a href="https://inspirehep.net/literature/2820252">INSPIRE</a>] <code>Expand</code><br> </summary>
@@ -523,7 +519,7 @@
 
 
 
-###  **Quantum Neural Networks**
+###  **<text style= "color : blue">Quantum Neural Networks</text>** 
 
 <details>
 <summary> <b>Enforcing exact permutation and rotational symmetries in the application of quantum neural networks on point cloud datasets</b> [<a href="https://arxiv.org/abs/2405.11150">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevResearch.6.043028">DOI</a>] [<a href="https://inspirehep.net/literature/2788456">INSPIRE</a>] <code>Expand</code> </summary>
@@ -541,7 +537,7 @@
 
 
 
-###  **Quantum Generative Adversarial Networks**
+###  **<text style= "color : blue">Quantum Generative Adversarial Networks</text>** 
 
 <details>
 <summary> <b>Quantum-centric Supercomputing for Physics Research</b> [<a href="https://arxiv.org/abs/2408.11741">arXiv</a>] [<a href="https://inspirehep.net/literature/2820252">INSPIRE</a>] <code>Expand</code><br> </summary>
@@ -551,7 +547,7 @@
 
 
 
-###  **Variational Quantum Circuits**
+###  **<text style= "color : blue">Variational Quantum Circuits</text>** 
 
 <details>
 <summary> <b>Quantum Vision Transformers for Quark–Gluon Classification</b> [<a href="https://arxiv.org/abs/2405.10284">arXiv</a>] [<a href="https://doi.org/10.3390/axioms13050323">DOI</a>] [<a href="https://inspirehep.net/literature/2787486">INSPIRE</a>] <code>Expand</code> </summary>
@@ -603,9 +599,9 @@
 
 
 
-##  **Event Generation** 
+##  **<text style= "color : green">Event Generation</text>** 
 
-###  **Quantum Circuit Born Machines**
+###  **<text style= "color : blue">Quantum Circuit Born Machines</text>** 
 
 <details>
 <summary> <b>Unsupervised quantum circuit learning in high energy physics</b> [<a href="https://arxiv.org/abs/2203.03578">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.106.096006">DOI</a>] [<a href="https://inspirehep.net/literature/2047246">INSPIRE</a>] <code>Expand</code> </summary>
@@ -616,7 +612,7 @@
 
 
 
-###  **Quantum Kernel Methods**
+###  **<text style= "color : blue">Quantum Kernel Methods</text>** 
 
 <details>
 <summary> <b>Quantum-centric Supercomputing for Physics Research</b> [<a href="https://arxiv.org/abs/2408.11741">arXiv</a>] [<a href="https://inspirehep.net/literature/2820252">INSPIRE</a>] <code>Expand</code><br> </summary>
@@ -626,7 +622,7 @@
 
 
 
-###  **Quantum Generative Adversarial Networks**
+###  **<text style= "color : blue">Quantum Generative Adversarial Networks</text>** 
 
 <details>
 <summary> <b>Quantum-centric Supercomputing for Physics Research</b> [<a href="https://arxiv.org/abs/2408.11741">arXiv</a>] [<a href="https://inspirehep.net/literature/2820252">INSPIRE</a>] <code>Expand</code><br> </summary>
@@ -657,7 +653,7 @@
 
 
 
-###  **Quantum Information Theory**
+###  **<text style= "color : blue">Quantum Information Theory</text>** 
 
 <details>
 <summary> <b>Three-Body Entanglement in Particle Decays</b> [<a href="https://arxiv.org/abs/2310.01477">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevLett.132.151602">DOI</a>] [<a href="https://inspirehep.net/literature/2705401">INSPIRE</a>] <code>Expand</code> </summary>
@@ -668,7 +664,7 @@
 
 
 
-###  **Quantum Simulations**
+###  **<text style= "color : blue">Quantum Simulations</text>** 
 
 <details>
 <summary> <b>Towards a quantum computing algorithm for helicity amplitudes and parton showers</b> [<a href="https://arxiv.org/abs/2010.00046">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.103.076020">DOI</a>] [<a href="https://inspirehep.net/literature/1820606">INSPIRE</a>] <code>Expand</code> </summary>
@@ -686,7 +682,7 @@
 
 
 
-###  **Quantum Walks**
+###  **<text style= "color : blue">Quantum Walks</text>** 
 
 <details>
 <summary> <b>Collider events on a quantum computer</b> [<a href="https://arxiv.org/abs/2207.10694">arXiv</a>] [<a href="https://doi.org/10.1007/JHEP11(2022)035">DOI</a>] [<a href="https://inspirehep.net/literature/2121169">INSPIRE</a>] <code>Expand</code> </summary>
@@ -704,7 +700,7 @@
 
 
 
-###  **Variational Quantum Circuits**
+###  **<text style= "color : blue">Variational Quantum Circuits</text>** 
 
 <details>
 <summary> <b>Quantum Wishlist: Lessons from Parton Showers</b> [<a href="https://arxiv.org/abs/2502.18059">arXiv</a>] [<a href="https://inspirehep.net/literature/2894383">INSPIRE</a>] <code>Expand</code><br> </summary>
@@ -721,27 +717,9 @@
 
 
 
-##  **Jet Algorithms and Jet Tagging** 
+##  **<text style= "color : green">Jet Algorithms and Jet Tagging</text>** 
 
-###  **Quantum Algorithms**
-
-<details>
-<summary> <b>Quantum Algorithms in Particle Physics</b> [<a href="https://arxiv.org/abs/2401.16208">arXiv</a>] [<a href="https://doi.org/10.5506/APhysPolBSupp.17.2-A14">DOI</a>] [<a href="https://inspirehep.net/literature/2752456">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/991497"> Germán Rodrigo</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2401.16208">arXiv:2401.16208</a>:</strong> 29 January 2024 
-+ <strong>Published in <a href="https://doi.org/10.5506/APhysPolBSupp.17.2-A14">Acta Phys.Polon.Supp.</a>:</strong> 2024</details>
-
-<details>
-<summary> <b>Quantum Algorithms for Jet Clustering</b> [<a href="https://arxiv.org/abs/1908.08949">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.101.094015">DOI</a>] [<a href="https://inspirehep.net/literature/1751122">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/2273215"> Annie Y. Wei</a>, <a href="https://inspirehep.net/authors/2876979"> Preksha Naik</a>, <a href="https://inspirehep.net/authors/2071292"> Aram W. Harrow</a>, <a href="https://inspirehep.net/authors/1054400"> Jesse Thaler</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/1908.08949">arXiv:1908.08949</a>:</strong> 23 August 2019 
-+ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.101.094015">Phys. Rev. D 101, 094015 (2020)</a>:</strong> 15 May 2020</details>
-
-
-
-###  **Quantum Algorithms Based on Amplitude Amplification**
+###  **<text style= "color : blue">Quantum Algorithms</text>** 
 
 <details>
 <summary> <b>Quantum Algorithms in Particle Physics</b> [<a href="https://arxiv.org/abs/2401.16208">arXiv</a>] [<a href="https://doi.org/10.5506/APhysPolBSupp.17.2-A14">DOI</a>] [<a href="https://inspirehep.net/literature/2752456">INSPIRE</a>] <code>Expand</code> </summary>
@@ -759,7 +737,25 @@
 
 
 
-###  **Quantum Annealing**
+###  **<text style= "color : blue">Quantum Algorithms Based on Amplitude Amplification</text>** 
+
+<details>
+<summary> <b>Quantum Algorithms in Particle Physics</b> [<a href="https://arxiv.org/abs/2401.16208">arXiv</a>] [<a href="https://doi.org/10.5506/APhysPolBSupp.17.2-A14">DOI</a>] [<a href="https://inspirehep.net/literature/2752456">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/991497"> Germán Rodrigo</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2401.16208">arXiv:2401.16208</a>:</strong> 29 January 2024 
++ <strong>Published in <a href="https://doi.org/10.5506/APhysPolBSupp.17.2-A14">Acta Phys.Polon.Supp.</a>:</strong> 2024</details>
+
+<details>
+<summary> <b>Quantum Algorithms for Jet Clustering</b> [<a href="https://arxiv.org/abs/1908.08949">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.101.094015">DOI</a>] [<a href="https://inspirehep.net/literature/1751122">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/2273215"> Annie Y. Wei</a>, <a href="https://inspirehep.net/authors/2876979"> Preksha Naik</a>, <a href="https://inspirehep.net/authors/2071292"> Aram W. Harrow</a>, <a href="https://inspirehep.net/authors/1054400"> Jesse Thaler</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/1908.08949">arXiv:1908.08949</a>:</strong> 23 August 2019 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.101.094015">Phys. Rev. D 101, 094015 (2020)</a>:</strong> 15 May 2020</details>
+
+
+
+###  **<text style= "color : blue">Quantum Annealing</text>** 
 
 <details>
 <summary> <b>Degeneracy engineering for classical and quantum annealing: A case study of sparse linear regression in collider physics</b> [<a href="https://arxiv.org/abs/2205.10375">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.106.056008">DOI</a>] [<a href="https://inspirehep.net/literature/2086422">INSPIRE</a>] <code>Expand</code> </summary>
@@ -797,7 +793,7 @@
 
 
 
-###  **Quantum Inspired Algorithms**
+###  **<text style= "color : blue">Quantum Inspired Algorithms</text>** 
 
 <details>
 <summary> <b>Quantum-inspired event reconstruction with Tensor Networks: Matrix Product States</b> [<a href="https://arxiv.org/abs/2106.08334">arXiv</a>] [<a href="https://doi.org/10.1007/JHEP08(2021)112">DOI</a>] [<a href="https://inspirehep.net/literature/1868807">INSPIRE</a>] <code>Expand</code> </summary>
@@ -815,7 +811,7 @@
 
 
 
-###  **Quantum Unsupervised Clustering Algorithms**
+###  **<text style= "color : blue">Quantum Unsupervised Clustering Algorithms</text>** 
 
 <details>
 <summary> <b>Quantum clustering and jet reconstruction at the LHC</b> [<a href="https://arxiv.org/abs/2204.06496">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.106.036021">DOI</a>] [<a href="https://inspirehep.net/literature/2066509">INSPIRE</a>] <code>Expand</code> </summary>
@@ -832,7 +828,7 @@
 
 
 
-###  **Tensor Networks**
+###  **<text style= "color : blue">Tensor Networks</text>** 
 
 <details>
 <summary> <b>Classical versus quantum: Comparing tensor-network-based quantum circuits on Large Hadron Collider data</b> [<a href="https://arxiv.org/abs/2202.10471">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevA.106.062423">DOI</a>] [<a href="https://inspirehep.net/literature/2036371">INSPIRE</a>] <code>Expand</code> </summary>
@@ -850,7 +846,7 @@
 
 
 
-###  **Variational Quantum Circuits**
+###  **<text style= "color : blue">Variational Quantum Circuits</text>** 
 
 <details>
 <summary> <b>Quantum Machine Learning for b-jet charge identification</b> [<a href="https://arxiv.org/abs/2202.13943">arXiv</a>] [<a href="https://doi.org/10.1007/JHEP08(2022)014">DOI</a>] [<a href="https://inspirehep.net/literature/2039391">INSPIRE</a>] <code>Expand</code> </summary>
@@ -861,9 +857,9 @@
 
 
 
-##  **Lattice Field Theories** 
+##  **<text style= "color : green">Lattice Field Theories</text>** 
 
-###  **Quantum Annealing**
+###  **<text style= "color : blue">Quantum Annealing</text>** 
 
 <details>
 <summary> <b>SU(2) lattice gauge theory on a quantum annealer</b> [<a href="https://arxiv.org/abs/2103.08661">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.104.034501">DOI</a>] [<a href="https://inspirehep.net/literature/1851893">INSPIRE</a>] <code>Expand</code> </summary>
@@ -881,7 +877,7 @@
 
 
 
-###  **Quantum Simulations**
+###  **<text style= "color : blue">Quantum Simulations</text>** 
 
 <details>
 <summary> <b>Steps toward quantum simulations of hadronization and energy loss in dense matter</b> [<a href="https://arxiv.org/abs/2405.06620">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevC.111.015202">DOI</a>] [<a href="https://inspirehep.net/literature/2785266">INSPIRE</a>] <code>Expand</code> </summary>
@@ -948,9 +944,9 @@
 
 
 
-##  **Neutrinos** 
+##  **<text style= "color : green">Neutrinos</text>** 
 
-###  **Quantum Simulations**
+###  **<text style= "color : blue">Quantum Simulations</text>** 
 
 <details>
 <summary> <b>Neutrino Oscillations in a Quantum Processor</b> [<a href="https://arxiv.org/abs/1904.10559">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevResearch.1.033176">DOI</a>] [<a href="https://inspirehep.net/literature/1731055">INSPIRE</a>] <code>Expand</code> </summary>
@@ -961,7 +957,7 @@
 
 
 
-###  **Variational Quantum Circuits**
+###  **<text style= "color : blue">Variational Quantum Circuits</text>** 
 
 <details>
 <summary> <b>Hybrid Quantum-Classical Graph Convolutional Network</b> [<a href="https://arxiv.org/abs/2101.06189">arXiv</a>] [<a href="https://inspirehep.net/literature/1841358">INSPIRE</a>] <code>Expand</code><br> </summary>
@@ -978,27 +974,9 @@
 
 
 
-##  **Quantum Field Theories** 
+##  **<text style= "color : green">Quantum Field Theories</text>** 
 
-###  **Quantum Algorithms**
-
-<details>
-<summary> <b>Quantum Algorithms in Particle Physics</b> [<a href="https://arxiv.org/abs/2401.16208">arXiv</a>] [<a href="https://doi.org/10.5506/APhysPolBSupp.17.2-A14">DOI</a>] [<a href="https://inspirehep.net/literature/2752456">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/991497"> Germán Rodrigo</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2401.16208">arXiv:2401.16208</a>:</strong> 29 January 2024 
-+ <strong>Published in <a href="https://doi.org/10.5506/APhysPolBSupp.17.2-A14">Acta Phys.Polon.Supp.</a>:</strong> 2024</details>
-
-<details>
-<summary> <b>Quantum algorithm for Feynman loop integrals</b> [<a href="https://arxiv.org/abs/2105.08703">arXiv</a>] [<a href="https://doi.org/10.1007/JHEP05(2022)100">DOI</a>] [<a href="https://inspirehep.net/literature/1863769">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1730297"> Selomit Ramírez-Uribe</a>, <a href="https://inspirehep.net/authors/1949065"> Andrés E. Rentería-Olivo</a>, <a href="https://inspirehep.net/authors/991497"> Germán Rodrigo</a>, <a href="https://inspirehep.net/authors/1074173"> German F.R. Sborlini</a>, <a href="https://inspirehep.net/authors/1422357"> Luiz Vale Silva</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2105.08703">arXiv:2105.08703</a>:</strong> 18 May 2021 
-+ <strong>Published in <a href="https://doi.org/10.1007/JHEP05(2022)100">JHEP</a>:</strong> 16 May 2022</details>
-
-
-
-###  **Quantum Algorithms Based on Amplitude Amplification**
+###  **<text style= "color : blue">Quantum Algorithms</text>** 
 
 <details>
 <summary> <b>Quantum Algorithms in Particle Physics</b> [<a href="https://arxiv.org/abs/2401.16208">arXiv</a>] [<a href="https://doi.org/10.5506/APhysPolBSupp.17.2-A14">DOI</a>] [<a href="https://inspirehep.net/literature/2752456">INSPIRE</a>] <code>Expand</code> </summary>
@@ -1016,7 +994,25 @@
 
 
 
-###  **Quantum Annealing**
+###  **<text style= "color : blue">Quantum Algorithms Based on Amplitude Amplification</text>** 
+
+<details>
+<summary> <b>Quantum Algorithms in Particle Physics</b> [<a href="https://arxiv.org/abs/2401.16208">arXiv</a>] [<a href="https://doi.org/10.5506/APhysPolBSupp.17.2-A14">DOI</a>] [<a href="https://inspirehep.net/literature/2752456">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/991497"> Germán Rodrigo</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2401.16208">arXiv:2401.16208</a>:</strong> 29 January 2024 
++ <strong>Published in <a href="https://doi.org/10.5506/APhysPolBSupp.17.2-A14">Acta Phys.Polon.Supp.</a>:</strong> 2024</details>
+
+<details>
+<summary> <b>Quantum algorithm for Feynman loop integrals</b> [<a href="https://arxiv.org/abs/2105.08703">arXiv</a>] [<a href="https://doi.org/10.1007/JHEP05(2022)100">DOI</a>] [<a href="https://inspirehep.net/literature/1863769">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1730297"> Selomit Ramírez-Uribe</a>, <a href="https://inspirehep.net/authors/1949065"> Andrés E. Rentería-Olivo</a>, <a href="https://inspirehep.net/authors/991497"> Germán Rodrigo</a>, <a href="https://inspirehep.net/authors/1074173"> German F.R. Sborlini</a>, <a href="https://inspirehep.net/authors/1422357"> Luiz Vale Silva</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2105.08703">arXiv:2105.08703</a>:</strong> 18 May 2021 
++ <strong>Published in <a href="https://doi.org/10.1007/JHEP05(2022)100">JHEP</a>:</strong> 16 May 2022</details>
+
+
+
+###  **<text style= "color : blue">Quantum Annealing</text>** 
 
 <details>
 <summary> <b>Preparations for quantum simulations of quantum chromodynamics in <math display="inline"><mrow><mn>1</mn><mo>+</mo><mn>1</mn></mrow></math> dimensions. I. Axial gauge</b> [<a href="https://arxiv.org/abs/2207.01731">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.107.054512">DOI</a>] [<a href="https://inspirehep.net/literature/2106012">INSPIRE</a>] <code>Expand</code> </summary>
@@ -1027,7 +1023,7 @@
 
 
 
-###  **Quantum Information Theory**
+###  **<text style= "color : blue">Quantum Information Theory</text>** 
 
 <details>
 <summary> <b>Can Bell inequalities be tested via scattering cross-section at colliders ?</b> [<a href="https://arxiv.org/abs/2401.01162">arXiv</a>] [<a href="https://doi.org/10.1140/epjc/s10052-024-13584-x">DOI</a>] [<a href="https://inspirehep.net/literature/2742864">INSPIRE</a>] <code>Expand</code> </summary>
@@ -1052,7 +1048,7 @@
 
 
 
-###  **Quantum Simulations**
+###  **<text style= "color : blue">Quantum Simulations</text>** 
 
 <details>
 <summary> <b>Quantum Simulation of SU(3) Lattice Yang-Mills Theory at Leading Order in Large-<math display="inline"><msub><mi>N</mi><mi>c</mi></msub></math> Expansion</b> [<a href="https://arxiv.org/abs/2402.10265">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevLett.133.111901">DOI</a>] [<a href="https://inspirehep.net/literature/2759081">INSPIRE</a>] <code>Expand</code> </summary>
@@ -1180,7 +1176,7 @@
 
 
 
-###  **Variational Quantum Circuits**
+###  **<text style= "color : blue">Variational Quantum Circuits</text>** 
 
 <details>
 <summary> <b>Quantum-classical simulation of quantum field theory by quantum circuit learning</b> [<a href="https://arxiv.org/abs/2311.16297">arXiv</a>] [<a href="https://inspirehep.net/literature/2727388">INSPIRE</a>] <code>Expand</code><br> </summary>
@@ -1190,9 +1186,9 @@
 
 
 
-##  **Track Reconstruction** 
+##  **<text style= "color : green">Track Reconstruction</text>** 
 
-###  **Quantum Algorithms**
+###  **<text style= "color : blue">Quantum Algorithms</text>** 
 
 <details>
 <summary> <b>A quantum algorithm for track reconstruction in the LHCb vertex detector</b> [<a href="https://arxiv.org/abs/2308.00619">arXiv</a>] [<a href="https://doi.org/10.1088/1748-0221/18/11/P11028">DOI</a>] [<a href="https://inspirehep.net/literature/2684188">INSPIRE</a>] <code>Expand</code> </summary>
@@ -1210,7 +1206,7 @@
 
 
 
-###  **Quantum Algorithms Based on Amplitude Amplification**
+###  **<text style= "color : blue">Quantum Algorithms Based on Amplitude Amplification</text>** 
 
 <details>
 <summary> <b>Quantum speedup for track reconstruction in particle accelerators</b> [<a href="https://arxiv.org/abs/2104.11583">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.105.076012">DOI</a>] [<a href="https://inspirehep.net/literature/1860508">INSPIRE</a>] <code>Expand</code> </summary>
@@ -1221,7 +1217,7 @@
 
 
 
-###  **Quantum Annealing**
+###  **<text style= "color : blue">Quantum Annealing</text>** 
 
 <details>
 <summary> <b>Particle track classification using quantum associative memory</b> [<a href="https://arxiv.org/abs/2011.11848">arXiv</a>] [<a href="https://doi.org/10.1016/j.nima.2021.165557">DOI</a>] [<a href="https://inspirehep.net/literature/1832645">INSPIRE</a>] <code>Expand</code> </summary>
@@ -1258,7 +1254,7 @@
 
 
 
-###  **Quantum Kernel Methods**
+###  **<text style= "color : blue">Quantum Kernel Methods</text>** 
 
 <details>
 <summary> <b>Reconstructing charged particle track segments with a quantum-enhanced support vector machine</b> [<a href="https://arxiv.org/abs/2212.07279">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.109.052002">DOI</a>] [<a href="https://inspirehep.net/literature/2614201">INSPIRE</a>] <code>Expand</code> </summary>
@@ -1269,7 +1265,7 @@
 
 
 
-###  **Quantum Neural Networks**
+###  **<text style= "color : blue">Quantum Neural Networks</text>** 
 
 <details>
 <summary> <b>Hybrid quantum classical graph neural networks for particle track reconstruction</b> [<a href="https://arxiv.org/abs/2109.12636">arXiv</a>] [<a href="https://doi.org/10.1007/s42484-021-00055-9">DOI</a>] [<a href="https://inspirehep.net/literature/1929650">INSPIRE</a>] <code>Expand</code> </summary>
@@ -1280,7 +1276,7 @@
 
 
 
-###  **Quantum Storage**
+###  **<text style= "color : blue">Quantum Storage</text>** 
 
 <details>
 <summary> <b>Particle track classification using quantum associative memory</b> [<a href="https://arxiv.org/abs/2011.11848">arXiv</a>] [<a href="https://doi.org/10.1016/j.nima.2021.165557">DOI</a>] [<a href="https://inspirehep.net/literature/1832645">INSPIRE</a>] <code>Expand</code> </summary>
@@ -1298,7 +1294,7 @@
 
 
 
-###  **Variational Quantum Circuits**
+###  **<text style= "color : blue">Variational Quantum Circuits</text>** 
 
 <details>
 <summary> <b>Quantum-Annealing-Inspired Algorithms for Track Reconstruction at High-Energy Colliders</b> [<a href="https://arxiv.org/abs/2402.14718">arXiv</a>] [<a href="https://doi.org/10.1007/s41781-024-00126-z">DOI</a>] [<a href="https://inspirehep.net/literature/2760751">INSPIRE</a>] <code>Expand</code> </summary>

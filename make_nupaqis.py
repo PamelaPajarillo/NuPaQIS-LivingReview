@@ -22,7 +22,7 @@ OUTPUT_FILE_QIS = open("BY_QIS/README.md","w")
 OUTPUT_FILE_MAIN.write("#  **A Living Review of Quantum Information Science in Nuclear and Particle Physics**\n\n")
 
 OUTPUT_FILE_MAIN.write("[![DOWNLOAD_PDF](https://img.shields.io/badge/Download-PDF_Version-81b7df)](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/PamelaPajarillo/NUPAQIS-LivingReview/main/NUPAQIS.pdf) \n\n\n")
-
+OUTPUT_FILE_MAIN.write("Authors: Pamela Pajarillo, So Chigusa, Sokratis Trifinopoulos, Jesse Thaler \n \n")
 OUTPUT_FILE_MAIN.write("*Inspired by <a href=\"https://iml-wg.github.io/HEPML-LivingReview/\">\"A Living Review of Machine Learning for High Energy Physics\"</a>, the goal of this repository is to provide an extensive list of citations for those developing and applying quantum information approaches to experimental, phenomenological, or theoretical analyses.  Applications of quantum information science to high energy physics is a relatively new field of research.  This repository will be updated as often as possible with the relevant literature.  Suggestions are most welcome.*\n\n")
 OUTPUT_FILE_MAIN.write("The goal of this repository is to collect references for quantum information science as applied to particle and nuclear physics. The papers are listed in reverse chronological order. \n\n")
 
