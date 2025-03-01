@@ -206,7 +206,10 @@ def list_subcategories_to_md(OUTPUT_FILE_MAIN, subcategories, df_csv, run_type):
     for category in subcategories:
         if (category != 'Reviews') and (category != 'Whitepapers'):
             # OUTPUT_FILE_MAIN.write("$\href{%s}{https://github.com/PamelaPajarillo/NuPaQIS-LivingReview/blob/main/BY_%s/README.md#%s}$" % (category, run_type, category.replace(" ", "-").lower()))
-            OUTPUT_FILE_MAIN.write("* [%s](/BY_%s/README.md#%s) \n" % (category, run_type, category.replace(" ", "-").lower()))
+            if run_type == "NUPA":
+                OUTPUT_FILE_MAIN.write("* [%s](/BY_%s/README.md#textbfcolor9bc53d%s) \n" % (category, run_type, category.replace(" ", "-").lower()))
+            else: 
+                OUTPUT_FILE_MAIN.write("* [%s](/BY_%s/README.md#textbfcolor5bc0eb%s) \n" % (category, run_type, category.replace(" ", "-").lower()))
     OUTPUT_FILE_MAIN.write("\n\n")
     
 def write_papers_to_md(df, output_file, categories_main, categories_sub, main_type, sub_type):
