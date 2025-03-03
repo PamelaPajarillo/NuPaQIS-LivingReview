@@ -3,7 +3,7 @@
   QIS_Categories: 'Variational Quantum Circuits'
 
 - ID: '2820252'
-  NUPA_Categories: '''Event Generation'',''Detector Simulation'', ''Event Classification'''
+  NUPA_Categories: '''Event Generation'',''Detector Technology and Detector Simulation'', ''Event Classification'''
   QIS_Categories: '''Quantum Generative Adversarial Networks'', ''Quantum Kernel Methods'''
 
 - ID: '2788456'
@@ -70,6 +70,14 @@
   NUPA_Categories: '''Quantum Field Theories'''
   QIS_Categories: '''Variational Quantum Circuits'''
 
+- ID: '2721893'
+  NUPA_Categories: '''Beyond the Standard Model'''
+  QIS_Categories: '''Quantum Sensors'''
+
+- ID: '2718883'
+  NUPA_Categories: '''Beyond the Standard Model'''
+  QIS_Categories: '''Quantum Sensors'''
+
 - ID: '2711221'
   NUPA_Categories: '''Track Reconstruction'''
   QIS_Categories: '''Variational Quantum Circuits'''
@@ -83,14 +91,14 @@
   QIS_Categories: '''Quantum Algorithms'''
 
 - ID: '2675992'
-  NUPA_Categories: '''Detector Simulation'''
+  NUPA_Categories: '''Detector Technology and Detector Simulation'''
   QIS_Categories: '''Variational Quantum Circuits'''
 
 - ID: '2675145'
   NUPA_Categories: >-
     'Whitepapers'; 'Lattice Field Theories','Jet Algorithms and Jet Tagging',
     'Track Reconstruction', 'Event Classification', 'Cosmology and
-    Early Universe Physics', 'Event Generation', 'Detector Simulation'
+    Early Universe Physics', 'Event Generation', 'Detector Technology and Detector Simulation'
   QIS_Categories: >-
     'Whitepapers'; 'Quantum Annealing', 'Variational Quantum Circuits', 'Quantum
     Kernel Methods', Quantum Convolutional Neural Networks, 'Quantum Generative
@@ -104,6 +112,10 @@
 - ID: '2673374'
   NUPA_Categories: '''Event Classification'''
   QIS_Categories: '''Quantum Neural Networks'''
+
+- ID: '2661224'
+  NUPA_Categories: '''Beyond the Standard Model'', ''Detector Technology and Detector Simulation'''
+  QIS_Categories: '''Quantum Sensors'''
 
 - ID: '2645184'
   NUPA_Categories: '''Track Reconstruction'''
@@ -156,7 +168,7 @@
   QIS_Categories: '''Quantum Kernel Methods'''
 
 - ID: '2155336'
-  NUPA_Categories: '''Detector Simulation'''
+  NUPA_Categories: '''Detector Technology and Detector Simulation'''
   QIS_Categories: '''Quantum Annealing'''
   
 - ID: '2151492'
@@ -175,6 +187,10 @@
   NUPA_Categories: '''Event Generation'''
   QIS_Categories: '''Quantum Walks'''
 
+- ID: '2109955'
+  NUPA_Categories: '''Track Reconstruction'''
+  QIS_Categories: '''Quantum Sensors'''
+
 - ID: '2106012'
   NUPA_Categories: '''Quantum Field Theories'''
   QIS_Categories: '''Quantum Simulations'', ''Quantum Annealing'''
@@ -190,7 +206,7 @@
   QIS_Categories: '''Reviews''; ''Quantum Annealing'', ''Variational Quantum Circuits'''
 
 - ID: '2089215'
-  NUPA_Categories: '''Detector Simulation'''
+  NUPA_Categories: '''Detector Technology and Detector Simulation'''
   QIS_Categories: '''Quantum Generative Adversarial Networks'''
     
 - ID: '2086422'
@@ -235,7 +251,7 @@
   NUPA_Categories: >-
     'Whitepapers'; 'Jet Algorithms and Jet Tagging', 'Track Reconstruction',
     'Event Classification', 'Cosmology and Early Universe Physics', 'Event Generation',
-    'Detector Simulation'
+    'Detector Technology and Detector Simulation'
   QIS_Categories: >-
     'Whitepapers'; 'Quantum Annealing', 'Variational Quantum Circuits', 'Quantum
     Kernel Methods', Quantum Convolutional Neural Networks, 'Quantum Generative
@@ -355,7 +371,7 @@
   QIS_Categories: '''Quantum Kernel Methods'''
   
 - ID: '1854278'
-  NUPA_Categories: '''Detector Simulation'''
+  NUPA_Categories: '''Detector Technology and Detector Simulation'''
   QIS_Categories: '''Quantum Generative Adversarial Networks'''
 
 - ID: '1853006'
@@ -385,7 +401,7 @@
   QIS_Categories: '''Quantum Simulations'''
   
 - ID: '1843063'
-  NUPA_Categories: '''Detector Simulation'''
+  NUPA_Categories: '''Detector Technology and Detector Simulation'''
   QIS_Categories: >-
     'Continuous Variable Quantum Computing', 'Quantum Generative Adversarial
     Networks'

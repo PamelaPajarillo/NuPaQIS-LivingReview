@@ -1,4 +1,4 @@
-#  $\textbf{A Living Review of Quantum Information Science in Nuclear and Particle Physics}$
+# A Living Review of Quantum Information Science in Nuclear and Particle Physics
 
 [![DOWNLOAD_PDF](https://img.shields.io/badge/Download-PDF_Version-81b7df)](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/PamelaPajarillo/NUPAQIS-LivingReview/main/NUPAQIS.pdf) 
 
@@ -19,7 +19,7 @@ The NuPa and QIS topics are listed below.
 * [Anomaly Detection](/BY_NUPA/README.md#textbfcolor9bc53danomaly-detection) 
 * [Beyond the Standard Model](/BY_NUPA/README.md#textbfcolor9bc53dbeyond-the-standard-model) 
 * [Cosmology and Early Universe Physics](/BY_NUPA/README.md#textbfcolor9bc53dcosmology-and-early-universe-physics) 
-* [Detector Simulation](/BY_NUPA/README.md#textbfcolor9bc53ddetector-simulation) 
+* [Detector Technology and Detector Simulation](/BY_NUPA/README.md#textbfcolor9bc53ddetector-technology-and-detector-simulation) 
 * [Elementary Particle Systems](/BY_NUPA/README.md#textbfcolor9bc53delementary-particle-systems) 
 * [Event Classification](/BY_NUPA/README.md#textbfcolor9bc53devent-classification) 
 * [Event Generation](/BY_NUPA/README.md#textbfcolor9bc53devent-generation) 

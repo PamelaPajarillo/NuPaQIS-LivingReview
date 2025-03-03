@@ -1,11 +1,11 @@
-#  $\textbf{A Living Review of Quantum Information Science in Nuclear and Particle Physics Organized by Quantum Information Science Topics}$
+#  **A Living Review of Quantum Information Science in Nuclear and Particle Physics Organized by Quantum Information Science Topics**
 
 [![QIS_TO_NUPA](https://img.shields.io/badge/Link_to-Living_Review_by_Nuclear_and_Particle_Physics-5BC0EB)](/BY_NUPA#a-living-review-of-quantum-information-science-in-nuclear-and-particle-physics-organized-by-nupa-topics) 	
 [![QIS_TO_MAIN](https://img.shields.io/badge/Link_to-Living_Review_Home_-FDE74C)](/../../#readme) 
 
 ##  $\textbf{Reviews and Whitepapers}$ 
 
-##  $\textbf{Reviews}$ 
+###  $\textbf{Reviews}$ 
 
 <details>
 <summary> <b>Quantum entanglement and Bell inequality violation at colliders</b> [<a href="https://arxiv.org/abs/2402.07972">arXiv</a>] [<a href="https://doi.org/10.1016/j.ppnp.2024.104134">DOI</a>] [<a href="https://inspirehep.net/literature/2757981">INSPIRE</a>] <code>Expand</code> </summary>
@@ -29,7 +29,7 @@
 
 
 
-##  $\textbf{Whitepapers}$ 
+###  $\textbf{Whitepapers}$ 
 
 <details>
 <summary> <b>Quantum Computing for High-Energy Physics: State of the Art and Challenges</b> [<a href="https://arxiv.org/abs/2307.03236">arXiv</a>] [<a href="https://doi.org/10.1103/PRXQuantum.5.037001">DOI</a>] [<a href="https://inspirehep.net/literature/2675145">INSPIRE</a>] <code>Expand</code> </summary>
@@ -121,7 +121,7 @@
 
 
 
-###  $\textbf{{\color{#9BC53D}Detector Simulation}}$ 
+###  $\textbf{{\color{#9BC53D}Detector Technology and Detector Simulation}}$ 
 
 <details>
 <summary> <b>Quantum Generative Adversarial Networks in a Continuous-Variable Architecture to Simulate High Energy Physics Detectors</b> [<a href="https://arxiv.org/abs/2101.11132">arXiv</a>] [<a href="https://inspirehep.net/literature/1843063">INSPIRE</a>] <code>Expand</code><br> </summary>
@@ -309,7 +309,7 @@
 
 
 
-###  $\textbf{{\color{#9BC53D}Detector Simulation}}$ 
+###  $\textbf{{\color{#9BC53D}Detector Technology and Detector Simulation}}$ 
 
 <details>
 <summary> <b>Hybrid actor-critic algorithm for quantum reinforcement learning at CERN beam lines</b> [<a href="https://arxiv.org/abs/2209.11044">arXiv</a>] [<a href="https://doi.org/10.1088/2058-9565/ad261b">DOI</a>] [<a href="https://inspirehep.net/literature/2155336">INSPIRE</a>] <code>Expand</code> </summary>
@@ -498,7 +498,7 @@
 
 
 
-###  $\textbf{{\color{#9BC53D}Detector Simulation}}$ 
+###  $\textbf{{\color{#9BC53D}Detector Technology and Detector Simulation}}$ 
 
 <details>
 <summary> <b>Quantum-centric Supercomputing for Physics Research</b> [<a href="https://arxiv.org/abs/2408.11741">arXiv</a>] [<a href="https://inspirehep.net/literature/2820252">INSPIRE</a>] <code>Expand</code><br> </summary>
@@ -600,7 +600,7 @@
 
 ##  $\textbf{{\color{#5BC0EB}Quantum Generative Adversarial Networks}}$ 
 
-###  $\textbf{{\color{#9BC53D}Detector Simulation}}$ 
+###  $\textbf{{\color{#9BC53D}Detector Technology and Detector Simulation}}$ 
 
 <details>
 <summary> <b>Quantum-centric Supercomputing for Physics Research</b> [<a href="https://arxiv.org/abs/2408.11741">arXiv</a>] [<a href="https://inspirehep.net/literature/2820252">INSPIRE</a>] <code>Expand</code><br> </summary>
@@ -815,11 +815,51 @@
 ###  $\textbf{{\color{#9BC53D}Beyond the Standard Model}}$ 
 
 <details>
+<summary> <b>Quantum measurements in fundamental physics: a user's manual</b> [<a href="https://arxiv.org/abs/2311.07270">arXiv</a>] [<a href="https://inspirehep.net/literature/2721893">INSPIRE</a>] <code>Expand</code><br> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1871084"> Jacob Beckey</a>, <a href="https://inspirehep.net/authors/1275237"> Daniel Carney</a>, <a href="https://inspirehep.net/authors/1831296"> Giacomo Marocco</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2311.07270">arXiv:2311.07270</a>:</strong> 13 November 2023</details>
+
+<details>
+<summary> <b>Quantum Sensors for High Energy Physics</b> [<a href="https://arxiv.org/abs/2311.01930">arXiv</a>] [<a href="https://inspirehep.net/literature/2718883">INSPIRE</a>] <code>Expand</code><br> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1013617"> Aaron Chou</a>, <a href="https://inspirehep.net/authors/1004901"> Kent Irwin</a>, <a href="https://inspirehep.net/authors/1048967"> Reina H. Maruyama</a>, <a href="https://inspirehep.net/authors/1017606"> Oliver K. Baker</a>, <a href="https://inspirehep.net/authors/1822733"> Chelsea Bartram</a>, <a href="https://inspirehep.net/authors/1873191"> Karl K. Berggren</a>, <a href="https://inspirehep.net/authors/1074282"> Gustavo Cancelo</a>, <a href="https://inspirehep.net/authors/1275237"> Daniel Carney</a>, <a href="https://inspirehep.net/authors/1956008"> Clarence L. Chang</a>, <a href="https://inspirehep.net/authors/2036297"> Hsiao-Mei Cho</a>, <a href="https://inspirehep.net/authors/1008896"> Maurice Garcia-Sciveres</a>, <a href="https://inspirehep.net/authors/1034461"> Peter W. Graham</a>, <a href="https://inspirehep.net/authors/1007083"> Salman Habib</a>, <a href="https://inspirehep.net/authors/1019568"> Roni Harnik</a>, <a href="https://inspirehep.net/authors/1969499"> J.G.E. Harris</a>, <a href="https://inspirehep.net/authors/1054641"> Scott A. Hertel</a>, <a href="https://inspirehep.net/authors/2122565"> David B. Hume</a>, <a href="https://inspirehep.net/authors/1078562"> Rakshya Khatiwada</a>, <a href="https://inspirehep.net/authors/1072465"> Timothy L. Kovachy</a>, <a href="https://inspirehep.net/authors/1622031"> Noah Kurinsky</a>, <a href="https://inspirehep.net/authors/1001190"> Steve K. Lamoreaux</a>, <a href="https://inspirehep.net/authors/1272275"> Konrad W. Lehnert</a>, <a href="https://inspirehep.net/authors/2012959"> David R. Leibrandt</a>, <a href="https://inspirehep.net/authors/1988452"> Dale Li</a>, <a href="https://inspirehep.net/authors/1068057"> Ben Loer</a>, <a href="https://inspirehep.net/authors/2060735"> Julián Martínez-Rincón</a>, <a href="https://inspirehep.net/authors/1068023"> Lee McCuller</a>, <a href="https://inspirehep.net/authors/1021202"> David C. Moore</a>, <a href="https://inspirehep.net/authors/2155352"> Holger Mueller</a>, <a href="https://inspirehep.net/authors/1067963"> Cristian Pena</a>, <a href="https://inspirehep.net/authors/1959740"> Raphael C. Pooser</a>, <a href="https://inspirehep.net/authors/1038665"> Matt Pyle</a>, <a href="https://inspirehep.net/authors/1051391"> Surjeet Rajendran</a>, <a href="https://inspirehep.net/authors/1896420"> Marianna S. Safronova</a>, <a href="https://inspirehep.net/authors/1074249"> David I. Schuster</a>, <a href="https://inspirehep.net/authors/1073153"> Matthew D. Shaw</a>, <a href="https://inspirehep.net/authors/987865"> Maria Spiropulu</a>, <a href="https://inspirehep.net/authors/987729"> Paul Stankus</a>, <a href="https://inspirehep.net/authors/1980575"> Alexander O. Sushkov</a>, <a href="https://inspirehep.net/authors/1049005"> Lindley Winslow</a>, <a href="https://inspirehep.net/authors/1055103"> Si Xie</a>, <a href="https://inspirehep.net/authors/1020087"> Kathryn M. Zurek</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2311.01930">arXiv:2311.01930</a>:</strong> 03 November 2023</details>
+
+<details>
+<summary> <b>Quantum sensing for particle physics</b> [<a href="https://arxiv.org/abs/2305.11518">arXiv</a>] [<a href="https://doi.org/10.1038/s42254-024-00714-3">DOI</a>] [<a href="https://inspirehep.net/literature/2661224">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1017181"> Steven D. Bass</a>, <a href="https://inspirehep.net/authors/1011493"> Michael Doser</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2305.11518">arXiv:2305.11518</a>:</strong> 19 May 2023 
++ <strong>Published in <a href="https://doi.org/10.1038/s42254-024-00714-3">Nature Rev.Phys.</a>:</strong> 16 April 2024</details>
+
+<details>
 <summary> <b>Searching for Dark Matter with a Superconducting Qubit</b> [<a href="https://arxiv.org/abs/2008.12231">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevLett.126.141302">DOI</a>] [<a href="https://inspirehep.net/literature/1813617">INSPIRE</a>] <code>Expand</code> </summary>
 
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1860028"> Akash V. Dixit</a>, <a href="https://inspirehep.net/authors/2134715"> Srivatsan Chakram</a>, <a href="https://inspirehep.net/authors/1029216"> Kevin He</a>, <a href="https://inspirehep.net/authors/1614896"> Ankur Agrawal</a>, <a href="https://inspirehep.net/authors/1952210"> Ravi K. Naik</a>, <a href="https://inspirehep.net/authors/1074249"> David I. Schuster</a>, <a href="https://inspirehep.net/authors/1013617"> Aaron Chou</a>
 + <strong>Posted on <a href="https://arxiv.org/abs/2008.12231">arXiv:2008.12231</a>:</strong> 28 August 2020 
 + <strong>Published in <a href="https://doi.org/10.1103/PhysRevLett.126.141302">Phys. Rev. Lett. 126, 141302 (2021)</a>:</strong> 09 April 2021</details>
+
+
+
+###  $\textbf{{\color{#9BC53D}Detector Technology and Detector Simulation}}$ 
+
+<details>
+<summary> <b>Quantum sensing for particle physics</b> [<a href="https://arxiv.org/abs/2305.11518">arXiv</a>] [<a href="https://doi.org/10.1038/s42254-024-00714-3">DOI</a>] [<a href="https://inspirehep.net/literature/2661224">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1017181"> Steven D. Bass</a>, <a href="https://inspirehep.net/authors/1011493"> Michael Doser</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2305.11518">arXiv:2305.11518</a>:</strong> 19 May 2023 
++ <strong>Published in <a href="https://doi.org/10.1038/s42254-024-00714-3">Nature Rev.Phys.</a>:</strong> 16 April 2024</details>
+
+
+
+###  $\textbf{{\color{#9BC53D}Track Reconstruction}}$ 
+
+<details>
+<summary> <b>Quantum Systems for Enhanced High Energy Particle Physics Detectors</b> [<a href="https://inspirehep.net/literature/2109955">INSPIRE</a>] <code>Expand</code><br> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1011493"> M. Doser</a>, <a href="https://inspirehep.net/authors/1017892"> E. Auffray</a>, <a href="https://inspirehep.net/authors/1666167"> F.M. Brunbauer</a>, <a href="https://inspirehep.net/authors/1881811"> I. Frank</a>, <a href="https://inspirehep.net/authors/1005994"> H. Hillemanns</a>, <a href="https://inspirehep.net/authors/994784"> G. Orlandini</a>, <a href="https://inspirehep.net/authors/1634526"> G. Kornakov</a>
++ <strong>Published in <a href="nan">nan</a>:</strong> 24 June 2022</details>
 
 
 
@@ -1188,7 +1228,7 @@
 
 
 
-###  $\textbf{{\color{#9BC53D}Detector Simulation}}$ 
+###  $\textbf{{\color{#9BC53D}Detector Technology and Detector Simulation}}$ 
 
 <details>
 <summary> <b>Precise image generation on current noisy quantum computing devices</b> [<a href="https://arxiv.org/abs/2307.05253">arXiv</a>] [<a href="https://doi.org/10.1088/2058-9565/ad0389">DOI</a>] [<a href="https://inspirehep.net/literature/2675992">INSPIRE</a>] <code>Expand</code> </summary>

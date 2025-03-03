@@ -244,9 +244,7 @@ def write_papers_to_md(df, output_file, categories_main, categories_sub, main_ty
                         output_file.write("###  $\\textbf{{\color{#9BC53D}%s}}$ \n\n" % (sub_category))
 
                 else:
-                    output_file.write("##  $\\textbf{%s}$ \n\n" % (sub_category.replace(" ", " \space ")))
-                    # output_file.write("###  **%s**\n\n" % (sub_category))
-                    # output_file.write("###  **%s**\n\n" % (sub_category))
+                    output_file.write("###  $\\textbf{%s}$ \n\n" % (sub_category.replace(" ", " \space ")))
 
                 # Formatting and write to file
                 for paper in papers:
@@ -254,14 +252,13 @@ def write_papers_to_md(df, output_file, categories_main, categories_sub, main_ty
                     output_file.write("<details>\n")
 
                     if (str(paper[4]) != 'nan') and (str(paper[5]) != 'nan'):
-                        # output_file.write("$\\textbf{%s} \space [\href{%s}{arXiv}] \space [\href{%s}{DOI}] \space [\href{%s}{INSPIRE}]$ <code>Expand</code>" % (paper[1], paper[6], paper[7], paper[8]))
                         output_file.write("<summary> <b>%s</b> [<a href=\"%s\">arXiv</a>] [<a href=\"%s\">DOI</a>] [<a href=\"%s\">INSPIRE</a>] <code>Expand</code> </summary>" % (paper[1], paper[6], paper[7], paper[8]))
                     elif str(paper[4]) != 'nan':
-                        # output_file.write("$\\textbf{%s} \space [\href{%s}{arXiv}] \space [\href{%s}{INSPIRE}]$ <code>Expand</code>" % (paper[1], paper[6], paper[8]))
                         output_file.write("<summary> <b>%s</b> [<a href=\"%s\">arXiv</a>] [<a href=\"%s\">INSPIRE</a>] <code>Expand</code><br> </summary>" % (paper[1], paper[6], paper[8]))
                     elif str(paper[5])!= 'nan':
-                        # output_file.write("$\\textbf{%s} \space [\href{%s}{DOI}] \space [\href{%s}{INSPIRE}]$ <code>Expand</code>" % (paper[1], paper[7], paper[8]))
                         output_file.write("<summary> <b>%s</b> [<a href=\"%s\">DOI</a>] [<a href=\"%s\">INSPIRE</a>] <code>Expand</code><br> </summary>" % (paper[1], paper[7], paper[8]))
+                    else:
+                        output_file.write("<summary> <b>%s</b> [<a href=\"%s\">INSPIRE</a>] <code>Expand</code><br> </summary>" % (paper[1],paper[8]))
 
                     # Write brief description and summary of paper
                     output_file.write("\n\n+ <strong>Authors:</strong> %s%s" % (paper[3], paper[9]))
