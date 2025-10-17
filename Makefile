@@ -15,7 +15,7 @@ realclean: clean
 	rm -f *.ps *.pdf
 
 main:
-	latexmk -lualatex -logfilewarnings -halt-on-error NUPAQIS
+	latexmk -bibtex -logfilewarnings -f -interaction=nonstopmode NUPAQIS
 	mkdir -p DRAFTS
 	rsync NUPAQIS.pdf DRAFTS/draft_$(date).pdf
 

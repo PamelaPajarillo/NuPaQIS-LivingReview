@@ -153,8 +153,10 @@ def get_dataframe(yaml_file, categories_hep, categories_qis):
                 return full_journal_name
             elif 'pubinfo_freetext' in metadata_doi['publication_info'][0].keys():
                 return metadata_doi['publication_info'][0]['pubinfo_freetext']
-            else:
+            elif 'journal_title' in metadata_doi['publication_info'][0].keys():
                 return metadata_doi['publication_info'][0]['journal_title']
+            else:
+                return 'nan'
         else:
             return 'nan'
     

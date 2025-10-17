@@ -1,14 +1,66 @@
+- ID: '2952954'
+  NUPA_Categories: '''Elementary Particle Systems'''
+  QIS_Categories: '''Quantum Information Theory'''
+
+- ID: '2933317'
+  NUPA_Categories: '''Event Classification'''
+  QIS_Categories: '''Quantum Neural Networks'''
+  
+- ID: '2906652'
+  NUPA_Categories: 'Elementary Particle Systems'
+  QIS_Categories: 'Quantum Information Theory'
+
 - ID: '2894383'
   NUPA_Categories: 'Event Generation'
   QIS_Categories: 'Variational Quantum Circuits'
+
+- ID: '2863928'
+  NUPA_Categories: '''Dark Matter''; ''Beyond the Standard Model'''
+  QIS_Categories: '''Quantum Sensors'''
+
+- ID: '2854807'
+  NUPA_Categories: '''Dark Matter''; ''Beyond the Standard Model'''
+  QIS_Categories: '''Quantum Sensors'''
+
+- ID: '2844264'
+  NUPA_Categories: '''Quantum Field Theories'''
+  QIS_Categories: '''Quantum Information Theory'''
+
+- ID: '2838765'
+  NUPA_Categories: '''Dark Matter''; ''Beyond the Standard Model'''
+  QIS_Categories: '''Quantum Sensors'''
+
+- ID: '2827046'
+  NUPA_Categories: '''Dark Matter''; ''Beyond the Standard Model'''
+  QIS_Categories: '''Quantum Sensors'''
 
 - ID: '2820252'
   NUPA_Categories: '''Event Generation'',''Detector Technology and Detector Simulation'', ''Event Classification'''
   QIS_Categories: '''Quantum Generative Adversarial Networks'', ''Quantum Kernel Methods'''
 
+- ID: '2814427'
+  NUPA_Categories: '''Gravitational Waves'''
+  QIS_Categories: '''Quantum Sensors'''
+
+- ID: '2811672'
+  NUPA_Categories: '''Dark Matter''; ''Beyond the Standard Model'''
+  QIS_Categories: '''Quantum Sensors'''
+
+- ID: '2806451'
+  NUPA_Categories: '''Dark Matter''; ''Beyond the Standard Model'''
+  QIS_Categories: '''Quantum Sensors'''
+
+- ID: '2790365'
+  NUPA_Categories: '''Dark Matter''; ''Beyond the Standard Model'''
+  QIS_Categories: '''Quantum Sensors'''
+  
 - ID: '2788456'
   NUPA_Categories: '''Event Classification'''
   QIS_Categories: '''Quantum Neural Networks'''
+
+- ID: '2782513'
+  NUPA_Categories: '''Dark Matter''; ''Beyond the Standard Model'''
+  QIS_Categories: '''Quantum Sensors'''
 
 - ID: '2787486'
   NUPA_Categories: '''Event Classification'''
@@ -38,6 +90,10 @@
   NUPA_Categories: '''Quantum Field Theories'''
   QIS_Categories: '''Quantum Simulations'''
 
+- ID: '2753532'
+  NUPA_Categories: '''Dark Matter''; ''Beyond the Standard Model'''
+  QIS_Categories: '''Quantum Sensors'''
+
 - ID: '2753868'
   NUPA_Categories: '''Quantum Field Theories'''
   QIS_Categories: '''Quantum Simulations'''
@@ -62,6 +118,10 @@
   NUPA_Categories: '''Quantum Field Theories'''
   QIS_Categories: '''Quantum Information Theory'''
 
+- ID: '2732714'
+  NUPA_Categories: '''Dark Matter''; ''Beyond the Standard Model'''
+  QIS_Categories: '''Quantum Sensors'''
+
 - ID: '2727458'
   NUPA_Categories: '''Event Classification'''
   QIS_Categories: '''Variational Quantum Circuits'''
@@ -69,6 +129,14 @@
 - ID: '2727388'
   NUPA_Categories: '''Quantum Field Theories'''
   QIS_Categories: '''Variational Quantum Circuits'''
+
+- ID: '2723906'
+  NUPA_Categories: '''Dark Matter''; ''Beyond the Standard Model'''
+  QIS_Categories: '''Quantum Sensors'''
+
+- ID: '2724227'
+  NUPA_Categories: '''Dark Matter''; ''Beyond the Standard Model'''
+  QIS_Categories: '''Quantum Sensors'''
 
 - ID: '2721893'
   NUPA_Categories: '''Beyond the Standard Model'''
@@ -125,6 +193,10 @@
   NUPA_Categories: '''Event Generation'''
   QIS_Categories: '''Quantum Generative Adversarial Networks'''
 
+- ID: '2636344'
+  NUPA_Categories: '''Dark Matter''; ''Beyond the Standard Model'''
+  QIS_Categories: '''Quantum Sensors'''
+
 - ID: '2628985'
   NUPA_Categories: '''Elementary Particle Systems'''
   QIS_Categories: '''Quantum Information Theory'''
@@ -149,6 +221,10 @@
   NUPA_Categories: '''Quantum Field Theories'''
   QIS_Categories: '''Quantum Simulations'''
 
+- ID: '2612891'
+  NUPA_Categories: '''Dark Matter''; ''Beyond the Standard Model'''
+  QIS_Categories: '''Quantum Sensors'''
+
 - ID: '2177375'
   NUPA_Categories: '''Event Classification'', ''Beyond the Standard Model'''
   QIS_Categories: '''Variational Quantum Circuits'''
@@ -157,11 +233,9 @@
   NUPA_Categories: '''Quantum Field Theories'''
   QIS_Categories: '''Quantum Information Theory'''
 
-- ID: '2158315'
-  NUPA_Categories: '''Whitepapers''; ''Quantum Field Theories'', ''Lattice Field Theories'''
-  QIS_Categories: >-
-    'Whitepapers'; 'Quantum Information Theory', 'Quantum Simulations', 'Quantum
-    Sensors'
+- ID: '2166751'
+  NUPA_Categories: '''Dark Matter''; ''Beyond the Standard Model'''
+  QIS_Categories: '''Quantum Sensors'''
  
 - ID: '2156652'
   NUPA_Categories: '''Event Classification'''
@@ -170,7 +244,7 @@
 - ID: '2155336'
   NUPA_Categories: '''Detector Technology and Detector Simulation'''
   QIS_Categories: '''Quantum Annealing'''
-  
+
 - ID: '2151492'
   NUPA_Categories: '''Whitepapers'''
   QIS_Categories: '''Whitepapers'''
@@ -182,7 +256,15 @@
 - ID: '2141744'
   NUPA_Categories: '''Elementary Particle Systems'''
   QIS_Categories: '''Quantum Information Theory'''
-    
+
+- ID: '2135969'
+  NUPA_Categories: '''Dark Matter''; ''Beyond the Standard Model'''
+  QIS_Categories: '''Quantum Sensors'''
+
+- ID: '2135465'
+  NUPA_Categories: '''Dark Matter''; ''Beyond the Standard Model'''
+  QIS_Categories: '''Quantum Sensors'''
+
 - ID: '2121169'
   NUPA_Categories: '''Event Generation'''
   QIS_Categories: '''Quantum Walks'''
@@ -266,6 +348,10 @@
   NUPA_Categories: '''Whitepapers'''
   QIS_Categories: '''Whitepapers'''
   
+- ID: '2051476'
+  NUPA_Categories: '''Whitepapers''; ''Dark Matter'', ''Beyond the Standard Model'''
+  QIS_Categories: '''Whitepapers''; ''Quantum Sensors'''
+  
 - ID: '2050046'
   NUPA_Categories: '''Elementary Particle Systems'''
   QIS_Categories: '''Quantum Information Theory'''
@@ -301,7 +387,11 @@
 - ID: '2001819'
   NUPA_Categories: '''Event Generation'''
   QIS_Categories: '''Quantum Generative Adversarial Networks'''
-  
+
+- ID: '1998855'
+  NUPA_Categories: '''Dark Matter'' ;''Beyond the Standard Model'''
+  QIS_Categories: '''Quantum Sensors'''
+
 - ID: '1986866'
   NUPA_Categories: '''Anomaly Detection'''
   QIS_Categories: '''Quantum Autoencoders'', ''Variational Quantum Circuits'''
@@ -317,7 +407,11 @@
 - ID: '1968730'
   NUPA_Categories: '''Jet Algorithms and Jet Tagging'''
   QIS_Categories: '''Quantum Annealing'''
-  
+
+- ID: '1961466'
+  NUPA_Categories: '''Dark Matter'' ;''Beyond the Standard Model'''
+  QIS_Categories: '''Quantum Sensors'''
+
 - ID: '1947031'
   NUPA_Categories: '''Elementary Particle Systems'''
   QIS_Categories: '''Quantum Information Theory'''
@@ -333,7 +427,11 @@
 - ID: '1929650'
   NUPA_Categories: '''Track Reconstruction'''
   QIS_Categories: '''Quantum Neural Networks'''
-   
+  
+- ID: '1903618'
+  NUPA_Categories: '''Dark Matter'' ;''Beyond the Standard Model'''
+  QIS_Categories: '''Quantum Sensors'''
+
 - ID: '1875568'
   NUPA_Categories: '''Lattice Field Theories'''
   QIS_Categories: '''Quantum Simulations'''
@@ -365,7 +463,11 @@
 - ID: '1858884'
   NUPA_Categories: '''Event Classification'''
   QIS_Categories: '''Quantum Kernel Methods'', ''Variational Quantum Circuits'''
-  
+
+- ID: '1858033'
+  NUPA_Categories: '''Dark Matter'' ;''Beyond the Standard Model'''
+  QIS_Categories: '''Quantum Sensors'''
+
 - ID: '1857931'
   NUPA_Categories: '''Event Classification'''
   QIS_Categories: '''Quantum Kernel Methods'''
@@ -451,7 +553,15 @@
   QIS_Categories: '''Quantum Algorithms Based on Amplitude Amplification'''
 
 - ID: '1813617'
-  NUPA_Categories: '''Beyond the Standard Model'''
+  NUPA_Categories: '''Dark Matter'' ;''Beyond the Standard Model'''
+  QIS_Categories: '''Quantum Sensors'''
+
+- ID: '1811777'
+  NUPA_Categories: '''Dark Matter'' ;''Beyond the Standard Model'''
+  QIS_Categories: '''Quantum Sensors'''
+
+- ID: '1808528'
+  NUPA_Categories: '''Beyond the Standard Model'';''Dark Matter'', ''Gravitational Waves'''
   QIS_Categories: '''Quantum Sensors'''
 
 - ID: '1804749'
@@ -490,6 +600,10 @@
   NUPA_Categories: '''Cosmology and Early Universe Physics'''
   QIS_Categories: '''Quantum Annealing'''
   
+- ID: '1767666'
+  NUPA_Categories: '''Dark Matter''; ''Beyond the Standard Model'''
+  QIS_Categories: '''Quantum Sensors'''
+
 - ID: '1762586'
   NUPA_Categories: '''Lattice Field Theories'''
   QIS_Categories: '''Quantum Simulations'''
@@ -549,7 +663,19 @@
 - ID: '1631446'
   NUPA_Categories: '''Event Classification'''
   QIS_Categories: '''Quantum Annealing'''
-  
+
+- ID: '1604342'
+  NUPA_Categories: '''Dark Matter''; ''Beyond the Standard Model'''
+  QIS_Categories: '''Quantum Sensors'''
+
+- ID: '1601520'
+  NUPA_Categories: '''Dark Matter''; ''Beyond the Standard Model'''
+  QIS_Categories: '''Quantum Sensors'''
+
+- ID: '1475016'
+  NUPA_Categories: '''Dark Matter''; ''Beyond the Standard Model'''
+  QIS_Categories: '''Quantum Sensors'''
+
 - ID: '1459064'
   NUPA_Categories: '''Quantum Field Theories'''
   QIS_Categories: '''Quantum Simulations'''
