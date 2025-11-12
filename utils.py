@@ -208,14 +208,20 @@ def get_categories(yaml_file):
     return list_categories[0], categories_description[0], list_categories[1], categories_description[1]
 
 def list_subcategories_to_md(OUTPUT_FILE_MAIN, subcategories, description, run_type):
+    textcolor = 'textbfcolor9bc53d' if run_type == 'NUPA' else 'textbfcolor5bc0eb'
     for category in subcategories:
-        OUTPUT_FILE_MAIN.write("<details>\n")
-        textcolor = ''
         if (category != 'Reviews') and (category != 'Whitepapers'):
-            textcolor = 'textbfcolor9bc53d' if run_type == 'NUPA' else 'textbfcolor5bc0eb'
-        OUTPUT_FILE_MAIN.write("<summary> <b>%s: </b> <a href=\"/BY_%s/README.md#%s%s\"> Link to Papers </a>  <code>Expand for Description</code> </summary>\n\n" % (category, run_type, textcolor, category.replace(" ", "-").lower()))
-        OUTPUT_FILE_MAIN.write("\n\n%s" % (description[subcategories.index(category)]))
-        OUTPUT_FILE_MAIN.write("</details>")
+            OUTPUT_FILE_MAIN.write("<details>\n")
+            OUTPUT_FILE_MAIN.write("<summary> <b>%s: </b> <a href=\"/BY_%s/README.md#%s%s\"> Link to Papers </a>  <code>Expand for Description</code> </summary>\n\n" % (category, run_type, textcolor, category.replace(" ", "-").lower()))
+            OUTPUT_FILE_MAIN.write("\n\n%s" % (description[subcategories.index(category)]))
+            OUTPUT_FILE_MAIN.write("</details>")
+        elif (category == 'Reviews'):
+            OUTPUT_FILE_MAIN.write("<details>\n")
+            OUTPUT_FILE_MAIN.write("<summary> <b>Reviews and Whitepapers: </b> <a href=\"/BY_%s/README.md#textbfreviews-and-whitepapers\"> Link to Papers </a>  <code>Expand for Description</code> </summary>\n\n" % (run_type))
+            OUTPUT_FILE_MAIN.write("\n\nThe references below contain (static) reviews and whitepapers listed in applications of quantum information science to particle physics. Note that the majority of the references are from the Snowmass Community Planning Exercises." )
+            OUTPUT_FILE_MAIN.write("</details>")
+        else:
+            continue
     OUTPUT_FILE_MAIN.write("\n\n")
     
 def write_papers_to_md(df, output_file, categories_main, categories_sub, main_type, sub_type):

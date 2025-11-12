@@ -83,7 +83,27 @@
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/2391726"> Anthony E. Armenakas</a>, <a href="https://inspirehep.net/authors/1017606"> Oliver K. Baker</a>
 + <strong>Posted on <a href="https://arxiv.org/abs/2010.00649">arXiv:2010.00649</a>:</strong> 01 October 2020</details>
 
-##  $\textbf{{\color{#9BC53D}Beyond the Standard Model - Supersymmetry (SUSY)}}$ 
+##  $\textbf{{\color{#9BC53D}Beyond the Standard Model - Supersymmetry}}$ 
+
+###  $\textbf{{\color{#5BC0EB}Crosslists}}$ 
+
+<details>
+<summary> <b>Event Classification with Quantum Machine Learning in High-Energy Physics</b> [<a href="https://arxiv.org/abs/2002.09935">arXiv</a>] [<a href="https://doi.org/10.1007/s41781-020-00047-7">DOI</a>] [<a href="https://inspirehep.net/literature/1781933">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/986339"> Koji Terashi</a>, <a href="https://inspirehep.net/authors/1066905"> Michiru Kaneda</a>, <a href="https://inspirehep.net/authors/1073054"> Tomoe Kishimoto</a>, <a href="https://inspirehep.net/authors/1419611"> Masahiko Saito</a>, <a href="https://inspirehep.net/authors/990129"> Ryu Sawada</a>, <a href="https://inspirehep.net/authors/1233282"> Junichi Tanaka</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2002.09935">arXiv:2002.09935</a>:</strong> 23 February 2020 
++ <strong>Published in <a href="https://doi.org/10.1007/s41781-020-00047-7">Comput. Softw. Big Sci. 5, 2 (2021)</a>:</strong> 03 January 2021</details>
+
+
+
+<details>
+<summary> <b>Quantum algorithm for the classification of supersymmetric top quark events</b> [<a href="https://arxiv.org/abs/2106.00051">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.104.096004">DOI</a>] [<a href="https://inspirehep.net/literature/1866420">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1017362"> Pedrame Bargassa</a>, <a href="https://inspirehep.net/authors/1960670"> Timothée Cabos</a>, <a href="https://inspirehep.net/authors/1960675"> Samuele Cavinato</a>, <a href="https://inspirehep.net/authors/1960671"> Artur Cordeiro Oudot Choi</a>, <a href="https://inspirehep.net/authors/1960672"> Timothée Hessel</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2106.00051">arXiv:2106.00051</a>:</strong> 31 May 2021 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.104.096004">Phys. Rev. D 104 (2021) 096004</a>:</strong> 01 November 2021</details>
+
+
 
 ##  $\textbf{{\color{#9BC53D}Dark Matter - Axions and Axion-like Particles}}$ 
 

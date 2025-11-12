@@ -77,7 +77,7 @@
   NUPA_Categories: Quantum Chromodynamics
   QIS_Categories: Quantum Simulations
 - ID: 1781933
-  NUPA_Categories: Event Classification, Beyond the Standard Model - Supersymmetry (SUSY)
+  NUPA_Categories: Event Classification, Beyond the Standard Model - Supersymmetry
   QIS_Categories: Variational Quantum Algorithms
 - ID: 1783878
   NUPA_Categories: Statistical Analysis, Anomaly Detection
@@ -182,7 +182,7 @@
   NUPA_Categories: Event Generation
   QIS_Categories: Quantum Algorithms - Grover's Search Algorithm
 - ID: 1866420
-  NUPA_Categories: Event Classification, Beyond the Standard Model - Supersymmetry (SUSY)
+  NUPA_Categories: Event Classification, Beyond the Standard Model - Supersymmetry
   QIS_Categories: Quantum Annealing
 - ID: 1867955
   NUPA_Categories: Event Generation, Quantum Chromodynamics

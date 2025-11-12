@@ -17,16 +17,11 @@ The NuPa and QIS topics are listed below.
 ##  $\textbf{\color{#5BC0EB}{Nuclear and Particle Physics (NuPa) Topics}}$
 
 <details>
-<summary> <b>Reviews: </b> <a href="/BY_NUPA/README.md#reviews"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+<summary> <b>Reviews and Whitepapers: </b> <a href="/BY_NUPA/README.md#textbfreviews-and-whitepapers"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-The references below are (static) reviews in applications of quantum information science to particle physics.</details><details>
-<summary> <b>Whitepapers: </b> <a href="/BY_NUPA/README.md#whitepapers"> Link to Papers </a>  <code>Expand for Description</code> </summary>
-
-
-
-The references below are whitepapers in applications of quantum information science to particle physics. Note that the majority of the references are from the Snowmass Community Planning Exercises.</details><details>
+The references below contain (static) reviews and whitepapers listed in applications of quantum information science to particle physics. Note that the majority of the references are from the Snowmass Community Planning Exercises.</details><details>
 <summary> <b>Anomaly Detection: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53danomaly-detection"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -42,7 +37,7 @@ The references below are whitepapers in applications of quantum information scie
 
 
 </details><details>
-<summary> <b>Beyond the Standard Model - Supersymmetry (SUSY): </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dbeyond-the-standard-model---supersymmetry-(susy)"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+<summary> <b>Beyond the Standard Model - Supersymmetry: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dbeyond-the-standard-model---supersymmetry"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
@@ -166,16 +161,11 @@ Signal and background classification for particle physics events.</details><deta
 ##  $\textbf{\color{#9BC53D}{Quantum Information Science (QIS) Topics}}$
 
 <details>
-<summary> <b>Reviews: </b> <a href="/BY_QIS/README.md#reviews"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+<summary> <b>Reviews and Whitepapers: </b> <a href="/BY_QIS/README.md#textbfreviews-and-whitepapers"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-The references below are (static) reviews in applications of quantum information science to particle physics.</details><details>
-<summary> <b>Whitepapers: </b> <a href="/BY_QIS/README.md#whitepapers"> Link to Papers </a>  <code>Expand for Description</code> </summary>
-
-
-
-The references below are whitepapers in applications of quantum information science to particle physics. Note that the majority of the references are from the Snowmass Community Planning Exercises.</details><details>
+The references below contain (static) reviews and whitepapers listed in applications of quantum information science to particle physics. Note that the majority of the references are from the Snowmass Community Planning Exercises.</details><details>
 <summary> <b>Continuous Variable Quantum Computing: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebcontinuous-variable-quantum-computing"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
