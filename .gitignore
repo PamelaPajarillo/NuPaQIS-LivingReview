@@ -8,6 +8,8 @@ DRAFTS/*.pdf
 DRAFTS/
 TODO*
 TEMPLATE.tex
+NUPAQIS original.yaml
+NUPAQIS todo.yaml
 
 ## Core latex/pdflatex auxiliary files:
 *.aux

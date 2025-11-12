@@ -6,7 +6,7 @@ Authors: Pamela Pajarillo, So Chigusa, Sokratis Trifinopoulos, Jesse Thaler
  
 *Inspired by <a href="https://iml-wg.github.io/HEPML-LivingReview/">"A Living Review of Machine Learning for High Energy Physics"</a>, the goal of this repository is to provide an extensive list of citations for those developing and applying quantum information approaches to experimental, phenomenological, or theoretical analyses.  Applications of quantum information science to high energy physics is a relatively new field of research.  This repository will be updated as often as possible with the relevant literature.  Suggestions are most welcome.*
 
-The goal of this repository is to collect references for quantum information science as applied to particle and nuclear physics. The papers are listed in reverse chronological order. 
+The goal of this repository is to collect references for quantum information science as applied to particle and nuclear physics. The papers are listed in chronological order. Reviews and Whitepapers are listed at the beginning of each section and can be found <a href="/BY_NUPA/README.md#textbfreviews-and-whitepapers"> here </a>. 
 
 The repository is organized in two ways: 
 * [![MAIN_TO_NUPA](https://img.shields.io/badge/Link_to-Living_Review_by_Nuclear_and_Particle_Physics-5BC0EB)](/BY_NUPA#a-living-review-of-quantum-information-science-in-nuclear-and-particle-physics-organized-by-nupa-topics) NuPa topics are the main categories and QIS topics are the subcategories 
@@ -16,41 +16,284 @@ The NuPa and QIS topics are listed below.
 
 ##  $\textbf{\color{#5BC0EB}{Nuclear and Particle Physics (NuPa) Topics}}$
 
-* [Anomaly Detection](/BY_NUPA/README.md#textbfcolor9bc53danomaly-detection) 
-* [Beyond the Standard Model](/BY_NUPA/README.md#textbfcolor9bc53dbeyond-the-standard-model) 
-* [Cosmology and Early Universe Physics](/BY_NUPA/README.md#textbfcolor9bc53dcosmology-and-early-universe-physics) 
-* [Detector Technology and Detector Simulation](/BY_NUPA/README.md#textbfcolor9bc53ddetector-technology-and-detector-simulation) 
-* [Dark Matter](/BY_NUPA/README.md#textbfcolor9bc53ddark-matter) 
-* [Elementary Particle Systems](/BY_NUPA/README.md#textbfcolor9bc53delementary-particle-systems) 
-* [Event Classification](/BY_NUPA/README.md#textbfcolor9bc53devent-classification) 
-* [Event Generation](/BY_NUPA/README.md#textbfcolor9bc53devent-generation) 
-* [Gravitational Waves](/BY_NUPA/README.md#textbfcolor9bc53dgravitational-waves) 
-* [Jet Algorithms and Jet Tagging](/BY_NUPA/README.md#textbfcolor9bc53djet-algorithms-and-jet-tagging) 
-* [Lattice Field Theories](/BY_NUPA/README.md#textbfcolor9bc53dlattice-field-theories) 
-* [Neutrinos](/BY_NUPA/README.md#textbfcolor9bc53dneutrinos) 
-* [Quantum Field Theories](/BY_NUPA/README.md#textbfcolor9bc53dquantum-field-theories) 
-* [Track Reconstruction](/BY_NUPA/README.md#textbfcolor9bc53dtrack-reconstruction) 
+<details>
+<summary> <b>Reviews: </b> <a href="/BY_NUPA/README.md#reviews"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
+
+
+The references below are (static) reviews in applications of quantum information science to particle physics.</details><details>
+<summary> <b>Whitepapers: </b> <a href="/BY_NUPA/README.md#whitepapers"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+The references below are whitepapers in applications of quantum information science to particle physics. Note that the majority of the references are from the Snowmass Community Planning Exercises.</details><details>
+<summary> <b>Anomaly Detection: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53danomaly-detection"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+</details><details>
+<summary> <b>Beyond the Standard Model - Heavy Vector Boson Searches: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dbeyond-the-standard-model---heavy-vector-boson-searches"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+</details><details>
+<summary> <b>Beyond the Standard Model - Dark Sector Searches: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dbeyond-the-standard-model---dark-sector-searches"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+</details><details>
+<summary> <b>Beyond the Standard Model - Supersymmetry (SUSY): </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dbeyond-the-standard-model---supersymmetry-(susy)"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+</details><details>
+<summary> <b>Dark Matter - Axions and Axion-like Particles: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53ddark-matter---axions-and-axion-like-particles"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+</details><details>
+<summary> <b>Detector Technology and Detector Simulation: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53ddetector-technology-and-detector-simulation"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+</details><details>
+<summary> <b>Dark Matter - Exotic Dark Matter: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53ddark-matter---exotic-dark-matter"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+</details><details>
+<summary> <b>Dark Matter - Hidden/Dark Photons: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53ddark-matter---hidden/dark-photons"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+</details><details>
+<summary> <b>Dark Matter - Large Composite States: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53ddark-matter---large-composite-states"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+</details><details>
+<summary> <b>Dark Matter - Low Mass Dark Matter: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53ddark-matter---low-mass-dark-matter"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+</details><details>
+<summary> <b>Dark Matter - Millicharged Particles: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53ddark-matter---millicharged-particles"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+</details><details>
+<summary> <b>Dark Matter - Weakly Interacting Massive Particles: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53ddark-matter---weakly-interacting-massive-particles"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+</details><details>
+<summary> <b>Effective Field Theories: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53deffective-field-theories"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+</details><details>
+<summary> <b>Event Classification: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53devent-classification"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+Signal and background classification for particle physics events.</details><details>
+<summary> <b>Event Generation: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53devent-generation"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+</details><details>
+<summary> <b>Gravitation and Astrophysics: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dgravitation-and-astrophysics"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+</details><details>
+<summary> <b>Higgs Physics: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dhiggs-physics"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+</details><details>
+<summary> <b>Jet Reconstruction: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53djet-reconstruction"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+1) Jet Clustering, 2) Jet Tagging, and 3) Jet Identification </details><details>
+<summary> <b>Lattice Field Theories: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dlattice-field-theories"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+</details><details>
+<summary> <b>Lattice Gauge Theories: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dlattice-gauge-theories"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+</details><details>
+<summary> <b>Lattice Quantum Chromodynamics: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dlattice-quantum-chromodynamics"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+</details><details>
+<summary> <b>Neutrinos: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dneutrinos"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+</details><details>
+<summary> <b>Quantum Chromodynamics: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dquantum-chromodynamics"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+</details><details>
+<summary> <b>Quantum Field Theories: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dquantum-field-theories"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+</details><details>
+<summary> <b>Spin-1/2 Bipartite Systems: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dspin-1/2-bipartite-systems"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+</details><details>
+<summary> <b>Statistical Analysis: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dstatistical-analysis"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+</details><details>
+<summary> <b>Track Reconstruction: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dtrack-reconstruction"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+</details>
 
 ##  $\textbf{\color{#9BC53D}{Quantum Information Science (QIS) Topics}}$
 
-* [Continuous Variable Quantum Computing](/BY_QIS/README.md#textbfcolor5bc0ebcontinuous-variable-quantum-computing) 
-* [Quantum Algorithms](/BY_QIS/README.md#textbfcolor5bc0ebquantum-algorithms) 
-* [Quantum Algorithms Based on Amplitude Amplification](/BY_QIS/README.md#textbfcolor5bc0ebquantum-algorithms-based-on-amplitude-amplification) 
-* [Quantum Annealing](/BY_QIS/README.md#textbfcolor5bc0ebquantum-annealing) 
-* [Quantum Autoencoders](/BY_QIS/README.md#textbfcolor5bc0ebquantum-autoencoders) 
-* [Quantum Circuit Born Machines](/BY_QIS/README.md#textbfcolor5bc0ebquantum-circuit-born-machines) 
-* [Quantum Kernel Methods](/BY_QIS/README.md#textbfcolor5bc0ebquantum-kernel-methods) 
-* [Quantum Neural Networks](/BY_QIS/README.md#textbfcolor5bc0ebquantum-neural-networks) 
-* [Quantum Generative Adversarial Networks](/BY_QIS/README.md#textbfcolor5bc0ebquantum-generative-adversarial-networks) 
-* [Quantum Inspired Algorithms](/BY_QIS/README.md#textbfcolor5bc0ebquantum-inspired-algorithms) 
-* [Quantum Information Theory](/BY_QIS/README.md#textbfcolor5bc0ebquantum-information-theory) 
-* [Quantum Sensors](/BY_QIS/README.md#textbfcolor5bc0ebquantum-sensors) 
-* [Quantum Simulations](/BY_QIS/README.md#textbfcolor5bc0ebquantum-simulations) 
-* [Quantum Storage](/BY_QIS/README.md#textbfcolor5bc0ebquantum-storage) 
-* [Quantum Unsupervised Clustering Algorithms](/BY_QIS/README.md#textbfcolor5bc0ebquantum-unsupervised-clustering-algorithms) 
-* [Quantum Walks](/BY_QIS/README.md#textbfcolor5bc0ebquantum-walks) 
-* [Tensor Networks](/BY_QIS/README.md#textbfcolor5bc0ebtensor-networks) 
-* [Variational Quantum Circuits](/BY_QIS/README.md#textbfcolor5bc0ebvariational-quantum-circuits) 
+<details>
+<summary> <b>Reviews: </b> <a href="/BY_QIS/README.md#reviews"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
+
+
+The references below are (static) reviews in applications of quantum information science to particle physics.</details><details>
+<summary> <b>Whitepapers: </b> <a href="/BY_QIS/README.md#whitepapers"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+The references below are whitepapers in applications of quantum information science to particle physics. Note that the majority of the references are from the Snowmass Community Planning Exercises.</details><details>
+<summary> <b>Continuous Variable Quantum Computing: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebcontinuous-variable-quantum-computing"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+</details><details>
+<summary> <b>Quantum Algorithms - Grover's Search Algorithm: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-algorithms---grover's-search-algorithm"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+The quantum search algorithm, also known as Grover's algorithm, performs a generic search for a solution to a search problem, using a technique known as amplitude amplification, which increases the amplitude of the desired states. Assuming that the solutions of the search problem can be expressed as binary strings of length $n$, such that $N= 2^n$, where $N$ is the dimension of the search space, then any search problem can be represented as a function $f(x)$ where $$ f(x) = \begin{cases}1 & \text{if $x$ is a solution} \\ 0 & \text{otherwise} \end{cases}$$ Grover's algorithm aims to find an input $x \in \{0,1\}^n$ such that $f(x) = 1$. Suppose the function $f$ is implemented by an oracle, a black box that can recognize solutions to the search problem. Classically, it would take $\mathcal{O}(N)$ queries to the oracle to find the solution, however, using Grover's algorithm would allow this search to be sped up substatially, requiring only $\mathcal{O}(\sqrt{N})$ queries. The quantum oracle can be represented by a unitary operator $U_f$, defined by $U_f : \ket{x} \ket{q} \rightarrow \ket{x} \ket{q \oplus f(x)}$, where $\ket{x}$ is the index register, $\ket{q}$ is the oracle register consisting of a single qubit which is flipped if $f(x) = 1$ and unchanged otherwise, and $\oplus$ is addition modulo 2. Let $\ket{q} = \ket{0}$, then given a query value $x$, prepare the state $\ket{x} \ket{0}$, apply oracle $U_f$, and measure the oracle qubit. If the oracle qubit has flipped to $ \ket{1}$, then $x$ is a solution to the search problem. If the oracle qubit is $\ket{q} = \frac{1}{\sqrt{2}}(\ket{0} - \ket{1})$, then the action of the oracle $U_f$ is $$U_f \; : \; \ket{x} \frac{1}{\sqrt{2}}(\ket{0} - \ket{1}) \longmapsto (-1)^{f(x)}\ket{x} \frac{1}{\sqrt{2}}(\ket{0} - \ket{1}) $$ Note that the state of the oracle qubit $\ket{q} $ has not changed, in other words $\frac{1}{\sqrt{2}}(\ket{0} - \ket{1})$ is an eigenstate, therefore, the oracle can be ignored, and the action of $U_f$ is given by $$U_f \; : \; \ket{x} \longmapsto (-1)^{f(x)} \ket{x}$$ Therefore, the oracle marks the solution to the search problem by a phase shift. Define an $n$-qubit phase shift operator $U_s$ with the following action, $ U_s \; : \; \ket{x} \mapsto (-1)^{\delta_{x_0}} \ket{x}$. $U_s$ applies a phase shift to all $n$-qubit states orthogonal to $\ket{00\ldots0}$. \\\\ The Grover's algorithm is as follows: \begin{enumerate} \item Start with the $n$-qubit state initialized in the state $\ket{00\ldots0}$ \item Apply the $n$-qubit Hadamard gate $H$ to prepare the state $\frac{1}{\sqrt{N}} \ket{\psi} = \sum_{x=0}^{N-1}\ket{x}$, where $N = 2^n$ \item Apply the following subroutine Grover iterate $G = HU_sHU_f$ a total of $\lfloor \frac{\pi}{4} \frac{1}{\sqrt{N}}\rfloor$ times \begin{enumerate} \item Apply the oracle $U_f$ \item Apply the $n$-qubit Hadamard gate $H$ \item Apply the phase shift operator $U_s$ \item Apply the $n$-qubit Hadamard gate \end{enumerate} \item Measure the resulting state \end{enumerate} Grover's search algorithm can be generalized to a process known as amplitude amplification.</details><details>
+<summary> <b>Quantum Annealing: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-annealing"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+Quantum annealing is a quantum computing method used to solve optimization problems. It is currently the only quantum computing paradigm that enables architectures with large number of qubits, such as D-Wave Systems' Pegasus quantum processor chip with 5000 qubits. The classical counterpart, simulated annealing, mimics the process of heating up a material above its recrystallization temperature then cooled down slowly in order to change the material to a desirable structure. Simulated annealing is capable of finding global extrema as it is able to escape local extrema. The simulated annealing algorithm is as follows: (1) Start with an initial solution $s = s_0$ and an initial temperature $t = t_0$, Let $E(s)$ be the loss function of $s$; (2) Define a temperature reduction scheme. Some examples of temperature reduction schemes are: $t = t - \alpha$, $t = t\alpha$, and $t = \frac{t}{1+\alpha t}$; (3) Starting at $t = t_0$, consider some neighborhood of solution $N(s)$, and pick one of the solutions $s'$; (4) Calculate the difference of the loss function $\delta E$ between the solutions $s$ and $s'$. If $\delta E \geq 0$, accept the new solution. If $\delta < 0$, generate a uniform random number $r$ between 0 and 1. Accept the solution if $r < e^{\frac{\delta E}{t}}$. Note that for large $t$, the probability of selecting $s'$ is high; (5) Repeat steps (3) and (4) for $n$ iterations, updating $t$ given by the temperature reduction rule. \\\\ Quantum annealers solve very specific optimization problems called Quadratic Unconstrained Binary Optimization (QUBO) problems. The QUBO problem consists of finding a binary string that is minimal with respect to a quadratic polynomial over binary variables. The main challenge is to rephrase the loss function to a QUBO problem, which is equivalent to finding the ground state of a corresponding Ising model, whose Hamiltonian is given by $$H(\sigma) = \sum_{i,j=1}^{n}J_{ij} s_i s_j + \sum_{i=1}^{n} h_i s_i$$where $s_i \in \{-1, +1\}$ are the spin values, and $h_i$ and $J_{ij}$ are adjustable constants that represents biases and coupling strengths, respectively. The Hamiltonian of the quantum version of the Ising model, the transverse field Ising model, is given by $$ H_f = \sum_{i,j = 1}^{n}J_{ij}\sigma_{i}^{z}\sigma_{j}^{z} + \sum_{i}^{n}h_i\sigma_{i}^{z} $$where $\sigma_{i}^{z}$ is the Pauli-$Z$ acting on qubit $i$. In quantum annealing, one initializes the system in the ground state of the initial Hamiltonian $H_i$, given by $$ H_i = \sum_{i=1}^{n}\sigma_{i}^{x} $$corresponding to the state $(\ket{0} + \ket{1})^{\otimes n}$. The quantum adiabatic theorem states that if the transition between two Hamiltonians is gradual, the system will stay in the ground state. After initializing the system, it slowly evolves by changing the Hamiltonian given by $$ H(t) = \left(1 - \frac{t}{T}\right)H_i + \frac{t}{T} H_f $$where $T$ is the total time in the annealing process. Measuring the final state after the anneal will give the solution to the QUBO problem, since the final system is in an eigenstate of $H_f$.</details><details>
+<summary> <b>Quantum Circuit Born Machines: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-circuit-born-machines"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+</details><details>
+<summary> <b>Quantum Entanglement: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-entanglement"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+</details><details>
+<summary> <b>Quantum Generative Adversarial Networks: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-generative-adversarial-networks"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+</details><details>
+<summary> <b>Quantum Kernel Methods: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-kernel-methods"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+</details><details>
+<summary> <b>Quantum Inspired Algorithms: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-inspired-algorithms"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+</details><details>
+<summary> <b>Quantum k-Means: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-k-means"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+</details><details>
+<summary> <b>Quantum Neural Networks: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-neural-networks"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+</details><details>
+<summary> <b>Quantum Sensors - Levitated Sensors: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-sensors---levitated-sensors"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+</details><details>
+<summary> <b>Quantum Sensors - Mechanical Detectors: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-sensors---mechanical-detectors"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+</details><details>
+<summary> <b>Quantum Sensors - Nitrogen-Vacancy Centers: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-sensors---nitrogen-vacancy-centers"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+</details><details>
+<summary> <b>Quantum Sensors - Ultracold Atoms in Optical Lattices: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-sensors---ultracold-atoms-in-optical-lattices"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+</details><details>
+<summary> <b>Quantum Sensors - Superconducting Transmon Qubits: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-sensors---superconducting-transmon-qubits"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+</details><details>
+<summary> <b>Quantum Sensors - Rydberg Atoms: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-sensors---rydberg-atoms"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+</details><details>
+<summary> <b>Quantum Sensors - Trapped Ions: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-sensors---trapped-ions"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+</details><details>
+<summary> <b>Quantum Simulations: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-simulations"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+</details><details>
+<summary> <b>Quantum Storage: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-storage"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+</details><details>
+<summary> <b>Quantum Tomography: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-tomography"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+</details><details>
+<summary> <b>Quantum Unsupervised Clustering Algorithms: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-unsupervised-clustering-algorithms"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+</details><details>
+<summary> <b>Quantum Walks: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-walks"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+</details><details>
+<summary> <b>Tensor Networks: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebtensor-networks"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+</details><details>
+<summary> <b>Variational Quantum Algorithms: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebvariational-quantum-algorithms"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+Variational Quantum Algorithms (VQAs) are hybrid quantum-classical algorithms that find approximate solutions to optimization problems. VQAs starts with a parameterized quantum circuit (PQC) where the parameters are optimized by a classical optimizer to minimize (or maximize) a cost function. </details>
 

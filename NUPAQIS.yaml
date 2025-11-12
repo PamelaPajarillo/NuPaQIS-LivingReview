@@ -1,697 +1,255 @@
-- ID: '2952954'
-  NUPA_Categories: '''Elementary Particle Systems'''
-  QIS_Categories: '''Quantum Information Theory'''
-
-- ID: '2933317'
-  NUPA_Categories: '''Event Classification'''
-  QIS_Categories: '''Quantum Neural Networks'''
-  
-- ID: '2906652'
-  NUPA_Categories: 'Elementary Particle Systems'
-  QIS_Categories: 'Quantum Information Theory'
-
-- ID: '2894383'
-  NUPA_Categories: 'Event Generation'
-  QIS_Categories: 'Variational Quantum Circuits'
-
-- ID: '2863928'
-  NUPA_Categories: '''Dark Matter''; ''Beyond the Standard Model'''
-  QIS_Categories: '''Quantum Sensors'''
-
-- ID: '2854807'
-  NUPA_Categories: '''Dark Matter''; ''Beyond the Standard Model'''
-  QIS_Categories: '''Quantum Sensors'''
-
-- ID: '2844264'
-  NUPA_Categories: '''Quantum Field Theories'''
-  QIS_Categories: '''Quantum Information Theory'''
-
-- ID: '2838765'
-  NUPA_Categories: '''Dark Matter''; ''Beyond the Standard Model'''
-  QIS_Categories: '''Quantum Sensors'''
-
-- ID: '2827046'
-  NUPA_Categories: '''Dark Matter''; ''Beyond the Standard Model'''
-  QIS_Categories: '''Quantum Sensors'''
-
-- ID: '2820252'
-  NUPA_Categories: '''Event Generation'',''Detector Technology and Detector Simulation'', ''Event Classification'''
-  QIS_Categories: '''Quantum Generative Adversarial Networks'', ''Quantum Kernel Methods'''
-
-- ID: '2814427'
-  NUPA_Categories: '''Gravitational Waves'''
-  QIS_Categories: '''Quantum Sensors'''
-
-- ID: '2811672'
-  NUPA_Categories: '''Dark Matter''; ''Beyond the Standard Model'''
-  QIS_Categories: '''Quantum Sensors'''
-
-- ID: '2806451'
-  NUPA_Categories: '''Dark Matter''; ''Beyond the Standard Model'''
-  QIS_Categories: '''Quantum Sensors'''
-
-- ID: '2790365'
-  NUPA_Categories: '''Dark Matter''; ''Beyond the Standard Model'''
-  QIS_Categories: '''Quantum Sensors'''
-  
-- ID: '2788456'
-  NUPA_Categories: '''Event Classification'''
-  QIS_Categories: '''Quantum Neural Networks'''
-
-- ID: '2782513'
-  NUPA_Categories: '''Dark Matter''; ''Beyond the Standard Model'''
-  QIS_Categories: '''Quantum Sensors'''
-
-- ID: '2787486'
-  NUPA_Categories: '''Event Classification'''
-  QIS_Categories: '''Variational Quantum Circuits'''
-
-- ID: '2785266'
-  NUPA_Categories: '''Lattice Field Theories'''
-  QIS_Categories: '''Quantum Simulations'''
-
-- ID: '2760765'
-  NUPA_Categories: '''Elementary Particle Systems'''
-  QIS_Categories: '''Quantum Information Theory'''
-
-- ID: '2760751'
-  NUPA_Categories: '''Track Reconstruction'''
-  QIS_Categories: '''Variational Quantum Circuits'''
-
-- ID: '2759081'
-  NUPA_Categories: '''Quantum Field Theories'''
-  QIS_Categories: '''Quantum Simulations'''
-
-- ID: '2757981'
-  NUPA_Categories: '''Reviews''; ''Elementary Particle Systems'''
-  QIS_Categories: '''Reviews''; ''Quantum Information Theory'''
-
-- ID: '2753918'
-  NUPA_Categories: '''Quantum Field Theories'''
-  QIS_Categories: '''Quantum Simulations'''
-
-- ID: '2753532'
-  NUPA_Categories: '''Dark Matter''; ''Beyond the Standard Model'''
-  QIS_Categories: '''Quantum Sensors'''
-
-- ID: '2753868'
-  NUPA_Categories: '''Quantum Field Theories'''
-  QIS_Categories: '''Quantum Simulations'''
-
-- ID: '2752456'
-  NUPA_Categories: '''Jet Algorithms and Jet Tagging'',''Quantum Field Theories'''
-  QIS_Categories: '''Quantum Algorithms Based on Amplitude Amplification'''
-
-- ID: '2750111'
-  NUPA_Categories: '''Quantum Field Theories'''
-  QIS_Categories: '''Quantum Simulations'''
-
-- ID: '2747788'
-  NUPA_Categories: '''Elementary Particle Systems'''
-  QIS_Categories: '''Quantum Information Theory'''
-
-- ID: '2744332'
-  NUPA_Categories: '''Quantum Field Theories'''
-  QIS_Categories: '''Quantum Simulations'''
-
-- ID: '2742864'
-  NUPA_Categories: '''Quantum Field Theories'''
-  QIS_Categories: '''Quantum Information Theory'''
-
-- ID: '2732714'
-  NUPA_Categories: '''Dark Matter''; ''Beyond the Standard Model'''
-  QIS_Categories: '''Quantum Sensors'''
-
-- ID: '2727458'
-  NUPA_Categories: '''Event Classification'''
-  QIS_Categories: '''Variational Quantum Circuits'''
-
-- ID: '2727388'
-  NUPA_Categories: '''Quantum Field Theories'''
-  QIS_Categories: '''Variational Quantum Circuits'''
-
-- ID: '2723906'
-  NUPA_Categories: '''Dark Matter''; ''Beyond the Standard Model'''
-  QIS_Categories: '''Quantum Sensors'''
-
-- ID: '2724227'
-  NUPA_Categories: '''Dark Matter''; ''Beyond the Standard Model'''
-  QIS_Categories: '''Quantum Sensors'''
-
-- ID: '2721893'
-  NUPA_Categories: '''Beyond the Standard Model'''
-  QIS_Categories: '''Quantum Sensors'''
-
-- ID: '2718883'
-  NUPA_Categories: '''Beyond the Standard Model'''
-  QIS_Categories: '''Quantum Sensors'''
-
-- ID: '2711221'
-  NUPA_Categories: '''Track Reconstruction'''
-  QIS_Categories: '''Variational Quantum Circuits'''
-
-- ID: '2705401'
-  NUPA_Categories: '''Event Generation'''
-  QIS_Categories: '''Quantum Information Theory'''
-
-- ID: '2684188'
-  NUPA_Categories: '''Track Reconstruction'''
-  QIS_Categories: '''Quantum Algorithms'''
-
-- ID: '2675992'
-  NUPA_Categories: '''Detector Technology and Detector Simulation'''
-  QIS_Categories: '''Variational Quantum Circuits'''
-
-- ID: '2675145'
-  NUPA_Categories: >-
-    'Whitepapers'; 'Lattice Field Theories','Jet Algorithms and Jet Tagging',
-    'Track Reconstruction', 'Event Classification', 'Cosmology and
-    Early Universe Physics', 'Event Generation', 'Detector Technology and Detector Simulation'
-  QIS_Categories: >-
-    'Whitepapers'; 'Quantum Annealing', 'Variational Quantum Circuits', 'Quantum
-    Kernel Methods', Quantum Convolutional Neural Networks, 'Quantum Generative
-    Adversarial Networks', 'Quantum Circuit Born Machines', 'Quantum Inspired
-    Algorithms', 'Tensor Networks'
-
-- ID: '2675039'
-  NUPA_Categories: '''Quantum Field Theories'''
-  QIS_Categories: '''Quantum Simulations'''
-
-- ID: '2673374'
-  NUPA_Categories: '''Event Classification'''
-  QIS_Categories: '''Quantum Neural Networks'''
-
-- ID: '2661224'
-  NUPA_Categories: '''Beyond the Standard Model'', ''Detector Technology and Detector Simulation'''
-  QIS_Categories: '''Quantum Sensors'''
-
-- ID: '2645184'
-  NUPA_Categories: '''Track Reconstruction'''
-  QIS_Categories: '''Variational Quantum Circuits'''
-
-- ID: '2636778'
-  NUPA_Categories: '''Event Generation'''
-  QIS_Categories: '''Quantum Generative Adversarial Networks'''
-
-- ID: '2636344'
-  NUPA_Categories: '''Dark Matter''; ''Beyond the Standard Model'''
-  QIS_Categories: '''Quantum Sensors'''
-
-- ID: '2628985'
-  NUPA_Categories: '''Elementary Particle Systems'''
-  QIS_Categories: '''Quantum Information Theory'''
-
-- ID: '2628722'
-  NUPA_Categories: '''Whitepapers''; ''Quantum Field Theories'', ''Lattice Field Theories'''
-  QIS_Categories: '''Whitepapers''; ''Quantum Simulations'''
-
-- ID: '2626710'
-  NUPA_Categories: '''Anomaly Detection'''
-  QIS_Categories: '''Quantum Kernel Methods'', ''Quantum Unsupervised Clustering Algorithms'''
-
-- ID: '2626691'
-  NUPA_Categories: '''Anomaly Detection'', ''Beyond the Standard Model'''
-  QIS_Categories: '''Quantum Kernel Methods'''
-
-- ID: '2614201'
-  NUPA_Categories: '''Track Reconstruction'''
-  QIS_Categories: '''Quantum Kernel Methods'''
-
-- ID: '2640041'
-  NUPA_Categories: '''Quantum Field Theories'''
-  QIS_Categories: '''Quantum Simulations'''
-
-- ID: '2612891'
-  NUPA_Categories: '''Dark Matter''; ''Beyond the Standard Model'''
-  QIS_Categories: '''Quantum Sensors'''
-
-- ID: '2177375'
-  NUPA_Categories: '''Event Classification'', ''Beyond the Standard Model'''
-  QIS_Categories: '''Variational Quantum Circuits'''
-
-- ID: '2169094'
-  NUPA_Categories: '''Quantum Field Theories'''
-  QIS_Categories: '''Quantum Information Theory'''
-
-- ID: '2166751'
-  NUPA_Categories: '''Dark Matter''; ''Beyond the Standard Model'''
-  QIS_Categories: '''Quantum Sensors'''
- 
-- ID: '2156652'
-  NUPA_Categories: '''Event Classification'''
-  QIS_Categories: '''Quantum Kernel Methods'''
-
-- ID: '2155336'
-  NUPA_Categories: '''Detector Technology and Detector Simulation'''
-  QIS_Categories: '''Quantum Annealing'''
-
-- ID: '2151492'
-  NUPA_Categories: '''Whitepapers'''
-  QIS_Categories: '''Whitepapers'''
-    
-- ID: '2149550'
-  NUPA_Categories: '''Elementary Particle Systems'''
-  QIS_Categories: '''Quantum Information Theory'''
-
-- ID: '2141744'
-  NUPA_Categories: '''Elementary Particle Systems'''
-  QIS_Categories: '''Quantum Information Theory'''
-
-- ID: '2135969'
-  NUPA_Categories: '''Dark Matter''; ''Beyond the Standard Model'''
-  QIS_Categories: '''Quantum Sensors'''
-
-- ID: '2135465'
-  NUPA_Categories: '''Dark Matter''; ''Beyond the Standard Model'''
-  QIS_Categories: '''Quantum Sensors'''
-
-- ID: '2121169'
-  NUPA_Categories: '''Event Generation'''
-  QIS_Categories: '''Quantum Walks'''
-
-- ID: '2109955'
-  NUPA_Categories: '''Track Reconstruction'''
-  QIS_Categories: '''Quantum Sensors'''
-
-- ID: '2106012'
-  NUPA_Categories: '''Quantum Field Theories'''
-  QIS_Categories: '''Quantum Simulations'', ''Quantum Annealing'''
-
-- ID: '2097616'
-  NUPA_Categories: '''Anomaly Detection'''
-  QIS_Categories: '''Variational Quantum Circuits'''
-
-- ID: '2091037'
-  NUPA_Categories: >-
-    'Reviews'; 'Event Generation', 'Track Reconstruction', 'Event
-    Classification'
-  QIS_Categories: '''Reviews''; ''Quantum Annealing'', ''Variational Quantum Circuits'''
-
-- ID: '2089215'
-  NUPA_Categories: '''Detector Technology and Detector Simulation'''
-  QIS_Categories: '''Quantum Generative Adversarial Networks'''
-    
-- ID: '2086422'
-  NUPA_Categories: '''Jet Algorithms and Jet Tagging'''
-  QIS_Categories: '''Quantum Annealing'''
-    
-- ID: '2077565'
-  NUPA_Categories: '''Jet Algorithms and Jet Tagging'''
-  QIS_Categories: '''Quantum Annealing'''
-
-- ID: '2075444'
-  NUPA_Categories: '''Elementary Particle Systems'''
-  QIS_Categories: '''Quantum Information Theory'''
-
-- ID: '2073078'
-  NUPA_Categories: '''Beyond the Standard Model'''
-  QIS_Categories: '''Quantum Simulations'''
-
-- ID: '2069448'
-  NUPA_Categories: '''Whitepapers''; ''Quantum Field Theories'''
-  QIS_Categories: '''Whitepapers''; ''Quantum Simulations'''
-
-- ID: '2066509'
-  NUPA_Categories: '''Jet Algorithms and Jet Tagging'''
-  QIS_Categories: '''Quantum Unsupervised Clustering Algorithms'''
-    
-- ID: '2064292'
-  NUPA_Categories: >-
-    'Whitepapers'; 'Quantum Field Theories', 'Lattice Field Theories', 'Event
-    Generation', 'Cosmology and Early Universe Physics'
-  QIS_Categories: '''Whitepapers''; ''Quantum Simulations'''
-    
-- ID: '2060734'
-  NUPA_Categories: '''Whitepapers''; ''Beyond the Standard Model'''
-  QIS_Categories: '''Whitepapers''; ''Quantum Sensors'''
-    
-- ID: '2059892'
-  NUPA_Categories: '''Whitepapers''; ''Beyond the Standard Model'''
-  QIS_Categories: '''Whitepapers''; ''Quantum Sensors'''
-  
-- ID: '2054075'
-  NUPA_Categories: >-
-    'Whitepapers'; 'Jet Algorithms and Jet Tagging', 'Track Reconstruction',
-    'Event Classification', 'Cosmology and Early Universe Physics', 'Event Generation',
-    'Detector Technology and Detector Simulation'
-  QIS_Categories: >-
-    'Whitepapers'; 'Quantum Annealing', 'Variational Quantum Circuits', 'Quantum
-    Kernel Methods', Quantum Convolutional Neural Networks, 'Quantum Generative
-    Adversarial Networks', 'Quantum Circuit Born Machines', 'Quantum Inspired
-    Algorithms'
-
-- ID: '2051219'
-  NUPA_Categories: '''Whitepapers''; ''Quantum Field Theories'''
-  QIS_Categories: '''Whitepapers''; ''Quantum Simulations'''
-  
-- ID: '2051498'
-  NUPA_Categories: '''Whitepapers'''
-  QIS_Categories: '''Whitepapers'''
-  
-- ID: '2051476'
-  NUPA_Categories: '''Whitepapers''; ''Dark Matter'', ''Beyond the Standard Model'''
-  QIS_Categories: '''Whitepapers''; ''Quantum Sensors'''
-  
-- ID: '2050046'
-  NUPA_Categories: '''Elementary Particle Systems'''
-  QIS_Categories: '''Quantum Information Theory'''
-  
-- ID: '2050026'
-  NUPA_Categories: '''Elementary Particle Systems'''
-  QIS_Categories: '''Quantum Information Theory'''
-
-- ID: '2048957'
-  NUPA_Categories: '''Whitepapers'''
-  QIS_Categories: '''Whitepapers'''
-  
-- ID: '2047246'
-  NUPA_Categories: '''Event Generation'''
-  QIS_Categories: '''Quantum Circuit Born Machines''; ''Variational Quantum Circuits'''
-  
-- ID: '2039391'
-  NUPA_Categories: '''Jet Algorithms and Jet Tagging'''
-  QIS_Categories: '''Variational Quantum Circuits'''
-  
-- ID: '2037675'
-  NUPA_Categories: '''Beyond the Standard Model''; ''Event Classification'''
-  QIS_Categories: '''Quantum Annealing'''
-
-- ID: '2036371'
-  NUPA_Categories: '''Jet Algorithms and Jet Tagging'''
-  QIS_Categories: '''Tensor Networks'''
-  
-- ID: '2032051'
-  NUPA_Categories: '''Track Reconstruction'''
-  QIS_Categories: '''Variational Quantum Circuits'''
-  
-- ID: '2001819'
-  NUPA_Categories: '''Event Generation'''
-  QIS_Categories: '''Quantum Generative Adversarial Networks'''
-
-- ID: '1998855'
-  NUPA_Categories: '''Dark Matter'' ;''Beyond the Standard Model'''
-  QIS_Categories: '''Quantum Sensors'''
-
-- ID: '1986866'
-  NUPA_Categories: '''Anomaly Detection'''
-  QIS_Categories: '''Quantum Autoencoders'', ''Variational Quantum Circuits'''
-  
-- ID: '1976537'
-  NUPA_Categories: '''Beyond the Standard Model'''
-  QIS_Categories: '''Quantum Algorithms Based on Amplitude Amplification'''
-  
-- ID: '1969341'
-  NUPA_Categories: '''Lattice Field Theories'''
-  QIS_Categories: '''Quantum Simulations'''
-  
-- ID: '1968730'
-  NUPA_Categories: '''Jet Algorithms and Jet Tagging'''
-  QIS_Categories: '''Quantum Annealing'''
-
-- ID: '1961466'
-  NUPA_Categories: '''Dark Matter'' ;''Beyond the Standard Model'''
-  QIS_Categories: '''Quantum Sensors'''
-
-- ID: '1947031'
-  NUPA_Categories: '''Elementary Particle Systems'''
-  QIS_Categories: '''Quantum Information Theory'''
-  
-- ID: '1944902'
-  NUPA_Categories: '''Event Generation'''
-  QIS_Categories: '''Quantum Generative Adversarial Networks'''
-  
-- ID: '1933807'
-  NUPA_Categories: '''Event Generation'''
-  QIS_Categories: '''Quantum Walks'''
-  
-- ID: '1929650'
-  NUPA_Categories: '''Track Reconstruction'''
-  QIS_Categories: '''Quantum Neural Networks'''
-  
-- ID: '1903618'
-  NUPA_Categories: '''Dark Matter'' ;''Beyond the Standard Model'''
-  QIS_Categories: '''Quantum Sensors'''
-
-- ID: '1875568'
-  NUPA_Categories: '''Lattice Field Theories'''
-  QIS_Categories: '''Quantum Simulations'''
-    
-- ID: '1868807'
-  NUPA_Categories: '''Jet Algorithms and Jet Tagging'''
-  QIS_Categories: '''Tensor Networks'', ''Quantum Inspired Algorithms'''
-
-- ID: '1867955'
-  NUPA_Categories: '''Event Generation'''
-  QIS_Categories: '''Variational Quantum Circuits'''
-
-- ID: '1866420'
-  NUPA_Categories: '''Beyond the Standard Model'''
-  QIS_Categories: '''Quantum Annealing'''
-  
-- ID: '1863769'
-  NUPA_Categories: '''Quantum Field Theories'''
-  QIS_Categories: '''Quantum Algorithms Based on Amplitude Amplification'''
-  
-- ID: '1860508'
-  NUPA_Categories: '''Track Reconstruction'''
-  QIS_Categories: '''Quantum Algorithms Based on Amplitude Amplification'''
-  
-- ID: '1859911'
-  NUPA_Categories: '''Quantum Field Theories'''
-  QIS_Categories: '''Quantum Information Theory'''
-  
-- ID: '1858884'
-  NUPA_Categories: '''Event Classification'''
-  QIS_Categories: '''Quantum Kernel Methods'', ''Variational Quantum Circuits'''
-
-- ID: '1858033'
-  NUPA_Categories: '''Dark Matter'' ;''Beyond the Standard Model'''
-  QIS_Categories: '''Quantum Sensors'''
-
-- ID: '1857931'
-  NUPA_Categories: '''Event Classification'''
-  QIS_Categories: '''Quantum Kernel Methods'''
-  
-- ID: '1854278'
-  NUPA_Categories: '''Detector Technology and Detector Simulation'''
-  QIS_Categories: '''Quantum Generative Adversarial Networks'''
-
-- ID: '1853006'
-  NUPA_Categories: '''Event Classification'''
-  QIS_Categories: '''Quantum Kernel Methods'''
-
-- ID: '1851893'
-  NUPA_Categories: '''Lattice Field Theories'''
-  QIS_Categories: '''Quantum Annealing'''
-  
-- ID: '1850530'
-  NUPA_Categories: '''Anomaly Detection'''
-  QIS_Categories: >-
-    'Continuous Variable Quantum Computing', 'Quantum Unsupervised Clustering
-    Algorithms'
-  
-- ID: '1848220'
-  NUPA_Categories: '''Elementary Particle Systems'''
-  QIS_Categories: '''Quantum Information Theory'''
-
-- ID: '1847158'
-  NUPA_Categories: '''Lattice Field Theories'''
-  QIS_Categories: '''Quantum Simulations'''
-  
-- ID: '1845763'
-  NUPA_Categories: '''Quantum Field Theories'''
-  QIS_Categories: '''Quantum Simulations'''
-  
-- ID: '1843063'
-  NUPA_Categories: '''Detector Technology and Detector Simulation'''
-  QIS_Categories: >-
-    'Continuous Variable Quantum Computing', 'Quantum Generative Adversarial
-    Networks'
-  
-- ID: '1841358'
-  NUPA_Categories: '''Neutrinos'''
-  QIS_Categories: '''Variational Quantum Circuits''; ''Quantum Neural Networks'''
-  
-- ID: '1841039'
-  NUPA_Categories: '''Jet Algorithms and Jet Tagging'''
-  QIS_Categories: '''Quantum Unsupervised Clustering Algorithms'''
-  
-- ID: '1838791'
-  NUPA_Categories: '''Jet Algorithms and Jet Tagging'''
-  QIS_Categories: '''Quantum Annealing'''
-  
-- ID: '1837821'
-  NUPA_Categories: '''Neutrinos'''
-  QIS_Categories: '''Variational Quantum Circuits''; ''Quantum Neural Networks'''
-      
-- ID: '1837723'
-  NUPA_Categories: '''Event Classification'''
-  QIS_Categories: '''Variational Quantum Circuits'''
-  
-- ID: '1832645'
-  NUPA_Categories: '''Track Reconstruction'''
-  QIS_Categories: '''Quantum Annealing'', ''Quantum Storage'''
-  
-- ID: '1829738'
-  NUPA_Categories: '''Lattice Field Theories'''
-  QIS_Categories: '''Quantum Simulations'''
-  
-- ID: '1822903'
-  NUPA_Categories: '''Event Classification'''
-  QIS_Categories: '''Variational Quantum Circuits'''
-
-- ID: '1832272'
-  NUPA_Categories: '''Track Reconstruction'''
-  QIS_Categories: '''Quantum Annealing'''
-    
-- ID: '1820606'
-  NUPA_Categories: '''Event Generation'''
-  QIS_Categories: '''Quantum Simulations'''
-  
-- ID: '1821295'
-  NUPA_Categories: '''Beyond the Standard Model'''
-  QIS_Categories: '''Quantum Algorithms Based on Amplitude Amplification'''
-
-- ID: '1813617'
-  NUPA_Categories: '''Dark Matter'' ;''Beyond the Standard Model'''
-  QIS_Categories: '''Quantum Sensors'''
-
-- ID: '1811777'
-  NUPA_Categories: '''Dark Matter'' ;''Beyond the Standard Model'''
-  QIS_Categories: '''Quantum Sensors'''
-
-- ID: '1808528'
-  NUPA_Categories: '''Beyond the Standard Model'';''Dark Matter'', ''Gravitational Waves'''
-  QIS_Categories: '''Quantum Sensors'''
-
-- ID: '1804749'
-  NUPA_Categories: '''Lattice Field Theories'''
-  QIS_Categories: '''Quantum Simulations'''
-  
-- ID: '1797219'
-  NUPA_Categories: '''Lattice Field Theories'''
-  QIS_Categories: '''Quantum Simulations'''
- 
-- ID: '1796743'
-  NUPA_Categories: '''Reviews''; ''Event Classification'', ''Cosmology and Early Universe Physics'''
-  QIS_Categories: '''Reviews''; ''Quantum Annealing'', ''Variational Quantum Circuits'''
-  
-- ID: '1793432'
-  NUPA_Categories: '''Jet Algorithms and Jet Tagging'''
-  QIS_Categories: '''Quantum Inspired Algorithms'''
-  
-- ID: '1783878'
-  NUPA_Categories: '''Anomaly Detection'''
-  QIS_Categories: '''Quantum Annealing'''
-  
-- ID: '1784053'
-  NUPA_Categories: '''Elementary Particle Systems'''
-  QIS_Categories: '''Quantum Information Theory'''
-  
-- ID: '1781933'
-  NUPA_Categories: '''Event Classification''; ''Beyond the Standard Model'''
-  QIS_Categories: '''Variational Quantum Circuits'''
-  
-- ID: '1779477'
-  NUPA_Categories: '''Quantum Field Theories'''
-  QIS_Categories: '''Quantum Simulations'''
-  
-- ID: '1771497'
-  NUPA_Categories: '''Cosmology and Early Universe Physics'''
-  QIS_Categories: '''Quantum Annealing'''
-  
-- ID: '1767666'
-  NUPA_Categories: '''Dark Matter''; ''Beyond the Standard Model'''
-  QIS_Categories: '''Quantum Sensors'''
-
-- ID: '1762586'
-  NUPA_Categories: '''Lattice Field Theories'''
-  QIS_Categories: '''Quantum Simulations'''
-  
-- ID: '1765130'
-  NUPA_Categories: '''Lattice Field Theories'''
-  QIS_Categories: '''Quantum Annealing'''
-  
-- ID: '1751122'
-  NUPA_Categories: '''Jet Algorithms and Jet Tagging'''
-  QIS_Categories: '''Quantum Annealing'', ''Quantum Algorithms Based on Amplitude Amplification'''
-  
-- ID: '1750012'
-  NUPA_Categories: '''Quantum Field Theories'''
-  QIS_Categories: '''Quantum Simulations'''
-  
-- ID: '1749714'
-  NUPA_Categories: '''Event Classification'''
-  QIS_Categories: '''Quantum Annealing'''
-  
-- ID: '1749369'
-  NUPA_Categories: '''Track Reconstruction'''
-  QIS_Categories: '''Quantum Annealing'''
-  
-- ID: '1731055'
-  NUPA_Categories: '''Neutrinos'''
-  QIS_Categories: '''Quantum Simulations'''
-  
-- ID: '1728687'
-  NUPA_Categories: '''Event Generation'''
-  QIS_Categories: '''Quantum Simulations'''
-  
-- ID: '1726100'
-  NUPA_Categories: '''Track Reconstruction'''
-  QIS_Categories: '''Quantum Annealing'''
-  
-- ID: '1726096'
-  NUPA_Categories: '''Quantum Field Theories'''
-  QIS_Categories: '''Quantum Simulations'''
-    
-- ID: '1721425'
-  NUPA_Categories: '''Track Reconstruction'''
-  QIS_Categories: '''Quantum Annealing'''
-  
-- ID: '1718110'
-  NUPA_Categories: '''Track Reconstruction'''
-  QIS_Categories: '''Quantum Storage'''
-  
-- ID: '1705931'
-  NUPA_Categories: '''Quantum Field Theories'''
-  QIS_Categories: '''Quantum Simulations'''
-  
-- ID: '1692066'
-  NUPA_Categories: '''Quantum Field Theories'''
-  QIS_Categories: '''Quantum Simulations'''
-  
-- ID: '1631446'
-  NUPA_Categories: '''Event Classification'''
-  QIS_Categories: '''Quantum Annealing'''
-
-- ID: '1604342'
-  NUPA_Categories: '''Dark Matter''; ''Beyond the Standard Model'''
-  QIS_Categories: '''Quantum Sensors'''
-
-- ID: '1601520'
-  NUPA_Categories: '''Dark Matter''; ''Beyond the Standard Model'''
-  QIS_Categories: '''Quantum Sensors'''
-
-- ID: '1475016'
-  NUPA_Categories: '''Dark Matter''; ''Beyond the Standard Model'''
-  QIS_Categories: '''Quantum Sensors'''
-
-- ID: '1459064'
-  NUPA_Categories: '''Quantum Field Theories'''
-  QIS_Categories: '''Quantum Simulations'''
-
-- ID: '1319179'
-  NUPA_Categories: '''Quantum Field Theories'''
-  QIS_Categories: '''Quantum Simulations'''
-
-- ID: '1292843'
-  NUPA_Categories: '''Quantum Field Theories'''
-  QIS_Categories: '''Quantum Simulations'''
-  
-- ID: '1082274'
-  NUPA_Categories: '''Quantum Field Theories'''
-  QIS_Categories: '''Quantum Simulations'''
-
-- ID: '694221'
-  NUPA_Categories: '''Lattice Field Theories'''
-  QIS_Categories: '''Quantum Simulations'''
+- ID: 694221
+  NUPA_Categories: Lattice Gauge Theories
+  QIS_Categories: Quantum Simulations
+- ID: 1082274
+  NUPA_Categories: Lattice Field Theories
+  QIS_Categories: Quantum Simulations
+- ID: 1232212
+  NUPA_Categories: Lattice Gauge Theories
+  QIS_Categories: Quantum Simulations
+- ID: 1292843
+  NUPA_Categories: Lattice Field Theories
+  QIS_Categories: Quantum Simulations
+- ID: 1319179
+  NUPA_Categories: Lattice Gauge Theories
+  QIS_Categories: Quantum Simulations
+- ID: 1459064
+  NUPA_Categories: Lattice Gauge Theories
+  QIS_Categories: Quantum Simulations
+- ID: 1475016
+  NUPA_Categories: Dark Matter - Axions and Axion-like Particles
+  QIS_Categories: Quantum Sensors - Superconducting Transmon Qubits
+- ID: 1604342
+  NUPA_Categories: Dark Matter - Axions and Axion-like Particles
+  QIS_Categories: Quantum Sensors - Nitrogen-Vacancy Centers
+- ID: 1631446
+  NUPA_Categories: Event Classification, Higgs Physics
+  QIS_Categories: Quantum Annealing
+- ID: 1692066
+  NUPA_Categories: Lattice Field Theories
+  QIS_Categories: Quantum Simulations
+- ID: 1705931
+  NUPA_Categories: Lattice Field Theories
+  QIS_Categories: Quantum Simulations
+- ID: 1718110
+  NUPA_Categories: Track Reconstruction
+  QIS_Categories: Quantum Storage
+- ID: 1721425
+  NUPA_Categories: Track Reconstruction
+  QIS_Categories: Quantum Annealing
+- ID: 1726096
+  NUPA_Categories: Lattice Field Theories
+  QIS_Categories: Quantum Simulations
+- ID: 1726100
+  NUPA_Categories: Track Reconstruction
+  QIS_Categories: Quantum Annealing
+- ID: 1728687
+  NUPA_Categories: Event Generation
+  QIS_Categories: Quantum Simulations
+- ID: 1749369
+  NUPA_Categories: Track Reconstruction
+  QIS_Categories: Quantum Annealing
+- ID: 1749714
+  NUPA_Categories: Event Classification, Higgs Physics
+  QIS_Categories: Quantum Annealing
+- ID: 1750012
+  NUPA_Categories: Lattice Field Theories
+  QIS_Categories: Quantum Simulations
+- ID: 1750596
+  NUPA_Categories: Statistical Analysis
+  QIS_Categories: Quantum Annealing
+- ID: 1751122
+  NUPA_Categories: Jet Reconstruction
+  QIS_Categories: Quantum Algorithms - Grover's Search Algorithm, Quantum Annealing
+- ID: 1765130
+  NUPA_Categories: Lattice Field Theories
+  QIS_Categories: Quantum Annealing
+- ID: 1762586
+  NUPA_Categories: Lattice Gauge Theories
+  QIS_Categories: Quantum Simulations, Tensor Networks, Variational Quantum Algorithms, Quantum Sensors - Superconducting Transmon Qubits, Quantum Sensors - Trapped Ions, Quantum Sensors - Rydberg Atoms, Quantum Sensors - Ultracold Atoms in Optical Lattices
+- ID: 1767666
+  NUPA_Categories: Dark Matter - Axions and Axion-like Particles
+  QIS_Categories: Quantum Sensors - Nitrogen-Vacancy Centers
+- ID: 1771497
+  NUPA_Categories: Gravitation and Astrophysics
+  QIS_Categories: Quantum Annealing
+- ID: 1779477
+  NUPA_Categories: Quantum Chromodynamics
+  QIS_Categories: Quantum Simulations
+- ID: 1781933
+  NUPA_Categories: Event Classification, Beyond the Standard Model - Supersymmetry (SUSY)
+  QIS_Categories: Variational Quantum Algorithms
+- ID: 1783878
+  NUPA_Categories: Statistical Analysis, Anomaly Detection
+  QIS_Categories: Quantum Annealing
+- ID: 1784053
+  NUPA_Categories: Spin-1/2 Bipartite Systems
+  QIS_Categories: Quantum Entanglement, Quantum Tomography
+- ID: 1793432
+  NUPA_Categories: Jet Reconstruction
+  QIS_Categories: Tensor Networks
+- ID: 1796743
+  NUPA_Categories: Reviews, Event Classification, Higgs Physics, Gravitation and Astrophysics
+  QIS_Categories: Reviews, Quantum Annealing, Variational Quantum Algorithms
+- ID: 1797219
+  NUPA_Categories: Lattice Gauge Theories
+  QIS_Categories: Quantum Simulations
+- ID: 1804749
+  NUPA_Categories: Lattice Quantum Chromodynamics
+  QIS_Categories: Quantum Simulations
+- ID: 1808528
+  NUPA_Categories: Dark Matter - Large Composite States, Gravitation and Astrophysics
+  QIS_Categories: Quantum Sensors - Levitated Sensors
+- ID: 1811777
+  NUPA_Categories: Whitepapers, Dark Matter - Axions and Axion-like Particles, Dark Matter - Weakly Interacting Massive Particles, Gravitation and Astrophysics
+  QIS_Categories: Whitepapers, Quantum Sensors - Mechanical Detectors
+- ID: 1813617
+  NUPA_Categories: Dark Matter - Hidden/Dark Photons, Gravitation and Astrophysics
+  QIS_Categories: Quantum Sensors - Superconducting Transmon Qubits
+- ID: 1820606
+  NUPA_Categories: Event Generation
+  QIS_Categories: Quantum Simulations
+- ID: 1821295
+  NUPA_Categories: Beyond the Standard Model - Dark Sector Searches
+  QIS_Categories: Quantum Algorithms - Grover's Search Algorithm
+- ID: 1832272
+  NUPA_Categories: Track Reconstruction
+  QIS_Categories: Quantum Annealing
+- ID: 1822903
+  NUPA_Categories: Event Classification, Beyond the Standard Model - Heavy Vector Boson Searches
+  QIS_Categories: Variational Quantum Algorithms
+- ID: 1829738
+  NUPA_Categories: Lattice Gauge Theories
+  QIS_Categories: Quantum Simulations
+- ID: 1832645
+  NUPA_Categories: Track Reconstruction
+  QIS_Categories: Quantum Storage, Quantum Annealing 
+- ID: 1837723
+  NUPA_Categories: Event Classification, Higgs Physics
+  QIS_Categories: Variational Quantum Algorithms
+- ID: 1837821
+  NUPA_Categories: Neutrinos, Track Reconstruction
+  QIS_Categories: Variational Quantum Algorithms, Quantum Neural Networks
+- ID: 1838791
+  NUPA_Categories: Jet Reconstruction
+  QIS_Categories: Quantum Annealing
+- ID: 1841039
+  NUPA_Categories: Jet Reconstruction
+  QIS_Categories: Quantum k-Means, Quantum Storage
+- ID: 1841358
+  NUPA_Categories: Neutrinos, Track Reconstruction
+  QIS_Categories: Variational Quantum Algorithms
+- ID: 1843063
+  NUPA_Categories: Detector Technology and Detector Simulation
+  QIS_Categories: Continuous Variable Quantum Computing, Quantum Generative Adversarial Networks
+- ID: 1845763
+  NUPA_Categories: Effective Field Theories
+  QIS_Categories: Quantum Simulations
+- ID: 1847158
+  NUPA_Categories: Lattice Gauge Theories
+  QIS_Categories: Variational Quantum Algorithms
+- ID: 1848220
+  NUPA_Categories: Spin-1/2 Bipartite Systems
+  QIS_Categories: Quantum Entanglement
+- ID: 1850530
+  NUPA_Categories: Anomaly Detection, Event Classification
+  QIS_Categories: Quantum k-Means, Continuous Variable Quantum Computing
+- ID: 1851893
+  NUPA_Categories: Lattice Gauge Theories
+  QIS_Categories: Quantum Annealing
+- ID: 1853006
+  NUPA_Categories: Event Classification
+  QIS_Categories: Quantum Kernel Methods
+- ID: 1854278
+  NUPA_Categories: Detector Technology and Detector Simulation
+  QIS_Categories: Quantum Generative Adversarial Networks, Variational Quantum Algorithms
+- ID: 1857931
+  NUPA_Categories: Event Classification, Higgs Physics
+  QIS_Categories: Quantum Kernel Methods
+- ID: 1858033
+  NUPA_Categories: Dark Matter - Millicharged Particles 
+  QIS_Categories: Quantum Sensors - Trapped Ions
+- ID: 1858884
+  NUPA_Categories: Event Classification, Higgs Physics
+  QIS_Categories: Quantum Kernel Methods, Variational Quantum Algorithms
+- ID: 1859911
+  NUPA_Categories: Quantum Chromodynamics
+  QIS_Categories: Quantum Entanglement
+- ID: 1860508
+  NUPA_Categories: Track Reconstruction
+  QIS_Categories: Quantum Algorithms - Grover's Search Algorithm
+- ID: 1863769
+  NUPA_Categories: Event Generation
+  QIS_Categories: Quantum Algorithms - Grover's Search Algorithm
+- ID: 1866420
+  NUPA_Categories: Event Classification, Beyond the Standard Model - Supersymmetry (SUSY)
+  QIS_Categories: Quantum Annealing
+- ID: 1867955
+  NUPA_Categories: Event Generation, Quantum Chromodynamics
+  QIS_Categories: Variational Quantum Algorithms
+- ID: 1868807
+  NUPA_Categories: Jet Reconstruction
+  QIS_Categories: Tensor Networks
+- ID: 1875568
+  NUPA_Categories: Lattice Gauge Theories
+  QIS_Categories: Quantum Simulations
+- ID: 1903618
+  NUPA_Categories: Dark Matter - Millicharged Particles
+  QIS_Categories: Quantum Sensors - Trapped Ions
+- ID: 1929650
+  NUPA_Categories: Track Reconstruction
+  QIS_Categories: Quantum Neural Networks, Variational Quantum Algorithms
+- ID: 1933807
+  NUPA_Categories: Event Generation
+  QIS_Categories: Quantum Walks
+- ID: 1944902
+  NUPA_Categories: Event Generation
+  QIS_Categories: Quantum Generative Adversarial Networks
+- ID: 1947031
+  NUPA_Categories: Spin-1/2 Bipartite Systems
+  QIS_Categories: Quantum Entanglement
+- ID: 1961466
+  NUPA_Categories: Dark Matter - Low Mass Dark Matter
+  QIS_Categories: Quantum Sensors - Levitated Sensors
+- ID: 1968730
+  NUPA_Categories: Jet Reconstruction
+  QIS_Categories: Quantum Annealing
+- ID: 1969341
+  NUPA_Categories: Lattice Gauge Theories
+  QIS_Categories: Quantum Simulations
+- ID: 1976537
+  NUPA_Categories: Event Classification, Higgs Physics
+  QIS_Categories: Quantum Algorithms - Grover's Search Algorithm
+- ID: 1986866
+  NUPA_Categories: Anomaly Detection
+  QIS_Categories: Variational Quantum Algorithms
+- ID: 1998855
+  NUPA_Categories: Dark Matter - Exotic Dark Matter
+  QIS_Categories: Quantum Sensors - Nitrogen-Vacancy Centers
+- ID: 2001819
+  NUPA_Categories: Event Generation
+  QIS_Categories: Quantum Generative Adversarial Networks
+- ID: 2032051
+  NUPA_Categories: Track Reconstruction
+  QIS_Categories: Variational Quantum Algorithms
+- ID: 2036371
+  NUPA_Categories: Jet Reconstruction
+  QIS_Categories: Tensor Networks
+- ID: 2037675
+  NUPA_Categories: Event Classification
+  QIS_Categories: Quantum Annealing
+- ID: 2039391
+  NUPA_Categories: Jet Reconstruction
+  QIS_Categories: Variational Quantum Algorithms
+- ID: 2047246
+  NUPA_Categories: Event Generation
+  QIS_Categories: Variational Quantum Algorithms
+- ID: 2048957
+  NUPA_Categories: Whitepapers, Lattice Gauge Theories
+  QIS_Categories: Whitepapers, Tensor Networks
+- ID: 2050026
+  NUPA_Categories: Spin-1/2 Bipartite Systems, Effective Field Theories
+  QIS_Categories: Quantum Entanglement
+- ID: 2050046
+  NUPA_Categories: Spin-1/2 Bipartite Systems
+  QIS_Categories: Quantum Entanglement

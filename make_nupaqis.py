@@ -5,7 +5,7 @@ YAML_FILE = 'NUPAQIS.yaml'
 CATEGORIES_YAML = 'NUPAQIS_CATEGORIES.yaml'
 
 # Get categories from CSV file
-df_csv_nupa, categories_nupa, df_csv_qis, categories_qis = get_categories(CATEGORIES_YAML)
+categories_nupa, descrip_nupa, categories_qis, descrip_qis = get_categories(CATEGORIES_YAML)
 
 # Get dataframe of BibTeX and CSV
 df = get_dataframe(YAML_FILE, categories_nupa, categories_qis)
@@ -25,17 +25,15 @@ OUTPUT_FILE_MAIN.write("[![DOWNLOAD_PDF](https://img.shields.io/badge/Download-P
 
 OUTPUT_FILE_MAIN.write("Authors: Pamela Pajarillo, So Chigusa, Sokratis Trifinopoulos, Jesse Thaler \n \n")
 OUTPUT_FILE_MAIN.write("*Inspired by <a href=\"https://iml-wg.github.io/HEPML-LivingReview/\">\"A Living Review of Machine Learning for High Energy Physics\"</a>, the goal of this repository is to provide an extensive list of citations for those developing and applying quantum information approaches to experimental, phenomenological, or theoretical analyses.  Applications of quantum information science to high energy physics is a relatively new field of research.  This repository will be updated as often as possible with the relevant literature.  Suggestions are most welcome.*\n\n")
-OUTPUT_FILE_MAIN.write("The goal of this repository is to collect references for quantum information science as applied to particle and nuclear physics. The papers are listed in reverse chronological order. \n\n")
-
-
+OUTPUT_FILE_MAIN.write("The goal of this repository is to collect references for quantum information science as applied to particle and nuclear physics. The papers are listed in chronological order. Reviews and Whitepapers are listed at the beginning of each section and can be found <a href=\"/BY_NUPA/README.md#textbfreviews-and-whitepapers\"> here </a>. \n\n")
 OUTPUT_FILE_MAIN.write("The repository is organized in two ways: \n* [![MAIN_TO_NUPA](https://img.shields.io/badge/Link_to-Living_Review_by_Nuclear_and_Particle_Physics-5BC0EB)](/BY_NUPA#a-living-review-of-quantum-information-science-in-nuclear-and-particle-physics-organized-by-nupa-topics) NuPa topics are the main categories and QIS topics are the subcategories \n* [![MAIN_TO_NUPA](https://img.shields.io/badge/Link_to-Living_Review_by_Quantum_Information_Science-9BC53D)](/BY_QIS#a-living-review-of-quantum-information-science-in-nuclear-and-particle-physics-organized-by-qis-topics) QIS topics are the main categories and NuPa topics are the subcategories\n\n")
 OUTPUT_FILE_MAIN.write("The NuPa and QIS topics are listed below. \n\n")
 
 # ***** LIST CATEGORIES -----------------------------------------------------------------------
 OUTPUT_FILE_MAIN.write("##  $\\textbf{\color{#5BC0EB}{Nuclear and Particle Physics (NuPa) Topics}}$\n\n")
-list_subcategories_to_md(OUTPUT_FILE_MAIN, categories_nupa, df_csv_nupa, "NUPA")
+list_subcategories_to_md(OUTPUT_FILE_MAIN, categories_nupa, descrip_nupa, "NUPA")
 OUTPUT_FILE_MAIN.write("##  $\\textbf{\color{#9BC53D}{Quantum Information Science (QIS) Topics}}$\n\n")
-list_subcategories_to_md(OUTPUT_FILE_MAIN, categories_qis, df_csv_qis, "QIS")
+list_subcategories_to_md(OUTPUT_FILE_MAIN, categories_qis, descrip_qis, "QIS")
 
 OUTPUT_FILE_MAIN.close()
 

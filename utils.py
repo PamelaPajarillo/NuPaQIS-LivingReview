@@ -61,15 +61,15 @@ def get_dataframe(yaml_file, categories_hep, categories_qis):
 
     # Check to make sure each paper's categories are valid
     def check_categories(categories, category_list):
-        for category in categories.split('\'')[1::2]:
+        for category in categories.split(', ')[1::2]:
             if category not in category_list:
                 return False
         return True
     
     # Check to make sure each paper has at least one valid NUPA category and at least one valid QIS category
     exit_condition = False
-    df["NUPA_Check"] = df["NUPA_Categories"].str.contains('|'.join(categories_hep), case=False)
-    df["QIS_Check"] = df["QIS_Categories"].str.contains('|'.join(categories_qis), case=False)
+    df["NUPA_Check"] = df["NUPA_Categories"].str.match('|'.join(categories_hep), case=False)
+    df["QIS_Check"] = df["QIS_Categories"].str.match('|'.join(categories_qis), case=False)
     df["NUPA_Category_Check"] = df["NUPA_Categories"].apply(lambda x: check_categories(x, categories_hep))
     df["QIS_Category_Check"] = df["QIS_Categories"].apply(lambda x: check_categories(x, categories_qis))
     check_hep = df[~df["NUPA_Check"] | ~df["NUPA_Category_Check"]]
@@ -90,9 +90,9 @@ def get_dataframe(yaml_file, categories_hep, categories_qis):
     # Parse out primary category and secondary categories
     def sort_categories(categories, primary = False):
         if primary:
-            return categories.split('; ')[0]
+            return categories.split(', ', 1)[0]
         else:
-            return categories.split('; ')[1] if len(categories.split('; ')) > 1 else 'N/A'
+            return categories.split(', ', 1)[1] if len(categories.split(', ')) > 1 else 'N/A'
     
     df["NUPA_Primary"] = df["NUPA_Categories"].apply(lambda x: sort_categories(x, primary = True))
     df["NUPA_Secondary"] = df["NUPA_Categories"].apply(lambda x: sort_categories(x, primary = False))
@@ -167,6 +167,7 @@ def get_dataframe(yaml_file, categories_hep, categories_qis):
             
     # Read InspireHEP entry
     http = urllib3.PoolManager()
+    df['ID'] = df['ID'].astype(str)
     df["metadata"] = df.apply(lambda x: get_inspirehep_metadata(x["ID"], http), axis=1)
     df["inspirehep_url"] = "https://inspirehep.net/literature/" + df["ID"]
     df["title"] = df["metadata"].apply(lambda x: x['metadata']['titles'][0]['title'])
@@ -194,6 +195,7 @@ def get_categories(yaml_file):
     # Read YAML file
     df_categories = {}
     list_categories = {}
+    categories_description = {}
     with open(yaml_file, 'r') as file:
         data = yaml.load_all(file, Loader=yaml.FullLoader)
 
@@ -201,22 +203,24 @@ def get_categories(yaml_file):
         for idx, d in enumerate(data):
             df_categories[idx] = pd.DataFrame.from_dict(d)
             list_categories[idx] = df_categories[idx]['Category'].tolist()
+            categories_description[idx] = df_categories[idx]['Description'].tolist()
     
-    return df_categories[0], list_categories[0], df_categories[1], list_categories[1]
+    return list_categories[0], categories_description[0], list_categories[1], categories_description[1]
 
-def list_subcategories_to_md(OUTPUT_FILE_MAIN, subcategories, df_csv, run_type):
+def list_subcategories_to_md(OUTPUT_FILE_MAIN, subcategories, description, run_type):
     for category in subcategories:
+        OUTPUT_FILE_MAIN.write("<details>\n")
+        textcolor = ''
         if (category != 'Reviews') and (category != 'Whitepapers'):
-            # OUTPUT_FILE_MAIN.write("$\href{%s}{https://github.com/PamelaPajarillo/NuPaQIS-LivingReview/blob/main/BY_%s/README.md#%s}$" % (category, run_type, category.replace(" ", "-").lower()))
-            if run_type == "NUPA":
-                OUTPUT_FILE_MAIN.write("* [%s](/BY_%s/README.md#textbfcolor9bc53d%s) \n" % (category, run_type, category.replace(" ", "-").lower()))
-            else: 
-                OUTPUT_FILE_MAIN.write("* [%s](/BY_%s/README.md#textbfcolor5bc0eb%s) \n" % (category, run_type, category.replace(" ", "-").lower()))
+            textcolor = 'textbfcolor9bc53d' if run_type == 'NUPA' else 'textbfcolor5bc0eb'
+        OUTPUT_FILE_MAIN.write("<summary> <b>%s: </b> <a href=\"/BY_%s/README.md#%s%s\"> Link to Papers </a>  <code>Expand for Description</code> </summary>\n\n" % (category, run_type, textcolor, category.replace(" ", "-").lower()))
+        OUTPUT_FILE_MAIN.write("\n\n%s" % (description[subcategories.index(category)]))
+        OUTPUT_FILE_MAIN.write("</details>")
     OUTPUT_FILE_MAIN.write("\n\n")
     
 def write_papers_to_md(df, output_file, categories_main, categories_sub, main_type, sub_type):
 
-    # Get Categories
+    # Get Main Categories
     for main_category in categories_main:
 
         # Print Title of Main Category
@@ -229,12 +233,12 @@ def write_papers_to_md(df, output_file, categories_main, categories_sub, main_ty
             output_file.write("##  $\\textbf{Reviews and Whitepapers}$ \n\n")
 
         # Retrieve papers by checking for substring in categories
-        df_main = df.loc[df['%s_Primary' % main_type].str.contains(main_category, case=False)]
+        df_main = df.loc[df['%s_Primary' % main_type].str.match(main_category, case=False)]
         
         for sub_category in categories_sub:
             
             # Retrieve papers by checking for substring in categories
-            df_sub = df_main.loc[df['%s_Primary' % sub_type].str.contains(sub_category, case=False)]
+            df_sub = df_main.loc[df['%s_Primary' % sub_type].str.match(sub_category, case=False)]
             papers = df_sub.values.tolist()
 
             if len(papers) > 0:
@@ -266,6 +270,30 @@ def write_papers_to_md(df, output_file, categories_main, categories_sub, main_ty
                     output_file.write("\n\n+ <strong>Authors:</strong> %s%s" % (paper[3], paper[9]))
                     output_file.write("</details>\n\n")
                 
+        # Crosslists Papers (Add papers from secondary categories)
+        df_crosslisted = df.loc[df['%s_Secondary' % main_type].str.match(main_category, case=False)]
+        crosslisted_papers = df_crosslisted.values.tolist()
+        if len(crosslisted_papers) > 0:
+            if sub_type != "NUPA":
+                output_file.write("###  $\\textbf{{\color{#5BC0EB}Crosslists}}$ \n\n")
+            else:
+                output_file.write("###  $\\textbf{{\color{#9BC53D}Crosslists}}$ \n\n")
+            for paper in crosslisted_papers:
+                output_file.write("<details>\n")
+
+                if (str(paper[4]) != 'nan') and (str(paper[5]) != 'nan'):
+                    output_file.write("<summary> <b>%s</b> [<a href=\"%s\">arXiv</a>] [<a href=\"%s\">DOI</a>] [<a href=\"%s\">INSPIRE</a>] <code>Expand</code> </summary>" % (paper[1], paper[6], paper[7], paper[8]))
+                elif str(paper[4]) != 'nan':
+                    output_file.write("<summary> <b>%s</b> [<a href=\"%s\">arXiv</a>] [<a href=\"%s\">INSPIRE</a>] <code>Expand</code><br> </summary>" % (paper[1], paper[6], paper[8]))
+                elif str(paper[5])!= 'nan':
+                    output_file.write("<summary> <b>%s</b> [<a href=\"%s\">DOI</a>] [<a href=\"%s\">INSPIRE</a>] <code>Expand</code><br> </summary>" % (paper[1], paper[7], paper[8]))
+                else:
+                    output_file.write("<summary> <b>%s</b> [<a href=\"%s\">INSPIRE</a>] <code>Expand</code><br> </summary>" % (paper[1],paper[8]))
+
+                # Write brief description and summary of paper
+                output_file.write("\n\n+ <strong>Authors:</strong> %s%s" % (paper[3], paper[9]))
+                output_file.write("</details>\n\n")
+
                 output_file.write("\n\n")
 
 def write_papers_to_tex(df, file, categories_main, categories_sub, main_type, sub_type):
@@ -283,12 +311,12 @@ def write_papers_to_tex(df, file, categories_main, categories_sub, main_type, su
             file.write("\subsection{Reviews and Whitepapers}\n\n")
 
         # Retrieve papers by checking for substring in categories
-        df_main = df.loc[df['%s_Primary' % main_type].str.contains(main_category, case=False)]
+        df_main = df.loc[df['%s_Primary' % main_type].str.match(main_category, case=False)]
         
         for sub_category in categories_sub:
             
             # Retrieve papers by checking for substring in categories
-            df_sub = df_main.loc[df['%s_Primary' % sub_type].str.contains(sub_category, case=False)]
+            df_sub = df_main.loc[df['%s_Primary' % sub_type].str.match(sub_category, case=False)]
             papers = df_sub.values.tolist()
 
             if len(papers) > 0:
@@ -316,6 +344,33 @@ def write_papers_to_tex(df, file, categories_main, categories_sub, main_type, su
                     file.write("\t\item \\textbf{Authors:} %s\n\t%s\n" % (paper[2], paper[10]))                    
                     file.write("\end{itemize}\n\n")
                 file.write("\n\n")
+        
+        # Crosslists Papers (Add papers from secondary categories)
+        df_crosslisted = df.loc[df['%s_Secondary' % main_type].str.match(main_category, case=False)]
+        crosslisted_papers = df_crosslisted.values.tolist()
+        if len(crosslisted_papers) > 0:
+            file.write("\subsubsection{Crosslists}\n\n")
+            # Formatting and write to file
+            for paper in crosslisted_papers:
+
+                # Fix Author Names with Special Characters
+                paper[2] = re.sub(r"ã", r"\~{a}", paper[2])
+                paper[2] = re.sub(r"á", r"\'{a}", paper[2])
+                paper[2] = re.sub(r"é", r"\`{e}", paper[2])
+                paper[2] = re.sub(r"é", r"\'{e}", paper[2])
+                paper[2] = re.sub(r"í", r"\'{i}", paper[2])
+                paper[2] = re.sub(r"ö", r"\"{o}", paper[2])
+                paper[2] = re.sub(r"ó", r"\'{o}", paper[2])
+                paper[2] = re.sub(r"ñ", r"\~{n}", paper[2])
+                paper[2] = re.sub(r"ü", r"\"{u}", paper[2])
+                paper[2] = re.sub(r"ú", r"\'{u}", paper[2])
+                paper[2] = re.sub(r"ź", r"\'{z}", paper[2])
+
+                file.write("\paragraph{%s~\cite{%s}}\n" % (paper[1], paper[15]))
+                file.write("\\begin{itemize}\n")
+                file.write("\t\item \\textbf{Authors:} %s\n\t%s\n" % (paper[2], paper[10]))                    
+                file.write("\end{itemize}\n\n")
+            file.write("\n\n")
 
 def write_bib(df, OUTPUT_FILE_BIB):
     for paper in df.values.tolist():
