@@ -25,15 +25,24 @@ OUTPUT_FILE_MAIN.write("[![DOWNLOAD_PDF](https://img.shields.io/badge/Download-P
 
 OUTPUT_FILE_MAIN.write("Authors: Pamela Pajarillo, So Chigusa, Sokratis Trifinopoulos, Jesse Thaler \n \n")
 OUTPUT_FILE_MAIN.write("*Inspired by <a href=\"https://iml-wg.github.io/HEPML-LivingReview/\">\"A Living Review of Machine Learning for High Energy Physics\"</a>, the goal of this repository is to provide an extensive list of citations for those developing and applying quantum information approaches to experimental, phenomenological, or theoretical analyses.  Applications of quantum information science to high energy physics is a relatively new field of research.  This repository will be updated as often as possible with the relevant literature.  Suggestions are most welcome.*\n\n")
-OUTPUT_FILE_MAIN.write("The goal of this repository is to collect references for quantum information science as applied to particle and nuclear physics. The papers are listed in chronological order. Reviews and Whitepapers are listed at the beginning of each section and can be found <a href=\"/BY_NUPA/README.md#textbfreviews-and-whitepapers\"> here </a>. \n\n")
+OUTPUT_FILE_MAIN.write("The goal of this repository is to collect references for quantum information science as applied to particle and nuclear physics. The papers are listed in chronological order. Reviews, whitepapers, and inproceedings are listed at the beginning of each section and can be found <a href=\"/BY_NUPA/README.md#textbfreviews-and-whitepapers\"> here </a>. \n\n")
 OUTPUT_FILE_MAIN.write("The repository is organized in two ways: \n* [![MAIN_TO_NUPA](https://img.shields.io/badge/Link_to-Living_Review_by_Nuclear_and_Particle_Physics-5BC0EB)](/BY_NUPA#a-living-review-of-quantum-information-science-in-nuclear-and-particle-physics-organized-by-nupa-topics) NuPa topics are the main categories and QIS topics are the subcategories \n* [![MAIN_TO_NUPA](https://img.shields.io/badge/Link_to-Living_Review_by_Quantum_Information_Science-9BC53D)](/BY_QIS#a-living-review-of-quantum-information-science-in-nuclear-and-particle-physics-organized-by-qis-topics) QIS topics are the main categories and NuPa topics are the subcategories\n\n")
-OUTPUT_FILE_MAIN.write("The NuPa and QIS topics are listed below. \n\n")
+OUTPUT_FILE_MAIN.write("The NuPa and QIS topics and a plot of the papers by NuPaQIS are listed below. \n\n")
 
 # ***** LIST CATEGORIES -----------------------------------------------------------------------
 OUTPUT_FILE_MAIN.write("##  $\\textbf{\color{#5BC0EB}{Nuclear and Particle Physics (NuPa) Topics}}$\n\n")
 list_subcategories_to_md(OUTPUT_FILE_MAIN, categories_nupa, descrip_nupa, "NUPA")
 OUTPUT_FILE_MAIN.write("##  $\\textbf{\color{#9BC53D}{Quantum Information Science (QIS) Topics}}$\n\n")
 list_subcategories_to_md(OUTPUT_FILE_MAIN, categories_qis, descrip_qis, "QIS")
+
+# ***** PLOT -----------------------------------------------------------------------
+plot_2D_nupaqis_heatmap(df, categories_nupa, categories_qis)
+plot_histogram(df, "NUPA")
+plot_histogram(df, "QIS")
+OUTPUT_FILE_MAIN.write("## Number of Papers in NuPaQIS\n\n")
+OUTPUT_FILE_MAIN.write("![NUPA_Histogram](NUPA_Histogram.png)\n\n")
+OUTPUT_FILE_MAIN.write("![NUPA_Histogram](QIS_Histogram.png)\n\n")
+OUTPUT_FILE_MAIN.write("![NUPAQIS_Heatmap](NUPAQIS_2D_Heatmap.png)\n\n")
 
 OUTPUT_FILE_MAIN.close()
 

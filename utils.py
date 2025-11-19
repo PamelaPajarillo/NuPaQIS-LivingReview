@@ -5,6 +5,10 @@ from datetime import date
 import urllib3
 import json
 import yaml
+import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib.colors as colors
+import seaborn as sns
 
 def format_pub_info(run, date_arxiv, date_doi, eprint, eprint_url, doi, doi_url):
     date_vec_arxiv = date_arxiv.split("-")
@@ -50,6 +54,38 @@ def format_pub_info(run, date_arxiv, date_doi, eprint, eprint_url, doi, doi_url)
     else:
         return ''
 
+def get_year(date_arxiv, date_doi):
+    date_vec_arxiv = date_arxiv.split("-")
+    date_vec_doi = date_doi.split("-")
+
+    str_arxiv = ''
+    str_doi = ''
+
+    if date_arxiv != 'nan':
+       # Append Date
+        if len(date_vec_arxiv) == 3:
+            str_arxiv += date(int(date_vec_arxiv[0]), int(date_vec_arxiv[1]), int(date_vec_arxiv[2])).strftime("%Y")
+        elif len(date_vec_arxiv) == 2:
+            str_arxiv += date(int(date_vec_arxiv[0]), int(date_vec_arxiv[1]), 1).strftime("%Y")
+        else:
+            str_arxiv += date(int(date_vec_arxiv[0]), 1, 1).strftime("%Y")
+
+    if date_doi != 'nan':
+        # Append Date
+        if len(date_vec_doi) == 3:
+            str_doi += date(int(date_vec_doi[0]), int(date_vec_doi[1]), int(date_vec_doi[2])).strftime("%Y")
+        elif len(date_vec_doi) == 2:
+            str_doi += date(int(date_vec_doi[0]), int(date_vec_doi[1]), 1).strftime("%Y")
+        else:
+            str_doi += date(int(date_vec_doi[0]), 1, 1).strftime("%Y")
+            
+    if str_arxiv != '':
+        return str_arxiv
+    elif str_doi != '':
+        return str_doi
+    else:
+        return ''
+    
 def get_dataframe(yaml_file, categories_hep, categories_qis):
     
     # Load the YAML file
@@ -68,8 +104,8 @@ def get_dataframe(yaml_file, categories_hep, categories_qis):
     
     # Check to make sure each paper has at least one valid NUPA category and at least one valid QIS category
     exit_condition = False
-    df["NUPA_Check"] = df["NUPA_Categories"].str.match('|'.join(categories_hep), case=False)
-    df["QIS_Check"] = df["QIS_Categories"].str.match('|'.join(categories_qis), case=False)
+    df["NUPA_Check"] = df["NUPA_Categories"].str.contains('|'.join(categories_hep), case=False)
+    df["QIS_Check"] = df["QIS_Categories"].str.contains('|'.join(categories_qis), case=False)
     df["NUPA_Category_Check"] = df["NUPA_Categories"].apply(lambda x: check_categories(x, categories_hep))
     df["QIS_Category_Check"] = df["QIS_Categories"].apply(lambda x: check_categories(x, categories_qis))
     check_hep = df[~df["NUPA_Check"] | ~df["NUPA_Category_Check"]]
@@ -185,10 +221,10 @@ def get_dataframe(yaml_file, categories_hep, categories_qis):
     df["Publish_Info_latex"] = df.apply(lambda x: format_pub_info('tex', str(x['arxiv_date']), str(x['doi_date']), str(x['eprint']), str(x['eprint_url']), str(x['journal_name']), str(x['doi_url'])), axis=1)
     df["bibtex_tag"] = df["metadata"].apply(lambda x: x['metadata']['texkeys'][0])
     df["bibtex"] = df["metadata"].apply(lambda x: get_bibtex(x, http))
-    
+    df["year"] = df.apply(lambda x: get_year(str(x['arxiv_date']), str(x['doi_date'])), axis=1)
     # Compress dataframe with useful information
     df = df[["ID", "title", "authors", "authors_url", "eprint", "doi", "eprint_url", "doi_url", "inspirehep_url", "Publish_Info_md", "Publish_Info_latex",
-             "NUPA_Primary", "NUPA_Secondary", "QIS_Primary", "QIS_Secondary", "bibtex_tag", "bibtex"]]
+             "NUPA_Primary", "NUPA_Secondary", "QIS_Primary", "QIS_Secondary", "bibtex_tag", "bibtex", "year"]]
     return df
 
 def get_categories(yaml_file):
@@ -207,17 +243,134 @@ def get_categories(yaml_file):
     
     return list_categories[0], categories_description[0], list_categories[1], categories_description[1]
 
+def plot_histogram(df, run):
+    counts = df['%s_Primary' % run].value_counts()
+    title = "Nuclear and Particle Physics" if run == 'NUPA' else "Quantum Information Science"
+    sns.set_theme(style="whitegrid")
+    plt.figure(figsize=(18, 8))
+    bar_color = "skyblue" if run == 'NUPA' else "lightgreen"
+    # Plot
+    bars = plt.bar(counts.index, counts.values, color=bar_color)
+    plt.xlabel("%s Categories" % title, fontsize=12)
+    plt.ylabel("Number of Papers", fontsize=12)
+    plt.title("Number of Papers per %s Category" % title, fontsize=16, pad=20)
+    plt.xticks(rotation=75, ha='right', fontsize=10)
+
+    # Add value labels above each bar
+    for bar in bars:
+        height = bar.get_height()
+        plt.text(bar.get_x() + bar.get_width() / 2,
+                 height + 0.3,
+                 str(int(height)),
+                 ha='center', va='bottom', fontsize=9)
+
+    plt.tight_layout()
+    plt.savefig(f"{run}_Histogram.png", dpi=300)
+
+
+# def plot_2D_nupaqis_heatmap(df, categories_nupa, categories_qis):
+#     heatmap_data = np.zeros((len(categories_nupa), len(categories_qis)))
+
+#     for i, nupa_cat in enumerate(categories_nupa):
+#         for j, qis_cat in enumerate(categories_qis):
+#             count = len(df[(df['NUPA_Primary'] == nupa_cat) & (df['QIS_Primary'] == qis_cat)])
+#             heatmap_data[i, j] = count
+
+#     # Plot heatmap
+#     plt.figure(figsize=(15, 15))
+#     plt.imshow(heatmap_data, cmap='GnBu', aspect='auto')
+#     plt.colorbar(label='Number of Papers')
+#     plt.xticks(ticks=np.arange(len(categories_qis)), labels=categories_qis, rotation=90)
+#     plt.yticks(ticks=np.arange(len(categories_nupa)), labels=categories_nupa)
+#     plt.xlabel('Quantum Information Science (QIS) Topics')
+#     plt.ylabel('Nuclear and Particle Physics (NuPa) Topics')
+#     plt.title('2D Heatmap of NuPa vs QIS Topics in NUPAQIS Living Review')
+#     plt.tight_layout()
+#     plt.savefig('NUPAQIS_2D_Heatmap.png', dpi=300)
+#     plt.close()
+
+def plot_2D_nupaqis_heatmap(df, categories_nupa, categories_qis):
+
+    # Build the matrix
+    heatmap_data = np.zeros((len(categories_nupa), len(categories_qis)))
+
+    for i, nupa_cat in enumerate(categories_nupa):
+        for j, qis_cat in enumerate(categories_qis):
+            count = len(df[(df['NUPA_Primary'] == nupa_cat) & 
+                           (df['QIS_Primary'] == qis_cat)])
+            heatmap_data[i, j] = count
+
+    # --- Custom colormap that shows white for zero ---
+    cmap = plt.cm.Blues
+    cmap = cmap.copy()
+    cmap.set_under(color='white')
+
+    max_count = np.max(heatmap_data)
+    norm = colors.Normalize(vmin=0.001, vmax=max_count)
+
+    # Plot heatmap
+    plt.figure(figsize=(16, 14))
+    plt.imshow(heatmap_data, cmap=cmap, norm=norm, aspect='auto')
+
+    # Colorbar
+    cbar = plt.colorbar(label='Number of Papers')
+    cbar.ax.tick_params(labelsize=12)
+
+    # Axis labels
+    plt.xticks(
+        ticks=np.arange(len(categories_qis)),
+        labels=categories_qis,
+        rotation=90,
+        fontsize=10
+    )
+    plt.yticks(
+        ticks=np.arange(len(categories_nupa)),
+        labels=categories_nupa,
+        fontsize=10
+    )
+    plt.xlabel('Quantum Information Science (QIS) Topics', fontsize=12)
+    plt.ylabel('Nuclear and Particle Physics (NuPa) Topics', fontsize=12)
+    plt.title('2D Heatmap of NuPa vs QIS Topics in NUPAQIS Living Review',
+              fontsize=16, pad=20)
+
+    # -------------------------------
+    # ⭐ Add numbers inside each cell
+    # -------------------------------
+    for i in range(len(categories_nupa)):
+        for j in range(len(categories_qis)):
+            val = heatmap_data[i, j]
+
+            # Choose text color based on background intensity
+            if val > max_count * 0.5:
+                text_color = "white"
+            else:
+                text_color = "black"
+
+            plt.text(j, i, int(val),
+                     ha='center', va='center',
+                     fontsize=9, color=text_color)
+    # -------------------------------
+
+    # Optional: grid lines for clarity
+    plt.gca().set_xticks(np.arange(-0.5, len(categories_qis), 1), minor=True)
+    plt.gca().set_yticks(np.arange(-0.5, len(categories_nupa), 1), minor=True)
+    plt.grid(which='minor', color='gray', linestyle='-', linewidth=0.2, alpha=0.4)
+
+    plt.tight_layout()
+    plt.savefig('NUPAQIS_2D_Heatmap.png', dpi=300)
+    plt.close()
+
 def list_subcategories_to_md(OUTPUT_FILE_MAIN, subcategories, description, run_type):
     textcolor = 'textbfcolor9bc53d' if run_type == 'NUPA' else 'textbfcolor5bc0eb'
     for category in subcategories:
-        if (category != 'Reviews') and (category != 'Whitepapers'):
+        if (category != 'Reviews') and (category != 'Whitepapers and Proceedings'):
             OUTPUT_FILE_MAIN.write("<details>\n")
             OUTPUT_FILE_MAIN.write("<summary> <b>%s: </b> <a href=\"/BY_%s/README.md#%s%s\"> Link to Papers </a>  <code>Expand for Description</code> </summary>\n\n" % (category, run_type, textcolor, category.replace(" ", "-").lower()))
             OUTPUT_FILE_MAIN.write("\n\n%s" % (description[subcategories.index(category)]))
             OUTPUT_FILE_MAIN.write("</details>")
         elif (category == 'Reviews'):
             OUTPUT_FILE_MAIN.write("<details>\n")
-            OUTPUT_FILE_MAIN.write("<summary> <b>Reviews and Whitepapers: </b> <a href=\"/BY_%s/README.md#textbfreviews-and-whitepapers\"> Link to Papers </a>  <code>Expand for Description</code> </summary>\n\n" % (run_type))
+            OUTPUT_FILE_MAIN.write("<summary> <b>Reviews and Whitepapers and Proceedings: </b> <a href=\"/BY_%s/README.md#textbfreviews-and-whitepapers\"> Link to Papers </a>  <code>Expand for Description</code> </summary>\n\n" % (run_type))
             OUTPUT_FILE_MAIN.write("\n\nThe references below contain (static) reviews and whitepapers listed in applications of quantum information science to particle physics. Note that the majority of the references are from the Snowmass Community Planning Exercises." )
             OUTPUT_FILE_MAIN.write("</details>")
         else:
@@ -230,26 +383,26 @@ def write_papers_to_md(df, output_file, categories_main, categories_sub, main_ty
     for main_category in categories_main:
 
         # Print Title of Main Category
-        if (main_category != 'Reviews') and (main_category != 'Whitepapers'):
+        if (main_category != 'Reviews') and (main_category != 'Whitepapers and Proceedings'):
             if main_type != "NUPA":
                 output_file.write("##  $\\textbf{{\color{#5BC0EB}%s}}$ \n\n" % (main_category))
             else:
                 output_file.write("##  $\\textbf{{\color{#9BC53D}%s}}$ \n\n" % (main_category))
         elif (main_category == 'Reviews'):
-            output_file.write("##  $\\textbf{Reviews and Whitepapers}$ \n\n")
+            output_file.write("##  $\\textbf{Reviews and Whitepapers and Proceedings}$ \n\n")
 
         # Retrieve papers by checking for substring in categories
-        df_main = df.loc[df['%s_Primary' % main_type].str.match(main_category, case=False)]
+        df_main = df.loc[df['%s_Primary' % main_type].str.contains(main_category, case=False)]
         
         for sub_category in categories_sub:
             
             # Retrieve papers by checking for substring in categories
-            df_sub = df_main.loc[df['%s_Primary' % sub_type].str.match(sub_category, case=False)]
+            df_sub = df_main.loc[df['%s_Primary' % sub_type].str.contains(sub_category, case=False)]
             papers = df_sub.values.tolist()
 
             if len(papers) > 0:
                 # Print Title of Category
-                if (main_category != 'Reviews') and (main_category != 'Whitepapers'):
+                if (main_category != 'Reviews') and (main_category != 'Whitepapers and Proceedings'):
                     if sub_type != "NUPA":
                         output_file.write("###  $\\textbf{{\color{#5BC0EB}%s}}$ \n\n" % (sub_category))
                     else:
@@ -264,20 +417,20 @@ def write_papers_to_md(df, output_file, categories_main, categories_sub, main_ty
                     output_file.write("<details>\n")
 
                     if (str(paper[4]) != 'nan') and (str(paper[5]) != 'nan'):
-                        output_file.write("<summary> <b>%s</b> [<a href=\"%s\">arXiv</a>] [<a href=\"%s\">DOI</a>] [<a href=\"%s\">INSPIRE</a>] <code>Expand</code> </summary>" % (paper[1], paper[6], paper[7], paper[8]))
+                        output_file.write("<summary> (%s) <b>%s</b> [<a href=\"%s\">arXiv</a>] [<a href=\"%s\">DOI</a>] [<a href=\"%s\">INSPIRE</a>] <code>Expand</code> </summary>" % (paper[17], paper[1], paper[6], paper[7], paper[8]))
                     elif str(paper[4]) != 'nan':
-                        output_file.write("<summary> <b>%s</b> [<a href=\"%s\">arXiv</a>] [<a href=\"%s\">INSPIRE</a>] <code>Expand</code><br> </summary>" % (paper[1], paper[6], paper[8]))
+                        output_file.write("<summary> (%s) <b>%s</b> [<a href=\"%s\">arXiv</a>] [<a href=\"%s\">INSPIRE</a>] <code>Expand</code><br> </summary>" % (paper[17], paper[1], paper[6], paper[8]))
                     elif str(paper[5])!= 'nan':
-                        output_file.write("<summary> <b>%s</b> [<a href=\"%s\">DOI</a>] [<a href=\"%s\">INSPIRE</a>] <code>Expand</code><br> </summary>" % (paper[1], paper[7], paper[8]))
+                        output_file.write("<summary> (%s) <b>%s</b> [<a href=\"%s\">DOI</a>] [<a href=\"%s\">INSPIRE</a>] <code>Expand</code><br> </summary>" % (paper[17], paper[1], paper[7], paper[8]))
                     else:
-                        output_file.write("<summary> <b>%s</b> [<a href=\"%s\">INSPIRE</a>] <code>Expand</code><br> </summary>" % (paper[1],paper[8]))
+                        output_file.write("<summary> (%s) <b>%s</b> [<a href=\"%s\">INSPIRE</a>] <code>Expand</code><br> </summary>" % (paper[17], paper[1], paper[8]))
 
                     # Write brief description and summary of paper
                     output_file.write("\n\n+ <strong>Authors:</strong> %s%s" % (paper[3], paper[9]))
                     output_file.write("</details>\n\n")
                 
         # Crosslists Papers (Add papers from secondary categories)
-        df_crosslisted = df.loc[df['%s_Secondary' % main_type].str.match(main_category, case=False)]
+        df_crosslisted = df.loc[df['%s_Secondary' % main_type].str.contains(main_category, case=False)]
         crosslisted_papers = df_crosslisted.values.tolist()
         if len(crosslisted_papers) > 0:
             if sub_type != "NUPA":
@@ -288,13 +441,13 @@ def write_papers_to_md(df, output_file, categories_main, categories_sub, main_ty
                 output_file.write("<details>\n")
 
                 if (str(paper[4]) != 'nan') and (str(paper[5]) != 'nan'):
-                    output_file.write("<summary> <b>%s</b> [<a href=\"%s\">arXiv</a>] [<a href=\"%s\">DOI</a>] [<a href=\"%s\">INSPIRE</a>] <code>Expand</code> </summary>" % (paper[1], paper[6], paper[7], paper[8]))
+                    output_file.write("<summary> (%s) <b>%s</b> [<a href=\"%s\">arXiv</a>] [<a href=\"%s\">DOI</a>] [<a href=\"%s\">INSPIRE</a>] <code>Expand</code> </summary>" % (paper[17], paper[1], paper[6], paper[7], paper[8]))
                 elif str(paper[4]) != 'nan':
-                    output_file.write("<summary> <b>%s</b> [<a href=\"%s\">arXiv</a>] [<a href=\"%s\">INSPIRE</a>] <code>Expand</code><br> </summary>" % (paper[1], paper[6], paper[8]))
+                    output_file.write("<summary> (%s) <b>%s</b> [<a href=\"%s\">arXiv</a>] [<a href=\"%s\">INSPIRE</a>] <code>Expand</code><br> </summary>" % (paper[17], paper[1], paper[6], paper[8]))
                 elif str(paper[5])!= 'nan':
-                    output_file.write("<summary> <b>%s</b> [<a href=\"%s\">DOI</a>] [<a href=\"%s\">INSPIRE</a>] <code>Expand</code><br> </summary>" % (paper[1], paper[7], paper[8]))
+                    output_file.write("<summary> (%s) <b>%s</b> [<a href=\"%s\">DOI</a>] [<a href=\"%s\">INSPIRE</a>] <code>Expand</code><br> </summary>" % (paper[17], paper[1], paper[7], paper[8]))
                 else:
-                    output_file.write("<summary> <b>%s</b> [<a href=\"%s\">INSPIRE</a>] <code>Expand</code><br> </summary>" % (paper[1],paper[8]))
+                    output_file.write("<summary> (%s) <b>%s</b> [<a href=\"%s\">INSPIRE</a>] <code>Expand</code><br> </summary>" % (paper[17], paper[1],paper[8]))
 
                 # Write brief description and summary of paper
                 output_file.write("\n\n+ <strong>Authors:</strong> %s%s" % (paper[3], paper[9]))
@@ -311,18 +464,18 @@ def write_papers_to_tex(df, file, categories_main, categories_sub, main_type, su
     
     for main_category in categories_main:
         # Print Title of Main Category
-        if (main_category != 'Reviews') and (main_category != 'Whitepapers'):
+        if (main_category != 'Reviews') and (main_category != 'Whitepapers and Proceedings'):
             file.write("\subsection{%s}\n\n" % main_category)
         elif (main_category == 'Reviews'):
-            file.write("\subsection{Reviews and Whitepapers}\n\n")
+            file.write("\subsection{Reviews and Whitepapers and Proceedings}\n\n")
 
         # Retrieve papers by checking for substring in categories
-        df_main = df.loc[df['%s_Primary' % main_type].str.match(main_category, case=False)]
+        df_main = df.loc[df['%s_Primary' % main_type].str.contains(main_category, case=False)]
         
         for sub_category in categories_sub:
             
             # Retrieve papers by checking for substring in categories
-            df_sub = df_main.loc[df['%s_Primary' % sub_type].str.match(sub_category, case=False)]
+            df_sub = df_main.loc[df['%s_Primary' % sub_type].str.contains(sub_category, case=False)]
             papers = df_sub.values.tolist()
 
             if len(papers) > 0:
@@ -352,7 +505,7 @@ def write_papers_to_tex(df, file, categories_main, categories_sub, main_type, su
                 file.write("\n\n")
         
         # Crosslists Papers (Add papers from secondary categories)
-        df_crosslisted = df.loc[df['%s_Secondary' % main_type].str.match(main_category, case=False)]
+        df_crosslisted = df.loc[df['%s_Secondary' % main_type].str.contains(main_category, case=False)]
         crosslisted_papers = df_crosslisted.values.tolist()
         if len(crosslisted_papers) > 0:
             file.write("\subsubsection{Crosslists}\n\n")

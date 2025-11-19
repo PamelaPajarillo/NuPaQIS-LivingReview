@@ -1,6 +1,6 @@
 date = $(shell date +%Y-%m-%d)
 
-all: nupaqis main clean
+all: yaml nupaqis main clean
 
 nupaqis: make_nupaqis.py
 	python3 make_nupaqis.py
@@ -13,6 +13,11 @@ clean:
 
 realclean: clean
 	rm -f *.ps *.pdf
+
+yaml: sort_yaml.py NUPAQIS.yaml
+	cp NUPAQIS.yaml NUPAQIS_copy.yaml
+	python3 sort_yaml.py
+	mv NUPAQIS_copy.yaml NUPAQIS.yaml
 
 main:
 	latexmk -bibtex -logfilewarnings -f -interaction=nonstopmode NUPAQIS

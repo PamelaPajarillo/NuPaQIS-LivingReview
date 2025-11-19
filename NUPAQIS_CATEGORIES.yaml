@@ -3,7 +3,7 @@
   Description: >-
     The references below are (static) reviews in applications of quantum
     information science to particle physics.
-- Category: Whitepapers
+- Category: Whitepapers and Proceedings
   Description: >-
     The references below are whitepapers in applications of quantum information
     science to particle physics. Note that the majority of the references are
@@ -11,22 +11,16 @@
 - Category: Anomaly Detection
   Description: >-
 
-- Category: Beyond the Standard Model - Heavy Vector Boson Searches
-  Description: >-
-
-- Category: Beyond the Standard Model - Dark Sector Searches
-  Description: >-
-
-- Category: Beyond the Standard Model - Supersymmetry
+- Category: Beyond the Standard Model
   Description: >-
 
 - Category: Dark Matter - Axions and Axion-like Particles
   Description: >-
 
-- Category: Detector Technology and Detector Simulation
+- Category: Dark Matter - Exotic Dark Matter
   Description: >-
 
-- Category: Dark Matter - Exotic Dark Matter
+- Category: Dark Matter - Dark Halo Dark Matter
   Description: >-
 
 - Category: Dark Matter - Hidden/Dark Photons
@@ -35,13 +29,22 @@
 - Category: Dark Matter - Large Composite States
   Description: >-
 
-- Category: Dark Matter - Low Mass Dark Matter
-  Description: >-
+- Category: Dark Matter - Light Dark Matter
+  Description: >- 
 
 - Category: Dark Matter - Millicharged Particles
   Description: >-
 
 - Category: Dark Matter - Weakly Interacting Massive Particles
+  Description: >-
+
+- Category: Dark Matter - Ultralight Dark Matter
+  Description: >-
+
+- Category: Dark Matter - Sterile Neutrinos
+  Description: >-
+
+- Category: Detector Technologies and Simulations
   Description: >-
 
 - Category: Effective Field Theories
@@ -52,7 +55,10 @@
     Signal and background classification for particle physics events.
 - Category: Event Generation
   Description: >-
-    
+
+- Category: Fundamental Symmetries and Interactions
+  Description: >-
+
 - Category: Gravitation and Astrophysics
   Description: >-
 
@@ -64,11 +70,14 @@
     1) Jet Clustering, 2) Jet Tagging, and 3) Jet Identification 
 - Category: Lattice Field Theories
   Description: >-
-    
-- Category: Lattice Gauge Theories
+
+- Category: Lattice Scalar Theories
   Description: >-
 
-- Category: Lattice Quantum Chromodynamics
+- Category: Lattice Fermion Theories
+  Description: >-
+
+- Category: Lattice Gauge Theories
   Description: >-
 
 - Category: Neutrinos
@@ -77,13 +86,19 @@
 - Category: Quantum Chromodynamics
   Description: >-
 
+- Category: Quantum Gravity
+  Description: >-
+
 - Category: Quantum Field Theories
   Description: >-
 
-- Category: Spin-1/2 Bipartite Systems
+- Category: Particle Decays
   Description: >-
 
 - Category: Statistical Analysis
+  Description: >-
+
+- Category: Schwinger Model
   Description: >-
 
 - Category: Track Reconstruction
@@ -94,7 +109,7 @@
   Description: >-
     The references below are (static) reviews in applications of quantum
     information science to particle physics.
-- Category: Whitepapers
+- Category: Whitepapers and Proceedings
   Description: >-
     The references below are whitepapers in applications of quantum information
     science to particle physics. Note that the majority of the references are
@@ -147,6 +162,9 @@
     $n$-qubit Hadamard gate \end{enumerate} \item Measure the resulting state
     \end{enumerate} Grover's search algorithm can be generalized to a process
     known as amplitude amplification.
+- Category: Quantum Algorithms - Harrow-Hassadim-Lloyd Algorithm
+  Description: >-
+
 - Category: Quantum Annealing
   Description: >-
     Quantum annealing is a quantum computing method used to solve optimization
@@ -175,27 +193,27 @@
     binary variables. The main challenge is to rephrase the loss function to a
     QUBO problem, which is equivalent to finding the ground state of a
     corresponding Ising model, whose Hamiltonian is given by $$H(\sigma) =
-    \sum_{i,j=1}^{n}J_{ij} s_i s_j + \sum_{i=1}^{n} h_i s_i$$where $s_i \in
+    \sum_{i,j=1}^{n}J_{ij} s_i s_j + \sum_{i=1}^{n} h_i s_i$$ where $s_i \in
     \{-1, +1\}$ are the spin values, and $h_i$ and $J_{ij}$ are adjustable
     constants that represents biases and coupling strengths, respectively. The
     Hamiltonian of the quantum version of the Ising model, the transverse field
     Ising model, is given by $$ H_f = \sum_{i,j =
     1}^{n}J_{ij}\sigma_{i}^{z}\sigma_{j}^{z} + \sum_{i}^{n}h_i\sigma_{i}^{z}
-    $$where $\sigma_{i}^{z}$ is the Pauli-$Z$ acting on qubit $i$. In quantum
+    $$ where $\sigma_{i}^{z}$ is the Pauli-$Z$ acting on qubit $i$. In quantum
     annealing, one initializes the system in the ground state of the initial
     Hamiltonian $H_i$, given by $$ H_i = \sum_{i=1}^{n}\sigma_{i}^{x}
-    $$corresponding to the state $(\ket{0} + \ket{1})^{\otimes n}$. The quantum
+    $$ corresponding to the state $(\ket{0} + \ket{1})^{\otimes n}$. The quantum
     adiabatic theorem states that if the transition between two Hamiltonians is
     gradual, the system will stay in the ground state. After initializing the
     system, it slowly evolves by changing the Hamiltonian given by $$ H(t) =
-    \left(1 - \frac{t}{T}\right)H_i + \frac{t}{T} H_f $$where $T$ is the total
+    \left(1 - \frac{t}{T}\right)H_i + \frac{t}{T} H_f $$ where $T$ is the total
     time in the annealing process. Measuring the final state after the anneal
     will give the solution to the QUBO problem, since the final system is in an
     eigenstate of $H_f$.
-- Category: Quantum Circuit Born Machines
+- Category: Quantum Entanglement and Bell Inequalities
   Description: >-
 
-- Category: Quantum Entanglement
+- Category: Quantum Error Correction
   Description: >-
 
 - Category: Quantum Generative Adversarial Networks
@@ -203,32 +221,62 @@
     
 - Category: Quantum Kernel Methods
   Description: >-
-    
-- Category: Quantum Inspired Algorithms
-  Description: >-
 
 - Category: Quantum k-Means
   Description: >-
 
+- Category: Quantum Memory
+  Description: >-
+
 - Category: Quantum Neural Networks
   Description: >-
-    
+
+- Category: Quantum Sensors - Accelerometers
+  Description: >-
+
+- Category: Quantum Sensors - Atomic/Nuclear/Molecular Sensors
+  Description: >-
+
+- Category: Quantum Sensors - Atom Interferometers
+  Description: >- 
+
 - Category: Quantum Sensors - Levitated Sensors
   Description: >-
 
-- Category: Quantum Sensors - Mechanical Detectors
+- Category: Quantum Sensors - Mechanical Sensors and Detectors
   Description: >-
+
+- Category: Quantum Sensors - Microwave Cavities
+  Description: >- 
 
 - Category: Quantum Sensors - Nitrogen-Vacancy Centers
   Description: >-
 
-- Category: Quantum Sensors - Ultracold Atoms in Optical Lattices
+- Category: Quantum Sensors - Optical Cavities
+  Description: >-
+
+- Category: Quantum Sensors - Optomechanical Sensors
+  Description: >-
+
+- Category: Quantum Sensors - Penning Traps
+  Description: >-
+
+- Category: Quantum Sensors - Quantum Dots
   Description: >-
 
 - Category: Quantum Sensors - Superconducting Transmon Qubits
   Description: >-
-        
+
+- Category: Quantum Sensors - Squeezed States
+  Description: >-
+
+- Category: Quantum Sensors - Superconducting Radio-Frequency Cavities
+  Description: >-
+
 - Category: Quantum Sensors - Rydberg Atoms
+  Description: >-
+
+- Category: Quantum Sensors - Torsion Balances
   Description: >-
     
 - Category: Quantum Sensors - Trapped Ions
@@ -237,15 +285,9 @@
 - Category: Quantum Simulations
   Description: >-
 
-- Category: Quantum Storage
-  Description: >-
-
 - Category: Quantum Tomography
   Description: >-
-    
-- Category: Quantum Unsupervised Clustering Algorithms
-  Description: >-
-    
+
 - Category: Quantum Walks
   Description: >-
     
