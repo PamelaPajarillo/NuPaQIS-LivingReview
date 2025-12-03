@@ -95,12 +95,21 @@ def get_dataframe(yaml_file, categories_hep, categories_qis):
     # Convert the YAML data to a Pandas DataFrame
     df = pd.DataFrame.from_dict(data)
 
+    # Check if there are multiple entries with the same ID
+    if df['ID'].duplicated().any():
+        duplicated_ids = df[df['ID'].duplicated()]['ID'].tolist()
+        print("Error: The following IDs are duplicated in the YAML file:")
+        for dup_id in duplicated_ids:
+            print(f"- {dup_id}")
+        sys.exit(1)
+    
     # Check to make sure each paper's categories are valid
     def check_categories(categories, category_list):
         for category in categories.split(', ')[1::2]:
             if category not in category_list:
                 return False
         return True
+    
     
     # Check to make sure each paper has at least one valid NUPA category and at least one valid QIS category
     exit_condition = False
@@ -231,6 +240,7 @@ def get_categories(yaml_file):
     # Read YAML file
     df_categories = {}
     list_categories = {}
+    heatmap_categories = {}
     categories_description = {}
     with open(yaml_file, 'r') as file:
         data = yaml.load_all(file, Loader=yaml.FullLoader)
@@ -239,9 +249,10 @@ def get_categories(yaml_file):
         for idx, d in enumerate(data):
             df_categories[idx] = pd.DataFrame.from_dict(d)
             list_categories[idx] = df_categories[idx]['Category'].tolist()
+            heatmap_categories[idx] = df_categories[idx]['Heatmap'].tolist()
             categories_description[idx] = df_categories[idx]['Description'].tolist()
     
-    return list_categories[0], categories_description[0], list_categories[1], categories_description[1]
+    return list_categories[0], categories_description[0], heatmap_categories[0], list_categories[1], categories_description[1], heatmap_categories[1] 
 
 def plot_histogram(df, run):
     counts = df['%s_Primary' % run].value_counts()
@@ -253,7 +264,7 @@ def plot_histogram(df, run):
     bars = plt.bar(counts.index, counts.values, color=bar_color)
     plt.xlabel("%s Categories" % title, fontsize=12)
     plt.ylabel("Number of Papers", fontsize=12)
-    plt.title("Number of Papers per %s Category" % title, fontsize=16, pad=20)
+    plt.title("Number of Papers in the %s Category" % title, fontsize=16, pad=20)
     plt.xticks(rotation=75, ha='right', fontsize=10)
 
     # Add value labels above each bar
@@ -265,79 +276,58 @@ def plot_histogram(df, run):
                  ha='center', va='bottom', fontsize=9)
 
     plt.tight_layout()
-    plt.savefig(f"{run}_Histogram.png", dpi=300)
+    plt.savefig("%s_Histogram.png" % run, dpi=300)
 
 
-# def plot_2D_nupaqis_heatmap(df, categories_nupa, categories_qis):
-#     heatmap_data = np.zeros((len(categories_nupa), len(categories_qis)))
+def plot_2D_nupaqis_heatmap(df, categories_nupa, categories_qis, heatmap_nupa, heatmap_qis):
 
-#     for i, nupa_cat in enumerate(categories_nupa):
-#         for j, qis_cat in enumerate(categories_qis):
-#             count = len(df[(df['NUPA_Primary'] == nupa_cat) & (df['QIS_Primary'] == qis_cat)])
-#             heatmap_data[i, j] = count
-
-#     # Plot heatmap
-#     plt.figure(figsize=(15, 15))
-#     plt.imshow(heatmap_data, cmap='GnBu', aspect='auto')
-#     plt.colorbar(label='Number of Papers')
-#     plt.xticks(ticks=np.arange(len(categories_qis)), labels=categories_qis, rotation=90)
-#     plt.yticks(ticks=np.arange(len(categories_nupa)), labels=categories_nupa)
-#     plt.xlabel('Quantum Information Science (QIS) Topics')
-#     plt.ylabel('Nuclear and Particle Physics (NuPa) Topics')
-#     plt.title('2D Heatmap of NuPa vs QIS Topics in NUPAQIS Living Review')
-#     plt.tight_layout()
-#     plt.savefig('NUPAQIS_2D_Heatmap.png', dpi=300)
-#     plt.close()
-
-def plot_2D_nupaqis_heatmap(df, categories_nupa, categories_qis):
-
+    nupa_heatmap = ['Reviews and Whitepapers', 'Dark Matter', 'Spin Correlation in Particle Decays', 'Lattice Field Theories', 'Experimental Nuclear and Particle Physics', 'Theoretical Nuclear and Particle Physics']
+    qis_heatmap = ['Reviews and Whitepapers', 'Quantum Sensors', 'Quantum Entanglement and Bell Inequalities', 'Quantum Simulations', 'Quantum Algorithms', 'Hybrid Quantum-Classical Methods, Quantum Machine Learning, and Quantum-Inspired Algorithms']
     # Build the matrix
-    heatmap_data = np.zeros((len(categories_nupa), len(categories_qis)))
+    heatmap_data = np.zeros((len(nupa_heatmap), len(qis_heatmap)))
 
     for i, nupa_cat in enumerate(categories_nupa):
         for j, qis_cat in enumerate(categories_qis):
-            count = len(df[(df['NUPA_Primary'] == nupa_cat) & 
-                           (df['QIS_Primary'] == qis_cat)])
-            heatmap_data[i, j] = count
+            for k, nupa in enumerate(nupa_heatmap):
+                for l, qis in enumerate(qis_heatmap):
+                    if heatmap_nupa[i] == nupa and heatmap_qis[j] == qis:
+                        count = len(df[(df['NUPA_Primary'] == nupa_cat) & 
+                                       (df['QIS_Primary'] == qis_cat)])
+                        heatmap_data[k, l] += count
 
-    # --- Custom colormap that shows white for zero ---
     cmap = plt.cm.Blues
     cmap = cmap.copy()
     cmap.set_under(color='white')
-
     max_count = np.max(heatmap_data)
     norm = colors.Normalize(vmin=0.001, vmax=max_count)
 
-    # Plot heatmap
     plt.figure(figsize=(16, 14))
     plt.imshow(heatmap_data, cmap=cmap, norm=norm, aspect='auto')
 
-    # Colorbar
     cbar = plt.colorbar(label='Number of Papers')
     cbar.ax.tick_params(labelsize=12)
 
+    xlabels = ["Reviews and Whitepapers", "Quantum Sensors", "Quantum Entanglement and \nBell Inequalities", "Quantum Simulations", "Quantum Algorithms", "Hybrid Quantum–Classical Methods,\nQuantum Machine Learning,\nand Quantum-Inspired Algorithms"]
     # Axis labels
     plt.xticks(
-        ticks=np.arange(len(categories_qis)),
-        labels=categories_qis,
-        rotation=90,
-        fontsize=10
+        ticks=np.arange(len(qis_heatmap)),
+        labels=xlabels,
+        rotation=45,
+        fontsize=10,
     )
     plt.yticks(
-        ticks=np.arange(len(categories_nupa)),
-        labels=categories_nupa,
+        ticks=np.arange(len(nupa_heatmap)),
+        labels=nupa_heatmap,
         fontsize=10
     )
     plt.xlabel('Quantum Information Science (QIS) Topics', fontsize=12)
     plt.ylabel('Nuclear and Particle Physics (NuPa) Topics', fontsize=12)
-    plt.title('2D Heatmap of NuPa vs QIS Topics in NUPAQIS Living Review',
+    plt.title('NuPa vs QIS Topics in NUPAQIS Living Review',
               fontsize=16, pad=20)
 
-    # -------------------------------
-    # ⭐ Add numbers inside each cell
-    # -------------------------------
-    for i in range(len(categories_nupa)):
-        for j in range(len(categories_qis)):
+    # Add numbers inside each cell
+    for i in range(len(nupa_heatmap)):
+        for j in range(len(qis_heatmap)):
             val = heatmap_data[i, j]
 
             # Choose text color based on background intensity
@@ -349,11 +339,10 @@ def plot_2D_nupaqis_heatmap(df, categories_nupa, categories_qis):
             plt.text(j, i, int(val),
                      ha='center', va='center',
                      fontsize=9, color=text_color)
-    # -------------------------------
 
-    # Optional: grid lines for clarity
-    plt.gca().set_xticks(np.arange(-0.5, len(categories_qis), 1), minor=True)
-    plt.gca().set_yticks(np.arange(-0.5, len(categories_nupa), 1), minor=True)
+    # Grid lines
+    plt.gca().set_xticks(np.arange(-0.5, len(qis_heatmap), 1), minor=True)
+    plt.gca().set_yticks(np.arange(-0.5, len(nupa_heatmap), 1), minor=True)
     plt.grid(which='minor', color='gray', linestyle='-', linewidth=0.2, alpha=0.4)
 
     plt.tight_layout()
@@ -370,7 +359,7 @@ def list_subcategories_to_md(OUTPUT_FILE_MAIN, subcategories, description, run_t
             OUTPUT_FILE_MAIN.write("</details>")
         elif (category == 'Reviews'):
             OUTPUT_FILE_MAIN.write("<details>\n")
-            OUTPUT_FILE_MAIN.write("<summary> <b>Reviews and Whitepapers and Proceedings: </b> <a href=\"/BY_%s/README.md#textbfreviews-and-whitepapers\"> Link to Papers </a>  <code>Expand for Description</code> </summary>\n\n" % (run_type))
+            OUTPUT_FILE_MAIN.write("<summary> <b>Reviews, Whitepapers, and Proceedings: </b> <a href=\"/BY_%s/README.md#textbfreviews-and-whitepapers\"> Link to Papers </a>  <code>Expand for Description</code> </summary>\n\n" % (run_type))
             OUTPUT_FILE_MAIN.write("\n\nThe references below contain (static) reviews and whitepapers listed in applications of quantum information science to particle physics. Note that the majority of the references are from the Snowmass Community Planning Exercises." )
             OUTPUT_FILE_MAIN.write("</details>")
         else:

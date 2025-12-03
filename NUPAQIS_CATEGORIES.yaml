@@ -1,123 +1,148 @@
 ---
 - Category: Reviews
+  Heatmap: Reviews and Whitepapers
   Description: >-
     The references below are (static) reviews in applications of quantum
     information science to particle physics.
 - Category: Whitepapers and Proceedings
+  Heatmap: Reviews and Whitepapers
   Description: >-
     The references below are whitepapers in applications of quantum information
     science to particle physics. Note that the majority of the references are
     from the Snowmass Community Planning Exercises.
 - Category: Anomaly Detection
+  Heatmap: Experimental Nuclear and Particle Physics
   Description: >-
 
 - Category: Beyond the Standard Model
+  Heatmap: Theoretical Nuclear and Particle Physics
   Description: >-
 
-- Category: Dark Matter - Axions and Axion-like Particles
+- Category: Dark Matter - Particle-like Dark Matter
+  Heatmap: Dark Matter
   Description: >-
-
-- Category: Dark Matter - Exotic Dark Matter
+    A list of article-like dark matter candidates include: 
+      - Weakly Interacting Massive Particles (WIMPs)
+      - Light Dark Matter
+      - Millicharged Particles
+      - Dark Photons (massive)
+      - Sterile Neutrinos
+- Category: Dark Matter - Wave-like Dark Matter
+  Heatmap: Dark Matter
   Description: >-
-
-- Category: Dark Matter - Dark Halo Dark Matter
+    A list of article-like dark matter candidates include: 
+      - Axions and Axion-like Particles (ALPs): An axion is a hypothetical particle theorized to solve the strong CP problem in quantum chromodynamics (QCD) and the cosmological matter-antimatter asymmetry.
+      - Ultralight Dark Matter: 
+      - Fuzzy Dark Matter:
+      - Dark Photons (ultralight):
+    References:
+      - [Axion Dark Matter: What is it and Why Now?](https://arxiv.org/abs/2105.01406)
+      - [PDG Review on Axions and Axion-like Particles](https://pdg.lbl.gov/2024/reviews/rpp2024-rev-axions.pdf)
+- Category: Dark Matter - Macroscopic Dark Matter
+  Heatmap: Dark Matter
   Description: >-
-
-- Category: Dark Matter - Hidden/Dark Photons
-  Description: >-
-
-- Category: Dark Matter - Large Composite States
-  Description: >-
-
-- Category: Dark Matter - Light Dark Matter
-  Description: >- 
-
-- Category: Dark Matter - Millicharged Particles
-  Description: >-
-
-- Category: Dark Matter - Weakly Interacting Massive Particles
-  Description: >-
-
-- Category: Dark Matter - Ultralight Dark Matter
-  Description: >-
-
-- Category: Dark Matter - Sterile Neutrinos
-  Description: >-
-
+    A list of article-like dark matter candidates include: 
+      - Primordial Black Holes: 
+      - Compact Composite Objects: 
+      - Q-balls:
 - Category: Detector Technologies and Simulations
+  Heatmap: Experimental Nuclear and Particle Physics
   Description: >-
 
 - Category: Effective Field Theories
+  Heatmap: Theoretical Nuclear and Particle Physics
   Description: >-
 
 - Category: Event Classification
+  Heatmap: Experimental Nuclear and Particle Physics
   Description: >-
     Signal and background classification for particle physics events.
 - Category: Event Generation
+  Heatmap: Theoretical Nuclear and Particle Physics
   Description: >-
 
 - Category: Fundamental Symmetries and Interactions
+  Heatmap: Theoretical Nuclear and Particle Physics
   Description: >-
 
 - Category: Gravitation and Astrophysics
+  Heatmap: Experimental Nuclear and Particle Physics
   Description: >-
 
 - Category: Higgs Physics
+  Heatmap: Experimental Nuclear and Particle Physics
   Description: >-
 
 - Category: Jet Reconstruction
+  Heatmap: Experimental Nuclear and Particle Physics
   Description: >-
     1) Jet Clustering, 2) Jet Tagging, and 3) Jet Identification 
-- Category: Lattice Field Theories
-  Description: >-
-
 - Category: Lattice Scalar Theories
+  Heatmap: Lattice Field Theories
   Description: >-
 
 - Category: Lattice Fermion Theories
+  Heatmap: Lattice Field Theories
   Description: >-
 
 - Category: Lattice Gauge Theories
+  Heatmap: Lattice Field Theories
   Description: >-
 
 - Category: Neutrinos
+  Heatmap: Experimental Nuclear and Particle Physics
+  Description: >-
+
+- Category: Nuclear Decays
+  Heatmap: Experimental Nuclear and Particle Physics
   Description: >-
 
 - Category: Quantum Chromodynamics
+  Heatmap: Theoretical Nuclear and Particle Physics
   Description: >-
 
 - Category: Quantum Gravity
+  Heatmap: Theoretical Nuclear and Particle Physics
   Description: >-
 
 - Category: Quantum Field Theories
+  Heatmap: Theoretical Nuclear and Particle Physics
   Description: >-
 
-- Category: Particle Decays
+- Category: Spin Correlation in Particle Decays
+  Heatmap: Spin Correlation in Particle Decays
   Description: >-
 
 - Category: Statistical Analysis
+  Heatmap: Experimental Nuclear and Particle Physics
   Description: >-
 
 - Category: Schwinger Model
+  Heatmap: Lattice Field Theories
   Description: >-
 
 - Category: Track Reconstruction
+  Heatmap: Experimental Nuclear and Particle Physics
   Description: >-
     
 ---
 - Category: Reviews
+  Heatmap: Reviews and Whitepapers
   Description: >-
     The references below are (static) reviews in applications of quantum
     information science to particle physics.
 - Category: Whitepapers and Proceedings
+  Heatmap: Reviews and Whitepapers
   Description: >-
     The references below are whitepapers in applications of quantum information
     science to particle physics. Note that the majority of the references are
     from the Snowmass Community Planning Exercises.
 - Category: Continuous Variable Quantum Computing
+  Heatmap: Quantum Algorithms
   Description: >-
     
 - Category: Quantum Algorithms - Grover's Search Algorithm
+  Heatmap: Quantum Algorithms
   Description: >-
     The quantum search algorithm, also known as Grover's algorithm, performs a
     generic search for a solution to a search problem, using a technique known
@@ -131,7 +156,7 @@
     $f$ is implemented by an oracle, a black box that can recognize solutions to
     the search problem. Classically, it would take $\mathcal{O}(N)$ queries to
     the oracle to find the solution, however, using Grover's algorithm would
-    allow this search to be sped up substatially, requiring only
+    allow this search to be sped up substantially, requiring only
     $\mathcal{O}(\sqrt{N})$ queries. The quantum oracle can be represented by a
     unitary operator $U_f$, defined by $U_f : \ket{x} \ket{q} \rightarrow
     \ket{x} \ket{q \oplus f(x)}$, where $\ket{x}$ is the index register,
@@ -163,9 +188,15 @@
     \end{enumerate} Grover's search algorithm can be generalized to a process
     known as amplitude amplification.
 - Category: Quantum Algorithms - Harrow-Hassadim-Lloyd Algorithm
+  Heatmap: Quantum Algorithms
   Description: >-
 
+- Category: Quantum Algorithms - Quantum Walks
+  Heatmap: Quantum Algorithms
+  Description: >-
+    
 - Category: Quantum Annealing
+  Heatmap: Quantum Algorithms
   Description: >-
     Quantum annealing is a quantum computing method used to solve optimization
     problems. It is currently the only quantum computing paradigm that enables
@@ -211,90 +242,84 @@
     will give the solution to the QUBO problem, since the final system is in an
     eigenstate of $H_f$.
 - Category: Quantum Entanglement and Bell Inequalities
-  Description: >-
-
-- Category: Quantum Error Correction
+  Heatmap: Quantum Entanglement and Bell Inequalities
   Description: >-
 
 - Category: Quantum Generative Adversarial Networks
+  Heatmap: Hybrid Quantum-Classical Methods, Quantum Machine Learning, and Quantum-Inspired Algorithms
   Description: >-
     
 - Category: Quantum Kernel Methods
+  Heatmap: Hybrid Quantum-Classical Methods, Quantum Machine Learning, and Quantum-Inspired Algorithms
   Description: >-
 
 - Category: Quantum k-Means
+  Heatmap: Hybrid Quantum-Classical Methods, Quantum Machine Learning, and Quantum-Inspired Algorithms
   Description: >-
 
 - Category: Quantum Memory
+  Heatmap: Quantum Algorithms
   Description: >-
 
 - Category: Quantum Neural Networks
+  Heatmap: Hybrid Quantum-Classical Methods, Quantum Machine Learning, and Quantum-Inspired Algorithms
   Description: >-
 
-- Category: Quantum Sensors - Accelerometers
+- Category: Quantum Sensors - Atomic Sensors
+  Heatmap: Quantum Sensors
   Description: >-
-
-- Category: Quantum Sensors - Atomic/Nuclear/Molecular Sensors
+    A list of atomic sensors include:
+      - Atomic clocks
+      - Atom interferometers
+      - Atomic ensembles
+      - Rydberg atoms
+      - Trapped ions
+      - Penning traps
+- Category: Quantum Sensors - Molecular Sensors
+  Heatmap: Quantum Sensors
   Description: >-
-
-- Category: Quantum Sensors - Atom Interferometers
-  Description: >- 
-
-- Category: Quantum Sensors - Levitated Sensors
+    A list of molecular sensors include:
+      - Molecular clocks
+      - Trapped molecules 
+- Category: Quantum Sensors - Nuclear Sensors
+  Heatmap: Quantum Sensors
   Description: >-
-
-- Category: Quantum Sensors - Mechanical Sensors and Detectors
-  Description: >-
-
-- Category: Quantum Sensors - Microwave Cavities
-  Description: >- 
-
-- Category: Quantum Sensors - Nitrogen-Vacancy Centers
-  Description: >-
-
-- Category: Quantum Sensors - Optical Cavities
-  Description: >-
-
+    A list of nuclear sensors include:
+      - Nuclear clocks
+      - Nuclear spin ensembles
+- Category: Quantum Sensors - Optical/Photonic Sensors
+  Heatmap: Quantum Sensors
+  Description: >-  
+    A list of optical/photonic sensors include:
+      - Superconducting Qubits measuring electomagnetic fields
+      - Optical cavities
+      - Superconducting radio frequency cavities
+      - Squeezed-light interferometers
 - Category: Quantum Sensors - Optomechanical Sensors
+  Heatmap: Quantum Sensors
   Description: >-
-
-- Category: Quantum Sensors - Penning Traps
+    A list of optical/photonic sensors include:
+      - Mechanical sensors
+      - Levitated sensors
+- Category: Quantum Sensors - Solid State Sensors
+  Heatmap: Quantum Sensors
   Description: >-
-
-- Category: Quantum Sensors - Quantum Dots
-  Description: >-
-
-- Category: Quantum Sensors - Superconducting Transmon Qubits
-  Description: >-
-
-- Category: Quantum Sensors - Squeezed States
-  Description: >-
-
-- Category: Quantum Sensors - Superconducting Radio-Frequency Cavities
-  Description: >-
-
-- Category: Quantum Sensors - Rydberg Atoms
-  Description: >-
-
-- Category: Quantum Sensors - Torsion Balances
-  Description: >-
-    
-- Category: Quantum Sensors - Trapped Ions
-  Description: >-
-
+    Solid state sensors measures quantum excitations in the solid material itself
+    A list of solid state sensors include:
+    - Nitrogen-vacancy centers
+    - Quantum dots
+    - Superconducting Quantum Interference Devices (SQUIDs)
+    - Superconducting qubits measuring quantum excitations
 - Category: Quantum Simulations
+  Heatmap: Quantum Simulations
   Description: >-
 
-- Category: Quantum Tomography
-  Description: >-
-
-- Category: Quantum Walks
-  Description: >-
-    
 - Category: Tensor Networks
+  Heatmap: Hybrid Quantum-Classical Methods, Quantum Machine Learning, and Quantum-Inspired Algorithms
   Description: >-
     
 - Category: Variational Quantum Algorithms
+  Heatmap: Hybrid Quantum-Classical Methods, Quantum Machine Learning, and Quantum-Inspired Algorithms
   Description: >-
     Variational Quantum Algorithms (VQAs) are hybrid quantum-classical
     algorithms that find approximate solutions to optimization problems.

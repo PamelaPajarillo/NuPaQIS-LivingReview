@@ -5,7 +5,7 @@ YAML_FILE = 'NUPAQIS.yaml'
 CATEGORIES_YAML = 'NUPAQIS_CATEGORIES.yaml'
 
 # Get categories from CSV file
-categories_nupa, descrip_nupa, categories_qis, descrip_qis = get_categories(CATEGORIES_YAML)
+categories_nupa, descrip_nupa, heatmap_nupa, categories_qis, descrip_qis, heatmap_qis = get_categories(CATEGORIES_YAML)
 
 # Get dataframe of BibTeX and CSV
 df = get_dataframe(YAML_FILE, categories_nupa, categories_qis)
@@ -22,7 +22,6 @@ OUTPUT_FILE_QIS = open("BY_QIS/README.md","w")
 OUTPUT_FILE_MAIN.write("# A Living Review of Quantum Information Science in Nuclear and Particle Physics\n\n")
 OUTPUT_FILE_MAIN.write("[![DOWNLOAD_PDF](https://img.shields.io/badge/Download-PDF_Version-81b7df)](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/PamelaPajarillo/NUPAQIS-LivingReview/main/NUPAQIS.pdf) \n\n")
 
-
 OUTPUT_FILE_MAIN.write("Authors: Pamela Pajarillo, So Chigusa, Sokratis Trifinopoulos, Jesse Thaler \n \n")
 OUTPUT_FILE_MAIN.write("*Inspired by <a href=\"https://iml-wg.github.io/HEPML-LivingReview/\">\"A Living Review of Machine Learning for High Energy Physics\"</a>, the goal of this repository is to provide an extensive list of citations for those developing and applying quantum information approaches to experimental, phenomenological, or theoretical analyses.  Applications of quantum information science to high energy physics is a relatively new field of research.  This repository will be updated as often as possible with the relevant literature.  Suggestions are most welcome.*\n\n")
 OUTPUT_FILE_MAIN.write("The goal of this repository is to collect references for quantum information science as applied to particle and nuclear physics. The papers are listed in chronological order. Reviews, whitepapers, and inproceedings are listed at the beginning of each section and can be found <a href=\"/BY_NUPA/README.md#textbfreviews-and-whitepapers\"> here </a>. \n\n")
@@ -36,13 +35,13 @@ OUTPUT_FILE_MAIN.write("##  $\\textbf{\color{#9BC53D}{Quantum Information Scienc
 list_subcategories_to_md(OUTPUT_FILE_MAIN, categories_qis, descrip_qis, "QIS")
 
 # ***** PLOT -----------------------------------------------------------------------
-plot_2D_nupaqis_heatmap(df, categories_nupa, categories_qis)
+plot_2D_nupaqis_heatmap(df, categories_nupa, categories_qis, heatmap_nupa, heatmap_qis)
 plot_histogram(df, "NUPA")
 plot_histogram(df, "QIS")
 OUTPUT_FILE_MAIN.write("## Number of Papers in NuPaQIS\n\n")
+OUTPUT_FILE_MAIN.write("![NUPAQIS_Heatmap](NUPAQIS_2D_Heatmap.png)\n\n")
 OUTPUT_FILE_MAIN.write("![NUPA_Histogram](NUPA_Histogram.png)\n\n")
 OUTPUT_FILE_MAIN.write("![NUPA_Histogram](QIS_Histogram.png)\n\n")
-OUTPUT_FILE_MAIN.write("![NUPAQIS_Heatmap](NUPAQIS_2D_Heatmap.png)\n\n")
 
 OUTPUT_FILE_MAIN.close()
 
