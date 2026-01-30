@@ -1,6 +1,6 @@
 # A Living Review of Quantum Information Science in Nuclear and Particle Physics
 
-[![DOWNLOAD_PDF](https://img.shields.io/badge/Download-PDF_Version-81b7df)](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/PamelaPajarillo/NUPAQIS-LivingReview/main/NUPAQIS.pdf) 
+![Static Badge](https://img.shields.io/badge/Number_of_Papers-238-blue) [![DOWNLOAD_PDF](https://img.shields.io/badge/Download-PDF_Version-81b7df)](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/PamelaPajarillo/NUPAQIS-LivingReview/main/NUPAQIS.pdf) [![Preprint Draft for arXiV](https://img.shields.io/badge/arXiV_Post-TBA-blue)](https://www.overleaf.com/read/wkqcjgwhfwpb#e5842a)
 
 Authors: Pamela Pajarillo, So Chigusa, Sokratis Trifinopoulos, Jesse Thaler 
  
@@ -26,42 +26,57 @@ The references below contain (static) reviews and whitepapers listed in applicat
 
 
 
-</details><details>
+Searching for new particles is one of the main goals of high energy physics. Typical traditional searches at the Large Hadron Collider (LHC) look for specific signals, in other words, only searching for one specific theoretical model. The goal of anomaly detection is to be model-agnostic, in other words, rely as little as possible on specific signal and background models. They instead search for events in the data that deviate from the expected backgrounds. Anomaly detection techniques are important in particle physics research, and are being actively used and explored on multiple areas: triggering and event selection, model-independent methods for searching for new physics, data quality monitoring, and in quantum machine learning.
+
+References:
+  - Anomaly Detection Section in HEPML-LivingReview: https://iml-wg.github.io/HEPML-LivingReview/#anomaly-detection
+  - Machine Learning for Anomaly Detection in Particle Physics: https://arxiv.org/abs/2312.14190</details><details>
 <summary> <b>Beyond the Standard Model: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dbeyond-the-standard-model"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-</details><details>
+The Standard Model (SM) of particle physics is a theory that describes the fundamental particles and their interactions: electromagnetic, weak, and strong forces. It has been extensively tested and confirmed through numerous experiments over the past several decades, most notably the discovery of the Higgs boson in 2012. However, the Standard Model fails to explain several phenomena, necessitating the proposal of Beyond the Standard Model (BSM) physics. From the theoretical side, the SM cannot integrate Einstein's Theory of General Relativity, which explains gravity, the fourth fundamental interaction, in a mathematically consistent, united framework. On the phenomenological side, the SM cannot account for Dark Energy, which causes the accelerating expansion of the universe, or Dark Matter (DM), which constitutes about 85\% of the matter in the universe but remains non-observable due to its weakly interacting nature. The SM also lacks a mechanism to explain the observed abundance of matter over antimatter in the universe or the generation of non-vanishing, yet tiny, neutrino masses, the existence of which can be inferred by the phenomenon of neutrino oscillations. To deal with these major puzzles, the theoretical physics community refines the existing high-precision SM calculations and proposes various BSM extensions. At the same time, experimental collaborations are pursuing the quest of hunting down any potential evidence towards deviations from the SM predictions. The new experiments include both high-energy direct searches for new particles at colliders as well as the low-energy frontier of high-precision measurements. 
+
+References:
+  - Goldberg, Dave. The Standard Model in a Nutshell. Princeton University Press, 2017.
+  - Quantum Field Theory and the Standard Model, Matthew D. Schwartz, Cambridge U. Press, 2014.</details><details>
 <summary> <b>Dark Matter - Particle-like Dark Matter: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53ddark-matter---particle-like-dark-matter"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-A list of article-like dark matter candidates include: 
-  - Weakly Interacting Massive Particles (WIMPs)
-  - Light Dark Matter
-  - Millicharged Particles
-  - Dark Photons (massive)
-  - Sterile Neutrinos</details><details>
+A list of particle-like dark matter candidates include: 
+  (1) Weakly Interacting Massive Particles (WIMPs):
+  (2) Light Dark Matter:
+  (3) Millicharged Particles:
+  (4) Dark Photons (massive):
+  (5) Sterile Neutrinos:
+
+
+References:</details><details>
 <summary> <b>Dark Matter - Wave-like Dark Matter: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53ddark-matter---wave-like-dark-matter"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
 A list of article-like dark matter candidates include: 
-  - Axions and Axion-like Particles (ALPs): An axion is a hypothetical particle theorized to solve the strong CP problem in quantum chromodynamics (QCD) and the cosmological matter-antimatter asymmetry.
-  - Ultralight Dark Matter: 
-  - Fuzzy Dark Matter:
-  - Dark Photons (ultralight):
+  (1) Axions and Axion-like Particles (ALPs): An axion is a hypothetical particle theorized to solve the strong CP problem in quantum chromodynamics (QCD) and the cosmological matter-antimatter asymmetry.
+  (2) Ultralight Dark Matter: 
+  (3) Fuzzy Dark Matter:
+  (4) Dark Photons (ultralight):
+
 References:
-  - [Axion Dark Matter: What is it and Why Now?](https://arxiv.org/abs/2105.01406)
-  - [PDG Review on Axions and Axion-like Particles](https://pdg.lbl.gov/2024/reviews/rpp2024-rev-axions.pdf)</details><details>
+  - Axion Dark Matter: What is it and Why Now? https://arxiv.org/abs/2105.01406
+  - PDG Review on Axions and Axion-like Particles https://pdg.lbl.gov/2024/reviews/rpp2024-rev-axions.pdf</details><details>
 <summary> <b>Dark Matter - Macroscopic Dark Matter: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53ddark-matter---macroscopic-dark-matter"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
 A list of article-like dark matter candidates include: 
-  - Primordial Black Holes: 
-  - Compact Composite Objects: 
-  - Q-balls:</details><details>
+  (1) Primordial Black Holes: 
+  (2) Compact Composite Objects: 
+  (3) Q-balls:
+
+References:
+  - </details><details>
 <summary> <b>Detector Technologies and Simulations: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53ddetector-technologies-and-simulations"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -81,7 +96,11 @@ Signal and background classification for particle physics events.</details><deta
 
 
 
-</details><details>
+An event is the outcome of a collision between two incoming particles, or the outcome of an isolated decay of a particle, which consists of a number of outgoing particles.  The main components of high-energy particle collisions are:  (1) Incoming Hadrons: The initial partons involved in a hard scattering process are selected using parton distribution functions for the incoming hadrons. The incoming hadrons are at an energy of order 1 GeV ($\sim \Lambda_{\text{QCD}}$); (2) Hard scattering: The kinematics of the outgoing partons are based on matrix elements calculated in perturbation theory. The hard scattering process is at energy of order 100 to 1000 GeV at the LHC; (3) Parton Showers: The incoming and outgoing partons radiate quarks and gluons. This radiation pattern can be approximated semi-classically using a parton shower algorithm. Parton showers links the perturbative and non-perturbative energy regimes;  (4) Underlying Event: Scattering also occurs with other partons not associated with the hard scattering process coming from the incoming hadrons. These partons tend to be soft, i.e. lower energy than the partons from the hard scattering process; (5) Hadronization: This refers to the formation of hadrons out of quarks and gluons. Hadronization is at an energy of order 1 GeV ($\sim \Lambda_{\text{QCD}}$). An event generator is a numerical algorithm that produces random sequences of simulated events. The aim of an event generator is to predict all observable properties of a collision or a decay process. An event generator is an important tool for interpreting collider data because it gives predictions for what an event would look like before interacting with detectors, and is essential to linking theories with experiments. Examples of event generators include PYTHIA, HERWIG, SHERPA, MADGRAPH, and POWHEG.
+
+References:
+  - Herwig++ Physics and Manual: https://arxiv.org/abs/0803.0883
+  - A comprehensive guide to the physics and usage of PYTHIA 8.3: https://arxiv.org/abs/2203.11601</details><details>
 <summary> <b>Fundamental Symmetries and Interactions: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dfundamental-symmetries-and-interactions"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -101,7 +120,9 @@ Signal and background classification for particle physics events.</details><deta
 
 
 
-1) Jet Clustering, 2) Jet Tagging, and 3) Jet Identification </details><details>
+A jet is reconstructed from energy deposits in the calorimeter and tracks in the tracking detector that are clustered together using a jet algorithm.  The workflow of jet reconstruction can be broadly divided into three main steps: 1) Jet Clustering: cluster jets with a jet algorithm; 2) Jet Tagging, and 3) Jet Identification
+
+References:</details><details>
 <summary> <b>Lattice Scalar Theories: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dlattice-scalar-theories"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -156,7 +177,11 @@ Signal and background classification for particle physics events.</details><deta
 
 
 
-</details><details>
+Developed by Julian Schwinger in 1962, the Schwinger model is a 1+1 dimensional quantum field theory that describes quantum electrodynamics (QED), the theory of light (photons) interacting with charged particles (electrons and positrons). 
+The Schwinger model is an exactly solvable model that exhibits several important features of quantum field theories, such as confinement, chiral symmetry breaking, and the generation of mass for gauge bosons. In the Schwinger model, the photon acquires a mass through the mechanism of dynamical mass generation, which is a non-perturbative effect arising from the interactions between the charged particles and the gauge field. This mass generation is a consequence of the axial anomaly in 1+1 dimensions, which leads to the breaking of chiral symmetry and results in a massive photon. The Schwinger model serves as a valuable theoretical laboratory for studying various aspects of quantum field theories, including confinement, mass generation, and non-perturbative phenomena, providing insights that can be applied to more complex theories such as quantum chromodynamics (QCD).
+
+References:
+  - Gauge Invariance and Mass. II: https://journals.aps.org/pr/abstract/10.1103/PhysRev.128.2425</details><details>
 <summary> <b>Track Reconstruction: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dtrack-reconstruction"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -175,32 +200,50 @@ The references below contain (static) reviews and whitepapers listed in applicat
 
 
 
-</details><details>
+Continuous variable quantum computing is a quantum computing paradigm that uses a large number of modes of the harmonic oscillator, which can be represented as $\ket{\psi} = \int \,dx\, \psi(x) \ket{x} $, whereas discrete variable quantum computing uses discrete number of quantum bits, for example, a qubit can be represented as $\ket{\psi} = c_0 \ket{0} + c_1 \ket{1}$.
+
+References:
+  - </details><details>
 <summary> <b>Quantum Algorithms - Grover's Search Algorithm: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-algorithms---grover's-search-algorithm"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-The quantum search algorithm, also known as Grover's algorithm, performs a generic search for a solution to a search problem, using a technique known as amplitude amplification, which increases the amplitude of the desired states. Assuming that the solutions of the search problem can be expressed as binary strings of length $n$, such that $N= 2^n$, where $N$ is the dimension of the search space, then any search problem can be represented as a function $f(x)$ where $$ f(x) = \begin{cases}1 & \text{if $x$ is a solution} \\ 0 & \text{otherwise} \end{cases}$$ Grover's algorithm aims to find an input $x \in \{0,1\}^n$ such that $f(x) = 1$. Suppose the function $f$ is implemented by an oracle, a black box that can recognize solutions to the search problem. Classically, it would take $\mathcal{O}(N)$ queries to the oracle to find the solution, however, using Grover's algorithm would allow this search to be sped up substantially, requiring only $\mathcal{O}(\sqrt{N})$ queries. The quantum oracle can be represented by a unitary operator $U_f$, defined by $U_f : \ket{x} \ket{q} \rightarrow \ket{x} \ket{q \oplus f(x)}$, where $\ket{x}$ is the index register, $\ket{q}$ is the oracle register consisting of a single qubit which is flipped if $f(x) = 1$ and unchanged otherwise, and $\oplus$ is addition modulo 2. Let $\ket{q} = \ket{0}$, then given a query value $x$, prepare the state $\ket{x} \ket{0}$, apply oracle $U_f$, and measure the oracle qubit. If the oracle qubit has flipped to $ \ket{1}$, then $x$ is a solution to the search problem. If the oracle qubit is $\ket{q} = \frac{1}{\sqrt{2}}(\ket{0} - \ket{1})$, then the action of the oracle $U_f$ is $$U_f \; : \; \ket{x} \frac{1}{\sqrt{2}}(\ket{0} - \ket{1}) \longmapsto (-1)^{f(x)}\ket{x} \frac{1}{\sqrt{2}}(\ket{0} - \ket{1}) $$ Note that the state of the oracle qubit $\ket{q} $ has not changed, in other words $\frac{1}{\sqrt{2}}(\ket{0} - \ket{1})$ is an eigenstate, therefore, the oracle can be ignored, and the action of $U_f$ is given by $$U_f \; : \; \ket{x} \longmapsto (-1)^{f(x)} \ket{x}$$ Therefore, the oracle marks the solution to the search problem by a phase shift. Define an $n$-qubit phase shift operator $U_s$ with the following action, $ U_s \; : \; \ket{x} \mapsto (-1)^{\delta_{x_0}} \ket{x}$. $U_s$ applies a phase shift to all $n$-qubit states orthogonal to $\ket{00\ldots0}$. \\\\ The Grover's algorithm is as follows: \begin{enumerate} \item Start with the $n$-qubit state initialized in the state $\ket{00\ldots0}$ \item Apply the $n$-qubit Hadamard gate $H$ to prepare the state $\frac{1}{\sqrt{N}} \ket{\psi} = \sum_{x=0}^{N-1}\ket{x}$, where $N = 2^n$ \item Apply the following subroutine Grover iterate $G = HU_sHU_f$ a total of $\lfloor \frac{\pi}{4} \frac{1}{\sqrt{N}}\rfloor$ times \begin{enumerate} \item Apply the oracle $U_f$ \item Apply the $n$-qubit Hadamard gate $H$ \item Apply the phase shift operator $U_s$ \item Apply the $n$-qubit Hadamard gate \end{enumerate} \item Measure the resulting state \end{enumerate} Grover's search algorithm can be generalized to a process known as amplitude amplification.</details><details>
+The quantum search algorithm, also known as Grover's algorithm, performs a generic search for a solution to a search problem. Assuming that the solutions of the search problem can be expressed as binary strings of length $n$, such that $N= 2^n$, where $N$ is the dimension of the search space, then any search problem can be represented as a function $f(x)$ where $f(x) = 1$ if $x$ is a solution and $f(x) = 0$ otherwise. Grover's algorithm aims to find an input $x \in \{0,1\}^n$ such that $f(x) = 1$. Suppose the function $f$ is implemented by an oracle, a black box that can recognize solutions to the search problem. Classically, it would take $\mathcal{O}(N)$ queries to the oracle to find the solution, however, using Grover's algorithm would allow this search to be sped up substantially, requiring only $\mathcal{O}(\sqrt{N})$ queries. The quantum oracle can be represented by a unitary operator $O$, defined by its action: $\ket{x} \longmapsto (-1)^{f(x)} \ket{x}$. Therefore, the oracle marks the solution to the search problem by a phase shift. The algorithm starts with the computer with the state $\ket{0}^{\otimes n}$ and acting the Hadamard gates on all $n$ qubits gives us the state $\ket{\psi} = \frac{1}{\sqrt{N}} \sum_{x=0}^{N-1}\ket{x}$. Grover's algorithm consists of repeated applications of a quantum subroutine called Grover iteration which are as follows: (1) Apply the oracle $O$; (2) Apply $H^{\otimes n}$; (3) Perform a conditional phase shift: $\ket{x} \rightarrow -(-1)^{\delta_{x0}}\ket{x}$. (4) Apply $H^{\otimes n}$. This Grover iteration is repeated $\mathcal{O}(\sqrt{N})$ times. This can be extended to a search problem with $M$ solutions, with $1 \leq M \leq N$, and the Grover iteration can be applied $\mathcal{O}(\sqrt{N/M})$ times to get the solutions. 
+
+References:
+  - Nielsen, Michael A., and Isaac L. Chuang. *Quantum Computation and Quantum Information*. 10th anniversary ed. [or 2nd ed.], Cambridge University Press, 2010.
+  - Kaye, Phillip., Raymond Laflamme, and Michele Mosca. An Introduction to Quantum Computing. Oxford University Press, 2007.</details><details>
 <summary> <b>Quantum Algorithms - Harrow-Hassadim-Lloyd Algorithm: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-algorithms---harrow-hassadim-lloyd-algorithm"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-</details><details>
+The Harrow-Hassadim-Lloyd (HHL) algorithm is a quantum algorithm for solving systems of linear equations. Given an $N \times N$ Hermitian matrix $A$ and a unit vector $\vec{b}$, the HHL algorithm aims to find the solution $\vec{x}$ such that $A \vec{x} = \vec{b}$. The algorithm consists of five main steps: (1) State Preparation: Prepare the state $\ket{\vec{b}}$; (2) Quantum Phase Estimation (QPE): This step estimates the eigenvalues of the matrix $A$ by applying QPE to the unitary operator $e^{iAt}$, where $t$ is a chosen time parameter. This step requires the ability to efficiently implement the Hamiltonian simulation of $A$. (3) Controlled Rotation and Measurement of the Ancilla Qubit: After obtaining the eigenvalues from QPE, controlled rotations are applied to an ancillary qubit based on the inverse of the eigenvalues. This step effectively encodes the solution vector into the amplitudes of the quantum state. (4) Inverse QPE: Finally, the QPE process is reversed to disentangle the ancillary qubits from the system, leaving behind a quantum state that approximates the solution vector $\vec{x}$. (5) Measurement: The final step involves measuring the quantum state to extract information about the solution vector $\vec{x}$. The HHL algorithm provides an exponential speedup over classical algorithms for solving linear systems under certain conditions, such as when $A$ is sparse and well-conditioned. 
+
+References:
+  - Harrow, Aram W., Avinatan Hassidim, and Seth Lloyd. "Quantum algorithm for linear systems of equations": 
+  - Zaman, Anika, Hector Jose Morrell, and Hiu Yung Wong. "A step-by-step HHL algorithm walkthrough to enhance understanding of critical quantum computing concepts.": </details><details>
 <summary> <b>Quantum Algorithms - Quantum Walks: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-algorithms---quantum-walks"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-</details><details>
+A random walk is a random process that describes a path that consists of a sequence of steps that are determined randomly. An example of a one dimensional discrete random walk is a random walk on the integer number line starting at $0$, and each step moves $+1$ or $-1$ with an equal probability, which is analogous to flipping a coin then, depending on the outcome, move forward or backwards on the number line. This can be described as a Markov chain, a sequence of random variables with the property that the probability of moving to the next step only depends on the current step and not the previous step, i.e. $p(X_{n+1} = x | X_1 = x_1, X_2 = x_2, \ldots) = p(X_{n+1} = x | X_n = x_n)$. This can be extended to higher dimensions. An example of a continuous random walk is Brownian motion, the random motion of particles in a medium. The quantum discrete random walk defines the movement of a walker in position basis, $\mathcal{H}_P = \{ \ket{i} : i \in \mathbb{Z} \}$, controlled by the coin in the spin-$\frac{1}{2}$ basis, $\mathcal{H}_C = \{\ket{\uparrow}, \ket{\downarrow}\}$. The translation of the walker can be represented by the unitary operator $T = \sum \ket{i + 1} \bra{i} \otimes \ket{\uparrow} \bra{\uparrow} + \sum \ket{i-1} \bra{k} \otimes \ket{\downarrow} \bra{\downarrow} $, where the index $i$ runs over $\mathcal{Z}$. Therefore, $T \ket{i} \ket{\uparrow} = \ket{i + 1} \ket{\uparrow}$ and $T \ket{i} \ket{\downarrow} = \ket{i-1} \ket{\downarrow}$. A single step of the random walk is constructed from a coin flip unitary operation $C$ and the translation operator, $T$. Therefore, a single step can be represented as a unitary operator $U = T \cdot (C \otimes \mathbb{I})$. An $N$-step quantum walk is defined by $U^N$. In the quantum random walk, the coin register is not measured during each step. This introduces interference, which is drastically different from the classical random walk.
+
+References:
+  - Quantum Random Walks - A Comprehensive Review: https://arxiv.org/abs/1201.4780</details><details>
 <summary> <b>Quantum Annealing: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-annealing"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-Quantum annealing is a quantum computing method used to solve optimization problems. It is currently the only quantum computing paradigm that enables architectures with large number of qubits, such as D-Wave Systems' Pegasus quantum processor chip with 5000 qubits. The classical counterpart, simulated annealing, mimics the process of heating up a material above its recrystallization temperature then cooled down slowly in order to change the material to a desirable structure. Simulated annealing is capable of finding global extrema as it is able to escape local extrema. The simulated annealing algorithm is as follows: (1) Start with an initial solution $s = s_0$ and an initial temperature $t = t_0$, Let $E(s)$ be the loss function of $s$; (2) Define a temperature reduction scheme. Some examples of temperature reduction schemes are: $t = t - \alpha$, $t = t\alpha$, and $t = \frac{t}{1+\alpha t}$; (3) Starting at $t = t_0$, consider some neighborhood of solution $N(s)$, and pick one of the solutions $s'$; (4) Calculate the difference of the loss function $\delta E$ between the solutions $s$ and $s'$. If $\delta E \geq 0$, accept the new solution. If $\delta < 0$, generate a uniform random number $r$ between 0 and 1. Accept the solution if $r < e^{\frac{\delta E}{t}}$. Note that for large $t$, the probability of selecting $s'$ is high; (5) Repeat steps (3) and (4) for $n$ iterations, updating $t$ given by the temperature reduction rule. \\\\ Quantum annealers solve very specific optimization problems called Quadratic Unconstrained Binary Optimization (QUBO) problems. The QUBO problem consists of finding a binary string that is minimal with respect to a quadratic polynomial over binary variables. The main challenge is to rephrase the loss function to a QUBO problem, which is equivalent to finding the ground state of a corresponding Ising model, whose Hamiltonian is given by $$H(\sigma) = \sum_{i,j=1}^{n}J_{ij} s_i s_j + \sum_{i=1}^{n} h_i s_i$$ where $s_i \in \{-1, +1\}$ are the spin values, and $h_i$ and $J_{ij}$ are adjustable constants that represents biases and coupling strengths, respectively. The Hamiltonian of the quantum version of the Ising model, the transverse field Ising model, is given by $$ H_f = \sum_{i,j = 1}^{n}J_{ij}\sigma_{i}^{z}\sigma_{j}^{z} + \sum_{i}^{n}h_i\sigma_{i}^{z} $$ where $\sigma_{i}^{z}$ is the Pauli-$Z$ acting on qubit $i$. In quantum annealing, one initializes the system in the ground state of the initial Hamiltonian $H_i$, given by $$ H_i = \sum_{i=1}^{n}\sigma_{i}^{x} $$ corresponding to the state $(\ket{0} + \ket{1})^{\otimes n}$. The quantum adiabatic theorem states that if the transition between two Hamiltonians is gradual, the system will stay in the ground state. After initializing the system, it slowly evolves by changing the Hamiltonian given by $$ H(t) = \left(1 - \frac{t}{T}\right)H_i + \frac{t}{T} H_f $$ where $T$ is the total time in the annealing process. Measuring the final state after the anneal will give the solution to the QUBO problem, since the final system is in an eigenstate of $H_f$.</details><details>
+Quantum annealing is a quantum computing method used to solve optimization problems. It is currently the only quantum computing paradigm that enables architectures with large number of qubits, such as D-Wave Systems' Pegasus quantum processor chip with 5000 qubits. Quantum annealers solve very specific optimization problems called Quadratic Unconstrained Binary Optimization (QUBO) problems. The QUBO problem consists of finding a binary string that is minimal with respect to a quadratic polynomial over binary variables. The main challenge is to rephrase the loss function to a QUBO problem, which is equivalent to finding the ground state of a corresponding Ising model, whose Hamiltonian is given by $H(\sigma) = \sum_{i,j=1}^{n}J_{ij} s_i s_j + \sum_{i=1}^{n} h_i s_i$ where $s_i \in \{-1, +1\}$ are the spin values, and $h_i$ and $J_{ij}$ are adjustable constants that represents biases and coupling strengths, respectively. The Hamiltonian of the quantum version of the Ising model, the transverse field Ising model, is given by $ H_f = \sum_{i,j = 1}^{n}J_{ij}\sigma_{i}^{z}\sigma_{j}^{z} + \sum_{i}^{n}h_i\sigma_{i}^{z} $ where $\sigma_{i}^{z}$ is the Pauli-$Z$ acting on qubit $i$. In quantum annealing, one initializes the system in the ground state of the initial Hamiltonian $H_i$, given by $$ H_i = \sum_{i=1}^{n}\sigma_{i}^{x} $$ corresponding to the state $(\ket{0} + \ket{1})^{\otimes n}$. The quantum adiabatic theorem states that if the transition between two Hamiltonians is gradual, the system will stay in the ground state. After initializing the system, it slowly evolves by changing the Hamiltonian given by $$ H(t) = \left(1 - \frac{t}{T}\right)H_i + \frac{t}{T} H_f $$ where $T$ is the total time in the annealing process. Measuring the final state after the anneal will give the solution to the QUBO problem, since the final system is in an eigenstate of $H_f$. 
+
+References:
+  - D-Wave Documentation: https://docs.dwavequantum.com/en/latest/quantum_research/quantum_annealing_intro.html
+  - Quantum Annealing and Analog Quantum Computation: https://arxiv.org/abs/0801.2193</details><details>
 <summary> <b>Quantum Entanglement and Bell Inequalities: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-entanglement-and-bell-inequalities"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-</details><details>
+One of the main features of quantum information processing is quantum entanglement. Entanglement is the quantum version of correlation between quantum systems that has no classical analogue. </details><details>
 <summary> <b>Quantum Generative Adversarial Networks: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-generative-adversarial-networks"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -231,47 +274,59 @@ Quantum annealing is a quantum computing method used to solve optimization probl
 
 
 A list of atomic sensors include:
-  - Atomic clocks
-  - Atom interferometers
-  - Atomic ensembles
-  - Rydberg atoms
-  - Trapped ions
-  - Penning traps</details><details>
+  (1) Atomic clocks
+  (2) Atom interferometers
+  (3) Atomic ensembles
+  (4) Rydberg atoms
+  (5) Trapped ions
+  (6) Penning traps
+
+
+References: </details><details>
 <summary> <b>Quantum Sensors - Molecular Sensors: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-sensors---molecular-sensors"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
 A list of molecular sensors include:
-  - Molecular clocks
-  - Trapped molecules </details><details>
+  (1) Molecular clocks
+  (2) Trapped molecules 
+
+
+References:
+  - </details><details>
 <summary> <b>Quantum Sensors - Nuclear Sensors: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-sensors---nuclear-sensors"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
 A list of nuclear sensors include:
-  - Nuclear clocks
-  - Nuclear spin ensembles</details><details>
+  (1) Nuclear clocks
+  (2) Nuclear spin ensembles</details><details>
 <summary> <b>Quantum Sensors - Optical/Photonic Sensors: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-sensors---optical/photonic-sensors"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
 A list of optical/photonic sensors include:
-  - Superconducting Qubits measuring electomagnetic fields
-  - Optical cavities
-  - Superconducting radio frequency cavities
-  - Squeezed-light interferometers</details><details>
+  (1) Superconducting qubits measuring electomagnetic fields
+  (2) Optical cavities
+  (3) Superconducting radio frequency cavities
+  (4) Squeezed-light interferometers</details><details>
 <summary> <b>Quantum Sensors - Optomechanical Sensors: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-sensors---optomechanical-sensors"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
 A list of optical/photonic sensors include:
-  - Mechanical sensors
-  - Levitated sensors</details><details>
+  (1) Mechanical sensors
+  (2) Levitated sensors</details><details>
 <summary> <b>Quantum Sensors - Solid State Sensors: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-sensors---solid-state-sensors"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-Solid state sensors measures quantum excitations in the solid material itself A list of solid state sensors include: - Nitrogen-vacancy centers - Quantum dots - Superconducting Quantum Interference Devices (SQUIDs) - Superconducting qubits measuring quantum excitations</details><details>
+Solid state sensors measures quantum excitations in the solid material itself
+A list of solid state sensors include:
+  (1) Nitrogen-vacancy centers
+  (2) Quantum dots
+  (3) Superconducting Quantum Interference Devices (SQUIDs)
+  (4) Superconducting qubits measuring quantum excitations</details><details>
 <summary> <b>Quantum Simulations: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-simulations"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 

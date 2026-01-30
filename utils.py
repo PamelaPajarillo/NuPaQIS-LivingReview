@@ -278,7 +278,6 @@ def plot_histogram(df, run):
     plt.tight_layout()
     plt.savefig("%s_Histogram.png" % run, dpi=300)
 
-
 def plot_2D_nupaqis_heatmap(df, categories_nupa, categories_qis, heatmap_nupa, heatmap_qis):
 
     nupa_heatmap = ['Reviews and Whitepapers', 'Dark Matter', 'Spin Correlation in Particle Decays', 'Lattice Field Theories', 'Experimental Nuclear and Particle Physics', 'Theoretical Nuclear and Particle Physics']
