@@ -641,13 +641,6 @@
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1329898"> Hajime Fukuda</a>, <a href="https://inspirehep.net/authors/996781"> Takeo Moroi</a>, <a href="https://inspirehep.net/authors/2680252"> Thanaporn Sichanugrist</a>
 + <strong>Posted on <a href="https://arxiv.org/abs/2511.03253">arXiv:2511.03253</a>:</strong> 05 November 2025</details>
 
-<details>
-<summary> (2024) <b>Probing Sub-eV Dark Photon, Scalar and Axion-like Particle Dark Matters with Transmon Qubits</b> [<a href="https://arxiv.org/abs/2412.20850">arXiv</a>] [<a href="https://doi.org/10.1016/j.dark.2025.102171">DOI</a>] [<a href="https://inspirehep.net/literature/3084341">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1047976"> Wei Chao</a>, <a href="https://inspirehep.net/authors/1079163"> Yu Gao</a>, <a href="https://inspirehep.net/authors/2108844"> Ming-Jie Jin</a>, <a href="https://inspirehep.net/authors/2093763"> Xiao-Sheng Liu</a>, <a href="https://inspirehep.net/authors/1355433"> Xi-Lei Sun</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2412.20850">arXiv:2412.20850</a>:</strong> 30 December 2024 
-+ <strong>Published in <a href="https://doi.org/10.1016/j.dark.2025.102171">Phys.Dark Univ. 50 (2025) 102171</a>:</strong> 15 November 2025</details>
-
 ###  $\textbf{{\color{#5BC0EB}Quantum Sensors - Optomechanical Sensors}}$ 
 
 <details>

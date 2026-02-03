@@ -4,12 +4,14 @@
   Description: >-
     The references below are (static) reviews in applications of quantum
     information science to particle physics.
+
 - Category: Whitepapers and Proceedings
   Heatmap: Reviews and Whitepapers
   Description: >-
     The references below are whitepapers in applications of quantum information
     science to particle physics. Note that the majority of the references are
     from the Snowmass Community Planning Exercises.
+
 - Category: Anomaly Detection
   Heatmap: Experimental Nuclear and Particle Physics
   Description: >-
@@ -19,6 +21,7 @@
     References:
       - Anomaly Detection Section in HEPML-LivingReview: https://iml-wg.github.io/HEPML-LivingReview/#anomaly-detection
       - Machine Learning for Anomaly Detection in Particle Physics: https://arxiv.org/abs/2312.14190
+
 - Category: Beyond the Standard Model
   Heatmap: Theoretical Nuclear and Particle Physics
   Description: >-
@@ -26,8 +29,8 @@
 
 
     References:
-      - Goldberg, Dave. The Standard Model in a Nutshell. Princeton University Press, 2017.
-      - Quantum Field Theory and the Standard Model, Matthew D. Schwartz, Cambridge U. Press, 2014.
+      (1) Goldberg, Dave. The Standard Model in a Nutshell. Princeton University Press, 2017.
+      (2) Quantum Field Theory and the Standard Model, Matthew D. Schwartz, Cambridge U. Press, 2014.
 - Category: Dark Matter - Particle-like Dark Matter
   Heatmap: Dark Matter
   Description: >-
@@ -63,20 +66,22 @@
       (3) Q-balls:
 
     References:
-      - 
 
 - Category: Detector Technologies and Simulations
   Heatmap: Experimental Nuclear and Particle Physics
   Description: >-
+    To be written
 
 - Category: Effective Field Theories
   Heatmap: Theoretical Nuclear and Particle Physics
   Description: >-
+    To be written
 
 - Category: Event Classification
   Heatmap: Experimental Nuclear and Particle Physics
   Description: >-
     Signal and background classification for particle physics events.
+
 - Category: Event Generation
   Heatmap: Theoretical Nuclear and Particle Physics
   Description: >-
@@ -98,15 +103,16 @@
 - Category: Fundamental Symmetries and Interactions
   Heatmap: Theoretical Nuclear and Particle Physics
   Description: >-
+    To be written
 
 - Category: Gravitation and Astrophysics
   Heatmap: Experimental Nuclear and Particle Physics
   Description: >-
-
+    To be written
 - Category: Higgs Physics
   Heatmap: Experimental Nuclear and Particle Physics
   Description: >-
-
+    To be written
 - Category: Jet Reconstruction
   Heatmap: Experimental Nuclear and Particle Physics
   Description: >-
@@ -116,74 +122,83 @@
 
 
     References:
+      - Towards Jetography: https://arxiv.org/pdf/0906.1833
 - Category: Lattice Scalar Theories
   Heatmap: Lattice Field Theories
   Description: >-
+    To be written
 
 - Category: Lattice Fermion Theories
   Heatmap: Lattice Field Theories
   Description: >-
+    To be written
 
 - Category: Lattice Gauge Theories
   Heatmap: Lattice Field Theories
   Description: >-
+    To be written
 
 - Category: Neutrinos
   Heatmap: Experimental Nuclear and Particle Physics
   Description: >-
+    To be written
 
 - Category: Nuclear Decays
   Heatmap: Experimental Nuclear and Particle Physics
   Description: >-
+    To be written
 
 - Category: Quantum Chromodynamics
   Heatmap: Theoretical Nuclear and Particle Physics
   Description: >-
-
+    To be written
 
 - Category: Quantum Gravity
   Heatmap: Theoretical Nuclear and Particle Physics
   Description: >-
+    To be written
 
 - Category: Quantum Field Theories
   Heatmap: Theoretical Nuclear and Particle Physics
   Description: >-
-
+    To be written
+    
 - Category: Spin Correlation in Particle Decays
   Heatmap: Spin Correlation in Particle Decays
   Description: >-
-
+    To be written
+    
 - Category: Statistical Analysis
   Heatmap: Experimental Nuclear and Particle Physics
   Description: >-
-
+    To be written
+    
 - Category: Schwinger Model
   Heatmap: Lattice Field Theories
   Description: >-
     Developed by Julian Schwinger in 1962, the Schwinger model is a 1+1 dimensional quantum field theory that describes quantum electrodynamics (QED), the theory of light (photons) interacting with charged particles (electrons and positrons). 
     
-    The Schwinger model is an exactly solvable model that exhibits several important features of quantum field theories, such as confinement, chiral symmetry breaking, and the generation of mass for gauge bosons. In the Schwinger model, the photon acquires a mass through the mechanism of dynamical mass generation, which is a non-perturbative effect arising from the interactions between the charged particles and the gauge field. This mass generation is a consequence of the axial anomaly in 1+1 dimensions, which leads to the breaking of chiral symmetry and results in a massive photon. The Schwinger model serves as a valuable theoretical laboratory for studying various aspects of quantum field theories, including confinement, mass generation, and non-perturbative phenomena, providing insights that can be applied to more complex theories such as quantum chromodynamics (QCD).
-
-
     References:
       - Gauge Invariance and Mass. II: https://journals.aps.org/pr/abstract/10.1103/PhysRev.128.2425
 
 - Category: Track Reconstruction
   Heatmap: Experimental Nuclear and Particle Physics
   Description: >-
-    
+    To be written
 ---
 - Category: Reviews
   Heatmap: Reviews and Whitepapers
   Description: >-
     The references below are (static) reviews in applications of quantum
     information science to particle physics.
+
 - Category: Whitepapers and Proceedings
   Heatmap: Reviews and Whitepapers
   Description: >-
     The references below are whitepapers in applications of quantum information
     science to particle physics. Note that the majority of the references are
     from the Snowmass Community Planning Exercises.
+
 - Category: Continuous Variable Quantum Computing
   Heatmap: Quantum Algorithms
   Description: >-
@@ -257,26 +272,33 @@
   Heatmap: Quantum Entanglement and Bell Inequalities
   Description: >-
     One of the main features of quantum information processing is quantum entanglement. Entanglement is the quantum version of correlation between quantum systems that has no classical analogue. 
-  
+
+    References: 
+
 - Category: Quantum Generative Adversarial Networks
   Heatmap: Hybrid Quantum-Classical Methods, Quantum Machine Learning, and Quantum-Inspired Algorithms
   Description: >-
-    
+    To be written
+
 - Category: Quantum Kernel Methods
   Heatmap: Hybrid Quantum-Classical Methods, Quantum Machine Learning, and Quantum-Inspired Algorithms
   Description: >-
+    To be written
 
 - Category: Quantum k-Means
   Heatmap: Hybrid Quantum-Classical Methods, Quantum Machine Learning, and Quantum-Inspired Algorithms
   Description: >-
+    To be written
 
 - Category: Quantum Memory
   Heatmap: Quantum Algorithms
   Description: >-
+    To be written
 
 - Category: Quantum Neural Networks
   Heatmap: Hybrid Quantum-Classical Methods, Quantum Machine Learning, and Quantum-Inspired Algorithms
   Description: >-
+    To be written
 
 - Category: Quantum Sensors - Atomic Sensors
   Heatmap: Quantum Sensors
@@ -291,6 +313,7 @@
 
 
     References: 
+
 - Category: Quantum Sensors - Molecular Sensors
   Heatmap: Quantum Sensors
   Description: >-
@@ -300,13 +323,14 @@
 
 
     References:
-      - 
+      
 - Category: Quantum Sensors - Nuclear Sensors
   Heatmap: Quantum Sensors
   Description: >-
     A list of nuclear sensors include:
       (1) Nuclear clocks
       (2) Nuclear spin ensembles
+
 - Category: Quantum Sensors - Optical/Photonic Sensors
   Heatmap: Quantum Sensors
   Description: >-  
@@ -315,12 +339,14 @@
       (2) Optical cavities
       (3) Superconducting radio frequency cavities
       (4) Squeezed-light interferometers
+
 - Category: Quantum Sensors - Optomechanical Sensors
   Heatmap: Quantum Sensors
   Description: >-
     A list of optical/photonic sensors include:
       (1) Mechanical sensors
       (2) Levitated sensors
+
 - Category: Quantum Sensors - Solid State Sensors
   Heatmap: Quantum Sensors
   Description: >-
@@ -331,13 +357,16 @@
       (2) Quantum dots
       (3) Superconducting Quantum Interference Devices (SQUIDs)
       (4) Superconducting qubits measuring quantum excitations
+
 - Category: Quantum Simulations
   Heatmap: Quantum Simulations
   Description: >-
+    To be written
 
 - Category: Tensor Networks
   Heatmap: Hybrid Quantum-Classical Methods, Quantum Machine Learning, and Quantum-Inspired Algorithms
   Description: >-
+    To be written
     
 - Category: Variational Quantum Algorithms
   Heatmap: Hybrid Quantum-Classical Methods, Quantum Machine Learning, and Quantum-Inspired Algorithms

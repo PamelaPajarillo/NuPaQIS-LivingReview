@@ -234,6 +234,15 @@ def get_dataframe(yaml_file, categories_hep, categories_qis):
     # Compress dataframe with useful information
     df = df[["ID", "title", "authors", "authors_url", "eprint", "doi", "eprint_url", "doi_url", "inspirehep_url", "Publish_Info_md", "Publish_Info_latex",
              "NUPA_Primary", "NUPA_Secondary", "QIS_Primary", "QIS_Secondary", "bibtex_tag", "bibtex", "year"]]
+    
+    # Check for identical bibtex entries
+    if df['bibtex'].duplicated().any():
+        duplicated_bibtex = df[df['bibtex'].duplicated()]['ID'].tolist()
+        print("Warning: The following IDs have identical BibTeX entries in the YAML file:")
+        for dup_id in duplicated_bibtex:
+            print(f"- {dup_id}")
+        sys.exit(1)
+
     return df
 
 def get_categories(yaml_file):
@@ -359,7 +368,7 @@ def list_subcategories_to_md(OUTPUT_FILE_MAIN, subcategories, description, run_t
         elif (category == 'Reviews'):
             OUTPUT_FILE_MAIN.write("<details>\n")
             OUTPUT_FILE_MAIN.write("<summary> <b>Reviews, Whitepapers, and Proceedings: </b> <a href=\"/BY_%s/README.md#textbfreviews-and-whitepapers\"> Link to Papers </a>  <code>Expand for Description</code> </summary>\n\n" % (run_type))
-            OUTPUT_FILE_MAIN.write("\n\nThe references below contain (static) reviews and whitepapers listed in applications of quantum information science to particle physics. Note that the majority of the references are from the Snowmass Community Planning Exercises." )
+            OUTPUT_FILE_MAIN.write("\n\nThe references below contain (static) reviews and whitepapers listed in applications of quantum information science to particle physics. Note that the majority of the references are from the Snowmass Community Planning Exercises.\n" )
             OUTPUT_FILE_MAIN.write("</details>")
         else:
             continue

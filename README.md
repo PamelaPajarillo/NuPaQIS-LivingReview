@@ -1,6 +1,6 @@
 # A Living Review of Quantum Information Science in Nuclear and Particle Physics
 
-![Static Badge](https://img.shields.io/badge/Number_of_Papers-238-blue) [![DOWNLOAD_PDF](https://img.shields.io/badge/Download-PDF_Version-81b7df)](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/PamelaPajarillo/NUPAQIS-LivingReview/main/NUPAQIS.pdf) [![Preprint Draft for arXiV](https://img.shields.io/badge/arXiV_Post-TBA-blue)](https://www.overleaf.com/read/wkqcjgwhfwpb#e5842a)
+![Static Badge](https://img.shields.io/badge/Number_of_Papers-237-blue) [![DOWNLOAD_PDF](https://img.shields.io/badge/Download-PDF_Version-81b7df)](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/PamelaPajarillo/NUPAQIS-LivingReview/main/NUPAQIS.pdf) [![Preprint Draft for arXiV](https://img.shields.io/badge/arXiV_Post-TBA-blue)](https://www.overleaf.com/read/wkqcjgwhfwpb#e5842a)
 
 Authors: Pamela Pajarillo, So Chigusa, Sokratis Trifinopoulos, Jesse Thaler 
  
@@ -21,7 +21,8 @@ The NuPa and QIS topics and a plot of the papers by NuPaQIS are listed below.
 
 
 
-The references below contain (static) reviews and whitepapers listed in applications of quantum information science to particle physics. Note that the majority of the references are from the Snowmass Community Planning Exercises.</details><details>
+The references below contain (static) reviews and whitepapers listed in applications of quantum information science to particle physics. Note that the majority of the references are from the Snowmass Community Planning Exercises.
+</details><details>
 <summary> <b>Anomaly Detection: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53danomaly-detection"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -38,8 +39,8 @@ References:
 The Standard Model (SM) of particle physics is a theory that describes the fundamental particles and their interactions: electromagnetic, weak, and strong forces. It has been extensively tested and confirmed through numerous experiments over the past several decades, most notably the discovery of the Higgs boson in 2012. However, the Standard Model fails to explain several phenomena, necessitating the proposal of Beyond the Standard Model (BSM) physics. From the theoretical side, the SM cannot integrate Einstein's Theory of General Relativity, which explains gravity, the fourth fundamental interaction, in a mathematically consistent, united framework. On the phenomenological side, the SM cannot account for Dark Energy, which causes the accelerating expansion of the universe, or Dark Matter (DM), which constitutes about 85\% of the matter in the universe but remains non-observable due to its weakly interacting nature. The SM also lacks a mechanism to explain the observed abundance of matter over antimatter in the universe or the generation of non-vanishing, yet tiny, neutrino masses, the existence of which can be inferred by the phenomenon of neutrino oscillations. To deal with these major puzzles, the theoretical physics community refines the existing high-precision SM calculations and proposes various BSM extensions. At the same time, experimental collaborations are pursuing the quest of hunting down any potential evidence towards deviations from the SM predictions. The new experiments include both high-energy direct searches for new particles at colliders as well as the low-energy frontier of high-precision measurements. 
 
 References:
-  - Goldberg, Dave. The Standard Model in a Nutshell. Princeton University Press, 2017.
-  - Quantum Field Theory and the Standard Model, Matthew D. Schwartz, Cambridge U. Press, 2014.</details><details>
+  (1) Goldberg, Dave. The Standard Model in a Nutshell. Princeton University Press, 2017.
+  (2) Quantum Field Theory and the Standard Model, Matthew D. Schwartz, Cambridge U. Press, 2014.</details><details>
 <summary> <b>Dark Matter - Particle-like Dark Matter: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53ddark-matter---particle-like-dark-matter"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -75,18 +76,17 @@ A list of article-like dark matter candidates include:
   (2) Compact Composite Objects: 
   (3) Q-balls:
 
-References:
-  - </details><details>
+References:</details><details>
 <summary> <b>Detector Technologies and Simulations: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53ddetector-technologies-and-simulations"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-</details><details>
+To be written</details><details>
 <summary> <b>Effective Field Theories: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53deffective-field-theories"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-</details><details>
+To be written</details><details>
 <summary> <b>Event Classification: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53devent-classification"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -105,88 +105,87 @@ References:
 
 
 
-</details><details>
+To be written</details><details>
 <summary> <b>Gravitation and Astrophysics: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dgravitation-and-astrophysics"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-</details><details>
+To be written</details><details>
 <summary> <b>Higgs Physics: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dhiggs-physics"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-</details><details>
+To be written</details><details>
 <summary> <b>Jet Reconstruction: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53djet-reconstruction"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
 A jet is reconstructed from energy deposits in the calorimeter and tracks in the tracking detector that are clustered together using a jet algorithm.  The workflow of jet reconstruction can be broadly divided into three main steps: 1) Jet Clustering: cluster jets with a jet algorithm; 2) Jet Tagging, and 3) Jet Identification
 
-References:</details><details>
+References:
+  - Towards Jetography: https://arxiv.org/pdf/0906.1833</details><details>
 <summary> <b>Lattice Scalar Theories: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dlattice-scalar-theories"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-</details><details>
+To be written</details><details>
 <summary> <b>Lattice Fermion Theories: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dlattice-fermion-theories"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-</details><details>
+To be written</details><details>
 <summary> <b>Lattice Gauge Theories: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dlattice-gauge-theories"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-</details><details>
+To be written</details><details>
 <summary> <b>Neutrinos: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dneutrinos"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-</details><details>
+To be written</details><details>
 <summary> <b>Nuclear Decays: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dnuclear-decays"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-</details><details>
+To be written</details><details>
 <summary> <b>Quantum Chromodynamics: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dquantum-chromodynamics"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-</details><details>
+To be written</details><details>
 <summary> <b>Quantum Gravity: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dquantum-gravity"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-</details><details>
+To be written</details><details>
 <summary> <b>Quantum Field Theories: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dquantum-field-theories"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-</details><details>
+To be written</details><details>
 <summary> <b>Spin Correlation in Particle Decays: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dspin-correlation-in-particle-decays"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-</details><details>
+To be written</details><details>
 <summary> <b>Statistical Analysis: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dstatistical-analysis"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-</details><details>
+To be written</details><details>
 <summary> <b>Schwinger Model: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dschwinger-model"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
 Developed by Julian Schwinger in 1962, the Schwinger model is a 1+1 dimensional quantum field theory that describes quantum electrodynamics (QED), the theory of light (photons) interacting with charged particles (electrons and positrons). 
-The Schwinger model is an exactly solvable model that exhibits several important features of quantum field theories, such as confinement, chiral symmetry breaking, and the generation of mass for gauge bosons. In the Schwinger model, the photon acquires a mass through the mechanism of dynamical mass generation, which is a non-perturbative effect arising from the interactions between the charged particles and the gauge field. This mass generation is a consequence of the axial anomaly in 1+1 dimensions, which leads to the breaking of chiral symmetry and results in a massive photon. The Schwinger model serves as a valuable theoretical laboratory for studying various aspects of quantum field theories, including confinement, mass generation, and non-perturbative phenomena, providing insights that can be applied to more complex theories such as quantum chromodynamics (QCD).
-
 References:
   - Gauge Invariance and Mass. II: https://journals.aps.org/pr/abstract/10.1103/PhysRev.128.2425</details><details>
 <summary> <b>Track Reconstruction: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dtrack-reconstruction"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-</details>
+To be written</details>
 
 ##  $\textbf{\color{#9BC53D}{Quantum Information Science (QIS) Topics}}$
 
@@ -195,7 +194,8 @@ References:
 
 
 
-The references below contain (static) reviews and whitepapers listed in applications of quantum information science to particle physics. Note that the majority of the references are from the Snowmass Community Planning Exercises.</details><details>
+The references below contain (static) reviews and whitepapers listed in applications of quantum information science to particle physics. Note that the majority of the references are from the Snowmass Community Planning Exercises.
+</details><details>
 <summary> <b>Continuous Variable Quantum Computing: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebcontinuous-variable-quantum-computing"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -243,32 +243,33 @@ References:
 
 
 
-One of the main features of quantum information processing is quantum entanglement. Entanglement is the quantum version of correlation between quantum systems that has no classical analogue. </details><details>
+One of the main features of quantum information processing is quantum entanglement. Entanglement is the quantum version of correlation between quantum systems that has no classical analogue. 
+References: </details><details>
 <summary> <b>Quantum Generative Adversarial Networks: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-generative-adversarial-networks"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-</details><details>
+To be written</details><details>
 <summary> <b>Quantum Kernel Methods: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-kernel-methods"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-</details><details>
+To be written</details><details>
 <summary> <b>Quantum k-Means: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-k-means"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-</details><details>
+To be written</details><details>
 <summary> <b>Quantum Memory: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-memory"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-</details><details>
+To be written</details><details>
 <summary> <b>Quantum Neural Networks: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-neural-networks"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-</details><details>
+To be written</details><details>
 <summary> <b>Quantum Sensors - Atomic Sensors: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-sensors---atomic-sensors"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -293,7 +294,7 @@ A list of molecular sensors include:
 
 
 References:
-  - </details><details>
+  </details><details>
 <summary> <b>Quantum Sensors - Nuclear Sensors: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-sensors---nuclear-sensors"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -331,12 +332,12 @@ A list of solid state sensors include:
 
 
 
-</details><details>
+To be written</details><details>
 <summary> <b>Tensor Networks: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebtensor-networks"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-</details><details>
+To be written</details><details>
 <summary> <b>Variational Quantum Algorithms: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebvariational-quantum-algorithms"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
