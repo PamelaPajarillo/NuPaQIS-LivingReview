@@ -41,7 +41,7 @@
 + <strong>Posted on <a href="https://arxiv.org/abs/2312.14190">arXiv:2312.14190</a>:</strong> 20 December 2023 
 + <strong>Published in <a href="https://doi.org/10.1016/j.revip.2024.100091">Reviews in Physics, vol. 12, 2024, 100091</a>:</strong> 18 January 2024</details>
 
-###  $\textbf{Whitepapers \space and \space Proceedings}$ 
+###  $\textbf{Whitepapers and Proceedings}$ 
 
 <details>
 <summary> (2018) <b>Quantum Sensing for High Energy Physics</b> [<a href="https://arxiv.org/abs/1803.11306">arXiv</a>] [<a href="https://inspirehep.net/literature/1665450">INSPIRE</a>] <code>Expand</code><br> </summary>

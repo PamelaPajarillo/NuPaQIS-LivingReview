@@ -406,7 +406,7 @@ def write_papers_to_md(df, output_file, categories_main, categories_sub, main_ty
                         output_file.write("###  $\\textbf{{\color{#9BC53D}%s}}$ \n\n" % (sub_category))
 
                 else:
-                    output_file.write("###  $\\textbf{%s}$ \n\n" % (sub_category.replace(" ", " \space ")))
+                    output_file.write("###  $\\textbf{%s}$ \n\n" % (sub_category))
 
                 # Formatting and write to file
                 for paper in papers:

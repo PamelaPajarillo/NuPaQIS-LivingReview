@@ -39,8 +39,8 @@ References:
 The Standard Model (SM) of particle physics is a theory that describes the fundamental particles and their interactions: electromagnetic, weak, and strong forces. It has been extensively tested and confirmed through numerous experiments over the past several decades, most notably the discovery of the Higgs boson in 2012. However, the Standard Model fails to explain several phenomena, necessitating the proposal of Beyond the Standard Model (BSM) physics. From the theoretical side, the SM cannot integrate Einstein's Theory of General Relativity, which explains gravity, the fourth fundamental interaction, in a mathematically consistent, united framework. On the phenomenological side, the SM cannot account for Dark Energy, which causes the accelerating expansion of the universe, or Dark Matter (DM), which constitutes about 85\% of the matter in the universe but remains non-observable due to its weakly interacting nature. The SM also lacks a mechanism to explain the observed abundance of matter over antimatter in the universe or the generation of non-vanishing, yet tiny, neutrino masses, the existence of which can be inferred by the phenomenon of neutrino oscillations. To deal with these major puzzles, the theoretical physics community refines the existing high-precision SM calculations and proposes various BSM extensions. At the same time, experimental collaborations are pursuing the quest of hunting down any potential evidence towards deviations from the SM predictions. The new experiments include both high-energy direct searches for new particles at colliders as well as the low-energy frontier of high-precision measurements. 
 
 References:
-  (1) Goldberg, Dave. The Standard Model in a Nutshell. Princeton University Press, 2017.
-  (2) Quantum Field Theory and the Standard Model, Matthew D. Schwartz, Cambridge U. Press, 2014.</details><details>
+  - Goldberg, Dave. The Standard Model in a Nutshell. Princeton University Press, 2017.
+  - Quantum Field Theory and the Standard Model, Matthew D. Schwartz, Cambridge U. Press, 2014.</details><details>
 <summary> <b>Dark Matter - Particle-like Dark Matter: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53ddark-matter---particle-like-dark-matter"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -53,7 +53,8 @@ A list of particle-like dark matter candidates include:
   (5) Sterile Neutrinos:
 
 
-References:</details><details>
+References:
+  - Dark Matter Review: https://arxiv.org/abs/2406.01705</details><details>
 <summary> <b>Dark Matter - Wave-like Dark Matter: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53ddark-matter---wave-like-dark-matter"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -64,7 +65,8 @@ A list of article-like dark matter candidates include:
   (3) Fuzzy Dark Matter:
   (4) Dark Photons (ultralight):
 
-References:
+  References:
+  - Dark Matter Review: https://arxiv.org/abs/2406.01705
   - Axion Dark Matter: What is it and Why Now? https://arxiv.org/abs/2105.01406
   - PDG Review on Axions and Axion-like Particles https://pdg.lbl.gov/2024/reviews/rpp2024-rev-axions.pdf</details><details>
 <summary> <b>Dark Matter - Macroscopic Dark Matter: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53ddark-matter---macroscopic-dark-matter"> Link to Papers </a>  <code>Expand for Description</code> </summary>
@@ -76,22 +78,32 @@ A list of article-like dark matter candidates include:
   (2) Compact Composite Objects: 
   (3) Q-balls:
 
-References:</details><details>
+References:
+  - Dark Matter Review: https://arxiv.org/abs/2406.01705</details><details>
 <summary> <b>Detector Technologies and Simulations: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53ddetector-technologies-and-simulations"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-To be written</details><details>
+To be written
+
+References:
+  - </details><details>
 <summary> <b>Effective Field Theories: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53deffective-field-theories"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-To be written</details><details>
+To be written
+
+References:
+  - </details><details>
 <summary> <b>Event Classification: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53devent-classification"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-Signal and background classification for particle physics events.</details><details>
+Signal and background classification for particle physics events.
+
+References:
+  - </details><details>
 <summary> <b>Event Generation: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53devent-generation"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -105,75 +117,121 @@ References:
 
 
 
-To be written</details><details>
+To be written
+
+References:
+  - </details><details>
 <summary> <b>Gravitation and Astrophysics: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dgravitation-and-astrophysics"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-To be written</details><details>
+To be written
+
+References:
+  - </details><details>
 <summary> <b>Higgs Physics: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dhiggs-physics"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-To be written</details><details>
+To be written
+
+References:
+  - </details><details>
 <summary> <b>Jet Reconstruction: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53djet-reconstruction"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
 
 
 
 A jet is reconstructed from energy deposits in the calorimeter and tracks in the tracking detector that are clustered together using a jet algorithm.  The workflow of jet reconstruction can be broadly divided into three main steps: 1) Jet Clustering: cluster jets with a jet algorithm; 2) Jet Tagging, and 3) Jet Identification
 
 References:
-  - Towards Jetography: https://arxiv.org/pdf/0906.1833</details><details>
+  - Towards Jetography: https://arxiv.org/pdf/0906.1833
+  - </details><details>
 <summary> <b>Lattice Scalar Theories: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dlattice-scalar-theories"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-To be written</details><details>
+To be written
+
+References:
+  - </details><details>
 <summary> <b>Lattice Fermion Theories: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dlattice-fermion-theories"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-To be written</details><details>
+To be written
+
+References:
+  - </details><details>
 <summary> <b>Lattice Gauge Theories: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dlattice-gauge-theories"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-To be written</details><details>
+To be written
+
+References:
+  - 
+  </details><details>
 <summary> <b>Neutrinos: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dneutrinos"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-To be written</details><details>
+To be written
+
+References:
+  - </details><details>
 <summary> <b>Nuclear Decays: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dnuclear-decays"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-To be written</details><details>
+To be written
+
+References:
+  - 
+  </details><details>
 <summary> <b>Quantum Chromodynamics: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dquantum-chromodynamics"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-To be written</details><details>
+To be written
+
+References:
+  - 
+  </details><details>
 <summary> <b>Quantum Gravity: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dquantum-gravity"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-To be written</details><details>
+To be written
+
+References:
+  - </details><details>
 <summary> <b>Quantum Field Theories: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dquantum-field-theories"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-To be written</details><details>
+To be written
+
+References:
+  - 
+  </details><details>
 <summary> <b>Spin Correlation in Particle Decays: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dspin-correlation-in-particle-decays"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-To be written</details><details>
+To be written
+
+References:
+  - 
+  </details><details>
 <summary> <b>Statistical Analysis: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dstatistical-analysis"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-To be written</details><details>
+To be written
+
+References:
+  - </details><details>
 <summary> <b>Schwinger Model: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dschwinger-model"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -185,7 +243,11 @@ References:
 
 
 
-To be written</details>
+To be written
+
+References:
+  - 
+  </details>
 
 ##  $\textbf{\color{#9BC53D}{Quantum Information Science (QIS) Topics}}$
 
@@ -244,32 +306,43 @@ References:
 
 
 One of the main features of quantum information processing is quantum entanglement. Entanglement is the quantum version of correlation between quantum systems that has no classical analogue. 
-References: </details><details>
+References: 
+  - </details><details>
 <summary> <b>Quantum Generative Adversarial Networks: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-generative-adversarial-networks"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-To be written</details><details>
+To be written
+References
+  -</details><details>
 <summary> <b>Quantum Kernel Methods: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-kernel-methods"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-To be written</details><details>
+To be written
+References
+  -</details><details>
 <summary> <b>Quantum k-Means: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-k-means"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-To be written</details><details>
+To be written
+References
+  -</details><details>
 <summary> <b>Quantum Memory: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-memory"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-To be written</details><details>
+To be written
+References
+  -</details><details>
 <summary> <b>Quantum Neural Networks: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-neural-networks"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-To be written</details><details>
+To be written
+References
+  -</details><details>
 <summary> <b>Quantum Sensors - Atomic Sensors: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-sensors---atomic-sensors"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -283,7 +356,8 @@ A list of atomic sensors include:
   (6) Penning traps
 
 
-References: </details><details>
+References
+  -</details><details>
 <summary> <b>Quantum Sensors - Molecular Sensors: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-sensors---molecular-sensors"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -293,15 +367,19 @@ A list of molecular sensors include:
   (2) Trapped molecules 
 
 
-References:
-  </details><details>
+References
+  -</details><details>
 <summary> <b>Quantum Sensors - Nuclear Sensors: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-sensors---nuclear-sensors"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
 A list of nuclear sensors include:
   (1) Nuclear clocks
-  (2) Nuclear spin ensembles</details><details>
+  (2) Nuclear spin ensembles
+
+References
+  - 
+  </details><details>
 <summary> <b>Quantum Sensors - Optical/Photonic Sensors: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-sensors---optical/photonic-sensors"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -310,14 +388,22 @@ A list of optical/photonic sensors include:
   (1) Superconducting qubits measuring electomagnetic fields
   (2) Optical cavities
   (3) Superconducting radio frequency cavities
-  (4) Squeezed-light interferometers</details><details>
+  (4) Squeezed-light interferometers
+
+
+References
+  -</details><details>
 <summary> <b>Quantum Sensors - Optomechanical Sensors: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-sensors---optomechanical-sensors"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
 A list of optical/photonic sensors include:
   (1) Mechanical sensors
-  (2) Levitated sensors</details><details>
+  (2) Levitated sensors
+
+
+References
+  -</details><details>
 <summary> <b>Quantum Sensors - Solid State Sensors: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-sensors---solid-state-sensors"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -327,22 +413,32 @@ A list of solid state sensors include:
   (1) Nitrogen-vacancy centers
   (2) Quantum dots
   (3) Superconducting Quantum Interference Devices (SQUIDs)
-  (4) Superconducting qubits measuring quantum excitations</details><details>
+  (4) Superconducting qubits measuring quantum excitations
+
+
+References
+  -</details><details>
 <summary> <b>Quantum Simulations: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-simulations"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-To be written</details><details>
+To be written
+References
+  -</details><details>
 <summary> <b>Tensor Networks: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebtensor-networks"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-To be written</details><details>
+To be written
+References
+  -</details><details>
 <summary> <b>Variational Quantum Algorithms: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebvariational-quantum-algorithms"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-Variational Quantum Algorithms (VQAs) are hybrid quantum-classical algorithms that find approximate solutions to optimization problems. VQAs starts with a parameterized quantum circuit (PQC) where the parameters are optimized by a classical optimizer to minimize (or maximize) a cost function. </details>
+Variational Quantum Algorithms (VQAs) are hybrid quantum-classical algorithms that find approximate solutions to optimization problems. VQAs starts with a parameterized quantum circuit (PQC) where the parameters are optimized by a classical optimizer to minimize (or maximize) a cost function. 
+References
+  -</details>
 
 ## Number of Papers in NuPaQIS
 

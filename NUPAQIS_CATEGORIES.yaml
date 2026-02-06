@@ -29,8 +29,9 @@
 
 
     References:
-      (1) Goldberg, Dave. The Standard Model in a Nutshell. Princeton University Press, 2017.
-      (2) Quantum Field Theory and the Standard Model, Matthew D. Schwartz, Cambridge U. Press, 2014.
+      - Goldberg, Dave. The Standard Model in a Nutshell. Princeton University Press, 2017.
+      - Quantum Field Theory and the Standard Model, Matthew D. Schwartz, Cambridge U. Press, 2014.
+
 - Category: Dark Matter - Particle-like Dark Matter
   Heatmap: Dark Matter
   Description: >-
@@ -43,6 +44,7 @@
     
     
     References:
+      - Dark Matter Review: https://arxiv.org/abs/2406.01705
 
 - Category: Dark Matter - Wave-like Dark Matter
   Heatmap: Dark Matter
@@ -53,7 +55,8 @@
       (3) Fuzzy Dark Matter:
       (4) Dark Photons (ultralight):
 
-    References:
+      References:
+      - Dark Matter Review: https://arxiv.org/abs/2406.01705
       - Axion Dark Matter: What is it and Why Now? https://arxiv.org/abs/2105.01406
       - PDG Review on Axions and Axion-like Particles https://pdg.lbl.gov/2024/reviews/rpp2024-rev-axions.pdf
 
@@ -66,21 +69,34 @@
       (3) Q-balls:
 
     References:
+      - Dark Matter Review: https://arxiv.org/abs/2406.01705
 
 - Category: Detector Technologies and Simulations
   Heatmap: Experimental Nuclear and Particle Physics
   Description: >-
     To be written
 
+
+    References:
+      - 
+
 - Category: Effective Field Theories
   Heatmap: Theoretical Nuclear and Particle Physics
   Description: >-
     To be written
 
+
+    References:
+      - 
+
 - Category: Event Classification
   Heatmap: Experimental Nuclear and Particle Physics
   Description: >-
     Signal and background classification for particle physics events.
+
+
+    References:
+      - 
 
 - Category: Event Generation
   Heatmap: Theoretical Nuclear and Particle Physics
@@ -105,17 +121,32 @@
   Description: >-
     To be written
 
+
+    References:
+      - 
+
 - Category: Gravitation and Astrophysics
   Heatmap: Experimental Nuclear and Particle Physics
   Description: >-
     To be written
+
+
+    References:
+      - 
+
 - Category: Higgs Physics
   Heatmap: Experimental Nuclear and Particle Physics
   Description: >-
     To be written
+
+
+    References:
+      - 
+
 - Category: Jet Reconstruction
   Heatmap: Experimental Nuclear and Particle Physics
   Description: >-
+    
     A jet is reconstructed from energy deposits in the calorimeter and tracks in the tracking detector that are clustered together using a jet algorithm. 
     The workflow of jet reconstruction can be broadly divided into three main steps:
     1) Jet Clustering: cluster jets with a jet algorithm; 2) Jet Tagging, and 3) Jet Identification
@@ -123,55 +154,97 @@
 
     References:
       - Towards Jetography: https://arxiv.org/pdf/0906.1833
+      - 
+
 - Category: Lattice Scalar Theories
   Heatmap: Lattice Field Theories
   Description: >-
     To be written
+
+
+    References:
+      - 
 
 - Category: Lattice Fermion Theories
   Heatmap: Lattice Field Theories
   Description: >-
     To be written
 
+
+    References:
+      - 
+
 - Category: Lattice Gauge Theories
   Heatmap: Lattice Field Theories
   Description: >-
     To be written
 
+
+    References:
+      - 
+      
 - Category: Neutrinos
   Heatmap: Experimental Nuclear and Particle Physics
   Description: >-
     To be written
+
+
+    References:
+      - 
 
 - Category: Nuclear Decays
   Heatmap: Experimental Nuclear and Particle Physics
   Description: >-
     To be written
 
+
+    References:
+      - 
+      
 - Category: Quantum Chromodynamics
   Heatmap: Theoretical Nuclear and Particle Physics
   Description: >-
     To be written
 
+
+    References:
+      - 
+      
 - Category: Quantum Gravity
   Heatmap: Theoretical Nuclear and Particle Physics
   Description: >-
     To be written
 
+
+    References:
+      - 
+
 - Category: Quantum Field Theories
   Heatmap: Theoretical Nuclear and Particle Physics
   Description: >-
     To be written
-    
+
+
+    References:
+      - 
+      
 - Category: Spin Correlation in Particle Decays
   Heatmap: Spin Correlation in Particle Decays
   Description: >-
     To be written
-    
+
+
+    References:
+      - 
+      
 - Category: Statistical Analysis
   Heatmap: Experimental Nuclear and Particle Physics
   Description: >-
     To be written
+
+
+    References:
+      - 
     
 - Category: Schwinger Model
   Heatmap: Lattice Field Theories
@@ -185,6 +258,11 @@
   Heatmap: Experimental Nuclear and Particle Physics
   Description: >-
     To be written
+
+
+    References:
+      - 
+      
 ---
 - Category: Reviews
   Heatmap: Reviews and Whitepapers
@@ -207,6 +285,7 @@
 
     References:
       - 
+
 - Category: Quantum Algorithms - Grover's Search Algorithm
   Heatmap: Quantum Algorithms
   Description: >-
@@ -216,6 +295,7 @@
     References:
       - Nielsen, Michael A., and Isaac L. Chuang. *Quantum Computation and Quantum Information*. 10th anniversary ed. [or 2nd ed.], Cambridge University Press, 2010.
       - Kaye, Phillip., Raymond Laflamme, and Michele Mosca. An Introduction to Quantum Computing. Oxford University Press, 2007.
+
 - Category: Quantum Algorithms - Harrow-Hassadim-Lloyd Algorithm
   Heatmap: Quantum Algorithms
   Description: >-
@@ -233,6 +313,7 @@
 
     References:
       - Quantum Random Walks - A Comprehensive Review: https://arxiv.org/abs/1201.4780
+
 - Category: Quantum Annealing
   Heatmap: Quantum Algorithms
   Description: >-
@@ -268,38 +349,55 @@
     References:
       - D-Wave Documentation: https://docs.dwavequantum.com/en/latest/quantum_research/quantum_annealing_intro.html
       - Quantum Annealing and Analog Quantum Computation: https://arxiv.org/abs/0801.2193
+
 - Category: Quantum Entanglement and Bell Inequalities
   Heatmap: Quantum Entanglement and Bell Inequalities
   Description: >-
     One of the main features of quantum information processing is quantum entanglement. Entanglement is the quantum version of correlation between quantum systems that has no classical analogue. 
 
     References: 
+      - 
 
 - Category: Quantum Generative Adversarial Networks
   Heatmap: Hybrid Quantum-Classical Methods, Quantum Machine Learning, and Quantum-Inspired Algorithms
   Description: >-
     To be written
 
+    References
+      -
+
 - Category: Quantum Kernel Methods
   Heatmap: Hybrid Quantum-Classical Methods, Quantum Machine Learning, and Quantum-Inspired Algorithms
   Description: >-
     To be written
 
+    References
+      -
+   
 - Category: Quantum k-Means
   Heatmap: Hybrid Quantum-Classical Methods, Quantum Machine Learning, and Quantum-Inspired Algorithms
   Description: >-
     To be written
 
+    References
+      -
+   
 - Category: Quantum Memory
   Heatmap: Quantum Algorithms
   Description: >-
     To be written
 
+    References
+      -
+   
 - Category: Quantum Neural Networks
   Heatmap: Hybrid Quantum-Classical Methods, Quantum Machine Learning, and Quantum-Inspired Algorithms
   Description: >-
     To be written
 
+    References
+      -
+   
 - Category: Quantum Sensors - Atomic Sensors
   Heatmap: Quantum Sensors
   Description: >-
@@ -312,8 +410,9 @@
       (6) Penning traps
 
 
-    References: 
-
+    References
+      -
+   
 - Category: Quantum Sensors - Molecular Sensors
   Heatmap: Quantum Sensors
   Description: >-
@@ -322,8 +421,9 @@
       (2) Trapped molecules 
 
 
-    References:
-      
+    References
+      -
+   
 - Category: Quantum Sensors - Nuclear Sensors
   Heatmap: Quantum Sensors
   Description: >-
@@ -331,6 +431,9 @@
       (1) Nuclear clocks
       (2) Nuclear spin ensembles
 
+    References
+      - 
+      
 - Category: Quantum Sensors - Optical/Photonic Sensors
   Heatmap: Quantum Sensors
   Description: >-  
@@ -339,7 +442,11 @@
       (2) Optical cavities
       (3) Superconducting radio frequency cavities
       (4) Squeezed-light interferometers
-
+    
+    
+    References
+      -
+   
 - Category: Quantum Sensors - Optomechanical Sensors
   Heatmap: Quantum Sensors
   Description: >-
@@ -347,6 +454,10 @@
       (1) Mechanical sensors
       (2) Levitated sensors
 
+
+    References
+      -
+   
 - Category: Quantum Sensors - Solid State Sensors
   Heatmap: Quantum Sensors
   Description: >-
@@ -358,16 +469,26 @@
       (3) Superconducting Quantum Interference Devices (SQUIDs)
       (4) Superconducting qubits measuring quantum excitations
 
+
+    References
+      -
+   
 - Category: Quantum Simulations
   Heatmap: Quantum Simulations
   Description: >-
     To be written
 
+    References
+      -
+   
 - Category: Tensor Networks
   Heatmap: Hybrid Quantum-Classical Methods, Quantum Machine Learning, and Quantum-Inspired Algorithms
   Description: >-
     To be written
-    
+
+    References
+      -
+   
 - Category: Variational Quantum Algorithms
   Heatmap: Hybrid Quantum-Classical Methods, Quantum Machine Learning, and Quantum-Inspired Algorithms
   Description: >-
@@ -376,3 +497,7 @@
     VQAs starts with a parameterized quantum circuit (PQC) where the parameters
     are optimized by a classical optimizer to minimize (or maximize) a cost
     function. 
+    
+    References
+      -
+   
