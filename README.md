@@ -1,8 +1,9 @@
 # A Living Review of Quantum Information Science in Nuclear and Particle Physics
 
-![Static Badge](https://img.shields.io/badge/Number_of_Papers-237-blue) [![DOWNLOAD_PDF](https://img.shields.io/badge/Download-PDF_Version-81b7df)](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/PamelaPajarillo/NUPAQIS-LivingReview/main/NUPAQIS.pdf) [![Preprint Draft for arXiV](https://img.shields.io/badge/arXiV_Post-TBA-blue)](https://www.overleaf.com/read/wkqcjgwhfwpb#e5842a)
+[![DOWNLOAD_PDF](https://img.shields.io/badge/Download-PDF_Version-81b7df)](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/PamelaPajarillo/NUPAQIS-LivingReview/main/NUPAQIS.pdf) [![Preprint Draft for arXiV](https://img.shields.io/badge/arXiV_Post-TBA-blue)](https://www.overleaf.com/read/wkqcjgwhfwpb#e5842a)
 
 Authors: Pamela Pajarillo, So Chigusa, Sokratis Trifinopoulos, Jesse Thaler 
+Number of Papers: 237 
  
 *Inspired by <a href="https://iml-wg.github.io/HEPML-LivingReview/">"A Living Review of Machine Learning for High Energy Physics"</a>, the goal of this repository is to provide an extensive list of citations for those developing and applying quantum information approaches to experimental, phenomenological, or theoretical analyses.  Applications of quantum information science to high energy physics is a relatively new field of research.  This repository will be updated as often as possible with the relevant literature.  Suggestions are most welcome.*
 
@@ -22,7 +23,9 @@ The NuPa and QIS topics and a plot of the papers by NuPaQIS are listed below.
 
 
 The references below contain (static) reviews and whitepapers listed in applications of quantum information science to particle physics. Note that the majority of the references are from the Snowmass Community Planning Exercises.
-</details><details>
+</details>
+
+<details>
 <summary> <b>Anomaly Detection: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53danomaly-detection"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -31,7 +34,10 @@ Searching for new particles is one of the main goals of high energy physics. Typ
 
 References:
   - Anomaly Detection Section in HEPML-LivingReview: https://iml-wg.github.io/HEPML-LivingReview/#anomaly-detection
-  - Machine Learning for Anomaly Detection in Particle Physics: https://arxiv.org/abs/2312.14190</details><details>
+  - Machine Learning for Anomaly Detection in Particle Physics: https://arxiv.org/abs/2312.14190
+</details>
+
+<details>
 <summary> <b>Beyond the Standard Model: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dbeyond-the-standard-model"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -40,7 +46,10 @@ The Standard Model (SM) of particle physics is a theory that describes the funda
 
 References:
   - Goldberg, Dave. The Standard Model in a Nutshell. Princeton University Press, 2017.
-  - Quantum Field Theory and the Standard Model, Matthew D. Schwartz, Cambridge U. Press, 2014.</details><details>
+  - Quantum Field Theory and the Standard Model, Matthew D. Schwartz, Cambridge U. Press, 2014.
+</details>
+
+<details>
 <summary> <b>Dark Matter - Particle-like Dark Matter: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53ddark-matter---particle-like-dark-matter"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -54,7 +63,10 @@ A list of particle-like dark matter candidates include:
 
 
 References:
-  - Dark Matter Review: https://arxiv.org/abs/2406.01705</details><details>
+  - Dark Matter Review: https://arxiv.org/abs/2406.01705
+</details>
+
+<details>
 <summary> <b>Dark Matter - Wave-like Dark Matter: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53ddark-matter---wave-like-dark-matter"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -68,7 +80,10 @@ A list of article-like dark matter candidates include:
   References:
   - Dark Matter Review: https://arxiv.org/abs/2406.01705
   - Axion Dark Matter: What is it and Why Now? https://arxiv.org/abs/2105.01406
-  - PDG Review on Axions and Axion-like Particles https://pdg.lbl.gov/2024/reviews/rpp2024-rev-axions.pdf</details><details>
+  - PDG Review on Axions and Axion-like Particles https://pdg.lbl.gov/2024/reviews/rpp2024-rev-axions.pdf
+</details>
+
+<details>
 <summary> <b>Dark Matter - Macroscopic Dark Matter: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53ddark-matter---macroscopic-dark-matter"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -79,7 +94,10 @@ A list of article-like dark matter candidates include:
   (3) Q-balls:
 
 References:
-  - Dark Matter Review: https://arxiv.org/abs/2406.01705</details><details>
+  - Dark Matter Review: https://arxiv.org/abs/2406.01705
+</details>
+
+<details>
 <summary> <b>Detector Technologies and Simulations: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53ddetector-technologies-and-simulations"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -87,7 +105,10 @@ References:
 To be written
 
 References:
-  - </details><details>
+  - TBA
+</details>
+
+<details>
 <summary> <b>Effective Field Theories: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53deffective-field-theories"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -95,7 +116,10 @@ References:
 To be written
 
 References:
-  - </details><details>
+  - TBA
+</details>
+
+<details>
 <summary> <b>Event Classification: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53devent-classification"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -103,7 +127,10 @@ References:
 Signal and background classification for particle physics events.
 
 References:
-  - </details><details>
+  - TBA
+</details>
+
+<details>
 <summary> <b>Event Generation: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53devent-generation"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -112,7 +139,10 @@ An event is the outcome of a collision between two incoming particles, or the ou
 
 References:
   - Herwig++ Physics and Manual: https://arxiv.org/abs/0803.0883
-  - A comprehensive guide to the physics and usage of PYTHIA 8.3: https://arxiv.org/abs/2203.11601</details><details>
+  - A comprehensive guide to the physics and usage of PYTHIA 8.3: https://arxiv.org/abs/2203.11601
+</details>
+
+<details>
 <summary> <b>Fundamental Symmetries and Interactions: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dfundamental-symmetries-and-interactions"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -120,7 +150,10 @@ References:
 To be written
 
 References:
-  - </details><details>
+  - TBA
+</details>
+
+<details>
 <summary> <b>Gravitation and Astrophysics: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dgravitation-and-astrophysics"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -128,7 +161,10 @@ References:
 To be written
 
 References:
-  - </details><details>
+  - TBA
+</details>
+
+<details>
 <summary> <b>Higgs Physics: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dhiggs-physics"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -136,7 +172,10 @@ References:
 To be written
 
 References:
-  - </details><details>
+  - TBA
+</details>
+
+<details>
 <summary> <b>Jet Reconstruction: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53djet-reconstruction"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -146,7 +185,9 @@ A jet is reconstructed from energy deposits in the calorimeter and tracks in the
 
 References:
   - Towards Jetography: https://arxiv.org/pdf/0906.1833
-  - </details><details>
+</details>
+
+<details>
 <summary> <b>Lattice Scalar Theories: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dlattice-scalar-theories"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -154,7 +195,10 @@ References:
 To be written
 
 References:
-  - </details><details>
+  - TBA
+</details>
+
+<details>
 <summary> <b>Lattice Fermion Theories: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dlattice-fermion-theories"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -162,7 +206,10 @@ References:
 To be written
 
 References:
-  - </details><details>
+  - TBA
+</details>
+
+<details>
 <summary> <b>Lattice Gauge Theories: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dlattice-gauge-theories"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -170,8 +217,11 @@ References:
 To be written
 
 References:
-  - 
-  </details><details>
+  - TBA
+  
+</details>
+
+<details>
 <summary> <b>Neutrinos: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dneutrinos"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -179,7 +229,10 @@ References:
 To be written
 
 References:
-  - </details><details>
+  - TBA
+</details>
+
+<details>
 <summary> <b>Nuclear Decays: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dnuclear-decays"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -187,8 +240,11 @@ References:
 To be written
 
 References:
-  - 
-  </details><details>
+  - TBA
+  
+</details>
+
+<details>
 <summary> <b>Quantum Chromodynamics: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dquantum-chromodynamics"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -196,8 +252,11 @@ References:
 To be written
 
 References:
-  - 
-  </details><details>
+  - TBA
+  
+</details>
+
+<details>
 <summary> <b>Quantum Gravity: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dquantum-gravity"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -205,7 +264,10 @@ References:
 To be written
 
 References:
-  - </details><details>
+  - TBA
+</details>
+
+<details>
 <summary> <b>Quantum Field Theories: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dquantum-field-theories"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -213,8 +275,11 @@ References:
 To be written
 
 References:
-  - 
-  </details><details>
+  - TBA
+  
+</details>
+
+<details>
 <summary> <b>Spin Correlation in Particle Decays: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dspin-correlation-in-particle-decays"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -222,8 +287,11 @@ References:
 To be written
 
 References:
-  - 
-  </details><details>
+  - TBA
+  
+</details>
+
+<details>
 <summary> <b>Statistical Analysis: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dstatistical-analysis"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -231,14 +299,21 @@ References:
 To be written
 
 References:
-  - </details><details>
+  - TBA
+</details>
+
+<details>
 <summary> <b>Schwinger Model: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dschwinger-model"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
 Developed by Julian Schwinger in 1962, the Schwinger model is a 1+1 dimensional quantum field theory that describes quantum electrodynamics (QED), the theory of light (photons) interacting with charged particles (electrons and positrons). 
+
 References:
-  - Gauge Invariance and Mass. II: https://journals.aps.org/pr/abstract/10.1103/PhysRev.128.2425</details><details>
+  - Gauge Invariance and Mass. II: https://journals.aps.org/pr/abstract/10.1103/PhysRev.128.2425
+</details>
+
+<details>
 <summary> <b>Track Reconstruction: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dtrack-reconstruction"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -246,8 +321,11 @@ References:
 To be written
 
 References:
-  - 
-  </details>
+  - TBA
+  
+</details>
+
+
 
 ##  $\textbf{\color{#9BC53D}{Quantum Information Science (QIS) Topics}}$
 
@@ -257,7 +335,9 @@ References:
 
 
 The references below contain (static) reviews and whitepapers listed in applications of quantum information science to particle physics. Note that the majority of the references are from the Snowmass Community Planning Exercises.
-</details><details>
+</details>
+
+<details>
 <summary> <b>Continuous Variable Quantum Computing: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebcontinuous-variable-quantum-computing"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -265,7 +345,10 @@ The references below contain (static) reviews and whitepapers listed in applicat
 Continuous variable quantum computing is a quantum computing paradigm that uses a large number of modes of the harmonic oscillator, which can be represented as $\ket{\psi} = \int \,dx\, \psi(x) \ket{x} $, whereas discrete variable quantum computing uses discrete number of quantum bits, for example, a qubit can be represented as $\ket{\psi} = c_0 \ket{0} + c_1 \ket{1}$.
 
 References:
-  - </details><details>
+  - TBA
+</details>
+
+<details>
 <summary> <b>Quantum Algorithms - Grover's Search Algorithm: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-algorithms---grover's-search-algorithm"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -274,7 +357,10 @@ The quantum search algorithm, also known as Grover's algorithm, performs a gener
 
 References:
   - Nielsen, Michael A., and Isaac L. Chuang. *Quantum Computation and Quantum Information*. 10th anniversary ed. [or 2nd ed.], Cambridge University Press, 2010.
-  - Kaye, Phillip., Raymond Laflamme, and Michele Mosca. An Introduction to Quantum Computing. Oxford University Press, 2007.</details><details>
+  - Kaye, Phillip., Raymond Laflamme, and Michele Mosca. An Introduction to Quantum Computing. Oxford University Press, 2007.
+</details>
+
+<details>
 <summary> <b>Quantum Algorithms - Harrow-Hassadim-Lloyd Algorithm: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-algorithms---harrow-hassadim-lloyd-algorithm"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -283,7 +369,10 @@ The Harrow-Hassadim-Lloyd (HHL) algorithm is a quantum algorithm for solving sys
 
 References:
   - Harrow, Aram W., Avinatan Hassidim, and Seth Lloyd. "Quantum algorithm for linear systems of equations": 
-  - Zaman, Anika, Hector Jose Morrell, and Hiu Yung Wong. "A step-by-step HHL algorithm walkthrough to enhance understanding of critical quantum computing concepts.": </details><details>
+  - Zaman, Anika, Hector Jose Morrell, and Hiu Yung Wong. "A step-by-step HHL algorithm walkthrough to enhance understanding of critical quantum computing concepts.": 
+</details>
+
+<details>
 <summary> <b>Quantum Algorithms - Quantum Walks: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-algorithms---quantum-walks"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -291,7 +380,10 @@ References:
 A random walk is a random process that describes a path that consists of a sequence of steps that are determined randomly. An example of a one dimensional discrete random walk is a random walk on the integer number line starting at $0$, and each step moves $+1$ or $-1$ with an equal probability, which is analogous to flipping a coin then, depending on the outcome, move forward or backwards on the number line. This can be described as a Markov chain, a sequence of random variables with the property that the probability of moving to the next step only depends on the current step and not the previous step, i.e. $p(X_{n+1} = x | X_1 = x_1, X_2 = x_2, \ldots) = p(X_{n+1} = x | X_n = x_n)$. This can be extended to higher dimensions. An example of a continuous random walk is Brownian motion, the random motion of particles in a medium. The quantum discrete random walk defines the movement of a walker in position basis, $\mathcal{H}_P = \{ \ket{i} : i \in \mathbb{Z} \}$, controlled by the coin in the spin-$\frac{1}{2}$ basis, $\mathcal{H}_C = \{\ket{\uparrow}, \ket{\downarrow}\}$. The translation of the walker can be represented by the unitary operator $T = \sum \ket{i + 1} \bra{i} \otimes \ket{\uparrow} \bra{\uparrow} + \sum \ket{i-1} \bra{k} \otimes \ket{\downarrow} \bra{\downarrow} $, where the index $i$ runs over $\mathcal{Z}$. Therefore, $T \ket{i} \ket{\uparrow} = \ket{i + 1} \ket{\uparrow}$ and $T \ket{i} \ket{\downarrow} = \ket{i-1} \ket{\downarrow}$. A single step of the random walk is constructed from a coin flip unitary operation $C$ and the translation operator, $T$. Therefore, a single step can be represented as a unitary operator $U = T \cdot (C \otimes \mathbb{I})$. An $N$-step quantum walk is defined by $U^N$. In the quantum random walk, the coin register is not measured during each step. This introduces interference, which is drastically different from the classical random walk.
 
 References:
-  - Quantum Random Walks - A Comprehensive Review: https://arxiv.org/abs/1201.4780</details><details>
+  - Quantum Random Walks - A Comprehensive Review: https://arxiv.org/abs/1201.4780
+</details>
+
+<details>
 <summary> <b>Quantum Annealing: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-annealing"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -300,7 +392,10 @@ Quantum annealing is a quantum computing method used to solve optimization probl
 
 References:
   - D-Wave Documentation: https://docs.dwavequantum.com/en/latest/quantum_research/quantum_annealing_intro.html
-  - Quantum Annealing and Analog Quantum Computation: https://arxiv.org/abs/0801.2193</details><details>
+  - Quantum Annealing and Analog Quantum Computation: https://arxiv.org/abs/0801.2193
+</details>
+
+<details>
 <summary> <b>Quantum Entanglement and Bell Inequalities: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-entanglement-and-bell-inequalities"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -308,47 +403,65 @@ References:
 One of the main features of quantum information processing is quantum entanglement. Entanglement is the quantum version of correlation between quantum systems that has no classical analogue. 
 
 References: 
-  - </details><details>
+  - TBA
+</details>
+
+<details>
 <summary> <b>Quantum Generative Adversarial Networks: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-generative-adversarial-networks"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
 To be written
 
-References
-  -</details><details>
+References:
+  - TBA
+</details>
+
+<details>
 <summary> <b>Quantum Kernel Methods: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-kernel-methods"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
 To be written
 
-References
-  -</details><details>
+References:
+  - TBA
+</details>
+
+<details>
 <summary> <b>Quantum k-Means: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-k-means"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
 To be written
 
-References
-  -</details><details>
+References:
+  - TBA
+</details>
+
+<details>
 <summary> <b>Quantum Memory: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-memory"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
 To be written
 
-References
-  -</details><details>
+References:
+  - TBA
+</details>
+
+<details>
 <summary> <b>Quantum Neural Networks: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-neural-networks"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
 To be written
 
-References
-  -</details><details>
+References:
+  - TBA
+</details>
+
+<details>
 <summary> <b>Quantum Sensors - Atomic Sensors: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-sensors---atomic-sensors"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -362,8 +475,11 @@ A list of atomic sensors include:
   (6) Penning traps
 
 
-References
-  -</details><details>
+References:
+  - TBA
+</details>
+
+<details>
 <summary> <b>Quantum Sensors - Molecular Sensors: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-sensors---molecular-sensors"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -373,8 +489,11 @@ A list of molecular sensors include:
   (2) Trapped molecules 
 
 
-References
-  -</details><details>
+References:
+  - TBA
+</details>
+
+<details>
 <summary> <b>Quantum Sensors - Nuclear Sensors: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-sensors---nuclear-sensors"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -384,8 +503,11 @@ A list of nuclear sensors include:
   (2) Nuclear spin ensembles
 
 
-References
-  - </details><details>
+References:
+  - TBA
+</details>
+
+<details>
 <summary> <b>Quantum Sensors - Optical/Photonic Sensors: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-sensors---optical/photonic-sensors"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -397,8 +519,11 @@ A list of optical/photonic sensors include:
   (4) Squeezed-light interferometers
 
 
-References
-  -</details><details>
+References:
+  - TBA
+</details>
+
+<details>
 <summary> <b>Quantum Sensors - Optomechanical Sensors: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-sensors---optomechanical-sensors"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -408,8 +533,11 @@ A list of optical/photonic sensors include:
   (2) Levitated sensors
 
 
-References
-  -</details><details>
+References:
+  - TBA
+</details>
+
+<details>
 <summary> <b>Quantum Sensors - Solid State Sensors: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-sensors---solid-state-sensors"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -422,32 +550,44 @@ A list of solid state sensors include:
   (4) Superconducting qubits measuring quantum excitations
 
 
-References
-  -</details><details>
+References:
+  - TBA
+</details>
+
+<details>
 <summary> <b>Quantum Simulations: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-simulations"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
 To be written
 
-References
-  -</details><details>
+References:
+  - TBA
+</details>
+
+<details>
 <summary> <b>Tensor Networks: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebtensor-networks"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
 To be written
 
-References
-  -</details><details>
+References:
+  - TBA
+</details>
+
+<details>
 <summary> <b>Variational Quantum Algorithms: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebvariational-quantum-algorithms"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
 Variational Quantum Algorithms (VQAs) are hybrid quantum-classical algorithms that find approximate solutions to optimization problems. VQAs starts with a parameterized quantum circuit (PQC) where the parameters are optimized by a classical optimizer to minimize (or maximize) a cost function. 
 
-References
-  -</details>
+References:
+  - TBA
+</details>
+
+
 
 ## Number of Papers in NuPaQIS
 

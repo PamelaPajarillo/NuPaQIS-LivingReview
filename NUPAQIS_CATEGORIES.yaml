@@ -78,7 +78,7 @@
 
 
     References:
-      - 
+      - TBA
 
 - Category: Effective Field Theories
   Heatmap: Theoretical Nuclear and Particle Physics
@@ -87,7 +87,7 @@
 
 
     References:
-      - 
+      - TBA
 
 - Category: Event Classification
   Heatmap: Experimental Nuclear and Particle Physics
@@ -96,7 +96,7 @@
 
 
     References:
-      - 
+      - TBA
 
 - Category: Event Generation
   Heatmap: Theoretical Nuclear and Particle Physics
@@ -123,7 +123,7 @@
 
 
     References:
-      - 
+      - TBA
 
 - Category: Gravitation and Astrophysics
   Heatmap: Experimental Nuclear and Particle Physics
@@ -132,7 +132,7 @@
 
 
     References:
-      - 
+      - TBA
 
 - Category: Higgs Physics
   Heatmap: Experimental Nuclear and Particle Physics
@@ -141,7 +141,7 @@
 
 
     References:
-      - 
+      - TBA
 
 - Category: Jet Reconstruction
   Heatmap: Experimental Nuclear and Particle Physics
@@ -154,7 +154,6 @@
 
     References:
       - Towards Jetography: https://arxiv.org/pdf/0906.1833
-      - 
 
 - Category: Lattice Scalar Theories
   Heatmap: Lattice Field Theories
@@ -163,7 +162,7 @@
 
 
     References:
-      - 
+      - TBA
 
 - Category: Lattice Fermion Theories
   Heatmap: Lattice Field Theories
@@ -172,7 +171,7 @@
 
 
     References:
-      - 
+      - TBA
 
 - Category: Lattice Gauge Theories
   Heatmap: Lattice Field Theories
@@ -181,7 +180,7 @@
 
 
     References:
-      - 
+      - TBA
       
 - Category: Neutrinos
   Heatmap: Experimental Nuclear and Particle Physics
@@ -190,7 +189,7 @@
 
 
     References:
-      - 
+      - TBA
 
 - Category: Nuclear Decays
   Heatmap: Experimental Nuclear and Particle Physics
@@ -199,7 +198,7 @@
 
 
     References:
-      - 
+      - TBA
       
 - Category: Quantum Chromodynamics
   Heatmap: Theoretical Nuclear and Particle Physics
@@ -208,7 +207,7 @@
 
 
     References:
-      - 
+      - TBA
       
 - Category: Quantum Gravity
   Heatmap: Theoretical Nuclear and Particle Physics
@@ -217,7 +216,7 @@
 
 
     References:
-      - 
+      - TBA
 
 - Category: Quantum Field Theories
   Heatmap: Theoretical Nuclear and Particle Physics
@@ -226,7 +225,7 @@
 
 
     References:
-      - 
+      - TBA
       
 - Category: Spin Correlation in Particle Decays
   Heatmap: Spin Correlation in Particle Decays
@@ -235,7 +234,7 @@
 
 
     References:
-      - 
+      - TBA
       
 - Category: Statistical Analysis
   Heatmap: Experimental Nuclear and Particle Physics
@@ -244,12 +243,13 @@
 
 
     References:
-      - 
+      - TBA
     
 - Category: Schwinger Model
   Heatmap: Lattice Field Theories
   Description: >-
     Developed by Julian Schwinger in 1962, the Schwinger model is a 1+1 dimensional quantum field theory that describes quantum electrodynamics (QED), the theory of light (photons) interacting with charged particles (electrons and positrons). 
+    
     
     References:
       - Gauge Invariance and Mass. II: https://journals.aps.org/pr/abstract/10.1103/PhysRev.128.2425
@@ -261,7 +261,7 @@
 
 
     References:
-      - 
+      - TBA
       
 ---
 - Category: Reviews
@@ -284,7 +284,7 @@
 
 
     References:
-      - 
+      - TBA
 
 - Category: Quantum Algorithms - Grover's Search Algorithm
   Heatmap: Quantum Algorithms
@@ -305,6 +305,7 @@
     References:
       - Harrow, Aram W., Avinatan Hassidim, and Seth Lloyd. "Quantum algorithm for linear systems of equations": 
       - Zaman, Anika, Hector Jose Morrell, and Hiu Yung Wong. "A step-by-step HHL algorithm walkthrough to enhance understanding of critical quantum computing concepts.": 
+
 - Category: Quantum Algorithms - Quantum Walks
   Heatmap: Quantum Algorithms
   Description: >-
@@ -357,7 +358,7 @@
 
 
     References: 
-      - 
+      - TBA
 
 - Category: Quantum Generative Adversarial Networks
   Heatmap: Hybrid Quantum-Classical Methods, Quantum Machine Learning, and Quantum-Inspired Algorithms
@@ -365,8 +366,8 @@
     To be written
 
 
-    References
-      -
+    References:
+      - TBA
 
 - Category: Quantum Kernel Methods
   Heatmap: Hybrid Quantum-Classical Methods, Quantum Machine Learning, and Quantum-Inspired Algorithms
@@ -374,8 +375,8 @@
     To be written
 
 
-    References
-      -
+    References:
+      - TBA
    
 - Category: Quantum k-Means
   Heatmap: Hybrid Quantum-Classical Methods, Quantum Machine Learning, and Quantum-Inspired Algorithms
@@ -383,8 +384,8 @@
     To be written
 
 
-    References
-      -
+    References:
+      - TBA
    
 - Category: Quantum Memory
   Heatmap: Quantum Algorithms
@@ -392,8 +393,8 @@
     To be written
 
 
-    References
-      -
+    References:
+      - TBA
    
 - Category: Quantum Neural Networks
   Heatmap: Hybrid Quantum-Classical Methods, Quantum Machine Learning, and Quantum-Inspired Algorithms
@@ -401,8 +402,8 @@
     To be written
 
 
-    References
-      -
+    References:
+      - TBA
    
 - Category: Quantum Sensors - Atomic Sensors
   Heatmap: Quantum Sensors
@@ -416,8 +417,8 @@
       (6) Penning traps
 
 
-    References
-      -
+    References:
+      - TBA
    
 - Category: Quantum Sensors - Molecular Sensors
   Heatmap: Quantum Sensors
@@ -427,8 +428,8 @@
       (2) Trapped molecules 
 
 
-    References
-      -
+    References:
+      - TBA
    
 - Category: Quantum Sensors - Nuclear Sensors
   Heatmap: Quantum Sensors
@@ -438,8 +439,8 @@
       (2) Nuclear spin ensembles
 
 
-    References
-      - 
+    References:
+      - TBA
 
 - Category: Quantum Sensors - Optical/Photonic Sensors
   Heatmap: Quantum Sensors
@@ -451,8 +452,8 @@
       (4) Squeezed-light interferometers
     
     
-    References
-      -
+    References:
+      - TBA
    
 - Category: Quantum Sensors - Optomechanical Sensors
   Heatmap: Quantum Sensors
@@ -462,8 +463,8 @@
       (2) Levitated sensors
 
 
-    References
-      -
+    References:
+      - TBA
    
 - Category: Quantum Sensors - Solid State Sensors
   Heatmap: Quantum Sensors
@@ -477,8 +478,8 @@
       (4) Superconducting qubits measuring quantum excitations
 
 
-    References
-      -
+    References:
+      - TBA
    
 - Category: Quantum Simulations
   Heatmap: Quantum Simulations
@@ -486,8 +487,8 @@
     To be written
 
 
-    References
-      -
+    References:
+      - TBA
    
 - Category: Tensor Networks
   Heatmap: Hybrid Quantum-Classical Methods, Quantum Machine Learning, and Quantum-Inspired Algorithms
@@ -495,8 +496,8 @@
     To be written
 
 
-    References
-      -
+    References:
+      - TBA
    
 - Category: Variational Quantum Algorithms
   Heatmap: Hybrid Quantum-Classical Methods, Quantum Machine Learning, and Quantum-Inspired Algorithms
@@ -508,7 +509,6 @@
     function. 
     
 
-    References
-      -
-   
+    References:
+      - TBA
    
