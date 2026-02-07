@@ -355,6 +355,7 @@
   Description: >-
     One of the main features of quantum information processing is quantum entanglement. Entanglement is the quantum version of correlation between quantum systems that has no classical analogue. 
 
+
     References: 
       - 
 
@@ -362,6 +363,7 @@
   Heatmap: Hybrid Quantum-Classical Methods, Quantum Machine Learning, and Quantum-Inspired Algorithms
   Description: >-
     To be written
+
 
     References
       -
@@ -371,6 +373,7 @@
   Description: >-
     To be written
 
+
     References
       -
    
@@ -378,6 +381,7 @@
   Heatmap: Hybrid Quantum-Classical Methods, Quantum Machine Learning, and Quantum-Inspired Algorithms
   Description: >-
     To be written
+
 
     References
       -
@@ -387,6 +391,7 @@
   Description: >-
     To be written
 
+
     References
       -
    
@@ -394,6 +399,7 @@
   Heatmap: Hybrid Quantum-Classical Methods, Quantum Machine Learning, and Quantum-Inspired Algorithms
   Description: >-
     To be written
+
 
     References
       -
@@ -431,9 +437,10 @@
       (1) Nuclear clocks
       (2) Nuclear spin ensembles
 
+
     References
       - 
-      
+
 - Category: Quantum Sensors - Optical/Photonic Sensors
   Heatmap: Quantum Sensors
   Description: >-  
@@ -478,6 +485,7 @@
   Description: >-
     To be written
 
+
     References
       -
    
@@ -485,6 +493,7 @@
   Heatmap: Hybrid Quantum-Classical Methods, Quantum Machine Learning, and Quantum-Inspired Algorithms
   Description: >-
     To be written
+
 
     References
       -
@@ -498,6 +507,8 @@
     are optimized by a classical optimizer to minimize (or maximize) a cost
     function. 
     
+
     References
       -
+   
    
