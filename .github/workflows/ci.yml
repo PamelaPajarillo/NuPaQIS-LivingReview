@@ -6,6 +6,7 @@ on:
   # Run daily at 0:01 UTC
   schedule:
   - cron:  '1 0 * * *'
+  - uses: kevincobain2000/action-camo-purge@v1
 
 jobs:
   test:

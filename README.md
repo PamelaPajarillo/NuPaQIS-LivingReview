@@ -306,6 +306,7 @@ References:
 
 
 One of the main features of quantum information processing is quantum entanglement. Entanglement is the quantum version of correlation between quantum systems that has no classical analogue. 
+
 References: 
   - </details><details>
 <summary> <b>Quantum Generative Adversarial Networks: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-generative-adversarial-networks"> Link to Papers </a>  <code>Expand for Description</code> </summary>
@@ -313,6 +314,7 @@ References:
 
 
 To be written
+
 References
   -</details><details>
 <summary> <b>Quantum Kernel Methods: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-kernel-methods"> Link to Papers </a>  <code>Expand for Description</code> </summary>
@@ -320,6 +322,7 @@ References
 
 
 To be written
+
 References
   -</details><details>
 <summary> <b>Quantum k-Means: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-k-means"> Link to Papers </a>  <code>Expand for Description</code> </summary>
@@ -327,6 +330,7 @@ References
 
 
 To be written
+
 References
   -</details><details>
 <summary> <b>Quantum Memory: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-memory"> Link to Papers </a>  <code>Expand for Description</code> </summary>
@@ -334,6 +338,7 @@ References
 
 
 To be written
+
 References
   -</details><details>
 <summary> <b>Quantum Neural Networks: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-neural-networks"> Link to Papers </a>  <code>Expand for Description</code> </summary>
@@ -341,6 +346,7 @@ References
 
 
 To be written
+
 References
   -</details><details>
 <summary> <b>Quantum Sensors - Atomic Sensors: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-sensors---atomic-sensors"> Link to Papers </a>  <code>Expand for Description</code> </summary>
@@ -377,9 +383,9 @@ A list of nuclear sensors include:
   (1) Nuclear clocks
   (2) Nuclear spin ensembles
 
+
 References
-  - 
-  </details><details>
+  - </details><details>
 <summary> <b>Quantum Sensors - Optical/Photonic Sensors: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-sensors---optical/photonic-sensors"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -423,6 +429,7 @@ References
 
 
 To be written
+
 References
   -</details><details>
 <summary> <b>Tensor Networks: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebtensor-networks"> Link to Papers </a>  <code>Expand for Description</code> </summary>
@@ -430,6 +437,7 @@ References
 
 
 To be written
+
 References
   -</details><details>
 <summary> <b>Variational Quantum Algorithms: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebvariational-quantum-algorithms"> Link to Papers </a>  <code>Expand for Description</code> </summary>
@@ -437,6 +445,7 @@ References
 
 
 Variational Quantum Algorithms (VQAs) are hybrid quantum-classical algorithms that find approximate solutions to optimization problems. VQAs starts with a parameterized quantum circuit (PQC) where the parameters are optimized by a classical optimizer to minimize (or maximize) a cost function. 
+
 References
   -</details>
 

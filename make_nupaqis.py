@@ -20,7 +20,7 @@ OUTPUT_FILE_QIS = open("BY_QIS/README.md","w")
 
 # ***** MAIN MD -----------------------------------------------------------------------
 OUTPUT_FILE_MAIN.write("# A Living Review of Quantum Information Science in Nuclear and Particle Physics\n\n")
-OUTPUT_FILE_MAIN.write("![Static Badge](https://img.shields.io/badge/Number_of_Papers-%s-blue?v=2)" % (str(len(df))))
+OUTPUT_FILE_MAIN.write("![Static Badge](https://img.shields.io/badge/Number_of_Papers-%s-blue) " % (str(len(df))))
 OUTPUT_FILE_MAIN.write("[![DOWNLOAD_PDF](https://img.shields.io/badge/Download-PDF_Version-81b7df)](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/PamelaPajarillo/NUPAQIS-LivingReview/main/NUPAQIS.pdf) ")
 OUTPUT_FILE_MAIN.write("[![Preprint Draft for arXiV](https://img.shields.io/badge/arXiV_Post-TBA-blue)](https://www.overleaf.com/read/wkqcjgwhfwpb#e5842a)\n\n")
 
