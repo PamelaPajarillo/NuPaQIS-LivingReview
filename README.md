@@ -3,7 +3,8 @@
 [![DOWNLOAD_PDF](https://img.shields.io/badge/Download-PDF_Version-81b7df)](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/PamelaPajarillo/NUPAQIS-LivingReview/main/NUPAQIS.pdf) [![Preprint Draft for arXiV](https://img.shields.io/badge/arXiV_Post-TBA-blue)](https://www.overleaf.com/read/wkqcjgwhfwpb#e5842a)
 
 Authors: Pamela Pajarillo, So Chigusa, Sokratis Trifinopoulos, Jesse Thaler 
-Number of Papers: 237 
+ 
+Number of Papers: 236 
  
 *Inspired by <a href="https://iml-wg.github.io/HEPML-LivingReview/">"A Living Review of Machine Learning for High Energy Physics"</a>, the goal of this repository is to provide an extensive list of citations for those developing and applying quantum information approaches to experimental, phenomenological, or theoretical analyses.  Applications of quantum information science to high energy physics is a relatively new field of research.  This repository will be updated as often as possible with the relevant literature.  Suggestions are most welcome.*
 
@@ -34,6 +35,7 @@ Searching for new particles is one of the main goals of high energy physics. Typ
 
 References:
   - Anomaly Detection Section in HEPML-LivingReview: https://iml-wg.github.io/HEPML-LivingReview/#anomaly-detection
+  - Anomaly Detection for Physics Analysis and Less than Supervised Learning: https://arxiv.org/pdf/2010.14554
   - Machine Learning for Anomaly Detection in Particle Physics: https://arxiv.org/abs/2312.14190
 </details>
 
@@ -143,17 +145,6 @@ References:
 </details>
 
 <details>
-<summary> <b>Fundamental Symmetries and Interactions: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dfundamental-symmetries-and-interactions"> Link to Papers </a>  <code>Expand for Description</code> </summary>
-
-
-
-To be written
-
-References:
-  - TBA
-</details>
-
-<details>
 <summary> <b>Gravitation and Astrophysics: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dgravitation-and-astrophysics"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -180,11 +171,11 @@ References:
 
 
 
-
-A jet is reconstructed from energy deposits in the calorimeter and tracks in the tracking detector that are clustered together using a jet algorithm.  The workflow of jet reconstruction can be broadly divided into three main steps: 1) Jet Clustering: cluster jets with a jet algorithm; 2) Jet Tagging, and 3) Jet Identification
+In high-energy particle collisions, jets are a collection of collimated hadrons and other particles produced by the hadronization of quarks and gluons. Since quarks and gluons carry color charge, they cannot exist as free particles due to QCD confinement. Instead, they fragment and hadronize, resulting in a spray of energetic hadrons, which we define as jets. Jet reconstruction is the procedure used to group these final-state particles into composite objects, and by measuring their direction and energy, we can infer the properties of the original partons. Jet reconstruction is typically done using clustering algorithms such as anti-$k_T$, $k_T$, or Cambridge/Aachen. Reconstructed jets are fundamental observables in collider physics, and its properties are used to probe the underlying physics processes in high-energy collisions. 
 
 References:
   - Towards Jetography: https://arxiv.org/pdf/0906.1833
+  - Exploring jets: substructure and flavour tagging in CMS and ATLAS: https://arxiv.org/abs/2410.14330
 </details>
 
 <details>
@@ -223,17 +214,6 @@ References:
 
 <details>
 <summary> <b>Neutrinos: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dneutrinos"> Link to Papers </a>  <code>Expand for Description</code> </summary>
-
-
-
-To be written
-
-References:
-  - TBA
-</details>
-
-<details>
-<summary> <b>Nuclear Decays: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dnuclear-decays"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
@@ -289,17 +269,6 @@ To be written
 References:
   - TBA
   
-</details>
-
-<details>
-<summary> <b>Statistical Analysis: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dstatistical-analysis"> Link to Papers </a>  <code>Expand for Description</code> </summary>
-
-
-
-To be written
-
-References:
-  - TBA
 </details>
 
 <details>
@@ -388,7 +357,7 @@ References:
 
 
 
-Quantum annealing is a quantum computing method used to solve optimization problems. It is currently the only quantum computing paradigm that enables architectures with large number of qubits, such as D-Wave Systems' Pegasus quantum processor chip with 5000 qubits. Quantum annealers solve very specific optimization problems called Quadratic Unconstrained Binary Optimization (QUBO) problems. The QUBO problem consists of finding a binary string that is minimal with respect to a quadratic polynomial over binary variables. The main challenge is to rephrase the loss function to a QUBO problem, which is equivalent to finding the ground state of a corresponding Ising model, whose Hamiltonian is given by $H(\sigma) = \sum_{i,j=1}^{n}J_{ij} s_i s_j + \sum_{i=1}^{n} h_i s_i$ where $s_i \in \{-1, +1\}$ are the spin values, and $h_i$ and $J_{ij}$ are adjustable constants that represents biases and coupling strengths, respectively. The Hamiltonian of the quantum version of the Ising model, the transverse field Ising model, is given by $ H_f = \sum_{i,j = 1}^{n}J_{ij}\sigma_{i}^{z}\sigma_{j}^{z} + \sum_{i}^{n}h_i\sigma_{i}^{z} $ where $\sigma_{i}^{z}$ is the Pauli-$Z$ acting on qubit $i$. In quantum annealing, one initializes the system in the ground state of the initial Hamiltonian $H_i$, given by $$ H_i = \sum_{i=1}^{n}\sigma_{i}^{x} $$ corresponding to the state $(\ket{0} + \ket{1})^{\otimes n}$. The quantum adiabatic theorem states that if the transition between two Hamiltonians is gradual, the system will stay in the ground state. After initializing the system, it slowly evolves by changing the Hamiltonian given by $$ H(t) = \left(1 - \frac{t}{T}\right)H_i + \frac{t}{T} H_f $$ where $T$ is the total time in the annealing process. Measuring the final state after the anneal will give the solution to the QUBO problem, since the final system is in an eigenstate of $H_f$. 
+Quantum annealing is a quantum computing method used to solve optimization problems. It is currently the only quantum computing paradigm that enables architectures with large number of qubits, such as D-Wave Systems' Pegasus quantum processor chip with 5000 qubits. Quantum annealers solve very specific optimization problems called Quadratic Unconstrained Binary Optimization (QUBO) problems. The QUBO problem consists of finding a binary string that is minimal with respect to a quadratic polynomial over binary variables. The main challenge is to rephrase the loss function to a QUBO problem, which is equivalent to finding the ground state of a corresponding Ising model, whose Hamiltonian is given by $H(\sigma) = \sum_{i,j=1}^{n}J_{ij} s_i s_j + \sum_{i=1}^{n} h_i s_i$ where $s_i \in \{-1, +1\}$ are the spin values, and $h_i$ and $J_{ij}$ are adjustable constants that represents biases and coupling strengths, respectively. The Hamiltonian of the quantum version of the Ising model, the transverse field Ising model, is given by $ H_f = \sum_{i,j = 1}^{n}J_{ij}\sigma_{i}^{z}\sigma_{j}^{z} + \sum_{i}^{n}h_i\sigma_{i}^{z}$ where $\sigma_{i}^{z}$ is the Pauli-$Z$ acting on qubit $i$. In quantum annealing, one initializes the system in the ground state of the initial Hamiltonian $H_i$, given by $$ H_i = \sum_{i=1}^{n}\sigma_{i}^{x} $$ corresponding to the state $(\ket{0} + \ket{1})^{\otimes n}$. The quantum adiabatic theorem states that if the transition between two Hamiltonians is gradual, the system will stay in the ground state. After initializing the system, it slowly evolves by changing the Hamiltonian given by $$ H(t) = \left(1 - \frac{t}{T}\right)H_i + \frac{t}{T} H_f $$ where $T$ is the total time in the annealing process. Measuring the final state after the anneal will give the solution to the QUBO problem, since the final system is in an eigenstate of $H_f$. 
 
 References:
   - D-Wave Documentation: https://docs.dwavequantum.com/en/latest/quantum_research/quantum_annealing_intro.html

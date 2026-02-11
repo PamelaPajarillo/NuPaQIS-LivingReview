@@ -97,7 +97,7 @@
   NUPA_Categories: Lattice Gauge Theories
   QIS_Categories: Quantum Simulations
 - ID: 1750596
-  NUPA_Categories: Statistical Analysis
+  NUPA_Categories: Detector Technologies and Simulations
   QIS_Categories: Quantum Annealing
 - ID: 1751122
   NUPA_Categories: Jet Reconstruction
@@ -132,7 +132,7 @@
   NUPA_Categories: Schwinger Model
   QIS_Categories: Quantum Simulations
 - ID: 1783878
-  NUPA_Categories: Statistical Analysis, Anomaly Detection
+  NUPA_Categories: Anomaly Detection
   QIS_Categories: Quantum Annealing
 - ID: 1784053
   NUPA_Categories: Spin Correlation in Particle Decays
@@ -452,8 +452,7 @@
   NUPA_Categories: Lattice Gauge Theories
   QIS_Categories: Quantum Simulations
 - ID: 2169094
-  NUPA_Categories: Fundamental Symmetries and Interactions, Effective Field Theories,
-    Quantum Chromodynamics
+  NUPA_Categories: Effective Field Theories, Quantum Chromodynamics
   QIS_Categories: Quantum Entanglement and Bell Inequalities
 - ID: 2177375
   NUPA_Categories: Event Classification
@@ -499,8 +498,7 @@
   QIS_Categories: Variational Quantum Algorithms
 - ID: 2661224
   NUPA_Categories: Detector Technologies and Simulations, Gravitation and Astrophysics,
-    Neutrinos, Dark Matter - Wave-like Dark Matter, Gravitation and Astrophysics,
-    Fundamental Symmetries and Interactions
+    Neutrinos, Dark Matter - Wave-like Dark Matter, Gravitation and Astrophysics
   QIS_Categories: Quantum Sensors - Atomic Sensors, Quantum Sensors - Molecular Sensors,
     Quantum Sensors - Nuclear Sensors, Quantum Sensors - Optical/Photonic Sensors,
     Quantum Sensors - Optomechanical Sensors, Quantum Sensors - Solid State Sensors
@@ -554,7 +552,7 @@
 - ID: 2718883
   NUPA_Categories: Whitepapers and Proceedings, Dark Matter - Particle-like Dark Matter,
     Dark Matter - Wave-like Dark Matter, Quantum Gravity, Beyond the Standard Model,
-    Gravitation and Astrophysics, Fundamental Symmetries and Interactions
+    Gravitation and Astrophysics
   QIS_Categories: Whitepapers and Proceedings, Quantum Sensors - Atomic Sensors, Quantum
     Sensors - Molecular Sensors, Quantum Sensors - Nuclear Sensors, Quantum Sensors
     - Optical/Photonic Sensors, Quantum Sensors - Optomechanical Sensors, Quantum
@@ -613,9 +611,6 @@
 - ID: 2759081
   NUPA_Categories: Lattice Gauge Theories
   QIS_Categories: Quantum Simulations
-- ID: 2760397
-  NUPA_Categories: Nuclear Decays
-  QIS_Categories: Quantum Sensors - Optomechanical Sensors
 - ID: 2760751
   NUPA_Categories: Track Reconstruction
   QIS_Categories: Quantum Annealing
