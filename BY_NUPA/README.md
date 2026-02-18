@@ -878,10 +878,11 @@
 
 
 <details>
-<summary> (2025) <b>Multimessenger Astronomy Beyond the Standard Model: New Window from Quantum Sensors</b> [<a href="https://arxiv.org/abs/2502.08716">arXiv</a>] [<a href="https://inspirehep.net/literature/2879661">INSPIRE</a>] <code>Expand</code><br> </summary>
+<summary> (2025) <b>Multimessenger astronomy beyond the Standard Model: New window from quantum sensors</b> [<a href="https://arxiv.org/abs/2502.08716">arXiv</a>] [<a href="https://doi.org/10.1088/1475-7516/2026/02/026">DOI</a>] [<a href="https://inspirehep.net/literature/2879661">INSPIRE</a>] <code>Expand</code> </summary>
 
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1898823"> Jason Arakawa</a>, <a href="https://inspirehep.net/authors/3075464"> Muhammad H. Zaheer</a>, <a href="https://inspirehep.net/authors/1059400"> Volodymyr Takhistov</a>, <a href="https://inspirehep.net/authors/1896420"> Marianna S. Safronova</a>, <a href="https://inspirehep.net/authors/1497168"> Joshua Eby</a>, <a href="https://inspirehep.net/authors/2636641"> Charles Cheung</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2502.08716">arXiv:2502.08716</a>:</strong> 12 February 2025</details>
++ <strong>Posted on <a href="https://arxiv.org/abs/2502.08716">arXiv:2502.08716</a>:</strong> 12 February 2025 
++ <strong>Published in <a href="https://doi.org/10.1088/1475-7516/2026/02/026">JCAP</a>:</strong> 10 February 2026</details>
 
 
 
@@ -1466,10 +1467,11 @@
 + <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.108.084058">Phys.Rev.D</a>:</strong> 15 October 2023</details>
 
 <details>
-<summary> (2025) <b>Multimessenger Astronomy Beyond the Standard Model: New Window from Quantum Sensors</b> [<a href="https://arxiv.org/abs/2502.08716">arXiv</a>] [<a href="https://inspirehep.net/literature/2879661">INSPIRE</a>] <code>Expand</code><br> </summary>
+<summary> (2025) <b>Multimessenger astronomy beyond the Standard Model: New window from quantum sensors</b> [<a href="https://arxiv.org/abs/2502.08716">arXiv</a>] [<a href="https://doi.org/10.1088/1475-7516/2026/02/026">DOI</a>] [<a href="https://inspirehep.net/literature/2879661">INSPIRE</a>] <code>Expand</code> </summary>
 
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1898823"> Jason Arakawa</a>, <a href="https://inspirehep.net/authors/3075464"> Muhammad H. Zaheer</a>, <a href="https://inspirehep.net/authors/1059400"> Volodymyr Takhistov</a>, <a href="https://inspirehep.net/authors/1896420"> Marianna S. Safronova</a>, <a href="https://inspirehep.net/authors/1497168"> Joshua Eby</a>, <a href="https://inspirehep.net/authors/2636641"> Charles Cheung</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2502.08716">arXiv:2502.08716</a>:</strong> 12 February 2025</details>
++ <strong>Posted on <a href="https://arxiv.org/abs/2502.08716">arXiv:2502.08716</a>:</strong> 12 February 2025 
++ <strong>Published in <a href="https://doi.org/10.1088/1475-7516/2026/02/026">JCAP</a>:</strong> 10 February 2026</details>
 
 ###  $\textbf{{\color{#5BC0EB}Quantum Sensors - Optomechanical Sensors}}$ 
 

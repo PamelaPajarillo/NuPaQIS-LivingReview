@@ -24,7 +24,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        python -m pip install --upgrade pip setuptools wheel pandas urllib3 pyyaml matplotlib
+        python -m pip install --upgrade pip setuptools wheel pandas urllib3 pyyaml matplotlib seaborn
         python -m pip list
 
     - name: Test README generation

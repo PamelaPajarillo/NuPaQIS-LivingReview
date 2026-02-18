@@ -171,7 +171,7 @@ References:
 
 
 
-In high-energy particle collisions, jets are a collection of collimated hadrons and other particles produced by the hadronization of quarks and gluons. Since quarks and gluons carry color charge, they cannot exist as free particles due to QCD confinement. Instead, they fragment and hadronize, resulting in a spray of energetic hadrons, which we define as jets. Jet reconstruction is the procedure used to group these final-state particles into composite objects, and by measuring their direction and energy, we can infer the properties of the original partons. Jet reconstruction is typically done using clustering algorithms such as anti-$k_T$, $k_T$, or Cambridge/Aachen. Reconstructed jets are fundamental observables in collider physics, and its properties are used to probe the underlying physics processes in high-energy collisions. 
+In high-energy particle collisions, jets are a collection of collimated hadrons and other particles produced by the hadronization of quarks and gluons. Since quarks and gluons carry color charge, they cannot exist as free particles due to QCD confinement. Instead, they fragment and hadronize, resulting in a spray of energetic hadrons, which we define as jets. Jet reconstruction is the procedure used to group these final-state particles into composite objects, and by measuring their direction and energy, we can infer the properties of the original partons. Jet reconstruction is typically done using clustering algorithms such as anti-\(k_T\), \(k_T\), or Cambridge/Aachen. Reconstructed jets are fundamental observables in collider physics, and its properties are used to probe the underlying physics processes in high-energy collisions. 
 
 References:
   - Towards Jetography: https://arxiv.org/pdf/0906.1833
