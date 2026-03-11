@@ -11,7 +11,7 @@
   NUPA_Categories: Schwinger Model, Lattice Gauge Theories
   QIS_Categories: Quantum Simulations
 - ID: 1292843
-  NUPA_Categories: Lattice Fermion Theories
+  NUPA_Categories: Quantum Field Theories
   QIS_Categories: Quantum Simulations
 - ID: 1319179
   NUPA_Categories: Lattice Gauge Theories
@@ -28,7 +28,7 @@
     Sensors
 - ID: 1421166
   NUPA_Categories: Reviews, Lattice Gauge Theories
-  QIS_Categories: Reviews, Quantum Simulations, Tensor Networks
+  QIS_Categories: Reviews, Quantum Simulations
 - ID: 1455772
   NUPA_Categories: Dark Matter - Wave-like Dark Matter, Gravitation and Astrophysics
   QIS_Categories: Quantum Sensors - Optical/Photonic Sensors
@@ -46,12 +46,12 @@
   QIS_Categories: Quantum Annealing
 - ID: 1659289
   NUPA_Categories: Schwinger Model
-  QIS_Categories: Variational Quantum Algorithms
+  QIS_Categories: Quantum Machine Learning - Variational Quantum Algorithms
 - ID: 1665450
   NUPA_Categories: Whitepapers and Proceedings, Dark Matter - Particle-like Dark Matter,
-    Dark Matter - Wave-like Dark Matter Quantum Gravity, Gravitation and Astrophysics
+    Dark Matter - Wave-like Dark Matter, Gravitation and Astrophysics
   QIS_Categories: Whitepapers and Proceedings, Quantum Sensors - Atomic Sensors, Quantum
-    Sensors - Molecular Sensors, Quantum Sensors - Nuclear Sensors,  Quantum Sensors
+    Sensors - Molecular Sensors, Quantum Sensors - Nuclear Sensors, Quantum Sensors
     - Optical/Photonic Sensors, Quantum Sensors - Optomechanical Sensors, Quantum
     Sensors - Solid State Sensors
 - ID: 1691753
@@ -68,7 +68,7 @@
   QIS_Categories: Quantum Simulations
 - ID: 1718110
   NUPA_Categories: Track Reconstruction
-  QIS_Categories: Quantum Memory
+  QIS_Categories: Quantum Algorithms - Grover's Search Algorithm
 - ID: 1721425
   NUPA_Categories: Track Reconstruction
   QIS_Categories: Quantum Annealing
@@ -107,8 +107,9 @@
   QIS_Categories: Quantum Sensors - Optomechanical Sensors
 - ID: 1762586
   NUPA_Categories: Lattice Gauge Theories
-  QIS_Categories: Quantum Simulations, Tensor Networks, Variational Quantum Algorithms,
-    Quantum Sensors - Optical/Photonic Sensors, Quantum Sensors - Atomic Sensors
+  QIS_Categories: Quantum Simulations, Quantum Machine Learning - Variational Quantum
+    Algorithms, Quantum Sensors - Optical/Photonic Sensors, Quantum Sensors - Atomic
+    Sensors
 - ID: 1765130
   NUPA_Categories: Lattice Gauge Theories
   QIS_Categories: Quantum Annealing
@@ -127,7 +128,7 @@
   QIS_Categories: Quantum Sensors - Optical/Photonic Sensors
 - ID: 1781933
   NUPA_Categories: Event Classification, Beyond the Standard Model
-  QIS_Categories: Variational Quantum Algorithms
+  QIS_Categories: Quantum Machine Learning - Variational Quantum Algorithms
 - ID: 1782360
   NUPA_Categories: Schwinger Model
   QIS_Categories: Quantum Simulations
@@ -139,10 +140,11 @@
   QIS_Categories: Quantum Entanglement and Bell Inequalities
 - ID: 1793432
   NUPA_Categories: Jet Reconstruction
-  QIS_Categories: Tensor Networks
+  QIS_Categories: Quantum Machine Learning - Supervised Methods
 - ID: 1796743
   NUPA_Categories: Reviews, Higgs Physics, Event Classification, Gravitation and Astrophysics
-  QIS_Categories: Reviews, Quantum Annealing, Variational Quantum Algorithms
+  QIS_Categories: Reviews, Quantum Annealing, Quantum Machine Learning - Variational
+    Quantum Algorithms
 - ID: 1797219
   NUPA_Categories: Lattice Gauge Theories
   QIS_Categories: Quantum Simulations
@@ -157,8 +159,7 @@
   QIS_Categories: Quantum Sensors - Optomechanical Sensors
 - ID: 1811777
   NUPA_Categories: Whitepapers and Proceedings, Dark Matter - Particle-like Dark Matter,
-    Dark Matter - Wave-like Dark Matter, Dark Matter - Macroscopic Dark Matter, Gravitation
-    and Astrophysics
+    Dark Matter - Wave-like Dark Matter, Gravitation and Astrophysics
   QIS_Categories: Whitepapers and Proceedings, Quantum Sensors - Optomechanical Sensors
 - ID: 1813617
   NUPA_Categories: Dark Matter - Wave-like Dark Matter, Gravitation and Astrophysics
@@ -171,7 +172,7 @@
   QIS_Categories: Quantum Algorithms - Grover's Search Algorithm
 - ID: 1822903
   NUPA_Categories: Event Classification, Beyond the Standard Model
-  QIS_Categories: Variational Quantum Algorithms
+  QIS_Categories: Quantum Machine Learning - Variational Quantum Algorithms
 - ID: 1829738
   NUPA_Categories: Lattice Gauge Theories
   QIS_Categories: Quantum Simulations
@@ -183,29 +184,29 @@
   QIS_Categories: Quantum Annealing
 - ID: 1837723
   NUPA_Categories: Higgs Physics, Event Classification
-  QIS_Categories: Variational Quantum Algorithms
+  QIS_Categories: Quantum Machine Learning - Variational Quantum Algorithms
 - ID: 1837821
-  NUPA_Categories: Neutrinos, Track Reconstruction
-  QIS_Categories: Variational Quantum Algorithms, Quantum Neural Networks
+  NUPA_Categories: Track Reconstruction, Beyond the Standard Model
+  QIS_Categories: Quantum Machine Learning - Variational Quantum Algorithms
 - ID: 1838791
   NUPA_Categories: Jet Reconstruction
   QIS_Categories: Quantum Annealing
 - ID: 1841039
   NUPA_Categories: Jet Reconstruction
-  QIS_Categories: Quantum k-Means
+  QIS_Categories: Quantum Machine Learning - Unsupervised Methods
 - ID: 1841358
-  NUPA_Categories: Neutrinos, Track Reconstruction
-  QIS_Categories: Variational Quantum Algorithms
+  NUPA_Categories: Beyond the Standard Model, Track Reconstruction
+  QIS_Categories: Quantum Machine Learning - Variational Quantum Algorithms
 - ID: 1843063
   NUPA_Categories: Detector Technologies and Simulations
-  QIS_Categories: Continuous Variable Quantum Computing, Quantum Generative Adversarial
-    Networks
+  QIS_Categories: Continuous Variable Quantum Computing, Quantum Machine Learning
+    - Unsupervised Methods
 - ID: 1845763
   NUPA_Categories: Effective Field Theories
   QIS_Categories: Quantum Simulations
 - ID: 1847158
   NUPA_Categories: Lattice Gauge Theories
-  QIS_Categories: Variational Quantum Algorithms
+  QIS_Categories: Quantum Machine Learning - Variational Quantum Algorithms
 - ID: 1847170
   NUPA_Categories: Dark Matter - Wave-like Dark Matter
   QIS_Categories: Quantum Sensors - Solid State Sensors
@@ -215,25 +216,27 @@
     and Bell Inequalities
 - ID: 1850530
   NUPA_Categories: Anomaly Detection, Event Classification
-  QIS_Categories: Quantum k-Means, Continuous Variable Quantum Computing
+  QIS_Categories: Continuous Variable Quantum Computing
 - ID: 1851893
   NUPA_Categories: Lattice Gauge Theories
   QIS_Categories: Quantum Annealing
 - ID: 1853006
   NUPA_Categories: Event Classification
-  QIS_Categories: Quantum Kernel Methods
+  QIS_Categories: Quantum Machine Learning - Supervised Methods
 - ID: 1854278
   NUPA_Categories: Detector Technologies and Simulations
-  QIS_Categories: Quantum Generative Adversarial Networks, Variational Quantum Algorithms
+  QIS_Categories: Quantum Machine Learning - Unsupervised Methods, Quantum Machine
+    Learning - Variational Quantum Algorithms
 - ID: 1857931
   NUPA_Categories: Higgs Physics, Event Classification
-  QIS_Categories: Quantum Kernel Methods
+  QIS_Categories: Quantum Machine Learning - Supervised Methods
 - ID: 1858033
   NUPA_Categories: Dark Matter - Particle-like Dark Matter
   QIS_Categories: Quantum Sensors - Atomic Sensors
 - ID: 1858884
   NUPA_Categories: Higgs Physics, Event Classification
-  QIS_Categories: Quantum Kernel Methods, Variational Quantum Algorithms
+  QIS_Categories: Quantum Machine Learning - Supervised Methods, Quantum Machine Learning
+    - Variational Quantum Algorithms
 - ID: 1859911
   NUPA_Categories: Quantum Chromodynamics
   QIS_Categories: Quantum Entanglement and Bell Inequalities
@@ -248,10 +251,10 @@
   QIS_Categories: Quantum Annealing
 - ID: 1867955
   NUPA_Categories: Event Generation, Quantum Chromodynamics
-  QIS_Categories: Variational Quantum Algorithms
+  QIS_Categories: Quantum Machine Learning - Variational Quantum Algorithms
 - ID: 1868807
   NUPA_Categories: Jet Reconstruction
-  QIS_Categories: Tensor Networks
+  QIS_Categories: Quantum Machine Learning - Supervised Methods
 - ID: 1875568
   NUPA_Categories: Lattice Gauge Theories
   QIS_Categories: Quantum Simulations
@@ -263,13 +266,13 @@
   QIS_Categories: Quantum Sensors - Atomic Sensors
 - ID: 1929650
   NUPA_Categories: Track Reconstruction
-  QIS_Categories: Quantum Neural Networks, Variational Quantum Algorithms
+  QIS_Categories: Quantum Machine Learning - Variational Quantum Algorithms
 - ID: 1933807
   NUPA_Categories: Event Generation
   QIS_Categories: Quantum Algorithms - Quantum Walks
 - ID: 1944902
   NUPA_Categories: Event Generation
-  QIS_Categories: Quantum Generative Adversarial Networks
+  QIS_Categories: Quantum Machine Learning - Unsupervised Methods
 - ID: 1947031
   NUPA_Categories: Spin Correlation in Particle Decays
   QIS_Categories: Quantum Entanglement and Bell Inequalities
@@ -287,39 +290,38 @@
   QIS_Categories: Quantum Algorithms - Grover's Search Algorithm
 - ID: 1986866
   NUPA_Categories: Anomaly Detection
-  QIS_Categories: Variational Quantum Algorithms
+  QIS_Categories: Quantum Machine Learning - Variational Quantum Algorithms
 - ID: 1998852
-  NUPA_Categories: Dark Matter - Macroscopic Dark Matter, Dark Matter - Particle-like
-    Dark Matter
+  NUPA_Categories: Dark Matter - Particle-like Dark Matter
   QIS_Categories: Quantum Sensors - Optomechanical Sensors
 - ID: 1998855
   NUPA_Categories: Dark Matter - Wave-like Dark Matter
   QIS_Categories: Quantum Sensors - Solid State Sensors
 - ID: 2001819
   NUPA_Categories: Event Generation
-  QIS_Categories: Quantum Generative Adversarial Networks
+  QIS_Categories: Quantum Machine Learning - Unsupervised Methods
 - ID: 2029187
   NUPA_Categories: Dark Matter - Wave-like Dark Matter
   QIS_Categories: Quantum Sensors - Nuclear Sensors, Quantum Sensors - Atomic Sensors,
     Quantum Sensors - Optical/Photonic Sensors
 - ID: 2032051
   NUPA_Categories: Track Reconstruction
-  QIS_Categories: Variational Quantum Algorithms
+  QIS_Categories: Quantum Machine Learning - Variational Quantum Algorithms
 - ID: 2036371
   NUPA_Categories: Jet Reconstruction
-  QIS_Categories: Tensor Networks
+  QIS_Categories: Quantum Machine Learning - Supervised Methods
 - ID: 2037675
   NUPA_Categories: Event Classification
   QIS_Categories: Quantum Annealing
 - ID: 2039391
   NUPA_Categories: Jet Reconstruction
-  QIS_Categories: Variational Quantum Algorithms
+  QIS_Categories: Quantum Machine Learning - Variational Quantum Algorithms
 - ID: 2047246
   NUPA_Categories: Event Generation
-  QIS_Categories: Variational Quantum Algorithms
+  QIS_Categories: Quantum Machine Learning - Variational Quantum Algorithms
 - ID: 2048957
   NUPA_Categories: Whitepapers and Proceedings, Lattice Gauge Theories
-  QIS_Categories: Whitepapers and Proceedings, Tensor Networks
+  QIS_Categories: Whitepapers and Proceedings, Quantum Simulations
 - ID: 2050026
   NUPA_Categories: Spin Correlation in Particle Decays, Effective Field Theories
   QIS_Categories: Quantum Entanglement and Bell Inequalities
@@ -327,14 +329,13 @@
   NUPA_Categories: Spin Correlation in Particle Decays
   QIS_Categories: Quantum Entanglement and Bell Inequalities
 - ID: 2051219
-  NUPA_Categories: Whitepapers and Proceedings, Quantum Field Theories, Fundamental
-    Symmetries and Interactions, Effective Field Theories, Quantum Gravity
+  NUPA_Categories: Whitepapers and Proceedings, Quantum Field Theories, Effective
+    Field Theories
   QIS_Categories: Whitepapers and Proceedings, Quantum Entanglement and Bell Inequalities,
     Quantum Simulations
 - ID: 2051476
   NUPA_Categories: Whitepapers and Proceedings, Dark Matter - Particle-like Dark Matter,
-    Dark Matter - Wave-like Dark Matter, Dark Matter - Macroscopic Dark Matter, Quantum
-    Gravity, Gravitation and Astrophysics
+    Dark Matter - Wave-like Dark Matter, Gravitation and Astrophysics
   QIS_Categories: Whitepapers and Proceedings, Quantum Sensors - Atomic Sensors, Quantum
     Sensors - Molecular Sensors, Quantum Sensors - Nuclear Sensors, Quantum Sensors
     - Optical/Photonic Sensors, Quantum Sensors - Optomechanical Sensors, Quantum
@@ -342,15 +343,15 @@
 - ID: 2051498
   NUPA_Categories: Whitepapers and Proceedings, Lattice Gauge Theories, Quantum Field
     Theories
-  QIS_Categories: Whitepapers and Proceedings, Quantum Simulations, Variational Quantum
-    Algorithms
+  QIS_Categories: Whitepapers and Proceedings, Quantum Simulations, Quantum Machine
+    Learning - Variational Quantum Algorithms
 - ID: 2054075
   NUPA_Categories: Whitepapers and Proceedings, Jet Reconstruction, Track Reconstruction,
     Event Classification, Gravitation and Astrophysics, Event Generation, Detector
     Technologies and Simulations
-  QIS_Categories: Whitepapers and Proceedings, Quantum Annealing, Variational Quantum
-    Algorithms, Quantum Kernel Methods, Quantum Generative Adversarial Networks, Tensor
-    Networks
+  QIS_Categories: Whitepapers and Proceedings, Quantum Annealing, Quantum Machine
+    Learning - Variational Quantum Algorithms, Quantum Machine Learning - Supervised
+    Methods, Quantum Machine Learning - Unsupervised Methods
 - ID: 2054717
   NUPA_Categories: Event Generation
   QIS_Categories: Quantum Simulations
@@ -367,14 +368,13 @@
     Sensors - Optical/Photonic Sensors, Quantum Sensors - Optomechanical Sensors,
     Quantum Sensors - Solid State Sensors
 - ID: 2064292
-  NUPA_Categories: Whitepapers and Proceedings, Event Generation, Neutrinos, Quantum
-    Gravity, Effective Field Theory, Lattice Gauge Theories, Quantum Field Theories,
-    Gravitation and Astrophysics
+  NUPA_Categories: Whitepapers and Proceedings, Event Generation, Effective Field
+    Theories, Lattice Gauge Theories, Quantum Field Theories, Gravitation and Astrophysics
   QIS_Categories: Whitepapers and Proceedings, Quantum Simulations
 - ID: 2066509
   NUPA_Categories: Jet Reconstruction
-  QIS_Categories: Quantum k-Means, Quantum Memory, Quantum Algorithms - Grover's Search
-    Algorithm
+  QIS_Categories: Quantum Machine Learning - Unsupervised Methods, Quantum Algorithms
+    - Grover's Search Algorithm
 - ID: 2069448
   NUPA_Categories: Whitepapers and Proceedings, Lattice Gauge Theories
   QIS_Categories: Whitepapers and Proceedings, Quantum Sensors - Optical/Photonic
@@ -396,13 +396,14 @@
   QIS_Categories: Quantum Annealing
 - ID: 2089215
   NUPA_Categories: Detector Technologies and Simulations
-  QIS_Categories: Quantum Generative Adversarial Networks
+  QIS_Categories: Quantum Machine Learning - Unsupervised Methods
 - ID: 2091037
   NUPA_Categories: Reviews, Event Generation, Track Reconstruction, Event Classification
-  QIS_Categories: Reviews, Quantum Annealing, Variational Quantum Algorithms
+  QIS_Categories: Reviews, Quantum Annealing, Quantum Machine Learning - Variational
+    Quantum Algorithms
 - ID: 2097616
   NUPA_Categories: Anomaly Detection
-  QIS_Categories: Variational Quantum Algorithms
+  QIS_Categories: Quantum Machine Learning - Variational Quantum Algorithms
 - ID: 2106012
   NUPA_Categories: Lattice Gauge Theories
   QIS_Categories: Quantum Simulations, Quantum Annealing
@@ -411,7 +412,7 @@
   QIS_Categories: Quantum Sensors - Atomic Sensors, Quantum Sensors - Solid State
     Sensors
 - ID: 2111184
-  NUPA_Categories: Neutrinos
+  NUPA_Categories: Dark Matter - Particle-like Dark Matter
   QIS_Categories: Quantum Sensors - Optomechanical Sensors
 - ID: 2121169
   NUPA_Categories: Event Generation
@@ -433,15 +434,12 @@
   QIS_Categories: Quantum Entanglement and Bell Inequalities
 - ID: 2151492
   NUPA_Categories: Whitepapers and Proceedings, Event Generation
-  QIS_Categories: Whitepapers and Proceedings, Quantum Simulations, Tensor Networks,
-    Quantum Sensors - Atomic Sensors, Quantum Sensors - Optical/Photonic Sensors,
-    Quantum Sensors - Optomechanical Sensors, Quantum Sensors - Solid State Sensors
+  QIS_Categories: Whitepapers and Proceedings, Quantum Simulations, Quantum Sensors
+    - Atomic Sensors, Quantum Sensors - Optical/Photonic Sensors, Quantum Sensors
+    - Optomechanical Sensors, Quantum Sensors - Solid State Sensors
 - ID: 2155336
-  NUPA_Categories: Detector Technologies and Simulations
-  QIS_Categories: Quantum Annealing, Quantum Neural Networks
-- ID: 2156652
   NUPA_Categories: Event Classification
-  QIS_Categories: Quantum Kernel Methods
+  QIS_Categories: Quantum Machine Learning - Supervised Methods
 - ID: 2165672
   NUPA_Categories: Dark Matter - Wave-like Dark Matter
   QIS_Categories: Quantum Sensors - Optomechanical Sensors
@@ -456,7 +454,7 @@
   QIS_Categories: Quantum Entanglement and Bell Inequalities
 - ID: 2177375
   NUPA_Categories: Event Classification
-  QIS_Categories: Variational Quantum Algorithms
+  QIS_Categories: Quantum Machine Learning - Variational Quantum Algorithms
 - ID: 2182779
   NUPA_Categories: Dark Matter - Wave-like Dark Matter
   QIS_Categories: Quantum Sensors - Optomechanical Sensors
@@ -465,16 +463,16 @@
   QIS_Categories: Quantum Sensors - Optical/Photonic Sensors
 - ID: 2614201
   NUPA_Categories: Track Reconstruction
-  QIS_Categories: Quantum Kernel Methods
+  QIS_Categories: Quantum Machine Learning - Supervised Methods
 - ID: 2618622
   NUPA_Categories: Lattice Gauge Theories
   QIS_Categories: Quantum Simulations
 - ID: 2626691
   NUPA_Categories: Anomaly Detection, Beyond the Standard Model
-  QIS_Categories: Quantum Kernel Methods
+  QIS_Categories: Quantum Machine Learning - Supervised Methods
 - ID: 2626710
   NUPA_Categories: Anomaly Detection, Beyond the Standard Model
-  QIS_Categories: Quantum Kernel Methods, Quantum k-Means
+  QIS_Categories: Quantum Machine Learning - Unsupervised Methods
 - ID: 2628722
   NUPA_Categories: Reviews, Lattice Gauge Theories
   QIS_Categories: Reviews, Quantum Simulations
@@ -486,7 +484,7 @@
   QIS_Categories: Quantum Sensors - Solid State Sensors
 - ID: 2636778
   NUPA_Categories: Event Generation
-  QIS_Categories: Quantum Generative Adversarial Networks
+  QIS_Categories: Quantum Machine Learning - Unsupervised Methods
 - ID: 2638335
   NUPA_Categories: Gravitation and Astrophysics, Dark Matter - Wave-like Dark Matter
   QIS_Categories: Quantum Sensors - Optical/Photonic Sensors
@@ -495,10 +493,10 @@
   QIS_Categories: Quantum Simulations
 - ID: 2645184
   NUPA_Categories: Track Reconstruction
-  QIS_Categories: Variational Quantum Algorithms
+  QIS_Categories: Quantum Machine Learning - Variational Quantum Algorithms
 - ID: 2661224
   NUPA_Categories: Detector Technologies and Simulations, Gravitation and Astrophysics,
-    Neutrinos, Dark Matter - Wave-like Dark Matter, Gravitation and Astrophysics
+    Dark Matter - Wave-like Dark Matter, Gravitation and Astrophysics
   QIS_Categories: Quantum Sensors - Atomic Sensors, Quantum Sensors - Molecular Sensors,
     Quantum Sensors - Nuclear Sensors, Quantum Sensors - Optical/Photonic Sensors,
     Quantum Sensors - Optomechanical Sensors, Quantum Sensors - Solid State Sensors
@@ -510,8 +508,8 @@
   QIS_Categories: Quantum Sensors - Nuclear Sensors, Quantum Sensors - Atomic Sensors,
     Quantum Sensors - Optical/Photonic Sensors
 - ID: 2673374
-  NUPA_Categories: Lattice Gauge Theories, Event Generation
-  QIS_Categories: Quantum Neural Networks, Quantum Simulations
+  NUPA_Categories: Lattice Gauge Theories, Schwinger Model, Event Generation
+  QIS_Categories: Quantum Machine Learning - Supervised Methods, Quantum Simulations
 - ID: 2675039
   NUPA_Categories: Lattice Gauge Theories
   QIS_Categories: Quantum Simulations
@@ -519,18 +517,20 @@
   NUPA_Categories: Whitepapers and Proceedings, Lattice Gauge Theories, Jet Reconstruction,
     Track Reconstruction, Event Classification, Gravitation and Astrophysics, Event
     Generation, Detector Technologies and Simulations
-  QIS_Categories: Whitepapers and Proceedings, Quantum Annealing, Variational Quantum
-    Algorithms, Quantum Kernel Methods, Quantum Neural Networks, Quantum Generative
-    Adversarial Networks, Tensor Networks
+  QIS_Categories: Whitepapers and Proceedings, Quantum Annealing, Quantum Machine
+    Learning - Variational Quantum Algorithms, Quantum Machine Learning - Supervised
+    Methods, Quantum Machine Learning - Unsupervised Methods
 - ID: 2675992
   NUPA_Categories: Detector Technologies and Simulations
-  QIS_Categories: Quantum Generative Adversarial Networks, Variational Quantum Algorithms
+  QIS_Categories: Quantum Machine Learning - Unsupervised Methods, Quantum Machine
+    Learning - Variational Quantum Algorithms
 - ID: 2684188
   NUPA_Categories: Track Reconstruction
   QIS_Categories: Quantum Algorithms - Harrow-Hassadim-Lloyd Algorithm
 - ID: 2686627
   NUPA_Categories: Schwinger Model, Lattice Gauge Theories
-  QIS_Categories: Quantum Simulations, Variational Quantum Algorithms
+  QIS_Categories: Quantum Simulations, Quantum Machine Learning - Variational Quantum
+    Algorithms
 - ID: 2698277
   NUPA_Categories: Dark Matter - Particle-like Dark Matter
   QIS_Categories: Quantum Sensors - Optomechanical Sensors
@@ -542,7 +542,7 @@
   QIS_Categories: Quantum Entanglement and Bell Inequalities
 - ID: 2711221
   NUPA_Categories: Track Reconstruction
-  QIS_Categories: Variational Quantum Algorithms
+  QIS_Categories: Quantum Machine Learning - Variational Quantum Algorithms
 - ID: 2715777
   NUPA_Categories: Event Generation
   QIS_Categories: Quantum Simulations
@@ -551,15 +551,14 @@
   QIS_Categories: Quantum Algorithms - Grover's Search Algorithm
 - ID: 2718883
   NUPA_Categories: Whitepapers and Proceedings, Dark Matter - Particle-like Dark Matter,
-    Dark Matter - Wave-like Dark Matter, Quantum Gravity, Beyond the Standard Model,
-    Gravitation and Astrophysics
+    Dark Matter - Wave-like Dark Matter, Beyond the Standard Model, Gravitation and
+    Astrophysics
   QIS_Categories: Whitepapers and Proceedings, Quantum Sensors - Atomic Sensors, Quantum
     Sensors - Molecular Sensors, Quantum Sensors - Nuclear Sensors, Quantum Sensors
     - Optical/Photonic Sensors, Quantum Sensors - Optomechanical Sensors, Quantum
     Sensors - Solid State Sensors
 - ID: 2721893
-  NUPA_Categories: Dark Matter - Wave-like Dark Matter, Gravitation and Astrophysics,
-    Gravitational and Astrophysics
+  NUPA_Categories: Dark Matter - Wave-like Dark Matter, Gravitation and Astrophysics
   QIS_Categories: Quantum Sensors - Optical/Photonic Sensors, Quantum Sensors - Optomechanical
     Sensors, Quantum Sensors - Solid State Sensors
 - ID: 2723906
@@ -570,22 +569,22 @@
   QIS_Categories: Quantum Sensors - Atomic Sensors
 - ID: 2727388
   NUPA_Categories: Schwinger Model
-  QIS_Categories: Variational Quantum Algorithms
+  QIS_Categories: Quantum Machine Learning - Variational Quantum Algorithms
 - ID: 2727458
   NUPA_Categories: Event Classification, Beyond the Standard Model
-  QIS_Categories: Variational Quantum Algorithms
+  QIS_Categories: Quantum Machine Learning - Variational Quantum Algorithms
 - ID: 2732714
   NUPA_Categories: Dark Matter - Particle-like Dark Matter
   QIS_Categories: Quantum Sensors - Optomechanical Sensors
 - ID: 2740326
   NUPA_Categories: Reviews, Anomaly Detection
-  QIS_Categories: Reviews, Quantum k-Means
+  QIS_Categories: Reviews, Quantum Machine Learning - Unsupervised Methods
 - ID: 2742864
   NUPA_Categories: Spin Correlation in Particle Decays
   QIS_Categories: Quantum Entanglement and Bell Inequalities
 - ID: 2744332
   NUPA_Categories: Event Generation, Quantum Field Theories
-  QIS_Categories: Quantum Neural Networks, Quantum Simulations
+  QIS_Categories: Quantum Algorithms - Grover's Search Algorithm
 - ID: 2747788
   NUPA_Categories: Spin Correlation in Particle Decays
   QIS_Categories: Quantum Entanglement and Bell Inequalities
@@ -594,17 +593,18 @@
   QIS_Categories: Quantum Simulations
 - ID: 2752456
   NUPA_Categories: Jet Reconstruction, Event Generation, Quantum Field Theories
-  QIS_Categories: Quantum Algorithms - Grover's Search Algorithms, Variational Quantum
-    Algorithms, Quantum Neural Networks
+  QIS_Categories: Quantum Algorithms - Grover's Search Algorithm, Quantum Machine
+    Learning - Variational Quantum Algorithms
 - ID: 2753532
   NUPA_Categories: Dark Matter - Particle-like Dark Matter
   QIS_Categories: Quantum Sensors - Optomechanical Sensors
 - ID: 2753868
   NUPA_Categories: Lattice Gauge Theories
-  QIS_Categories: Quantum Simulations, Variational Quantum Algorithms
+  QIS_Categories: Quantum Simulations, Quantum Machine Learning - Variational Quantum
+    Algorithms
 - ID: 2753918
   NUPA_Categories: Event Classification
-  QIS_Categories: Variational Quantum Algorithms
+  QIS_Categories: Quantum Machine Learning - Variational Quantum Algorithms
 - ID: 2757981
   NUPA_Categories: Spin Correlation in Particle Decays
   QIS_Categories: Quantum Entanglement and Bell Inequalities
@@ -625,13 +625,14 @@
   QIS_Categories: Quantum Sensors - Solid State Sensors
 - ID: 2785266
   NUPA_Categories: Schwinger Model, Lattice Gauge Theories
-  QIS_Categories: Quantum Simulations, Variational Quantum Algorithms
+  QIS_Categories: Quantum Simulations, Quantum Machine Learning - Variational Quantum
+    Algorithms
 - ID: 2787486
   NUPA_Categories: Event Classification
-  QIS_Categories: Variational Quantum Algorithms
+  QIS_Categories: Quantum Machine Learning - Variational Quantum Algorithms
 - ID: 2788456
   NUPA_Categories: Event Classification
-  QIS_Categories: Quantum Neural Networks
+  QIS_Categories: Quantum Machine Learning - Supervised Methods
 - ID: 2790365
   NUPA_Categories: Dark Matter - Particle-like Dark Matter
   QIS_Categories: Quantum Sensors - Solid State Sensors
@@ -654,7 +655,7 @@
   NUPA_Categories: Gravitation and Astrophysics
   QIS_Categories: Quantum Sensors - Optomechanical Sensors
 - ID: 2816334
-  NUPA_Categories: Neutrinos, Dark Matter - Wave-like Dark Matter
+  NUPA_Categories: Dark Matter - Wave-like Dark Matter
   QIS_Categories: Quantum Sensors - Optical/Photonic Sensors, Quantum Sensors - Atomic
     Sensors
 - ID: 2817787
@@ -663,8 +664,8 @@
 - ID: 2820252
   NUPA_Categories: Event Generation, Detector Technologies and Simulations, Event
     Classification
-  QIS_Categories: Quantum Generative Adversarial Networks, Quantum Kernel Methods,
-    Quantum Algorithms - Harrow-Hassadim-Lloyd Algorithm
+  QIS_Categories: Quantum Machine Learning - Unsupervised Methods, Quantum Machine
+    Learning - Supervised Methods, Quantum Algorithms - Harrow-Hassadim-Lloyd Algorithm
 - ID: 2826310
   NUPA_Categories: Dark Matter - Wave-like Dark Matter
   QIS_Categories: Quantum Sensors - Optical/Photonic Sensors
@@ -719,7 +720,7 @@
     Sensors
 - ID: 2894383
   NUPA_Categories: Event Generation
-  QIS_Categories: Variational Quantum Algorithms
+  QIS_Categories: Quantum Machine Learning - Variational Quantum Algorithms
 - ID: 2900455
   NUPA_Categories: Dark Matter - Particle-like Dark Matter
   QIS_Categories: Quantum Sensors - Optomechanical Sensors
@@ -731,10 +732,10 @@
   QIS_Categories: Continuous Variable Quantum Computing
 - ID: 2933317
   NUPA_Categories: Event Classification
-  QIS_Categories: Quantum Neural Networks
+  QIS_Categories: Quantum Machine Learning - Unsupervised Methods
 - ID: 2937836
   NUPA_Categories: Quantum Field Theories
-  QIS_Categories: Continuous Variable Quantum Computing, Tensor Networks
+  QIS_Categories: Continuous Variable Quantum Computing
 - ID: 2944584
   NUPA_Categories: Quantum Chromodynamics
   QIS_Categories: Quantum Simulations
@@ -745,7 +746,7 @@
   NUPA_Categories: Spin Correlation in Particle Decays
   QIS_Categories: Quantum Entanglement and Bell Inequalities
 - ID: 2964571
-  NUPA_Categories: Neutrinos, Dark Matter - Wave-like Dark Matter
+  NUPA_Categories: Dark Matter - Wave-like Dark Matter
   QIS_Categories: Quantum Sensors - Nuclear Sensors, Quantum Sensors - Atomic Sensors
 - ID: 3033986
   NUPA_Categories: Dark Matter - Wave-like Dark Matter

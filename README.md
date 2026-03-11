@@ -4,7 +4,7 @@
 
 Authors: Pamela Pajarillo, So Chigusa, Sokratis Trifinopoulos, Jesse Thaler 
  
-Number of Papers: 236 
+Number of Papers: 235 
  
 *Inspired by <a href="https://iml-wg.github.io/HEPML-LivingReview/">"A Living Review of Machine Learning for High Energy Physics"</a>, the goal of this repository is to provide an extensive list of citations for those developing and applying quantum information approaches to experimental, phenomenological, or theoretical analyses.  Applications of quantum information science to high energy physics is a relatively new field of research.  This repository will be updated as often as possible with the relevant literature.  Suggestions are most welcome.*
 
@@ -31,12 +31,12 @@ The references below contain (static) reviews and whitepapers listed in applicat
 
 
 
-Searching for new particles is one of the main goals of high energy physics. Typical traditional searches at the Large Hadron Collider (LHC) look for specific signals, in other words, only searching for one specific theoretical model. The goal of anomaly detection is to be model-agnostic, in other words, rely as little as possible on specific signal and background models. They instead search for events in the data that deviate from the expected backgrounds. Anomaly detection techniques are important in particle physics research, and are being actively used and explored on multiple areas: triggering and event selection, model-independent methods for searching for new physics, data quality monitoring, and in quantum machine learning.
-
+Searching for Beyond the Standard Model (BSM) is one of the most important tasks at the Large Hadron Collider (LHC). Traditional searches at the Large Hadron Collider (LHC) typically look for specific theoretical Beyond the Standard Model (BSM) signal(s). Hundreds of searches for new particles have been performed at the LHC, and so far, there has been no significant deviation observed from the SM. This motivates the need for more model-agnostic search strategies that can be sensitive to a wider range of potential new physics signals. Anomaly detection is a strategy that aims to identify events that deviate from the expected background without relying on specific signal models. This is particularly important for discovering new physics that may not have been predicted by existing theories. Anomaly detection can be performed using machine learning techniques, which can be broadly categorized into unsupervised, weakly supervised, and semi-supervised methods. Unsupervised methods do not have any label information and learn directly from the background-dominated data. Weakly supervised methods have noisy labels, meaning that the labels are 'possibly signal-depleted' or 'possibly signal-enriched'. Semi-supervised methods have a small amount of labeled data, where signal simulations are used to build some signal sensitivity. Additionally, it has been proposed to using anomaly detection to look for BSM physics at the trigger level, which is the first stage of data processing at the LHC, and for detector monitoring to maintain high data quality. These methods will be crucial for the next generation of collider experiments, such as the High-Luminosity LHC (HL-LHC), which will produce an unprecedented amount of data. 
 References:
-  - Anomaly Detection Section in HEPML-LivingReview: https://iml-wg.github.io/HEPML-LivingReview/#anomaly-detection
+  - The LHC Olympics 2020: A Community Challenge for Anomaly Detection in High Energy Physics: https://arxiv.org/abs/2101.08320
   - Anomaly Detection for Physics Analysis and Less than Supervised Learning: https://arxiv.org/pdf/2010.14554
   - Machine Learning for Anomaly Detection in Particle Physics: https://arxiv.org/abs/2312.14190
+  - Anomaly Detection Section in HEPML-LivingReview: https://iml-wg.github.io/HEPML-LivingReview/#anomaly-detection
 </details>
 
 <details>
@@ -44,7 +44,7 @@ References:
 
 
 
-The Standard Model (SM) of particle physics is a theory that describes the fundamental particles and their interactions: electromagnetic, weak, and strong forces. It has been extensively tested and confirmed through numerous experiments over the past several decades, most notably the discovery of the Higgs boson in 2012. However, the Standard Model fails to explain several phenomena, necessitating the proposal of Beyond the Standard Model (BSM) physics. From the theoretical side, the SM cannot integrate Einstein's Theory of General Relativity, which explains gravity, the fourth fundamental interaction, in a mathematically consistent, united framework. On the phenomenological side, the SM cannot account for Dark Energy, which causes the accelerating expansion of the universe, or Dark Matter (DM), which constitutes about 85\% of the matter in the universe but remains non-observable due to its weakly interacting nature. The SM also lacks a mechanism to explain the observed abundance of matter over antimatter in the universe or the generation of non-vanishing, yet tiny, neutrino masses, the existence of which can be inferred by the phenomenon of neutrino oscillations. To deal with these major puzzles, the theoretical physics community refines the existing high-precision SM calculations and proposes various BSM extensions. At the same time, experimental collaborations are pursuing the quest of hunting down any potential evidence towards deviations from the SM predictions. The new experiments include both high-energy direct searches for new particles at colliders as well as the low-energy frontier of high-precision measurements. 
+The Standard Model (SM) of particle physics is a theory that describes the fundamental particles and their interactions: electromagnetic, weak, and strong forces. It has been extensively tested and confirmed through numerous experiments over the past several decades, most notably the discovery of the Higgs boson in 2012. However, the SM fails to explain several phenomena, necessitating the proposal of Beyond the Standard Model (BSM) physics. From the theoretical side, the SM cannot integrate Einstein's Theory of General Relativity, which explains gravity, the fourth fundamental interaction, in a mathematically consistent, united framework. On the phenomenological side, the SM does not account for Dark Energy, which causes the accelerating expansion of the universe, or Dark Matter (DM), which constitutes about 85\% of the matter in the universe but remains non-observable due to its weakly interacting nature. The SM also lacks a mechanism to explain the observed abundance of matter over antimatter in the universe or the generation of non-vanishing, yet tiny, neutrino masses, the existence of which can be inferred by the phenomenon of neutrino oscillations. To deal with these major puzzles, the theoretical physics community refines the existing high-precision SM calculations and proposes various BSM extensions. At the same time, experimental collaborations are pursuing the quest of hunting down any potential evidence towards deviations from the SM predictions. The new experiments include both high-energy direct searches for new particles at colliders as well as the low-energy frontier of high-precision measurements. 
 
 References:
   - Goldberg, Dave. The Standard Model in a Nutshell. Princeton University Press, 2017.
@@ -56,10 +56,11 @@ References:
 
 
 
+Dark Matter (DM) constitutes about 85\% of the matter in the universe but remains non-observable. Unlike normal matter, DM does not emit, absorb, or reflect light, making it invisible to electromagnetic observations. The existence of DM is inferred from its gravitational effects on visible matter. The nature of DM is one of the most significant open questions in physics. There are many theoretical candidates for DM, which can be broadly categorized into particle-like and wave-like candidates.
 A list of particle-like dark matter candidates include: 
   (1) Weakly Interacting Massive Particles (WIMPs):
   (2) Light Dark Matter:
-  (3) Millicharged Particles:
+  (3) Millicharged Particles: and
   (4) Dark Photons (massive):
   (5) Sterile Neutrinos:
 
@@ -78,25 +79,14 @@ A list of article-like dark matter candidates include:
   (2) Ultralight Dark Matter: 
   (3) Fuzzy Dark Matter:
   (4) Dark Photons (ultralight):
+  (5) Primordial Black Holes: 
+  (6) Q-balls:
+  (7) Compact Composite Objects: 
 
   References:
   - Dark Matter Review: https://arxiv.org/abs/2406.01705
   - Axion Dark Matter: What is it and Why Now? https://arxiv.org/abs/2105.01406
   - PDG Review on Axions and Axion-like Particles https://pdg.lbl.gov/2024/reviews/rpp2024-rev-axions.pdf
-</details>
-
-<details>
-<summary> <b>Dark Matter - Macroscopic Dark Matter: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53ddark-matter---macroscopic-dark-matter"> Link to Papers </a>  <code>Expand for Description</code> </summary>
-
-
-
-A list of article-like dark matter candidates include: 
-  (1) Primordial Black Holes: 
-  (2) Compact Composite Objects: 
-  (3) Q-balls:
-
-References:
-  - Dark Matter Review: https://arxiv.org/abs/2406.01705
 </details>
 
 <details>
@@ -126,8 +116,7 @@ References:
 
 
 
-Signal and background classification for particle physics events.
-
+An event is the outcome of a collision between two incoming particles, or the outcome of an isolated decay of a particle, which consists of a number of outgoing particles. Event classification 
 References:
   - TBA
 </details>
@@ -137,7 +126,7 @@ References:
 
 
 
-An event is the outcome of a collision between two incoming particles, or the outcome of an isolated decay of a particle, which consists of a number of outgoing particles.  The main components of high-energy particle collisions are:  (1) Incoming Hadrons: The initial partons involved in a hard scattering process are selected using parton distribution functions for the incoming hadrons. The incoming hadrons are at an energy of order 1 GeV ($\sim \Lambda_{\text{QCD}}$); (2) Hard scattering: The kinematics of the outgoing partons are based on matrix elements calculated in perturbation theory. The hard scattering process is at energy of order 100 to 1000 GeV at the LHC; (3) Parton Showers: The incoming and outgoing partons radiate quarks and gluons. This radiation pattern can be approximated semi-classically using a parton shower algorithm. Parton showers links the perturbative and non-perturbative energy regimes;  (4) Underlying Event: Scattering also occurs with other partons not associated with the hard scattering process coming from the incoming hadrons. These partons tend to be soft, i.e. lower energy than the partons from the hard scattering process; (5) Hadronization: This refers to the formation of hadrons out of quarks and gluons. Hadronization is at an energy of order 1 GeV ($\sim \Lambda_{\text{QCD}}$). An event generator is a numerical algorithm that produces random sequences of simulated events. The aim of an event generator is to predict all observable properties of a collision or a decay process. An event generator is an important tool for interpreting collider data because it gives predictions for what an event would look like before interacting with detectors, and is essential to linking theories with experiments. Examples of event generators include PYTHIA, HERWIG, SHERPA, MADGRAPH, and POWHEG.
+In high energy particle physics, an event is defined as the outcome of a collision between two incoming particles, or the outcome of an isolated decay of a particle, which consists of a number of outgoing particles. An event generator is a numerical algorithm that produces random sequences of simulated events. The aim of an event generator is to predict all observable properties of a collision or a decay process. An event generator is an important tool for interpreting collider data because it gives predictions for what an event would look like before interacting with detectors, and is essential to linking theories with experiments. The main components of high-energy particle collisions are: (1) Incoming Hadrons: The initial partons involved in a hard scattering process are selected using parton distribution functions for the incoming hadrons. The incoming hadrons are at an energy of order 1 GeV ($\sim \Lambda_{\text{QCD}}$); (2) Hard scattering: The kinematics of the outgoing partons are based on matrix elements calculated in perturbation theory. The hard scattering process is at energy of order 100 to 1000 GeV at the LHC; (3) Parton Showers: The incoming and outgoing partons radiate quarks and gluons. This radiation pattern can be approximated semi-classically using a parton shower algorithm. Parton showers links the perturbative and non-perturbative energy regimes; (4) Underlying Event: Scattering also occurs with other partons not associated with the hard scattering process coming from the incoming hadrons. These partons tend to be soft, i.e. lower energy than the partons from the hard scattering process; (5) Hadronization: This refers to the formation of hadrons out of quarks and gluons. Hadronization is at an energy of order 1 GeV ($\sim \Lambda_{\text{QCD}}$). Examples of event generators include PYTHIA, HERWIG, SHERPA, MADGRAPH, and POWHEG.
 
 References:
   - Herwig++ Physics and Manual: https://arxiv.org/abs/0803.0883
@@ -190,30 +179,7 @@ References:
 </details>
 
 <details>
-<summary> <b>Lattice Fermion Theories: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dlattice-fermion-theories"> Link to Papers </a>  <code>Expand for Description</code> </summary>
-
-
-
-To be written
-
-References:
-  - TBA
-</details>
-
-<details>
 <summary> <b>Lattice Gauge Theories: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dlattice-gauge-theories"> Link to Papers </a>  <code>Expand for Description</code> </summary>
-
-
-
-To be written
-
-References:
-  - TBA
-  
-</details>
-
-<details>
-<summary> <b>Neutrinos: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dneutrinos"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
@@ -229,22 +195,10 @@ References:
 
 
 
-To be written
+Quantum Chromodynamics (QCD) is the theory of the strong interaction in the Standard Model which describes the interactions between quarks and gluons. QCD is a non-Abelian gauge theory with symmetry group SU(3), where the quark fields are in the fundamental representation and gluon fields are in the adjoint representation. QCD exhibits several interesting phenomena such as confinement, asymptotic freedom, and chiral symmetry breaking. Confinement refers to the fact that quarks and gluons cannot be observed as free particles, but only as bound states called hadrons. Asymptotic freedom means that at high energies or short distances, the strong coupling constant becomes small, allowing for perturbative calculations. Chiral symmetry breaking occurs when the vacuum state of QCD does not respect chiral symmetry, leading to the generation of masses for hadrons.
 
 References:
-  - TBA
-  
-</details>
-
-<details>
-<summary> <b>Quantum Gravity: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dquantum-gravity"> Link to Papers </a>  <code>Expand for Description</code> </summary>
-
-
-
-To be written
-
-References:
-  - TBA
+  - R. K. Ellis, W. J. Stirling, and B. R. Webber, *QCD and Collider Physics*, Cambridge University Press, 1996.
 </details>
 
 <details>
@@ -268,7 +222,6 @@ To be written
 
 References:
   - TBA
-  
 </details>
 
 <details>
@@ -276,10 +229,12 @@ References:
 
 
 
-Developed by Julian Schwinger in 1962, the Schwinger model is a 1+1 dimensional quantum field theory that describes quantum electrodynamics (QED), the theory of light (photons) interacting with charged particles (electrons and positrons). 
+Developed by Julian Schwinger in 1962, the Schwinger model is a 1+1 dimensional quantum field theory that describes quantum electrodynamics (QED), the theory of light (photons) interacting with charged particles (electrons and positrons). The Lagrangian of the Schwinger model is given by $$ \mathcal{L} = \bar{\psi}(i\gamma^{\mu}D_{\mu} - m)\psi -\frac{1}{4} F_{\mu\nu}F^{\mu\nu} $$ where $F_{\mu\nu}$ is the electromagnetic field strength tensor, $\psi$ is the Dirac fermion field representing electrons and positrons, $m$ is the mass of the fermions, and $D_{\mu} = \partial_{\mu} + ie A_{\mu}$ is the gauge covariant derivative. The Schwinger model is exactly solvable and exhibits several interesting phenomena such as confinement, chiral symmetry breaking, and a non-trivial vacuum structure. 
 
 References:
+  - David Tong's Lectures on Gauge Theory, Chapter 7: https://www.damtp.cam.ac.uk/user/tong/gaugetheory.html
   - Gauge Invariance and Mass. II: https://journals.aps.org/pr/abstract/10.1103/PhysRev.128.2425
+  - Selected Topics in Gauge Theories, Chapter 5: https://link.springer.com/book/10.1007/3-540-16064-7
 </details>
 
 <details>
@@ -314,7 +269,7 @@ The references below contain (static) reviews and whitepapers listed in applicat
 Continuous variable quantum computing is a quantum computing paradigm that uses a large number of modes of the harmonic oscillator, which can be represented as $\ket{\psi} = \int \,dx\, \psi(x) \ket{x} $, whereas discrete variable quantum computing uses discrete number of quantum bits, for example, a qubit can be represented as $\ket{\psi} = c_0 \ket{0} + c_1 \ket{1}$.
 
 References:
-  - TBA
+  - Quantum computation over continuous variables: https://arxiv.org//quant-ph/9810082
 </details>
 
 <details>
@@ -376,7 +331,7 @@ References:
 </details>
 
 <details>
-<summary> <b>Quantum Generative Adversarial Networks: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-generative-adversarial-networks"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+<summary> <b>Quantum Machine Learning - Supervised Methods: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-machine-learning---supervised-methods"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
@@ -387,7 +342,7 @@ References:
 </details>
 
 <details>
-<summary> <b>Quantum Kernel Methods: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-kernel-methods"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+<summary> <b>Quantum Machine Learning - Unsupervised Methods: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-machine-learning---unsupervised-methods"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
@@ -398,33 +353,11 @@ References:
 </details>
 
 <details>
-<summary> <b>Quantum k-Means: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-k-means"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+<summary> <b>Quantum Machine Learning - Variational Quantum Algorithms: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-machine-learning---variational-quantum-algorithms"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-To be written
-
-References:
-  - TBA
-</details>
-
-<details>
-<summary> <b>Quantum Memory: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-memory"> Link to Papers </a>  <code>Expand for Description</code> </summary>
-
-
-
-To be written
-
-References:
-  - TBA
-</details>
-
-<details>
-<summary> <b>Quantum Neural Networks: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-neural-networks"> Link to Papers </a>  <code>Expand for Description</code> </summary>
-
-
-
-To be written
+Variational Quantum Algorithms (VQAs) are hybrid quantum-classical algorithms that find approximate solutions to optimization problems. VQAs starts with a parameterized quantum circuit (PQC) where the parameters are optimized by a classical optimizer to minimize (or maximize) a cost function. 
 
 References:
   - TBA
@@ -528,32 +461,12 @@ References:
 
 
 
-To be written
+Richard Feynman first proposed the idea of quantum simulation in 1982, where he noted that simulating quantum systems on a classical computer was hard and suggested that quantum systems could be efficiently simulated by other quantum systems. Seth Lloyd later showed 
 
 References:
-  - TBA
-</details>
-
-<details>
-<summary> <b>Tensor Networks: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebtensor-networks"> Link to Papers </a>  <code>Expand for Description</code> </summary>
-
-
-
-To be written
-
-References:
-  - TBA
-</details>
-
-<details>
-<summary> <b>Variational Quantum Algorithms: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebvariational-quantum-algorithms"> Link to Papers </a>  <code>Expand for Description</code> </summary>
-
-
-
-Variational Quantum Algorithms (VQAs) are hybrid quantum-classical algorithms that find approximate solutions to optimization problems. VQAs starts with a parameterized quantum circuit (PQC) where the parameters are optimized by a classical optimizer to minimize (or maximize) a cost function. 
-
-References:
-  - TBA
+  - Nielsen, Michael A., and Isaac L. Chuang. *Quantum Computation and Quantum Information*. 10th anniversary ed. [or 2nd ed.], Cambridge University Press, 2010.
+  - Quantum Simulation: https://arxiv.org/pdf/1308.6253
+  - Lloyd, Seth. "Universal quantum simulators": https://www.science.org/doi/epdf/10.1126/science.273.5278.1073
 </details>
 
 

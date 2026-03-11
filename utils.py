@@ -105,7 +105,7 @@ def get_dataframe(yaml_file, categories_hep, categories_qis):
     
     # Check to make sure each paper's categories are valid
     def check_categories(categories, category_list):
-        for category in categories.split(', ')[1::2]:
+        for category in categories.split(', '):
             if category not in category_list:
                 return False
         return True
@@ -290,7 +290,7 @@ def plot_histogram(df, run):
 def plot_2D_nupaqis_heatmap(df, categories_nupa, categories_qis, heatmap_nupa, heatmap_qis):
 
     nupa_heatmap = ['Reviews and Whitepapers', 'Dark Matter', 'Spin Correlation in Particle Decays', 'Lattice Field Theories', 'Experimental Nuclear and Particle Physics', 'Theoretical Nuclear and Particle Physics']
-    qis_heatmap = ['Reviews and Whitepapers', 'Quantum Sensors', 'Quantum Entanglement and Bell Inequalities', 'Quantum Simulations', 'Quantum Algorithms', 'Hybrid Quantum-Classical Methods, Quantum Machine Learning, and Quantum-Inspired Algorithms']
+    qis_heatmap = ['Reviews and Whitepapers', 'Quantum Sensors', 'Quantum Entanglement and Bell Inequalities', 'Quantum Simulations', 'Quantum Algorithms', 'Quantum Machine Learning']
     # Build the matrix
     heatmap_data = np.zeros((len(nupa_heatmap), len(qis_heatmap)))
 
@@ -315,7 +315,7 @@ def plot_2D_nupaqis_heatmap(df, categories_nupa, categories_qis, heatmap_nupa, h
     cbar = plt.colorbar(label='Number of Papers')
     cbar.ax.tick_params(labelsize=12)
 
-    xlabels = ["Reviews and Whitepapers", "Quantum Sensors", "Quantum Entanglement and \nBell Inequalities", "Quantum Simulations", "Quantum Algorithms", "Hybrid Quantum–Classical Methods,\nQuantum Machine Learning,\nand Quantum-Inspired Algorithms"]
+    xlabels = ["Reviews and Whitepapers", "Quantum Sensors", "Quantum Entanglement and \nBell Inequalities", "Quantum Simulations", "Quantum Algorithms", "Quantum Machine Learning"]
     # Axis labels
     plt.xticks(
         ticks=np.arange(len(qis_heatmap)),
