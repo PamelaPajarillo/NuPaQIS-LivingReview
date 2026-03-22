@@ -12,7 +12,8 @@
 - Category: Anomaly Detection
   Heatmap: Experimental Nuclear and Particle Physics
   Description: >-
-    Searching for Beyond the Standard Model (BSM) is one of the most important tasks at the Large Hadron Collider (LHC). Traditional searches at the Large Hadron Collider (LHC) typically look for specific theoretical Beyond the Standard Model (BSM) signal(s). Hundreds of searches for new particles have been performed at the LHC, and so far, there has been no significant deviation observed from the SM. This motivates the need for more model-agnostic search strategies that can be sensitive to a wider range of potential new physics signals. Anomaly detection is a strategy that aims to identify events that deviate from the expected background without relying on specific signal models. This is particularly important for discovering new physics that may not have been predicted by existing theories. Anomaly detection can be performed using machine learning techniques, which can be broadly categorized into unsupervised, weakly supervised, and semi-supervised methods. Unsupervised methods do not have any label information and learn directly from the background-dominated data. Weakly supervised methods have noisy labels, meaning that the labels are 'possibly signal-depleted' or 'possibly signal-enriched'. Semi-supervised methods have a small amount of labeled data, where signal simulations are used to build some signal sensitivity. Additionally, it has been proposed to using anomaly detection to look for BSM physics at the trigger level, which is the first stage of data processing at the LHC, and for detector monitoring to maintain high data quality. These methods will be crucial for the next generation of collider experiments, such as the High-Luminosity LHC (HL-LHC), which will produce an unprecedented amount of data. 
+    Searching for Beyond the Standard Model (BSM) is one of the most important tasks at the Large Hadron Collider (LHC). Traditional searches at the LHC typically look for specific theoretical BSM signal(s). Hundreds of searches for new particles have been performed at the LHC, and so far, there has been no significant deviation observed from the SM. This motivates the need for more model-agnostic search strategies that can be sensitive to a wider range of potential new physics signals. Anomaly detection is a strategy that aims to identify events that deviate from the expected background without relying on specific signal models. This is particularly important for discovering new physics that may not have been predicted by existing theories. Anomaly detection can be performed using machine learning techniques, which can be broadly categorized into unsupervised, weakly supervised, and semi-supervised methods. Unsupervised methods do not have any label information and learn directly from the background-dominated data. Weakly supervised methods have noisy labels, meaning that the labels are 'possibly signal-depleted' or 'possibly signal-enriched'. Semi-supervised methods have a small amount of labeled data, where signal simulations are used to build some signal sensitivity. Additionally, it has been proposed to use anomaly detection to look for BSM physics at the trigger level, which is the first stage of data processing at the LHC, and for detector monitoring to maintain high data quality. These methods will be crucial for the next generation of collider experiments, such as the High-Luminosity LHC (HL-LHC), which will produce an unprecedented amount of data. 
+
 
     References:
       - The LHC Olympics 2020: A Community Challenge for Anomaly Detection in High Energy Physics: https://arxiv.org/abs/2101.08320
@@ -108,15 +109,6 @@
     References:
       - TBA
 
-- Category: Higgs Physics
-  Heatmap: Experimental Nuclear and Particle Physics
-  Description: >-
-    To be written
-
-
-    References:
-      - TBA
-
 - Category: Jet Reconstruction
   Heatmap: Experimental Nuclear and Particle Physics
   Description: >-
@@ -127,7 +119,7 @@
       - Towards Jetography: https://arxiv.org/pdf/0906.1833
       - Exploring jets: substructure and flavour tagging in CMS and ATLAS: https://arxiv.org/abs/2410.14330
 
-- Category: Lattice Scalar Theories
+- Category: Lattice Scalar/Fermion Theories
   Heatmap: Lattice Field Theories
   Description: >-
     To be written

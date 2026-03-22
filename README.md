@@ -4,7 +4,7 @@
 
 Authors: Pamela Pajarillo, So Chigusa, Sokratis Trifinopoulos, Jesse Thaler 
  
-Number of Papers: 235 
+Number of Papers: 237 
  
 *Inspired by <a href="https://iml-wg.github.io/HEPML-LivingReview/">"A Living Review of Machine Learning for High Energy Physics"</a>, the goal of this repository is to provide an extensive list of citations for those developing and applying quantum information approaches to experimental, phenomenological, or theoretical analyses.  Applications of quantum information science to high energy physics is a relatively new field of research.  This repository will be updated as often as possible with the relevant literature.  Suggestions are most welcome.*
 
@@ -31,7 +31,8 @@ The references below contain (static) reviews and whitepapers listed in applicat
 
 
 
-Searching for Beyond the Standard Model (BSM) is one of the most important tasks at the Large Hadron Collider (LHC). Traditional searches at the Large Hadron Collider (LHC) typically look for specific theoretical Beyond the Standard Model (BSM) signal(s). Hundreds of searches for new particles have been performed at the LHC, and so far, there has been no significant deviation observed from the SM. This motivates the need for more model-agnostic search strategies that can be sensitive to a wider range of potential new physics signals. Anomaly detection is a strategy that aims to identify events that deviate from the expected background without relying on specific signal models. This is particularly important for discovering new physics that may not have been predicted by existing theories. Anomaly detection can be performed using machine learning techniques, which can be broadly categorized into unsupervised, weakly supervised, and semi-supervised methods. Unsupervised methods do not have any label information and learn directly from the background-dominated data. Weakly supervised methods have noisy labels, meaning that the labels are 'possibly signal-depleted' or 'possibly signal-enriched'. Semi-supervised methods have a small amount of labeled data, where signal simulations are used to build some signal sensitivity. Additionally, it has been proposed to using anomaly detection to look for BSM physics at the trigger level, which is the first stage of data processing at the LHC, and for detector monitoring to maintain high data quality. These methods will be crucial for the next generation of collider experiments, such as the High-Luminosity LHC (HL-LHC), which will produce an unprecedented amount of data. 
+Searching for Beyond the Standard Model (BSM) is one of the most important tasks at the Large Hadron Collider (LHC). Traditional searches at the LHC typically look for specific theoretical BSM signal(s). Hundreds of searches for new particles have been performed at the LHC, and so far, there has been no significant deviation observed from the SM. This motivates the need for more model-agnostic search strategies that can be sensitive to a wider range of potential new physics signals. Anomaly detection is a strategy that aims to identify events that deviate from the expected background without relying on specific signal models. This is particularly important for discovering new physics that may not have been predicted by existing theories. Anomaly detection can be performed using machine learning techniques, which can be broadly categorized into unsupervised, weakly supervised, and semi-supervised methods. Unsupervised methods do not have any label information and learn directly from the background-dominated data. Weakly supervised methods have noisy labels, meaning that the labels are 'possibly signal-depleted' or 'possibly signal-enriched'. Semi-supervised methods have a small amount of labeled data, where signal simulations are used to build some signal sensitivity. Additionally, it has been proposed to use anomaly detection to look for BSM physics at the trigger level, which is the first stage of data processing at the LHC, and for detector monitoring to maintain high data quality. These methods will be crucial for the next generation of collider experiments, such as the High-Luminosity LHC (HL-LHC), which will produce an unprecedented amount of data. 
+
 References:
   - The LHC Olympics 2020: A Community Challenge for Anomaly Detection in High Energy Physics: https://arxiv.org/abs/2101.08320
   - Anomaly Detection for Physics Analysis and Less than Supervised Learning: https://arxiv.org/pdf/2010.14554
@@ -145,17 +146,6 @@ References:
 </details>
 
 <details>
-<summary> <b>Higgs Physics: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dhiggs-physics"> Link to Papers </a>  <code>Expand for Description</code> </summary>
-
-
-
-To be written
-
-References:
-  - TBA
-</details>
-
-<details>
 <summary> <b>Jet Reconstruction: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53djet-reconstruction"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -168,7 +158,7 @@ References:
 </details>
 
 <details>
-<summary> <b>Lattice Scalar Theories: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dlattice-scalar-theories"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+<summary> <b>Lattice Scalar/Fermion Theories: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dlattice-scalar/fermion-theories"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 

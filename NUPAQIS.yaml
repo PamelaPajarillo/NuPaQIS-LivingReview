@@ -2,7 +2,7 @@
   NUPA_Categories: Lattice Gauge Theories
   QIS_Categories: Quantum Simulations
 - ID: 1082274
-  NUPA_Categories: Lattice Scalar Theories
+  NUPA_Categories: Lattice Scalar/Fermion Theories
   QIS_Categories: Quantum Simulations
 - ID: 1232212
   NUPA_Categories: Lattice Gauge Theories
@@ -11,7 +11,7 @@
   NUPA_Categories: Schwinger Model, Lattice Gauge Theories
   QIS_Categories: Quantum Simulations
 - ID: 1292843
-  NUPA_Categories: Quantum Field Theories
+  NUPA_Categories: Lattice Scalar/Fermion Theories
   QIS_Categories: Quantum Simulations
 - ID: 1319179
   NUPA_Categories: Lattice Gauge Theories
@@ -42,7 +42,7 @@
   NUPA_Categories: Dark Matter - Wave-like Dark Matter
   QIS_Categories: Quantum Sensors - Solid State Sensors
 - ID: 1631446
-  NUPA_Categories: Higgs Physics, Event Classification
+  NUPA_Categories: Event Classification
   QIS_Categories: Quantum Annealing
 - ID: 1659289
   NUPA_Categories: Schwinger Model
@@ -58,13 +58,13 @@
   NUPA_Categories: Gravitation and Astrophysics
   QIS_Categories: Quantum Sensors - Optomechanical Sensors
 - ID: 1692066
-  NUPA_Categories: Lattice Scalar Theories
+  NUPA_Categories: Lattice Scalar/Fermion Theories
   QIS_Categories: Quantum Simulations
 - ID: 1692569
   NUPA_Categories: Dark Matter - Particle-like Dark Matter
   QIS_Categories: Quantum Sensors - Optomechanical Sensors
 - ID: 1705931
-  NUPA_Categories: Lattice Scalar Theories
+  NUPA_Categories: Lattice Scalar/Fermion Theories
   QIS_Categories: Quantum Simulations
 - ID: 1718110
   NUPA_Categories: Track Reconstruction
@@ -91,7 +91,7 @@
   NUPA_Categories: Dark Matter - Wave-like Dark Matter
   QIS_Categories: Quantum Sensors - Optomechanical Sensors
 - ID: 1749714
-  NUPA_Categories: Higgs Physics, Event Classification
+  NUPA_Categories: Event Classification
   QIS_Categories: Quantum Annealing
 - ID: 1750012
   NUPA_Categories: Lattice Gauge Theories
@@ -142,7 +142,7 @@
   NUPA_Categories: Jet Reconstruction
   QIS_Categories: Quantum Machine Learning - Supervised Methods
 - ID: 1796743
-  NUPA_Categories: Reviews, Higgs Physics, Event Classification, Gravitation and Astrophysics
+  NUPA_Categories: Reviews, Event Classification, Gravitation and Astrophysics
   QIS_Categories: Reviews, Quantum Annealing, Quantum Machine Learning - Variational
     Quantum Algorithms
 - ID: 1797219
@@ -183,7 +183,7 @@
   NUPA_Categories: Track Reconstruction
   QIS_Categories: Quantum Annealing
 - ID: 1837723
-  NUPA_Categories: Higgs Physics, Event Classification
+  NUPA_Categories: Event Classification
   QIS_Categories: Quantum Machine Learning - Variational Quantum Algorithms
 - ID: 1837821
   NUPA_Categories: Track Reconstruction, Beyond the Standard Model
@@ -228,13 +228,13 @@
   QIS_Categories: Quantum Machine Learning - Unsupervised Methods, Quantum Machine
     Learning - Variational Quantum Algorithms
 - ID: 1857931
-  NUPA_Categories: Higgs Physics, Event Classification
+  NUPA_Categories: Event Classification
   QIS_Categories: Quantum Machine Learning - Supervised Methods
 - ID: 1858033
   NUPA_Categories: Dark Matter - Particle-like Dark Matter
   QIS_Categories: Quantum Sensors - Atomic Sensors
 - ID: 1858884
-  NUPA_Categories: Higgs Physics, Event Classification
+  NUPA_Categories: Event Classification
   QIS_Categories: Quantum Machine Learning - Supervised Methods, Quantum Machine Learning
     - Variational Quantum Algorithms
 - ID: 1859911
@@ -286,7 +286,7 @@
   NUPA_Categories: Lattice Gauge Theories
   QIS_Categories: Quantum Simulations
 - ID: 1976537
-  NUPA_Categories: Higgs Physics, Event Classification
+  NUPA_Categories: Event Classification
   QIS_Categories: Quantum Algorithms - Grover's Search Algorithm
 - ID: 1986866
   NUPA_Categories: Anomaly Detection
@@ -329,8 +329,7 @@
   NUPA_Categories: Spin Correlation in Particle Decays
   QIS_Categories: Quantum Entanglement and Bell Inequalities
 - ID: 2051219
-  NUPA_Categories: Whitepapers and Proceedings, Quantum Field Theories, Effective
-    Field Theories
+  NUPA_Categories: Whitepapers and Proceedings, Effective Field Theories
   QIS_Categories: Whitepapers and Proceedings, Quantum Entanglement and Bell Inequalities,
     Quantum Simulations
 - ID: 2051476
@@ -369,7 +368,7 @@
     Quantum Sensors - Solid State Sensors
 - ID: 2064292
   NUPA_Categories: Whitepapers and Proceedings, Event Generation, Effective Field
-    Theories, Lattice Gauge Theories, Quantum Field Theories, Gravitation and Astrophysics
+    Theories, Lattice Gauge Theories, Gravitation and Astrophysics
   QIS_Categories: Whitepapers and Proceedings, Quantum Simulations
 - ID: 2066509
   NUPA_Categories: Jet Reconstruction
@@ -494,6 +493,9 @@
 - ID: 2645184
   NUPA_Categories: Track Reconstruction
   QIS_Categories: Quantum Machine Learning - Variational Quantum Algorithms
+- ID: 2656563
+  NUPA_Categories: Lattice Gauge Theories
+  QIS_Categories: Quantum Simulations
 - ID: 2661224
   NUPA_Categories: Detector Technologies and Simulations, Gravitation and Astrophysics,
     Dark Matter - Wave-like Dark Matter, Gravitation and Astrophysics
@@ -583,7 +585,7 @@
   NUPA_Categories: Spin Correlation in Particle Decays
   QIS_Categories: Quantum Entanglement and Bell Inequalities
 - ID: 2744332
-  NUPA_Categories: Event Generation, Quantum Field Theories
+  NUPA_Categories: Event Generation
   QIS_Categories: Quantum Algorithms - Grover's Search Algorithm
 - ID: 2747788
   NUPA_Categories: Spin Correlation in Particle Decays
@@ -592,7 +594,7 @@
   NUPA_Categories: Lattice Gauge Theories
   QIS_Categories: Quantum Simulations
 - ID: 2752456
-  NUPA_Categories: Jet Reconstruction, Event Generation, Quantum Field Theories
+  NUPA_Categories: Jet Reconstruction, Event Generation
   QIS_Categories: Quantum Algorithms - Grover's Search Algorithm, Quantum Machine
     Learning - Variational Quantum Algorithms
 - ID: 2753532
@@ -637,7 +639,7 @@
   NUPA_Categories: Dark Matter - Particle-like Dark Matter
   QIS_Categories: Quantum Sensors - Solid State Sensors
 - ID: 2805631
-  NUPA_Categories: Lattice Scalar Theories
+  NUPA_Categories: Lattice Scalar/Fermion Theories
   QIS_Categories: Continuous Variable Quantum Computing, Quantum Simulations
 - ID: 2806451
   NUPA_Categories: Dark Matter - Wave-like Dark Matter
@@ -686,7 +688,7 @@
   QIS_Categories: Quantum Sensors - Atomic Sensors, Quantum Sensors - Optical/Photonic
     Sensors
 - ID: 2844264
-  NUPA_Categories: Quantum Field Theories
+  NUPA_Categories: Beyond the Standard Model
   QIS_Categories: Quantum Entanglement and Bell Inequalities
 - ID: 2854807
   NUPA_Categories: Dark Matter - Wave-like Dark Matter
@@ -708,7 +710,7 @@
   NUPA_Categories: Dark Matter - Particle-like Dark Matter
   QIS_Categories: Quantum Sensors - Optomechanical Sensors
 - ID: 2875247
-  NUPA_Categories: Lattice Scalar Theories
+  NUPA_Categories: Lattice Scalar/Fermion Theories
   QIS_Categories: Continuous Variable Quantum Computing, Quantum Simulations
 - ID: 2879661
   NUPA_Categories: Gravitation and Astrophysics, Dark Matter - Wave-like Dark Matter
@@ -728,13 +730,13 @@
   NUPA_Categories: Spin Correlation in Particle Decays
   QIS_Categories: Quantum Entanglement and Bell Inequalities
 - ID: 2919034
-  NUPA_Categories: Quantum Field Theories
-  QIS_Categories: Continuous Variable Quantum Computing
+  NUPA_Categories: Lattice Scalar/Fermion Theories
+  QIS_Categories: Quantum Simulations
 - ID: 2933317
   NUPA_Categories: Event Classification
   QIS_Categories: Quantum Machine Learning - Unsupervised Methods
 - ID: 2937836
-  NUPA_Categories: Quantum Field Theories
+  NUPA_Categories: Lattice Scalar/Fermion Theories
   QIS_Categories: Continuous Variable Quantum Computing
 - ID: 2944584
   NUPA_Categories: Quantum Chromodynamics
@@ -772,3 +774,6 @@
   QIS_Categories: Quantum Sensors - Nuclear Sensors, Quantum Sensors - Atomic Sensors,
     Quantum Sensors - Optical/Photonic Sensors, Quantum Sensors - Optomechanical Sensors,
     Quantum Sensors - Solid State Sensors
+- ID: 3098812
+  NUPA_Categories: Lattice Gauge Theories
+  QIS_Categories: Quantum Simulations
