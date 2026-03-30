@@ -344,7 +344,7 @@
 + <strong>Posted on <a href="https://arxiv.org/abs/2202.11727">arXiv:2202.11727</a>:</strong> 23 February 2022 
 + <strong>Published in <a href="https://doi.org/10.1103/PhysRevA.106.022601">Phys.Rev.A</a>:</strong> 01 August 2022</details>
 
-###  $\textbf{{\color{#9BC53D}Gravitation and Astrophysics}}$ 
+###  $\textbf{{\color{#9BC53D}Gravitation/Astrophysics/Cosmology}}$ 
 
 <details>
 <summary> (2019) <b>Restricted Boltzmann Machines for galaxy morphology classification with a quantum annealer</b> [<a href="https://arxiv.org/abs/1911.06259">arXiv</a>] [<a href="https://inspirehep.net/literature/1771497">INSPIRE</a>] <code>Expand</code><br> </summary>
@@ -522,7 +522,7 @@
 + <strong>Posted on <a href="https://arxiv.org/abs/2104.10835">arXiv:2104.10835</a>:</strong> 21 April 2021 
 + <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.104.074014">Phys.Rev.D</a>:</strong> 01 October 2021</details>
 
-###  $\textbf{{\color{#9BC53D}Spin Correlation in Particle Decays}}$ 
+###  $\textbf{{\color{#9BC53D}Quantum Information in Collider Physics}}$ 
 
 <details>
 <summary> (2020) <b>Entanglement and quantum tomography with top quarks at the LHC</b> [<a href="https://arxiv.org/abs/2003.02280">arXiv</a>] [<a href="https://doi.org/10.1140/epjp/s13360-021-01902-1">DOI</a>] [<a href="https://inspirehep.net/literature/1784053">INSPIRE</a>] <code>Expand</code> </summary>
@@ -1622,7 +1622,7 @@
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1329898"> Hajime Fukuda</a>, <a href="https://inspirehep.net/authors/996781"> Takeo Moroi</a>, <a href="https://inspirehep.net/authors/2680252"> Thanaporn Sichanugrist</a>
 + <strong>Posted on <a href="https://arxiv.org/abs/2511.03253">arXiv:2511.03253</a>:</strong> 05 November 2025</details>
 
-###  $\textbf{{\color{#9BC53D}Gravitation and Astrophysics}}$ 
+###  $\textbf{{\color{#9BC53D}Gravitation/Astrophysics/Cosmology}}$ 
 
 <details>
 <summary> (2020) <b>Quantum sensor networks as exotic field telescopes for multi-messenger astronomy</b> [<a href="https://arxiv.org/abs/2002.04352">arXiv</a>] [<a href="https://doi.org/10.1038/s41550-020-01242-7">DOI</a>] [<a href="https://inspirehep.net/literature/1779690">INSPIRE</a>] <code>Expand</code> </summary>
@@ -1915,7 +1915,7 @@
 + <strong>Posted on <a href="https://arxiv.org/abs/2403.02381">arXiv:2403.02381</a>:</strong> 04 March 2024 
 + <strong>Published in <a href="https://doi.org/10.1088/1475-7516/2024/06/050">JCAP</a>:</strong> 21 June 2024</details>
 
-###  $\textbf{{\color{#9BC53D}Gravitation and Astrophysics}}$ 
+###  $\textbf{{\color{#9BC53D}Gravitation/Astrophysics/Cosmology}}$ 
 
 <details>
 <summary> (2018) <b>Quantum interactions between a laser interferometer and gravitational waves</b> [<a href="https://arxiv.org/abs/1808.09122">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.98.124006">DOI</a>] [<a href="https://inspirehep.net/literature/1691753">INSPIRE</a>] <code>Expand</code> </summary>
@@ -2248,7 +2248,7 @@
 
 
 
-##  $\textbf{{\color{#5BC0EB}Quantum Simulations}}$ 
+##  $\textbf{{\color{#5BC0EB}Quantum Algorithms - Quantum Simulations}}$ 
 
 ###  $\textbf{{\color{#9BC53D}Dark Matter - Particle-like Dark Matter}}$ 
 

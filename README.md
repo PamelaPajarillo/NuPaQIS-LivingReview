@@ -61,7 +61,7 @@ Dark Matter (DM) constitutes about 85\% of the matter in the universe but remain
 A list of particle-like dark matter candidates include: 
   (1) Weakly Interacting Massive Particles (WIMPs):
   (2) Light Dark Matter:
-  (3) Millicharged Particles: and
+  (3) Millicharged Particles: 
   (4) Dark Photons (massive):
   (5) Sterile Neutrinos:
 
@@ -117,7 +117,7 @@ References:
 
 
 
-An event is the outcome of a collision between two incoming particles, or the outcome of an isolated decay of a particle, which consists of a number of outgoing particles. Event classification 
+An event is the outcome of a collision between two incoming particles, or the outcome of an isolated decay of a particle, which consists of a number of outgoing particles. 
 References:
   - TBA
 </details>
@@ -135,7 +135,7 @@ References:
 </details>
 
 <details>
-<summary> <b>Gravitation and Astrophysics: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dgravitation-and-astrophysics"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+<summary> <b>Gravitation/Astrophysics/Cosmology: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dgravitation/astrophysics/cosmology"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
@@ -185,26 +185,15 @@ References:
 
 
 
-Quantum Chromodynamics (QCD) is the theory of the strong interaction in the Standard Model which describes the interactions between quarks and gluons. QCD is a non-Abelian gauge theory with symmetry group SU(3), where the quark fields are in the fundamental representation and gluon fields are in the adjoint representation. QCD exhibits several interesting phenomena such as confinement, asymptotic freedom, and chiral symmetry breaking. Confinement refers to the fact that quarks and gluons cannot be observed as free particles, but only as bound states called hadrons. Asymptotic freedom means that at high energies or short distances, the strong coupling constant becomes small, allowing for perturbative calculations. Chiral symmetry breaking occurs when the vacuum state of QCD does not respect chiral symmetry, leading to the generation of masses for hadrons.
+Quantum Chromodynamics (QCD) is the theory of the strong interaction in the Standard Model which describes the interactions between quarks and gluons. 
 
 References:
   - R. K. Ellis, W. J. Stirling, and B. R. Webber, *QCD and Collider Physics*, Cambridge University Press, 1996.
-</details>
-
-<details>
-<summary> <b>Quantum Field Theories: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dquantum-field-theories"> Link to Papers </a>  <code>Expand for Description</code> </summary>
-
-
-
-To be written
-
-References:
-  - TBA
   
 </details>
 
 <details>
-<summary> <b>Spin Correlation in Particle Decays: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dspin-correlation-in-particle-decays"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+<summary> <b>Quantum Information in Collider Physics: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dquantum-information-in-collider-physics"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
@@ -219,10 +208,11 @@ References:
 
 
 
-Developed by Julian Schwinger in 1962, the Schwinger model is a 1+1 dimensional quantum field theory that describes quantum electrodynamics (QED), the theory of light (photons) interacting with charged particles (electrons and positrons). The Lagrangian of the Schwinger model is given by $$ \mathcal{L} = \bar{\psi}(i\gamma^{\mu}D_{\mu} - m)\psi -\frac{1}{4} F_{\mu\nu}F^{\mu\nu} $$ where $F_{\mu\nu}$ is the electromagnetic field strength tensor, $\psi$ is the Dirac fermion field representing electrons and positrons, $m$ is the mass of the fermions, and $D_{\mu} = \partial_{\mu} + ie A_{\mu}$ is the gauge covariant derivative. The Schwinger model is exactly solvable and exhibits several interesting phenomena such as confinement, chiral symmetry breaking, and a non-trivial vacuum structure. 
+Developed by Julian Schwinger in 1962, the Schwinger model is a 1+1 dimensional quantum field theory that describes quantum electrodynamics (QED), the theory of light (photons) interacting with charged particles (electrons and positrons). The Lagrangian of the Schwinger model is given by $$ \mathcal{L} = \bar{\psi}(i\gamma^{\mu}D_{\mu} - m)\psi -\frac{1}{4} F_{\mu\nu}F^{\mu\nu} $$ where $F_{\mu\nu}$ is the electromagnetic field strength tensor, $\psi$ is the Dirac fermion field representing electrons and positrons, $m$ is the mass of the fermions, and $D_{\mu} = \partial_{\mu} + ie A_{\mu}$ is the gauge covariant derivative. The Schwinger model has properties that are directly analogous to features in quantum chromodynamics (QCD). These include
 
 References:
   - David Tong's Lectures on Gauge Theory, Chapter 7: https://www.damtp.cam.ac.uk/user/tong/gaugetheory.html
+  - Charge shielding and quark confinement in the Schwinger model: https://doi.org/10.1016/0003-4916(75)90212-2
   - Gauge Invariance and Mass. II: https://journals.aps.org/pr/abstract/10.1103/PhysRev.128.2425
   - Selected Topics in Gauge Theories, Chapter 5: https://link.springer.com/book/10.1007/3-540-16064-7
 </details>
@@ -447,11 +437,11 @@ References:
 </details>
 
 <details>
-<summary> <b>Quantum Simulations: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-simulations"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+<summary> <b>Quantum Algorithms - Quantum Simulations: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-algorithms---quantum-simulations"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-Richard Feynman first proposed the idea of quantum simulation in 1982, where he noted that simulating quantum systems on a classical computer was hard and suggested that quantum systems could be efficiently simulated by other quantum systems. Seth Lloyd later showed 
+Richard Feynman first proposed the idea of quantum simulation in 1982, where he noted that simulating quantum systems on a classical computer was hard and suggested that quantum systems could be efficiently simulated by other quantum systems. Seth Lloyd later showed that Feynman's idea of quantum simulation could be implemented on a quantum computer. 
 
 References:
   - Nielsen, Michael A., and Isaac L. Chuang. *Quantum Computation and Quantum Information*. 10th anniversary ed. [or 2nd ed.], Cambridge University Press, 2010.

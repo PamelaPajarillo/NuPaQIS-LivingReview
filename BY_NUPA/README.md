@@ -441,7 +441,7 @@
 + <strong>Posted on <a href="https://arxiv.org/abs/2501.05504">arXiv:2501.05504</a>:</strong> 09 January 2025 
 + <strong>Published in <a href="https://doi.org/10.1103/yq4n-xq9y">Phys.Rev.D</a>:</strong> 01 September 2025</details>
 
-###  $\textbf{{\color{#5BC0EB}Quantum Simulations}}$ 
+###  $\textbf{{\color{#5BC0EB}Quantum Algorithms - Quantum Simulations}}$ 
 
 <details>
 <summary> (2022) <b>Quantum simulations of dark sector showers</b> [<a href="https://arxiv.org/abs/2204.12500">arXiv</a>] [<a href="https://doi.org/10.1016/j.physletb.2022.137466">DOI</a>] [<a href="https://inspirehep.net/literature/2073078">INSPIRE</a>] <code>Expand</code> </summary>
@@ -1019,7 +1019,7 @@
 + <strong>Posted on <a href="https://arxiv.org/abs/2210.12085">arXiv:2210.12085</a>:</strong> 21 October 2022 
 + <strong>Published in <a href="https://doi.org/10.1103/PhysRevC.107.025204">Phys.Rev.C 107, 025204 (2023)</a>:</strong> 14 February 2023</details>
 
-###  $\textbf{{\color{#5BC0EB}Quantum Simulations}}$ 
+###  $\textbf{{\color{#5BC0EB}Quantum Algorithms - Quantum Simulations}}$ 
 
 <details>
 <summary> (2021) <b>Simulating Collider Physics on Quantum Computers Using Effective Field Theories</b> [<a href="https://arxiv.org/abs/2102.05044">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevLett.127.212001">DOI</a>] [<a href="https://inspirehep.net/literature/1845763">INSPIRE</a>] <code>Expand</code> </summary>
@@ -1331,7 +1331,7 @@
 + <strong>Posted on <a href="https://arxiv.org/abs/2502.18059">arXiv:2502.18059</a>:</strong> 25 February 2025 
 + <strong>Published in <a href="https://doi.org/10.22323/1.483.0260">PoS</a>:</strong> 24 October 2025</details>
 
-###  $\textbf{{\color{#5BC0EB}Quantum Simulations}}$ 
+###  $\textbf{{\color{#5BC0EB}Quantum Algorithms - Quantum Simulations}}$ 
 
 <details>
 <summary> (2019) <b>Quantum Algorithm for High Energy Physics Simulations</b> [<a href="https://arxiv.org/abs/1904.03196">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevLett.126.062001">DOI</a>] [<a href="https://inspirehep.net/literature/1728687">INSPIRE</a>] <code>Expand</code> </summary>
@@ -1430,7 +1430,7 @@
 
 
 
-##  $\textbf{{\color{#9BC53D}Gravitation and Astrophysics}}$ 
+##  $\textbf{{\color{#9BC53D}Gravitation/Astrophysics/Cosmology}}$ 
 
 ###  $\textbf{{\color{#5BC0EB}Quantum Annealing}}$ 
 
@@ -1730,7 +1730,7 @@
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1019047"> Steven Abel</a>, <a href="https://inspirehep.net/authors/1045921"> Michael Spannowsky</a>, <a href="https://inspirehep.net/authors/1821879"> Simon Williams</a>
 + <strong>Posted on <a href="https://arxiv.org/abs/2506.17388">arXiv:2506.17388</a>:</strong> 20 June 2025</details>
 
-###  $\textbf{{\color{#5BC0EB}Quantum Simulations}}$ 
+###  $\textbf{{\color{#5BC0EB}Quantum Algorithms - Quantum Simulations}}$ 
 
 <details>
 <summary> (2011) <b>Quantum Computation of Scattering in Scalar Quantum Field Theories</b> [<a href="https://arxiv.org/abs/1112.4833">arXiv</a>] [<a href="https://inspirehep.net/literature/1082274">INSPIRE</a>] <code>Expand</code><br> </summary>
@@ -1800,7 +1800,7 @@
 + <strong>Posted on <a href="https://arxiv.org/abs/2102.08920">arXiv:2102.08920</a>:</strong> 17 February 2021 
 + <strong>Published in <a href="https://doi.org/10.1038/s41467-021-26825-4">Nature Communications 2021</a>:</strong> 11 November 2021</details>
 
-###  $\textbf{{\color{#5BC0EB}Quantum Simulations}}$ 
+###  $\textbf{{\color{#5BC0EB}Quantum Algorithms - Quantum Simulations}}$ 
 
 <details>
 <summary> (2005) <b>Simulating lattice gauge theories on a quantum computer</b> [<a href="https://arxiv.org/abs/quant-ph/0510027">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevA.73.022328">DOI</a>] [<a href="https://inspirehep.net/literature/694221">INSPIRE</a>] <code>Expand</code> </summary>
@@ -2061,7 +2061,7 @@
 + <strong>Posted on <a href="https://arxiv.org/abs/2104.10835">arXiv:2104.10835</a>:</strong> 21 April 2021 
 + <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.104.074014">Phys.Rev.D</a>:</strong> 01 October 2021</details>
 
-###  $\textbf{{\color{#5BC0EB}Quantum Simulations}}$ 
+###  $\textbf{{\color{#5BC0EB}Quantum Algorithms - Quantum Simulations}}$ 
 
 <details>
 <summary> (2020) <b>Quantum simulation of quantum field theory in the light-front formulation</b> [<a href="https://arxiv.org/abs/2002.04016">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevA.105.032418">DOI</a>] [<a href="https://inspirehep.net/literature/1779477">INSPIRE</a>] <code>Expand</code> </summary>
@@ -2103,19 +2103,7 @@
 
 
 
-##  $\textbf{{\color{#9BC53D}Quantum Field Theories}}$ 
-
-###  $\textbf{{\color{#5BC0EB}Crosslists}}$ 
-
-<details>
-<summary> (2022) <b>Snowmass White Paper: Quantum Computing Systems and Software for High-energy Physics Research</b> [<a href="https://arxiv.org/abs/2203.07091">arXiv</a>] [<a href="https://inspirehep.net/literature/2051498">INSPIRE</a>] <code>Expand</code><br> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1873520"> Travis S. Humble</a>, <a href="https://inspirehep.net/authors/1309026"> Andrea Delgado</a>, <a href="https://inspirehep.net/authors/1959740"> Raphael Pooser</a>, <a href="https://inspirehep.net/authors/2034235"> Christopher Seck</a>, <a href="https://inspirehep.net/authors/2016391"> Ryan Bennink</a>, <a href="https://inspirehep.net/authors/1964926"> Vicente Leyton-Ortega</a>, <a href="https://inspirehep.net/authors/984158"> C.-C. Joseph Wang</a>, <a href="https://inspirehep.net/authors/1957262"> Eugene Dumitrescu</a>, <a href="https://inspirehep.net/authors/1025005"> Titus Morris</a>, <a href="https://inspirehep.net/authors/1964884"> Kathleen Hamilton</a>, <a href="https://inspirehep.net/authors/1982616"> Dmitry Lyakh</a>, <a href="https://inspirehep.net/authors/1982115"> Prasanna Date</a>, <a href="https://inspirehep.net/authors/2051501"> Yan Wang</a>, <a href="https://inspirehep.net/authors/1038124"> Nicholas A. Peters</a>, <a href="https://inspirehep.net/authors/2051502"> Katherine J. Evans</a>, <a href="https://inspirehep.net/authors/1012077"> Marcel Demarteau</a>, <a href="https://inspirehep.net/authors/1955549"> Alex McCaskey</a>, <a href="https://inspirehep.net/authors/1901331"> Thien Nguyen</a>, <a href="https://inspirehep.net/authors/1890493"> Susan Clark</a>, <a href="https://inspirehep.net/authors/2051503"> Melissa Reville</a>, <a href="https://inspirehep.net/authors/1918766"> Alberto Di Meglio</a>, <a href="https://inspirehep.net/authors/1990556"> Michele Grossi</a>, <a href="https://inspirehep.net/authors/1028732"> Sofia Vallecorsa</a>, <a href="https://inspirehep.net/authors/1015735"> Kerstin Borras</a>, <a href="https://inspirehep.net/authors/1004503"> Karl Jansen</a>, <a href="https://inspirehep.net/authors/1022164"> Dirk Krücker</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2203.07091">arXiv:2203.07091</a>:</strong> 14 March 2022</details>
-
-
-
-##  $\textbf{{\color{#9BC53D}Spin Correlation in Particle Decays}}$ 
+##  $\textbf{{\color{#9BC53D}Quantum Information in Collider Physics}}$ 
 
 ###  $\textbf{{\color{#5BC0EB}Quantum Entanglement and Bell Inequalities}}$ 
 
@@ -2248,7 +2236,7 @@
 + <strong>Posted on <a href="https://arxiv.org/abs/2311.16297">arXiv:2311.16297</a>:</strong> 27 November 2023 
 + <strong>Published in <a href="https://doi.org/10.1002/andp.202400415">Annalen Phys.</a>:</strong> 01 June 2025</details>
 
-###  $\textbf{{\color{#5BC0EB}Quantum Simulations}}$ 
+###  $\textbf{{\color{#5BC0EB}Quantum Algorithms - Quantum Simulations}}$ 
 
 <details>
 <summary> (2013) <b>Quantum simulation of a lattice Schwinger model in a chain of trapped ions</b> [<a href="https://arxiv.org/abs/1306.2162">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevX.3.041018">DOI</a>] [<a href="https://inspirehep.net/literature/1237921">INSPIRE</a>] <code>Expand</code> </summary>
