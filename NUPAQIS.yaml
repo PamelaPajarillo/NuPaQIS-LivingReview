@@ -292,6 +292,9 @@
 - ID: 1986866
   NUPA_Categories: Anomaly Detection
   QIS_Categories: Quantum Machine Learning - Variational Quantum Algorithms
+- ID: 1988127
+  NUPA_Categories: Lattice Gauge Theories
+  QIS_Categories: Quantum Algorithms - Quantum Simulations
 - ID: 1998852
   NUPA_Categories: Dark Matter - Particle-like Dark Matter
   QIS_Categories: Quantum Sensors - Optomechanical Sensors
@@ -609,8 +612,8 @@
   NUPA_Categories: Event Classification
   QIS_Categories: Quantum Machine Learning - Variational Quantum Algorithms
 - ID: 2757981
-  NUPA_Categories: Quantum Information in Collider Physics
-  QIS_Categories: Quantum Entanglement and Bell Inequalities
+  NUPA_Categories: Reviews, Quantum Information in Collider Physics
+  QIS_Categories: Reviews, Quantum Entanglement and Bell Inequalities
 - ID: 2759081
   NUPA_Categories: Lattice Gauge Theories
   QIS_Categories: Quantum Algorithms - Quantum Simulations
@@ -781,3 +784,6 @@
 - ID: 3098812
   NUPA_Categories: Lattice Gauge Theories
   QIS_Categories: Quantum Algorithms - Quantum Simulations
+- ID: 3125318
+  NUPA_Categories: Event Classification
+  QIS_Categories: Quantum Machine Learning - Supervised Methods

@@ -41,6 +41,13 @@
 + <strong>Posted on <a href="https://arxiv.org/abs/2312.14190">arXiv:2312.14190</a>:</strong> 20 December 2023 
 + <strong>Published in <a href="https://doi.org/10.1016/j.revip.2024.100091">Reviews in Physics, vol. 12, 2024, 100091</a>:</strong> 18 January 2024</details>
 
+<details>
+<summary> (2024) <b>Quantum entanglement and Bell inequality violation at colliders</b> [<a href="https://arxiv.org/abs/2402.07972">arXiv</a>] [<a href="https://doi.org/10.1016/j.ppnp.2024.104134">DOI</a>] [<a href="https://inspirehep.net/literature/2757981">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1017290"> Alan J. Barr</a>, <a href="https://inspirehep.net/authors/1010482"> Marco Fabbrichesi</a>, <a href="https://inspirehep.net/authors/1009800"> Roberto Floreanini</a>, <a href="https://inspirehep.net/authors/1009120"> Emidio Gabrielli</a>, <a href="https://inspirehep.net/authors/1273305"> Luca Marzola</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2402.07972">arXiv:2402.07972</a>:</strong> 12 February 2024 
++ <strong>Published in <a href="https://doi.org/10.1016/j.ppnp.2024.104134">Prog.Part.Nucl.Phys.</a>:</strong> 19 July 2024</details>
+
 ###  $\textbf{Whitepapers and Proceedings}$ 
 
 <details>
@@ -296,6 +303,15 @@
 
 ##  $\textbf{{\color{#9BC53D}Dark Matter - Particle-like Dark Matter}}$ 
 
+###  $\textbf{{\color{#5BC0EB}Quantum Algorithms - Quantum Simulations}}$ 
+
+<details>
+<summary> (2022) <b>Quantum simulations of dark sector showers</b> [<a href="https://arxiv.org/abs/2204.12500">arXiv</a>] [<a href="https://doi.org/10.1016/j.physletb.2022.137466">DOI</a>] [<a href="https://inspirehep.net/literature/2073078">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1474093"> So Chigusa</a>, <a href="https://inspirehep.net/authors/1039163"> Masahito Yamazaki</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2204.12500">arXiv:2204.12500</a>:</strong> 26 April 2022 
++ <strong>Published in <a href="https://doi.org/10.1016/j.physletb.2022.137466">Phys.Lett.B</a>:</strong> 26 September 2022</details>
+
 ###  $\textbf{{\color{#5BC0EB}Quantum Sensors - Atomic Sensors}}$ 
 
 <details>
@@ -440,15 +456,6 @@
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1785907"> Tanner Trickle</a>
 + <strong>Posted on <a href="https://arxiv.org/abs/2501.05504">arXiv:2501.05504</a>:</strong> 09 January 2025 
 + <strong>Published in <a href="https://doi.org/10.1103/yq4n-xq9y">Phys.Rev.D</a>:</strong> 01 September 2025</details>
-
-###  $\textbf{{\color{#5BC0EB}Quantum Algorithms - Quantum Simulations}}$ 
-
-<details>
-<summary> (2022) <b>Quantum simulations of dark sector showers</b> [<a href="https://arxiv.org/abs/2204.12500">arXiv</a>] [<a href="https://doi.org/10.1016/j.physletb.2022.137466">DOI</a>] [<a href="https://inspirehep.net/literature/2073078">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1474093"> So Chigusa</a>, <a href="https://inspirehep.net/authors/1039163"> Masahito Yamazaki</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2204.12500">arXiv:2204.12500</a>:</strong> 26 April 2022 
-+ <strong>Published in <a href="https://doi.org/10.1016/j.physletb.2022.137466">Phys.Lett.B</a>:</strong> 26 September 2022</details>
 
 ###  $\textbf{{\color{#5BC0EB}Crosslists}}$ 
 
@@ -1010,15 +1017,6 @@
 
 ##  $\textbf{{\color{#9BC53D}Effective Field Theories}}$ 
 
-###  $\textbf{{\color{#5BC0EB}Quantum Entanglement and Bell Inequalities}}$ 
-
-<details>
-<summary> (2022) <b>Minimal entanglement and emergent symmetries in low-energy QCD</b> [<a href="https://arxiv.org/abs/2210.12085">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevC.107.025204">DOI</a>] [<a href="https://inspirehep.net/literature/2169094">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/2169095"> Qiaofeng Liu</a>, <a href="https://inspirehep.net/authors/999724"> Ian Low</a>, <a href="https://inspirehep.net/authors/997921"> Thomas Mehen</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2210.12085">arXiv:2210.12085</a>:</strong> 21 October 2022 
-+ <strong>Published in <a href="https://doi.org/10.1103/PhysRevC.107.025204">Phys.Rev.C 107, 025204 (2023)</a>:</strong> 14 February 2023</details>
-
 ###  $\textbf{{\color{#5BC0EB}Quantum Algorithms - Quantum Simulations}}$ 
 
 <details>
@@ -1027,6 +1025,15 @@
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1017103"> Christian W. Bauer</a>, <a href="https://inspirehep.net/authors/1074607"> Marat Freytsis</a>, <a href="https://inspirehep.net/authors/1067995"> Benjamin Nachman</a>
 + <strong>Posted on <a href="https://arxiv.org/abs/2102.05044">arXiv:2102.05044</a>:</strong> 09 February 2021 
 + <strong>Published in <a href="https://doi.org/10.1103/PhysRevLett.127.212001">Phys.Rev.Lett.</a>:</strong> 18 November 2021</details>
+
+###  $\textbf{{\color{#5BC0EB}Quantum Entanglement and Bell Inequalities}}$ 
+
+<details>
+<summary> (2022) <b>Minimal entanglement and emergent symmetries in low-energy QCD</b> [<a href="https://arxiv.org/abs/2210.12085">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevC.107.025204">DOI</a>] [<a href="https://inspirehep.net/literature/2169094">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/2169095"> Qiaofeng Liu</a>, <a href="https://inspirehep.net/authors/999724"> Ian Low</a>, <a href="https://inspirehep.net/authors/997921"> Thomas Mehen</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2210.12085">arXiv:2210.12085</a>:</strong> 21 October 2022 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevC.107.025204">Phys.Rev.C 107, 025204 (2023)</a>:</strong> 14 February 2023</details>
 
 ###  $\textbf{{\color{#5BC0EB}Crosslists}}$ 
 
@@ -1139,6 +1146,12 @@
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1762648"> Zhelun Li</a>, <a href="https://inspirehep.net/authors/1806317"> Lento Nagano</a>, <a href="https://inspirehep.net/authors/986339"> Koji Terashi</a>
 + <strong>Posted on <a href="https://arxiv.org/abs/2405.11150">arXiv:2405.11150</a>:</strong> 17 May 2024 
 + <strong>Published in <a href="https://doi.org/10.1103/PhysRevResearch.6.043028">Phys.Rev.Res.</a>:</strong> 10 October 2024</details>
+
+<details>
+<summary> (2026) <b>From Reachability to Learnability: Geometric Design Principles for Quantum Neural Networks</b> [<a href="https://arxiv.org/abs/2603.03071">arXiv</a>] [<a href="https://inspirehep.net/literature/3125318">INSPIRE</a>] <code>Expand</code><br> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1812043"> Vishal S. Ngairangbam</a>, <a href="https://inspirehep.net/authors/1045921"> Michael Spannowsky</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2603.03071">arXiv:2603.03071</a>:</strong> 03 March 2026</details>
 
 ###  $\textbf{{\color{#5BC0EB}Quantum Machine Learning - Unsupervised Methods}}$ 
 
@@ -1270,6 +1283,43 @@
 + <strong>Posted on <a href="https://arxiv.org/abs/2401.03023">arXiv:2401.03023</a>:</strong> 05 January 2024 
 + <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.110.074031">Phys. Rev. D 110, 074031 (2024)</a>:</strong> 01 October 2024</details>
 
+###  $\textbf{{\color{#5BC0EB}Quantum Algorithms - Quantum Simulations}}$ 
+
+<details>
+<summary> (2019) <b>Quantum Algorithm for High Energy Physics Simulations</b> [<a href="https://arxiv.org/abs/1904.03196">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevLett.126.062001">DOI</a>] [<a href="https://inspirehep.net/literature/1728687">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1017103"> Christian W. Bauer</a>, <a href="https://inspirehep.net/authors/1887674"> Wibe A. de Jong</a>, <a href="https://inspirehep.net/authors/1067995"> Benjamin Nachman</a>, <a href="https://inspirehep.net/authors/1757231"> Davide Provasoli</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/1904.03196">arXiv:1904.03196</a>:</strong> 05 April 2019 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevLett.126.062001">Phys. Rev. Lett. 126, 062001 (2021)</a>:</strong> 11 February 2021</details>
+
+<details>
+<summary> (2020) <b>Towards a quantum computing algorithm for helicity amplitudes and parton showers</b> [<a href="https://arxiv.org/abs/2010.00046">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.103.076020">DOI</a>] [<a href="https://inspirehep.net/literature/1820606">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1933808"> Khadeejah Bepari</a>, <a href="https://inspirehep.net/authors/1055201"> Sarah Malik</a>, <a href="https://inspirehep.net/authors/1045921"> Michael Spannowsky</a>, <a href="https://inspirehep.net/authors/1821879"> Simon Williams</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2010.00046">arXiv:2010.00046</a>:</strong> 13 October 2020 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.103.076020">Phys. Rev. D 103, 076020 (2021)</a>:</strong> 27 April 2021</details>
+
+<details>
+<summary> (2022) <b>Improving quantum simulation efficiency of final state radiation with dynamic quantum circuits</b> [<a href="https://arxiv.org/abs/2203.10018">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.106.036007">DOI</a>] [<a href="https://inspirehep.net/literature/2054717">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1926176"> Plato Deliyannis</a>, <a href="https://inspirehep.net/authors/1982993"> James Sud</a>, <a href="https://inspirehep.net/authors/2054720"> Diana Chamaki</a>, <a href="https://inspirehep.net/authors/2054721"> Zoë Webb-Mack</a>, <a href="https://inspirehep.net/authors/1017103"> Christian W. Bauer</a>, <a href="https://inspirehep.net/authors/1067995"> Benjamin Nachman</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2203.10018">arXiv:2203.10018</a>:</strong> 18 March 2022 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.106.036007">Physical Review D 106, 036007 (2022)</a>:</strong> 01 August 2022</details>
+
+<details>
+<summary> (2022) <b>Collider events on a quantum computer</b> [<a href="https://arxiv.org/abs/2207.10694">arXiv</a>] [<a href="https://doi.org/10.1007/JHEP11(2022)035">DOI</a>] [<a href="https://inspirehep.net/literature/2121169">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1007181"> Gösta Gustafson</a>, <a href="https://inspirehep.net/authors/1058764"> Stefan Prestel</a>, <a href="https://inspirehep.net/authors/1045921"> Michael Spannowsky</a>, <a href="https://inspirehep.net/authors/1821879"> Simon Williams</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2207.10694">arXiv:2207.10694</a>:</strong> 21 July 2022 
++ <strong>Published in <a href="https://doi.org/10.1007/JHEP11(2022)035">JHEP</a>:</strong> 07 November 2022</details>
+
+<details>
+<summary> (2023) <b>Quantum parton shower with kinematics</b> [<a href="https://arxiv.org/abs/2310.19881">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevA.109.032432">DOI</a>] [<a href="https://inspirehep.net/literature/2715777">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1017103"> Christian W. Bauer</a>, <a href="https://inspirehep.net/authors/1474093"> So Chigusa</a>, <a href="https://inspirehep.net/authors/1039163"> Masahito Yamazaki</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2310.19881">arXiv:2310.19881</a>:</strong> 30 October 2023 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevA.109.032432">Phys.Rev.A</a>:</strong> 26 March 2024</details>
+
 ###  $\textbf{{\color{#5BC0EB}Quantum Algorithms - Quantum Walks}}$ 
 
 <details>
@@ -1330,43 +1380,6 @@
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1039163"> Masahito Yamazaki</a>
 + <strong>Posted on <a href="https://arxiv.org/abs/2502.18059">arXiv:2502.18059</a>:</strong> 25 February 2025 
 + <strong>Published in <a href="https://doi.org/10.22323/1.483.0260">PoS</a>:</strong> 24 October 2025</details>
-
-###  $\textbf{{\color{#5BC0EB}Quantum Algorithms - Quantum Simulations}}$ 
-
-<details>
-<summary> (2019) <b>Quantum Algorithm for High Energy Physics Simulations</b> [<a href="https://arxiv.org/abs/1904.03196">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevLett.126.062001">DOI</a>] [<a href="https://inspirehep.net/literature/1728687">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1017103"> Christian W. Bauer</a>, <a href="https://inspirehep.net/authors/1887674"> Wibe A. de Jong</a>, <a href="https://inspirehep.net/authors/1067995"> Benjamin Nachman</a>, <a href="https://inspirehep.net/authors/1757231"> Davide Provasoli</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/1904.03196">arXiv:1904.03196</a>:</strong> 05 April 2019 
-+ <strong>Published in <a href="https://doi.org/10.1103/PhysRevLett.126.062001">Phys. Rev. Lett. 126, 062001 (2021)</a>:</strong> 11 February 2021</details>
-
-<details>
-<summary> (2020) <b>Towards a quantum computing algorithm for helicity amplitudes and parton showers</b> [<a href="https://arxiv.org/abs/2010.00046">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.103.076020">DOI</a>] [<a href="https://inspirehep.net/literature/1820606">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1933808"> Khadeejah Bepari</a>, <a href="https://inspirehep.net/authors/1055201"> Sarah Malik</a>, <a href="https://inspirehep.net/authors/1045921"> Michael Spannowsky</a>, <a href="https://inspirehep.net/authors/1821879"> Simon Williams</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2010.00046">arXiv:2010.00046</a>:</strong> 13 October 2020 
-+ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.103.076020">Phys. Rev. D 103, 076020 (2021)</a>:</strong> 27 April 2021</details>
-
-<details>
-<summary> (2022) <b>Improving quantum simulation efficiency of final state radiation with dynamic quantum circuits</b> [<a href="https://arxiv.org/abs/2203.10018">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.106.036007">DOI</a>] [<a href="https://inspirehep.net/literature/2054717">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1926176"> Plato Deliyannis</a>, <a href="https://inspirehep.net/authors/1982993"> James Sud</a>, <a href="https://inspirehep.net/authors/2054720"> Diana Chamaki</a>, <a href="https://inspirehep.net/authors/2054721"> Zoë Webb-Mack</a>, <a href="https://inspirehep.net/authors/1017103"> Christian W. Bauer</a>, <a href="https://inspirehep.net/authors/1067995"> Benjamin Nachman</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2203.10018">arXiv:2203.10018</a>:</strong> 18 March 2022 
-+ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.106.036007">Physical Review D 106, 036007 (2022)</a>:</strong> 01 August 2022</details>
-
-<details>
-<summary> (2022) <b>Collider events on a quantum computer</b> [<a href="https://arxiv.org/abs/2207.10694">arXiv</a>] [<a href="https://doi.org/10.1007/JHEP11(2022)035">DOI</a>] [<a href="https://inspirehep.net/literature/2121169">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1007181"> Gösta Gustafson</a>, <a href="https://inspirehep.net/authors/1058764"> Stefan Prestel</a>, <a href="https://inspirehep.net/authors/1045921"> Michael Spannowsky</a>, <a href="https://inspirehep.net/authors/1821879"> Simon Williams</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2207.10694">arXiv:2207.10694</a>:</strong> 21 July 2022 
-+ <strong>Published in <a href="https://doi.org/10.1007/JHEP11(2022)035">JHEP</a>:</strong> 07 November 2022</details>
-
-<details>
-<summary> (2023) <b>Quantum parton shower with kinematics</b> [<a href="https://arxiv.org/abs/2310.19881">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevA.109.032432">DOI</a>] [<a href="https://inspirehep.net/literature/2715777">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1017103"> Christian W. Bauer</a>, <a href="https://inspirehep.net/authors/1474093"> So Chigusa</a>, <a href="https://inspirehep.net/authors/1039163"> Masahito Yamazaki</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2310.19881">arXiv:2310.19881</a>:</strong> 30 October 2023 
-+ <strong>Published in <a href="https://doi.org/10.1103/PhysRevA.109.032432">Phys.Rev.A</a>:</strong> 26 March 2024</details>
 
 ###  $\textbf{{\color{#5BC0EB}Crosslists}}$ 
 
@@ -1766,40 +1779,6 @@
 
 ##  $\textbf{{\color{#9BC53D}Lattice Gauge Theories}}$ 
 
-###  $\textbf{{\color{#5BC0EB}Quantum Annealing}}$ 
-
-<details>
-<summary> (2019) <b>A regression algorithm for accelerated lattice QCD that exploits sparse inference on the D-Wave quantum annealer</b> [<a href="https://arxiv.org/abs/1911.06267">arXiv</a>] [<a href="https://doi.org/10.1038/s41598-020-67769-x">DOI</a>] [<a href="https://inspirehep.net/literature/1765130">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1293755"> Nga T.T. Nguyen</a>, <a href="https://inspirehep.net/authors/1984749"> Garrett T. Kenyon</a>, <a href="https://inspirehep.net/authors/1058762"> Boram Yoon</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/1911.06267">arXiv:1911.06267</a>:</strong> 14 November 2019 
-+ <strong>Published in <a href="https://doi.org/10.1038/s41598-020-67769-x">Sci Rep 10, 10915 (2020)</a>:</strong> 02 July 2020</details>
-
-<details>
-<summary> (2021) <b>SU(2) lattice gauge theory on a quantum annealer</b> [<a href="https://arxiv.org/abs/2103.08661">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.104.034501">DOI</a>] [<a href="https://inspirehep.net/literature/1851893">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1852422"> Sarmed A Rahman</a>, <a href="https://inspirehep.net/authors/1000385"> Randy Lewis</a>, <a href="https://inspirehep.net/authors/1710293"> Emanuele Mendicelli</a>, <a href="https://inspirehep.net/authors/2106013"> Sarah Powell</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2103.08661">arXiv:2103.08661</a>:</strong> 15 March 2021 
-+ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.104.034501">Phys. Rev. D 104, 034501 (2021)</a>:</strong> 01 August 2021</details>
-
-###  $\textbf{{\color{#5BC0EB}Quantum Machine Learning - Supervised Methods}}$ 
-
-<details>
-<summary> (2023) <b>Quantum data learning for quantum simulations in high-energy physics</b> [<a href="https://arxiv.org/abs/2306.17214">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevResearch.5.043250">DOI</a>] [<a href="https://inspirehep.net/literature/2673374">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1806317"> Lento Nagano</a>, <a href="https://inspirehep.net/authors/2003006"> Alexander Miessen</a>, <a href="https://inspirehep.net/authors/2007702"> Tamiya Onodera</a>, <a href="https://inspirehep.net/authors/1918765"> Ivano Tavernelli</a>, <a href="https://inspirehep.net/authors/1963538"> Francesco Tacchino</a>, <a href="https://inspirehep.net/authors/986339"> Koji Terashi</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2306.17214">arXiv:2306.17214</a>:</strong> 29 June 2023 
-+ <strong>Published in <a href="https://doi.org/10.1103/PhysRevResearch.5.043250">Phys.Rev.Res.</a>:</strong> 15 December 2023</details>
-
-###  $\textbf{{\color{#5BC0EB}Quantum Machine Learning - Variational Quantum Algorithms}}$ 
-
-<details>
-<summary> (2021) <b>SU(2) hadrons on a quantum computer via a variational approach</b> [<a href="https://arxiv.org/abs/2102.08920">arXiv</a>] [<a href="https://doi.org/10.1038/s41467-021-26825-4">DOI</a>] [<a href="https://inspirehep.net/literature/1847158">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1955682"> Yasar Y. Atas</a>, <a href="https://inspirehep.net/authors/1323674"> Jinglei Zhang</a>, <a href="https://inspirehep.net/authors/1000385"> Randy Lewis</a>, <a href="https://inspirehep.net/authors/1955684"> Amin Jahanpour</a>, <a href="https://inspirehep.net/authors/1897189"> Jan F. Haase</a>, <a href="https://inspirehep.net/authors/1682957"> Christine A. Muschik</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2102.08920">arXiv:2102.08920</a>:</strong> 17 February 2021 
-+ <strong>Published in <a href="https://doi.org/10.1038/s41467-021-26825-4">Nature Communications 2021</a>:</strong> 11 November 2021</details>
-
 ###  $\textbf{{\color{#5BC0EB}Quantum Algorithms - Quantum Simulations}}$ 
 
 <details>
@@ -1900,6 +1879,13 @@
 + <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.107.L031503">Phys.Rev.D</a>:</strong> 01 February 2023</details>
 
 <details>
+<summary> (2021) <b>Quantum error correction with gauge symmetries</b> [<a href="https://arxiv.org/abs/2112.05186">arXiv</a>] [<a href="https://doi.org/10.1038/s41534-023-00706-8">DOI</a>] [<a href="https://inspirehep.net/literature/1988127">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1918811"> Abhishek Rajput</a>, <a href="https://inspirehep.net/authors/1514679"> Alessandro Roggero</a>, <a href="https://inspirehep.net/authors/1918812"> Nathan Wiebe</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2112.05186">arXiv:2112.05186</a>:</strong> 09 December 2021 
++ <strong>Published in <a href="https://doi.org/10.1038/s41534-023-00706-8">npj Quantum Inf.</a>:</strong> 25 April 2023</details>
+
+<details>
 <summary> (2022) <b>Preparations for quantum simulations of quantum chromodynamics in <math display="inline"><mrow><mn>1</mn><mo>+</mo><mn>1</mn></mrow></math> dimensions. I. Axial gauge</b> [<a href="https://arxiv.org/abs/2207.01731">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.107.054512">DOI</a>] [<a href="https://inspirehep.net/literature/2106012">INSPIRE</a>] <code>Expand</code> </summary>
 
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1897377"> Roland C. Farrell</a>, <a href="https://inspirehep.net/authors/1991921"> Ivan A. Chernyshev</a>, <a href="https://inspirehep.net/authors/2106013"> Sarah J.M. Powell</a>, <a href="https://inspirehep.net/authors/2106014"> Nikita A. Zemlevskiy</a>, <a href="https://inspirehep.net/authors/1789348"> Marc Illa</a>, <a href="https://inspirehep.net/authors/990160"> Martin J. Savage</a>
@@ -1960,6 +1946,40 @@
 
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1026654"> Simone Orlando</a>, <a href="https://inspirehep.net/authors/1895088"> Guo-Xian Su</a>, <a href="https://inspirehep.net/authors/1077700"> Bing Yang</a>, <a href="https://inspirehep.net/authors/1877311"> Jad C. Halimeh</a>
 + <strong>Posted on <a href="https://arxiv.org/abs/2601.04345">arXiv:2601.04345</a>:</strong> 07 January 2026</details>
+
+###  $\textbf{{\color{#5BC0EB}Quantum Annealing}}$ 
+
+<details>
+<summary> (2019) <b>A regression algorithm for accelerated lattice QCD that exploits sparse inference on the D-Wave quantum annealer</b> [<a href="https://arxiv.org/abs/1911.06267">arXiv</a>] [<a href="https://doi.org/10.1038/s41598-020-67769-x">DOI</a>] [<a href="https://inspirehep.net/literature/1765130">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1293755"> Nga T.T. Nguyen</a>, <a href="https://inspirehep.net/authors/1984749"> Garrett T. Kenyon</a>, <a href="https://inspirehep.net/authors/1058762"> Boram Yoon</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/1911.06267">arXiv:1911.06267</a>:</strong> 14 November 2019 
++ <strong>Published in <a href="https://doi.org/10.1038/s41598-020-67769-x">Sci Rep 10, 10915 (2020)</a>:</strong> 02 July 2020</details>
+
+<details>
+<summary> (2021) <b>SU(2) lattice gauge theory on a quantum annealer</b> [<a href="https://arxiv.org/abs/2103.08661">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.104.034501">DOI</a>] [<a href="https://inspirehep.net/literature/1851893">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1852422"> Sarmed A Rahman</a>, <a href="https://inspirehep.net/authors/1000385"> Randy Lewis</a>, <a href="https://inspirehep.net/authors/1710293"> Emanuele Mendicelli</a>, <a href="https://inspirehep.net/authors/2106013"> Sarah Powell</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2103.08661">arXiv:2103.08661</a>:</strong> 15 March 2021 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.104.034501">Phys. Rev. D 104, 034501 (2021)</a>:</strong> 01 August 2021</details>
+
+###  $\textbf{{\color{#5BC0EB}Quantum Machine Learning - Supervised Methods}}$ 
+
+<details>
+<summary> (2023) <b>Quantum data learning for quantum simulations in high-energy physics</b> [<a href="https://arxiv.org/abs/2306.17214">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevResearch.5.043250">DOI</a>] [<a href="https://inspirehep.net/literature/2673374">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1806317"> Lento Nagano</a>, <a href="https://inspirehep.net/authors/2003006"> Alexander Miessen</a>, <a href="https://inspirehep.net/authors/2007702"> Tamiya Onodera</a>, <a href="https://inspirehep.net/authors/1918765"> Ivano Tavernelli</a>, <a href="https://inspirehep.net/authors/1963538"> Francesco Tacchino</a>, <a href="https://inspirehep.net/authors/986339"> Koji Terashi</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2306.17214">arXiv:2306.17214</a>:</strong> 29 June 2023 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevResearch.5.043250">Phys.Rev.Res.</a>:</strong> 15 December 2023</details>
+
+###  $\textbf{{\color{#5BC0EB}Quantum Machine Learning - Variational Quantum Algorithms}}$ 
+
+<details>
+<summary> (2021) <b>SU(2) hadrons on a quantum computer via a variational approach</b> [<a href="https://arxiv.org/abs/2102.08920">arXiv</a>] [<a href="https://doi.org/10.1038/s41467-021-26825-4">DOI</a>] [<a href="https://inspirehep.net/literature/1847158">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1955682"> Yasar Y. Atas</a>, <a href="https://inspirehep.net/authors/1323674"> Jinglei Zhang</a>, <a href="https://inspirehep.net/authors/1000385"> Randy Lewis</a>, <a href="https://inspirehep.net/authors/1955684"> Amin Jahanpour</a>, <a href="https://inspirehep.net/authors/1897189"> Jan F. Haase</a>, <a href="https://inspirehep.net/authors/1682957"> Christine A. Muschik</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2102.08920">arXiv:2102.08920</a>:</strong> 17 February 2021 
++ <strong>Published in <a href="https://doi.org/10.1038/s41467-021-26825-4">Nature Communications 2021</a>:</strong> 11 November 2021</details>
 
 ###  $\textbf{{\color{#5BC0EB}Crosslists}}$ 
 
@@ -2052,15 +2072,6 @@
 
 ##  $\textbf{{\color{#9BC53D}Quantum Chromodynamics}}$ 
 
-###  $\textbf{{\color{#5BC0EB}Quantum Entanglement and Bell Inequalities}}$ 
-
-<details>
-<summary> (2021) <b>Symmetry from entanglement suppression</b> [<a href="https://arxiv.org/abs/2104.10835">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.104.074014">DOI</a>] [<a href="https://inspirehep.net/literature/1859911">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/999724"> Ian Low</a>, <a href="https://inspirehep.net/authors/997921"> Thomas Mehen</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2104.10835">arXiv:2104.10835</a>:</strong> 21 April 2021 
-+ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.104.074014">Phys.Rev.D</a>:</strong> 01 October 2021</details>
-
 ###  $\textbf{{\color{#5BC0EB}Quantum Algorithms - Quantum Simulations}}$ 
 
 <details>
@@ -2082,6 +2093,15 @@
 
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1674622"> Herschel A. Chawdhry</a>, <a href="https://inspirehep.net/authors/1274709"> Mathieu Pellen</a>, <a href="https://inspirehep.net/authors/1821879"> Simon Williams</a>
 + <strong>Posted on <a href="https://arxiv.org/abs/2507.07194">arXiv:2507.07194</a>:</strong> 09 July 2025</details>
+
+###  $\textbf{{\color{#5BC0EB}Quantum Entanglement and Bell Inequalities}}$ 
+
+<details>
+<summary> (2021) <b>Symmetry from entanglement suppression</b> [<a href="https://arxiv.org/abs/2104.10835">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.104.074014">DOI</a>] [<a href="https://inspirehep.net/literature/1859911">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/999724"> Ian Low</a>, <a href="https://inspirehep.net/authors/997921"> Thomas Mehen</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2104.10835">arXiv:2104.10835</a>:</strong> 21 April 2021 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.104.074014">Phys.Rev.D</a>:</strong> 01 October 2021</details>
 
 ###  $\textbf{{\color{#5BC0EB}Crosslists}}$ 
 
@@ -2192,13 +2212,6 @@
 + <strong>Published in <a href="https://doi.org/10.1007/JHEP03(2024)099">JHEP</a>:</strong> 15 March 2024</details>
 
 <details>
-<summary> (2024) <b>Quantum entanglement and Bell inequality violation at colliders</b> [<a href="https://arxiv.org/abs/2402.07972">arXiv</a>] [<a href="https://doi.org/10.1016/j.ppnp.2024.104134">DOI</a>] [<a href="https://inspirehep.net/literature/2757981">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1017290"> Alan J. Barr</a>, <a href="https://inspirehep.net/authors/1010482"> Marco Fabbrichesi</a>, <a href="https://inspirehep.net/authors/1009800"> Roberto Floreanini</a>, <a href="https://inspirehep.net/authors/1009120"> Emidio Gabrielli</a>, <a href="https://inspirehep.net/authors/1273305"> Luca Marzola</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2402.07972">arXiv:2402.07972</a>:</strong> 12 February 2024 
-+ <strong>Published in <a href="https://doi.org/10.1016/j.ppnp.2024.104134">Prog.Part.Nucl.Phys.</a>:</strong> 19 July 2024</details>
-
-<details>
 <summary> (2024) <b>Full quantum tomography of top quark decays</b> [<a href="https://arxiv.org/abs/2402.14725">arXiv</a>] [<a href="https://doi.org/10.1016/j.physletb.2024.138849">DOI</a>] [<a href="https://inspirehep.net/literature/2760765">INSPIRE</a>] <code>Expand</code> </summary>
 
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1231884"> J.A. Aguilar-Saavedra</a>
@@ -2218,23 +2231,18 @@
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1019047"> Steven A. Abel</a>, <a href="https://inspirehep.net/authors/1011410"> Herbi K. Dreiner</a>, <a href="https://inspirehep.net/authors/1751817"> Rhitaja Sengupta</a>, <a href="https://inspirehep.net/authors/1064818"> Lorenzo Ubaldi</a>
 + <strong>Posted on <a href="https://arxiv.org/abs/2507.15949">arXiv:2507.15949</a>:</strong> 21 July 2025</details>
 
+###  $\textbf{{\color{#5BC0EB}Crosslists}}$ 
+
+<details>
+<summary> (2024) <b>Quantum entanglement and Bell inequality violation at colliders</b> [<a href="https://arxiv.org/abs/2402.07972">arXiv</a>] [<a href="https://doi.org/10.1016/j.ppnp.2024.104134">DOI</a>] [<a href="https://inspirehep.net/literature/2757981">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1017290"> Alan J. Barr</a>, <a href="https://inspirehep.net/authors/1010482"> Marco Fabbrichesi</a>, <a href="https://inspirehep.net/authors/1009800"> Roberto Floreanini</a>, <a href="https://inspirehep.net/authors/1009120"> Emidio Gabrielli</a>, <a href="https://inspirehep.net/authors/1273305"> Luca Marzola</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2402.07972">arXiv:2402.07972</a>:</strong> 12 February 2024 
++ <strong>Published in <a href="https://doi.org/10.1016/j.ppnp.2024.104134">Prog.Part.Nucl.Phys.</a>:</strong> 19 July 2024</details>
+
+
+
 ##  $\textbf{{\color{#9BC53D}Schwinger Model}}$ 
-
-###  $\textbf{{\color{#5BC0EB}Quantum Machine Learning - Variational Quantum Algorithms}}$ 
-
-<details>
-<summary> (2018) <b>Quantum-classical computation of Schwinger model dynamics using quantum computers</b> [<a href="https://arxiv.org/abs/1803.03326">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevA.98.032331">DOI</a>] [<a href="https://inspirehep.net/literature/1659289">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1722450"> N. Klco</a>, <a href="https://inspirehep.net/authors/1957262"> E.F. Dumitrescu</a>, <a href="https://inspirehep.net/authors/1955549"> A.J. McCaskey</a>, <a href="https://inspirehep.net/authors/2089113"> T.D. Morris</a>, <a href="https://inspirehep.net/authors/1959740"> R.C. Pooser</a>, <a href="https://inspirehep.net/authors/1969035"> M. Sanz</a>, <a href="https://inspirehep.net/authors/1916026"> E. Solano</a>, <a href="https://inspirehep.net/authors/1965128"> P. Lougovski</a>, <a href="https://inspirehep.net/authors/990160"> M.J. Savage</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/1803.03326">arXiv:1803.03326</a>:</strong> 08 March 2018 
-+ <strong>Published in <a href="https://doi.org/10.1103/PhysRevA.98.032331">Phys. Rev. A 98, 032331 (2018)</a>:</strong> 29 September 2018</details>
-
-<details>
-<summary> (2023) <b>Quantum-Classical Simulation of Quantum Field Theory by Quantum Circuit Learning</b> [<a href="https://arxiv.org/abs/2311.16297">arXiv</a>] [<a href="https://doi.org/10.1002/andp.202400415">DOI</a>] [<a href="https://inspirehep.net/literature/2727388">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1615818"> Kazuki Ikeda</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2311.16297">arXiv:2311.16297</a>:</strong> 27 November 2023 
-+ <strong>Published in <a href="https://doi.org/10.1002/andp.202400415">Annalen Phys.</a>:</strong> 01 June 2025</details>
 
 ###  $\textbf{{\color{#5BC0EB}Quantum Algorithms - Quantum Simulations}}$ 
 
@@ -2272,6 +2280,22 @@
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1706722"> James Ingoldby</a>, <a href="https://inspirehep.net/authors/1045921"> Michael Spannowsky</a>, <a href="https://inspirehep.net/authors/2918997"> Timur Sypchenko</a>, <a href="https://inspirehep.net/authors/1821879"> Simon Williams</a>
 + <strong>Posted on <a href="https://arxiv.org/abs/2407.19022">arXiv:2407.19022</a>:</strong> 26 July 2024 
 + <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.110.096016">Phys. Rev. D 110 (2024), 096016</a>:</strong> 01 November 2024</details>
+
+###  $\textbf{{\color{#5BC0EB}Quantum Machine Learning - Variational Quantum Algorithms}}$ 
+
+<details>
+<summary> (2018) <b>Quantum-classical computation of Schwinger model dynamics using quantum computers</b> [<a href="https://arxiv.org/abs/1803.03326">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevA.98.032331">DOI</a>] [<a href="https://inspirehep.net/literature/1659289">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1722450"> N. Klco</a>, <a href="https://inspirehep.net/authors/1957262"> E.F. Dumitrescu</a>, <a href="https://inspirehep.net/authors/1955549"> A.J. McCaskey</a>, <a href="https://inspirehep.net/authors/2089113"> T.D. Morris</a>, <a href="https://inspirehep.net/authors/1959740"> R.C. Pooser</a>, <a href="https://inspirehep.net/authors/1969035"> M. Sanz</a>, <a href="https://inspirehep.net/authors/1916026"> E. Solano</a>, <a href="https://inspirehep.net/authors/1965128"> P. Lougovski</a>, <a href="https://inspirehep.net/authors/990160"> M.J. Savage</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/1803.03326">arXiv:1803.03326</a>:</strong> 08 March 2018 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevA.98.032331">Phys. Rev. A 98, 032331 (2018)</a>:</strong> 29 September 2018</details>
+
+<details>
+<summary> (2023) <b>Quantum-Classical Simulation of Quantum Field Theory by Quantum Circuit Learning</b> [<a href="https://arxiv.org/abs/2311.16297">arXiv</a>] [<a href="https://doi.org/10.1002/andp.202400415">DOI</a>] [<a href="https://inspirehep.net/literature/2727388">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1615818"> Kazuki Ikeda</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2311.16297">arXiv:2311.16297</a>:</strong> 27 November 2023 
++ <strong>Published in <a href="https://doi.org/10.1002/andp.202400415">Annalen Phys.</a>:</strong> 01 June 2025</details>
 
 ###  $\textbf{{\color{#5BC0EB}Crosslists}}$ 
 

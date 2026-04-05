@@ -41,6 +41,13 @@
 + <strong>Posted on <a href="https://arxiv.org/abs/2312.14190">arXiv:2312.14190</a>:</strong> 20 December 2023 
 + <strong>Published in <a href="https://doi.org/10.1016/j.revip.2024.100091">Reviews in Physics, vol. 12, 2024, 100091</a>:</strong> 18 January 2024</details>
 
+<details>
+<summary> (2024) <b>Quantum entanglement and Bell inequality violation at colliders</b> [<a href="https://arxiv.org/abs/2402.07972">arXiv</a>] [<a href="https://doi.org/10.1016/j.ppnp.2024.104134">DOI</a>] [<a href="https://inspirehep.net/literature/2757981">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1017290"> Alan J. Barr</a>, <a href="https://inspirehep.net/authors/1010482"> Marco Fabbrichesi</a>, <a href="https://inspirehep.net/authors/1009800"> Roberto Floreanini</a>, <a href="https://inspirehep.net/authors/1009120"> Emidio Gabrielli</a>, <a href="https://inspirehep.net/authors/1273305"> Luca Marzola</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2402.07972">arXiv:2402.07972</a>:</strong> 12 February 2024 
++ <strong>Published in <a href="https://doi.org/10.1016/j.ppnp.2024.104134">Prog.Part.Nucl.Phys.</a>:</strong> 19 July 2024</details>
+
 ###  $\textbf{Whitepapers and Proceedings}$ 
 
 <details>
@@ -281,6 +288,412 @@
 
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1310061"> Vincent R. Pascuzzi</a>, <a href="https://inspirehep.net/authors/2051496"> Antonio Córcoles</a>
 + <strong>Posted on <a href="https://arxiv.org/abs/2408.11741">arXiv:2408.11741</a>:</strong> 21 August 2024</details>
+
+
+
+##  $\textbf{{\color{#5BC0EB}Quantum Algorithms - Quantum Simulations}}$ 
+
+###  $\textbf{{\color{#9BC53D}Dark Matter - Particle-like Dark Matter}}$ 
+
+<details>
+<summary> (2022) <b>Quantum simulations of dark sector showers</b> [<a href="https://arxiv.org/abs/2204.12500">arXiv</a>] [<a href="https://doi.org/10.1016/j.physletb.2022.137466">DOI</a>] [<a href="https://inspirehep.net/literature/2073078">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1474093"> So Chigusa</a>, <a href="https://inspirehep.net/authors/1039163"> Masahito Yamazaki</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2204.12500">arXiv:2204.12500</a>:</strong> 26 April 2022 
++ <strong>Published in <a href="https://doi.org/10.1016/j.physletb.2022.137466">Phys.Lett.B</a>:</strong> 26 September 2022</details>
+
+###  $\textbf{{\color{#9BC53D}Effective Field Theories}}$ 
+
+<details>
+<summary> (2021) <b>Simulating Collider Physics on Quantum Computers Using Effective Field Theories</b> [<a href="https://arxiv.org/abs/2102.05044">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevLett.127.212001">DOI</a>] [<a href="https://inspirehep.net/literature/1845763">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1017103"> Christian W. Bauer</a>, <a href="https://inspirehep.net/authors/1074607"> Marat Freytsis</a>, <a href="https://inspirehep.net/authors/1067995"> Benjamin Nachman</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2102.05044">arXiv:2102.05044</a>:</strong> 09 February 2021 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevLett.127.212001">Phys.Rev.Lett.</a>:</strong> 18 November 2021</details>
+
+###  $\textbf{{\color{#9BC53D}Event Generation}}$ 
+
+<details>
+<summary> (2019) <b>Quantum Algorithm for High Energy Physics Simulations</b> [<a href="https://arxiv.org/abs/1904.03196">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevLett.126.062001">DOI</a>] [<a href="https://inspirehep.net/literature/1728687">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1017103"> Christian W. Bauer</a>, <a href="https://inspirehep.net/authors/1887674"> Wibe A. de Jong</a>, <a href="https://inspirehep.net/authors/1067995"> Benjamin Nachman</a>, <a href="https://inspirehep.net/authors/1757231"> Davide Provasoli</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/1904.03196">arXiv:1904.03196</a>:</strong> 05 April 2019 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevLett.126.062001">Phys. Rev. Lett. 126, 062001 (2021)</a>:</strong> 11 February 2021</details>
+
+<details>
+<summary> (2020) <b>Towards a quantum computing algorithm for helicity amplitudes and parton showers</b> [<a href="https://arxiv.org/abs/2010.00046">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.103.076020">DOI</a>] [<a href="https://inspirehep.net/literature/1820606">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1933808"> Khadeejah Bepari</a>, <a href="https://inspirehep.net/authors/1055201"> Sarah Malik</a>, <a href="https://inspirehep.net/authors/1045921"> Michael Spannowsky</a>, <a href="https://inspirehep.net/authors/1821879"> Simon Williams</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2010.00046">arXiv:2010.00046</a>:</strong> 13 October 2020 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.103.076020">Phys. Rev. D 103, 076020 (2021)</a>:</strong> 27 April 2021</details>
+
+<details>
+<summary> (2022) <b>Improving quantum simulation efficiency of final state radiation with dynamic quantum circuits</b> [<a href="https://arxiv.org/abs/2203.10018">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.106.036007">DOI</a>] [<a href="https://inspirehep.net/literature/2054717">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1926176"> Plato Deliyannis</a>, <a href="https://inspirehep.net/authors/1982993"> James Sud</a>, <a href="https://inspirehep.net/authors/2054720"> Diana Chamaki</a>, <a href="https://inspirehep.net/authors/2054721"> Zoë Webb-Mack</a>, <a href="https://inspirehep.net/authors/1017103"> Christian W. Bauer</a>, <a href="https://inspirehep.net/authors/1067995"> Benjamin Nachman</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2203.10018">arXiv:2203.10018</a>:</strong> 18 March 2022 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.106.036007">Physical Review D 106, 036007 (2022)</a>:</strong> 01 August 2022</details>
+
+<details>
+<summary> (2022) <b>Collider events on a quantum computer</b> [<a href="https://arxiv.org/abs/2207.10694">arXiv</a>] [<a href="https://doi.org/10.1007/JHEP11(2022)035">DOI</a>] [<a href="https://inspirehep.net/literature/2121169">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1007181"> Gösta Gustafson</a>, <a href="https://inspirehep.net/authors/1058764"> Stefan Prestel</a>, <a href="https://inspirehep.net/authors/1045921"> Michael Spannowsky</a>, <a href="https://inspirehep.net/authors/1821879"> Simon Williams</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2207.10694">arXiv:2207.10694</a>:</strong> 21 July 2022 
++ <strong>Published in <a href="https://doi.org/10.1007/JHEP11(2022)035">JHEP</a>:</strong> 07 November 2022</details>
+
+<details>
+<summary> (2023) <b>Quantum parton shower with kinematics</b> [<a href="https://arxiv.org/abs/2310.19881">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevA.109.032432">DOI</a>] [<a href="https://inspirehep.net/literature/2715777">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1017103"> Christian W. Bauer</a>, <a href="https://inspirehep.net/authors/1474093"> So Chigusa</a>, <a href="https://inspirehep.net/authors/1039163"> Masahito Yamazaki</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2310.19881">arXiv:2310.19881</a>:</strong> 30 October 2023 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevA.109.032432">Phys.Rev.A</a>:</strong> 26 March 2024</details>
+
+###  $\textbf{{\color{#9BC53D}Lattice Scalar/Fermion Theories}}$ 
+
+<details>
+<summary> (2011) <b>Quantum Computation of Scattering in Scalar Quantum Field Theories</b> [<a href="https://arxiv.org/abs/1112.4833">arXiv</a>] [<a href="https://inspirehep.net/literature/1082274">INSPIRE</a>] <code>Expand</code><br> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1030375"> Stephen P. Jordan</a>, <a href="https://inspirehep.net/authors/2272776"> Keith S.M. Lee</a>, <a href="https://inspirehep.net/authors/992791"> John Preskill</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/1112.4833">arXiv:1112.4833</a>:</strong> December 2011</details>
+
+<details>
+<summary> (2014) <b>Quantum Algorithms for Fermionic Quantum Field Theories</b> [<a href="https://arxiv.org/abs/1404.7115">arXiv</a>] [<a href="https://inspirehep.net/literature/1292843">INSPIRE</a>] <code>Expand</code><br> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1030375"> Stephen P. Jordan</a>, <a href="https://inspirehep.net/authors/2272776"> Keith S. M. Lee</a>, <a href="https://inspirehep.net/authors/992791"> John Preskill</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/1404.7115">arXiv:1404.7115</a>:</strong> 28 April 2014</details>
+
+<details>
+<summary> (2018) <b>Digitization of scalar fields for quantum computing</b> [<a href="https://arxiv.org/abs/1808.10378">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevA.99.052335">DOI</a>] [<a href="https://inspirehep.net/literature/1692066">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1722450"> Natalie Klco</a>, <a href="https://inspirehep.net/authors/990160"> Martin J. Savage</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/1808.10378">arXiv:1808.10378</a>:</strong> 30 August 2018 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevA.99.052335">Phys. Rev. A 99, 052335 (2019)</a>:</strong> 23 May 2019</details>
+
+<details>
+<summary> (2018) <b>Scalar Quantum Field Theories as a Benchmark for Near-Term Quantum Computers</b> [<a href="https://arxiv.org/abs/1811.12332">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevA.99.032306">DOI</a>] [<a href="https://inspirehep.net/literature/1705931">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1261678"> Kubra Yeter-Aydeniz</a>, <a href="https://inspirehep.net/authors/1957262"> Eugene F. Dumitrescu</a>, <a href="https://inspirehep.net/authors/1955549"> Alex J. McCaskey</a>, <a href="https://inspirehep.net/authors/2016391"> Ryan S. Bennink</a>, <a href="https://inspirehep.net/authors/1959740"> Raphael C. Pooser</a>, <a href="https://inspirehep.net/authors/1035611"> George Siopsis</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/1811.12332">arXiv:1811.12332</a>:</strong> 29 November 2018 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevA.99.032306">Phys. Rev. A 99, 032306 (2019)</a>:</strong> 04 March 2019</details>
+
+<details>
+<summary> (2025) <b>Real-Time Scattering on Quantum Computers via Hamiltonian Truncation</b> [<a href="https://arxiv.org/abs/2505.03878">arXiv</a>] [<a href="https://inspirehep.net/literature/2919034">INSPIRE</a>] <code>Expand</code><br> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1706722"> James Ingoldby</a>, <a href="https://inspirehep.net/authors/1045921"> Michael Spannowsky</a>, <a href="https://inspirehep.net/authors/2918997"> Timur Sypchenko</a>, <a href="https://inspirehep.net/authors/1821879"> Simon Williams</a>, <a href="https://inspirehep.net/authors/983407"> Matthew Wingate</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2505.03878">arXiv:2505.03878</a>:</strong> 06 May 2025</details>
+
+###  $\textbf{{\color{#9BC53D}Lattice Gauge Theories}}$ 
+
+<details>
+<summary> (2005) <b>Simulating lattice gauge theories on a quantum computer</b> [<a href="https://arxiv.org/abs/quant-ph/0510027">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevA.73.022328">DOI</a>] [<a href="https://inspirehep.net/literature/694221">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1976071"> Tim Byrnes</a>, <a href="https://inspirehep.net/authors/1067795"> Yoshihisa Yamamoto</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/quant-ph/0510027">arXiv:quant-ph/0510027</a>:</strong> October 2005 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevA.73.022328">Phys.Rev.A</a>:</strong> 2006</details>
+
+<details>
+<summary> (2013) <b>Ultracold Quantum Gases and Lattice Systems: Quantum Simulation of Lattice Gauge Theories</b> [<a href="https://arxiv.org/abs/1305.1602">arXiv</a>] [<a href="https://doi.org/10.1002/andp.201300104">DOI</a>] [<a href="https://inspirehep.net/literature/1232212">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/983589"> Uwe-Jens Wiese</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/1305.1602">arXiv:1305.1602</a>:</strong> 07 May 2013 
++ <strong>Published in <a href="https://doi.org/10.1002/andp.201300104">Annalen Phys.</a>:</strong> 2013</details>
+
+<details>
+<summary> (2014) <b>Towards Quantum Simulating QCD</b> [<a href="https://arxiv.org/abs/1409.7414">arXiv</a>] [<a href="https://doi.org/10.1016/j.nuclphysa.2014.09.102">DOI</a>] [<a href="https://inspirehep.net/literature/1319179">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/983589"> Uwe-Jens Wiese</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/1409.7414">arXiv:1409.7414</a>:</strong> 25 September 2014 
++ <strong>Published in <a href="https://doi.org/10.1016/j.nuclphysa.2014.09.102">Nucl.Phys.A</a>:</strong> 28 September 2014</details>
+
+<details>
+<summary> (2015) <b>Quantum Simulations of Lattice Gauge Theories using Ultracold Atoms in Optical Lattices</b> [<a href="https://arxiv.org/abs/1503.02312">arXiv</a>] [<a href="https://doi.org/10.1088/0034-4885/79/1/014401">DOI</a>] [<a href="https://inspirehep.net/literature/1351227">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1077663"> Erez Zohar</a>, <a href="https://inspirehep.net/authors/1061696"> J. Ignacio Cirac</a>, <a href="https://inspirehep.net/authors/991883"> Benni Reznik</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/1503.02312">arXiv:1503.02312</a>:</strong> 08 March 2015 
++ <strong>Published in <a href="https://doi.org/10.1088/0034-4885/79/1/014401">Rept.Prog.Phys.</a>:</strong> 18 December 2015</details>
+
+<details>
+<summary> (2016) <b>Real-time dynamics of lattice gauge theories with a few-qubit quantum computer</b> [<a href="https://arxiv.org/abs/1605.04570">arXiv</a>] [<a href="https://doi.org/10.1038/nature18318">DOI</a>] [<a href="https://inspirehep.net/literature/1459064">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/2365089"> E.A. Martinez</a>, <a href="https://inspirehep.net/authors/1682957"> C.A. Muschik</a>, <a href="https://inspirehep.net/authors/1975724"> P. Schindler</a>, <a href="https://inspirehep.net/authors/1055400"> D. Nigg</a>, <a href="https://inspirehep.net/authors/1984724"> A. Erhard</a>, <a href="https://inspirehep.net/authors/1923778"> M. Heyl</a>, <a href="https://inspirehep.net/authors/1272244"> P. Hauke</a>, <a href="https://inspirehep.net/authors/1272246"> M. Dalmonte</a>, <a href="https://inspirehep.net/authors/1975725"> T. Monz</a>, <a href="https://inspirehep.net/authors/1029405"> P. Zoller</a>, <a href="https://inspirehep.net/authors/1972456"> R. Blatt</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/1605.04570">arXiv:1605.04570</a>:</strong> 15 May 2016 
++ <strong>Published in <a href="https://doi.org/10.1038/nature18318">Nature</a>:</strong> 22 June 2016</details>
+
+<details>
+<summary> (2019) <b>General Methods for Digital Quantum Simulation of Gauge Theories</b> [<a href="https://arxiv.org/abs/1903.08807">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.100.034518">DOI</a>] [<a href="https://inspirehep.net/literature/1726096">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1239062"> Henry Lamm</a>, <a href="https://inspirehep.net/authors/1626506"> Scott Lawrence</a>, <a href="https://inspirehep.net/authors/1760376"> Yukari Yamauchi</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/1903.08807">arXiv:1903.08807</a>:</strong> 19 March 2019 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.100.034518">Phys. Rev. D 100, 034518 (2019)</a>:</strong> 29 August 2019</details>
+
+<details>
+<summary> (2019) <b>SU(2) non-Abelian gauge field theory in one dimension on digital quantum computers</b> [<a href="https://arxiv.org/abs/1908.06935">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.101.074512">DOI</a>] [<a href="https://inspirehep.net/literature/1750012">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1722450"> Natalie Klco</a>, <a href="https://inspirehep.net/authors/1589984"> Jesse R. Stryker</a>, <a href="https://inspirehep.net/authors/990160"> Martin J. Savage</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/1908.06935">arXiv:1908.06935</a>:</strong> 19 August 2019 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.101.074512">Phys. Rev. D 101, 074512 (2020)</a>:</strong> 22 April 2020</details>
+
+<details>
+<summary> (2019) <b>Simulating Lattice Gauge Theories within Quantum Technologies</b> [<a href="https://arxiv.org/abs/1911.00003">arXiv</a>] [<a href="https://doi.org/10.1140/epjd/e2020-100571-8">DOI</a>] [<a href="https://inspirehep.net/literature/1762586">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1017450"> M.C. Bañuls</a>, <a href="https://inspirehep.net/authors/1972456"> R. Blatt</a>, <a href="https://inspirehep.net/authors/2088552"> J. Catani</a>, <a href="https://inspirehep.net/authors/1020394"> A. Celi</a>, <a href="https://inspirehep.net/authors/1061696"> J.I. Cirac</a>, <a href="https://inspirehep.net/authors/1272246"> M. Dalmonte</a>, <a href="https://inspirehep.net/authors/2088553"> L. Fallani</a>, <a href="https://inspirehep.net/authors/1004503"> K. Jansen</a>, <a href="https://inspirehep.net/authors/1061248"> M. Lewenstein</a>, <a href="https://inspirehep.net/authors/1763536"> S. Montangero</a>, <a href="https://inspirehep.net/authors/1682957"> C.A. Muschik</a>, <a href="https://inspirehep.net/authors/991883"> B. Reznik</a>, <a href="https://inspirehep.net/authors/1876468"> E. Rico</a>, <a href="https://inspirehep.net/authors/1024533"> L. Tagliacozzo</a>, <a href="https://inspirehep.net/authors/1019350"> K. Van Acoleyen</a>, <a href="https://inspirehep.net/authors/1069179"> F. Verstraete</a>, <a href="https://inspirehep.net/authors/983589"> U.-J. Wiese</a>, <a href="https://inspirehep.net/authors/983407"> M. Wingate</a>, <a href="https://inspirehep.net/authors/2929704"> J. Zakrzewski</a>, <a href="https://inspirehep.net/authors/1029405"> P. Zoller</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/1911.00003">arXiv:1911.00003</a>:</strong> 31 October 2019 
++ <strong>Published in <a href="https://doi.org/10.1140/epjd/e2020-100571-8">Eur.Phys.J.D</a>:</strong> 04 August 2020</details>
+
+<details>
+<summary> (2020) <b>Toward scalable simulations of Lattice Gauge Theories on quantum computers</b> [<a href="https://arxiv.org/abs/2005.10271">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.102.094501">DOI</a>] [<a href="https://inspirehep.net/literature/1797219">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1995614"> Simon V. Mathis</a>, <a href="https://inspirehep.net/authors/1975396"> Guglielmo Mazzola</a>, <a href="https://inspirehep.net/authors/1918765"> Ivano Tavernelli</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2005.10271">arXiv:2005.10271</a>:</strong> 20 May 2020 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.102.094501">Phys. Rev. D 102, 094501 (2020)</a>:</strong> 04 November 2020</details>
+
+<details>
+<summary> (2020) <b>Role of boundary conditions in quantum computations of scattering observables</b> [<a href="https://arxiv.org/abs/2007.01155">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.103.014506">DOI</a>] [<a href="https://inspirehep.net/literature/1804749">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1270452"> Raúl A. Briceño</a>, <a href="https://inspirehep.net/authors/1670779"> Juan V. Guerrero</a>, <a href="https://inspirehep.net/authors/1217906"> Maxwell T. Hansen</a>, <a href="https://inspirehep.net/authors/1983506"> Alexandru M. Sturzu</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2007.01155">arXiv:2007.01155</a>:</strong> 01 July 2020 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.103.014506">Phys. Rev. D 103, 014506 (2021)</a>:</strong> 07 January 2021</details>
+
+<details>
+<summary> (2020) <b>Quantum simulation of gauge theory via orbifold lattice</b> [<a href="https://arxiv.org/abs/2011.06576">arXiv</a>] [<a href="https://doi.org/10.1007/JHEP09(2021)034">DOI</a>] [<a href="https://inspirehep.net/literature/1829738">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1915320"> Alexander J. Buser</a>, <a href="https://inspirehep.net/authors/1889888"> Hrant Gharibyan</a>, <a href="https://inspirehep.net/authors/1028942"> Masanori Hanada</a>, <a href="https://inspirehep.net/authors/1074896"> Masazumi Honda</a>, <a href="https://inspirehep.net/authors/1358358"> Junyu Liu</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2011.06576">arXiv:2011.06576</a>:</strong> 12 November 2020 
++ <strong>Published in <a href="https://doi.org/10.1007/JHEP09(2021)034">JHEP 2109 (2021) 034</a>:</strong> 06 September 2021</details>
+
+<details>
+<summary> (2021) <b>Lattice renormalization of quantum simulations</b> [<a href="https://arxiv.org/abs/2107.01166">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.104.094519">DOI</a>] [<a href="https://inspirehep.net/literature/1875568">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/984325"> Marcela Carena</a>, <a href="https://inspirehep.net/authors/1239062"> Henry Lamm</a>, <a href="https://inspirehep.net/authors/1372172"> Ying-Ying Li</a>, <a href="https://inspirehep.net/authors/2126534"> Wanqiang Liu</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2107.01166">arXiv:2107.01166</a>:</strong> 02 July 2021 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.104.094519">Phys.Rev.D</a>:</strong> 01 November 2021</details>
+
+<details>
+<summary> (2021) <b>Lattice Quantum Chromodynamics and Electrodynamics on a Universal Quantum Computer</b> [<a href="https://arxiv.org/abs/2107.12769">arXiv</a>] [<a href="https://inspirehep.net/literature/1893456">INSPIRE</a>] <code>Expand</code><br> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1893457"> Angus Kan</a>, <a href="https://inspirehep.net/authors/1893458"> Yunseong Nam</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2107.12769">arXiv:2107.12769</a>:</strong> 27 July 2021</details>
+
+<details>
+<summary> (2021) <b>Efficient representation for simulating U(1) gauge theories on digital quantum computers at all values of the coupling</b> [<a href="https://arxiv.org/abs/2111.08015">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.107.L031503">DOI</a>] [<a href="https://inspirehep.net/literature/1969341">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1017103"> Christian W. Bauer</a>, <a href="https://inspirehep.net/authors/1258764"> Dorota M. Grabowska</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2111.08015">arXiv:2111.08015</a>:</strong> 15 November 2021 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.107.L031503">Phys.Rev.D</a>:</strong> 01 February 2023</details>
+
+<details>
+<summary> (2021) <b>Quantum error correction with gauge symmetries</b> [<a href="https://arxiv.org/abs/2112.05186">arXiv</a>] [<a href="https://doi.org/10.1038/s41534-023-00706-8">DOI</a>] [<a href="https://inspirehep.net/literature/1988127">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1918811"> Abhishek Rajput</a>, <a href="https://inspirehep.net/authors/1514679"> Alessandro Roggero</a>, <a href="https://inspirehep.net/authors/1918812"> Nathan Wiebe</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2112.05186">arXiv:2112.05186</a>:</strong> 09 December 2021 
++ <strong>Published in <a href="https://doi.org/10.1038/s41534-023-00706-8">npj Quantum Inf.</a>:</strong> 25 April 2023</details>
+
+<details>
+<summary> (2022) <b>Preparations for quantum simulations of quantum chromodynamics in <math display="inline"><mrow><mn>1</mn><mo>+</mo><mn>1</mn></mrow></math> dimensions. I. Axial gauge</b> [<a href="https://arxiv.org/abs/2207.01731">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.107.054512">DOI</a>] [<a href="https://inspirehep.net/literature/2106012">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1897377"> Roland C. Farrell</a>, <a href="https://inspirehep.net/authors/1991921"> Ivan A. Chernyshev</a>, <a href="https://inspirehep.net/authors/2106013"> Sarah J.M. Powell</a>, <a href="https://inspirehep.net/authors/2106014"> Nikita A. Zemlevskiy</a>, <a href="https://inspirehep.net/authors/1789348"> Marc Illa</a>, <a href="https://inspirehep.net/authors/990160"> Martin J. Savage</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2207.01731">arXiv:2207.01731</a>:</strong> 04 July 2022 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.107.054512">Phys. Rev. D 107, 054512 (2023)</a>:</strong> 01 March 2023</details>
+
+<details>
+<summary> (2022) <b>Measurement-based quantum simulation of Abelian lattice gauge theories</b> [<a href="https://arxiv.org/abs/2210.10908">arXiv</a>] [<a href="https://doi.org/10.21468/SciPostPhys.14.5.129">DOI</a>] [<a href="https://inspirehep.net/literature/2167865">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/2167866"> Hiroki Sukeno</a>, <a href="https://inspirehep.net/authors/994991"> Takuya Okuda</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2210.10908">arXiv:2210.10908</a>:</strong> 19 October 2022 
++ <strong>Published in <a href="https://doi.org/10.21468/SciPostPhys.14.5.129">SciPost Phys. 14, 129 (2023)</a>:</strong> 25 May 2023</details>
+
+<details>
+<summary> (2022) <b>General quantum algorithms for Hamiltonian simulation with applications to a non-Abelian lattice gauge theory</b> [<a href="https://arxiv.org/abs/2212.14030">arXiv</a>] [<a href="https://doi.org/10.22331/q-2023-12-20-1213">DOI</a>] [<a href="https://inspirehep.net/literature/2618622">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1078382"> Zohreh Davoudi</a>, <a href="https://inspirehep.net/authors/1059168"> Alexander F. Shaw</a>, <a href="https://inspirehep.net/authors/1589984"> Jesse R. Stryker</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2212.14030">arXiv:2212.14030</a>:</strong> 28 December 2022 
++ <strong>Published in <a href="https://doi.org/10.22331/q-2023-12-20-1213">Quantum 7, 1213 (2023)</a>:</strong> 20 December 2023</details>
+
+<details>
+<summary> (2023) <b>Simulating <math><msub><mi mathvariant="double-struck">Z</mi><mn>2</mn></msub></math> lattice gauge theory on a quantum computer</b> [<a href="https://arxiv.org/abs/2305.02361">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevE.109.015307">DOI</a>] [<a href="https://inspirehep.net/literature/2656563">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/2849426"> Clement Charles</a>, <a href="https://inspirehep.net/authors/1645022"> Erik J. Gustafson</a>, <a href="https://inspirehep.net/authors/2426532"> Elizabeth Hardt</a>, <a href="https://inspirehep.net/authors/1645058"> Florian Herren</a>, <a href="https://inspirehep.net/authors/2960469"> Norman Hogan</a>, <a href="https://inspirehep.net/authors/1239062"> Henry Lamm</a>, <a href="https://inspirehep.net/authors/2656564"> Sara Starecheski</a>, <a href="https://inspirehep.net/authors/1021054"> Ruth S. Van de Water</a>, <a href="https://inspirehep.net/authors/1501833"> Michael L. Wagman</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2305.02361">arXiv:2305.02361</a>:</strong> 03 May 2023 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevE.109.015307">Phys.Rev.E</a>:</strong> 26 January 2024</details>
+
+<details>
+<summary> (2024) <b>Quantum simulation of fundamental particles and forces</b> [<a href="https://arxiv.org/abs/2404.06298">arXiv</a>] [<a href="https://doi.org/10.1038/s42254-023-00599-8">DOI</a>] [<a href="https://inspirehep.net/literature/2675039">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1017103"> Christian W. Bauer</a>, <a href="https://inspirehep.net/authors/1078382"> Zohreh Davoudi</a>, <a href="https://inspirehep.net/authors/1722450"> Natalie Klco</a>, <a href="https://inspirehep.net/authors/990160"> Martin J. Savage</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2404.06298">arXiv:2404.06298</a>:</strong> 09 April 2024 
++ <strong>Published in <a href="https://doi.org/10.1038/s42254-023-00599-8">Nature Rev.Phys.</a>:</strong> 21 June 2023</details>
+
+<details>
+<summary> (2024) <b>Toward QCD on quantum computer: orbifold lattice approach</b> [<a href="https://arxiv.org/abs/2401.12045">arXiv</a>] [<a href="https://doi.org/10.1007/JHEP05(2024)234">DOI</a>] [<a href="https://inspirehep.net/literature/2750111">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1048043"> Georg Bergner</a>, <a href="https://inspirehep.net/authors/1028942"> Masanori Hanada</a>, <a href="https://inspirehep.net/authors/1059041"> Enrico Rinaldi</a>, <a href="https://inspirehep.net/authors/990041"> Andreas Schafer</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2401.12045">arXiv:2401.12045</a>:</strong> 22 January 2024 
++ <strong>Published in <a href="https://doi.org/10.1007/JHEP05(2024)234">JHEP</a>:</strong> 20 May 2024</details>
+
+<details>
+<summary> (2024) <b>Scattering wave packets of hadrons in gauge theories: Preparation on a quantum computer</b> [<a href="https://arxiv.org/abs/2402.00840">arXiv</a>] [<a href="https://doi.org/10.22331/q-2024-11-11-1520">DOI</a>] [<a href="https://inspirehep.net/literature/2753868">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1078382"> Zohreh Davoudi</a>, <a href="https://inspirehep.net/authors/2755353"> Chung-Chun Hsieh</a>, <a href="https://inspirehep.net/authors/1590191"> Saurabh V. Kadam</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2402.00840">arXiv:2402.00840</a>:</strong> 01 February 2024 
++ <strong>Published in <a href="https://doi.org/10.22331/q-2024-11-11-1520">Quantum</a>:</strong> 11 November 2024</details>
+
+<details>
+<summary> (2024) <b>Quantum Simulation of SU(3) Lattice Yang-Mills Theory at Leading Order in Large-<math display="inline"><msub><mi>N</mi><mi>c</mi></msub></math> Expansion</b> [<a href="https://arxiv.org/abs/2402.10265">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevLett.133.111901">DOI</a>] [<a href="https://inspirehep.net/literature/2759081">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1991920"> Anthony N. Ciavarella</a>, <a href="https://inspirehep.net/authors/1017103"> Christian W. Bauer</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2402.10265">arXiv:2402.10265</a>:</strong> 15 February 2024 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevLett.133.111901">Phys.Rev.Lett.</a>:</strong> 09 September 2024</details>
+
+<details>
+<summary> (2026) <b>Scalable cold-atom quantum simulator of a $3+1$D U$(1)$ lattice gauge theory with dynamical matter</b> [<a href="https://arxiv.org/abs/2601.04345">arXiv</a>] [<a href="https://inspirehep.net/literature/3098812">INSPIRE</a>] <code>Expand</code><br> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1026654"> Simone Orlando</a>, <a href="https://inspirehep.net/authors/1895088"> Guo-Xian Su</a>, <a href="https://inspirehep.net/authors/1077700"> Bing Yang</a>, <a href="https://inspirehep.net/authors/1877311"> Jad C. Halimeh</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2601.04345">arXiv:2601.04345</a>:</strong> 07 January 2026</details>
+
+###  $\textbf{{\color{#9BC53D}Quantum Chromodynamics}}$ 
+
+<details>
+<summary> (2020) <b>Quantum simulation of quantum field theory in the light-front formulation</b> [<a href="https://arxiv.org/abs/2002.04016">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevA.105.032418">DOI</a>] [<a href="https://inspirehep.net/literature/1779477">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1730698"> Michael Kreshchuk</a>, <a href="https://inspirehep.net/authors/1019359"> William M. Kirby</a>, <a href="https://inspirehep.net/authors/1008094"> Gary Goldstein</a>, <a href="https://inspirehep.net/authors/1035175"> Hugo Beauchemin</a>, <a href="https://inspirehep.net/authors/1059991"> Peter J. Love</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2002.04016">arXiv:2002.04016</a>:</strong> 10 February 2020 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevA.105.032418">Phys. Rev. A 105, 032418 (2022)</a>:</strong> 08 March 2022</details>
+
+<details>
+<summary> (2023) <b>Quantum simulation of colour in perturbative quantum chromodynamics</b> [<a href="https://arxiv.org/abs/2303.04818">arXiv</a>] [<a href="https://doi.org/10.21468/SciPostPhys.15.5.205">DOI</a>] [<a href="https://inspirehep.net/literature/2640041">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1674622"> Herschel A. Chawdhry</a>, <a href="https://inspirehep.net/authors/1274709"> Mathieu Pellen</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2303.04818">arXiv:2303.04818</a>:</strong> 08 March 2023 
++ <strong>Published in <a href="https://doi.org/10.21468/SciPostPhys.15.5.205">SciPost Phys. 15, 205 (2023)</a>:</strong> 24 November 2023</details>
+
+<details>
+<summary> (2025) <b>Quantum simulation of scattering amplitudes and interferences in perturbative QCD</b> [<a href="https://arxiv.org/abs/2507.07194">arXiv</a>] [<a href="https://inspirehep.net/literature/2944584">INSPIRE</a>] <code>Expand</code><br> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1674622"> Herschel A. Chawdhry</a>, <a href="https://inspirehep.net/authors/1274709"> Mathieu Pellen</a>, <a href="https://inspirehep.net/authors/1821879"> Simon Williams</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2507.07194">arXiv:2507.07194</a>:</strong> 09 July 2025</details>
+
+###  $\textbf{{\color{#9BC53D}Schwinger Model}}$ 
+
+<details>
+<summary> (2013) <b>Quantum simulation of a lattice Schwinger model in a chain of trapped ions</b> [<a href="https://arxiv.org/abs/1306.2162">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevX.3.041018">DOI</a>] [<a href="https://inspirehep.net/literature/1237921">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1272244"> Philipp Hauke</a>, <a href="https://inspirehep.net/authors/2342388"> David Marcos</a>, <a href="https://inspirehep.net/authors/1272246"> Marcello Dalmonte</a>, <a href="https://inspirehep.net/authors/1029405"> Peter Zoller</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/1306.2162">arXiv:1306.2162</a>:</strong> 10 June 2013 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevX.3.041018">Phys.Rev.X</a>:</strong> 22 November 2013</details>
+
+<details>
+<summary> (2020) <b>Quantum Algorithms for Simulating the Lattice Schwinger Model</b> [<a href="https://arxiv.org/abs/2002.11146">arXiv</a>] [<a href="https://doi.org/10.22331/q-2020-08-10-306">DOI</a>] [<a href="https://inspirehep.net/literature/1782360">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1059168"> Alexander F. Shaw</a>, <a href="https://inspirehep.net/authors/1965128"> Pavel Lougovski</a>, <a href="https://inspirehep.net/authors/1589984"> Jesse R. Stryker</a>, <a href="https://inspirehep.net/authors/1918812"> Nathan Wiebe</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2002.11146">arXiv:2002.11146</a>:</strong> 25 February 2020 
++ <strong>Published in <a href="https://doi.org/10.22331/q-2020-08-10-306">Quantum 4, 306 (2020)</a>:</strong> 10 August 2020</details>
+
+<details>
+<summary> (2023) <b>Scalable Circuits for Preparing Ground States on Digital Quantum Computers: The Schwinger Model Vacuum on 100 Qubits</b> [<a href="https://arxiv.org/abs/2308.04481">arXiv</a>] [<a href="https://doi.org/10.1103/PRXQuantum.5.020315">DOI</a>] [<a href="https://inspirehep.net/literature/2686627">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1897377"> Roland C. Farrell</a>, <a href="https://inspirehep.net/authors/1789348"> Marc Illa</a>, <a href="https://inspirehep.net/authors/1991920"> Anthony N. Ciavarella</a>, <a href="https://inspirehep.net/authors/990160"> Martin J. Savage</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2308.04481">arXiv:2308.04481</a>:</strong> 08 August 2023 
++ <strong>Published in <a href="https://doi.org/10.1103/PRXQuantum.5.020315">PRX Quantum 5 (2024) 2, 020315</a>:</strong> 01 April 2024</details>
+
+<details>
+<summary> (2024) <b>Steps toward quantum simulations of hadronization and energy loss in dense matter</b> [<a href="https://arxiv.org/abs/2405.06620">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevC.111.015202">DOI</a>] [<a href="https://inspirehep.net/literature/2785266">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1897377"> Roland C. Farrell</a>, <a href="https://inspirehep.net/authors/1789348"> Marc Illa</a>, <a href="https://inspirehep.net/authors/990160"> Martin J. Savage</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2405.06620">arXiv:2405.06620</a>:</strong> 10 May 2024 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevC.111.015202">Phys.Rev.C 111 (2025) 1, 015202</a>:</strong> 14 January 2025</details>
+
+<details>
+<summary> (2024) <b>Enhancing quantum field theory simulations on NISQ devices with Hamiltonian truncation</b> [<a href="https://arxiv.org/abs/2407.19022">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.110.096016">DOI</a>] [<a href="https://inspirehep.net/literature/2811633">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1706722"> James Ingoldby</a>, <a href="https://inspirehep.net/authors/1045921"> Michael Spannowsky</a>, <a href="https://inspirehep.net/authors/2918997"> Timur Sypchenko</a>, <a href="https://inspirehep.net/authors/1821879"> Simon Williams</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2407.19022">arXiv:2407.19022</a>:</strong> 26 July 2024 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.110.096016">Phys. Rev. D 110 (2024), 096016</a>:</strong> 01 November 2024</details>
+
+###  $\textbf{{\color{#9BC53D}Crosslists}}$ 
+
+<details>
+<summary> (2016) <b>Lattice gauge theory simulations in the quantum information era</b> [<a href="https://arxiv.org/abs/1602.03776">arXiv</a>] [<a href="https://doi.org/10.1080/00107514.2016.1151199">DOI</a>] [<a href="https://inspirehep.net/literature/1421166">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1272246"> M. Dalmonte</a>, <a href="https://inspirehep.net/authors/1953270"> S. Montangero</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/1602.03776">arXiv:1602.03776</a>:</strong> 11 February 2016 
++ <strong>Published in <a href="https://doi.org/10.1080/00107514.2016.1151199">Contemporary Physics 57 388 (2016)</a>:</strong> 09 March 2016</details>
+
+
+
+<details>
+<summary> (2022) <b>Tensor networks for High Energy Physics: contribution to Snowmass 2021</b> [<a href="https://arxiv.org/abs/2203.04902">arXiv</a>] [<a href="https://inspirehep.net/literature/2048957">INSPIRE</a>] <code>Expand</code><br> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/997658"> Yannick Meurice</a>, <a href="https://inspirehep.net/authors/994741"> James C. Osborn</a>, <a href="https://inspirehep.net/authors/2048959"> Ryo Sakai</a>, <a href="https://inspirehep.net/authors/1277630"> Judah Unmuth-Yockey</a>, <a href="https://inspirehep.net/authors/1014253"> Simon Catterall</a>, <a href="https://inspirehep.net/authors/1271502"> Rolando D. Somma</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2203.04902">arXiv:2203.04902</a>:</strong> 09 March 2022</details>
+
+
+
+<details>
+<summary> (2022) <b>Snowmass white paper: Quantum information in quantum field theory and quantum gravity</b> [<a href="https://arxiv.org/abs/2203.07117">arXiv</a>] [<a href="https://inspirehep.net/literature/2051219">INSPIRE</a>] <code>Expand</code><br> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1051565"> Thomas Faulkner</a>, <a href="https://inspirehep.net/authors/1029673"> Thomas Hartman</a>, <a href="https://inspirehep.net/authors/1019514"> Matthew Headrick</a>, <a href="https://inspirehep.net/authors/1019440"> Mukund Rangamani</a>, <a href="https://inspirehep.net/authors/1064843"> Brian Swingle</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2203.07117">arXiv:2203.07117</a>:</strong> 14 March 2022</details>
+
+
+
+<details>
+<summary> (2022) <b>Snowmass White Paper: Quantum Computing Systems and Software for High-energy Physics Research</b> [<a href="https://arxiv.org/abs/2203.07091">arXiv</a>] [<a href="https://inspirehep.net/literature/2051498">INSPIRE</a>] <code>Expand</code><br> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1873520"> Travis S. Humble</a>, <a href="https://inspirehep.net/authors/1309026"> Andrea Delgado</a>, <a href="https://inspirehep.net/authors/1959740"> Raphael Pooser</a>, <a href="https://inspirehep.net/authors/2034235"> Christopher Seck</a>, <a href="https://inspirehep.net/authors/2016391"> Ryan Bennink</a>, <a href="https://inspirehep.net/authors/1964926"> Vicente Leyton-Ortega</a>, <a href="https://inspirehep.net/authors/984158"> C.-C. Joseph Wang</a>, <a href="https://inspirehep.net/authors/1957262"> Eugene Dumitrescu</a>, <a href="https://inspirehep.net/authors/1025005"> Titus Morris</a>, <a href="https://inspirehep.net/authors/1964884"> Kathleen Hamilton</a>, <a href="https://inspirehep.net/authors/1982616"> Dmitry Lyakh</a>, <a href="https://inspirehep.net/authors/1982115"> Prasanna Date</a>, <a href="https://inspirehep.net/authors/2051501"> Yan Wang</a>, <a href="https://inspirehep.net/authors/1038124"> Nicholas A. Peters</a>, <a href="https://inspirehep.net/authors/2051502"> Katherine J. Evans</a>, <a href="https://inspirehep.net/authors/1012077"> Marcel Demarteau</a>, <a href="https://inspirehep.net/authors/1955549"> Alex McCaskey</a>, <a href="https://inspirehep.net/authors/1901331"> Thien Nguyen</a>, <a href="https://inspirehep.net/authors/1890493"> Susan Clark</a>, <a href="https://inspirehep.net/authors/2051503"> Melissa Reville</a>, <a href="https://inspirehep.net/authors/1918766"> Alberto Di Meglio</a>, <a href="https://inspirehep.net/authors/1990556"> Michele Grossi</a>, <a href="https://inspirehep.net/authors/1028732"> Sofia Vallecorsa</a>, <a href="https://inspirehep.net/authors/1015735"> Kerstin Borras</a>, <a href="https://inspirehep.net/authors/1004503"> Karl Jansen</a>, <a href="https://inspirehep.net/authors/1022164"> Dirk Krücker</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2203.07091">arXiv:2203.07091</a>:</strong> 14 March 2022</details>
+
+
+
+<details>
+<summary> (2022) <b>Quantum Simulation for High-Energy Physics</b> [<a href="https://arxiv.org/abs/2204.03381">arXiv</a>] [<a href="https://doi.org/10.1103/PRXQuantum.4.027001">DOI</a>] [<a href="https://inspirehep.net/literature/2064292">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1017103"> Christian W. Bauer</a>, <a href="https://inspirehep.net/authors/1078382"> Zohreh Davoudi</a>, <a href="https://inspirehep.net/authors/1017575"> A. Baha Balantekin</a>, <a href="https://inspirehep.net/authors/1016431"> Tanmoy Bhattacharya</a>, <a href="https://inspirehep.net/authors/984325"> Marcela Carena</a>, <a href="https://inspirehep.net/authors/1887674"> Wibe A. de Jong</a>, <a href="https://inspirehep.net/authors/1063627"> Patrick Draper</a>, <a href="https://inspirehep.net/authors/1010867"> Aida El-Khadra</a>, <a href="https://inspirehep.net/authors/2064294"> Nate Gemelke</a>, <a href="https://inspirehep.net/authors/1028942"> Masanori Hanada</a>, <a href="https://inspirehep.net/authors/1003098"> Dmitri Kharzeev</a>, <a href="https://inspirehep.net/authors/1239062"> Henry Lamm</a>, <a href="https://inspirehep.net/authors/1372172"> Ying-Ying Li</a>, <a href="https://inspirehep.net/authors/1358358"> Junyu Liu</a>, <a href="https://inspirehep.net/authors/1882263"> Mikhail Lukin</a>, <a href="https://inspirehep.net/authors/997658"> Yannick Meurice</a>, <a href="https://inspirehep.net/authors/1885856"> Christopher Monroe</a>, <a href="https://inspirehep.net/authors/1067995"> Benjamin Nachman</a>, <a href="https://inspirehep.net/authors/1897287"> Guido Pagano</a>, <a href="https://inspirehep.net/authors/992791"> John Preskill</a>, <a href="https://inspirehep.net/authors/1059041"> Enrico Rinaldi</a>, <a href="https://inspirehep.net/authors/1514679"> Alessandro Roggero</a>, <a href="https://inspirehep.net/authors/990368"> David I. Santiago</a>, <a href="https://inspirehep.net/authors/990160"> Martin J. Savage</a>, <a href="https://inspirehep.net/authors/1836627"> Irfan Siddiqi</a>, <a href="https://inspirehep.net/authors/988531"> George Siopsis</a>, <a href="https://inspirehep.net/authors/2069453"> David Van Zanten</a>, <a href="https://inspirehep.net/authors/1918812"> Nathan Wiebe</a>, <a href="https://inspirehep.net/authors/1760376"> Yukari Yamauchi</a>, <a href="https://inspirehep.net/authors/1261678"> Kübra Yeter-Aydeniz</a>, <a href="https://inspirehep.net/authors/1246650"> Silvia Zorzetti</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2204.03381">arXiv:2204.03381</a>:</strong> 07 April 2022 
++ <strong>Published in <a href="https://doi.org/10.1103/PRXQuantum.4.027001">PRX Quantum 4, 027001, 2023</a>:</strong> 01 May 2023</details>
+
+
+
+<details>
+<summary> (2022) <b>Snowmass Computational Frontier: Topical Group Report on Quantum Computing</b> [<a href="https://arxiv.org/abs/2209.06786">arXiv</a>] [<a href="https://inspirehep.net/literature/2151492">INSPIRE</a>] <code>Expand</code><br> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1873520"> Travis S. Humble</a>, <a href="https://inspirehep.net/authors/1040364"> Gabriel N. Perdue</a>, <a href="https://inspirehep.net/authors/990160"> Martin J. Savage</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2209.06786">arXiv:2209.06786</a>:</strong> 14 September 2022</details>
+
+
+
+<details>
+<summary> (2023) <b>Review on Quantum Computing for Lattice Field Theory</b> [<a href="https://arxiv.org/abs/2302.00467">arXiv</a>] [<a href="https://doi.org/10.22323/1.430.0228">DOI</a>] [<a href="https://inspirehep.net/literature/2628722">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1419876"> Lena Funcke</a>, <a href="https://inspirehep.net/authors/1277625"> Tobias Hartung</a>, <a href="https://inspirehep.net/authors/1004503"> Karl Jansen</a>, <a href="https://inspirehep.net/authors/1885408"> Stefan Kühn</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2302.00467">arXiv:2302.00467</a>:</strong> 01 February 2023 
++ <strong>Published in <a href="https://doi.org/10.22323/1.430.0228">PoS</a>:</strong> 01 February 2023</details>
+
+
+
+<details>
+<summary> (2023) <b>Quantum data learning for quantum simulations in high-energy physics</b> [<a href="https://arxiv.org/abs/2306.17214">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevResearch.5.043250">DOI</a>] [<a href="https://inspirehep.net/literature/2673374">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1806317"> Lento Nagano</a>, <a href="https://inspirehep.net/authors/2003006"> Alexander Miessen</a>, <a href="https://inspirehep.net/authors/2007702"> Tamiya Onodera</a>, <a href="https://inspirehep.net/authors/1918765"> Ivano Tavernelli</a>, <a href="https://inspirehep.net/authors/1963538"> Francesco Tacchino</a>, <a href="https://inspirehep.net/authors/986339"> Koji Terashi</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2306.17214">arXiv:2306.17214</a>:</strong> 29 June 2023 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevResearch.5.043250">Phys.Rev.Res.</a>:</strong> 15 December 2023</details>
+
+
+
+<details>
+<summary> (2024) <b>Simulating quantum field theories on continuous-variable quantum computers</b> [<a href="https://arxiv.org/abs/2403.10619">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevA.110.012607">DOI</a>] [<a href="https://inspirehep.net/literature/2805631">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1019047"> Steven Abel</a>, <a href="https://inspirehep.net/authors/1045921"> Michael Spannowsky</a>, <a href="https://inspirehep.net/authors/1821879"> Simon Williams</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2403.10619">arXiv:2403.10619</a>:</strong> 15 March 2024 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevA.110.012607">Phys. Rev. A 110 (2024) 1, 012607</a>:</strong> 08 July 2024</details>
+
+
+
+<details>
+<summary> (2025) <b>Real-time scattering processes with continuous-variable quantum computers</b> [<a href="https://arxiv.org/abs/2502.01767">arXiv</a>] [<a href="https://doi.org/10.1103/q36d-w649">DOI</a>] [<a href="https://inspirehep.net/literature/2875247">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1019047"> Steven Abel</a>, <a href="https://inspirehep.net/authors/1045921"> Michael Spannowsky</a>, <a href="https://inspirehep.net/authors/1821879"> Simon Williams</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2502.01767">arXiv:2502.01767</a>:</strong> 03 February 2025 
++ <strong>Published in <a href="https://doi.org/10.1103/q36d-w649">Phys. Rev. A 112 (2025), 012614</a>:</strong> 16 July 2025</details>
 
 
 
@@ -609,13 +1022,6 @@
 + <strong>Published in <a href="https://doi.org/10.1007/JHEP03(2024)099">JHEP</a>:</strong> 15 March 2024</details>
 
 <details>
-<summary> (2024) <b>Quantum entanglement and Bell inequality violation at colliders</b> [<a href="https://arxiv.org/abs/2402.07972">arXiv</a>] [<a href="https://doi.org/10.1016/j.ppnp.2024.104134">DOI</a>] [<a href="https://inspirehep.net/literature/2757981">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1017290"> Alan J. Barr</a>, <a href="https://inspirehep.net/authors/1010482"> Marco Fabbrichesi</a>, <a href="https://inspirehep.net/authors/1009800"> Roberto Floreanini</a>, <a href="https://inspirehep.net/authors/1009120"> Emidio Gabrielli</a>, <a href="https://inspirehep.net/authors/1273305"> Luca Marzola</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2402.07972">arXiv:2402.07972</a>:</strong> 12 February 2024 
-+ <strong>Published in <a href="https://doi.org/10.1016/j.ppnp.2024.104134">Prog.Part.Nucl.Phys.</a>:</strong> 19 July 2024</details>
-
-<details>
 <summary> (2024) <b>Full quantum tomography of top quark decays</b> [<a href="https://arxiv.org/abs/2402.14725">arXiv</a>] [<a href="https://doi.org/10.1016/j.physletb.2024.138849">DOI</a>] [<a href="https://inspirehep.net/literature/2760765">INSPIRE</a>] <code>Expand</code> </summary>
 
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1231884"> J.A. Aguilar-Saavedra</a>
@@ -651,6 +1057,15 @@
 
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1051565"> Thomas Faulkner</a>, <a href="https://inspirehep.net/authors/1029673"> Thomas Hartman</a>, <a href="https://inspirehep.net/authors/1019514"> Matthew Headrick</a>, <a href="https://inspirehep.net/authors/1019440"> Mukund Rangamani</a>, <a href="https://inspirehep.net/authors/1064843"> Brian Swingle</a>
 + <strong>Posted on <a href="https://arxiv.org/abs/2203.07117">arXiv:2203.07117</a>:</strong> 14 March 2022</details>
+
+
+
+<details>
+<summary> (2024) <b>Quantum entanglement and Bell inequality violation at colliders</b> [<a href="https://arxiv.org/abs/2402.07972">arXiv</a>] [<a href="https://doi.org/10.1016/j.ppnp.2024.104134">DOI</a>] [<a href="https://inspirehep.net/literature/2757981">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1017290"> Alan J. Barr</a>, <a href="https://inspirehep.net/authors/1010482"> Marco Fabbrichesi</a>, <a href="https://inspirehep.net/authors/1009800"> Roberto Floreanini</a>, <a href="https://inspirehep.net/authors/1009120"> Emidio Gabrielli</a>, <a href="https://inspirehep.net/authors/1273305"> Luca Marzola</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2402.07972">arXiv:2402.07972</a>:</strong> 12 February 2024 
++ <strong>Published in <a href="https://doi.org/10.1016/j.ppnp.2024.104134">Prog.Part.Nucl.Phys.</a>:</strong> 19 July 2024</details>
 
 
 
@@ -701,6 +1116,12 @@
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1762648"> Zhelun Li</a>, <a href="https://inspirehep.net/authors/1806317"> Lento Nagano</a>, <a href="https://inspirehep.net/authors/986339"> Koji Terashi</a>
 + <strong>Posted on <a href="https://arxiv.org/abs/2405.11150">arXiv:2405.11150</a>:</strong> 17 May 2024 
 + <strong>Published in <a href="https://doi.org/10.1103/PhysRevResearch.6.043028">Phys.Rev.Res.</a>:</strong> 10 October 2024</details>
+
+<details>
+<summary> (2026) <b>From Reachability to Learnability: Geometric Design Principles for Quantum Neural Networks</b> [<a href="https://arxiv.org/abs/2603.03071">arXiv</a>] [<a href="https://inspirehep.net/literature/3125318">INSPIRE</a>] <code>Expand</code><br> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1812043"> Vishal S. Ngairangbam</a>, <a href="https://inspirehep.net/authors/1045921"> Michael Spannowsky</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2603.03071">arXiv:2603.03071</a>:</strong> 03 March 2026</details>
 
 ###  $\textbf{{\color{#9BC53D}Jet Reconstruction}}$ 
 
@@ -2245,405 +2666,6 @@
 
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/2156230"> Ping He</a>, <a href="https://inspirehep.net/authors/1019902"> Jing Shu</a>, <a href="https://inspirehep.net/authors/1675751"> Bin Xu</a>, <a href="https://inspirehep.net/authors/1915155"> Jincheng Xu</a>
 + <strong>Posted on <a href="https://arxiv.org/abs/2512.14821">arXiv:2512.14821</a>:</strong> 16 December 2025</details>
-
-
-
-##  $\textbf{{\color{#5BC0EB}Quantum Algorithms - Quantum Simulations}}$ 
-
-###  $\textbf{{\color{#9BC53D}Dark Matter - Particle-like Dark Matter}}$ 
-
-<details>
-<summary> (2022) <b>Quantum simulations of dark sector showers</b> [<a href="https://arxiv.org/abs/2204.12500">arXiv</a>] [<a href="https://doi.org/10.1016/j.physletb.2022.137466">DOI</a>] [<a href="https://inspirehep.net/literature/2073078">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1474093"> So Chigusa</a>, <a href="https://inspirehep.net/authors/1039163"> Masahito Yamazaki</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2204.12500">arXiv:2204.12500</a>:</strong> 26 April 2022 
-+ <strong>Published in <a href="https://doi.org/10.1016/j.physletb.2022.137466">Phys.Lett.B</a>:</strong> 26 September 2022</details>
-
-###  $\textbf{{\color{#9BC53D}Effective Field Theories}}$ 
-
-<details>
-<summary> (2021) <b>Simulating Collider Physics on Quantum Computers Using Effective Field Theories</b> [<a href="https://arxiv.org/abs/2102.05044">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevLett.127.212001">DOI</a>] [<a href="https://inspirehep.net/literature/1845763">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1017103"> Christian W. Bauer</a>, <a href="https://inspirehep.net/authors/1074607"> Marat Freytsis</a>, <a href="https://inspirehep.net/authors/1067995"> Benjamin Nachman</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2102.05044">arXiv:2102.05044</a>:</strong> 09 February 2021 
-+ <strong>Published in <a href="https://doi.org/10.1103/PhysRevLett.127.212001">Phys.Rev.Lett.</a>:</strong> 18 November 2021</details>
-
-###  $\textbf{{\color{#9BC53D}Event Generation}}$ 
-
-<details>
-<summary> (2019) <b>Quantum Algorithm for High Energy Physics Simulations</b> [<a href="https://arxiv.org/abs/1904.03196">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevLett.126.062001">DOI</a>] [<a href="https://inspirehep.net/literature/1728687">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1017103"> Christian W. Bauer</a>, <a href="https://inspirehep.net/authors/1887674"> Wibe A. de Jong</a>, <a href="https://inspirehep.net/authors/1067995"> Benjamin Nachman</a>, <a href="https://inspirehep.net/authors/1757231"> Davide Provasoli</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/1904.03196">arXiv:1904.03196</a>:</strong> 05 April 2019 
-+ <strong>Published in <a href="https://doi.org/10.1103/PhysRevLett.126.062001">Phys. Rev. Lett. 126, 062001 (2021)</a>:</strong> 11 February 2021</details>
-
-<details>
-<summary> (2020) <b>Towards a quantum computing algorithm for helicity amplitudes and parton showers</b> [<a href="https://arxiv.org/abs/2010.00046">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.103.076020">DOI</a>] [<a href="https://inspirehep.net/literature/1820606">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1933808"> Khadeejah Bepari</a>, <a href="https://inspirehep.net/authors/1055201"> Sarah Malik</a>, <a href="https://inspirehep.net/authors/1045921"> Michael Spannowsky</a>, <a href="https://inspirehep.net/authors/1821879"> Simon Williams</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2010.00046">arXiv:2010.00046</a>:</strong> 13 October 2020 
-+ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.103.076020">Phys. Rev. D 103, 076020 (2021)</a>:</strong> 27 April 2021</details>
-
-<details>
-<summary> (2022) <b>Improving quantum simulation efficiency of final state radiation with dynamic quantum circuits</b> [<a href="https://arxiv.org/abs/2203.10018">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.106.036007">DOI</a>] [<a href="https://inspirehep.net/literature/2054717">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1926176"> Plato Deliyannis</a>, <a href="https://inspirehep.net/authors/1982993"> James Sud</a>, <a href="https://inspirehep.net/authors/2054720"> Diana Chamaki</a>, <a href="https://inspirehep.net/authors/2054721"> Zoë Webb-Mack</a>, <a href="https://inspirehep.net/authors/1017103"> Christian W. Bauer</a>, <a href="https://inspirehep.net/authors/1067995"> Benjamin Nachman</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2203.10018">arXiv:2203.10018</a>:</strong> 18 March 2022 
-+ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.106.036007">Physical Review D 106, 036007 (2022)</a>:</strong> 01 August 2022</details>
-
-<details>
-<summary> (2022) <b>Collider events on a quantum computer</b> [<a href="https://arxiv.org/abs/2207.10694">arXiv</a>] [<a href="https://doi.org/10.1007/JHEP11(2022)035">DOI</a>] [<a href="https://inspirehep.net/literature/2121169">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1007181"> Gösta Gustafson</a>, <a href="https://inspirehep.net/authors/1058764"> Stefan Prestel</a>, <a href="https://inspirehep.net/authors/1045921"> Michael Spannowsky</a>, <a href="https://inspirehep.net/authors/1821879"> Simon Williams</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2207.10694">arXiv:2207.10694</a>:</strong> 21 July 2022 
-+ <strong>Published in <a href="https://doi.org/10.1007/JHEP11(2022)035">JHEP</a>:</strong> 07 November 2022</details>
-
-<details>
-<summary> (2023) <b>Quantum parton shower with kinematics</b> [<a href="https://arxiv.org/abs/2310.19881">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevA.109.032432">DOI</a>] [<a href="https://inspirehep.net/literature/2715777">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1017103"> Christian W. Bauer</a>, <a href="https://inspirehep.net/authors/1474093"> So Chigusa</a>, <a href="https://inspirehep.net/authors/1039163"> Masahito Yamazaki</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2310.19881">arXiv:2310.19881</a>:</strong> 30 October 2023 
-+ <strong>Published in <a href="https://doi.org/10.1103/PhysRevA.109.032432">Phys.Rev.A</a>:</strong> 26 March 2024</details>
-
-###  $\textbf{{\color{#9BC53D}Lattice Scalar/Fermion Theories}}$ 
-
-<details>
-<summary> (2011) <b>Quantum Computation of Scattering in Scalar Quantum Field Theories</b> [<a href="https://arxiv.org/abs/1112.4833">arXiv</a>] [<a href="https://inspirehep.net/literature/1082274">INSPIRE</a>] <code>Expand</code><br> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1030375"> Stephen P. Jordan</a>, <a href="https://inspirehep.net/authors/2272776"> Keith S.M. Lee</a>, <a href="https://inspirehep.net/authors/992791"> John Preskill</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/1112.4833">arXiv:1112.4833</a>:</strong> December 2011</details>
-
-<details>
-<summary> (2014) <b>Quantum Algorithms for Fermionic Quantum Field Theories</b> [<a href="https://arxiv.org/abs/1404.7115">arXiv</a>] [<a href="https://inspirehep.net/literature/1292843">INSPIRE</a>] <code>Expand</code><br> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1030375"> Stephen P. Jordan</a>, <a href="https://inspirehep.net/authors/2272776"> Keith S. M. Lee</a>, <a href="https://inspirehep.net/authors/992791"> John Preskill</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/1404.7115">arXiv:1404.7115</a>:</strong> 28 April 2014</details>
-
-<details>
-<summary> (2018) <b>Digitization of scalar fields for quantum computing</b> [<a href="https://arxiv.org/abs/1808.10378">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevA.99.052335">DOI</a>] [<a href="https://inspirehep.net/literature/1692066">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1722450"> Natalie Klco</a>, <a href="https://inspirehep.net/authors/990160"> Martin J. Savage</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/1808.10378">arXiv:1808.10378</a>:</strong> 30 August 2018 
-+ <strong>Published in <a href="https://doi.org/10.1103/PhysRevA.99.052335">Phys. Rev. A 99, 052335 (2019)</a>:</strong> 23 May 2019</details>
-
-<details>
-<summary> (2018) <b>Scalar Quantum Field Theories as a Benchmark for Near-Term Quantum Computers</b> [<a href="https://arxiv.org/abs/1811.12332">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevA.99.032306">DOI</a>] [<a href="https://inspirehep.net/literature/1705931">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1261678"> Kubra Yeter-Aydeniz</a>, <a href="https://inspirehep.net/authors/1957262"> Eugene F. Dumitrescu</a>, <a href="https://inspirehep.net/authors/1955549"> Alex J. McCaskey</a>, <a href="https://inspirehep.net/authors/2016391"> Ryan S. Bennink</a>, <a href="https://inspirehep.net/authors/1959740"> Raphael C. Pooser</a>, <a href="https://inspirehep.net/authors/1035611"> George Siopsis</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/1811.12332">arXiv:1811.12332</a>:</strong> 29 November 2018 
-+ <strong>Published in <a href="https://doi.org/10.1103/PhysRevA.99.032306">Phys. Rev. A 99, 032306 (2019)</a>:</strong> 04 March 2019</details>
-
-<details>
-<summary> (2025) <b>Real-Time Scattering on Quantum Computers via Hamiltonian Truncation</b> [<a href="https://arxiv.org/abs/2505.03878">arXiv</a>] [<a href="https://inspirehep.net/literature/2919034">INSPIRE</a>] <code>Expand</code><br> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1706722"> James Ingoldby</a>, <a href="https://inspirehep.net/authors/1045921"> Michael Spannowsky</a>, <a href="https://inspirehep.net/authors/2918997"> Timur Sypchenko</a>, <a href="https://inspirehep.net/authors/1821879"> Simon Williams</a>, <a href="https://inspirehep.net/authors/983407"> Matthew Wingate</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2505.03878">arXiv:2505.03878</a>:</strong> 06 May 2025</details>
-
-###  $\textbf{{\color{#9BC53D}Lattice Gauge Theories}}$ 
-
-<details>
-<summary> (2005) <b>Simulating lattice gauge theories on a quantum computer</b> [<a href="https://arxiv.org/abs/quant-ph/0510027">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevA.73.022328">DOI</a>] [<a href="https://inspirehep.net/literature/694221">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1976071"> Tim Byrnes</a>, <a href="https://inspirehep.net/authors/1067795"> Yoshihisa Yamamoto</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/quant-ph/0510027">arXiv:quant-ph/0510027</a>:</strong> October 2005 
-+ <strong>Published in <a href="https://doi.org/10.1103/PhysRevA.73.022328">Phys.Rev.A</a>:</strong> 2006</details>
-
-<details>
-<summary> (2013) <b>Ultracold Quantum Gases and Lattice Systems: Quantum Simulation of Lattice Gauge Theories</b> [<a href="https://arxiv.org/abs/1305.1602">arXiv</a>] [<a href="https://doi.org/10.1002/andp.201300104">DOI</a>] [<a href="https://inspirehep.net/literature/1232212">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/983589"> Uwe-Jens Wiese</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/1305.1602">arXiv:1305.1602</a>:</strong> 07 May 2013 
-+ <strong>Published in <a href="https://doi.org/10.1002/andp.201300104">Annalen Phys.</a>:</strong> 2013</details>
-
-<details>
-<summary> (2014) <b>Towards Quantum Simulating QCD</b> [<a href="https://arxiv.org/abs/1409.7414">arXiv</a>] [<a href="https://doi.org/10.1016/j.nuclphysa.2014.09.102">DOI</a>] [<a href="https://inspirehep.net/literature/1319179">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/983589"> Uwe-Jens Wiese</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/1409.7414">arXiv:1409.7414</a>:</strong> 25 September 2014 
-+ <strong>Published in <a href="https://doi.org/10.1016/j.nuclphysa.2014.09.102">Nucl.Phys.A</a>:</strong> 28 September 2014</details>
-
-<details>
-<summary> (2015) <b>Quantum Simulations of Lattice Gauge Theories using Ultracold Atoms in Optical Lattices</b> [<a href="https://arxiv.org/abs/1503.02312">arXiv</a>] [<a href="https://doi.org/10.1088/0034-4885/79/1/014401">DOI</a>] [<a href="https://inspirehep.net/literature/1351227">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1077663"> Erez Zohar</a>, <a href="https://inspirehep.net/authors/1061696"> J. Ignacio Cirac</a>, <a href="https://inspirehep.net/authors/991883"> Benni Reznik</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/1503.02312">arXiv:1503.02312</a>:</strong> 08 March 2015 
-+ <strong>Published in <a href="https://doi.org/10.1088/0034-4885/79/1/014401">Rept.Prog.Phys.</a>:</strong> 18 December 2015</details>
-
-<details>
-<summary> (2016) <b>Real-time dynamics of lattice gauge theories with a few-qubit quantum computer</b> [<a href="https://arxiv.org/abs/1605.04570">arXiv</a>] [<a href="https://doi.org/10.1038/nature18318">DOI</a>] [<a href="https://inspirehep.net/literature/1459064">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/2365089"> E.A. Martinez</a>, <a href="https://inspirehep.net/authors/1682957"> C.A. Muschik</a>, <a href="https://inspirehep.net/authors/1975724"> P. Schindler</a>, <a href="https://inspirehep.net/authors/1055400"> D. Nigg</a>, <a href="https://inspirehep.net/authors/1984724"> A. Erhard</a>, <a href="https://inspirehep.net/authors/1923778"> M. Heyl</a>, <a href="https://inspirehep.net/authors/1272244"> P. Hauke</a>, <a href="https://inspirehep.net/authors/1272246"> M. Dalmonte</a>, <a href="https://inspirehep.net/authors/1975725"> T. Monz</a>, <a href="https://inspirehep.net/authors/1029405"> P. Zoller</a>, <a href="https://inspirehep.net/authors/1972456"> R. Blatt</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/1605.04570">arXiv:1605.04570</a>:</strong> 15 May 2016 
-+ <strong>Published in <a href="https://doi.org/10.1038/nature18318">Nature</a>:</strong> 22 June 2016</details>
-
-<details>
-<summary> (2019) <b>General Methods for Digital Quantum Simulation of Gauge Theories</b> [<a href="https://arxiv.org/abs/1903.08807">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.100.034518">DOI</a>] [<a href="https://inspirehep.net/literature/1726096">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1239062"> Henry Lamm</a>, <a href="https://inspirehep.net/authors/1626506"> Scott Lawrence</a>, <a href="https://inspirehep.net/authors/1760376"> Yukari Yamauchi</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/1903.08807">arXiv:1903.08807</a>:</strong> 19 March 2019 
-+ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.100.034518">Phys. Rev. D 100, 034518 (2019)</a>:</strong> 29 August 2019</details>
-
-<details>
-<summary> (2019) <b>SU(2) non-Abelian gauge field theory in one dimension on digital quantum computers</b> [<a href="https://arxiv.org/abs/1908.06935">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.101.074512">DOI</a>] [<a href="https://inspirehep.net/literature/1750012">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1722450"> Natalie Klco</a>, <a href="https://inspirehep.net/authors/1589984"> Jesse R. Stryker</a>, <a href="https://inspirehep.net/authors/990160"> Martin J. Savage</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/1908.06935">arXiv:1908.06935</a>:</strong> 19 August 2019 
-+ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.101.074512">Phys. Rev. D 101, 074512 (2020)</a>:</strong> 22 April 2020</details>
-
-<details>
-<summary> (2019) <b>Simulating Lattice Gauge Theories within Quantum Technologies</b> [<a href="https://arxiv.org/abs/1911.00003">arXiv</a>] [<a href="https://doi.org/10.1140/epjd/e2020-100571-8">DOI</a>] [<a href="https://inspirehep.net/literature/1762586">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1017450"> M.C. Bañuls</a>, <a href="https://inspirehep.net/authors/1972456"> R. Blatt</a>, <a href="https://inspirehep.net/authors/2088552"> J. Catani</a>, <a href="https://inspirehep.net/authors/1020394"> A. Celi</a>, <a href="https://inspirehep.net/authors/1061696"> J.I. Cirac</a>, <a href="https://inspirehep.net/authors/1272246"> M. Dalmonte</a>, <a href="https://inspirehep.net/authors/2088553"> L. Fallani</a>, <a href="https://inspirehep.net/authors/1004503"> K. Jansen</a>, <a href="https://inspirehep.net/authors/1061248"> M. Lewenstein</a>, <a href="https://inspirehep.net/authors/1763536"> S. Montangero</a>, <a href="https://inspirehep.net/authors/1682957"> C.A. Muschik</a>, <a href="https://inspirehep.net/authors/991883"> B. Reznik</a>, <a href="https://inspirehep.net/authors/1876468"> E. Rico</a>, <a href="https://inspirehep.net/authors/1024533"> L. Tagliacozzo</a>, <a href="https://inspirehep.net/authors/1019350"> K. Van Acoleyen</a>, <a href="https://inspirehep.net/authors/1069179"> F. Verstraete</a>, <a href="https://inspirehep.net/authors/983589"> U.-J. Wiese</a>, <a href="https://inspirehep.net/authors/983407"> M. Wingate</a>, <a href="https://inspirehep.net/authors/2929704"> J. Zakrzewski</a>, <a href="https://inspirehep.net/authors/1029405"> P. Zoller</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/1911.00003">arXiv:1911.00003</a>:</strong> 31 October 2019 
-+ <strong>Published in <a href="https://doi.org/10.1140/epjd/e2020-100571-8">Eur.Phys.J.D</a>:</strong> 04 August 2020</details>
-
-<details>
-<summary> (2020) <b>Toward scalable simulations of Lattice Gauge Theories on quantum computers</b> [<a href="https://arxiv.org/abs/2005.10271">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.102.094501">DOI</a>] [<a href="https://inspirehep.net/literature/1797219">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1995614"> Simon V. Mathis</a>, <a href="https://inspirehep.net/authors/1975396"> Guglielmo Mazzola</a>, <a href="https://inspirehep.net/authors/1918765"> Ivano Tavernelli</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2005.10271">arXiv:2005.10271</a>:</strong> 20 May 2020 
-+ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.102.094501">Phys. Rev. D 102, 094501 (2020)</a>:</strong> 04 November 2020</details>
-
-<details>
-<summary> (2020) <b>Role of boundary conditions in quantum computations of scattering observables</b> [<a href="https://arxiv.org/abs/2007.01155">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.103.014506">DOI</a>] [<a href="https://inspirehep.net/literature/1804749">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1270452"> Raúl A. Briceño</a>, <a href="https://inspirehep.net/authors/1670779"> Juan V. Guerrero</a>, <a href="https://inspirehep.net/authors/1217906"> Maxwell T. Hansen</a>, <a href="https://inspirehep.net/authors/1983506"> Alexandru M. Sturzu</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2007.01155">arXiv:2007.01155</a>:</strong> 01 July 2020 
-+ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.103.014506">Phys. Rev. D 103, 014506 (2021)</a>:</strong> 07 January 2021</details>
-
-<details>
-<summary> (2020) <b>Quantum simulation of gauge theory via orbifold lattice</b> [<a href="https://arxiv.org/abs/2011.06576">arXiv</a>] [<a href="https://doi.org/10.1007/JHEP09(2021)034">DOI</a>] [<a href="https://inspirehep.net/literature/1829738">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1915320"> Alexander J. Buser</a>, <a href="https://inspirehep.net/authors/1889888"> Hrant Gharibyan</a>, <a href="https://inspirehep.net/authors/1028942"> Masanori Hanada</a>, <a href="https://inspirehep.net/authors/1074896"> Masazumi Honda</a>, <a href="https://inspirehep.net/authors/1358358"> Junyu Liu</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2011.06576">arXiv:2011.06576</a>:</strong> 12 November 2020 
-+ <strong>Published in <a href="https://doi.org/10.1007/JHEP09(2021)034">JHEP 2109 (2021) 034</a>:</strong> 06 September 2021</details>
-
-<details>
-<summary> (2021) <b>Lattice renormalization of quantum simulations</b> [<a href="https://arxiv.org/abs/2107.01166">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.104.094519">DOI</a>] [<a href="https://inspirehep.net/literature/1875568">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/984325"> Marcela Carena</a>, <a href="https://inspirehep.net/authors/1239062"> Henry Lamm</a>, <a href="https://inspirehep.net/authors/1372172"> Ying-Ying Li</a>, <a href="https://inspirehep.net/authors/2126534"> Wanqiang Liu</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2107.01166">arXiv:2107.01166</a>:</strong> 02 July 2021 
-+ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.104.094519">Phys.Rev.D</a>:</strong> 01 November 2021</details>
-
-<details>
-<summary> (2021) <b>Lattice Quantum Chromodynamics and Electrodynamics on a Universal Quantum Computer</b> [<a href="https://arxiv.org/abs/2107.12769">arXiv</a>] [<a href="https://inspirehep.net/literature/1893456">INSPIRE</a>] <code>Expand</code><br> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1893457"> Angus Kan</a>, <a href="https://inspirehep.net/authors/1893458"> Yunseong Nam</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2107.12769">arXiv:2107.12769</a>:</strong> 27 July 2021</details>
-
-<details>
-<summary> (2021) <b>Efficient representation for simulating U(1) gauge theories on digital quantum computers at all values of the coupling</b> [<a href="https://arxiv.org/abs/2111.08015">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.107.L031503">DOI</a>] [<a href="https://inspirehep.net/literature/1969341">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1017103"> Christian W. Bauer</a>, <a href="https://inspirehep.net/authors/1258764"> Dorota M. Grabowska</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2111.08015">arXiv:2111.08015</a>:</strong> 15 November 2021 
-+ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.107.L031503">Phys.Rev.D</a>:</strong> 01 February 2023</details>
-
-<details>
-<summary> (2022) <b>Preparations for quantum simulations of quantum chromodynamics in <math display="inline"><mrow><mn>1</mn><mo>+</mo><mn>1</mn></mrow></math> dimensions. I. Axial gauge</b> [<a href="https://arxiv.org/abs/2207.01731">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.107.054512">DOI</a>] [<a href="https://inspirehep.net/literature/2106012">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1897377"> Roland C. Farrell</a>, <a href="https://inspirehep.net/authors/1991921"> Ivan A. Chernyshev</a>, <a href="https://inspirehep.net/authors/2106013"> Sarah J.M. Powell</a>, <a href="https://inspirehep.net/authors/2106014"> Nikita A. Zemlevskiy</a>, <a href="https://inspirehep.net/authors/1789348"> Marc Illa</a>, <a href="https://inspirehep.net/authors/990160"> Martin J. Savage</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2207.01731">arXiv:2207.01731</a>:</strong> 04 July 2022 
-+ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.107.054512">Phys. Rev. D 107, 054512 (2023)</a>:</strong> 01 March 2023</details>
-
-<details>
-<summary> (2022) <b>Measurement-based quantum simulation of Abelian lattice gauge theories</b> [<a href="https://arxiv.org/abs/2210.10908">arXiv</a>] [<a href="https://doi.org/10.21468/SciPostPhys.14.5.129">DOI</a>] [<a href="https://inspirehep.net/literature/2167865">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/2167866"> Hiroki Sukeno</a>, <a href="https://inspirehep.net/authors/994991"> Takuya Okuda</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2210.10908">arXiv:2210.10908</a>:</strong> 19 October 2022 
-+ <strong>Published in <a href="https://doi.org/10.21468/SciPostPhys.14.5.129">SciPost Phys. 14, 129 (2023)</a>:</strong> 25 May 2023</details>
-
-<details>
-<summary> (2022) <b>General quantum algorithms for Hamiltonian simulation with applications to a non-Abelian lattice gauge theory</b> [<a href="https://arxiv.org/abs/2212.14030">arXiv</a>] [<a href="https://doi.org/10.22331/q-2023-12-20-1213">DOI</a>] [<a href="https://inspirehep.net/literature/2618622">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1078382"> Zohreh Davoudi</a>, <a href="https://inspirehep.net/authors/1059168"> Alexander F. Shaw</a>, <a href="https://inspirehep.net/authors/1589984"> Jesse R. Stryker</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2212.14030">arXiv:2212.14030</a>:</strong> 28 December 2022 
-+ <strong>Published in <a href="https://doi.org/10.22331/q-2023-12-20-1213">Quantum 7, 1213 (2023)</a>:</strong> 20 December 2023</details>
-
-<details>
-<summary> (2023) <b>Simulating <math><msub><mi mathvariant="double-struck">Z</mi><mn>2</mn></msub></math> lattice gauge theory on a quantum computer</b> [<a href="https://arxiv.org/abs/2305.02361">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevE.109.015307">DOI</a>] [<a href="https://inspirehep.net/literature/2656563">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/2849426"> Clement Charles</a>, <a href="https://inspirehep.net/authors/1645022"> Erik J. Gustafson</a>, <a href="https://inspirehep.net/authors/2426532"> Elizabeth Hardt</a>, <a href="https://inspirehep.net/authors/1645058"> Florian Herren</a>, <a href="https://inspirehep.net/authors/2960469"> Norman Hogan</a>, <a href="https://inspirehep.net/authors/1239062"> Henry Lamm</a>, <a href="https://inspirehep.net/authors/2656564"> Sara Starecheski</a>, <a href="https://inspirehep.net/authors/1021054"> Ruth S. Van de Water</a>, <a href="https://inspirehep.net/authors/1501833"> Michael L. Wagman</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2305.02361">arXiv:2305.02361</a>:</strong> 03 May 2023 
-+ <strong>Published in <a href="https://doi.org/10.1103/PhysRevE.109.015307">Phys.Rev.E</a>:</strong> 26 January 2024</details>
-
-<details>
-<summary> (2024) <b>Quantum simulation of fundamental particles and forces</b> [<a href="https://arxiv.org/abs/2404.06298">arXiv</a>] [<a href="https://doi.org/10.1038/s42254-023-00599-8">DOI</a>] [<a href="https://inspirehep.net/literature/2675039">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1017103"> Christian W. Bauer</a>, <a href="https://inspirehep.net/authors/1078382"> Zohreh Davoudi</a>, <a href="https://inspirehep.net/authors/1722450"> Natalie Klco</a>, <a href="https://inspirehep.net/authors/990160"> Martin J. Savage</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2404.06298">arXiv:2404.06298</a>:</strong> 09 April 2024 
-+ <strong>Published in <a href="https://doi.org/10.1038/s42254-023-00599-8">Nature Rev.Phys.</a>:</strong> 21 June 2023</details>
-
-<details>
-<summary> (2024) <b>Toward QCD on quantum computer: orbifold lattice approach</b> [<a href="https://arxiv.org/abs/2401.12045">arXiv</a>] [<a href="https://doi.org/10.1007/JHEP05(2024)234">DOI</a>] [<a href="https://inspirehep.net/literature/2750111">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1048043"> Georg Bergner</a>, <a href="https://inspirehep.net/authors/1028942"> Masanori Hanada</a>, <a href="https://inspirehep.net/authors/1059041"> Enrico Rinaldi</a>, <a href="https://inspirehep.net/authors/990041"> Andreas Schafer</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2401.12045">arXiv:2401.12045</a>:</strong> 22 January 2024 
-+ <strong>Published in <a href="https://doi.org/10.1007/JHEP05(2024)234">JHEP</a>:</strong> 20 May 2024</details>
-
-<details>
-<summary> (2024) <b>Scattering wave packets of hadrons in gauge theories: Preparation on a quantum computer</b> [<a href="https://arxiv.org/abs/2402.00840">arXiv</a>] [<a href="https://doi.org/10.22331/q-2024-11-11-1520">DOI</a>] [<a href="https://inspirehep.net/literature/2753868">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1078382"> Zohreh Davoudi</a>, <a href="https://inspirehep.net/authors/2755353"> Chung-Chun Hsieh</a>, <a href="https://inspirehep.net/authors/1590191"> Saurabh V. Kadam</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2402.00840">arXiv:2402.00840</a>:</strong> 01 February 2024 
-+ <strong>Published in <a href="https://doi.org/10.22331/q-2024-11-11-1520">Quantum</a>:</strong> 11 November 2024</details>
-
-<details>
-<summary> (2024) <b>Quantum Simulation of SU(3) Lattice Yang-Mills Theory at Leading Order in Large-<math display="inline"><msub><mi>N</mi><mi>c</mi></msub></math> Expansion</b> [<a href="https://arxiv.org/abs/2402.10265">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevLett.133.111901">DOI</a>] [<a href="https://inspirehep.net/literature/2759081">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1991920"> Anthony N. Ciavarella</a>, <a href="https://inspirehep.net/authors/1017103"> Christian W. Bauer</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2402.10265">arXiv:2402.10265</a>:</strong> 15 February 2024 
-+ <strong>Published in <a href="https://doi.org/10.1103/PhysRevLett.133.111901">Phys.Rev.Lett.</a>:</strong> 09 September 2024</details>
-
-<details>
-<summary> (2026) <b>Scalable cold-atom quantum simulator of a $3+1$D U$(1)$ lattice gauge theory with dynamical matter</b> [<a href="https://arxiv.org/abs/2601.04345">arXiv</a>] [<a href="https://inspirehep.net/literature/3098812">INSPIRE</a>] <code>Expand</code><br> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1026654"> Simone Orlando</a>, <a href="https://inspirehep.net/authors/1895088"> Guo-Xian Su</a>, <a href="https://inspirehep.net/authors/1077700"> Bing Yang</a>, <a href="https://inspirehep.net/authors/1877311"> Jad C. Halimeh</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2601.04345">arXiv:2601.04345</a>:</strong> 07 January 2026</details>
-
-###  $\textbf{{\color{#9BC53D}Quantum Chromodynamics}}$ 
-
-<details>
-<summary> (2020) <b>Quantum simulation of quantum field theory in the light-front formulation</b> [<a href="https://arxiv.org/abs/2002.04016">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevA.105.032418">DOI</a>] [<a href="https://inspirehep.net/literature/1779477">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1730698"> Michael Kreshchuk</a>, <a href="https://inspirehep.net/authors/1019359"> William M. Kirby</a>, <a href="https://inspirehep.net/authors/1008094"> Gary Goldstein</a>, <a href="https://inspirehep.net/authors/1035175"> Hugo Beauchemin</a>, <a href="https://inspirehep.net/authors/1059991"> Peter J. Love</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2002.04016">arXiv:2002.04016</a>:</strong> 10 February 2020 
-+ <strong>Published in <a href="https://doi.org/10.1103/PhysRevA.105.032418">Phys. Rev. A 105, 032418 (2022)</a>:</strong> 08 March 2022</details>
-
-<details>
-<summary> (2023) <b>Quantum simulation of colour in perturbative quantum chromodynamics</b> [<a href="https://arxiv.org/abs/2303.04818">arXiv</a>] [<a href="https://doi.org/10.21468/SciPostPhys.15.5.205">DOI</a>] [<a href="https://inspirehep.net/literature/2640041">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1674622"> Herschel A. Chawdhry</a>, <a href="https://inspirehep.net/authors/1274709"> Mathieu Pellen</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2303.04818">arXiv:2303.04818</a>:</strong> 08 March 2023 
-+ <strong>Published in <a href="https://doi.org/10.21468/SciPostPhys.15.5.205">SciPost Phys. 15, 205 (2023)</a>:</strong> 24 November 2023</details>
-
-<details>
-<summary> (2025) <b>Quantum simulation of scattering amplitudes and interferences in perturbative QCD</b> [<a href="https://arxiv.org/abs/2507.07194">arXiv</a>] [<a href="https://inspirehep.net/literature/2944584">INSPIRE</a>] <code>Expand</code><br> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1674622"> Herschel A. Chawdhry</a>, <a href="https://inspirehep.net/authors/1274709"> Mathieu Pellen</a>, <a href="https://inspirehep.net/authors/1821879"> Simon Williams</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2507.07194">arXiv:2507.07194</a>:</strong> 09 July 2025</details>
-
-###  $\textbf{{\color{#9BC53D}Schwinger Model}}$ 
-
-<details>
-<summary> (2013) <b>Quantum simulation of a lattice Schwinger model in a chain of trapped ions</b> [<a href="https://arxiv.org/abs/1306.2162">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevX.3.041018">DOI</a>] [<a href="https://inspirehep.net/literature/1237921">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1272244"> Philipp Hauke</a>, <a href="https://inspirehep.net/authors/2342388"> David Marcos</a>, <a href="https://inspirehep.net/authors/1272246"> Marcello Dalmonte</a>, <a href="https://inspirehep.net/authors/1029405"> Peter Zoller</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/1306.2162">arXiv:1306.2162</a>:</strong> 10 June 2013 
-+ <strong>Published in <a href="https://doi.org/10.1103/PhysRevX.3.041018">Phys.Rev.X</a>:</strong> 22 November 2013</details>
-
-<details>
-<summary> (2020) <b>Quantum Algorithms for Simulating the Lattice Schwinger Model</b> [<a href="https://arxiv.org/abs/2002.11146">arXiv</a>] [<a href="https://doi.org/10.22331/q-2020-08-10-306">DOI</a>] [<a href="https://inspirehep.net/literature/1782360">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1059168"> Alexander F. Shaw</a>, <a href="https://inspirehep.net/authors/1965128"> Pavel Lougovski</a>, <a href="https://inspirehep.net/authors/1589984"> Jesse R. Stryker</a>, <a href="https://inspirehep.net/authors/1918812"> Nathan Wiebe</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2002.11146">arXiv:2002.11146</a>:</strong> 25 February 2020 
-+ <strong>Published in <a href="https://doi.org/10.22331/q-2020-08-10-306">Quantum 4, 306 (2020)</a>:</strong> 10 August 2020</details>
-
-<details>
-<summary> (2023) <b>Scalable Circuits for Preparing Ground States on Digital Quantum Computers: The Schwinger Model Vacuum on 100 Qubits</b> [<a href="https://arxiv.org/abs/2308.04481">arXiv</a>] [<a href="https://doi.org/10.1103/PRXQuantum.5.020315">DOI</a>] [<a href="https://inspirehep.net/literature/2686627">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1897377"> Roland C. Farrell</a>, <a href="https://inspirehep.net/authors/1789348"> Marc Illa</a>, <a href="https://inspirehep.net/authors/1991920"> Anthony N. Ciavarella</a>, <a href="https://inspirehep.net/authors/990160"> Martin J. Savage</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2308.04481">arXiv:2308.04481</a>:</strong> 08 August 2023 
-+ <strong>Published in <a href="https://doi.org/10.1103/PRXQuantum.5.020315">PRX Quantum 5 (2024) 2, 020315</a>:</strong> 01 April 2024</details>
-
-<details>
-<summary> (2024) <b>Steps toward quantum simulations of hadronization and energy loss in dense matter</b> [<a href="https://arxiv.org/abs/2405.06620">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevC.111.015202">DOI</a>] [<a href="https://inspirehep.net/literature/2785266">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1897377"> Roland C. Farrell</a>, <a href="https://inspirehep.net/authors/1789348"> Marc Illa</a>, <a href="https://inspirehep.net/authors/990160"> Martin J. Savage</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2405.06620">arXiv:2405.06620</a>:</strong> 10 May 2024 
-+ <strong>Published in <a href="https://doi.org/10.1103/PhysRevC.111.015202">Phys.Rev.C 111 (2025) 1, 015202</a>:</strong> 14 January 2025</details>
-
-<details>
-<summary> (2024) <b>Enhancing quantum field theory simulations on NISQ devices with Hamiltonian truncation</b> [<a href="https://arxiv.org/abs/2407.19022">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.110.096016">DOI</a>] [<a href="https://inspirehep.net/literature/2811633">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1706722"> James Ingoldby</a>, <a href="https://inspirehep.net/authors/1045921"> Michael Spannowsky</a>, <a href="https://inspirehep.net/authors/2918997"> Timur Sypchenko</a>, <a href="https://inspirehep.net/authors/1821879"> Simon Williams</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2407.19022">arXiv:2407.19022</a>:</strong> 26 July 2024 
-+ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.110.096016">Phys. Rev. D 110 (2024), 096016</a>:</strong> 01 November 2024</details>
-
-###  $\textbf{{\color{#9BC53D}Crosslists}}$ 
-
-<details>
-<summary> (2016) <b>Lattice gauge theory simulations in the quantum information era</b> [<a href="https://arxiv.org/abs/1602.03776">arXiv</a>] [<a href="https://doi.org/10.1080/00107514.2016.1151199">DOI</a>] [<a href="https://inspirehep.net/literature/1421166">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1272246"> M. Dalmonte</a>, <a href="https://inspirehep.net/authors/1953270"> S. Montangero</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/1602.03776">arXiv:1602.03776</a>:</strong> 11 February 2016 
-+ <strong>Published in <a href="https://doi.org/10.1080/00107514.2016.1151199">Contemporary Physics 57 388 (2016)</a>:</strong> 09 March 2016</details>
-
-
-
-<details>
-<summary> (2022) <b>Tensor networks for High Energy Physics: contribution to Snowmass 2021</b> [<a href="https://arxiv.org/abs/2203.04902">arXiv</a>] [<a href="https://inspirehep.net/literature/2048957">INSPIRE</a>] <code>Expand</code><br> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/997658"> Yannick Meurice</a>, <a href="https://inspirehep.net/authors/994741"> James C. Osborn</a>, <a href="https://inspirehep.net/authors/2048959"> Ryo Sakai</a>, <a href="https://inspirehep.net/authors/1277630"> Judah Unmuth-Yockey</a>, <a href="https://inspirehep.net/authors/1014253"> Simon Catterall</a>, <a href="https://inspirehep.net/authors/1271502"> Rolando D. Somma</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2203.04902">arXiv:2203.04902</a>:</strong> 09 March 2022</details>
-
-
-
-<details>
-<summary> (2022) <b>Snowmass white paper: Quantum information in quantum field theory and quantum gravity</b> [<a href="https://arxiv.org/abs/2203.07117">arXiv</a>] [<a href="https://inspirehep.net/literature/2051219">INSPIRE</a>] <code>Expand</code><br> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1051565"> Thomas Faulkner</a>, <a href="https://inspirehep.net/authors/1029673"> Thomas Hartman</a>, <a href="https://inspirehep.net/authors/1019514"> Matthew Headrick</a>, <a href="https://inspirehep.net/authors/1019440"> Mukund Rangamani</a>, <a href="https://inspirehep.net/authors/1064843"> Brian Swingle</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2203.07117">arXiv:2203.07117</a>:</strong> 14 March 2022</details>
-
-
-
-<details>
-<summary> (2022) <b>Snowmass White Paper: Quantum Computing Systems and Software for High-energy Physics Research</b> [<a href="https://arxiv.org/abs/2203.07091">arXiv</a>] [<a href="https://inspirehep.net/literature/2051498">INSPIRE</a>] <code>Expand</code><br> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1873520"> Travis S. Humble</a>, <a href="https://inspirehep.net/authors/1309026"> Andrea Delgado</a>, <a href="https://inspirehep.net/authors/1959740"> Raphael Pooser</a>, <a href="https://inspirehep.net/authors/2034235"> Christopher Seck</a>, <a href="https://inspirehep.net/authors/2016391"> Ryan Bennink</a>, <a href="https://inspirehep.net/authors/1964926"> Vicente Leyton-Ortega</a>, <a href="https://inspirehep.net/authors/984158"> C.-C. Joseph Wang</a>, <a href="https://inspirehep.net/authors/1957262"> Eugene Dumitrescu</a>, <a href="https://inspirehep.net/authors/1025005"> Titus Morris</a>, <a href="https://inspirehep.net/authors/1964884"> Kathleen Hamilton</a>, <a href="https://inspirehep.net/authors/1982616"> Dmitry Lyakh</a>, <a href="https://inspirehep.net/authors/1982115"> Prasanna Date</a>, <a href="https://inspirehep.net/authors/2051501"> Yan Wang</a>, <a href="https://inspirehep.net/authors/1038124"> Nicholas A. Peters</a>, <a href="https://inspirehep.net/authors/2051502"> Katherine J. Evans</a>, <a href="https://inspirehep.net/authors/1012077"> Marcel Demarteau</a>, <a href="https://inspirehep.net/authors/1955549"> Alex McCaskey</a>, <a href="https://inspirehep.net/authors/1901331"> Thien Nguyen</a>, <a href="https://inspirehep.net/authors/1890493"> Susan Clark</a>, <a href="https://inspirehep.net/authors/2051503"> Melissa Reville</a>, <a href="https://inspirehep.net/authors/1918766"> Alberto Di Meglio</a>, <a href="https://inspirehep.net/authors/1990556"> Michele Grossi</a>, <a href="https://inspirehep.net/authors/1028732"> Sofia Vallecorsa</a>, <a href="https://inspirehep.net/authors/1015735"> Kerstin Borras</a>, <a href="https://inspirehep.net/authors/1004503"> Karl Jansen</a>, <a href="https://inspirehep.net/authors/1022164"> Dirk Krücker</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2203.07091">arXiv:2203.07091</a>:</strong> 14 March 2022</details>
-
-
-
-<details>
-<summary> (2022) <b>Quantum Simulation for High-Energy Physics</b> [<a href="https://arxiv.org/abs/2204.03381">arXiv</a>] [<a href="https://doi.org/10.1103/PRXQuantum.4.027001">DOI</a>] [<a href="https://inspirehep.net/literature/2064292">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1017103"> Christian W. Bauer</a>, <a href="https://inspirehep.net/authors/1078382"> Zohreh Davoudi</a>, <a href="https://inspirehep.net/authors/1017575"> A. Baha Balantekin</a>, <a href="https://inspirehep.net/authors/1016431"> Tanmoy Bhattacharya</a>, <a href="https://inspirehep.net/authors/984325"> Marcela Carena</a>, <a href="https://inspirehep.net/authors/1887674"> Wibe A. de Jong</a>, <a href="https://inspirehep.net/authors/1063627"> Patrick Draper</a>, <a href="https://inspirehep.net/authors/1010867"> Aida El-Khadra</a>, <a href="https://inspirehep.net/authors/2064294"> Nate Gemelke</a>, <a href="https://inspirehep.net/authors/1028942"> Masanori Hanada</a>, <a href="https://inspirehep.net/authors/1003098"> Dmitri Kharzeev</a>, <a href="https://inspirehep.net/authors/1239062"> Henry Lamm</a>, <a href="https://inspirehep.net/authors/1372172"> Ying-Ying Li</a>, <a href="https://inspirehep.net/authors/1358358"> Junyu Liu</a>, <a href="https://inspirehep.net/authors/1882263"> Mikhail Lukin</a>, <a href="https://inspirehep.net/authors/997658"> Yannick Meurice</a>, <a href="https://inspirehep.net/authors/1885856"> Christopher Monroe</a>, <a href="https://inspirehep.net/authors/1067995"> Benjamin Nachman</a>, <a href="https://inspirehep.net/authors/1897287"> Guido Pagano</a>, <a href="https://inspirehep.net/authors/992791"> John Preskill</a>, <a href="https://inspirehep.net/authors/1059041"> Enrico Rinaldi</a>, <a href="https://inspirehep.net/authors/1514679"> Alessandro Roggero</a>, <a href="https://inspirehep.net/authors/990368"> David I. Santiago</a>, <a href="https://inspirehep.net/authors/990160"> Martin J. Savage</a>, <a href="https://inspirehep.net/authors/1836627"> Irfan Siddiqi</a>, <a href="https://inspirehep.net/authors/988531"> George Siopsis</a>, <a href="https://inspirehep.net/authors/2069453"> David Van Zanten</a>, <a href="https://inspirehep.net/authors/1918812"> Nathan Wiebe</a>, <a href="https://inspirehep.net/authors/1760376"> Yukari Yamauchi</a>, <a href="https://inspirehep.net/authors/1261678"> Kübra Yeter-Aydeniz</a>, <a href="https://inspirehep.net/authors/1246650"> Silvia Zorzetti</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2204.03381">arXiv:2204.03381</a>:</strong> 07 April 2022 
-+ <strong>Published in <a href="https://doi.org/10.1103/PRXQuantum.4.027001">PRX Quantum 4, 027001, 2023</a>:</strong> 01 May 2023</details>
-
-
-
-<details>
-<summary> (2022) <b>Snowmass Computational Frontier: Topical Group Report on Quantum Computing</b> [<a href="https://arxiv.org/abs/2209.06786">arXiv</a>] [<a href="https://inspirehep.net/literature/2151492">INSPIRE</a>] <code>Expand</code><br> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1873520"> Travis S. Humble</a>, <a href="https://inspirehep.net/authors/1040364"> Gabriel N. Perdue</a>, <a href="https://inspirehep.net/authors/990160"> Martin J. Savage</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2209.06786">arXiv:2209.06786</a>:</strong> 14 September 2022</details>
-
-
-
-<details>
-<summary> (2023) <b>Review on Quantum Computing for Lattice Field Theory</b> [<a href="https://arxiv.org/abs/2302.00467">arXiv</a>] [<a href="https://doi.org/10.22323/1.430.0228">DOI</a>] [<a href="https://inspirehep.net/literature/2628722">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1419876"> Lena Funcke</a>, <a href="https://inspirehep.net/authors/1277625"> Tobias Hartung</a>, <a href="https://inspirehep.net/authors/1004503"> Karl Jansen</a>, <a href="https://inspirehep.net/authors/1885408"> Stefan Kühn</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2302.00467">arXiv:2302.00467</a>:</strong> 01 February 2023 
-+ <strong>Published in <a href="https://doi.org/10.22323/1.430.0228">PoS</a>:</strong> 01 February 2023</details>
-
-
-
-<details>
-<summary> (2023) <b>Quantum data learning for quantum simulations in high-energy physics</b> [<a href="https://arxiv.org/abs/2306.17214">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevResearch.5.043250">DOI</a>] [<a href="https://inspirehep.net/literature/2673374">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1806317"> Lento Nagano</a>, <a href="https://inspirehep.net/authors/2003006"> Alexander Miessen</a>, <a href="https://inspirehep.net/authors/2007702"> Tamiya Onodera</a>, <a href="https://inspirehep.net/authors/1918765"> Ivano Tavernelli</a>, <a href="https://inspirehep.net/authors/1963538"> Francesco Tacchino</a>, <a href="https://inspirehep.net/authors/986339"> Koji Terashi</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2306.17214">arXiv:2306.17214</a>:</strong> 29 June 2023 
-+ <strong>Published in <a href="https://doi.org/10.1103/PhysRevResearch.5.043250">Phys.Rev.Res.</a>:</strong> 15 December 2023</details>
-
-
-
-<details>
-<summary> (2024) <b>Simulating quantum field theories on continuous-variable quantum computers</b> [<a href="https://arxiv.org/abs/2403.10619">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevA.110.012607">DOI</a>] [<a href="https://inspirehep.net/literature/2805631">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1019047"> Steven Abel</a>, <a href="https://inspirehep.net/authors/1045921"> Michael Spannowsky</a>, <a href="https://inspirehep.net/authors/1821879"> Simon Williams</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2403.10619">arXiv:2403.10619</a>:</strong> 15 March 2024 
-+ <strong>Published in <a href="https://doi.org/10.1103/PhysRevA.110.012607">Phys. Rev. A 110 (2024) 1, 012607</a>:</strong> 08 July 2024</details>
-
-
-
-<details>
-<summary> (2025) <b>Real-time scattering processes with continuous-variable quantum computers</b> [<a href="https://arxiv.org/abs/2502.01767">arXiv</a>] [<a href="https://doi.org/10.1103/q36d-w649">DOI</a>] [<a href="https://inspirehep.net/literature/2875247">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1019047"> Steven Abel</a>, <a href="https://inspirehep.net/authors/1045921"> Michael Spannowsky</a>, <a href="https://inspirehep.net/authors/1821879"> Simon Williams</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2502.01767">arXiv:2502.01767</a>:</strong> 03 February 2025 
-+ <strong>Published in <a href="https://doi.org/10.1103/q36d-w649">Phys. Rev. A 112 (2025), 012614</a>:</strong> 16 July 2025</details>
 
 
 

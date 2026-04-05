@@ -4,7 +4,7 @@
 
 Authors: Pamela Pajarillo, So Chigusa, Sokratis Trifinopoulos, Jesse Thaler 
  
-Number of Papers: 237 
+Number of Papers: 239 
  
 *Inspired by <a href="https://iml-wg.github.io/HEPML-LivingReview/">"A Living Review of Machine Learning for High Energy Physics"</a>, the goal of this repository is to provide an extensive list of citations for those developing and applying quantum information approaches to experimental, phenomenological, or theoretical analyses.  Applications of quantum information science to high energy physics is a relatively new field of research.  This repository will be updated as often as possible with the relevant literature.  Suggestions are most welcome.*
 
@@ -277,6 +277,19 @@ References:
 </details>
 
 <details>
+<summary> <b>Quantum Algorithms - Quantum Simulations: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-algorithms---quantum-simulations"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+Richard Feynman first proposed the idea of quantum simulation in 1982, where he noted that simulating quantum systems on a classical computer was hard because the number of resources required grows exponentially with the size of the system, and suggested that quantum systems could be efficiently simulated by other quantum systems. Let us consider a general quantum simulation problem: finding the state of a quantum system described by a wavefunction $\ket{\psi}$ at some time $t$. Focusing on the case of time-independent Hamiltonian and assuming $\hbar = 1$, the solution of the Schrödinger equation $\frac{d}{dt}\ket{\psi} = -iH\ket{\psi}$ is given by $\ket{\psi(t)} = e^{-iHt} \ket{\psi(0)}$, where $H$ is the Hamiltonian of the system. The goal is to solve for $\ket{\psi(t)}$ given the initial state $\ket{\psi(0)}$ and the Hamiltonian $H$. Seth Lloyd later showed that Feynman's idea of quantum simulation could be implemented on a quantum computer. For each degree of freedom of the system, we can allocate a quantum register containing a sufficient number of qubits to approximate the state of that degree of freedom to some desired accuracy. We can then write the Hamiltonian of the system as $H = \sum_{l=1}^m H_l$, where each $H_l$ operates on only a few degrees of freedom. The Trotter decomposition can be used to approximate the time evolution operator as $e^{-iHt} = \left( e^{-iH_1 \Delta t} e^{-iH_2 \Delta t} \cdots e^{-iH_1 \Delta m} \right) - \frac{1}{2}\sum_{jk}[H_j, H_k]\Delta t^2 + \mathcal{O}(t^3)$. Each $e^{-iH_l \Delta t}$ can be simulated using quantum gates on the qubits in the register corresponding to the degrees of freedom that $H_l$ operates on. To simulate the time evolution of the system for a total time $t$, we can repeat this process $t = n \Delta t$ times, giving us $e^{-iHt} = (e^{-iH\Delta t})^n = \left( \prod_l e^{-iH_l \Delta t} \right)^n + \frac{n}{2}\sum_{jk}[H_j, H_k]\Delta t^2 + \mathcal{O}(t^3)$. The quantum simulation takes $O(mn) steps, and reproduces the original time evolution to an accuracy of $h^2 t^2 m^2 / n$, where $h$ is the average size of $||[H_j, H_k]||$. This approach allows us to simulate quantum systems that are intractable for classical computers, such as many-body quantum systems, quantum chemistry problems, and high-energy physics phenomena.
+
+References:
+  - Nielsen, Michael A., and Isaac L. Chuang. *Quantum Computation and Quantum Information*. 10th anniversary ed. [or 2nd ed.], Cambridge University Press, 2010.
+  - Quantum Simulation: https://arxiv.org/pdf/1308.6253
+  - Lloyd, Seth. "Universal quantum simulators": https://www.science.org/doi/epdf/10.1126/science.273.5278.1073
+</details>
+
+<details>
 <summary> <b>Quantum Algorithms - Quantum Walks: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-algorithms---quantum-walks"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -434,19 +447,6 @@ A list of solid state sensors include:
 
 References:
   - TBA
-</details>
-
-<details>
-<summary> <b>Quantum Algorithms - Quantum Simulations: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-algorithms---quantum-simulations"> Link to Papers </a>  <code>Expand for Description</code> </summary>
-
-
-
-Richard Feynman first proposed the idea of quantum simulation in 1982, where he noted that simulating quantum systems on a classical computer was hard and suggested that quantum systems could be efficiently simulated by other quantum systems. Seth Lloyd later showed that Feynman's idea of quantum simulation could be implemented on a quantum computer. 
-
-References:
-  - Nielsen, Michael A., and Isaac L. Chuang. *Quantum Computation and Quantum Information*. 10th anniversary ed. [or 2nd ed.], Cambridge University Press, 2010.
-  - Quantum Simulation: https://arxiv.org/pdf/1308.6253
-  - Lloyd, Seth. "Universal quantum simulators": https://www.science.org/doi/epdf/10.1126/science.273.5278.1073
 </details>
 
 
