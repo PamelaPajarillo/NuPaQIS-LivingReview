@@ -312,7 +312,23 @@
 + <strong>Posted on <a href="https://arxiv.org/abs/2204.12500">arXiv:2204.12500</a>:</strong> 26 April 2022 
 + <strong>Published in <a href="https://doi.org/10.1016/j.physletb.2022.137466">Phys.Lett.B</a>:</strong> 26 September 2022</details>
 
-###  $\textbf{{\color{#5BC0EB}Quantum Sensors - Atomic Sensors}}$ 
+###  $\textbf{{\color{#5BC0EB}Quantum Sensors - Atomic/Molecular/Nuclear Sensors}}$ 
+
+<details>
+<summary> (2021) <b>Trapped Electrons and Ions as Particle Detectors</b> [<a href="https://arxiv.org/abs/2104.05737">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevLett.127.061804">DOI</a>] [<a href="https://inspirehep.net/literature/1858033">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1275237"> Daniel Carney</a>, <a href="https://inspirehep.net/authors/1902368"> Hartmut Häffner</a>, <a href="https://inspirehep.net/authors/1021202"> David C. Moore</a>, <a href="https://inspirehep.net/authors/1964119"> Jacob M. Taylor</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2104.05737">arXiv:2104.05737</a>:</strong> 12 April 2021 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevLett.127.061804">Phys Rev Lett, Vol. 127, No. 6, 2021. "Editor's suggestion"</a>:</strong> 05 August 2021</details>
+
+<details>
+<summary> (2021) <b>Millicharged Dark Matter Detection with Ion Traps</b> [<a href="https://arxiv.org/abs/2108.05283">arXiv</a>] [<a href="https://doi.org/10.1103/PRXQuantum.3.010330">DOI</a>] [<a href="https://inspirehep.net/literature/1903618">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1053648"> Dmitry Budker</a>, <a href="https://inspirehep.net/authors/1034461"> Peter W. Graham</a>, <a href="https://inspirehep.net/authors/1325055"> Harikrishnan Ramani</a>, <a href="https://inspirehep.net/authors/1903619"> Ferdinand Schmidt-Kaler</a>, <a href="https://inspirehep.net/authors/1261619"> Christian Smorra</a>, <a href="https://inspirehep.net/authors/1261620"> Stefan Ulmer</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2108.05283">arXiv:2108.05283</a>:</strong> 11 August 2021 
++ <strong>Published in <a href="https://doi.org/10.1103/PRXQuantum.3.010330">PRX Quantum</a>:</strong> 01 February 2022</details>
+
+###  $\textbf{{\color{#5BC0EB}Quantum Sensors - Atomic/Molecular/Nuclear Sensors}}$ 
 
 <details>
 <summary> (2021) <b>Trapped Electrons and Ions as Particle Detectors</b> [<a href="https://arxiv.org/abs/2104.05737">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevLett.127.061804">DOI</a>] [<a href="https://inspirehep.net/literature/1858033">INSPIRE</a>] <code>Expand</code> </summary>
@@ -445,10 +461,11 @@
 + <strong>Published in <a href="https://doi.org/10.1007/JHEP07(2024)233">JHEP</a>:</strong> 25 July 2024</details>
 
 <details>
-<summary> (2024) <b>Quantum Parity Detectors: a qubit based particle detection scheme with meV thresholds for rare-event searches</b> [<a href="https://arxiv.org/abs/2405.17192">arXiv</a>] [<a href="https://inspirehep.net/literature/2790365">INSPIRE</a>] <code>Expand</code><br> </summary>
+<summary> (2024) <b>Quantum parity detectors: A qubit-based particle-detection scheme with meV thresholds for rare-event searches</b> [<a href="https://arxiv.org/abs/2405.17192">arXiv</a>] [<a href="https://doi.org/10.1103/kqd2-spb1">DOI</a>] [<a href="https://inspirehep.net/literature/2790365">INSPIRE</a>] <code>Expand</code> </summary>
 
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1930231"> Karthik Ramanathan</a>, <a href="https://inspirehep.net/authors/2402867"> John E. Parker</a>, <a href="https://inspirehep.net/authors/2392918"> Lalit M. Joshi</a>, <a href="https://inspirehep.net/authors/1995335"> Andrew D. Beyer</a>, <a href="https://inspirehep.net/authors/2525650"> Pierre M. Echternach</a>, <a href="https://inspirehep.net/authors/2075607"> Serge Rosenblum</a>, <a href="https://inspirehep.net/authors/2486654"> Brandon J. Sandoval</a>, <a href="https://inspirehep.net/authors/1008056"> Sunil R. Golwala</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2405.17192">arXiv:2405.17192</a>:</strong> 27 May 2024</details>
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1930231"> Karthik Ramanathan</a>, <a href="https://inspirehep.net/authors/2486654"> Brandon J. Sandoval</a>, <a href="https://inspirehep.net/authors/2402867"> John E. Parker</a>, <a href="https://inspirehep.net/authors/2392918"> Lalit M. Joshi</a>, <a href="https://inspirehep.net/authors/1995335"> Andrew D. Beyer</a>, <a href="https://inspirehep.net/authors/2525650"> Pierre M. Echternach</a>, <a href="https://inspirehep.net/authors/2075607"> Serge Rosenblum</a>, <a href="https://inspirehep.net/authors/1008056"> Sunil R. Golwala</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2405.17192">arXiv:2405.17192</a>:</strong> 27 May 2024 
++ <strong>Published in <a href="https://doi.org/10.1103/kqd2-spb1">APS Open Science</a>:</strong> 01 May 2026</details>
 
 <details>
 <summary> (2025) <b>Piezoelectric bulk acoustic resonators for dark photon detection</b> [<a href="https://arxiv.org/abs/2501.05504">arXiv</a>] [<a href="https://doi.org/10.1103/yq4n-xq9y">DOI</a>] [<a href="https://inspirehep.net/literature/2867093">INSPIRE</a>] <code>Expand</code> </summary>
@@ -502,7 +519,14 @@
 
 ##  $\textbf{{\color{#9BC53D}Dark Matter - Wave-like Dark Matter}}$ 
 
-###  $\textbf{{\color{#5BC0EB}Quantum Sensors - Atomic Sensors}}$ 
+###  $\textbf{{\color{#5BC0EB}Quantum Sensors - Atomic/Molecular/Nuclear Sensors}}$ 
+
+<details>
+<summary> (2022) <b>Intensity interferometry for ultralight bosonic dark matter detection</b> [<a href="https://arxiv.org/abs/2202.02645">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.108.015003">DOI</a>] [<a href="https://inspirehep.net/literature/2029187">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1912840"> Hector Masia-Roig</a>, <a href="https://inspirehep.net/authors/1892427"> Nataniel L. Figueroa</a>, <a href="https://inspirehep.net/authors/2029189"> Ariday Bordon</a>, <a href="https://inspirehep.net/authors/1912856"> Joseph A. Smiga</a>, <a href="https://inspirehep.net/authors/1274956"> Yevgeny V. Stadnik</a>, <a href="https://inspirehep.net/authors/1053648"> Dmitry Budker</a>, <a href="https://inspirehep.net/authors/1892422"> Gary P. Centers</a>, <a href="https://inspirehep.net/authors/1071680"> Alexander V. Gramolin</a>, <a href="https://inspirehep.net/authors/1617721"> Paul S. Hamilton</a>, <a href="https://inspirehep.net/authors/1912838"> Sami Khamis</a>, <a href="https://inspirehep.net/authors/1912843"> Christopher A. Palm</a>, <a href="https://inspirehep.net/authors/1273951"> Szymon Pustelny</a>, <a href="https://inspirehep.net/authors/1980575"> Alexander O. Sushkov</a>, <a href="https://inspirehep.net/authors/1881918"> Arne Wickenbrock</a>, <a href="https://inspirehep.net/authors/1892430"> Derek F. Jackson Kimball</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2202.02645">arXiv:2202.02645</a>:</strong> 05 February 2022 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.108.015003">Phys. Rev. D 108, 015003 (2023)</a>:</strong> 01 July 2023</details>
 
 <details>
 <summary> (2022) <b>One-Electron Quantum Cyclotron as a Milli-eV Dark-Photon Detector</b> [<a href="https://arxiv.org/abs/2208.06519">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevLett.129.261801">DOI</a>] [<a href="https://inspirehep.net/literature/2135969">INSPIRE</a>] <code>Expand</code> </summary>
@@ -512,11 +536,24 @@
 + <strong>Published in <a href="https://doi.org/10.1103/PhysRevLett.129.261801">Phys. Rev. Lett. 129, 261801 (2022)</a>:</strong> 23 December 2022</details>
 
 <details>
+<summary> (2023) <b>Detection of bosenovae with quantum sensors on Earth and in space</b> [<a href="https://arxiv.org/abs/2306.16468">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.110.075007">DOI</a>] [<a href="https://inspirehep.net/literature/2672901">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1898823"> Jason Arakawa</a>, <a href="https://inspirehep.net/authors/1497168"> Joshua Eby</a>, <a href="https://inspirehep.net/authors/1896420"> Marianna S. Safronova</a>, <a href="https://inspirehep.net/authors/1059400"> Volodymyr Takhistov</a>, <a href="https://inspirehep.net/authors/3075464"> Muhammad H. Zaheer</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2306.16468">arXiv:2306.16468</a>:</strong> 28 June 2023 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.110.075007">Phys.Rev.D</a>:</strong> 01 October 2024</details>
+
+<details>
 <summary> (2023) <b>Quantum entanglement of ions for light dark matter detection</b> [<a href="https://arxiv.org/abs/2311.11632">arXiv</a>] [<a href="https://doi.org/10.1007/JHEP02(2024)124">DOI</a>] [<a href="https://inspirehep.net/literature/2724227">INSPIRE</a>] <code>Expand</code> </summary>
 
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1874010"> Asuka Ito</a>, <a href="https://inspirehep.net/authors/1002736"> Ryuichiro Kitano</a>, <a href="https://inspirehep.net/authors/1768581"> Wakutaka Nakano</a>, <a href="https://inspirehep.net/authors/2660814"> Ryoto Takai</a>
 + <strong>Posted on <a href="https://arxiv.org/abs/2311.11632">arXiv:2311.11632</a>:</strong> 20 November 2023 
 + <strong>Published in <a href="https://doi.org/10.1007/JHEP02(2024)124">JHEP</a>:</strong> 16 February 2024</details>
+
+<details>
+<summary> (2024) <b>A Nuclear Interferometer for Ultra-Light Dark Matter Detection</b> [<a href="https://arxiv.org/abs/2407.11112">arXiv</a>] [<a href="https://doi.org/10.1103/ntb7-6w5g">DOI</a>] [<a href="https://inspirehep.net/literature/2808163">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1967235"> Hannah Banks</a>, <a href="https://inspirehep.net/authors/1068172"> Elina Fuchs</a>, <a href="https://inspirehep.net/authors/1059701"> Matthew McCullough</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2407.11112">arXiv:2407.11112</a>:</strong> 15 July 2024</details>
 
 <details>
 <summary> (2024) <b>Highly excited electron cyclotron for QCD axion and dark-photon detection</b> [<a href="https://arxiv.org/abs/2410.05549">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.111.075022">DOI</a>] [<a href="https://inspirehep.net/literature/2838765">INSPIRE</a>] <code>Expand</code> </summary>
@@ -546,10 +583,24 @@
 + <strong>Published in <a href="https://doi.org/10.1088/1361-6633/ad99e6">Rep. Prog. Phys. 88 (2025) 016401</a>:</strong> 13 December 2024</details>
 
 <details>
-<summary> (2025) <b>Dark matter detection using optically trapped Rydberg atom tweezer arrays</b> [<a href="https://arxiv.org/abs/2507.12860">arXiv</a>] [<a href="https://inspirehep.net/literature/2948322">INSPIRE</a>] <code>Expand</code><br> </summary>
+<summary> (2025) <b>Spin squeezing of macroscopic nuclear spin ensembles</b> [<a href="https://arxiv.org/abs/2502.14103">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.111.052004">DOI</a>] [<a href="https://inspirehep.net/literature/2892257">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/2677202"> Eric Boyers</a>, <a href="https://inspirehep.net/authors/1971193"> Garry Goldstein</a>, <a href="https://inspirehep.net/authors/1903199"> Alexander O. Sushkov</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2502.14103">arXiv:2502.14103</a>:</strong> 19 February 2025 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.111.052004">Phys.Rev.D</a>:</strong> 01 March 2025</details>
+
+<details>
+<summary> (2025) <b>Detecting Dark Matter Using Optically Trapped Rydberg Atom Tweezer Arrays</b> [<a href="https://arxiv.org/abs/2507.12860">arXiv</a>] [<a href="https://doi.org/10.1103/s41f-6nw2">DOI</a>] [<a href="https://inspirehep.net/literature/2948322">INSPIRE</a>] <code>Expand</code> </summary>
 
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1474093"> So Chigusa</a>, <a href="https://inspirehep.net/authors/2948323"> Taiyo Kasamaki</a>, <a href="https://inspirehep.net/authors/2113595"> Toshi Kusano</a>, <a href="https://inspirehep.net/authors/996781"> Takeo Moroi</a>, <a href="https://inspirehep.net/authors/1060297"> Kazunori Nakayama</a>, <a href="https://inspirehep.net/authors/1909946"> Naoya Ozawa</a>, <a href="https://inspirehep.net/authors/1479290"> Yoshiro Takahashi</a>, <a href="https://inspirehep.net/authors/2009675"> Atsuhiro Umemoto</a>, <a href="https://inspirehep.net/authors/2115432"> Amar Vutha</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2507.12860">arXiv:2507.12860</a>:</strong> 17 July 2025</details>
++ <strong>Posted on <a href="https://arxiv.org/abs/2507.12860">arXiv:2507.12860</a>:</strong> 17 July 2025 
++ <strong>Published in <a href="https://doi.org/10.1103/s41f-6nw2">Phys.Rev.Lett.</a>:</strong> 14 April 2026</details>
+
+<details>
+<summary> (2025) <b>Superradiant Interactions for Relic Detection with Entangled Nuclear Spins</b> [<a href="https://arxiv.org/abs/2508.20520">arXiv</a>] [<a href="https://inspirehep.net/literature/2964571">INSPIRE</a>] <code>Expand</code><br> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1774098"> Marios Galanis</a>, <a href="https://inspirehep.net/authors/1880880"> Onur Hosten</a>, <a href="https://inspirehep.net/authors/1042861"> Asimina Arvanitaki</a>, <a href="https://inspirehep.net/authors/1011762"> Savas Dimopoulos</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2508.20520">arXiv:2508.20520</a>:</strong> 28 August 2025</details>
 
 <details>
 <summary> (2025) <b>On the Speed-up of Wave-like Dark Matter Searches with Entangled Qubits</b> [<a href="https://arxiv.org/abs/2510.11795">arXiv</a>] [<a href="https://inspirehep.net/literature/3069163">INSPIRE</a>] <code>Expand</code><br> </summary>
@@ -557,7 +608,13 @@
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1827001"> Arushi Bodas</a>, <a href="https://inspirehep.net/authors/1869187"> Sohitri Ghosh</a>, <a href="https://inspirehep.net/authors/1019568"> Roni Harnik</a>
 + <strong>Posted on <a href="https://arxiv.org/abs/2510.11795">arXiv:2510.11795</a>:</strong> 13 October 2025</details>
 
-###  $\textbf{{\color{#5BC0EB}Quantum Sensors - Nuclear Sensors}}$ 
+<details>
+<summary> (2025) <b>Symmetric Dicke States as Optimal Probes for Wave-Like Dark Matter</b> [<a href="https://arxiv.org/abs/2512.14821">arXiv</a>] [<a href="https://inspirehep.net/literature/3093535">INSPIRE</a>] <code>Expand</code><br> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/2156230"> Ping He</a>, <a href="https://inspirehep.net/authors/1019902"> Jing Shu</a>, <a href="https://inspirehep.net/authors/1675751"> Bin Xu</a>, <a href="https://inspirehep.net/authors/1915155"> Jincheng Xu</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2512.14821">arXiv:2512.14821</a>:</strong> 16 December 2025</details>
+
+###  $\textbf{{\color{#5BC0EB}Quantum Sensors - Atomic/Molecular/Nuclear Sensors}}$ 
 
 <details>
 <summary> (2022) <b>Intensity interferometry for ultralight bosonic dark matter detection</b> [<a href="https://arxiv.org/abs/2202.02645">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.108.015003">DOI</a>] [<a href="https://inspirehep.net/literature/2029187">INSPIRE</a>] <code>Expand</code> </summary>
@@ -567,6 +624,13 @@
 + <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.108.015003">Phys. Rev. D 108, 015003 (2023)</a>:</strong> 01 July 2023</details>
 
 <details>
+<summary> (2022) <b>One-Electron Quantum Cyclotron as a Milli-eV Dark-Photon Detector</b> [<a href="https://arxiv.org/abs/2208.06519">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevLett.129.261801">DOI</a>] [<a href="https://inspirehep.net/literature/2135969">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1959516"> Xing Fan</a>, <a href="https://inspirehep.net/authors/1009118"> Gerald Gabrielse</a>, <a href="https://inspirehep.net/authors/1034461"> Peter W. Graham</a>, <a href="https://inspirehep.net/authors/1019568"> Roni Harnik</a>, <a href="https://inspirehep.net/authors/2135970"> Thomas G. Myers</a>, <a href="https://inspirehep.net/authors/1325055"> Harikrishnan Ramani</a>, <a href="https://inspirehep.net/authors/2135971"> Benedict A.D. Sukra</a>, <a href="https://inspirehep.net/authors/1771811"> Samuel S.Y. Wong</a>, <a href="https://inspirehep.net/authors/2635413"> Yawen Xiao</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2208.06519">arXiv:2208.06519</a>:</strong> 12 August 2022 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevLett.129.261801">Phys. Rev. Lett. 129, 261801 (2022)</a>:</strong> 23 December 2022</details>
+
+<details>
 <summary> (2023) <b>Detection of bosenovae with quantum sensors on Earth and in space</b> [<a href="https://arxiv.org/abs/2306.16468">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.110.075007">DOI</a>] [<a href="https://inspirehep.net/literature/2672901">INSPIRE</a>] <code>Expand</code> </summary>
 
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1898823"> Jason Arakawa</a>, <a href="https://inspirehep.net/authors/1497168"> Joshua Eby</a>, <a href="https://inspirehep.net/authors/1896420"> Marianna S. Safronova</a>, <a href="https://inspirehep.net/authors/1059400"> Volodymyr Takhistov</a>, <a href="https://inspirehep.net/authors/3075464"> Muhammad H. Zaheer</a>
@@ -574,10 +638,44 @@
 + <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.110.075007">Phys.Rev.D</a>:</strong> 01 October 2024</details>
 
 <details>
+<summary> (2023) <b>Quantum entanglement of ions for light dark matter detection</b> [<a href="https://arxiv.org/abs/2311.11632">arXiv</a>] [<a href="https://doi.org/10.1007/JHEP02(2024)124">DOI</a>] [<a href="https://inspirehep.net/literature/2724227">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1874010"> Asuka Ito</a>, <a href="https://inspirehep.net/authors/1002736"> Ryuichiro Kitano</a>, <a href="https://inspirehep.net/authors/1768581"> Wakutaka Nakano</a>, <a href="https://inspirehep.net/authors/2660814"> Ryoto Takai</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2311.11632">arXiv:2311.11632</a>:</strong> 20 November 2023 
++ <strong>Published in <a href="https://doi.org/10.1007/JHEP02(2024)124">JHEP</a>:</strong> 16 February 2024</details>
+
+<details>
 <summary> (2024) <b>A Nuclear Interferometer for Ultra-Light Dark Matter Detection</b> [<a href="https://arxiv.org/abs/2407.11112">arXiv</a>] [<a href="https://doi.org/10.1103/ntb7-6w5g">DOI</a>] [<a href="https://inspirehep.net/literature/2808163">INSPIRE</a>] <code>Expand</code> </summary>
 
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1967235"> Hannah Banks</a>, <a href="https://inspirehep.net/authors/1068172"> Elina Fuchs</a>, <a href="https://inspirehep.net/authors/1059701"> Matthew McCullough</a>
 + <strong>Posted on <a href="https://arxiv.org/abs/2407.11112">arXiv:2407.11112</a>:</strong> 15 July 2024</details>
+
+<details>
+<summary> (2024) <b>Highly excited electron cyclotron for QCD axion and dark-photon detection</b> [<a href="https://arxiv.org/abs/2410.05549">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.111.075022">DOI</a>] [<a href="https://inspirehep.net/literature/2838765">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1959516"> Xing Fan</a>, <a href="https://inspirehep.net/authors/1009118"> Gerald Gabrielse</a>, <a href="https://inspirehep.net/authors/1034461"> Peter W. Graham</a>, <a href="https://inspirehep.net/authors/1325055"> Harikrishnan Ramani</a>, <a href="https://inspirehep.net/authors/1771811"> Samuel S.Y. Wong</a>, <a href="https://inspirehep.net/authors/2635413"> Yawen Xiao</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2410.05549">arXiv:2410.05549</a>:</strong> 07 October 2024 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.111.075022">Phys.Rev.D 111 (2025) 7, 075022</a>:</strong> 01 April 2025</details>
+
+<details>
+<summary> (2024) <b>Eliminating Incoherent Noise: A Coherent Quantum Approach in Multi-Sensor Dark Matter Detection</b> [<a href="https://arxiv.org/abs/2410.22413">arXiv</a>] [<a href="https://inspirehep.net/literature/2843814">INSPIRE</a>] <code>Expand</code><br> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1019902"> Jing Shu</a>, <a href="https://inspirehep.net/authors/1675751"> Bin Xu</a>, <a href="https://inspirehep.net/authors/1044617"> Yuan Xu</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2410.22413">arXiv:2410.22413</a>:</strong> 29 October 2024</details>
+
+<details>
+<summary> (2024) <b>Sensitively searching for microwave dark photons with atomic ensembles</b> [<a href="https://arxiv.org/abs/2412.00786">arXiv</a>] [<a href="https://doi.org/10.1103/hjbp-53cp">DOI</a>] [<a href="https://inspirehep.net/literature/2854807">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1904595"> Suirong He</a>, <a href="https://inspirehep.net/authors/1963580"> De He</a>, <a href="https://inspirehep.net/authors/2000423"> Yufen Li</a>, <a href="https://inspirehep.net/authors/1493018"> Li Gao</a>, <a href="https://inspirehep.net/authors/2854811"> Xianing Feng</a>, <a href="https://inspirehep.net/authors/1994340"> Hao Zheng</a>, <a href="https://inspirehep.net/authors/1999179"> L.F. Wei</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2412.00786">arXiv:2412.00786</a>:</strong> 01 December 2024 
++ <strong>Published in <a href="https://doi.org/10.1103/hjbp-53cp">Phys.Rev.D</a>:</strong> 15 September 2025</details>
+
+<details>
+<summary> (2024) <b>Searches for exotic spin-dependent interactions with spin sensors</b> [<a href="https://arxiv.org/abs/2412.03288">arXiv</a>] [<a href="https://doi.org/10.1088/1361-6633/ad99e6">DOI</a>] [<a href="https://inspirehep.net/literature/2855970">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1351142"> Min Jiang</a>, <a href="https://inspirehep.net/authors/1614960"> Haowen Su</a>, <a href="https://inspirehep.net/authors/1653403"> Yifan Chen</a>, <a href="https://inspirehep.net/authors/1269995"> Man Jiao</a>, <a href="https://inspirehep.net/authors/2823181"> Ying Huang</a>, <a href="https://inspirehep.net/authors/1929623"> Yuanhong Wang</a>, <a href="https://inspirehep.net/authors/1667387"> Xing Rong</a>, <a href="https://inspirehep.net/authors/1958004"> Xinhua Peng</a>, <a href="https://inspirehep.net/authors/1862463"> Jiangfeng Du</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2412.03288">arXiv:2412.03288</a>:</strong> 04 December 2024 
++ <strong>Published in <a href="https://doi.org/10.1088/1361-6633/ad99e6">Rep. Prog. Phys. 88 (2025) 016401</a>:</strong> 13 December 2024</details>
 
 <details>
 <summary> (2025) <b>Spin squeezing of macroscopic nuclear spin ensembles</b> [<a href="https://arxiv.org/abs/2502.14103">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.111.052004">DOI</a>] [<a href="https://inspirehep.net/literature/2892257">INSPIRE</a>] <code>Expand</code> </summary>
@@ -587,10 +685,23 @@
 + <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.111.052004">Phys.Rev.D</a>:</strong> 01 March 2025</details>
 
 <details>
-<summary> (2025) <b>Toward 48 dB Spin Squeezing and 96 dB Signal Magnification for Cosmic Relic Searches with Nuclear Spins</b> [<a href="https://arxiv.org/abs/2508.20520">arXiv</a>] [<a href="https://inspirehep.net/literature/2964571">INSPIRE</a>] <code>Expand</code><br> </summary>
+<summary> (2025) <b>Detecting Dark Matter Using Optically Trapped Rydberg Atom Tweezer Arrays</b> [<a href="https://arxiv.org/abs/2507.12860">arXiv</a>] [<a href="https://doi.org/10.1103/s41f-6nw2">DOI</a>] [<a href="https://inspirehep.net/literature/2948322">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1474093"> So Chigusa</a>, <a href="https://inspirehep.net/authors/2948323"> Taiyo Kasamaki</a>, <a href="https://inspirehep.net/authors/2113595"> Toshi Kusano</a>, <a href="https://inspirehep.net/authors/996781"> Takeo Moroi</a>, <a href="https://inspirehep.net/authors/1060297"> Kazunori Nakayama</a>, <a href="https://inspirehep.net/authors/1909946"> Naoya Ozawa</a>, <a href="https://inspirehep.net/authors/1479290"> Yoshiro Takahashi</a>, <a href="https://inspirehep.net/authors/2009675"> Atsuhiro Umemoto</a>, <a href="https://inspirehep.net/authors/2115432"> Amar Vutha</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2507.12860">arXiv:2507.12860</a>:</strong> 17 July 2025 
++ <strong>Published in <a href="https://doi.org/10.1103/s41f-6nw2">Phys.Rev.Lett.</a>:</strong> 14 April 2026</details>
+
+<details>
+<summary> (2025) <b>Superradiant Interactions for Relic Detection with Entangled Nuclear Spins</b> [<a href="https://arxiv.org/abs/2508.20520">arXiv</a>] [<a href="https://inspirehep.net/literature/2964571">INSPIRE</a>] <code>Expand</code><br> </summary>
 
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1774098"> Marios Galanis</a>, <a href="https://inspirehep.net/authors/1880880"> Onur Hosten</a>, <a href="https://inspirehep.net/authors/1042861"> Asimina Arvanitaki</a>, <a href="https://inspirehep.net/authors/1011762"> Savas Dimopoulos</a>
 + <strong>Posted on <a href="https://arxiv.org/abs/2508.20520">arXiv:2508.20520</a>:</strong> 28 August 2025</details>
+
+<details>
+<summary> (2025) <b>On the Speed-up of Wave-like Dark Matter Searches with Entangled Qubits</b> [<a href="https://arxiv.org/abs/2510.11795">arXiv</a>] [<a href="https://inspirehep.net/literature/3069163">INSPIRE</a>] <code>Expand</code><br> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1827001"> Arushi Bodas</a>, <a href="https://inspirehep.net/authors/1869187"> Sohitri Ghosh</a>, <a href="https://inspirehep.net/authors/1019568"> Roni Harnik</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2510.11795">arXiv:2510.11795</a>:</strong> 13 October 2025</details>
 
 <details>
 <summary> (2025) <b>Symmetric Dicke States as Optimal Probes for Wave-Like Dark Matter</b> [<a href="https://arxiv.org/abs/2512.14821">arXiv</a>] [<a href="https://inspirehep.net/literature/3093535">INSPIRE</a>] <code>Expand</code><br> </summary>
@@ -628,7 +739,7 @@
 + <strong>Published in <a href="https://doi.org/10.1103/PhysRevLett.131.211001">Phys.Rev.Lett.</a>:</strong> 22 November 2023</details>
 
 <details>
-<summary> (2023) <b>Quantum measurements in fundamental physics: a user's manual</b> [<a href="https://arxiv.org/abs/2311.07270">arXiv</a>] [<a href="https://inspirehep.net/literature/2721893">INSPIRE</a>] <code>Expand</code><br> </summary>
+<summary> (2023) <b>Quantum measurements in fundamental physics: a user's manual</b> [<a href="https://arxiv.org/abs/2311.07270">arXiv</a>] [<a href="https://doi.org/10.21468/SciPostPhysRev.2">DOI</a>] [<a href="https://inspirehep.net/literature/2721893">INSPIRE</a>] <code>Expand</code> </summary>
 
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1871084"> Jacob Beckey</a>, <a href="https://inspirehep.net/authors/1275237"> Daniel Carney</a>, <a href="https://inspirehep.net/authors/1831296"> Giacomo Marocco</a>
 + <strong>Posted on <a href="https://arxiv.org/abs/2311.07270">arXiv:2311.07270</a>:</strong> 13 November 2023</details>
@@ -973,7 +1084,22 @@
 + <strong>Posted on <a href="https://arxiv.org/abs/2307.05253">arXiv:2307.05253</a>:</strong> 11 July 2023 
 + <strong>Published in <a href="https://doi.org/10.1088/2058-9565/ad0389">IOP Quantum Science and Technology (October 2023)</a>:</strong> 30 October 2023</details>
 
-###  $\textbf{{\color{#5BC0EB}Quantum Sensors - Atomic Sensors}}$ 
+###  $\textbf{{\color{#5BC0EB}Quantum Sensors - Atomic/Molecular/Nuclear Sensors}}$ 
+
+<details>
+<summary> (2022) <b>Quantum Systems for Enhanced High Energy Particle Physics Detectors</b> [<a href="https://inspirehep.net/literature/2109955">INSPIRE</a>] <code>Expand</code><br> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1011493"> M. Doser</a>, <a href="https://inspirehep.net/authors/1017892"> E. Auffray</a>, <a href="https://inspirehep.net/authors/1666167"> F.M. Brunbauer</a>, <a href="https://inspirehep.net/authors/1881811"> I. Frank</a>, <a href="https://inspirehep.net/authors/1005994"> H. Hillemanns</a>, <a href="https://inspirehep.net/authors/994784"> G. Orlandini</a>, <a href="https://inspirehep.net/authors/1634526"> G. Kornakov</a>
++ <strong>Published in <a href="nan">nan</a>:</strong> 24 June 2022</details>
+
+<details>
+<summary> (2023) <b>Quantum sensing for particle physics</b> [<a href="https://arxiv.org/abs/2305.11518">arXiv</a>] [<a href="https://doi.org/10.1038/s42254-024-00714-3">DOI</a>] [<a href="https://inspirehep.net/literature/2661224">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1017181"> Steven D. Bass</a>, <a href="https://inspirehep.net/authors/1011493"> Michael Doser</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2305.11518">arXiv:2305.11518</a>:</strong> 19 May 2023 
++ <strong>Published in <a href="https://doi.org/10.1038/s42254-024-00714-3">Nature Rev.Phys.</a>:</strong> 16 April 2024</details>
+
+###  $\textbf{{\color{#5BC0EB}Quantum Sensors - Atomic/Molecular/Nuclear Sensors}}$ 
 
 <details>
 <summary> (2022) <b>Quantum Systems for Enhanced High Energy Particle Physics Detectors</b> [<a href="https://inspirehep.net/literature/2109955">INSPIRE</a>] <code>Expand</code><br> </summary>
@@ -1599,7 +1725,7 @@
 
 
 <details>
-<summary> (2023) <b>Quantum measurements in fundamental physics: a user's manual</b> [<a href="https://arxiv.org/abs/2311.07270">arXiv</a>] [<a href="https://inspirehep.net/literature/2721893">INSPIRE</a>] <code>Expand</code><br> </summary>
+<summary> (2023) <b>Quantum measurements in fundamental physics: a user's manual</b> [<a href="https://arxiv.org/abs/2311.07270">arXiv</a>] [<a href="https://doi.org/10.21468/SciPostPhysRev.2">DOI</a>] [<a href="https://inspirehep.net/literature/2721893">INSPIRE</a>] <code>Expand</code> </summary>
 
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1871084"> Jacob Beckey</a>, <a href="https://inspirehep.net/authors/1275237"> Daniel Carney</a>, <a href="https://inspirehep.net/authors/1831296"> Giacomo Marocco</a>
 + <strong>Posted on <a href="https://arxiv.org/abs/2311.07270">arXiv:2311.07270</a>:</strong> 13 November 2023</details>

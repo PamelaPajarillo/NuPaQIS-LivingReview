@@ -208,7 +208,7 @@ References:
 
 
 
-Developed by Julian Schwinger in 1962, the Schwinger model is a 1+1 dimensional quantum field theory that describes quantum electrodynamics (QED), the theory of light (photons) interacting with charged particles (electrons and positrons). The Lagrangian of the Schwinger model is given by $$ \mathcal{L} = \bar{\psi}(i\gamma^{\mu}D_{\mu} - m)\psi -\frac{1}{4} F_{\mu\nu}F^{\mu\nu} $$ where $F_{\mu\nu}$ is the electromagnetic field strength tensor, $\psi$ is the Dirac fermion field representing electrons and positrons, $m$ is the mass of the fermions, and $D_{\mu} = \partial_{\mu} + ie A_{\mu}$ is the gauge covariant derivative. The Schwinger model has properties that are directly analogous to features in quantum chromodynamics (QCD). These include
+Developed by Julian Schwinger in 1962, the Schwinger model is a 1+1 dimensional quantum field theory that describes quantum electrodynamics (QED), the theory of light (photons) interacting with charged particles (electrons and positrons). The Lagrangian of the Schwinger model is given by $ \mathcal{L} = \bar{\psi}(i\gamma^{\mu}D_{\mu} - m)\psi -\frac{1}{4} F_{\mu\nu}F^{\mu\nu} $ where $F_{\mu\nu}$ is the electromagnetic field strength tensor, $\psi$ is the Dirac fermion field representing electrons and positrons, $m$ is the mass of the fermions, and $D_{\mu} = \partial_{\mu} + ie A_{\mu}$ is the gauge covariant derivative. The Schwinger model has properties that are directly analogous to features in quantum chromodynamics (QCD). 
 
 References:
   - David Tong's Lectures on Gauge Theory, Chapter 7: https://www.damtp.cam.ac.uk/user/tong/gaugetheory.html
@@ -281,7 +281,7 @@ References:
 
 
 
-Richard Feynman first proposed the idea of quantum simulation in 1982, where he noted that simulating quantum systems on a classical computer was hard because the number of resources required grows exponentially with the size of the system, and suggested that quantum systems could be efficiently simulated by other quantum systems. Let us consider a general quantum simulation problem: finding the state of a quantum system described by a wavefunction $\ket{\psi}$ at some time $t$. Focusing on the case of time-independent Hamiltonian and assuming $\hbar = 1$, the solution of the Schrödinger equation $\frac{d}{dt}\ket{\psi} = -iH\ket{\psi}$ is given by $\ket{\psi(t)} = e^{-iHt} \ket{\psi(0)}$, where $H$ is the Hamiltonian of the system. The goal is to solve for $\ket{\psi(t)}$ given the initial state $\ket{\psi(0)}$ and the Hamiltonian $H$. Seth Lloyd later showed that Feynman's idea of quantum simulation could be implemented on a quantum computer. For each degree of freedom of the system, we can allocate a quantum register containing a sufficient number of qubits to approximate the state of that degree of freedom to some desired accuracy. We can then write the Hamiltonian of the system as $H = \sum_{l=1}^m H_l$, where each $H_l$ operates on only a few degrees of freedom. The Trotter decomposition can be used to approximate the time evolution operator as $e^{-iHt} = \left( e^{-iH_1 \Delta t} e^{-iH_2 \Delta t} \cdots e^{-iH_m \Delta t} \right) - \frac{1}{2}\sum_{jk}[H_j, H_k]\Delta t^2 + \mathcal{O}(t^3)$. Each $e^{-iH_l \Delta t}$ can be simulated using quantum gates on the qubits in the register corresponding to the degrees of freedom that $H_l$ operates on. To simulate the time evolution of the system for a total time $t$, we can repeat this process $t = n \Delta t$ times, giving us $e^{-iHt} = (e^{-iH\Delta t})^n = \left( \prod_l e^{-iH_l \Delta t} \right)^n - \frac{n}{2}\sum_{jk}[H_j, H_k]\Delta t^2 + \mathcal{O}(t^3)$. The quantum simulation takes $O(mn) steps, and reproduces the original time evolution to an accuracy of $h^2 t^2 m^2 / n$, where $h$ is the average size of $\|[H_j, H_k]\|$. This approach allows us to simulate quantum systems that are intractable for classical computers, such as many-body quantum systems, quantum chemistry problems, and high-energy physics phenomena.
+Richard Feynman first proposed the idea of quantum simulation in 1982, where he noted that simulating quantum systems on a classical computer was hard because the number of resources required grows exponentially with the size of the system, and suggested that quantum systems could be efficiently simulated by other quantum systems. Let us consider a general quantum simulation problem: finding the state of a quantum system described by a wavefunction $\ket{\psi}$ at some time $t$. Focusing on the case of time-independent Hamiltonian and assuming $\hbar = 1$, the solution of the Schrödinger equation $\frac{d}{dt}\ket{\psi} = -iH\ket{\psi}$ is given by $\ket{\psi(t)} = e^{-iHt} \ket{\psi(0)}$, where $H$ is the Hamiltonian of the system. The goal is to solve for $\ket{\psi(t)}$ given the initial state $\ket{\psi(0)}$ and the Hamiltonian $H$. Seth Lloyd later showed that Feynman's idea of quantum simulation could be implemented on a quantum computer. For each degree of freedom of the system, we can allocate a quantum register containing a sufficient number of qubits to approximate the state of that degree of freedom to some desired accuracy. We can then write the Hamiltonian of the system as $H = \sum_{l=1}^m H_l$, where each $H_l$ operates on only a few degrees of freedom. The Trotter decomposition can be used to approximate the time evolution operator as $e^{-iHt} = \left( e^{-iH_1 \Delta t} e^{-iH_2 \Delta t} \cdots e^{-iH_m \Delta t} \right) - \frac{1}{2}\sum_{jk}[H_j, H_k]\Delta t^2 + \mathcal{O}(t^3)$. Each $e^{-iH_l \Delta t}$ can be simulated using quantum gates on the qubits in the register corresponding to the degrees of freedom that $H_l$ operates on. To simulate the time evolution of the system for a total time $t$, we can repeat this process $t = n \Delta t$ times, giving us $e^{-iHt} = (e^{-iH\Delta t})^n = \left( \prod_l e^{-iH_l \Delta t} \right)^n - \frac{n}{2}\sum_{jk}[H_j, H_k]\Delta t^2 + \mathcal{O}(t^3)$. The quantum simulation takes $O(mn) steps, and reproduces the original time evolution to an accuracy of $h^2 t^2 m^2 / n$, where $h$ is the average size of $\lVert[H_j, H_k]\rVert$. This approach allows us to simulate quantum systems that are intractable for classical computers, such as many-body quantum systems, quantum chemistry problems, and high-energy physics phenomena.
 
 References:
   - Nielsen, Michael A., and Isaac L. Chuang. *Quantum Computation and Quantum Information*. 10th anniversary ed. [or 2nd ed.], Cambridge University Press, 2010.
@@ -305,7 +305,7 @@ References:
 
 
 
-Quantum annealing is a quantum computing method used to solve optimization problems. It is currently the only quantum computing paradigm that enables architectures with large number of qubits, such as D-Wave Systems' Pegasus quantum processor chip with 5000 qubits. Quantum annealers solve very specific optimization problems called Quadratic Unconstrained Binary Optimization (QUBO) problems. The QUBO problem consists of finding a binary string that is minimal with respect to a quadratic polynomial over binary variables. The main challenge is to rephrase the loss function to a QUBO problem, which is equivalent to finding the ground state of a corresponding Ising model, whose Hamiltonian is given by $H(\sigma) = \sum_{i,j=1}^{n}J_{ij} s_i s_j + \sum_{i=1}^{n} h_i s_i$ where $s_i \in \{-1, +1\}$ are the spin values, and $h_i$ and $J_{ij}$ are adjustable constants that represents biases and coupling strengths, respectively. The Hamiltonian of the quantum version of the Ising model, the transverse field Ising model, is given by $ H_f = \sum_{i,j = 1}^{n}J_{ij}\sigma_{i}^{z}\sigma_{j}^{z} + \sum_{i}^{n}h_i\sigma_{i}^{z}$ where $\sigma_{i}^{z}$ is the Pauli-$Z$ acting on qubit $i$. In quantum annealing, one initializes the system in the ground state of the initial Hamiltonian $H_i$, given by $$ H_i = \sum_{i=1}^{n}\sigma_{i}^{x} $$ corresponding to the state $(\ket{0} + \ket{1})^{\otimes n}$. The quantum adiabatic theorem states that if the transition between two Hamiltonians is gradual, the system will stay in the ground state. After initializing the system, it slowly evolves by changing the Hamiltonian given by $$ H(t) = \left(1 - \frac{t}{T}\right)H_i + \frac{t}{T} H_f $$ where $T$ is the total time in the annealing process. Measuring the final state after the anneal will give the solution to the QUBO problem, since the final system is in an eigenstate of $H_f$. 
+Quantum annealing is a quantum computing method used to solve optimization problems. It is currently the only quantum computing paradigm that enables architectures with large number of qubits, such as D-Wave Systems' Pegasus quantum processor chip with 5000 qubits. Quantum annealers solve very specific optimization problems called Quadratic Unconstrained Binary Optimization (QUBO) problems. The QUBO problem consists of finding a binary string that is minimal with respect to a quadratic polynomial over binary variables. The main challenge is to rephrase the loss function to a QUBO problem, which is equivalent to finding the ground state of a corresponding Ising model, whose Hamiltonian is given by $H(\sigma) = \sum_{i,j=1}^{n}J_{ij} s_i s_j + \sum_{i=1}^{n} h_i s_i$ where $s_i \in \{-1, +1\}$ are the spin values, and $h_i$ and $J_{ij}$ are adjustable constants that represents biases and coupling strengths, respectively. The Hamiltonian of the quantum version of the Ising model, the transverse field Ising model, is given by $ H_f = \sum_{i,j = 1}^{n}J_{ij}\sigma_{i}^{z}\sigma_{j}^{z} + \sum_{i}^{n}h_i\sigma_{i}^{z}$ where $\sigma_{i}^{z}$ is the Pauli-$Z$ acting on qubit $i$. In quantum annealing, one initializes the system in the ground state of the initial Hamiltonian $H_i$, given by $H_i = \sum_{i=1}^{n}\sigma_{i}^{x} $ corresponding to the state $(\ket{0} + \ket{1})^{\otimes n}$. The quantum adiabatic theorem states that if the transition between two Hamiltonians is gradual, the system will stay in the ground state. After initializing the system, it slowly evolves by changing the Hamiltonian given by $H(t) = \left(1 - \frac{t}{T}\right)H_i + \frac{t}{T} H_f $ where $T$ is the total time in the annealing process. Measuring the final state after the anneal will give the solution to the QUBO problem, since the final system is in an eigenstate of $H_f$. 
 
 References:
   - D-Wave Documentation: https://docs.dwavequantum.com/en/latest/quantum_research/quantum_annealing_intro.html
@@ -320,7 +320,7 @@ References:
 One of the main features of quantum information processing is quantum entanglement. Entanglement is the quantum version of correlation between quantum systems that has no classical analogue. 
 
 References: 
-  - TBA
+  - Nielsen, Michael A., and Isaac L. Chuang. *Quantum Computation and Quantum Information*. 10th anniversary ed. [or 2nd ed.], Cambridge University Press, 2010.
 </details>
 
 <details>
@@ -331,7 +331,7 @@ References:
 To be written
 
 References:
-  - TBA
+  - Quantum machine learning on near-term quantum devices: Current state of supervised and unsupervised techniques for real-world applications: https://doi.org/10.1103/PhysRevApplied.21.067001
 </details>
 
 <details>
@@ -342,7 +342,7 @@ References:
 To be written
 
 References:
-  - TBA
+  - Quantum machine learning on near-term quantum devices: Current state of supervised and unsupervised techniques for real-world applications: https://doi.org/10.1103/PhysRevApplied.21.067001
 </details>
 
 <details>
@@ -353,11 +353,11 @@ References:
 Variational Quantum Algorithms (VQAs) are hybrid quantum-classical algorithms that find approximate solutions to optimization problems. VQAs starts with a parameterized quantum circuit (PQC) where the parameters are optimized by a classical optimizer to minimize (or maximize) a cost function. 
 
 References:
-  - TBA
+  - Quantum machine learning on near-term quantum devices: Current state of supervised and unsupervised techniques for real-world applications: https://doi.org/10.1103/PhysRevApplied.21.067001
 </details>
 
 <details>
-<summary> <b>Quantum Sensors - Atomic Sensors: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-sensors---atomic-sensors"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+<summary> <b>Quantum Sensors - Atomic/Molecular/Nuclear Sensors: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-sensors---atomic/molecular/nuclear-sensors"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
@@ -369,29 +369,35 @@ A list of atomic sensors include:
   (5) Trapped ions
   (6) Penning traps
 
-
-References:
-  - TBA
-</details>
-
-<details>
-<summary> <b>Quantum Sensors - Molecular Sensors: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-sensors---molecular-sensors"> Link to Papers </a>  <code>Expand for Description</code> </summary>
-
-
-
 A list of molecular sensors include:
   (1) Molecular clocks
   (2) Trapped molecules 
 
+A list of nuclear sensors include:
+  (1) Nuclear clocks
+  (2) Nuclear spin ensembles
+
 
 References:
   - TBA
 </details>
 
 <details>
-<summary> <b>Quantum Sensors - Nuclear Sensors: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-sensors---nuclear-sensors"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+<summary> <b>Quantum Sensors - Atomic/Molecular/Nuclear Sensors: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-sensors---atomic/molecular/nuclear-sensors"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
+
+A list of atomic sensors include:
+  (1) Atomic clocks
+  (2) Atom interferometers
+  (3) Atomic ensembles
+  (4) Rydberg atoms
+  (5) Trapped ions
+  (6) Penning traps
+
+A list of molecular sensors include:
+  (1) Molecular clocks
+  (2) Trapped molecules 
 
 A list of nuclear sensors include:
   (1) Nuclear clocks
@@ -415,7 +421,7 @@ A list of optical/photonic sensors include:
 
 
 References:
-  - TBA
+  - Quantum Sensing: https://arxiv.org/abs/1611.02427
 </details>
 
 <details>
@@ -429,7 +435,7 @@ A list of optical/photonic sensors include:
 
 
 References:
-  - TBA
+  - Quantum Sensing: https://arxiv.org/abs/1611.02427
 </details>
 
 <details>
@@ -446,7 +452,7 @@ A list of solid state sensors include:
 
 
 References:
-  - TBA
+  - Quantum Sensing: https://arxiv.org/abs/1611.02427
 </details>
 
 
