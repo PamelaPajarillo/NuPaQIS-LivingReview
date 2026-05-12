@@ -31,7 +31,7 @@ The references below contain (static) reviews and whitepapers listed in applicat
 
 
 
-Searching for Beyond the Standard Model (BSM) is one of the most important tasks at the Large Hadron Collider (LHC). Traditional searches at the LHC typically look for specific theoretical BSM signal(s). Hundreds of searches for new particles have been performed at the LHC, and so far, there has been no significant deviation observed from the SM. This motivates the need for more model-agnostic search strategies that can be sensitive to a wider range of potential new physics signals. Anomaly detection is a strategy that aims to identify events that deviate from the expected background without relying on specific signal models. This is particularly important for discovering new physics that may not have been predicted by existing theories. Anomaly detection can be performed using machine learning techniques, which can be broadly categorized into unsupervised, weakly supervised, and semi-supervised methods. Unsupervised methods do not have any label information and learn directly from the background-dominated data. Weakly supervised methods have noisy labels, meaning that the labels are 'possibly signal-depleted' or 'possibly signal-enriched'. Semi-supervised methods have a small amount of labeled data, where signal simulations are used to build some signal sensitivity. Additionally, it has been proposed to use anomaly detection to look for BSM physics at the trigger level, which is the first stage of data processing at the LHC, and for detector monitoring to maintain high data quality. These methods will be crucial for the next generation of collider experiments, such as the High-Luminosity LHC (HL-LHC), which will produce an unprecedented amount of data. 
+Searching for Beyond the Standard Model (BSM) is one of the most important tasks at the Large Hadron Collider (LHC). Traditional searches at the LHC typically look for specific theoretical BSM signal(s). Hundreds of searches for new particles have been performed at the LHC, and so far, there has been no significant deviation observed from the SM. This motivates the need for more model-agnostic search strategies that can look for any data feature inconsistent with the Standard Model, regardless of the underlying BSM hypothetisis. Anomaly detection is a strategy that aims to identify events that deviate from the expected background without relying on specific signal models. Anomaly detection can be performed using machine learning techniques, which can be broadly categorized into unsupervised, weakly supervised, and semi-supervised methods. Unsupervised methods do not have any label information and learn directly from the background-dominated data. Weakly supervised methods have noisy labels, meaning that the labels are 'possibly signal-depleted' or 'possibly signal-enriched'. Semi-supervised methods have a small amount of labeled data, where signal simulations are used to build some signal sensitivity. Additionally, it has been proposed to use anomaly detection to look for BSM physics at the trigger level, which is the first stage of data processing at the LHC, and for detector monitoring to maintain high data quality. These methods will be crucial for the next generation of collider experiments, such as the High-Luminosity LHC (HL-LHC), which will produce an unprecedented amount of data. 
 
 References:
   - The LHC Olympics 2020: A Community Challenge for Anomaly Detection in High Energy Physics: https://arxiv.org/abs/2101.08320
@@ -45,7 +45,7 @@ References:
 
 
 
-The Standard Model (SM) of particle physics is a theory that describes the fundamental particles and their interactions: electromagnetic, weak, and strong forces. It has been extensively tested and confirmed through numerous experiments over the past several decades, most notably the discovery of the Higgs boson in 2012. However, the SM fails to explain several phenomena, necessitating the proposal of Beyond the Standard Model (BSM) physics. From the theoretical side, the SM cannot integrate Einstein's Theory of General Relativity, which explains gravity, the fourth fundamental interaction, in a mathematically consistent, united framework. On the phenomenological side, the SM does not account for Dark Energy, which causes the accelerating expansion of the universe, or Dark Matter (DM), which constitutes about 85\% of the matter in the universe but remains non-observable due to its weakly interacting nature. The SM also lacks a mechanism to explain the observed abundance of matter over antimatter in the universe or the generation of non-vanishing, yet tiny, neutrino masses, the existence of which can be inferred by the phenomenon of neutrino oscillations. To deal with these major puzzles, the theoretical physics community refines the existing high-precision SM calculations and proposes various BSM extensions. At the same time, experimental collaborations are pursuing the quest of hunting down any potential evidence towards deviations from the SM predictions. The new experiments include both high-energy direct searches for new particles at colliders as well as the low-energy frontier of high-precision measurements. 
+The Standard Model (SM) of particle physics is a quantum field theory that describes the fundamental particles and their interactions: electromagnetic, weak, and strong forces. It has been extensively tested and confirmed through numerous experiments over the past several decades, most notably the discovery of the Higgs boson in 2012.  However, the SM fails to explain several phenomena, necessitating the proposal of Beyond the Standard Model (BSM) physics. However, the SM is not a complete theory of fundamental physics, as it does not include gravity as described by Einstein's theory of General Relativity, does not account for dark matter or dark energy, does not explain the matter-antimatter asymmetry in the universe, or the small but non-zero masses of neutrinos. BSM physics refers to theoretical frameworks that extend or modify the SM to address these shortcomings. Examples of BSM theories include supersymmetry, extra dimensions, grand unified theories, and various dark matter models. The search for BSM physics is a major focus of current and future experimental efforts in particle physics, including collider experiments like the LHC, as well as non-collider experiments such as those searching for dark matter as well as or measuring neutrino properties.
 
 References:
   - Goldberg, Dave. The Standard Model in a Nutshell. Princeton University Press, 2017.
@@ -67,6 +67,7 @@ A list of particle-like dark matter candidates include:
 
 
 References:
+  - A Primer on Dark Matter: https://arxiv.org/abs/2411.05062
   - Dark Matter Review: https://arxiv.org/abs/2406.01705
 </details>
 
@@ -75,7 +76,8 @@ References:
 
 
 
-A list of article-like dark matter candidates include: 
+Dark Matter (DM) constitutes about 85\% of the matter in the universe but remains non-observable. Unlike normal matter, DM does not emit, absorb, or reflect light, making it invisible to electromagnetic observations. The existence of DM is inferred from its gravitational effects on visible matter. The nature of DM is one of the most significant open questions in physics. There are many theoretical candidates for DM, which can be broadly categorized into particle-like and wave-like candidates.
+A list of wave-like dark matter candidates include: 
   (1) Axions and Axion-like Particles (ALPs): An axion is a hypothetical particle theorized to solve the strong CP problem in quantum chromodynamics (QCD) and the cosmological matter-antimatter asymmetry.
   (2) Ultralight Dark Matter: 
   (3) Fuzzy Dark Matter:
@@ -85,6 +87,7 @@ A list of article-like dark matter candidates include:
   (7) Compact Composite Objects: 
 
   References:
+  - A Primer on Dark Matter: https://arxiv.org/abs/2411.05062
   - Dark Matter Review: https://arxiv.org/abs/2406.01705
   - Axion Dark Matter: What is it and Why Now? https://arxiv.org/abs/2105.01406
   - PDG Review on Axions and Axion-like Particles https://pdg.lbl.gov/2024/reviews/rpp2024-rev-axions.pdf
@@ -117,7 +120,7 @@ References:
 
 
 
-An event is the outcome of a collision between two incoming particles, or the outcome of an isolated decay of a particle, which consists of a number of outgoing particles. 
+An event is the outcome of a collision between two incoming particles, or the outcome of an isolated decay of a particle, which consists of a number of outgoing particles. Event classification is the task of distinguishing the signal events of interest from background events.  
 References:
   - TBA
 </details>
@@ -127,7 +130,7 @@ References:
 
 
 
-In high energy particle physics, an event is defined as the outcome of a collision between two incoming particles, or the outcome of an isolated decay of a particle, which consists of a number of outgoing particles. An event generator is a numerical algorithm that produces random sequences of simulated events. The aim of an event generator is to predict all observable properties of a collision or a decay process. An event generator is an important tool for interpreting collider data because it gives predictions for what an event would look like before interacting with detectors, and is essential to linking theories with experiments. The main components of high-energy particle collisions are: (1) Incoming Hadrons: The initial partons involved in a hard scattering process are selected using parton distribution functions for the incoming hadrons. The incoming hadrons are at an energy of order 1 GeV ($\sim \Lambda_{\text{QCD}}$); (2) Hard scattering: The kinematics of the outgoing partons are based on matrix elements calculated in perturbation theory. The hard scattering process is at energy of order 100 to 1000 GeV at the LHC; (3) Parton Showers: The incoming and outgoing partons radiate quarks and gluons. This radiation pattern can be approximated semi-classically using a parton shower algorithm. Parton showers links the perturbative and non-perturbative energy regimes; (4) Underlying Event: Scattering also occurs with other partons not associated with the hard scattering process coming from the incoming hadrons. These partons tend to be soft, i.e. lower energy than the partons from the hard scattering process; (5) Hadronization: This refers to the formation of hadrons out of quarks and gluons. Hadronization is at an energy of order 1 GeV ($\sim \Lambda_{\text{QCD}}$). Examples of event generators include PYTHIA, HERWIG, SHERPA, MADGRAPH, and POWHEG.
+In high energy particle physics, an event is defined as the outcome of a collision between two incoming particles, or the outcome of an isolated decay of a particle, which consists of a number of outgoing particles. An event generator is a numerical algorithm that produces random sequences of simulated events. The aim of an event generator is to predict all observable properties of a collision or a decay process. An event generator is an important tool for interpreting collider data because it gives predictions for what an event would look like before interacting with detectors, and is essential to linking theories with experiments. An event generator is a numerical algorithm that produces random simulated events sampled according to the probability distributions predicted by the underlying quantum theory.     The aim of an event generator is to predict all observable properties of a collision or decay, given a Lagrangian and the kinematics of the initial state, by carrying out the full chain: matrix-element computation for the hard process, parton-shower evolution from high to low momentum scales, hadronization of the resulting partons into observable hadrons, and decays of unstable particles. Standard tools include PYTHIA, HERWIG, SHERPA, and MADGRAPH; the calculations require very-high-dimensional phase-space integration carried out via Monte Carlo methods.
 
 References:
   - Herwig++ Physics and Manual: https://arxiv.org/abs/0803.0883
@@ -135,14 +138,14 @@ References:
 </details>
 
 <details>
-<summary> <b>Gravitation/Astrophysics/Cosmology: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dgravitation/astrophysics/cosmology"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+<summary> <b>Astrophysics and Cosmology: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dastrophysics-and-cosmology"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
 To be written
 
 References:
-  - TBA
+  - Astrophysics and Cosmology: https://cds.cern.ch/record/435281/files/p109.pdf
 </details>
 
 <details>
@@ -150,8 +153,7 @@ References:
 
 
 
-In high-energy particle collisions, jets are a collection of collimated hadrons and other particles produced by the hadronization of quarks and gluons. Since quarks and gluons carry color charge, they cannot exist as free particles due to QCD confinement. Instead, they fragment and hadronize, resulting in a spray of energetic hadrons, which we define as jets. Jet reconstruction is the procedure used to group these final-state particles into composite objects, and by measuring their direction and energy, we can infer the properties of the original partons. Jet reconstruction is typically done using clustering algorithms such as anti-\(k_T\), \(k_T\), or Cambridge/Aachen. Reconstructed jets are fundamental observables in collider physics, and its properties are used to probe the underlying physics processes in high-energy collisions. 
-
+In high-energy particle collisions, jets are a collection of collimated hadrons and other particles produced by the hadronization of quarks and gluons. Since quarks and gluons carry color charge, they cannot exist as free particles due to QCD confinement. Instead, they fragment and hadronize, resulting in a spray of energetic hadrons, which we define as jets. Jet reconstruction is the procedure used to group these final-state particles into composite objects, and by measuring their direction and energy, we can infer the properties of the original partons. Jet reconstruction is typically done using clustering algorithms such as anti-\(k_T\), \(k_T\), or Cambridge/Aachen. Reconstructed jets are fundamental observables in collider physics, used to probe QCD, identify heavy-flavor decays, and search for physics beyond the Standard Model. The study of jets and their properties is crucial for understanding the underlying physics processes in high-energy collisions.
 References:
   - Towards Jetography: https://arxiv.org/pdf/0906.1833
   - Exploring jets: substructure and flavour tagging in CMS and ATLAS: https://arxiv.org/abs/2410.14330
@@ -185,7 +187,7 @@ References:
 
 
 
-Quantum Chromodynamics (QCD) is the theory of the strong interaction in the Standard Model which describes the interactions between quarks and gluons. 
+Quantum Chromodynamics (QCD), a non-Abelian gauge theory with symmetry group $SU(3)$, is the theory of strong interaction between quarks and gluons and how they bind together to form hadrons. The QCD Lagrangian is given by $\mathcal{L}_{\text{QCD}} = -\frac{1}{4} F_{\mu\nu}^a F^{a\mu\nu} + \sum_{f=1}^{N_f} \bar{\psi}_f (i\gamma^\mu D_\mu - m_f) \psi_f$, where $F_{\mu\nu}^a$ is the gluon field strength tensor, $\psi_f$ are the quark fields for each flavor $f$, $m_f$ are the quark masses, and $D_\mu$ is the covariant derivative. QCD is a fundamental part of the Standard Model of particle physics. QCD has two key energy regimes: at high energies, asymptotic freedom allows for perturbative calculations, while at low energies, color confinement means that quarks and gluons are not observed individually but are confined with color-neutral hadrons. QCD also exhibits chiral symmetry breaking, which is responsible for the generation of hadron masses and the existence of pseudo-Goldstone bosons (pions). 
 
 References:
   - R. K. Ellis, W. J. Stirling, and B. R. Webber, *QCD and Collider Physics*, Cambridge University Press, 1996.
@@ -193,14 +195,14 @@ References:
 </details>
 
 <details>
-<summary> <b>Quantum Information in Collider Physics: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dquantum-information-in-collider-physics"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+<summary> <b>Quantum Correlations at Colliders: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dquantum-correlations-at-colliders"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
 To be written
 
 References:
-  - TBA
+  - Quantum entanglement and Bell inequality violation at colliders: https://arxiv.org/abs/2402.07972
 </details>
 
 <details>
@@ -208,9 +210,9 @@ References:
 
 
 
-Developed by Julian Schwinger in 1962, the Schwinger model is a 1+1 dimensional quantum field theory that describes quantum electrodynamics (QED), the theory of light (photons) interacting with charged particles (electrons and positrons). The Lagrangian of the Schwinger model is given by $ \mathcal{L} = \bar{\psi}(i\gamma^{\mu}D_{\mu} - m)\psi -\frac{1}{4} F_{\mu\nu}F^{\mu\nu} $ where $F_{\mu\nu}$ is the electromagnetic field strength tensor, $\psi$ is the Dirac fermion field representing electrons and positrons, $m$ is the mass of the fermions, and $D_{\mu} = \partial_{\mu} + ie A_{\mu}$ is the gauge covariant derivative. The Schwinger model has properties that are directly analogous to features in quantum chromodynamics (QCD). 
-
+Developed by Julian Schwinger in 1962, the Schwinger model is a 1+1 dimensional quantum field theory that describes quantum electrodynamics (QED), the theory of light (photons) interacting with charged particles (electrons and positrons). The Lagrangian of the Schwinger model is given by $\mathcal{L} = \bar{\psi}(i\gamma^{\mu}D_{\mu} - m)\psi -\frac{1}{4} F_{\mu\nu}F^{\mu\nu}$ where $F_{\mu\nu}$ is the electromagnetic field strength tensor, $\psi$ is the Dirac fermion field representing electrons and positrons, $m$ is the mass of the fermions, and $D_{\mu} = \partial_{\mu} + ie A_{\mu}$ is the gauge covariant derivative. The Schwinger model has properties that are directly analogous to features in quantum chromodynamics (QCD)
 References:
+  - Supplemetary Lecture 21 - Bosonization in 1+1 Dimensions and Solving the Schwinger Model: https://relativitydoctor.com/wp-content/uploads/2021/08/Supplemental-Lecture-21-Part-VIII-Bosonization-in-11-Dimensions-and-Solving-the-Schwinger-Model-Introduction-to-the-Foundations-of-Quantum-Field-Theory-for-Physics-Students.pdf
   - David Tong's Lectures on Gauge Theory, Chapter 7: https://www.damtp.cam.ac.uk/user/tong/gaugetheory.html
   - Charge shielding and quark confinement in the Schwinger model: https://doi.org/10.1016/0003-4916(75)90212-2
   - Gauge Invariance and Mass. II: https://journals.aps.org/pr/abstract/10.1103/PhysRev.128.2425
@@ -225,7 +227,7 @@ References:
 To be written
 
 References:
-  - TBA
+  - Track reconstruction as a service for collider physics: https://arxiv.org/abs/2501.05520
   
 </details>
 
@@ -246,10 +248,11 @@ The references below contain (static) reviews and whitepapers listed in applicat
 
 
 
-Continuous variable quantum computing is a quantum computing paradigm that uses a large number of modes of the harmonic oscillator, which can be represented as $\ket{\psi} = \int \,dx\, \psi(x) \ket{x} $, whereas discrete variable quantum computing uses discrete number of quantum bits, for example, a qubit can be represented as $\ket{\psi} = c_0 \ket{0} + c_1 \ket{1}$.
+In constrast to the more commonly used discrete variable quantum computing, which uses a finite number of qubits as the basic unit of information, continuous variable quantum computing is a quantum computing paradigm that uses a large number of harmonic oscillator modes, which can be represented as $\ket{\psi} = \int \,dx\, \psi(x) \ket{x} $, where $\ket{x}$ is the eigenstate of the position operator. 
 
 References:
-  - Quantum computation over continuous variables: https://arxiv.org//quant-ph/9810082
+  - Quantum computation over continuous variables: https://arxiv.org/abs/quant-ph/9810082
+  - Quantum information with continuous variables: https://arxiv.org/abs/quant-ph/0410100
 </details>
 
 <details>
@@ -272,8 +275,8 @@ References:
 The Harrow-Hassadim-Lloyd (HHL) algorithm is a quantum algorithm for solving systems of linear equations. Given an $N \times N$ Hermitian matrix $A$ and a unit vector $\vec{b}$, the HHL algorithm aims to find the solution $\vec{x}$ such that $A \vec{x} = \vec{b}$. The algorithm consists of five main steps: (1) State Preparation: Prepare the state $\ket{\vec{b}}$; (2) Quantum Phase Estimation (QPE): This step estimates the eigenvalues of the matrix $A$ by applying QPE to the unitary operator $e^{iAt}$, where $t$ is a chosen time parameter. This step requires the ability to efficiently implement the Hamiltonian simulation of $A$. (3) Controlled Rotation and Measurement of the Ancilla Qubit: After obtaining the eigenvalues from QPE, controlled rotations are applied to an ancillary qubit based on the inverse of the eigenvalues. This step effectively encodes the solution vector into the amplitudes of the quantum state. (4) Inverse QPE: Finally, the QPE process is reversed to disentangle the ancillary qubits from the system, leaving behind a quantum state that approximates the solution vector $\vec{x}$. (5) Measurement: The final step involves measuring the quantum state to extract information about the solution vector $\vec{x}$. The HHL algorithm provides an exponential speedup over classical algorithms for solving linear systems under certain conditions, such as when $A$ is sparse and well-conditioned. 
 
 References:
-  - Harrow, Aram W., Avinatan Hassidim, and Seth Lloyd. "Quantum algorithm for linear systems of equations": 
-  - Zaman, Anika, Hector Jose Morrell, and Hiu Yung Wong. "A step-by-step HHL algorithm walkthrough to enhance understanding of critical quantum computing concepts.": 
+  - Harrow, Aram W., Avinatan Hassidim, and Seth Lloyd. "Quantum algorithm for linear systems of equations": https://doi.org/10.1103/PhysRevLett.103.150502 
+  - Zaman, Anika, Hector Jose Morrell, and Hiu Yung Wong. "A step-by-step HHL algorithm walkthrough to enhance understanding of critical quantum computing concepts.": https://ieeexplore.ieee.org/document/10189828
 </details>
 
 <details>
@@ -317,7 +320,7 @@ References:
 
 
 
-One of the main features of quantum information processing is quantum entanglement. Entanglement is the quantum version of correlation between quantum systems that has no classical analogue. 
+One of the main features of quantum information processing is quantum entanglement. A quantum state $\ket{\psi}$ is said to be entangled if it cannot be written as a product of individual states of the subsystems. 
 
 References: 
   - Nielsen, Michael A., and Isaac L. Chuang. *Quantum Computation and Quantum Information*. 10th anniversary ed. [or 2nd ed.], Cambridge University Press, 2010.
@@ -332,6 +335,7 @@ To be written
 
 References:
   - Quantum machine learning on near-term quantum devices: Current state of supervised and unsupervised techniques for real-world applications: https://doi.org/10.1103/PhysRevApplied.21.067001
+  - Quantum Machine Learning: https://arxiv.org/abs/1611.09347
 </details>
 
 <details>
@@ -343,6 +347,7 @@ To be written
 
 References:
   - Quantum machine learning on near-term quantum devices: Current state of supervised and unsupervised techniques for real-world applications: https://doi.org/10.1103/PhysRevApplied.21.067001
+  - Quantum Machine Learning: https://arxiv.org/abs/1611.09347
 </details>
 
 <details>
@@ -354,6 +359,7 @@ Variational Quantum Algorithms (VQAs) are hybrid quantum-classical algorithms th
 
 References:
   - Quantum machine learning on near-term quantum devices: Current state of supervised and unsupervised techniques for real-world applications: https://doi.org/10.1103/PhysRevApplied.21.067001
+  - Quantum Machine Learning: https://arxiv.org/abs/1611.09347
 </details>
 
 <details>
@@ -379,33 +385,7 @@ A list of nuclear sensors include:
 
 
 References:
-  - TBA
-</details>
-
-<details>
-<summary> <b>Quantum Sensors - Atomic/Molecular/Nuclear Sensors: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-sensors---atomic/molecular/nuclear-sensors"> Link to Papers </a>  <code>Expand for Description</code> </summary>
-
-
-
-A list of atomic sensors include:
-  (1) Atomic clocks
-  (2) Atom interferometers
-  (3) Atomic ensembles
-  (4) Rydberg atoms
-  (5) Trapped ions
-  (6) Penning traps
-
-A list of molecular sensors include:
-  (1) Molecular clocks
-  (2) Trapped molecules 
-
-A list of nuclear sensors include:
-  (1) Nuclear clocks
-  (2) Nuclear spin ensembles
-
-
-References:
-  - TBA
+  - Quantum Sensing: https://arxiv.org/abs/1611.02427
 </details>
 
 <details>
