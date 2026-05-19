@@ -438,7 +438,7 @@
     Sensors
 - ID: 2155336
   NUPA_Categories: Event Classification
-  QIS_Categories: Quantum Machine Learning - Supervised Methods
+  QIS_Categories: Quantum Machine Learning - Variational Quantum Algorithms
 - ID: 2165672
   NUPA_Categories: Dark Matter - Wave-like Dark Matter
   QIS_Categories: Quantum Sensors - Optomechanical Sensors
@@ -529,7 +529,7 @@
     Learning - Variational Quantum Algorithms
 - ID: 2684188
   NUPA_Categories: Track Reconstruction
-  QIS_Categories: Quantum Algorithms - Harrow-Hassadim-Lloyd Algorithm
+  QIS_Categories: Quantum Algorithms - Harrow-Hassidim-Lloyd Algorithm
 - ID: 2686627
   NUPA_Categories: Schwinger Model, Lattice Gauge Theories
   QIS_Categories: Quantum Algorithms - Quantum Simulations, Quantum Machine Learning
@@ -668,7 +668,7 @@
   NUPA_Categories: Event Generation, Detector Technologies and Simulations, Event
     Classification
   QIS_Categories: Quantum Machine Learning - Unsupervised Methods, Quantum Machine
-    Learning - Supervised Methods, Quantum Algorithms - Harrow-Hassadim-Lloyd Algorithm
+    Learning - Supervised Methods, Quantum Algorithms - Harrow-Hassidim-Lloyd Algorithm
 - ID: 2826310
   NUPA_Categories: Dark Matter - Wave-like Dark Matter
   QIS_Categories: Quantum Sensors - Optical/Photonic Sensors

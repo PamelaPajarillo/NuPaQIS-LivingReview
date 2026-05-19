@@ -578,7 +578,7 @@
 
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1474093"> So Chigusa</a>, <a href="https://inspirehep.net/authors/2948323"> Taiyo Kasamaki</a>, <a href="https://inspirehep.net/authors/2113595"> Toshi Kusano</a>, <a href="https://inspirehep.net/authors/996781"> Takeo Moroi</a>, <a href="https://inspirehep.net/authors/1060297"> Kazunori Nakayama</a>, <a href="https://inspirehep.net/authors/1909946"> Naoya Ozawa</a>, <a href="https://inspirehep.net/authors/1479290"> Yoshiro Takahashi</a>, <a href="https://inspirehep.net/authors/2009675"> Atsuhiro Umemoto</a>, <a href="https://inspirehep.net/authors/2115432"> Amar Vutha</a>
 + <strong>Posted on <a href="https://arxiv.org/abs/2507.12860">arXiv:2507.12860</a>:</strong> 17 July 2025 
-+ <strong>Published in <a href="https://doi.org/10.1103/s41f-6nw2">Phys.Rev.Lett.</a>:</strong> 14 April 2026</details>
++ <strong>Published in <a href="https://doi.org/10.1103/s41f-6nw2">Phys. Rev. Lett. 136, 151801 (2026)</a>:</strong> 14 April 2026</details>
 
 <details>
 <summary> (2025) <b>Superradiant Interactions for Relic Detection with Entangled Nuclear Spins</b> [<a href="https://arxiv.org/abs/2508.20520">arXiv</a>] [<a href="https://inspirehep.net/literature/2964571">INSPIRE</a>] <code>Expand</code><br> </summary>
@@ -1134,13 +1134,6 @@
 + <strong>Published in <a href="https://doi.org/10.1051/epjconf/202125103070">EPJ Web Conf.</a>:</strong> 2021</details>
 
 <details>
-<summary> (2022) <b>Hybrid actor-critic algorithm for quantum reinforcement learning at CERN beam lines</b> [<a href="https://arxiv.org/abs/2209.11044">arXiv</a>] [<a href="https://doi.org/10.1088/2058-9565/ad261b">DOI</a>] [<a href="https://inspirehep.net/literature/2155336">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/2019909"> Michael Schenk</a>, <a href="https://inspirehep.net/authors/2072249"> Elías F. Combarro</a>, <a href="https://inspirehep.net/authors/1990556"> Michele Grossi</a>, <a href="https://inspirehep.net/authors/1067612"> Verena Kain</a>, <a href="https://inspirehep.net/authors/1646777"> Kevin Shing Bruce Li</a>, <a href="https://inspirehep.net/authors/2155339"> Mircea-Marian Popa</a>, <a href="https://inspirehep.net/authors/1028732"> Sofia Vallecorsa</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2209.11044">arXiv:2209.11044</a>:</strong> 22 September 2022 
-+ <strong>Published in <a href="https://doi.org/10.1088/2058-9565/ad261b">Quantum Sci.Technol.</a>:</strong> 21 February 2024</details>
-
-<details>
 <summary> (2024) <b>Enforcing exact permutation and rotational symmetries in the application of quantum neural networks on point cloud datasets</b> [<a href="https://arxiv.org/abs/2405.11150">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevResearch.6.043028">DOI</a>] [<a href="https://inspirehep.net/literature/2788456">INSPIRE</a>] <code>Expand</code> </summary>
 
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1762648"> Zhelun Li</a>, <a href="https://inspirehep.net/authors/1806317"> Lento Nagano</a>, <a href="https://inspirehep.net/authors/986339"> Koji Terashi</a>
@@ -1184,6 +1177,13 @@
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/983117"> Sau Lan Wu</a>, <a href="https://inspirehep.net/authors/1605504"> Jay Chan</a>, <a href="https://inspirehep.net/authors/1054873"> Wen Guan</a>, <a href="https://inspirehep.net/authors/1882243"> Shaojun Sun</a>, <a href="https://inspirehep.net/authors/1882244"> Alex Wang</a>, <a href="https://inspirehep.net/authors/1079132"> Chen Zhou</a>, <a href="https://inspirehep.net/authors/1954262"> Miron Livny</a>, <a href="https://inspirehep.net/authors/1014467"> Federico Carminati</a>, <a href="https://inspirehep.net/authors/1918766"> Alberto Di Meglio</a>, <a href="https://inspirehep.net/authors/1723179"> Andy C.Y. Li</a>, <a href="https://inspirehep.net/authors/999489"> Joseph Lykken</a>, <a href="https://inspirehep.net/authors/987910"> Panagiotis Spentzouris</a>, <a href="https://inspirehep.net/authors/1882247"> Samuel Yen-Chi Chen</a>, <a href="https://inspirehep.net/authors/1882248"> Shinjae Yoo</a>, <a href="https://inspirehep.net/authors/1077725"> Tzu-Chieh Wei</a>
 + <strong>Posted on <a href="https://arxiv.org/abs/2012.11560">arXiv:2012.11560</a>:</strong> 21 December 2020 
 + <strong>Published in <a href="https://doi.org/10.1088/1361-6471/ac1391">J.Phys.G</a>:</strong> 26 October 2021</details>
+
+<details>
+<summary> (2022) <b>Hybrid actor-critic algorithm for quantum reinforcement learning at CERN beam lines</b> [<a href="https://arxiv.org/abs/2209.11044">arXiv</a>] [<a href="https://doi.org/10.1088/2058-9565/ad261b">DOI</a>] [<a href="https://inspirehep.net/literature/2155336">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/2019909"> Michael Schenk</a>, <a href="https://inspirehep.net/authors/2072249"> Elías F. Combarro</a>, <a href="https://inspirehep.net/authors/1990556"> Michele Grossi</a>, <a href="https://inspirehep.net/authors/1067612"> Verena Kain</a>, <a href="https://inspirehep.net/authors/1646777"> Kevin Shing Bruce Li</a>, <a href="https://inspirehep.net/authors/2155339"> Mircea-Marian Popa</a>, <a href="https://inspirehep.net/authors/1028732"> Sofia Vallecorsa</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2209.11044">arXiv:2209.11044</a>:</strong> 22 September 2022 
++ <strong>Published in <a href="https://doi.org/10.1088/2058-9565/ad261b">Quantum Sci.Technol.</a>:</strong> 21 February 2024</details>
 
 <details>
 <summary> (2022) <b>Fitting a collider in a quantum computer: tackling the challenges of quantum machine learning for big datasets</b> [<a href="https://arxiv.org/abs/2211.03233">arXiv</a>] [<a href="https://doi.org/10.3389/frai.2023.1268852">DOI</a>] [<a href="https://inspirehep.net/literature/2177375">INSPIRE</a>] <code>Expand</code> </summary>
@@ -2333,7 +2333,7 @@
 + <strong>Posted on <a href="https://arxiv.org/abs/2311.00766">arXiv:2311.00766</a>:</strong> 01 November 2023 
 + <strong>Published in <a href="https://doi.org/10.3389/frai.2024.1339785">Front. Artif. Intell. 7:1339785 (2024)</a>:</strong> 07 May 2024</details>
 
-###  $\textbf{{\color{#5BC0EB}Quantum Algorithms - Harrow-Hassadim-Lloyd Algorithm}}$ 
+###  $\textbf{{\color{#5BC0EB}Quantum Algorithms - Harrow-Hassidim-Lloyd Algorithm}}$ 
 
 <details>
 <summary> (2023) <b>A quantum algorithm for track reconstruction in the LHCb vertex detector</b> [<a href="https://arxiv.org/abs/2308.00619">arXiv</a>] [<a href="https://doi.org/10.1088/1748-0221/18/11/P11028">DOI</a>] [<a href="https://inspirehep.net/literature/2684188">INSPIRE</a>] <code>Expand</code> </summary>
@@ -2417,10 +2417,11 @@
 + <strong>Published in <a href="https://doi.org/10.1088/1742-6596/2438/1/012127">J.Phys.Conf.Ser.</a>:</strong> 2023</details>
 
 <details>
-<summary> (2023) <b>Particle track reconstruction with noisy intermediate-scale quantum computers</b> [<a href="https://arxiv.org/abs/2303.13249">arXiv</a>] [<a href="https://inspirehep.net/literature/2645184">INSPIRE</a>] <code>Expand</code><br> </summary>
+<summary> (2023) <b>Particle track reconstruction with noisy intermediate-scale quantum computers</b> [<a href="https://arxiv.org/abs/2303.13249">arXiv</a>] [<a href="https://doi.org/10.1088/1742-6596/3206/1/012100">DOI</a>] [<a href="https://inspirehep.net/literature/2645184">INSPIRE</a>] <code>Expand</code> </summary>
 
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/2645185"> Tim Schwägerl</a>, <a href="https://inspirehep.net/authors/1042270"> Cigdem Issever</a>, <a href="https://inspirehep.net/authors/1004503"> Karl Jansen</a>, <a href="https://inspirehep.net/authors/1052441"> Teng Jian Khoo</a>, <a href="https://inspirehep.net/authors/1885408"> Stefan Kühn</a>, <a href="https://inspirehep.net/authors/1776884"> Cenk Tüysüz</a>, <a href="https://inspirehep.net/authors/1073818"> Hannsjörg Weber</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2303.13249">arXiv:2303.13249</a>:</strong> 23 March 2023</details>
++ <strong>Posted on <a href="https://arxiv.org/abs/2303.13249">arXiv:2303.13249</a>:</strong> 23 March 2023 
++ <strong>Published in <a href="https://doi.org/10.1088/1742-6596/3206/1/012100">J.Phys.Conf.Ser.</a>:</strong> 2026</details>
 
 <details>
 <summary> (2023) <b>Charged particle reconstruction for future high energy colliders with Quantum Approximate Optimization Algorithm</b> [<a href="https://arxiv.org/abs/2310.10255">arXiv</a>] [<a href="https://doi.org/10.1007/978-981-97-0065-3_21">DOI</a>] [<a href="https://inspirehep.net/literature/2711221">INSPIRE</a>] <code>Expand</code> </summary>
