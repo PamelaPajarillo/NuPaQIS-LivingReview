@@ -15,6 +15,13 @@
 + <strong>Published in <a href="https://doi.org/10.1080/00107514.2016.1151199">Contemporary Physics 57 388 (2016)</a>:</strong> 09 March 2016</details>
 
 <details>
+<summary> (2017) <b>Search for New Physics with Atoms and Molecules</b> [<a href="https://arxiv.org/abs/1710.01833">arXiv</a>] [<a href="https://doi.org/10.1103/RevModPhys.90.025008">DOI</a>] [<a href="https://inspirehep.net/literature/1628828">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1896420"> M.S. Safronova</a>, <a href="https://inspirehep.net/authors/1053648"> D. Budker</a>, <a href="https://inspirehep.net/authors/1019969"> D. DeMille</a>, <a href="https://inspirehep.net/authors/1892430"> Derek F. Jackson Kimball</a>, <a href="https://inspirehep.net/authors/1011988"> A. Derevianko</a>, <a href="https://inspirehep.net/authors/1013426"> C.W. Clark</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/1710.01833">arXiv:1710.01833</a>:</strong> 04 October 2017 
++ <strong>Published in <a href="https://doi.org/10.1103/RevModPhys.90.025008">Reviews of Modern Physics, 90, 025008 (2018)</a>:</strong> 30 June 2018</details>
+
+<details>
 <summary> (2020) <b>Quantum Machine Learning in High Energy Physics</b> [<a href="https://arxiv.org/abs/2005.08582">arXiv</a>] [<a href="https://doi.org/10.1088/2632-2153/abc17d">DOI</a>] [<a href="https://inspirehep.net/literature/1796743">INSPIRE</a>] <code>Expand</code> </summary>
 
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1054873"> Wen Guan</a>, <a href="https://inspirehep.net/authors/1040364"> Gabriel Perdue</a>, <a href="https://inspirehep.net/authors/1902058"> Arthur Pesah</a>, <a href="https://inspirehep.net/authors/1972170"> Maria Schuld</a>, <a href="https://inspirehep.net/authors/986339"> Koji Terashi</a>, <a href="https://inspirehep.net/authors/1028732"> Sofia Vallecorsa</a>, <a href="https://inspirehep.net/authors/1023557"> Jean-Roch Vlimant</a>
@@ -232,6 +239,15 @@
 ###  $\textbf{{\color{#5BC0EB}Crosslists}}$ 
 
 <details>
+<summary> (2017) <b>Search for New Physics with Atoms and Molecules</b> [<a href="https://arxiv.org/abs/1710.01833">arXiv</a>] [<a href="https://doi.org/10.1103/RevModPhys.90.025008">DOI</a>] [<a href="https://inspirehep.net/literature/1628828">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1896420"> M.S. Safronova</a>, <a href="https://inspirehep.net/authors/1053648"> D. Budker</a>, <a href="https://inspirehep.net/authors/1019969"> D. DeMille</a>, <a href="https://inspirehep.net/authors/1892430"> Derek F. Jackson Kimball</a>, <a href="https://inspirehep.net/authors/1011988"> A. Derevianko</a>, <a href="https://inspirehep.net/authors/1013426"> C.W. Clark</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/1710.01833">arXiv:1710.01833</a>:</strong> 04 October 2017 
++ <strong>Published in <a href="https://doi.org/10.1103/RevModPhys.90.025008">Reviews of Modern Physics, 90, 025008 (2018)</a>:</strong> 30 June 2018</details>
+
+
+
+<details>
 <summary> (2020) <b>Event Classification with Quantum Machine Learning in High-Energy Physics</b> [<a href="https://arxiv.org/abs/2002.09935">arXiv</a>] [<a href="https://doi.org/10.1007/s41781-020-00047-7">DOI</a>] [<a href="https://inspirehep.net/literature/1781933">INSPIRE</a>] <code>Expand</code> </summary>
 
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/986339"> Koji Terashi</a>, <a href="https://inspirehep.net/authors/1066905"> Michiru Kaneda</a>, <a href="https://inspirehep.net/authors/1073054"> Tomoe Kishimoto</a>, <a href="https://inspirehep.net/authors/1419611"> Masahiko Saito</a>, <a href="https://inspirehep.net/authors/990129"> Ryu Sawada</a>, <a href="https://inspirehep.net/authors/1233282"> Junichi Tanaka</a>
@@ -387,13 +403,6 @@
 + <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.110.043005">Phys. Rev. D 110, 043005 (2024)</a>:</strong> 02 August 2024</details>
 
 <details>
-<summary> (2023) <b>Superfluid helium ultralight dark matter detector</b> [<a href="https://arxiv.org/abs/2309.07995">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.109.095011">DOI</a>] [<a href="https://inspirehep.net/literature/2698277">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1874229"> M. Hirschel</a>, <a href="https://inspirehep.net/authors/1874227"> V. Vadakkumbatt</a>, <a href="https://inspirehep.net/authors/2661565"> N.P. Baker</a>, <a href="https://inspirehep.net/authors/2698279"> F.M. Schweizer</a>, <a href="https://inspirehep.net/authors/2040928"> J.C. Sankey</a>, <a href="https://inspirehep.net/authors/1039829"> S. Singh</a>, <a href="https://inspirehep.net/authors/1874233"> J.P. Davis</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2309.07995">arXiv:2309.07995</a>:</strong> 14 September 2023 
-+ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.109.095011">Physical Review D 109, 095011 (2024)</a>:</strong> 01 May 2024</details>
-
-<details>
 <summary> (2023) <b>Probing levitodynamics with multi-stochastic forces and the simple applications on the dark matter detection in optical levitation experiment</b> [<a href="https://arxiv.org/abs/2312.04202">arXiv</a>] [<a href="https://doi.org/10.1016/j.nuclphysb.2024.116780">DOI</a>] [<a href="https://inspirehep.net/literature/2732714">INSPIRE</a>] <code>Expand</code> </summary>
 
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/2340402"> Xi Cheng</a>, <a href="https://inspirehep.net/authors/2811617"> Ji-Heng Guo</a>, <a href="https://inspirehep.net/authors/1500061"> Wenyu Wang</a>, <a href="https://inspirehep.net/authors/1669970"> Bin Zhu</a>
@@ -450,13 +459,6 @@
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1930231"> Karthik Ramanathan</a>, <a href="https://inspirehep.net/authors/2486654"> Brandon J. Sandoval</a>, <a href="https://inspirehep.net/authors/2402867"> John E. Parker</a>, <a href="https://inspirehep.net/authors/2392918"> Lalit M. Joshi</a>, <a href="https://inspirehep.net/authors/1995335"> Andrew D. Beyer</a>, <a href="https://inspirehep.net/authors/2525650"> Pierre M. Echternach</a>, <a href="https://inspirehep.net/authors/2075607"> Serge Rosenblum</a>, <a href="https://inspirehep.net/authors/1008056"> Sunil R. Golwala</a>
 + <strong>Posted on <a href="https://arxiv.org/abs/2405.17192">arXiv:2405.17192</a>:</strong> 27 May 2024 
 + <strong>Published in <a href="https://doi.org/10.1103/kqd2-spb1">APS Open Science</a>:</strong> 01 May 2026</details>
-
-<details>
-<summary> (2025) <b>Piezoelectric bulk acoustic resonators for dark photon detection</b> [<a href="https://arxiv.org/abs/2501.05504">arXiv</a>] [<a href="https://doi.org/10.1103/yq4n-xq9y">DOI</a>] [<a href="https://inspirehep.net/literature/2867093">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1785907"> Tanner Trickle</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2501.05504">arXiv:2501.05504</a>:</strong> 09 January 2025 
-+ <strong>Published in <a href="https://doi.org/10.1103/yq4n-xq9y">Phys.Rev.D</a>:</strong> 01 September 2025</details>
 
 ###  $\textbf{{\color{#5BC0EB}Crosslists}}$ 
 
@@ -753,6 +755,13 @@
 + <strong>Published in <a href="https://doi.org/10.1016/j.physletb.2024.138832">Phys.Lett.B</a>:</strong> 27 June 2024</details>
 
 <details>
+<summary> (2023) <b>Superfluid helium ultralight dark matter detector</b> [<a href="https://arxiv.org/abs/2309.07995">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.109.095011">DOI</a>] [<a href="https://inspirehep.net/literature/2698277">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1874229"> M. Hirschel</a>, <a href="https://inspirehep.net/authors/1874227"> V. Vadakkumbatt</a>, <a href="https://inspirehep.net/authors/2661565"> N.P. Baker</a>, <a href="https://inspirehep.net/authors/2698279"> F.M. Schweizer</a>, <a href="https://inspirehep.net/authors/2040928"> J.C. Sankey</a>, <a href="https://inspirehep.net/authors/1039829"> S. Singh</a>, <a href="https://inspirehep.net/authors/1874233"> J.P. Davis</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2309.07995">arXiv:2309.07995</a>:</strong> 14 September 2023 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.109.095011">Physical Review D 109, 095011 (2024)</a>:</strong> 01 May 2024</details>
+
+<details>
 <summary> (2024) <b>Vector wave dark matter and terrestrial quantum sensors</b> [<a href="https://arxiv.org/abs/2403.02381">arXiv</a>] [<a href="https://doi.org/10.1088/1475-7516/2024/06/050">DOI</a>] [<a href="https://inspirehep.net/literature/2764998">INSPIRE</a>] <code>Expand</code> </summary>
 
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1912305"> Dorian W.P. Amaral</a>, <a href="https://inspirehep.net/authors/1742413"> Mudit Jain</a>, <a href="https://inspirehep.net/authors/1024502"> Mustafa A. Amin</a>, <a href="https://inspirehep.net/authors/1064620"> Christopher Tunnell</a>
@@ -832,6 +841,13 @@
 + <strong>Published in <a href="https://doi.org/10.1016/j.dark.2025.102171">Phys.Dark Univ. 50 (2025) 102171</a>:</strong> 15 November 2025</details>
 
 <details>
+<summary> (2025) <b>Piezoelectric bulk acoustic resonators for dark photon detection</b> [<a href="https://arxiv.org/abs/2501.05504">arXiv</a>] [<a href="https://doi.org/10.1103/yq4n-xq9y">DOI</a>] [<a href="https://inspirehep.net/literature/2867093">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1785907"> Tanner Trickle</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2501.05504">arXiv:2501.05504</a>:</strong> 09 January 2025 
++ <strong>Published in <a href="https://doi.org/10.1103/yq4n-xq9y">Phys.Rev.D</a>:</strong> 01 September 2025</details>
+
+<details>
 <summary> (2025) <b>Background suppression in quantum sensing of dark matter via collective entangled-state projection</b> [<a href="https://arxiv.org/abs/2510.01816">arXiv</a>] [<a href="https://doi.org/10.1103/k5dm-k163">DOI</a>] [<a href="https://inspirehep.net/literature/3033986">INSPIRE</a>] <code>Expand</code> </summary>
 
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1301504"> Shion Chen</a>, <a href="https://inspirehep.net/authors/1329898"> Hajime Fukuda</a>, <a href="https://inspirehep.net/authors/1068122"> Yutaro Iiyama</a>, <a href="https://inspirehep.net/authors/1884266"> Yuya Mino</a>, <a href="https://inspirehep.net/authors/996781"> Takeo Moroi</a>, <a href="https://inspirehep.net/authors/1481915"> Mikio Nakahara</a>, <a href="https://inspirehep.net/authors/1426014"> Tatsumi Nitta</a>, <a href="https://inspirehep.net/authors/2680252"> Thanaporn Sichanugrist</a>
@@ -845,6 +861,15 @@
 + <strong>Posted on <a href="https://arxiv.org/abs/2511.16732">arXiv:2511.16732</a>:</strong> 20 November 2025</details>
 
 ###  $\textbf{{\color{#5BC0EB}Crosslists}}$ 
+
+<details>
+<summary> (2017) <b>Search for New Physics with Atoms and Molecules</b> [<a href="https://arxiv.org/abs/1710.01833">arXiv</a>] [<a href="https://doi.org/10.1103/RevModPhys.90.025008">DOI</a>] [<a href="https://inspirehep.net/literature/1628828">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1896420"> M.S. Safronova</a>, <a href="https://inspirehep.net/authors/1053648"> D. Budker</a>, <a href="https://inspirehep.net/authors/1019969"> D. DeMille</a>, <a href="https://inspirehep.net/authors/1892430"> Derek F. Jackson Kimball</a>, <a href="https://inspirehep.net/authors/1011988"> A. Derevianko</a>, <a href="https://inspirehep.net/authors/1013426"> C.W. Clark</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/1710.01833">arXiv:1710.01833</a>:</strong> 04 October 2017 
++ <strong>Published in <a href="https://doi.org/10.1103/RevModPhys.90.025008">Reviews of Modern Physics, 90, 025008 (2018)</a>:</strong> 30 June 2018</details>
+
+
 
 <details>
 <summary> (2018) <b>Quantum Sensing for High Energy Physics</b> [<a href="https://arxiv.org/abs/1803.11306">arXiv</a>] [<a href="https://inspirehep.net/literature/1665450">INSPIRE</a>] <code>Expand</code><br> </summary>
@@ -1095,6 +1120,12 @@
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1997819"> Alexander Zlokapa</a>, <a href="https://inspirehep.net/authors/1070077"> Alex Mott</a>, <a href="https://inspirehep.net/authors/1997820"> Joshua Job</a>, <a href="https://inspirehep.net/authors/1023557"> Jean-Roch Vlimant</a>, <a href="https://inspirehep.net/authors/1025066"> Daniel Lidar</a>, <a href="https://inspirehep.net/authors/987865"> Maria Spiropulu</a>
 + <strong>Posted on <a href="https://arxiv.org/abs/1908.04480">arXiv:1908.04480</a>:</strong> 13 August 2019 
 + <strong>Published in <a href="https://doi.org/10.1103/PhysRevA.102.062405">Phys. Rev. A 102, 062405 (2020)</a>:</strong> 05 December 2020</details>
+
+<details>
+<summary> (2019) <b>Restricted Boltzmann Machines for galaxy morphology classification with a quantum annealer</b> [<a href="https://arxiv.org/abs/1911.06259">arXiv</a>] [<a href="https://inspirehep.net/literature/1771497">INSPIRE</a>] <code>Expand</code><br> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1671300"> João Caldeira</a>, <a href="https://inspirehep.net/authors/1997820"> Joshua Job</a>, <a href="https://inspirehep.net/authors/2470807"> Steven H. Adachi</a>, <a href="https://inspirehep.net/authors/1029527"> Brian Nord</a>, <a href="https://inspirehep.net/authors/1040364"> Gabriel N. Perdue</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/1911.06259">arXiv:1911.06259</a>:</strong> 14 November 2019</details>
 
 <details>
 <summary> (2021) <b>Quantum algorithm for the classification of supersymmetric top quark events</b> [<a href="https://arxiv.org/abs/2106.00051">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.104.096004">DOI</a>] [<a href="https://inspirehep.net/literature/1866420">INSPIRE</a>] <code>Expand</code> </summary>
@@ -1443,15 +1474,7 @@
 
 
 
-##  $\textbf{{\color{#9BC53D}Astrophysics and Cosmology}}$ 
-
-###  $\textbf{{\color{#5BC0EB}Quantum Annealing}}$ 
-
-<details>
-<summary> (2019) <b>Restricted Boltzmann Machines for galaxy morphology classification with a quantum annealer</b> [<a href="https://arxiv.org/abs/1911.06259">arXiv</a>] [<a href="https://inspirehep.net/literature/1771497">INSPIRE</a>] <code>Expand</code><br> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1671300"> João Caldeira</a>, <a href="https://inspirehep.net/authors/1997820"> Joshua Job</a>, <a href="https://inspirehep.net/authors/2470807"> Steven H. Adachi</a>, <a href="https://inspirehep.net/authors/1029527"> Brian Nord</a>, <a href="https://inspirehep.net/authors/1040364"> Gabriel N. Perdue</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/1911.06259">arXiv:1911.06259</a>:</strong> 14 November 2019</details>
+##  $\textbf{{\color{#9BC53D}Gravitational Waves}}$ 
 
 ###  $\textbf{{\color{#5BC0EB}Quantum Sensors - Optical/Photonic Sensors}}$ 
 
@@ -1491,120 +1514,6 @@
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1275237"> Daniel Carney</a>, <a href="https://inspirehep.net/authors/2858588"> Gerard Higgins</a>, <a href="https://inspirehep.net/authors/1831296"> Giacomo Marocco</a>, <a href="https://inspirehep.net/authors/2817632"> Michael Wentzel</a>
 + <strong>Posted on <a href="https://arxiv.org/abs/2408.01583">arXiv:2408.01583</a>:</strong> 02 August 2024 
 + <strong>Published in <a href="https://doi.org/10.1103/PhysRevLett.134.181402">Carney (2025) Phys. Rev. Lett. 134, 181402</a>:</strong> 06 May 2025</details>
-
-###  $\textbf{{\color{#5BC0EB}Crosslists}}$ 
-
-<details>
-<summary> (2016) <b>Laser Interferometers as Dark Matter Detectors</b> [<a href="https://arxiv.org/abs/1605.01103">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.98.083019">DOI</a>] [<a href="https://inspirehep.net/literature/1455772">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1077499"> Evan D. Hall</a>, <a href="https://inspirehep.net/authors/1032335"> Rana X. Adhikari</a>, <a href="https://inspirehep.net/authors/1009360"> Valery V. Frolov</a>, <a href="https://inspirehep.net/authors/1908065"> Holger Müller</a>, <a href="https://inspirehep.net/authors/992916"> Maxim Pospelov</a>, <a href="https://inspirehep.net/authors/1032335"> Rana X Adhikari</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/1605.01103">arXiv:1605.01103</a>:</strong> 03 May 2016 
-+ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.98.083019">Phys.Rev.D</a>:</strong> 23 October 2018</details>
-
-
-
-<details>
-<summary> (2018) <b>Quantum Sensing for High Energy Physics</b> [<a href="https://arxiv.org/abs/1803.11306">arXiv</a>] [<a href="https://inspirehep.net/literature/1665450">INSPIRE</a>] <code>Expand</code><br> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1054828"> Zeeshan Ahmed</a>, <a href="https://inspirehep.net/authors/1885845"> Yuri Alexeev</a>, <a href="https://inspirehep.net/authors/1018230"> Giorgio Apollinari</a>, <a href="https://inspirehep.net/authors/1042861"> Asimina Arvanitaki</a>, <a href="https://inspirehep.net/authors/1019661"> David Awschalom</a>, <a href="https://inspirehep.net/authors/1873191"> Karl K. Berggren</a>, <a href="https://inspirehep.net/authors/1016409"> Karl Van Bibber</a>, <a href="https://inspirehep.net/authors/1953295"> Przemyslaw Bienias</a>, <a href="https://inspirehep.net/authors/1016028"> Geoffrey Bodwin</a>, <a href="https://inspirehep.net/authors/1887551"> Malcolm Boshier</a>, <a href="https://inspirehep.net/authors/1031261"> Daniel Bowring</a>, <a href="https://inspirehep.net/authors/1074682"> Davide Braga</a>, <a href="https://inspirehep.net/authors/1014813"> Karen Byrum</a>, <a href="https://inspirehep.net/authors/1074282"> Gustavo Cancelo</a>, <a href="https://inspirehep.net/authors/1048923"> Gianpaolo Carosi</a>, <a href="https://inspirehep.net/authors/1074286"> Tom Cecil</a>, <a href="https://inspirehep.net/authors/1021126"> Clarence Chang</a>, <a href="https://inspirehep.net/authors/1400719"> Mattia Checchin</a>, <a href="https://inspirehep.net/authors/1013915"> Sergei Chekanov</a>, <a href="https://inspirehep.net/authors/1013617"> Aaron Chou</a>, <a href="https://inspirehep.net/authors/1889833"> Aashish Clerk</a>, <a href="https://inspirehep.net/authors/1020992"> Ian Cloet</a>, <a href="https://inspirehep.net/authors/1012783"> Michael Crisler</a>, <a href="https://inspirehep.net/authors/1012077"> Marcel Demarteau</a>, <a href="https://inspirehep.net/authors/1068217"> Ranjan Dharmapalan</a>, <a href="https://inspirehep.net/authors/2576770"> Matthew Dietrich</a>, <a href="https://inspirehep.net/authors/2036302"> Junjia Ding</a>, <a href="https://inspirehep.net/authors/1023592"> Zelimir Djurcic</a>, <a href="https://inspirehep.net/authors/1285564"> John Doyle</a>, <a href="https://inspirehep.net/authors/1010319"> James Fast</a>, <a href="https://inspirehep.net/authors/2258909"> Michael Fazio</a>, <a href="https://inspirehep.net/authors/1049352"> Peter Fierlinger</a>, <a href="https://inspirehep.net/authors/1023793"> Hal Finkel</a>, <a href="https://inspirehep.net/authors/1009609"> Patrick Fox</a>, <a href="https://inspirehep.net/authors/1009118"> Gerald Gabrielse</a>, <a href="https://inspirehep.net/authors/1038075"> Andrei Gaponenko</a>, <a href="https://inspirehep.net/authors/1008896"> Maurice Garcia-Sciveres</a>, <a href="https://inspirehep.net/authors/1042142"> Andrew Geraci</a>, <a href="https://inspirehep.net/authors/2189342"> Jeffrey Guest</a>, <a href="https://inspirehep.net/authors/2061360"> Supratik Guha</a>, <a href="https://inspirehep.net/authors/1007083"> Salman Habib</a>, <a href="https://inspirehep.net/authors/1019568"> Ron Harnik</a>, <a href="https://inspirehep.net/authors/1997812"> Amr Helmy</a>, <a href="https://inspirehep.net/authors/1029217"> Yuekun Heng</a>, <a href="https://inspirehep.net/authors/1708846"> Jason Henning</a>, <a href="https://inspirehep.net/authors/1970661"> Joseph Heremans</a>, <a href="https://inspirehep.net/authors/1026955"> Phay Ho</a>, <a href="https://inspirehep.net/authors/1045054"> Jason Hogan</a>, <a href="https://inspirehep.net/authors/1881801"> Johannes Hubmayr</a>, <a href="https://inspirehep.net/authors/2122565"> David Hume</a>, <a href="https://inspirehep.net/authors/1004901"> Kent Irwin</a>, <a href="https://inspirehep.net/authors/2576771"> Cynthia Jenks</a>, <a href="https://inspirehep.net/authors/2310898"> Nick Karonis</a>, <a href="https://inspirehep.net/authors/1054654"> Raj Kettimuthu</a>, <a href="https://inspirehep.net/authors/1892430"> Derek Kimball</a>, <a href="https://inspirehep.net/authors/2576773"> Jonathan King</a>, <a href="https://inspirehep.net/authors/1002005"> Eve Kovacs</a>, <a href="https://inspirehep.net/authors/2163101"> Richard Kriske</a>, <a href="https://inspirehep.net/authors/1049435"> Donna Kubik</a>, <a href="https://inspirehep.net/authors/1071915"> Akito Kusaka</a>, <a href="https://inspirehep.net/authors/1963552"> Benjamin Lawrie</a>, <a href="https://inspirehep.net/authors/1272275"> Konrad Lehnert</a>, <a href="https://inspirehep.net/authors/1272152"> Paul Lett</a>, <a href="https://inspirehep.net/authors/1000390"> Jonathan Lewis</a>, <a href="https://inspirehep.net/authors/1965128"> Pavel Lougovski</a>, <a href="https://inspirehep.net/authors/2490716"> Larry Lurio</a>, <a href="https://inspirehep.net/authors/1986283"> Xuedan Ma</a>, <a href="https://inspirehep.net/authors/998199"> Edward May</a>, <a href="https://inspirehep.net/authors/1022138"> Petra Merkel</a>, <a href="https://inspirehep.net/authors/1070903"> Jessica Metcalfe</a>, <a href="https://inspirehep.net/authors/2129753"> Antonino Miceli</a>, <a href="https://inspirehep.net/authors/2391100"> Misun Min</a>, <a href="https://inspirehep.net/authors/1721278"> Sandeep Miryala</a>, <a href="https://inspirehep.net/authors/1936552"> John Mitchell</a>, <a href="https://inspirehep.net/authors/2066379"> Vesna Mitrovic</a>, <a href="https://inspirehep.net/authors/2155352"> Holger Mueller</a>, <a href="https://inspirehep.net/authors/1021836"> Sae Woo Nam</a>, <a href="https://inspirehep.net/authors/995747"> Hogan Nguyen</a>, <a href="https://inspirehep.net/authors/995727"> Howard Nicholson</a>, <a href="https://inspirehep.net/authors/995466"> Andrei Nomerotski</a>, <a href="https://inspirehep.net/authors/1055358"> Mike Norman</a>, <a href="https://inspirehep.net/authors/2519663"> Kevin O'Brien</a>, <a href="https://inspirehep.net/authors/1979660"> Roger O'Brient</a>, <a href="https://inspirehep.net/authors/2815858"> Umeshkumar Patel</a>, <a href="https://inspirehep.net/authors/1055326"> Bjoern Penning</a>, <a href="https://inspirehep.net/authors/2576776"> Sergey Perverzev</a>, <a href="https://inspirehep.net/authors/1038124"> Nicholas Peters</a>, <a href="https://inspirehep.net/authors/1959740"> Raphael Pooser</a>, <a href="https://inspirehep.net/authors/2036313"> Chrystian Posada</a>, <a href="https://inspirehep.net/authors/992693"> Jimmy Proudfoot</a>, <a href="https://inspirehep.net/authors/1912594"> Tenzin Rabga</a>, <a href="https://inspirehep.net/authors/2576778"> Tijana Rajh</a>, <a href="https://inspirehep.net/authors/991934"> Sergio Rescia</a>, <a href="https://inspirehep.net/authors/1067781"> Alexander Romanenko</a>, <a href="https://inspirehep.net/authors/990923"> Roger Rusack</a>, <a href="https://inspirehep.net/authors/1996526"> Monika Schleier-Smith</a>, <a href="https://inspirehep.net/authors/2160216"> Keith Schwab</a>, <a href="https://inspirehep.net/authors/1906525"> Julie Segal</a>, <a href="https://inspirehep.net/authors/988900"> Ian Shipsey</a>, <a href="https://inspirehep.net/authors/1964833"> Erik Shirokoff</a>, <a href="https://inspirehep.net/authors/1019428"> Andrew Sonnenschein</a>, <a href="https://inspirehep.net/authors/1038035"> Valerie Taylor</a>, <a href="https://inspirehep.net/authors/985564"> Robert Tschirhart</a>, <a href="https://inspirehep.net/authors/985467"> Chris Tully</a>, <a href="https://inspirehep.net/authors/985228"> David Underwood</a>, <a href="https://inspirehep.net/authors/1882262"> Vladan Vuletic</a>, <a href="https://inspirehep.net/authors/1019181"> Robert Wagner</a>, <a href="https://inspirehep.net/authors/1065958"> Gensheng Wang</a>, <a href="https://inspirehep.net/authors/983906"> Harry Weerts</a>, <a href="https://inspirehep.net/authors/1943838"> Nathan Woollett</a>, <a href="https://inspirehep.net/authors/1319080"> Junqi Xie</a>, <a href="https://inspirehep.net/authors/1885214"> Volodymyr Yefremenko</a>, <a href="https://inspirehep.net/authors/1053889"> John Zasadzinski</a>, <a href="https://inspirehep.net/authors/1233256"> Jinlong Zhang</a>, <a href="https://inspirehep.net/authors/2039355"> Xufeng Zhang</a>, <a href="https://inspirehep.net/authors/981893"> Vishnu Zutshi</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/1803.11306">arXiv:1803.11306</a>:</strong> 29 March 2018</details>
-
-
-
-<details>
-<summary> (2020) <b>Quantum Machine Learning in High Energy Physics</b> [<a href="https://arxiv.org/abs/2005.08582">arXiv</a>] [<a href="https://doi.org/10.1088/2632-2153/abc17d">DOI</a>] [<a href="https://inspirehep.net/literature/1796743">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1054873"> Wen Guan</a>, <a href="https://inspirehep.net/authors/1040364"> Gabriel Perdue</a>, <a href="https://inspirehep.net/authors/1902058"> Arthur Pesah</a>, <a href="https://inspirehep.net/authors/1972170"> Maria Schuld</a>, <a href="https://inspirehep.net/authors/986339"> Koji Terashi</a>, <a href="https://inspirehep.net/authors/1028732"> Sofia Vallecorsa</a>, <a href="https://inspirehep.net/authors/1023557"> Jean-Roch Vlimant</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2005.08582">arXiv:2005.08582</a>:</strong> 18 May 2020 
-+ <strong>Published in <a href="https://doi.org/10.1088/2632-2153/abc17d">Mach.Learn.Sci.Tech.</a>:</strong> 31 March 2021</details>
-
-
-
-<details>
-<summary> (2020) <b>Search for composite dark matter with optically levitated sensors</b> [<a href="https://arxiv.org/abs/2007.12067">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevLett.125.181102">DOI</a>] [<a href="https://inspirehep.net/literature/1808528">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1033822"> Fernando Monteiro</a>, <a href="https://inspirehep.net/authors/1880811"> Gadi Afek</a>, <a href="https://inspirehep.net/authors/1275237"> Daniel Carney</a>, <a href="https://inspirehep.net/authors/1077491"> Gordan Krnjaic</a>, <a href="https://inspirehep.net/authors/1873667"> Jiaxiang Wang</a>, <a href="https://inspirehep.net/authors/1021202"> David C. Moore</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2007.12067">arXiv:2007.12067</a>:</strong> 23 July 2020 
-+ <strong>Published in <a href="https://doi.org/10.1103/PhysRevLett.125.181102">Phys. Rev. Lett. 125, 181102 (2020)</a>:</strong> 29 October 2020</details>
-
-
-
-<details>
-<summary> (2020) <b>Mechanical quantum sensing in the search for dark matter</b> [<a href="https://arxiv.org/abs/2008.06074">arXiv</a>] [<a href="https://doi.org/10.1088/2058-9565/abcfcd">DOI</a>] [<a href="https://inspirehep.net/literature/1811777">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1275237"> D. Carney</a>, <a href="https://inspirehep.net/authors/1077491"> G. Krnjaic</a>, <a href="https://inspirehep.net/authors/1021202"> D.C. Moore</a>, <a href="https://inspirehep.net/authors/1929793"> C.A. Regal</a>, <a href="https://inspirehep.net/authors/1880811"> G. Afek</a>, <a href="https://inspirehep.net/authors/1970173"> S. Bhave</a>, <a href="https://inspirehep.net/authors/1880956"> B. Brubaker</a>, <a href="https://inspirehep.net/authors/1925368"> T. Corbitt</a>, <a href="https://inspirehep.net/authors/2061682"> J. Cripe</a>, <a href="https://inspirehep.net/authors/1943831"> N. Crisosto</a>, <a href="https://inspirehep.net/authors/1042142"> A. Geraci</a>, <a href="https://inspirehep.net/authors/1869187"> S. Ghosh</a>, <a href="https://inspirehep.net/authors/1969499"> J.G.E. Harris</a>, <a href="https://inspirehep.net/authors/1259159"> A. Hook</a>, <a href="https://inspirehep.net/authors/1002355"> E.W. Kolb</a>, <a href="https://inspirehep.net/authors/1940153"> J. Kunjummen</a>, <a href="https://inspirehep.net/authors/1070994"> R.F. Lang</a>, <a href="https://inspirehep.net/authors/2128790"> T. Li</a>, <a href="https://inspirehep.net/authors/1343940"> T. Lin</a>, <a href="https://inspirehep.net/authors/1256188"> Z. Liu</a>, <a href="https://inspirehep.net/authors/999489"> J. Lykken</a>, <a href="https://inspirehep.net/authors/2093332"> L. Magrini</a>, <a href="https://inspirehep.net/authors/1874230"> J. Manley</a>, <a href="https://inspirehep.net/authors/2137512"> N. Matsumoto</a>, <a href="https://inspirehep.net/authors/1597932"> A. Monte</a>, <a href="https://inspirehep.net/authors/1033822"> F. Monteiro</a>, <a href="https://inspirehep.net/authors/1929785"> T. Purdy</a>, <a href="https://inspirehep.net/authors/1059428"> C.J. Riedel</a>, <a href="https://inspirehep.net/authors/1054098"> R. Singh</a>, <a href="https://inspirehep.net/authors/1039829"> S. Singh</a>, <a href="https://inspirehep.net/authors/2072006"> K. Sinha</a>, <a href="https://inspirehep.net/authors/1062727"> J.M. Taylor</a>, <a href="https://inspirehep.net/authors/1789360"> J. Qin</a>, <a href="https://inspirehep.net/authors/1898237"> D.J. Wilson</a>, <a href="https://inspirehep.net/authors/1318427"> Y. Zhao</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2008.06074">arXiv:2008.06074</a>:</strong> 13 August 2020 
-+ <strong>Published in <a href="https://doi.org/10.1088/2058-9565/abcfcd">Quantum Sci. Technol. 6 024002, 2021 (invited)</a>:</strong> 18 January 2021</details>
-
-
-
-<details>
-<summary> (2020) <b>Searching for Dark Matter with a Superconducting Qubit</b> [<a href="https://arxiv.org/abs/2008.12231">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevLett.126.141302">DOI</a>] [<a href="https://inspirehep.net/literature/1813617">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1860028"> Akash V. Dixit</a>, <a href="https://inspirehep.net/authors/2134715"> Srivatsan Chakram</a>, <a href="https://inspirehep.net/authors/1029216"> Kevin He</a>, <a href="https://inspirehep.net/authors/1614896"> Ankur Agrawal</a>, <a href="https://inspirehep.net/authors/1952210"> Ravi K. Naik</a>, <a href="https://inspirehep.net/authors/1074249"> David I. Schuster</a>, <a href="https://inspirehep.net/authors/1013617"> Aaron Chou</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2008.12231">arXiv:2008.12231</a>:</strong> 28 August 2020 
-+ <strong>Published in <a href="https://doi.org/10.1103/PhysRevLett.126.141302">Phys. Rev. Lett. 126, 141302 (2021)</a>:</strong> 09 April 2021</details>
-
-
-
-<details>
-<summary> (2022) <b>Snowmass 2021: Quantum Sensors for HEP Science -- Interferometers, Mechanics, Traps, and Clocks</b> [<a href="https://arxiv.org/abs/2203.07250">arXiv</a>] [<a href="https://inspirehep.net/literature/2051476">INSPIRE</a>] <code>Expand</code><br> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1015066"> Oliver Buchmueller</a>, <a href="https://inspirehep.net/authors/1275237"> Daniel Carney</a>, <a href="https://inspirehep.net/authors/1074286"> Thomas Cecil</a>, <a href="https://inspirehep.net/authors/1010819"> John Ellis</a>, <a href="https://inspirehep.net/authors/1284206"> R.F. Garcia Ruiz</a>, <a href="https://inspirehep.net/authors/1042142"> Andrew A. Geraci</a>, <a href="https://inspirehep.net/authors/2051477"> David Hanneke</a>, <a href="https://inspirehep.net/authors/1045054"> Jason Hogan</a>, <a href="https://inspirehep.net/authors/1632616"> Nicholas R. Hutzler</a>, <a href="https://inspirehep.net/authors/2051479"> Andrew Jayich</a>, <a href="https://inspirehep.net/authors/1052822"> Shimon Kolkowitz</a>, <a href="https://inspirehep.net/authors/1858314"> Gavin W. Morley</a>, <a href="https://inspirehep.net/authors/2051480"> Holger Muller</a>, <a href="https://inspirehep.net/authors/2051481"> Zachary Pagel</a>, <a href="https://inspirehep.net/authors/1867615"> Christian Panda</a>, <a href="https://inspirehep.net/authors/1896420"> Marianna S. Safronova</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2203.07250">arXiv:2203.07250</a>:</strong> 14 March 2022</details>
-
-
-
-<details>
-<summary> (2022) <b>Quantum Computing for Data Analysis in High-Energy Physics</b> [<a href="https://arxiv.org/abs/2203.08805">arXiv</a>] [<a href="https://inspirehep.net/literature/2054075">INSPIRE</a>] <code>Expand</code><br> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1309026"> Andrea Delgado</a>, <a href="https://inspirehep.net/authors/1964884"> Kathleen E. Hamilton</a>, <a href="https://inspirehep.net/authors/1982115"> Prasanna Date</a>, <a href="https://inspirehep.net/authors/1023557"> Jean-Roch Vlimant</a>, <a href="https://inspirehep.net/authors/1906752"> Duarte Magano</a>, <a href="https://inspirehep.net/authors/1889150"> Yasser Omar</a>, <a href="https://inspirehep.net/authors/1017362"> Pedrame Bargassa</a>, <a href="https://inspirehep.net/authors/1077384"> Anthony Francis</a>, <a href="https://inspirehep.net/authors/1262268"> Alessio Gianelle</a>, <a href="https://inspirehep.net/authors/1342183"> Lorenzo Sestini</a>, <a href="https://inspirehep.net/authors/999654"> Donatella Lucchesi</a>, <a href="https://inspirehep.net/authors/1863481"> Davide Zuliani</a>, <a href="https://inspirehep.net/authors/2652930"> Davide Nicotra</a>, <a href="https://inspirehep.net/authors/1280633"> Jacco de Vries</a>, <a href="https://inspirehep.net/authors/2054076"> Dominica Dibenedetto</a>, <a href="https://inspirehep.net/authors/1378130"> Miriam Lucio Martinez</a>, <a href="https://inspirehep.net/authors/1062493"> Eduardo Rodrigues</a>, <a href="https://inspirehep.net/authors/1262658"> Carlos Vazquez Sierra</a>, <a href="https://inspirehep.net/authors/1028732"> Sofia Vallecorsa</a>, <a href="https://inspirehep.net/authors/1054400"> Jesse Thaler</a>, <a href="https://inspirehep.net/authors/2670428"> Carlos Bravo-Prieto</a>, <a href="https://inspirehep.net/authors/2043493"> su Yeon Chang</a>, <a href="https://inspirehep.net/authors/1771794"> Jeffrey Lazar</a>, <a href="https://inspirehep.net/authors/1074902"> Carlos A. Argüelles</a>, <a href="https://inspirehep.net/authors/2738014"> Jorge J. Martinez de Lejarza</a>, <a href="https://inspirehep.net/authors/1273330"> Leandro Cieri</a>, <a href="https://inspirehep.net/authors/991497"> Germán Rodrigo</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2203.08805">arXiv:2203.08805</a>:</strong> 15 March 2022</details>
-
-
-
-<details>
-<summary> (2022) <b>Quantum Simulation for High-Energy Physics</b> [<a href="https://arxiv.org/abs/2204.03381">arXiv</a>] [<a href="https://doi.org/10.1103/PRXQuantum.4.027001">DOI</a>] [<a href="https://inspirehep.net/literature/2064292">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1017103"> Christian W. Bauer</a>, <a href="https://inspirehep.net/authors/1078382"> Zohreh Davoudi</a>, <a href="https://inspirehep.net/authors/1017575"> A. Baha Balantekin</a>, <a href="https://inspirehep.net/authors/1016431"> Tanmoy Bhattacharya</a>, <a href="https://inspirehep.net/authors/984325"> Marcela Carena</a>, <a href="https://inspirehep.net/authors/1887674"> Wibe A. de Jong</a>, <a href="https://inspirehep.net/authors/1063627"> Patrick Draper</a>, <a href="https://inspirehep.net/authors/1010867"> Aida El-Khadra</a>, <a href="https://inspirehep.net/authors/2064294"> Nate Gemelke</a>, <a href="https://inspirehep.net/authors/1028942"> Masanori Hanada</a>, <a href="https://inspirehep.net/authors/1003098"> Dmitri Kharzeev</a>, <a href="https://inspirehep.net/authors/1239062"> Henry Lamm</a>, <a href="https://inspirehep.net/authors/1372172"> Ying-Ying Li</a>, <a href="https://inspirehep.net/authors/1358358"> Junyu Liu</a>, <a href="https://inspirehep.net/authors/1882263"> Mikhail Lukin</a>, <a href="https://inspirehep.net/authors/997658"> Yannick Meurice</a>, <a href="https://inspirehep.net/authors/1885856"> Christopher Monroe</a>, <a href="https://inspirehep.net/authors/1067995"> Benjamin Nachman</a>, <a href="https://inspirehep.net/authors/1897287"> Guido Pagano</a>, <a href="https://inspirehep.net/authors/992791"> John Preskill</a>, <a href="https://inspirehep.net/authors/1059041"> Enrico Rinaldi</a>, <a href="https://inspirehep.net/authors/1514679"> Alessandro Roggero</a>, <a href="https://inspirehep.net/authors/990368"> David I. Santiago</a>, <a href="https://inspirehep.net/authors/990160"> Martin J. Savage</a>, <a href="https://inspirehep.net/authors/1836627"> Irfan Siddiqi</a>, <a href="https://inspirehep.net/authors/988531"> George Siopsis</a>, <a href="https://inspirehep.net/authors/2069453"> David Van Zanten</a>, <a href="https://inspirehep.net/authors/1918812"> Nathan Wiebe</a>, <a href="https://inspirehep.net/authors/1760376"> Yukari Yamauchi</a>, <a href="https://inspirehep.net/authors/1261678"> Kübra Yeter-Aydeniz</a>, <a href="https://inspirehep.net/authors/1246650"> Silvia Zorzetti</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2204.03381">arXiv:2204.03381</a>:</strong> 07 April 2022 
-+ <strong>Published in <a href="https://doi.org/10.1103/PRXQuantum.4.027001">PRX Quantum 4, 027001, 2023</a>:</strong> 01 May 2023</details>
-
-
-
-<details>
-<summary> (2023) <b>Quantum sensing for particle physics</b> [<a href="https://arxiv.org/abs/2305.11518">arXiv</a>] [<a href="https://doi.org/10.1038/s42254-024-00714-3">DOI</a>] [<a href="https://inspirehep.net/literature/2661224">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1017181"> Steven D. Bass</a>, <a href="https://inspirehep.net/authors/1011493"> Michael Doser</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2305.11518">arXiv:2305.11518</a>:</strong> 19 May 2023 
-+ <strong>Published in <a href="https://doi.org/10.1038/s42254-024-00714-3">Nature Rev.Phys.</a>:</strong> 16 April 2024</details>
-
-
-
-<details>
-<summary> (2023) <b>Quantum Computing for High-Energy Physics: State of the Art and Challenges</b> [<a href="https://arxiv.org/abs/2307.03236">arXiv</a>] [<a href="https://doi.org/10.1103/PRXQuantum.5.037001">DOI</a>] [<a href="https://inspirehep.net/literature/2675145">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1918766"> Alberto Di Meglio</a>, <a href="https://inspirehep.net/authors/1004503"> Karl Jansen</a>, <a href="https://inspirehep.net/authors/1918765"> Ivano Tavernelli</a>, <a href="https://inspirehep.net/authors/1018674"> Constantia Alexandrou</a>, <a href="https://inspirehep.net/authors/1965088"> Srinivasan Arunachalam</a>, <a href="https://inspirehep.net/authors/1017103"> Christian W. Bauer</a>, <a href="https://inspirehep.net/authors/1015735"> Kerstin Borras</a>, <a href="https://inspirehep.net/authors/1236285"> Stefano Carrazza</a>, <a href="https://inspirehep.net/authors/2061553"> Arianna Crippa</a>, <a href="https://inspirehep.net/authors/1218055"> Vincent Croft</a>, <a href="https://inspirehep.net/authors/1034785"> Roland de Putter</a>, <a href="https://inspirehep.net/authors/1309026"> Andrea Delgado</a>, <a href="https://inspirehep.net/authors/1952392"> Vedran Dunjko</a>, <a href="https://inspirehep.net/authors/1908847"> Daniel J. Egger</a>, <a href="https://inspirehep.net/authors/2675146"> Elias Fernandez-Combarro</a>, <a href="https://inspirehep.net/authors/1068172"> Elina Fuchs</a>, <a href="https://inspirehep.net/authors/1419876"> Lena Funcke</a>, <a href="https://inspirehep.net/authors/1632624"> Daniel Gonzalez-Cuadra</a>, <a href="https://inspirehep.net/authors/1990556"> Michele Grossi</a>, <a href="https://inspirehep.net/authors/1877311"> Jad C. Halimeh</a>, <a href="https://inspirehep.net/authors/2720632"> Zoe Holmes</a>, <a href="https://inspirehep.net/authors/1885408"> Stefan Kuhn</a>, <a href="https://inspirehep.net/authors/1001309"> Denis Lacroix</a>, <a href="https://inspirehep.net/authors/1000385"> Randy Lewis</a>, <a href="https://inspirehep.net/authors/999654"> Donatella Lucchesi</a>, <a href="https://inspirehep.net/authors/1378130"> Miriam Lucio Martinez</a>, <a href="https://inspirehep.net/authors/1074063"> Federico Meloni</a>, <a href="https://inspirehep.net/authors/1950209"> Antonio Mezzacapo</a>, <a href="https://inspirehep.net/authors/1953270"> Simone Montangero</a>, <a href="https://inspirehep.net/authors/1806317"> Lento Nagano</a>, <a href="https://inspirehep.net/authors/1310061"> Vincent R. Pascuzzi</a>, <a href="https://inspirehep.net/authors/1042076"> Voica Radescu</a>, <a href="https://inspirehep.net/authors/2675147"> Enrique Rico Ortega</a>, <a href="https://inspirehep.net/authors/1514679"> Alessandro Roggero</a>, <a href="https://inspirehep.net/authors/2051482"> Julian Schuhmacher</a>, <a href="https://inspirehep.net/authors/989412"> Joao Seixas</a>, <a href="https://inspirehep.net/authors/1927686"> Pietro Silvi</a>, <a href="https://inspirehep.net/authors/987910"> Panagiotis Spentzouris</a>, <a href="https://inspirehep.net/authors/1963538"> Francesco Tacchino</a>, <a href="https://inspirehep.net/authors/1966977"> Kristan Temme</a>, <a href="https://inspirehep.net/authors/986339"> Koji Terashi</a>, <a href="https://inspirehep.net/authors/2064794"> Jordi Tura</a>, <a href="https://inspirehep.net/authors/1776884"> Cenk Tuysuz</a>, <a href="https://inspirehep.net/authors/1028732"> Sofia Vallecorsa</a>, <a href="https://inspirehep.net/authors/983589"> Uwe-Jens Wiese</a>, <a href="https://inspirehep.net/authors/1882248"> Shinjae Yoo</a>, <a href="https://inspirehep.net/authors/1323674"> Jinglei Zhang</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2307.03236">arXiv:2307.03236</a>:</strong> 06 July 2023 
-+ <strong>Published in <a href="https://doi.org/10.1103/PRXQuantum.5.037001">PRX Quantum 5, 037001 (2024)</a>:</strong> 01 August 2024</details>
-
-
-
-<details>
-<summary> (2023) <b>Quantum Sensors for High Energy Physics</b> [<a href="https://arxiv.org/abs/2311.01930">arXiv</a>] [<a href="https://inspirehep.net/literature/2718883">INSPIRE</a>] <code>Expand</code><br> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1013617"> Aaron Chou</a>, <a href="https://inspirehep.net/authors/1004901"> Kent Irwin</a>, <a href="https://inspirehep.net/authors/1048967"> Reina H. Maruyama</a>, <a href="https://inspirehep.net/authors/1017606"> Oliver K. Baker</a>, <a href="https://inspirehep.net/authors/1822733"> Chelsea Bartram</a>, <a href="https://inspirehep.net/authors/1873191"> Karl K. Berggren</a>, <a href="https://inspirehep.net/authors/1074282"> Gustavo Cancelo</a>, <a href="https://inspirehep.net/authors/1275237"> Daniel Carney</a>, <a href="https://inspirehep.net/authors/1956008"> Clarence L. Chang</a>, <a href="https://inspirehep.net/authors/2036297"> Hsiao-Mei Cho</a>, <a href="https://inspirehep.net/authors/1008896"> Maurice Garcia-Sciveres</a>, <a href="https://inspirehep.net/authors/1034461"> Peter W. Graham</a>, <a href="https://inspirehep.net/authors/1007083"> Salman Habib</a>, <a href="https://inspirehep.net/authors/1019568"> Roni Harnik</a>, <a href="https://inspirehep.net/authors/1969499"> J.G.E. Harris</a>, <a href="https://inspirehep.net/authors/1054641"> Scott A. Hertel</a>, <a href="https://inspirehep.net/authors/2122565"> David B. Hume</a>, <a href="https://inspirehep.net/authors/1078562"> Rakshya Khatiwada</a>, <a href="https://inspirehep.net/authors/1072465"> Timothy L. Kovachy</a>, <a href="https://inspirehep.net/authors/1622031"> Noah Kurinsky</a>, <a href="https://inspirehep.net/authors/1001190"> Steve K. Lamoreaux</a>, <a href="https://inspirehep.net/authors/1272275"> Konrad W. Lehnert</a>, <a href="https://inspirehep.net/authors/2012959"> David R. Leibrandt</a>, <a href="https://inspirehep.net/authors/1988452"> Dale Li</a>, <a href="https://inspirehep.net/authors/1068057"> Ben Loer</a>, <a href="https://inspirehep.net/authors/2060735"> Julián Martínez-Rincón</a>, <a href="https://inspirehep.net/authors/1068023"> Lee McCuller</a>, <a href="https://inspirehep.net/authors/1021202"> David C. Moore</a>, <a href="https://inspirehep.net/authors/2155352"> Holger Mueller</a>, <a href="https://inspirehep.net/authors/1067963"> Cristian Pena</a>, <a href="https://inspirehep.net/authors/1959740"> Raphael C. Pooser</a>, <a href="https://inspirehep.net/authors/1038665"> Matt Pyle</a>, <a href="https://inspirehep.net/authors/1051391"> Surjeet Rajendran</a>, <a href="https://inspirehep.net/authors/1896420"> Marianna S. Safronova</a>, <a href="https://inspirehep.net/authors/1074249"> David I. Schuster</a>, <a href="https://inspirehep.net/authors/1073153"> Matthew D. Shaw</a>, <a href="https://inspirehep.net/authors/987865"> Maria Spiropulu</a>, <a href="https://inspirehep.net/authors/987729"> Paul Stankus</a>, <a href="https://inspirehep.net/authors/1980575"> Alexander O. Sushkov</a>, <a href="https://inspirehep.net/authors/1049005"> Lindley Winslow</a>, <a href="https://inspirehep.net/authors/1055103"> Si Xie</a>, <a href="https://inspirehep.net/authors/1020087"> Kathryn M. Zurek</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2311.01930">arXiv:2311.01930</a>:</strong> 03 November 2023</details>
-
-
-
-<details>
-<summary> (2023) <b>Quantum measurements in fundamental physics: a user's manual</b> [<a href="https://arxiv.org/abs/2311.07270">arXiv</a>] [<a href="https://doi.org/10.21468/SciPostPhysRev.2">DOI</a>] [<a href="https://inspirehep.net/literature/2721893">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1871084"> Jacob Beckey</a>, <a href="https://inspirehep.net/authors/1275237"> Daniel Carney</a>, <a href="https://inspirehep.net/authors/1831296"> Giacomo Marocco</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2311.07270">arXiv:2311.07270</a>:</strong> 13 November 2023</details>
-
-
 
 ##  $\textbf{{\color{#9BC53D}Jet Reconstruction}}$ 
 
@@ -1719,7 +1628,7 @@
 
 
 
-##  $\textbf{{\color{#9BC53D}Lattice Scalar/Fermion Theories}}$ 
+##  $\textbf{{\color{#9BC53D}Lattice Field Theories - Scalar/Fermion Theories}}$ 
 
 ###  $\textbf{{\color{#5BC0EB}Continuous Variable Quantum Computing}}$ 
 
@@ -1777,7 +1686,7 @@
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1706722"> James Ingoldby</a>, <a href="https://inspirehep.net/authors/1045921"> Michael Spannowsky</a>, <a href="https://inspirehep.net/authors/2918997"> Timur Sypchenko</a>, <a href="https://inspirehep.net/authors/1821879"> Simon Williams</a>, <a href="https://inspirehep.net/authors/983407"> Matthew Wingate</a>
 + <strong>Posted on <a href="https://arxiv.org/abs/2505.03878">arXiv:2505.03878</a>:</strong> 06 May 2025</details>
 
-##  $\textbf{{\color{#9BC53D}Lattice Gauge Theories}}$ 
+##  $\textbf{{\color{#9BC53D}Lattice Field Theories - Gauge Theories}}$ 
 
 ###  $\textbf{{\color{#5BC0EB}Quantum Algorithms - Quantum Simulations}}$ 
 
@@ -2070,6 +1979,72 @@
 
 
 
+##  $\textbf{{\color{#9BC53D}Lattice Field Theories - Schwinger Model}}$ 
+
+###  $\textbf{{\color{#5BC0EB}Quantum Algorithms - Quantum Simulations}}$ 
+
+<details>
+<summary> (2013) <b>Quantum simulation of a lattice Schwinger model in a chain of trapped ions</b> [<a href="https://arxiv.org/abs/1306.2162">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevX.3.041018">DOI</a>] [<a href="https://inspirehep.net/literature/1237921">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1272244"> Philipp Hauke</a>, <a href="https://inspirehep.net/authors/2342388"> David Marcos</a>, <a href="https://inspirehep.net/authors/1272246"> Marcello Dalmonte</a>, <a href="https://inspirehep.net/authors/1029405"> Peter Zoller</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/1306.2162">arXiv:1306.2162</a>:</strong> 10 June 2013 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevX.3.041018">Phys.Rev.X</a>:</strong> 22 November 2013</details>
+
+<details>
+<summary> (2020) <b>Quantum Algorithms for Simulating the Lattice Schwinger Model</b> [<a href="https://arxiv.org/abs/2002.11146">arXiv</a>] [<a href="https://doi.org/10.22331/q-2020-08-10-306">DOI</a>] [<a href="https://inspirehep.net/literature/1782360">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1059168"> Alexander F. Shaw</a>, <a href="https://inspirehep.net/authors/1965128"> Pavel Lougovski</a>, <a href="https://inspirehep.net/authors/1589984"> Jesse R. Stryker</a>, <a href="https://inspirehep.net/authors/1918812"> Nathan Wiebe</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2002.11146">arXiv:2002.11146</a>:</strong> 25 February 2020 
++ <strong>Published in <a href="https://doi.org/10.22331/q-2020-08-10-306">Quantum 4, 306 (2020)</a>:</strong> 10 August 2020</details>
+
+<details>
+<summary> (2023) <b>Scalable Circuits for Preparing Ground States on Digital Quantum Computers: The Schwinger Model Vacuum on 100 Qubits</b> [<a href="https://arxiv.org/abs/2308.04481">arXiv</a>] [<a href="https://doi.org/10.1103/PRXQuantum.5.020315">DOI</a>] [<a href="https://inspirehep.net/literature/2686627">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1897377"> Roland C. Farrell</a>, <a href="https://inspirehep.net/authors/1789348"> Marc Illa</a>, <a href="https://inspirehep.net/authors/1991920"> Anthony N. Ciavarella</a>, <a href="https://inspirehep.net/authors/990160"> Martin J. Savage</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2308.04481">arXiv:2308.04481</a>:</strong> 08 August 2023 
++ <strong>Published in <a href="https://doi.org/10.1103/PRXQuantum.5.020315">PRX Quantum 5 (2024) 2, 020315</a>:</strong> 01 April 2024</details>
+
+<details>
+<summary> (2024) <b>Steps toward quantum simulations of hadronization and energy loss in dense matter</b> [<a href="https://arxiv.org/abs/2405.06620">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevC.111.015202">DOI</a>] [<a href="https://inspirehep.net/literature/2785266">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1897377"> Roland C. Farrell</a>, <a href="https://inspirehep.net/authors/1789348"> Marc Illa</a>, <a href="https://inspirehep.net/authors/990160"> Martin J. Savage</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2405.06620">arXiv:2405.06620</a>:</strong> 10 May 2024 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevC.111.015202">Phys.Rev.C 111 (2025) 1, 015202</a>:</strong> 14 January 2025</details>
+
+<details>
+<summary> (2024) <b>Enhancing quantum field theory simulations on NISQ devices with Hamiltonian truncation</b> [<a href="https://arxiv.org/abs/2407.19022">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.110.096016">DOI</a>] [<a href="https://inspirehep.net/literature/2811633">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1706722"> James Ingoldby</a>, <a href="https://inspirehep.net/authors/1045921"> Michael Spannowsky</a>, <a href="https://inspirehep.net/authors/2918997"> Timur Sypchenko</a>, <a href="https://inspirehep.net/authors/1821879"> Simon Williams</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2407.19022">arXiv:2407.19022</a>:</strong> 26 July 2024 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.110.096016">Phys. Rev. D 110 (2024), 096016</a>:</strong> 01 November 2024</details>
+
+###  $\textbf{{\color{#5BC0EB}Quantum Machine Learning - Variational Quantum Algorithms}}$ 
+
+<details>
+<summary> (2018) <b>Quantum-classical computation of Schwinger model dynamics using quantum computers</b> [<a href="https://arxiv.org/abs/1803.03326">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevA.98.032331">DOI</a>] [<a href="https://inspirehep.net/literature/1659289">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1722450"> N. Klco</a>, <a href="https://inspirehep.net/authors/1957262"> E.F. Dumitrescu</a>, <a href="https://inspirehep.net/authors/1955549"> A.J. McCaskey</a>, <a href="https://inspirehep.net/authors/2089113"> T.D. Morris</a>, <a href="https://inspirehep.net/authors/1959740"> R.C. Pooser</a>, <a href="https://inspirehep.net/authors/1969035"> M. Sanz</a>, <a href="https://inspirehep.net/authors/1916026"> E. Solano</a>, <a href="https://inspirehep.net/authors/1965128"> P. Lougovski</a>, <a href="https://inspirehep.net/authors/990160"> M.J. Savage</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/1803.03326">arXiv:1803.03326</a>:</strong> 08 March 2018 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevA.98.032331">Phys. Rev. A 98, 032331 (2018)</a>:</strong> 29 September 2018</details>
+
+<details>
+<summary> (2023) <b>Quantum-Classical Simulation of Quantum Field Theory by Quantum Circuit Learning</b> [<a href="https://arxiv.org/abs/2311.16297">arXiv</a>] [<a href="https://doi.org/10.1002/andp.202400415">DOI</a>] [<a href="https://inspirehep.net/literature/2727388">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1615818"> Kazuki Ikeda</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2311.16297">arXiv:2311.16297</a>:</strong> 27 November 2023 
++ <strong>Published in <a href="https://doi.org/10.1002/andp.202400415">Annalen Phys.</a>:</strong> 01 June 2025</details>
+
+###  $\textbf{{\color{#5BC0EB}Crosslists}}$ 
+
+<details>
+<summary> (2023) <b>Quantum data learning for quantum simulations in high-energy physics</b> [<a href="https://arxiv.org/abs/2306.17214">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevResearch.5.043250">DOI</a>] [<a href="https://inspirehep.net/literature/2673374">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1806317"> Lento Nagano</a>, <a href="https://inspirehep.net/authors/2003006"> Alexander Miessen</a>, <a href="https://inspirehep.net/authors/2007702"> Tamiya Onodera</a>, <a href="https://inspirehep.net/authors/1918765"> Ivano Tavernelli</a>, <a href="https://inspirehep.net/authors/1963538"> Francesco Tacchino</a>, <a href="https://inspirehep.net/authors/986339"> Koji Terashi</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2306.17214">arXiv:2306.17214</a>:</strong> 29 June 2023 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevResearch.5.043250">Phys.Rev.Res.</a>:</strong> 15 December 2023</details>
+
+
+
 ##  $\textbf{{\color{#9BC53D}Quantum Chromodynamics}}$ 
 
 ###  $\textbf{{\color{#5BC0EB}Quantum Algorithms - Quantum Simulations}}$ 
@@ -2239,72 +2214,6 @@
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1017290"> Alan J. Barr</a>, <a href="https://inspirehep.net/authors/1010482"> Marco Fabbrichesi</a>, <a href="https://inspirehep.net/authors/1009800"> Roberto Floreanini</a>, <a href="https://inspirehep.net/authors/1009120"> Emidio Gabrielli</a>, <a href="https://inspirehep.net/authors/1273305"> Luca Marzola</a>
 + <strong>Posted on <a href="https://arxiv.org/abs/2402.07972">arXiv:2402.07972</a>:</strong> 12 February 2024 
 + <strong>Published in <a href="https://doi.org/10.1016/j.ppnp.2024.104134">Prog.Part.Nucl.Phys.</a>:</strong> 19 July 2024</details>
-
-
-
-##  $\textbf{{\color{#9BC53D}Schwinger Model}}$ 
-
-###  $\textbf{{\color{#5BC0EB}Quantum Algorithms - Quantum Simulations}}$ 
-
-<details>
-<summary> (2013) <b>Quantum simulation of a lattice Schwinger model in a chain of trapped ions</b> [<a href="https://arxiv.org/abs/1306.2162">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevX.3.041018">DOI</a>] [<a href="https://inspirehep.net/literature/1237921">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1272244"> Philipp Hauke</a>, <a href="https://inspirehep.net/authors/2342388"> David Marcos</a>, <a href="https://inspirehep.net/authors/1272246"> Marcello Dalmonte</a>, <a href="https://inspirehep.net/authors/1029405"> Peter Zoller</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/1306.2162">arXiv:1306.2162</a>:</strong> 10 June 2013 
-+ <strong>Published in <a href="https://doi.org/10.1103/PhysRevX.3.041018">Phys.Rev.X</a>:</strong> 22 November 2013</details>
-
-<details>
-<summary> (2020) <b>Quantum Algorithms for Simulating the Lattice Schwinger Model</b> [<a href="https://arxiv.org/abs/2002.11146">arXiv</a>] [<a href="https://doi.org/10.22331/q-2020-08-10-306">DOI</a>] [<a href="https://inspirehep.net/literature/1782360">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1059168"> Alexander F. Shaw</a>, <a href="https://inspirehep.net/authors/1965128"> Pavel Lougovski</a>, <a href="https://inspirehep.net/authors/1589984"> Jesse R. Stryker</a>, <a href="https://inspirehep.net/authors/1918812"> Nathan Wiebe</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2002.11146">arXiv:2002.11146</a>:</strong> 25 February 2020 
-+ <strong>Published in <a href="https://doi.org/10.22331/q-2020-08-10-306">Quantum 4, 306 (2020)</a>:</strong> 10 August 2020</details>
-
-<details>
-<summary> (2023) <b>Scalable Circuits for Preparing Ground States on Digital Quantum Computers: The Schwinger Model Vacuum on 100 Qubits</b> [<a href="https://arxiv.org/abs/2308.04481">arXiv</a>] [<a href="https://doi.org/10.1103/PRXQuantum.5.020315">DOI</a>] [<a href="https://inspirehep.net/literature/2686627">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1897377"> Roland C. Farrell</a>, <a href="https://inspirehep.net/authors/1789348"> Marc Illa</a>, <a href="https://inspirehep.net/authors/1991920"> Anthony N. Ciavarella</a>, <a href="https://inspirehep.net/authors/990160"> Martin J. Savage</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2308.04481">arXiv:2308.04481</a>:</strong> 08 August 2023 
-+ <strong>Published in <a href="https://doi.org/10.1103/PRXQuantum.5.020315">PRX Quantum 5 (2024) 2, 020315</a>:</strong> 01 April 2024</details>
-
-<details>
-<summary> (2024) <b>Steps toward quantum simulations of hadronization and energy loss in dense matter</b> [<a href="https://arxiv.org/abs/2405.06620">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevC.111.015202">DOI</a>] [<a href="https://inspirehep.net/literature/2785266">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1897377"> Roland C. Farrell</a>, <a href="https://inspirehep.net/authors/1789348"> Marc Illa</a>, <a href="https://inspirehep.net/authors/990160"> Martin J. Savage</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2405.06620">arXiv:2405.06620</a>:</strong> 10 May 2024 
-+ <strong>Published in <a href="https://doi.org/10.1103/PhysRevC.111.015202">Phys.Rev.C 111 (2025) 1, 015202</a>:</strong> 14 January 2025</details>
-
-<details>
-<summary> (2024) <b>Enhancing quantum field theory simulations on NISQ devices with Hamiltonian truncation</b> [<a href="https://arxiv.org/abs/2407.19022">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.110.096016">DOI</a>] [<a href="https://inspirehep.net/literature/2811633">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1706722"> James Ingoldby</a>, <a href="https://inspirehep.net/authors/1045921"> Michael Spannowsky</a>, <a href="https://inspirehep.net/authors/2918997"> Timur Sypchenko</a>, <a href="https://inspirehep.net/authors/1821879"> Simon Williams</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2407.19022">arXiv:2407.19022</a>:</strong> 26 July 2024 
-+ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.110.096016">Phys. Rev. D 110 (2024), 096016</a>:</strong> 01 November 2024</details>
-
-###  $\textbf{{\color{#5BC0EB}Quantum Machine Learning - Variational Quantum Algorithms}}$ 
-
-<details>
-<summary> (2018) <b>Quantum-classical computation of Schwinger model dynamics using quantum computers</b> [<a href="https://arxiv.org/abs/1803.03326">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevA.98.032331">DOI</a>] [<a href="https://inspirehep.net/literature/1659289">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1722450"> N. Klco</a>, <a href="https://inspirehep.net/authors/1957262"> E.F. Dumitrescu</a>, <a href="https://inspirehep.net/authors/1955549"> A.J. McCaskey</a>, <a href="https://inspirehep.net/authors/2089113"> T.D. Morris</a>, <a href="https://inspirehep.net/authors/1959740"> R.C. Pooser</a>, <a href="https://inspirehep.net/authors/1969035"> M. Sanz</a>, <a href="https://inspirehep.net/authors/1916026"> E. Solano</a>, <a href="https://inspirehep.net/authors/1965128"> P. Lougovski</a>, <a href="https://inspirehep.net/authors/990160"> M.J. Savage</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/1803.03326">arXiv:1803.03326</a>:</strong> 08 March 2018 
-+ <strong>Published in <a href="https://doi.org/10.1103/PhysRevA.98.032331">Phys. Rev. A 98, 032331 (2018)</a>:</strong> 29 September 2018</details>
-
-<details>
-<summary> (2023) <b>Quantum-Classical Simulation of Quantum Field Theory by Quantum Circuit Learning</b> [<a href="https://arxiv.org/abs/2311.16297">arXiv</a>] [<a href="https://doi.org/10.1002/andp.202400415">DOI</a>] [<a href="https://inspirehep.net/literature/2727388">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1615818"> Kazuki Ikeda</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2311.16297">arXiv:2311.16297</a>:</strong> 27 November 2023 
-+ <strong>Published in <a href="https://doi.org/10.1002/andp.202400415">Annalen Phys.</a>:</strong> 01 June 2025</details>
-
-###  $\textbf{{\color{#5BC0EB}Crosslists}}$ 
-
-<details>
-<summary> (2023) <b>Quantum data learning for quantum simulations in high-energy physics</b> [<a href="https://arxiv.org/abs/2306.17214">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevResearch.5.043250">DOI</a>] [<a href="https://inspirehep.net/literature/2673374">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1806317"> Lento Nagano</a>, <a href="https://inspirehep.net/authors/2003006"> Alexander Miessen</a>, <a href="https://inspirehep.net/authors/2007702"> Tamiya Onodera</a>, <a href="https://inspirehep.net/authors/1918765"> Ivano Tavernelli</a>, <a href="https://inspirehep.net/authors/1963538"> Francesco Tacchino</a>, <a href="https://inspirehep.net/authors/986339"> Koji Terashi</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2306.17214">arXiv:2306.17214</a>:</strong> 29 June 2023 
-+ <strong>Published in <a href="https://doi.org/10.1103/PhysRevResearch.5.043250">Phys.Rev.Res.</a>:</strong> 15 December 2023</details>
 
 
 
