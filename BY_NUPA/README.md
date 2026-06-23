@@ -578,15 +578,16 @@
 <details>
 <summary> (2025) <b>Detecting Dark Matter Using Optically Trapped Rydberg Atom Tweezer Arrays</b> [<a href="https://arxiv.org/abs/2507.12860">arXiv</a>] [<a href="https://doi.org/10.1103/s41f-6nw2">DOI</a>] [<a href="https://inspirehep.net/literature/2948322">INSPIRE</a>] <code>Expand</code> </summary>
 
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1474093"> So Chigusa</a>, <a href="https://inspirehep.net/authors/2948323"> Taiyo Kasamaki</a>, <a href="https://inspirehep.net/authors/2113595"> Toshi Kusano</a>, <a href="https://inspirehep.net/authors/996781"> Takeo Moroi</a>, <a href="https://inspirehep.net/authors/1060297"> Kazunori Nakayama</a>, <a href="https://inspirehep.net/authors/1909946"> Naoya Ozawa</a>, <a href="https://inspirehep.net/authors/1479290"> Yoshiro Takahashi</a>, <a href="https://inspirehep.net/authors/2009675"> Atsuhiro Umemoto</a>, <a href="https://inspirehep.net/authors/2115432"> Amar Vutha</a>
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1474093"> So Chigusa</a>, <a href="https://inspirehep.net/authors/3167489"> Taiyo Kasamaki</a>, <a href="https://inspirehep.net/authors/2113595"> Toshi Kusano</a>, <a href="https://inspirehep.net/authors/996781"> Takeo Moroi</a>, <a href="https://inspirehep.net/authors/1060297"> Kazunori Nakayama</a>, <a href="https://inspirehep.net/authors/1909946"> Naoya Ozawa</a>, <a href="https://inspirehep.net/authors/1479290"> Yoshiro Takahashi</a>, <a href="https://inspirehep.net/authors/2009675"> Atsuhiro Umemoto</a>, <a href="https://inspirehep.net/authors/2115432"> Amar Vutha</a>
 + <strong>Posted on <a href="https://arxiv.org/abs/2507.12860">arXiv:2507.12860</a>:</strong> 17 July 2025 
 + <strong>Published in <a href="https://doi.org/10.1103/s41f-6nw2">Phys. Rev. Lett. 136, 151801 (2026)</a>:</strong> 14 April 2026</details>
 
 <details>
-<summary> (2025) <b>Superradiant Interactions for Relic Detection with Entangled Nuclear Spins</b> [<a href="https://arxiv.org/abs/2508.20520">arXiv</a>] [<a href="https://inspirehep.net/literature/2964571">INSPIRE</a>] <code>Expand</code><br> </summary>
+<summary> (2025) <b>Superradiant interactions for relic detection with entangled nuclear spins</b> [<a href="https://arxiv.org/abs/2508.20520">arXiv</a>] [<a href="https://doi.org/10.1103/z2d9-4gv6">DOI</a>] [<a href="https://inspirehep.net/literature/2964571">INSPIRE</a>] <code>Expand</code> </summary>
 
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1774098"> Marios Galanis</a>, <a href="https://inspirehep.net/authors/1880880"> Onur Hosten</a>, <a href="https://inspirehep.net/authors/1042861"> Asimina Arvanitaki</a>, <a href="https://inspirehep.net/authors/1011762"> Savas Dimopoulos</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2508.20520">arXiv:2508.20520</a>:</strong> 28 August 2025</details>
++ <strong>Posted on <a href="https://arxiv.org/abs/2508.20520">arXiv:2508.20520</a>:</strong> 28 August 2025 
++ <strong>Published in <a href="https://doi.org/10.1103/z2d9-4gv6">Phys.Rev.A</a>:</strong> 10 June 2026</details>
 
 <details>
 <summary> (2025) <b>On the Speed-up of Wave-like Dark Matter Searches with Entangled Qubits</b> [<a href="https://arxiv.org/abs/2510.11795">arXiv</a>] [<a href="https://inspirehep.net/literature/3069163">INSPIRE</a>] <code>Expand</code><br> </summary>
@@ -1093,10 +1094,11 @@
 ###  $\textbf{{\color{#5BC0EB}Continuous Variable Quantum Computing}}$ 
 
 <details>
-<summary> (2025) <b>Continuous-variable photonic quantum extreme learning machines for fast collider-data selection</b> [<a href="https://arxiv.org/abs/2510.13994">arXiv</a>] [<a href="https://inspirehep.net/literature/3070428">INSPIRE</a>] <code>Expand</code><br> </summary>
+<summary> (2025) <b>Continuous-variable photonic quantum extreme learning machines for fast collider-data selection</b> [<a href="https://arxiv.org/abs/2510.13994">arXiv</a>] [<a href="https://doi.org/10.1140/epjqt/s40507-026-00507-w">DOI</a>] [<a href="https://inspirehep.net/literature/3070428">INSPIRE</a>] <code>Expand</code> </summary>
 
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1210078"> Benedikt Maier</a>, <a href="https://inspirehep.net/authors/1045921"> Michael Spannowsky</a>, <a href="https://inspirehep.net/authors/1821879"> Simon Williams</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2510.13994">arXiv:2510.13994</a>:</strong> 15 October 2025</details>
++ <strong>Posted on <a href="https://arxiv.org/abs/2510.13994">arXiv:2510.13994</a>:</strong> 15 October 2025 
++ <strong>Published in <a href="https://doi.org/10.1140/epjqt/s40507-026-00507-w">EPJ Quant.Technol.</a>:</strong> 27 April 2026</details>
 
 ###  $\textbf{{\color{#5BC0EB}Quantum Algorithms - Grover's Search Algorithm}}$ 
 
