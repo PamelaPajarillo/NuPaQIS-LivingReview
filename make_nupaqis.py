@@ -37,13 +37,17 @@ OUTPUT_FILE_MAIN.write("##  $\\textbf{\color{#9BC53D}{Quantum Information Scienc
 list_subcategories_to_md(OUTPUT_FILE_MAIN, categories_qis, descrip_qis, "QIS")
 
 # ***** PLOT -----------------------------------------------------------------------
+histogram_by_year(df)
 plot_2D_nupaqis_heatmap(df, categories_nupa, categories_qis, heatmap_nupa, heatmap_qis)
 plot_histogram(df, "NUPA")
 plot_histogram(df, "QIS")
+
 OUTPUT_FILE_MAIN.write("## Number of Papers in NuPaQIS\n\n")
 OUTPUT_FILE_MAIN.write("![NUPAQIS_Heatmap](NUPAQIS_2D_Heatmap.png)\n\n")
 OUTPUT_FILE_MAIN.write("![NUPA_Histogram](NUPA_Histogram.png)\n\n")
 OUTPUT_FILE_MAIN.write("![NUPA_Histogram](QIS_Histogram.png)\n\n")
+OUTPUT_FILE_MAIN.write("![NUPAQIS_Year](NUPAQIS_Year.png)\n\n")
+
 
 OUTPUT_FILE_MAIN.close()
 

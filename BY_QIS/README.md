@@ -39,7 +39,7 @@
 
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1419876"> Lena Funcke</a>, <a href="https://inspirehep.net/authors/1277625"> Tobias Hartung</a>, <a href="https://inspirehep.net/authors/1004503"> Karl Jansen</a>, <a href="https://inspirehep.net/authors/1885408"> Stefan Kühn</a>
 + <strong>Posted on <a href="https://arxiv.org/abs/2302.00467">arXiv:2302.00467</a>:</strong> 01 February 2023 
-+ <strong>Published in <a href="https://doi.org/10.22323/1.430.0228">PoS</a>:</strong> 01 February 2023</details>
++ <strong>Published in <a href="https://doi.org/10.22323/1.430.0228">nan</a>:</strong> 01 February 2023</details>
 
 <details>
 <summary> (2023) <b>Machine learning for anomaly detection in particle physics</b> [<a href="https://arxiv.org/abs/2312.14190">arXiv</a>] [<a href="https://doi.org/10.1016/j.revip.2024.100091">DOI</a>] [<a href="https://inspirehep.net/literature/2740326">INSPIRE</a>] <code>Expand</code> </summary>
@@ -674,7 +674,7 @@
 
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1419876"> Lena Funcke</a>, <a href="https://inspirehep.net/authors/1277625"> Tobias Hartung</a>, <a href="https://inspirehep.net/authors/1004503"> Karl Jansen</a>, <a href="https://inspirehep.net/authors/1885408"> Stefan Kühn</a>
 + <strong>Posted on <a href="https://arxiv.org/abs/2302.00467">arXiv:2302.00467</a>:</strong> 01 February 2023 
-+ <strong>Published in <a href="https://doi.org/10.22323/1.430.0228">PoS</a>:</strong> 01 February 2023</details>
++ <strong>Published in <a href="https://doi.org/10.22323/1.430.0228">nan</a>:</strong> 01 February 2023</details>
 
 
 
@@ -1107,7 +1107,7 @@
 
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1918516"> Vasileios Belis</a>, <a href="https://inspirehep.net/authors/2594507"> Samuel González-Castillo</a>, <a href="https://inspirehep.net/authors/1671459"> Christina Reissel</a>, <a href="https://inspirehep.net/authors/1028732"> Sofia Vallecorsa</a>, <a href="https://inspirehep.net/authors/2072249"> Elías F. Combarro</a>, <a href="https://inspirehep.net/authors/1011717"> Günther Dissertori</a>, <a href="https://inspirehep.net/authors/1904638"> Florentin Reiter</a>
 + <strong>Posted on <a href="https://arxiv.org/abs/2104.07692">arXiv:2104.07692</a>:</strong> 15 April 2021 
-+ <strong>Published in <a href="https://doi.org/10.1051/epjconf/202125103070">EPJ Web Conf.</a>:</strong> 2021</details>
++ <strong>Published in <a href="https://doi.org/10.1051/epjconf/202125103070">nan</a>:</strong> 2021</details>
 
 <details>
 <summary> (2024) <b>Enforcing exact permutation and rotational symmetries in the application of quantum neural networks on point cloud datasets</b> [<a href="https://arxiv.org/abs/2405.11150">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevResearch.6.043028">DOI</a>] [<a href="https://inspirehep.net/literature/2788456">INSPIRE</a>] <code>Expand</code> </summary>
@@ -1215,7 +1215,7 @@
 
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/2043493"> Su Yeon Chang</a>, <a href="https://inspirehep.net/authors/2089216"> Edwin Agnew</a>, <a href="https://inspirehep.net/authors/2072249"> Elías F. Combarro</a>, <a href="https://inspirehep.net/authors/1990556"> Michele Grossi</a>, <a href="https://inspirehep.net/authors/1987778"> Steven Herbert</a>, <a href="https://inspirehep.net/authors/1028732"> Sofia Vallecorsa</a>
 + <strong>Posted on <a href="https://arxiv.org/abs/2205.15003">arXiv:2205.15003</a>:</strong> 30 May 2022 
-+ <strong>Published in <a href="https://doi.org/10.1088/1742-6596/2438/1/012062">J.Phys.Conf.Ser.</a>:</strong> 2023</details>
++ <strong>Published in <a href="https://doi.org/10.1088/1742-6596/2438/1/012062">nan</a>:</strong> 2023</details>
 
 <details>
 <summary> (2023) <b>Precise image generation on current noisy quantum computing devices</b> [<a href="https://arxiv.org/abs/2307.05253">arXiv</a>] [<a href="https://doi.org/10.1088/2058-9565/ad0389">DOI</a>] [<a href="https://inspirehep.net/literature/2675992">INSPIRE</a>] <code>Expand</code> </summary>
@@ -1417,7 +1417,7 @@
 
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1039163"> Masahito Yamazaki</a>
 + <strong>Posted on <a href="https://arxiv.org/abs/2502.18059">arXiv:2502.18059</a>:</strong> 25 February 2025 
-+ <strong>Published in <a href="https://doi.org/10.22323/1.483.0260">PoS</a>:</strong> 24 October 2025</details>
++ <strong>Published in <a href="https://doi.org/10.22323/1.483.0260">nan</a>:</strong> 24 October 2025</details>
 
 ###  $\textbf{{\color{#9BC53D}Jet Reconstruction}}$ 
 
@@ -1474,7 +1474,7 @@
 
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1419876"> Lena Funcke</a>, <a href="https://inspirehep.net/authors/1277625"> Tobias Hartung</a>, <a href="https://inspirehep.net/authors/1006303"> Beate Heinemann</a>, <a href="https://inspirehep.net/authors/1004503"> Karl Jansen</a>, <a href="https://inspirehep.net/authors/2032056"> Annabel Kropf</a>, <a href="https://inspirehep.net/authors/1885408"> Stefan Kühn</a>, <a href="https://inspirehep.net/authors/1074063"> Federico Meloni</a>, <a href="https://inspirehep.net/authors/2032058"> David Spataro</a>, <a href="https://inspirehep.net/authors/1776884"> Cenk Tüysüz</a>, <a href="https://inspirehep.net/authors/1322811"> Yee Chinn Yap</a>
 + <strong>Posted on <a href="https://arxiv.org/abs/2202.06874">arXiv:2202.06874</a>:</strong> 14 February 2022 
-+ <strong>Published in <a href="https://doi.org/10.1088/1742-6596/2438/1/012127">J.Phys.Conf.Ser.</a>:</strong> 2023</details>
++ <strong>Published in <a href="https://doi.org/10.1088/1742-6596/2438/1/012127">nan</a>:</strong> 2023</details>
 
 <details>
 <summary> (2023) <b>Particle track reconstruction with noisy intermediate-scale quantum computers</b> [<a href="https://arxiv.org/abs/2303.13249">arXiv</a>] [<a href="https://doi.org/10.1088/1742-6596/3206/1/012100">DOI</a>] [<a href="https://inspirehep.net/literature/2645184">INSPIRE</a>] <code>Expand</code> </summary>
@@ -1523,7 +1523,7 @@
 
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1918516"> Vasileios Belis</a>, <a href="https://inspirehep.net/authors/2594507"> Samuel González-Castillo</a>, <a href="https://inspirehep.net/authors/1671459"> Christina Reissel</a>, <a href="https://inspirehep.net/authors/1028732"> Sofia Vallecorsa</a>, <a href="https://inspirehep.net/authors/2072249"> Elías F. Combarro</a>, <a href="https://inspirehep.net/authors/1011717"> Günther Dissertori</a>, <a href="https://inspirehep.net/authors/1904638"> Florentin Reiter</a>
 + <strong>Posted on <a href="https://arxiv.org/abs/2104.07692">arXiv:2104.07692</a>:</strong> 15 April 2021 
-+ <strong>Published in <a href="https://doi.org/10.1051/epjconf/202125103070">EPJ Web Conf.</a>:</strong> 2021</details>
++ <strong>Published in <a href="https://doi.org/10.1051/epjconf/202125103070">nan</a>:</strong> 2021</details>
 
 
 
@@ -1830,7 +1830,7 @@
 
 
 <details>
-<summary> (2025) <b>Quantum Error Correction-like Noise Mitigation for Wave-like Dark Matter Searches with Quantum Sensors</b> [<a href="https://arxiv.org/abs/2511.03253">arXiv</a>] [<a href="https://inspirehep.net/literature/3079074">INSPIRE</a>] <code>Expand</code><br> </summary>
+<summary> (2025) <b>Quantum Error Correction-like Noise Mitigation for Wave-like Dark Matter Searches with Quantum Sensors</b> [<a href="https://arxiv.org/abs/2511.03253">arXiv</a>] [<a href="https://doi.org/10.1103/yxld-zwpq">DOI</a>] [<a href="https://inspirehep.net/literature/3079074">INSPIRE</a>] <code>Expand</code> </summary>
 
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1329898"> Hajime Fukuda</a>, <a href="https://inspirehep.net/authors/996781"> Takeo Moroi</a>, <a href="https://inspirehep.net/authors/2680252"> Thanaporn Sichanugrist</a>
 + <strong>Posted on <a href="https://arxiv.org/abs/2511.03253">arXiv:2511.03253</a>:</strong> 05 November 2025</details>
@@ -1930,7 +1930,7 @@
 + <strong>Posted on <a href="https://arxiv.org/abs/2510.26754">arXiv:2510.26754</a>:</strong> 30 October 2025</details>
 
 <details>
-<summary> (2025) <b>Quantum Error Correction-like Noise Mitigation for Wave-like Dark Matter Searches with Quantum Sensors</b> [<a href="https://arxiv.org/abs/2511.03253">arXiv</a>] [<a href="https://inspirehep.net/literature/3079074">INSPIRE</a>] <code>Expand</code><br> </summary>
+<summary> (2025) <b>Quantum Error Correction-like Noise Mitigation for Wave-like Dark Matter Searches with Quantum Sensors</b> [<a href="https://arxiv.org/abs/2511.03253">arXiv</a>] [<a href="https://doi.org/10.1103/yxld-zwpq">DOI</a>] [<a href="https://inspirehep.net/literature/3079074">INSPIRE</a>] <code>Expand</code> </summary>
 
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1329898"> Hajime Fukuda</a>, <a href="https://inspirehep.net/authors/996781"> Takeo Moroi</a>, <a href="https://inspirehep.net/authors/2680252"> Thanaporn Sichanugrist</a>
 + <strong>Posted on <a href="https://arxiv.org/abs/2511.03253">arXiv:2511.03253</a>:</strong> 05 November 2025</details>

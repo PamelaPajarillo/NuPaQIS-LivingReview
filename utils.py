@@ -188,18 +188,21 @@ def get_dataframe(yaml_file, categories_hep, categories_qis):
     
     def get_journal_doi(doi, metadata_doi):
         if doi != 'nan':
-            if len(metadata_doi['publication_info']) != 1:
-                full_journal_name = ''
-                for i in metadata_doi['publication_info']:
-                    if 'pubinfo_freetext' in i.keys():
-                        full_journal_name = i['pubinfo_freetext']
-                    elif 'journal_title' in i.keys():
-                        full_journal_name = i['journal_title']
-                return full_journal_name
-            elif 'pubinfo_freetext' in metadata_doi['publication_info'][0].keys():
-                return metadata_doi['publication_info'][0]['pubinfo_freetext']
-            elif 'journal_title' in metadata_doi['publication_info'][0].keys():
-                return metadata_doi['publication_info'][0]['journal_title']
+            if 'publication_info' in metadata_doi.keys():
+                if len(metadata_doi['publication_info']) != 1:
+                    full_journal_name = ''
+                    for i in metadata_doi['publication_info']:
+                        if 'pubinfo_freetext' in i.keys():
+                            full_journal_name = i['pubinfo_freetext']
+                        elif 'journal_title' in i.keys():
+                            full_journal_name = i['journal_title']
+                        else:
+                            return 'nan'
+                    return full_journal_name
+                elif 'pubinfo_freetext' in metadata_doi['publication_info'][0].keys():
+                    return metadata_doi['publication_info'][0]['pubinfo_freetext']
+                elif 'journal_title' in metadata_doi['publication_info'][0].keys():
+                    return metadata_doi['publication_info'][0]['journal_title']
             else:
                 return 'nan'
         else:
@@ -356,6 +359,36 @@ def plot_2D_nupaqis_heatmap(df, categories_nupa, categories_qis, heatmap_nupa, h
     plt.tight_layout()
     plt.savefig('NUPAQIS_2D_Heatmap.png', dpi=300)
     plt.close()
+
+def histogram_by_year(df):
+    years = pd.to_numeric(df['year'], errors='coerce').dropna().astype(int)
+    counts = years.value_counts().sort_index()
+    full_range = range(int(counts.index.min()), int(counts.index.max()) + 1)
+    counts = counts.reindex(full_range, fill_value=0)
+
+    sns.set_theme(style="whitegrid")
+    fig, ax = plt.subplots(figsize=(18, 8))
+
+    bars = ax.bar(counts.index, counts.values)
+    ax.set_xlabel("Year", fontsize=12)
+    ax.set_ylabel("Number of Papers", fontsize=12)
+    ax.set_title("Number of Papers in NuPaQIS by Year", fontsize=16, pad=20)
+    ax.set_xticks(list(counts.index))
+    ax.set_xticklabels(counts.index, rotation=45, ha='right', fontsize=10)
+    ax.margins(x=0.01)
+
+    # Value labels above each bar
+    for bar in bars:
+        height = bar.get_height()
+        if height > 0:
+            ax.text(bar.get_x() + bar.get_width() / 2,
+                    height + 0.3,
+                    str(int(height)),
+                    ha='center', va='bottom', fontsize=9)
+
+    fig.tight_layout()
+    fig.savefig("NUPAQIS_Year.png", dpi=300)
+    plt.close(fig)
 
 def list_subcategories_to_md(OUTPUT_FILE_MAIN, subcategories, description, run_type):
     textcolor = 'textbfcolor9bc53d' if run_type == 'NUPA' else 'textbfcolor5bc0eb'
