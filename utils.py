@@ -366,29 +366,29 @@ def histogram_by_year(df):
     full_range = range(int(counts.index.min()), int(counts.index.max()) + 1)
     counts = counts.reindex(full_range, fill_value=0)
 
-    sns.set_theme(style="whitegrid")
-    fig, ax = plt.subplots(figsize=(18, 8))
+    with sns.axes_style("whitegrid"):
+        fig, ax = plt.subplots(figsize=(18, 8))
 
-    bars = ax.bar(counts.index, counts.values)
-    ax.set_xlabel("Year", fontsize=12)
-    ax.set_ylabel("Number of Papers", fontsize=12)
-    ax.set_title("Number of Papers in NuPaQIS by Year", fontsize=16, pad=20)
-    ax.set_xticks(list(counts.index))
-    ax.set_xticklabels(counts.index, rotation=45, ha='right', fontsize=10)
-    ax.margins(x=0.01)
+        bars = ax.bar(counts.index, counts.values)
+        ax.set_xlabel("Year", fontsize=12)
+        ax.set_ylabel("Number of Papers", fontsize=12)
+        ax.set_title("Number of Papers in NuPaQIS by Year", fontsize=16, pad=20)
+        ax.set_xticks(list(counts.index))
+        ax.set_xticklabels(counts.index, rotation=45, ha='right', fontsize=10)
+        ax.margins(x=0.01)
 
-    # Value labels above each bar
-    for bar in bars:
-        height = bar.get_height()
-        if height > 0:
-            ax.text(bar.get_x() + bar.get_width() / 2,
-                    height + 0.3,
-                    str(int(height)),
-                    ha='center', va='bottom', fontsize=9)
+        # Value labels above each bar
+        for bar in bars:
+            height = bar.get_height()
+            if height > 0:
+                ax.text(bar.get_x() + bar.get_width() / 2,
+                        height + 0.3,
+                        str(int(height)),
+                        ha='center', va='bottom', fontsize=9)
 
-    fig.tight_layout()
-    fig.savefig("NUPAQIS_Year.png", dpi=300)
-    plt.close(fig)
+        fig.tight_layout()
+        fig.savefig("NUPAQIS_Year.png", dpi=300)
+        plt.close(fig)
 
 def list_subcategories_to_md(OUTPUT_FILE_MAIN, subcategories, description, run_type):
     textcolor = 'textbfcolor9bc53d' if run_type == 'NUPA' else 'textbfcolor5bc0eb'
