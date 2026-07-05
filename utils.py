@@ -292,7 +292,7 @@ def plot_histogram(df, run):
 
 def plot_2D_nupaqis_heatmap(df, categories_nupa, categories_qis, heatmap_nupa, heatmap_qis):
 
-    nupa_heatmap = ['Reviews and Whitepapers', 'Dark Matter', 'Spin Correlation in Particle Decays', 'Lattice Field Theories', 'Experimental Nuclear and Particle Physics', 'Theoretical Nuclear and Particle Physics']
+    nupa_heatmap = ['Reviews and Whitepapers', 'Dark Matter', 'Quantum Information in Collider Physics', 'Lattice Field Theories', 'Experimental Nuclear and Particle Physics', 'Theoretical Nuclear and Particle Physics']
     qis_heatmap = ['Reviews and Whitepapers', 'Quantum Sensors', 'Quantum Entanglement and Bell Inequalities', 'Quantum Simulations', 'Quantum Algorithms', 'Quantum Machine Learning']
     # Build the matrix
     heatmap_data = np.zeros((len(nupa_heatmap), len(qis_heatmap)))
