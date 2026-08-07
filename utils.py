@@ -274,9 +274,9 @@ def plot_histogram(df, run):
     bar_color = "skyblue" if run == 'NUPA' else "lightgreen"
     # Plot
     bars = plt.bar(counts.index, counts.values, color=bar_color)
-    plt.xlabel("%s Categories" % title, fontsize=12)
-    plt.ylabel("Number of Papers", fontsize=12)
-    plt.title("Number of Papers in the %s Category" % title, fontsize=16, pad=20)
+    plt.xlabel("%s Categories" % title, fontsize=13)
+    plt.ylabel("Number of Papers", fontsize=13)
+    plt.title("Number of Papers in the %s Category" % title, fontsize=15, pad=20)
     plt.xticks(rotation=75, ha='right', fontsize=10)
 
     # Add value labels above each bar
@@ -324,6 +324,8 @@ def plot_2D_nupaqis_heatmap(df, categories_nupa, categories_qis, heatmap_nupa, h
         ticks=np.arange(len(qis_heatmap)),
         labels=xlabels,
         rotation=45,
+        ha='right',
+        rotation_mode='anchor',
         fontsize=15,
     )
     plt.yticks(
@@ -371,7 +373,7 @@ def histogram_by_year(df):
         bars = ax.bar(counts.index, counts.values)
         ax.set_xlabel("Year", fontsize=20)
         ax.set_ylabel("Number of Papers", fontsize=20)
-        ax.set_title("Number of Papers in NuPaQIS by Year", fontsize=30, pad=20)
+        ax.set_title("Number of Papers in NuPaQIS by Year", fontsize=25, pad=20)
         ax.set_xticks(list(counts.index))
         ax.set_xticklabels(counts.index, rotation=45, ha='right', fontsize=15)
         ax.margins(x=0.01)
