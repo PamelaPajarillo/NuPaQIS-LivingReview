@@ -292,7 +292,7 @@ def plot_histogram(df, run):
 
 def plot_2D_nupaqis_heatmap(df, categories_nupa, categories_qis, heatmap_nupa, heatmap_qis):
 
-    nupa_heatmap = ['Reviews and Whitepapers', 'Dark Matter', 'Quantum Information in Collider Physics', 'Lattice Field Theories', 'Experimental Nuclear and Particle Physics', 'Theoretical Nuclear and Particle Physics']
+    nupa_heatmap = ['Reviews and Whitepapers', 'Dark Matter', 'Quantum Information in Collider Physics', 'Lattice Field Theories', 'Particle Physics', 'Nuclear Physics']
     qis_heatmap = ['Reviews and Whitepapers', 'Quantum Sensors', 'Quantum Entanglement and Bell Inequalities', 'Quantum Simulations', 'Quantum Algorithms', 'Quantum Machine Learning']
     # Build the matrix
     heatmap_data = np.zeros((len(nupa_heatmap), len(qis_heatmap)))
@@ -316,7 +316,7 @@ def plot_2D_nupaqis_heatmap(df, categories_nupa, categories_qis, heatmap_nupa, h
     plt.imshow(heatmap_data, cmap=cmap, norm=norm, aspect='auto')
 
     cbar = plt.colorbar(label='Number of Papers')
-    cbar.ax.tick_params(labelsize=12)
+    cbar.ax.tick_params(labelsize=15)
 
     xlabels = ["Reviews and Whitepapers", "Quantum Sensors", "Quantum Entanglement and \nBell Inequalities", "Quantum Simulations", "Quantum Algorithms", "Quantum Machine Learning"]
     # Axis labels
@@ -324,17 +324,16 @@ def plot_2D_nupaqis_heatmap(df, categories_nupa, categories_qis, heatmap_nupa, h
         ticks=np.arange(len(qis_heatmap)),
         labels=xlabels,
         rotation=45,
-        fontsize=10,
+        fontsize=15,
     )
     plt.yticks(
         ticks=np.arange(len(nupa_heatmap)),
         labels=nupa_heatmap,
-        fontsize=10
+        fontsize=15
     )
-    plt.xlabel('Quantum Information Science (QIS) Topics', fontsize=12)
-    plt.ylabel('Nuclear and Particle Physics (NuPa) Topics', fontsize=12)
-    plt.title('NuPa vs QIS Topics in NUPAQIS Living Review',
-              fontsize=16, pad=20)
+    plt.xlabel('Quantum Information Science (QIS) Topics', fontsize=20)
+    plt.ylabel('Nuclear and Particle Physics (NuPa) Topics', fontsize=20)
+    plt.title('NuPa vs QIS Topics in NUPAQIS Living Review', fontsize=30, pad=20)
 
     # Add numbers inside each cell
     for i in range(len(nupa_heatmap)):
@@ -370,11 +369,11 @@ def histogram_by_year(df):
         fig, ax = plt.subplots(figsize=(18, 8))
 
         bars = ax.bar(counts.index, counts.values)
-        ax.set_xlabel("Year", fontsize=12)
-        ax.set_ylabel("Number of Papers", fontsize=12)
-        ax.set_title("Number of Papers in NuPaQIS by Year", fontsize=16, pad=20)
+        ax.set_xlabel("Year", fontsize=20)
+        ax.set_ylabel("Number of Papers", fontsize=20)
+        ax.set_title("Number of Papers in NuPaQIS by Year", fontsize=30, pad=20)
         ax.set_xticks(list(counts.index))
-        ax.set_xticklabels(counts.index, rotation=45, ha='right', fontsize=10)
+        ax.set_xticklabels(counts.index, rotation=45, ha='right', fontsize=15)
         ax.margins(x=0.01)
 
         # Value labels above each bar
@@ -384,7 +383,7 @@ def histogram_by_year(df):
                 ax.text(bar.get_x() + bar.get_width() / 2,
                         height + 0.3,
                         str(int(height)),
-                        ha='center', va='bottom', fontsize=9)
+                        ha='center', va='bottom', fontsize=10)
 
         fig.tight_layout()
         fig.savefig("NUPAQIS_Year.png", dpi=300)
