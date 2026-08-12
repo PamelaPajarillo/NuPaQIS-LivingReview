@@ -1,5 +1,12 @@
 import sys
 import re
+import os
+import html
+import hashlib
+import functools
+import unicodedata
+import warnings
+import xml.etree.ElementTree as ET
 import pandas as pd
 from datetime import date
 import urllib3
@@ -10,6 +17,320 @@ import matplotlib.pyplot as plt
 import matplotlib.colors as colors
 import seaborn as sns
 
+# ---------------------------------------------------------------------------
+# LaTeX sanitization - Claude 
+# ---------------------------------------------------------------------------
+
+# TeX specials that must be escaped in text mode.
+_LATEX_SPECIALS = {
+    '\\': r'\textbackslash{}',
+    '&': r'\&',
+    '%': r'\%',
+    '$': r'\$',
+    '#': r'\#',
+    '_': r'\_',
+    '{': r'\{',
+    '}': r'\}',
+    '~': r'\textasciitilde{}',
+    '^': r'\textasciicircum{}',
+}
+
+# Unicode with no Latin Modern glyph, or that renders better as a TeX command.
+_UNICODE_MAP = {
+    '\u00a0': '~',        # no-break space
+    '\u2002': r'\,', '\u2003': r'\ ', '\u2005': r'\,',
+    '\u2008': r'\,', '\u2009': r'\,', '\u200a': r'\,',  # thin/hair spaces
+    '\u200b': '', '\ufeff': '',                          # zero-width
+    '\u2010': '-', '\u2011': '-', '\u2012': '--',
+    '\u2013': '--', '\u2014': '---',
+    '\u2018': '`', '\u2019': "'", '\u201c': '``', '\u201d': "''",
+    '\u2026': r'\ldots{}',
+    '\u2212': r'$-$', '\u00b1': r'$\pm$', '\u00d7': r'$\times$',
+    '\u00b7': r'$\cdot$', '\u2248': r'$\approx$', '\u2260': r'$\neq$',
+    '\u2264': r'$\leq$', '\u2265': r'$\geq$', '\u221e': r'$\infty$',
+    '\u2192': r'$\to$', '\u2032': r"$'$", '\u00b0': r'$^\circ$',
+    '\u00ae': r'\textregistered{}', '\u00a9': r'\copyright{}',
+}
+
+# Greek -> math mode. Latin Modern's roman faces have no Greek at all.
+_GREEK = {
+    'α': 'alpha', 'β': 'beta', 'γ': 'gamma', 'δ': 'delta', 'ε': 'epsilon',
+    'ζ': 'zeta', 'η': 'eta', 'θ': 'theta', 'ι': 'iota', 'κ': 'kappa',
+    'λ': 'lambda', 'μ': 'mu', 'ν': 'nu', 'ξ': 'xi', 'π': 'pi', 'ρ': 'rho',
+    'σ': 'sigma', 'τ': 'tau', 'υ': 'upsilon', 'φ': 'phi', 'χ': 'chi',
+    'ψ': 'psi', 'ω': 'omega',
+    'Γ': 'Gamma', 'Δ': 'Delta', 'Θ': 'Theta', 'Λ': 'Lambda', 'Ξ': 'Xi',
+    'Π': 'Pi', 'Σ': 'Sigma', 'Υ': 'Upsilon', 'Φ': 'Phi', 'Ψ': 'Psi',
+    'Ω': 'Omega',
+}
+_UNICODE_MAP.update({k: r'$\%s$' % v for k, v in _GREEK.items()})
+
+# Combining accents -> TeX accent commands, for the accents='tex' mode.
+_COMBINING = {
+    '\u0300': '`', '\u0301': "'", '\u0302': '^', '\u0303': '~',
+    '\u0304': '=', '\u0306': 'u', '\u0307': '.', '\u0308': '"',
+    '\u030a': 'r', '\u030b': 'H', '\u030c': 'v', '\u0327': 'c',
+    '\u0328': 'k', '\u0331': 'b',
+}
+_STANDALONE = {
+    'ł': r'\l{}', 'Ł': r'\L{}', 'ø': r'\o{}', 'Ø': r'\O{}',
+    'æ': r'\ae{}', 'Æ': r'\AE{}', 'œ': r'\oe{}', 'Œ': r'\OE{}',
+    'å': r'\aa{}', 'Å': r'\AA{}', 'ß': r'\ss{}', 'ı': r'\i{}',
+    'đ': r'\dj{}', 'Đ': r'\DJ{}', 'ð': r'\dh{}', 'þ': r'\th{}',
+}
+
+# Codepoints Latin Modern covers, so they can be passed through to LuaLaTeX.
+_SAFE_RANGES = ((0x00a1, 0x00ff), (0x0100, 0x017f), (0x0180, 0x024f))
+
+
+# Greek inside a MathML fragment is already in math mode, so it needs the bare
+# command without dollars. Without this, a raw beta reaches cmmi10 and vanishes.
+_GREEK_MATH = {k: '\\%s ' % v for k, v in _GREEK.items()}
+
+
+def _math_text(text):
+    """Map non-ASCII inside a math fragment to math-mode commands."""
+    return ''.join(_GREEK_MATH.get(c, c) for c in text)
+
+
+def _mathml_node_to_tex(node):
+    """Recursively convert one presentation-MathML node to a LaTeX fragment."""
+    tag = node.tag.split('}')[-1]          # drop any XML namespace
+    kids = [_mathml_node_to_tex(c) for c in node]
+    text = _math_text((node.text or '').strip())
+
+    if tag in ('math', 'mrow', 'mstyle', 'semantics'):
+        return ''.join(kids) if kids else text
+    if tag == 'mi':
+        if node.get('mathvariant') == 'double-struck':
+            return r'\mathbb{%s}' % text
+        if text.startswith('\\'):
+            return text            # already a math command, e.g. \beta
+        return r'\mathrm{%s}' % text if len(text) > 1 else text
+    if tag in ('mn', 'mo'):
+        return {'=': '=', '+': '+', '-': '-'}.get(text, text)
+    if tag == 'mtext':
+        return r'\text{%s}' % text if text else r'\,'
+    if tag == 'msub':
+        return '%s_{%s}' % (kids[0], kids[1]) if len(kids) > 1 else ''.join(kids)
+    if tag == 'msup':
+        return '%s^{%s}' % (kids[0], kids[1]) if len(kids) > 1 else ''.join(kids)
+    if tag == 'msubsup':
+        return '%s_{%s}^{%s}' % tuple(kids[:3]) if len(kids) > 2 else ''.join(kids)
+    if tag == 'msqrt':
+        return r'\sqrt{%s}' % ''.join(kids)
+    if tag == 'mfrac':
+        return r'\frac{%s}{%s}' % (kids[0], kids[1]) if len(kids) > 1 else ''.join(kids)
+    if tag == 'mfenced':
+        return r'\left(%s\right)' % ''.join(kids)
+    return ''.join(kids) if kids else text
+
+
+def _convert_mathml(fragment):
+    """Convert one <math>...</math> fragment to inline math, or strip it."""
+    try:
+        tex = _mathml_node_to_tex(ET.fromstring(fragment))
+    except ET.ParseError:
+        warnings.warn('Could not parse MathML, stripping tags: %s' % fragment[:60])
+        return re.sub(r'<[^>]+>', '', fragment)
+    tex = re.sub(r'\s+', ' ', tex).strip()
+    return '$%s$' % tex if tex else ''
+
+
+def _map_unicode(text, accents, context):
+    out = []
+    for ch in text:
+        if ord(ch) < 128:
+            out.append(ch)
+        elif ch in _UNICODE_MAP:
+            out.append(_UNICODE_MAP[ch])
+        elif accents == 'tex':
+            out.append(_to_tex_accent(ch, context))
+        elif any(lo <= ord(ch) <= hi for lo, hi in _SAFE_RANGES):
+            out.append(ch)                       # Latin Modern has this glyph
+        else:
+            warnings.warn(
+                'No LaTeX mapping for U+%04X (%s) in %r -- it may be dropped '
+                'silently from the PDF.'
+                % (ord(ch), unicodedata.name(ch, 'unnamed'), context[:60]))
+            out.append(ch)
+    return ''.join(out)
+
+
+def _to_tex_accent(ch, context):
+    """Decompose an accented letter into a TeX accent command."""
+    if ch in _STANDALONE:
+        return _STANDALONE[ch]
+    decomposed = unicodedata.normalize('NFD', ch)
+    if len(decomposed) == 2 and decomposed[1] in _COMBINING:
+        base, mark = decomposed
+        if base in 'ij':
+            base = r'\%s{}' % base           # dotless i/j under an accent
+        return r'\%s{%s}' % (_COMBINING[mark], base)
+    warnings.warn('No TeX accent for U+%04X (%s) in %r'
+                  % (ord(ch), unicodedata.name(ch, 'unnamed'), context[:60]))
+    return ch
+
+
+@functools.lru_cache(maxsize=8192)
+def sanitize_for_latex(text, accents='tex'):
+    if text is None:
+        return ''
+    text = str(text)
+    if text == 'nan':
+        return text
+
+    text = unicodedata.normalize('NFC', text)
+
+    # Split off <math> blocks so their LaTeX output is not re-escaped.
+    parts = re.split(r'(<math\b.*?</math\s*>)', text, flags=re.DOTALL | re.IGNORECASE)
+
+    out = []
+    for i, part in enumerate(parts):
+        if i % 2:                                   # a MathML fragment
+            out.append(_convert_mathml(part))
+            continue
+        part = re.sub(r'<[^>]+>', '', part)         # stray HTML tags
+        part = html.unescape(part)                  # &amp; -> & before escaping
+        part = ''.join(_LATEX_SPECIALS.get(c, c) for c in part)
+        out.append(_map_unicode(part, accents, text))
+
+    result = ''.join(out)
+    result = result.replace('$$', '')      # merge adjacent math runs
+    result = re.sub(r'(\\,){2,}', r'\\,', result)   # collapse repeated thin spaces
+    return re.sub(r'[ \t]+', ' ', result).strip()
+
+
+# ---------------------------------------------------------------------------
+# Markdown sanitization - from Claude Opus 5 
+# ---------------------------------------------------------------------------
+
+_SUBSCRIPT = str.maketrans(
+    '0123456789+-=()aehijklmnoprstuvx',
+    '₀₁₂₃₄₅₆₇₈₉₊₋₌₍₎ₐₑₕᵢⱼₖₗₘₙₒₚᵣₛₜᵤᵥₓ')
+_SUPERSCRIPT = str.maketrans(
+    '0123456789+-=()in', '⁰¹²³⁴⁵⁶⁷⁸⁹⁺⁻⁼⁽⁾ⁱⁿ')
+_DOUBLE_STRUCK = {
+    'C': 'ℂ', 'H': 'ℍ', 'N': 'ℕ', 'P': 'ℙ',
+    'Q': 'ℚ', 'R': 'ℝ', 'Z': 'ℤ',
+}
+# Markdown-active characters, as numeric entities so they survive inside HTML.
+_MD_ACTIVE = {'_': '&#95;', '*': '&#42;', '`': '&#96;',
+              '[': '&#91;', ']': '&#93;'}
+
+
+def _mathml_node_to_unicode(node):
+    """Recursively convert one presentation-MathML node to plain Unicode."""
+    tag = node.tag.split('}')[-1]
+    kids = [_mathml_node_to_unicode(c) for c in node]
+    text = (node.text or '').strip()
+
+    if tag in ('math', 'mrow', 'mstyle', 'semantics'):
+        return ''.join(kids) if kids else text
+    if tag == 'mi':
+        if node.get('mathvariant') == 'double-struck':
+            return _DOUBLE_STRUCK.get(text, text)
+        return text
+    if tag == 'mn':
+        return text
+    if tag == 'mo':
+        return ' = ' if text == '=' else text
+    if tag == 'mtext':
+        return text if text else ' '
+    if tag in ('msub', 'msup') and len(kids) > 1:
+        base, script = kids[0], kids[1]
+        table = _SUBSCRIPT if tag == 'msub' else _SUPERSCRIPT
+        # Use real sub/superscript glyphs only if every character has one.
+        if script and all(ord(c) in table for c in script):
+            return base + script.translate(table)
+        return '%s%s%s' % (base, '_' if tag == 'msub' else '^', script)
+    if tag == 'msqrt':
+        inner = ''.join(kids)
+        return '√%s' % inner if len(inner) == 1 else '√(%s)' % inner
+    if tag == 'mfrac' and len(kids) > 1:
+        return '%s/%s' % (kids[0], kids[1])
+    if tag == 'mfenced':
+        return '(%s)' % ''.join(kids)
+    return ''.join(kids) if kids else text
+
+
+def _convert_mathml_unicode(fragment):
+    try:
+        out = _mathml_node_to_unicode(ET.fromstring(fragment))
+    except ET.ParseError:
+        warnings.warn('Could not parse MathML, stripping tags: %s' % fragment[:60])
+        return re.sub(r'<[^>]+>', '', fragment)
+    return re.sub(r'\s+', ' ', out).strip()
+
+
+@functools.lru_cache(maxsize=8192)
+def sanitize_for_markdown(text, escape_emphasis=True):
+
+    if text is None:
+        return ''
+    text = str(text)
+    if text == 'nan':
+        return text
+
+    text = unicodedata.normalize('NFC', text)
+    parts = re.split(r'(<math\b.*?</math\s*>)', text,
+                     flags=re.DOTALL | re.IGNORECASE)
+
+    out = []
+    for i, part in enumerate(parts):
+        if i % 2:
+            math_text = _convert_mathml_unicode(part)
+            if escape_emphasis:
+                math_text = ''.join(_MD_ACTIVE.get(c, c) for c in math_text)
+            out.append(math_text)
+            continue
+        part = re.sub(r'<[^>]+>', '', part)     # stray HTML tags
+        part = html.unescape(part)              # normalize, then re-escape once
+        part = (part.replace('&', '&amp;')
+                    .replace('<', '&lt;')
+                    .replace('>', '&gt;'))
+        if escape_emphasis:
+            part = ''.join(_MD_ACTIVE.get(c, c) for c in part)
+        out.append(part)
+
+    return re.sub(r'[ \t]+', ' ', ''.join(out)).strip()
+
+# ---------------------------------------------------------------------------
+# On-disk HTTP cache - Claude Opus 5 
+# ---------------------------------------------------------------------------
+
+_CACHE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                          '.inspire_cache')
+_REFRESH = os.environ.get('INSPIRE_REFRESH', '') == '1'
+
+
+def fetch_url(http, url):
+    """GET a URL, returning the response body as text, cached on disk."""
+    path = os.path.join(_CACHE_DIR,
+                        hashlib.sha1(url.encode('utf-8')).hexdigest())
+    if not _REFRESH and os.path.exists(path):
+        with open(path, 'r', encoding='utf-8') as handle:
+            return handle.read()
+
+    text = http.request('GET', url).data.decode('utf-8')
+    os.makedirs(_CACHE_DIR, exist_ok=True)
+    tmp = path + '.tmp'                       # atomic: never cache a partial read
+    with open(tmp, 'w', encoding='utf-8') as handle:
+        handle.write(text)
+    os.replace(tmp, path)
+    return text
+
+
+def clear_inspire_cache():
+    """Delete every cached InspireHEP response."""
+    if os.path.isdir(_CACHE_DIR):
+        for name in os.listdir(_CACHE_DIR):
+            os.remove(os.path.join(_CACHE_DIR, name))
+
+
+# ---------------------------------------------------------------------------
+# Dataframe Creation and LaTeX/Markdown 
+# ---------------------------------------------------------------------------
 def format_pub_info(run, date_arxiv, date_doi, eprint, eprint_url, doi, doi_url):
     date_vec_arxiv = date_arxiv.split("-")
     date_vec_doi = date_doi.split("-")
@@ -146,15 +467,13 @@ def get_dataframe(yaml_file, categories_hep, categories_qis):
 
     def get_inspirehep_metadata(label, http):
         url = 'https://inspirehep.net/api/literature/' + str(label)
-        http_request = http.request('GET', url)
-        metadata = json.loads(http_request.data)
+        metadata = json.loads(fetch_url(http, url))
         return metadata
 
     def get_doi_metadata(label, http):
         if label != 'nan':
             url = 'https://inspirehep.net/api/doi/' + str(label)
-            http_request = http.request('GET', url)
-            metadata = json.loads(http_request.data)
+            metadata = json.loads(fetch_url(http, url))
             return metadata['metadata']
         else:
             return json.loads('{}')
@@ -210,8 +529,7 @@ def get_dataframe(yaml_file, categories_hep, categories_qis):
     
     def get_bibtex(metadata, http):
         url = metadata["links"]["bibtex"]
-        bibtex_request = http.request('GET', url)
-        return bibtex_request.data.decode('utf-8')
+        return fetch_url(http, url)
             
     # Read InspireHEP entry
     http = urllib3.PoolManager()
@@ -516,22 +834,9 @@ def write_papers_to_tex(df, file, categories_main, categories_sub, main_type, su
                 # Formatting and write to file
                 for paper in papers:
 
-                    # Fix Author Names with Special Characters
-                    paper[2] = re.sub(r"ã", r"\~{a}", paper[2])
-                    paper[2] = re.sub(r"á", r"\'{a}", paper[2])
-                    paper[2] = re.sub(r"é", r"\`{e}", paper[2])
-                    paper[2] = re.sub(r"é", r"\'{e}", paper[2])
-                    paper[2] = re.sub(r"í", r"\'{i}", paper[2])
-                    paper[2] = re.sub(r"ö", r"\"{o}", paper[2])
-                    paper[2] = re.sub(r"ó", r"\'{o}", paper[2])
-                    paper[2] = re.sub(r"ñ", r"\~{n}", paper[2])
-                    paper[2] = re.sub(r"ü", r"\"{u}", paper[2])
-                    paper[2] = re.sub(r"ú", r"\'{u}", paper[2])
-                    paper[2] = re.sub(r"ź", r"\'{z}", paper[2])
-
-                    file.write("\paragraph{%s~\cite{%s}}\n" % (paper[1], paper[15]))
+                    file.write("\paragraph{%s~\cite{%s}}\n" % (sanitize_for_latex(paper[1]), paper[15]))
                     file.write("\\begin{itemize}\n")
-                    file.write("\t\item \\textbf{Authors:} %s\n\t%s\n" % (paper[2], paper[10]))                    
+                    file.write("\t\item \\textbf{Authors:} %s\n\t%s\n" % (sanitize_for_latex(paper[2]), paper[10]))                    
                     file.write("\end{itemize}\n\n")
                 file.write("\n\n")
         
@@ -543,22 +848,9 @@ def write_papers_to_tex(df, file, categories_main, categories_sub, main_type, su
             # Formatting and write to file
             for paper in crosslisted_papers:
 
-                # Fix Author Names with Special Characters
-                paper[2] = re.sub(r"ã", r"\~{a}", paper[2])
-                paper[2] = re.sub(r"á", r"\'{a}", paper[2])
-                paper[2] = re.sub(r"é", r"\`{e}", paper[2])
-                paper[2] = re.sub(r"é", r"\'{e}", paper[2])
-                paper[2] = re.sub(r"í", r"\'{i}", paper[2])
-                paper[2] = re.sub(r"ö", r"\"{o}", paper[2])
-                paper[2] = re.sub(r"ó", r"\'{o}", paper[2])
-                paper[2] = re.sub(r"ñ", r"\~{n}", paper[2])
-                paper[2] = re.sub(r"ü", r"\"{u}", paper[2])
-                paper[2] = re.sub(r"ú", r"\'{u}", paper[2])
-                paper[2] = re.sub(r"ź", r"\'{z}", paper[2])
-
-                file.write("\paragraph{%s~\cite{%s}}\n" % (paper[1], paper[15]))
+                file.write("\paragraph{%s~\cite{%s}}\n" % (sanitize_for_latex(paper[1]), paper[15]))
                 file.write("\\begin{itemize}\n")
-                file.write("\t\item \\textbf{Authors:} %s\n\t%s\n" % (paper[2], paper[10]))                    
+                file.write("\t\item \\textbf{Authors:} %s\n\t%s\n" % (sanitize_for_latex(paper[2]), paper[10]))                    
                 file.write("\end{itemize}\n\n")
             file.write("\n\n")
 

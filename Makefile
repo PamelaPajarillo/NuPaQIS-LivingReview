@@ -1,6 +1,12 @@
 date = $(shell date +%Y-%m-%d)
 
+INSPIRE_REFRESH ?= 0
+export INSPIRE_REFRESH
+
 all: yaml nupaqis main clean
+
+refresh:
+	$(MAKE) INSPIRE_REFRESH=1 all
 
 nupaqis: make_nupaqis.py
 	python3 make_nupaqis.py

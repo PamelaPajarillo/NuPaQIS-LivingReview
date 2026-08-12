@@ -29,6 +29,6 @@ All paper additions should be submitted as a single pull request on a source bra
 2. Find the paper on [INSPIRE](https://inspirehep.net/?ln=en). If you found the paper on [arXiv](https://arxiv.org/), the INSPIRE listing linked is linked under "References & Citations"
 3. Obtain the INSPIRE control number by copying the digits at the end of the URL: `https://inspirehep.net/literature/CONTROLNUMBER`
 4. Add the INSPIRE control number, HEP and QIS category identifications, and descriptions to [`NUPAQIS.yaml`](https://github.com/PamelaPajarillo/NuPaQIS-LivingReview/blob/main/NUPAQIS.csv) in the appropriate categories. The papers in `NUPAQIS.yaml` are listed in reverse order of INSPIRE control number
-5. Run `make` to update the `README`,`PDF`, and `BIB` files with the new references.
+5. Run `make refresh` to update the `README`,`PDF`, and `BIB` files with the new references.
 6. Add and commit `NUPAQIS.bib`, `NUPAQIS.yaml`, and the updated `README`,`PDF`, and `BIB` files to your pull request
 7. If you haven't yet, push your branch to GitHub and open a pull request to the main project
