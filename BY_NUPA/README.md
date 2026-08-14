@@ -35,11 +35,25 @@
 + <strong>Published in <a href="https://doi.org/10.3389/fphy.2022.864823">Front.in Phys.</a>:</strong> 27 May 2022</details>
 
 <details>
+<summary> (2022) <b>Many-Body Collective Neutrino Oscillations: Recent Developments</b> [<a href="https://arxiv.org/abs/2301.00342">arXiv</a>] [<a href="https://doi.org/10.1007/978-981-15-8818-1_126-1">DOI</a>] [<a href="https://inspirehep.net/literature/2620111">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1670780"> Amol V. Patwardhan</a>, <a href="https://inspirehep.net/authors/1880890"> Michael J. Cervia</a>, <a href="https://inspirehep.net/authors/1059092"> Ermal Rrapaj</a>, <a href="https://inspirehep.net/authors/1873686"> Pooja Siwach</a>, <a href="https://inspirehep.net/authors/1017575"> A.B. Balantekin</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2301.00342">arXiv:2301.00342</a>:</strong> 31 December 2022 
++ <strong>Published in <a href="https://doi.org/10.1007/978-981-15-8818-1_126-1">nan</a>:</strong> 2023</details>
+
+<details>
 <summary> (2023) <b>Review on Quantum Computing for Lattice Field Theory</b> [<a href="https://arxiv.org/abs/2302.00467">arXiv</a>] [<a href="https://doi.org/10.22323/1.430.0228">DOI</a>] [<a href="https://inspirehep.net/literature/2628722">INSPIRE</a>] <code>Expand</code> </summary>
 
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1419876"> Lena Funcke</a>, <a href="https://inspirehep.net/authors/1277625"> Tobias Hartung</a>, <a href="https://inspirehep.net/authors/1004503"> Karl Jansen</a>, <a href="https://inspirehep.net/authors/1885408"> Stefan Kühn</a>
 + <strong>Posted on <a href="https://arxiv.org/abs/2302.00467">arXiv:2302.00467</a>:</strong> 01 February 2023 
 + <strong>Published in <a href="https://doi.org/10.22323/1.430.0228">nan</a>:</strong> 01 February 2023</details>
+
+<details>
+<summary> (2023) <b>Quantum information and quantum simulation of neutrino physics</b> [<a href="https://arxiv.org/abs/2305.01150">arXiv</a>] [<a href="https://doi.org/10.1140/epja/s10050-023-01092-7">DOI</a>] [<a href="https://inspirehep.net/literature/2655947">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1017575"> A.B. Balantekin</a>, <a href="https://inspirehep.net/authors/1880890"> Michael J. Cervia</a>, <a href="https://inspirehep.net/authors/1670780"> Amol V. Patwardhan</a>, <a href="https://inspirehep.net/authors/1059092"> Ermal Rrapaj</a>, <a href="https://inspirehep.net/authors/1873686"> Pooja Siwach</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2305.01150">arXiv:2305.01150</a>:</strong> 01 May 2023 
++ <strong>Published in <a href="https://doi.org/10.1140/epja/s10050-023-01092-7">Eur.Phys.J.A</a>:</strong> 17 August 2023</details>
 
 <details>
 <summary> (2023) <b>Machine learning for anomaly detection in particle physics</b> [<a href="https://arxiv.org/abs/2312.14190">arXiv</a>] [<a href="https://doi.org/10.1016/j.revip.2024.100091">DOI</a>] [<a href="https://inspirehep.net/literature/2740326">INSPIRE</a>] <code>Expand</code> </summary>
@@ -2281,6 +2295,203 @@
 
 ##  $\textbf{{\color{#9BC53D}Neutrino Physics}}$ 
 
+###  $\textbf{{\color{#5BC0EB}Quantum Algorithms - Quantum Simulations}}$ 
+
+<details>
+<summary> (2021) <b>Simulation of collective neutrino oscillations on a quantum computer</b> [<a href="https://arxiv.org/abs/2102.12556">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.104.063009">DOI</a>] [<a href="https://inspirehep.net/literature/1848445">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1916605"> Benjamin Hall</a>, <a href="https://inspirehep.net/authors/1514679"> Alessandro Roggero</a>, <a href="https://inspirehep.net/authors/1648701"> Alessandro Baroni</a>, <a href="https://inspirehep.net/authors/1014478"> Joseph Carlson</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2102.12556">arXiv:2102.12556</a>:</strong> 24 February 2021 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.104.063009">Phys. Rev. D 104, 063009 (2021)</a>:</strong> 03 September 2021</details>
+
+<details>
+<summary> (2021) <b>Collective neutrino oscillations on a quantum computer</b> [<a href="https://arxiv.org/abs/2104.03273">arXiv</a>] [<a href="https://doi.org/10.1007/s11128-021-03348-x">DOI</a>] [<a href="https://inspirehep.net/literature/1856576">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1261678"> Kübra Yeter-Aydeniz</a>, <a href="https://inspirehep.net/authors/2035032"> Shikha Bangar</a>, <a href="https://inspirehep.net/authors/1035611"> George Siopsis</a>, <a href="https://inspirehep.net/authors/1959740"> Raphael C. Pooser</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2104.03273">arXiv:2104.03273</a>:</strong> 07 April 2021 
++ <strong>Published in <a href="https://doi.org/10.1007/s11128-021-03348-x">Quant.Inf.Proc.</a>:</strong> 17 February 2022</details>
+
+<details>
+<summary> (2022) <b>Trapped-ion quantum simulation of collective neutrino oscillations</b> [<a href="https://arxiv.org/abs/2207.03189">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.107.023007">DOI</a>] [<a href="https://inspirehep.net/literature/2107140">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1939730"> Valentina Amitrano</a>, <a href="https://inspirehep.net/authors/1514679"> Alessandro Roggero</a>, <a href="https://inspirehep.net/authors/1939731"> Piero Luchi</a>, <a href="https://inspirehep.net/authors/1939728"> Francesco Turro</a>, <a href="https://inspirehep.net/authors/2107141"> Luca Vespucci</a>, <a href="https://inspirehep.net/authors/1423891"> Francesco Pederiva</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2207.03189">arXiv:2207.03189</a>:</strong> 07 July 2022 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.107.023007">Phys.Rev.D</a>:</strong> 13 January 2023</details>
+
+<details>
+<summary> (2022) <b>Multi-Neutrino Entanglement and Correlations in Dense Neutrino Systems</b> [<a href="https://arxiv.org/abs/2210.08656">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevLett.130.221003">DOI</a>] [<a href="https://inspirehep.net/literature/2165955">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1789348"> Marc Illa</a>, <a href="https://inspirehep.net/authors/990160"> Martin J. Savage</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2210.08656">arXiv:2210.08656</a>:</strong> 16 October 2022 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevLett.130.221003">Phys. Rev. Lett. 130, 221003 (2023)</a>:</strong> 31 May 2023</details>
+
+<details>
+<summary> (2024) <b>Qutrit and qubit circuits for three-flavor collective neutrino oscillations</b> [<a href="https://arxiv.org/abs/2407.13914">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.111.043038">DOI</a>] [<a href="https://inspirehep.net/literature/2809312">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1939728"> Francesco Turro</a>, <a href="https://inspirehep.net/authors/1991921"> Ivan A. Chernyshev</a>, <a href="https://inspirehep.net/authors/2572066"> Ramya Bhaskar</a>, <a href="https://inspirehep.net/authors/1789348"> Marc Illa</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2407.13914">arXiv:2407.13914</a>:</strong> 18 July 2024 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.111.043038">Phys. Rev. D 111, 043038 (2025)</a>:</strong> 15 February 2025</details>
+
+<details>
+<summary> (2025) <b>Collective neutrino oscillations in three flavors on qubit and qutrit processors</b> [<a href="https://arxiv.org/abs/2503.00607">arXiv</a>] [<a href="https://doi.org/10.1103/gjr1-lf8s">DOI</a>] [<a href="https://inspirehep.net/literature/2896308">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/3186153"> Luca Spagnoli</a>, <a href="https://inspirehep.net/authors/2096576"> Noah Goss</a>, <a href="https://inspirehep.net/authors/1514679"> Alessandro Roggero</a>, <a href="https://inspirehep.net/authors/1059092"> Ermal Rrapaj</a>, <a href="https://inspirehep.net/authors/1880890"> Michael J. Cervia</a>, <a href="https://inspirehep.net/authors/1670780"> Amol V. Patwardhan</a>, <a href="https://inspirehep.net/authors/1952210"> Ravi K. Naik</a>, <a href="https://inspirehep.net/authors/1017575"> A. Baha Balantekin</a>, <a href="https://inspirehep.net/authors/2847954"> Younis</a>, <a href="https://inspirehep.net/authors/990368"> David I. Santiago</a>, <a href="https://inspirehep.net/authors/1836627"> Irfan Siddiqi</a>, <a href="https://inspirehep.net/authors/1645562"> Sheakha Aldaihan</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2503.00607">arXiv:2503.00607</a>:</strong> 11 May 2025 
++ <strong>Published in <a href="https://doi.org/10.1103/gjr1-lf8s">Phys.Rev.D</a>:</strong> 15 May 2025</details>
+
+<details>
+<summary> (2025) <b>Quantum simulation of collective neutrino oscillations in dense neutrino environment</b> [<a href="https://arxiv.org/abs/2508.11610">arXiv</a>] [<a href="https://doi.org/10.1007/s11128-026-05151-y">DOI</a>] [<a href="https://inspirehep.net/literature/2960970">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/2055649"> Shvetaank Tripathi</a>, <a href="https://inspirehep.net/authors/1507738"> Sandeep Joshi</a>, <a href="https://inspirehep.net/authors/2110079"> Garima Rajpoot</a>, <a href="https://inspirehep.net/authors/988820"> Prashant Shukla</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2508.11610">arXiv:2508.11610</a>:</strong> 15 August 2025 
++ <strong>Published in <a href="https://doi.org/10.1007/s11128-026-05151-y">Quant.Inf.Proc.</a>:</strong> 06 May 2026</details>
+
+<details>
+<summary> (2026) <b>Quantum Simulation of Collective Neutrino Oscillations using Dicke States</b> [<a href="https://arxiv.org/abs/2604.07452">arXiv</a>] [<a href="https://inspirehep.net/literature/3142507">INSPIRE</a>] <code>Expand</code><br> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/2622252"> Katarina Bleau</a>, <a href="https://inspirehep.net/authors/1072946"> Nikolina Ilic</a>, <a href="https://inspirehep.net/authors/1030755"> Joachim Kopp</a>, <a href="https://inspirehep.net/authors/1272290"> Ushak Rahaman</a>, <a href="https://inspirehep.net/authors/1904096"> Xin Yue Yu</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2604.07452">arXiv:2604.07452</a>:</strong> 08 April 2026</details>
+
+###  $\textbf{{\color{#5BC0EB}Quantum Computing Paradigms - Quantum Annealing}}$ 
+
+<details>
+<summary> (2024) <b>Three-flavor Collective Neutrino Oscillations on D-Wave's {\tt Advantage} Quantum Annealer</b> [<a href="https://arxiv.org/abs/2405.20436">arXiv</a>] [<a href="https://inspirehep.net/literature/2793024">INSPIRE</a>] <code>Expand</code><br> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1991921"> Ivan A. Chernyshev</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2405.20436">arXiv:2405.20436</a>:</strong> 30 May 2024</details>
+
+###  $\textbf{{\color{#5BC0EB}Quantum Entanglement and Bell Inequalities}}$ 
+
+<details>
+<summary> (2016) <b>Violation of the Leggett-Garg Inequality in Neutrino Oscillations</b> [<a href="https://arxiv.org/abs/1602.00041">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevLett.117.050402">DOI</a>] [<a href="https://inspirehep.net/literature/1418827">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1019570"> J.A. Formaggio</a>, <a href="https://inspirehep.net/authors/1003924"> D.I. Kaiser</a>, <a href="https://inspirehep.net/authors/2449607"> M.M. Murskyj</a>, <a href="https://inspirehep.net/authors/1987817"> T.E. Weiss</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/1602.00041">arXiv:1602.00041</a>:</strong> 29 January 2016 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevLett.117.050402">Phys.Rev.Lett.</a>:</strong> 26 July 2016</details>
+
+<details>
+<summary> (2019) <b>Entanglement and collective flavor oscillations in a dense neutrino gas</b> [<a href="https://arxiv.org/abs/1908.03511">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.100.083001">DOI</a>] [<a href="https://inspirehep.net/literature/1748657">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1880890"> Michael J. Cervia</a>, <a href="https://inspirehep.net/authors/1670780"> Amol V. Patwardhan</a>, <a href="https://inspirehep.net/authors/1017575"> A.B. Balantekin</a>, <a href="https://inspirehep.net/authors/1013063"> ‡ S.N. Coppersmith</a>, <a href="https://inspirehep.net/authors/1004263"> Calvin W. Johnson</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/1908.03511">arXiv:1908.03511</a>:</strong> 09 August 2019 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.100.083001">Phys.Rev.D</a>:</strong> 03 October 2019</details>
+
+<details>
+<summary> (2021) <b>Entanglement and many-body effects in collective neutrino oscillations</b> [<a href="https://arxiv.org/abs/2102.10188">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.104.103016">DOI</a>] [<a href="https://inspirehep.net/literature/1847760">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1514679"> Alessandro Roggero</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2102.10188">arXiv:2102.10188</a>:</strong> 19 February 2021 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.104.103016">Phys. Rev. D 104 (2021) 103016</a>:</strong> 10 November 2021</details>
+
+<details>
+<summary> (2021) <b>Dynamical phase transitions in models of collective neutrino oscillations</b> [<a href="https://arxiv.org/abs/2103.11497">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.104.123023">DOI</a>] [<a href="https://inspirehep.net/literature/1852807">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1514679"> Alessandro Roggero</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2103.11497">arXiv:2103.11497</a>:</strong> 21 March 2021 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.104.123023">Phys.Rev.D</a>:</strong> 14 December 2021</details>
+
+<details>
+<summary> (2021) <b>Spectral splits and entanglement entropy in collective neutrino oscillations</b> [<a href="https://arxiv.org/abs/2109.08995">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.104.123035">DOI</a>] [<a href="https://inspirehep.net/literature/1924702">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1670780"> Amol V. Patwardhan</a>, <a href="https://inspirehep.net/authors/1880890"> Michael J. Cervia</a>, <a href="https://inspirehep.net/authors/1017575"> A.B. Balantekin</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2109.08995">arXiv:2109.08995</a>:</strong> 18 September 2021 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.104.123035">Phys. Rev. D 104, 123035 (2021)</a>:</strong> 15 December 2021</details>
+
+<details>
+<summary> (2022) <b>Collective neutrino oscillations with tensor networks using a time-dependent variational principle</b> [<a href="https://arxiv.org/abs/2202.01865">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.105.123025">DOI</a>] [<a href="https://inspirehep.net/literature/2027686">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1880890"> Michael J. Cervia</a>, <a href="https://inspirehep.net/authors/1873686"> Pooja Siwach</a>, <a href="https://inspirehep.net/authors/1670780"> Amol V. Patwardhan</a>, <a href="https://inspirehep.net/authors/1017575"> A.B. Balantekin</a>, <a href="https://inspirehep.net/authors/1013063"> S.N. Coppersmith</a>, <a href="https://inspirehep.net/authors/1004263"> Calvin W. Johnson</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2202.01865">arXiv:2202.01865</a>:</strong> 03 February 2022 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.105.123025">Phys. Rev. D 105, 123025 (2022)</a>:</strong> 15 June 2022</details>
+
+<details>
+<summary> (2022) <b>Entanglement and correlations in fast collective neutrino flavor oscillations</b> [<a href="https://arxiv.org/abs/2203.02783">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.106.043022">DOI</a>] [<a href="https://inspirehep.net/literature/2047171">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1514679"> Alessandro Roggero</a>, <a href="https://inspirehep.net/authors/1059092"> Ermal Rrapaj</a>, <a href="https://inspirehep.net/authors/1897043"> Zewei Xiong</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2203.02783">arXiv:2203.02783</a>:</strong> 05 March 2022 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.106.043022">Phys.Rev.D</a>:</strong> 15 August 2022</details>
+
+<details>
+<summary> (2022) <b>Role of non-Gaussian quantum fluctuations in neutrino entanglement</b> [<a href="https://arxiv.org/abs/2205.09384">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.106.123006">DOI</a>] [<a href="https://inspirehep.net/literature/2085172">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1001309"> Denis Lacroix</a>, <a href="https://inspirehep.net/authors/1017575"> A.B. Balantekin</a>, <a href="https://inspirehep.net/authors/1880890"> Michael J. Cervia</a>, <a href="https://inspirehep.net/authors/1670780"> Amol V. Patwardhan</a>, <a href="https://inspirehep.net/authors/1873686"> Pooja Siwach</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2205.09384">arXiv:2205.09384</a>:</strong> 19 May 2022 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.106.123006">Phys.Rev.D</a>:</strong> 06 December 2022</details>
+
+<details>
+<summary> (2022) <b>Entanglement in three-flavor collective neutrino oscillations</b> [<a href="https://arxiv.org/abs/2211.07678">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.107.023019">DOI</a>] [<a href="https://inspirehep.net/literature/2182461">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1873686"> Pooja Siwach</a>, <a href="https://inspirehep.net/authors/1780619"> Anna M. Suliga</a>, <a href="https://inspirehep.net/authors/1017575"> A. Baha Balantekin</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2211.07678">arXiv:2211.07678</a>:</strong> 14 November 2022 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.107.023019">Phys.Rev.D 107 023019 (2023)</a>:</strong> 15 January 2023</details>
+
+<details>
+<summary> (2023) <b>Many-body neutrino flavor entanglement in a simple dynamic model</b> [<a href="https://arxiv.org/abs/2301.07049">arXiv</a>] [<a href="https://inspirehep.net/literature/2623791">INSPIRE</a>] <code>Expand</code><br> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1774099"> Joshua D. Martin</a>, <a href="https://inspirehep.net/authors/1514679"> A. Roggero</a>, <a href="https://inspirehep.net/authors/1036609"> Huaiyu Duan</a>, <a href="https://inspirehep.net/authors/1014478"> J. Carlson</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2301.07049">arXiv:2301.07049</a>:</strong> 17 January 2023</details>
+
+<details>
+<summary> (2023) <b>Neutrino many-body correlations</b> [<a href="https://arxiv.org/abs/2305.04916">arXiv</a>] [<a href="https://doi.org/10.1142/S0217751X24501227">DOI</a>] [<a href="https://inspirehep.net/literature/2657748">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1507739"> Lucas Johns</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2305.04916">arXiv:2305.04916</a>:</strong> 08 May 2023 
++ <strong>Published in <a href="https://doi.org/10.1142/S0217751X24501227">Int.J.Mod.Phys.A</a>:</strong> 13 November 2024</details>
+
+<details>
+<summary> (2023) <b>Equilibration of quantum many-body fast neutrino flavor oscillations</b> [<a href="https://arxiv.org/abs/2307.16793">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.108.123010">DOI</a>] [<a href="https://inspirehep.net/literature/2683591">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1774099"> Joshua D. Martin</a>, <a href="https://inspirehep.net/authors/1273871"> Duff Neill</a>, <a href="https://inspirehep.net/authors/1514679"> A. Roggero</a>, <a href="https://inspirehep.net/authors/1036609"> Huaiyu Duan</a>, <a href="https://inspirehep.net/authors/1014478"> J. Carlson</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2307.16793">arXiv:2307.16793</a>:</strong> 31 July 2023 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.108.123010">Phys.Rev.D</a>:</strong> 07 December 2023</details>
+
+<details>
+<summary> (2023) <b>Time Scales in Many-Body Fast Neutrino Flavor Conversion</b> [<a href="https://arxiv.org/abs/2312.16212">arXiv</a>] [<a href="https://inspirehep.net/literature/2741109">INSPIRE</a>] <code>Expand</code><br> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/2572066"> Ramya Bhaskar</a>, <a href="https://inspirehep.net/authors/1514679"> Alessandro Roggero</a>, <a href="https://inspirehep.net/authors/990160"> Martin J. Savage</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2312.16212">arXiv:2312.16212</a>:</strong> 23 December 2023</details>
+
+<details>
+<summary> (2024) <b>Quantum magic and computational complexity in the neutrino sector</b> [<a href="https://arxiv.org/abs/2411.04203">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevResearch.7.023228">DOI</a>] [<a href="https://inspirehep.net/literature/2846314">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1991921"> Ivan Chernyshev</a>, <a href="https://inspirehep.net/authors/1750573"> Caroline E.P. Robin</a>, <a href="https://inspirehep.net/authors/990160"> Martin J. Savage</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2411.04203">arXiv:2411.04203</a>:</strong> 06 November 2024 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevResearch.7.023228">Phys.Rev.Res.</a>:</strong> 04 June 2025</details>
+
+<details>
+<summary> (2024) <b>Exploring entanglement and spectral split correlations in three-flavor collective neutrino oscillations</b> [<a href="https://arxiv.org/abs/2411.05169">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.111.063038">DOI</a>] [<a href="https://inspirehep.net/literature/2846754">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1873686"> Pooja Siwach</a>, <a href="https://inspirehep.net/authors/1017575"> A. Baha Balantekin</a>, <a href="https://inspirehep.net/authors/1670780"> Amol V. Patwardhan</a>, <a href="https://inspirehep.net/authors/1780619"> Anna M. Suliga</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2411.05169">arXiv:2411.05169</a>:</strong> 07 November 2024 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.111.063038">Phys.Rev.D</a>:</strong> 14 March 2025</details>
+
+<details>
+<summary> (2026) <b>Quantum resource redistribution drives spectral splits in dense neutrino gases</b> [<a href="https://arxiv.org/abs/2605.23584">arXiv</a>] [<a href="https://inspirehep.net/literature/3159011">INSPIRE</a>] <code>Expand</code><br> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/2728881"> Michael Hite</a>, <a href="https://inspirehep.net/authors/1873686"> Pooja Siwach</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2605.23584">arXiv:2605.23584</a>:</strong> 22 May 2026</details>
+
+<details>
+<summary> (2026) <b>Collective neutrino oscillations: Many-body non-forward effects and non-classicality</b> [<a href="https://arxiv.org/abs/2606.12404">arXiv</a>] [<a href="https://inspirehep.net/literature/3167583">INSPIRE</a>] <code>Expand</code><br> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1818793"> Julien Froustey</a>, <a href="https://inspirehep.net/authors/1059092"> Ermal Rrapaj</a>, <a href="https://inspirehep.net/authors/2044961"> Yuhao Liu</a>, <a href="https://inspirehep.net/authors/2135134"> Gushu Li</a>, <a href="https://inspirehep.net/authors/1952216"> Costin Iancu</a>, <a href="https://inspirehep.net/authors/1013451"> Vincenzo Cirigliano</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2606.12404">arXiv:2606.12404</a>:</strong> 10 June 2026</details>
+
+###  $\textbf{{\color{#5BC0EB}Quantum Machine Learning - Variational Quantum Algorithms}}$ 
+
+<details>
+<summary> (2023) <b>Collective neutrino oscillations on a quantum computer with hybrid quantum-classical algorithm</b> [<a href="https://arxiv.org/abs/2308.09123">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.108.083039">DOI</a>] [<a href="https://inspirehep.net/literature/2689337">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1873686"> Pooja Siwach</a>, <a href="https://inspirehep.net/authors/1006635"> Kaytlin Harrison</a>, <a href="https://inspirehep.net/authors/1017575"> A. Baha Balantekin</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2308.09123">arXiv:2308.09123</a>:</strong> 17 August 2023 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.108.083039">Phys.Rev.D</a>:</strong> 15 October 2023</details>
+
+<details>
+<summary> (2026) <b>Three-flavor supernova neutrino simulation using a hybrid quantum-classical algorithm with qutrits</b> [<a href="https://arxiv.org/abs/2605.01099">arXiv</a>] [<a href="https://inspirehep.net/literature/3151146">INSPIRE</a>] <code>Expand</code><br> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/3178332"> Daniel J. Heimsoth</a>, <a href="https://inspirehep.net/authors/1017575"> A. Baha Balantekin</a>, <a href="https://inspirehep.net/authors/1873686"> Pooja Siwach</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2605.01099">arXiv:2605.01099</a>:</strong> 01 May 2026</details>
+
 ###  $\textbf{{\color{#5BC0EB}Quantum Sensors - Atomic/Molecular/Nuclear Sensors}}$ 
 
 <details>
@@ -2327,10 +2538,28 @@
 
 
 <details>
+<summary> (2022) <b>Many-Body Collective Neutrino Oscillations: Recent Developments</b> [<a href="https://arxiv.org/abs/2301.00342">arXiv</a>] [<a href="https://doi.org/10.1007/978-981-15-8818-1_126-1">DOI</a>] [<a href="https://inspirehep.net/literature/2620111">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1670780"> Amol V. Patwardhan</a>, <a href="https://inspirehep.net/authors/1880890"> Michael J. Cervia</a>, <a href="https://inspirehep.net/authors/1059092"> Ermal Rrapaj</a>, <a href="https://inspirehep.net/authors/1873686"> Pooja Siwach</a>, <a href="https://inspirehep.net/authors/1017575"> A.B. Balantekin</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2301.00342">arXiv:2301.00342</a>:</strong> 31 December 2022 
++ <strong>Published in <a href="https://doi.org/10.1007/978-981-15-8818-1_126-1">nan</a>:</strong> 2023</details>
+
+
+
+<details>
 <summary> (2023) <b>Quantum Information Science and Technology for Nuclear Physics. Input into U.S. Long-Range Planning, 2023</b> [<a href="https://arxiv.org/abs/2303.00113">arXiv</a>] [<a href="https://inspirehep.net/literature/2637668">INSPIRE</a>] <code>Expand</code><br> </summary>
 
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1017006"> Douglas Beck</a>, <a href="https://inspirehep.net/authors/1014478"> Joseph Carlson</a>, <a href="https://inspirehep.net/authors/1078382"> Zohreh Davoudi</a>, <a href="https://inspirehep.net/authors/1019570"> Joseph Formaggio</a>, <a href="https://inspirehep.net/authors/1033966"> Sofia Quaglioni</a>, <a href="https://inspirehep.net/authors/990160"> Martin Savage</a>, <a href="https://inspirehep.net/authors/1939919"> Joao Barata</a>, <a href="https://inspirehep.net/authors/1016431"> Tanmoy Bhattacharya</a>, <a href="https://inspirehep.net/authors/1912580"> Michael Bishof</a>, <a href="https://inspirehep.net/authors/1020992"> Ian Cloet</a>, <a href="https://inspirehep.net/authors/1309026"> Andrea Delgado</a>, <a href="https://inspirehep.net/authors/1982641"> Michael DeMarco</a>, <a href="https://inspirehep.net/authors/1898918"> Caleb Fink</a>, <a href="https://inspirehep.net/authors/1844184"> Adrien Florio</a>, <a href="https://inspirehep.net/authors/2329545"> Marianne Francois</a>, <a href="https://inspirehep.net/authors/1258764"> Dorota Grabowska</a>, <a href="https://inspirehep.net/authors/1072544"> Shannon Hoogerheide</a>, <a href="https://inspirehep.net/authors/1615113"> Mengyao Huang</a>, <a href="https://inspirehep.net/authors/1615818"> Kazuki Ikeda</a>, <a href="https://inspirehep.net/authors/1789348"> Marc Illa</a>, <a href="https://inspirehep.net/authors/1058238"> Kyungseon Joo</a>, <a href="https://inspirehep.net/authors/1003098"> Dmitri Kharzeev</a>, <a href="https://inspirehep.net/authors/1001972"> Karol Kowalski</a>, <a href="https://inspirehep.net/authors/1322332"> Wai Kin Lai</a>, <a href="https://inspirehep.net/authors/2052379"> Kyle Leach</a>, <a href="https://inspirehep.net/authors/1068057"> Ben Loer</a>, <a href="https://inspirehep.net/authors/999724"> Ian Low</a>, <a href="https://inspirehep.net/authors/1774099"> Joshua Martin</a>, <a href="https://inspirehep.net/authors/2604298"> David Moore</a>, <a href="https://inspirehep.net/authors/997921"> Thomas Mehen</a>, <a href="https://inspirehep.net/authors/1301647"> Niklas Mueller</a>, <a href="https://inspirehep.net/authors/1343719"> James Mulligan</a>, <a href="https://inspirehep.net/authors/1878047"> Pieter Mumm</a>, <a href="https://inspirehep.net/authors/1423891"> Francesco Pederiva</a>, <a href="https://inspirehep.net/authors/993260"> Rob Pisarski</a>, <a href="https://inspirehep.net/authors/1042179"> Mateusz Ploskon</a>, <a href="https://inspirehep.net/authors/992116"> Sanjay Reddy</a>, <a href="https://inspirehep.net/authors/990930"> Gautam Rupak</a>, <a href="https://inspirehep.net/authors/1679984"> Hersh Singh</a>, <a href="https://inspirehep.net/authors/2154144"> Maninder Singh</a>, <a href="https://inspirehep.net/authors/1027452"> Ionel Stetcu</a>, <a href="https://inspirehep.net/authors/1589984"> Jesse Stryker</a>, <a href="https://inspirehep.net/authors/2319579"> Paul Szypryt</a>, <a href="https://inspirehep.net/authors/1275106"> Semeon Valgushev</a>, <a href="https://inspirehep.net/authors/1038116"> Brent VanDevender</a>, <a href="https://inspirehep.net/authors/1865268"> Samuel Watkins</a>, <a href="https://inspirehep.net/authors/1885314"> Christopher Wilson</a>, <a href="https://inspirehep.net/authors/1470862"> Xiaojun Yao</a>, <a href="https://inspirehep.net/authors/1018918"> Andrei Afanasev</a>, <a href="https://inspirehep.net/authors/1017575"> Akif Baha Balantekin</a>, <a href="https://inspirehep.net/authors/1648701"> Alessandro Baroni</a>, <a href="https://inspirehep.net/authors/1038654"> Raymond Bunker</a>, <a href="https://inspirehep.net/authors/1068250"> Bipasha Chakraborty</a>, <a href="https://inspirehep.net/authors/1991921"> Ivan Chernyshev</a>, <a href="https://inspirehep.net/authors/1013451"> Vincenzo Cirigliano</a>, <a href="https://inspirehep.net/authors/1935290"> Benjamin Clark</a>, <a href="https://inspirehep.net/authors/1032275"> Shashi Kumar Dhiman</a>, <a href="https://inspirehep.net/authors/1887880"> Weijie Du</a>, <a href="https://inspirehep.net/authors/1011140"> Dipangkar Dutta</a>, <a href="https://inspirehep.net/authors/1010993"> Robert Edwards</a>, <a href="https://inspirehep.net/authors/1009795"> Abraham Flores</a>, <a href="https://inspirehep.net/authors/1009032"> Alfredo Galindo-Uribarri</a>, <a href="https://inspirehep.net/authors/1284206"> Ronald Fernando Garcia Ruiz</a>, <a href="https://inspirehep.net/authors/1007345"> Vesselin Gueorguiev</a>, <a href="https://inspirehep.net/authors/1998912"> Fanqing Guo</a>, <a href="https://inspirehep.net/authors/1515879"> Erin Hansen</a>, <a href="https://inspirehep.net/authors/1006159"> Hector Hernandez</a>, <a href="https://inspirehep.net/authors/2637843"> Koichi Hattori</a>, <a href="https://inspirehep.net/authors/1272244"> Philipp Hauke</a>, <a href="https://inspirehep.net/authors/1005877"> Morten Hjorth-Jensen</a>, <a href="https://inspirehep.net/authors/2490788"> Keith Jankowski</a>, <a href="https://inspirehep.net/authors/1004263"> Calvin Johnson</a>, <a href="https://inspirehep.net/authors/1001309"> Denis Lacroix</a>, <a href="https://inspirehep.net/authors/1000805"> Dean Lee</a>, <a href="https://inspirehep.net/authors/1035584"> Huey-Wen Lin</a>, <a href="https://inspirehep.net/authors/2628044"> Xiaohui Liu</a>, <a href="https://inspirehep.net/authors/999970"> Felipe J. Llanes-Estrada</a>, <a href="https://inspirehep.net/authors/2637670"> John Looney</a>, <a href="https://inspirehep.net/authors/1882263"> Misha Lukin</a>, <a href="https://inspirehep.net/authors/1903493"> Alexis Mercenne</a>, <a href="https://inspirehep.net/authors/1991487"> Jeff Miller</a>, <a href="https://inspirehep.net/authors/996655"> Emil Mottola</a>, <a href="https://inspirehep.net/authors/1020716"> Berndt Mueller</a>, <a href="https://inspirehep.net/authors/1067995"> Benjamin Nachman</a>, <a href="https://inspirehep.net/authors/995932"> John Negele</a>, <a href="https://inspirehep.net/authors/1021286"> John Orrell</a>, <a href="https://inspirehep.net/authors/1670780"> Amol Patwardhan</a>, <a href="https://inspirehep.net/authors/2637671"> Daniel Phillips</a>, <a href="https://inspirehep.net/authors/2214530"> Stephen Poole</a>, <a href="https://inspirehep.net/authors/2637672"> Irene Qualters</a>, <a href="https://inspirehep.net/authors/2279561"> Mike Rumore</a>, <a href="https://inspirehep.net/authors/990045"> Thomas Schaefer</a>, <a href="https://inspirehep.net/authors/1020239"> Jeremy Scott</a>, <a href="https://inspirehep.net/authors/1629845"> Rajeev Singh</a>, <a href="https://inspirehep.net/authors/984934"> James Vary</a>, <a href="https://inspirehep.net/authors/2619012"> Juan-Jose Galvez-Viruet</a>, <a href="https://inspirehep.net/authors/1073455"> Kyle Wendt</a>, <a href="https://inspirehep.net/authors/1272403"> Hongxi Xing</a>, <a href="https://inspirehep.net/authors/1271110"> Liang Yang</a>, <a href="https://inspirehep.net/authors/982553"> Glenn Young</a>, <a href="https://inspirehep.net/authors/1796321"> Fanyi Zhao</a>
 + <strong>Posted on <a href="https://arxiv.org/abs/2303.00113">arXiv:2303.00113</a>:</strong> 28 February 2023</details>
+
+
+
+<details>
+<summary> (2023) <b>Quantum information and quantum simulation of neutrino physics</b> [<a href="https://arxiv.org/abs/2305.01150">arXiv</a>] [<a href="https://doi.org/10.1140/epja/s10050-023-01092-7">DOI</a>] [<a href="https://inspirehep.net/literature/2655947">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1017575"> A.B. Balantekin</a>, <a href="https://inspirehep.net/authors/1880890"> Michael J. Cervia</a>, <a href="https://inspirehep.net/authors/1670780"> Amol V. Patwardhan</a>, <a href="https://inspirehep.net/authors/1059092"> Ermal Rrapaj</a>, <a href="https://inspirehep.net/authors/1873686"> Pooja Siwach</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2305.01150">arXiv:2305.01150</a>:</strong> 01 May 2023 
++ <strong>Published in <a href="https://doi.org/10.1140/epja/s10050-023-01092-7">Eur.Phys.J.A</a>:</strong> 17 August 2023</details>
 
 
 
@@ -2829,10 +3058,11 @@
 + <strong>Published in <a href="https://doi.org/10.1140/epjp/s13360-025-06752-9">Eur.Phys.J.Plus</a>:</strong> 09 September 2025</details>
 
 <details>
-<summary> (2025) <b>Colliders are Testing neither Locality via Bell's Inequality nor Entanglement versus Non-Entanglement</b> [<a href="https://arxiv.org/abs/2507.15949">arXiv</a>] [<a href="https://inspirehep.net/literature/2952954">INSPIRE</a>] <code>Expand</code><br> </summary>
+<summary> (2025) <b>Colliders are not testing locality via Bell's inequality nor providing an unconditional proof of entanglement</b> [<a href="https://arxiv.org/abs/2507.15949">arXiv</a>] [<a href="https://doi.org/10.1007/JHEP08(2026)067">DOI</a>] [<a href="https://inspirehep.net/literature/2952954">INSPIRE</a>] <code>Expand</code> </summary>
 
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1019047"> Steven A. Abel</a>, <a href="https://inspirehep.net/authors/1011410"> Herbi K. Dreiner</a>, <a href="https://inspirehep.net/authors/1751817"> Rhitaja Sengupta</a>, <a href="https://inspirehep.net/authors/1064818"> Lorenzo Ubaldi</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2507.15949">arXiv:2507.15949</a>:</strong> 21 July 2025</details>
++ <strong>Posted on <a href="https://arxiv.org/abs/2507.15949">arXiv:2507.15949</a>:</strong> 21 July 2025 
++ <strong>Published in <a href="https://doi.org/10.1007/JHEP08(2026)067">J. High Energ. Phys. 2026, 67 (2026)</a>:</strong> 07 August 2026</details>
 
 ###  $\textbf{{\color{#5BC0EB}Crosslists}}$ 
 
