@@ -449,7 +449,7 @@ References:
 
 
 
-Quantum measurement and tomography refer to the techniques used to extract information from quantum systems. Quantum measurement involves the process of obtaining classical information from a quantum state, typically resulting in the collapse of the state. Quantum tomography is the procedure of reconstructing the full quantum state or process by performing a series of measurements on multiple copies of the system. These methods are essential for characterizing quantum devices, verifying quantum operations, and studying quantum systems experimentally.  
+Quantum measurement and tomography refer to the techniques used to extract information from quantum systems. Quantum measurement involves the process of obtaining classical information from a quantum state, resulting in the collapse of the state. Quantum tomography is the procedure of reconstructing the full quantum state or process by performing a series of measurements on multiple copies of the systems. 
 </details>
 
 <details>

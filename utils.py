@@ -522,6 +522,10 @@ def get_dataframe(yaml_file, categories_hep, categories_qis):
                     return metadata_doi['publication_info'][0]['pubinfo_freetext']
                 elif 'journal_title' in metadata_doi['publication_info'][0].keys():
                     return metadata_doi['publication_info'][0]['journal_title']
+                elif 'journal_title' in metadata_doi['publication_info'][0].keys():
+                    return metadata_doi['publication_info'][0]['journal_title']
+                else:
+                     return 'nan'            
             else:
                 return 'nan'
         else:

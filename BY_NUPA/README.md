@@ -33,7 +33,7 @@
 
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1872879"> Andrea Bertoldi</a>, <a href="https://inspirehep.net/authors/1951444"> Philippe Bouyer</a>, <a href="https://inspirehep.net/authors/1764590"> Benjamin Canuel</a>
 + <strong>Posted on <a href="https://arxiv.org/abs/2010.14604">arXiv:2010.14604</a>:</strong> 27 October 2020 
-+ <strong>Published in <a href="https://doi.org/10.1007/978-981-16-4306-4_5">None</a>:</strong> 2022</details>
++ <strong>Published in <a href="https://doi.org/10.1007/978-981-16-4306-4_5">nan</a>:</strong> 2022</details>
 
 <details>
 <summary> (2022) <b>Quantum Computing Applications in Future Colliders</b> [<a href="https://doi.org/10.3389/fphy.2022.864823">DOI</a>] [<a href="https://inspirehep.net/literature/2091037">INSPIRE</a>] <code>Expand</code><br> </summary>
@@ -1846,7 +1846,7 @@
 
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1872879"> Andrea Bertoldi</a>, <a href="https://inspirehep.net/authors/1951444"> Philippe Bouyer</a>, <a href="https://inspirehep.net/authors/1764590"> Benjamin Canuel</a>
 + <strong>Posted on <a href="https://arxiv.org/abs/2010.14604">arXiv:2010.14604</a>:</strong> 27 October 2020 
-+ <strong>Published in <a href="https://doi.org/10.1007/978-981-16-4306-4_5">None</a>:</strong> 2022</details>
++ <strong>Published in <a href="https://doi.org/10.1007/978-981-16-4306-4_5">nan</a>:</strong> 2022</details>
 
 
 
@@ -3397,7 +3397,7 @@
 
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1019047"> Steven A. Abel</a>, <a href="https://inspirehep.net/authors/1011410"> Herbi K. Dreiner</a>, <a href="https://inspirehep.net/authors/1751817"> Rhitaja Sengupta</a>, <a href="https://inspirehep.net/authors/1064818"> Lorenzo Ubaldi</a>
 + <strong>Posted on <a href="https://arxiv.org/abs/2507.15949">arXiv:2507.15949</a>:</strong> 21 July 2025 
-+ <strong>Published in <a href="https://doi.org/10.1007/JHEP08(2026)067">J. High Energ. Phys. 2026, 67 (2026)</a>:</strong> 07 August 2026</details>
++ <strong>Published in <a href="https://doi.org/10.1007/JHEP08(2026)067">JHEP</a>:</strong> 07 August 2026</details>
 
 ###  $\textbf{{\color{#5BC0EB}Crosslists}}$ 
 
