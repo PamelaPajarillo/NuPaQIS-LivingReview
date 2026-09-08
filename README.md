@@ -2,9 +2,9 @@
 
 [![DOWNLOAD_PDF](https://img.shields.io/badge/Download-PDF_Version-81b7df)](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/PamelaPajarillo/NUPAQIS-LivingReview/main/NUPAQIS.pdf) [![Preprint Draft for arXiV](https://img.shields.io/badge/arXiV_Post-TBA-blue)](https://www.overleaf.com/read/wkqcjgwhfwpb#e5842a)
 
-Authors: Pamela Pajarillo, So Chigusa, Sokratis Trifinopoulos, Jesse Thaler 
+Authors: Pamela Pajarillo, So Chigusa, Jesse Thaler 
  
-Number of Papers: 359 
+Number of Papers: 458 
  
 *Inspired by <a href="https://iml-wg.github.io/HEPML-LivingReview/">"A Living Review of Machine Learning for High Energy Physics"</a>, the goal of this repository is to provide an extensive list of citations for those developing and applying quantum information approaches to experimental, phenomenological, or theoretical analyses.  Applications of quantum information science to high energy physics is a relatively new field of research.  This repository will be updated as often as possible with the relevant literature.  Suggestions are most welcome.*
 
@@ -273,6 +273,14 @@ References:
   - Entanglement and quantum tomography with top quarks at the LHC (Afik & de Nova): https://arxiv.org/abs/2003.02280
   - Observation of quantum entanglement with top quarks at the ATLAS detector (ATLAS Collaboration): https://arxiv.org/abs/2311.07288
   - Observation of quantum entanglement in top quark pair production in proton-proton collisions at $\sqrt{s} = 13\text{ TeV}$: https://arxiv.org/abs/2406.03976
+</details>
+
+<details>
+<summary> <b>Quantum Correlations in Scattering Amplitudes: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dquantum-correlations-in-scattering-amplitudes"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+TBW
 </details>
 
 <details>

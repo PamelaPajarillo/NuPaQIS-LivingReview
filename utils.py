@@ -88,9 +88,46 @@ _SAFE_RANGES = ((0x00a1, 0x00ff), (0x0100, 0x017f), (0x0180, 0x024f))
 _GREEK_MATH = {k: '\\%s ' % v for k, v in _GREEK.items()}
 
 
+def _unwrap_math(value):
+    """Strip the delimiters from a '$...$' replacement, for math-mode use."""
+    if len(value) > 2 and value.startswith('$') and value.endswith('$'):
+        return value[1:-1] + ' '
+    return value
+
+
+# Same substitutions as _UNICODE_MAP, but for text already inside math mode.
+# Nesting '$' inside '$...$' is what produced the unbalanced-dollar bug.
+_UNICODE_MATH_MAP = {k: _unwrap_math(v) for k, v in _UNICODE_MAP.items()}
+
+# A '$...$' span in the source, ignoring escaped '\$'.
+_TEX_MATH = r'(?<!\\)\$.*?(?<!\\)\$'
+
+
 def _math_text(text):
     """Map non-ASCII inside a math fragment to math-mode commands."""
     return ''.join(_GREEK_MATH.get(c, c) for c in text)
+
+
+def _sanitize_tex_math(fragment, context):
+    """Pass through an existing '$...$' span, mapping Unicode to math commands.
+
+    InspireHEP titles are LaTeX, so their math delimiters are real markup and
+    must not be escaped. Only the non-ASCII characters inside need mapping.
+    """
+    out = []
+    for ch in fragment:
+        if ord(ch) < 128:
+            out.append(ch)
+        elif ch in _UNICODE_MATH_MAP:
+            out.append(_UNICODE_MATH_MAP[ch])
+        else:
+            warnings.warn(
+                'No math-mode LaTeX mapping for U+%04X (%s) in %r -- it may be '
+                'dropped silently from the PDF.'
+                % (ord(ch), unicodedata.name(ch, 'unnamed'), context[:60]))
+            out.append(ch)
+    # '$\Lambda $' -> '$\Lambda$'; the delimiter already ends the control word.
+    return re.sub(r'\s+\$$', '$', ''.join(out))
 
 
 def _mathml_node_to_tex(node):
@@ -172,6 +209,13 @@ def _to_tex_accent(ch, context):
     return ch
 
 
+def check_math_balanced(text, label):
+    # Checks if 'text' has an odd number of unescaped '$'.
+    if len(re.findall(r'(?<!\\)\$', text)) % 2:
+        raise ValueError('Unbalanced $ in %s: %r' % (label, text))
+    return text
+
+
 @functools.lru_cache(maxsize=8192)
 def sanitize_for_latex(text, accents='tex'):
     if text is None:
@@ -181,14 +225,16 @@ def sanitize_for_latex(text, accents='tex'):
         return text
 
     text = unicodedata.normalize('NFC', text)
-
-    # Split off <math> blocks so their LaTeX output is not re-escaped.
-    parts = re.split(r'(<math\b.*?</math\s*>)', text, flags=re.DOTALL | re.IGNORECASE)
+    parts = re.split(r'(<math\b.*?</math\s*>|%s)' % _TEX_MATH, text,
+                     flags=re.DOTALL | re.IGNORECASE)
 
     out = []
     for i, part in enumerate(parts):
-        if i % 2:                                   # a MathML fragment
-            out.append(_convert_mathml(part))
+        if i % 2:                                   # a math fragment
+            if part.lstrip().lower().startswith('<math'):
+                out.append(_convert_mathml(part))
+            else:
+                out.append(_sanitize_tex_math(part, text))
             continue
         part = re.sub(r'<[^>]+>', '', part)         # stray HTML tags
         part = html.unescape(part)                  # &amp; -> & before escaping
@@ -196,7 +242,8 @@ def sanitize_for_latex(text, accents='tex'):
         out.append(_map_unicode(part, accents, text))
 
     result = ''.join(out)
-    result = result.replace('$$', '')      # merge adjacent math runs
+    # Merge adjacent math runs, but never consume a literal '\$'.
+    result = re.sub(r'(?<!\\)\$\$', '', result)
     result = re.sub(r'(\\,){2,}', r'\\,', result)   # collapse repeated thin spaces
     return re.sub(r'[ \t]+', ' ', result).strip()
 
@@ -838,7 +885,7 @@ def write_papers_to_tex(df, file, categories_main, categories_sub, main_type, su
                 # Formatting and write to file
                 for paper in papers:
 
-                    file.write("\paragraph{%s~\cite{%s}}\n" % (sanitize_for_latex(paper[1]), paper[15]))
+                    file.write("\paragraph{%s~\cite{%s}}\n" % (check_math_balanced(sanitize_for_latex(paper[1]), paper[15]), paper[15]))
                     file.write("\\begin{itemize}\n")
                     file.write("\t\item \\textbf{Authors:} %s\n\t%s\n" % (sanitize_for_latex(paper[2]), paper[10]))                    
                     file.write("\end{itemize}\n\n")
@@ -852,7 +899,7 @@ def write_papers_to_tex(df, file, categories_main, categories_sub, main_type, su
             # Formatting and write to file
             for paper in crosslisted_papers:
 
-                file.write("\paragraph{%s~\cite{%s}}\n" % (sanitize_for_latex(paper[1]), paper[15]))
+                file.write("\paragraph{%s~\cite{%s}}\n" % (check_math_balanced(sanitize_for_latex(paper[1]), paper[15]), paper[15]))
                 file.write("\\begin{itemize}\n")
                 file.write("\t\item \\textbf{Authors:} %s\n\t%s\n" % (sanitize_for_latex(paper[2]), paper[10]))                    
                 file.write("\end{itemize}\n\n")
