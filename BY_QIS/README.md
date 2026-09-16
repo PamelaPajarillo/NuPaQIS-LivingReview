@@ -1719,10 +1719,11 @@
 + <strong>Published in <a href="https://doi.org/10.1103/PhysRevLett.134.111902">Phys.Rev.Lett.</a>:</strong> 19 March 2025</details>
 
 <details>
-<summary> (2025) <b>Quantum Information at the Electron-Ion Collider</b> [<a href="https://arxiv.org/abs/2510.23773">arXiv</a>] [<a href="https://inspirehep.net/literature/3074264">INSPIRE</a>] <code>Expand</code><br> </summary>
+<summary> (2025) <b>Quantum information at the electron-ion collider</b> [<a href="https://arxiv.org/abs/2510.23773">arXiv</a>] [<a href="https://doi.org/10.1103/xytf-nhkh">DOI</a>] [<a href="https://inspirehep.net/literature/3074264">INSPIRE</a>] <code>Expand</code> </summary>
 
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/2620041"> Kun Cheng</a>, <a href="https://inspirehep.net/authors/1006825"> Tao Han</a>, <a href="https://inspirehep.net/authors/1778841"> Sokratis Trifinopoulos</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2510.23773">arXiv:2510.23773</a>:</strong> 27 October 2025</details>
++ <strong>Posted on <a href="https://arxiv.org/abs/2510.23773">arXiv:2510.23773</a>:</strong> 27 October 2025 
++ <strong>Published in <a href="https://doi.org/10.1103/xytf-nhkh">Phys.Rev.D</a>:</strong> 01 September 2026</details>
 
 ###  $\textbf{{\color{#9BC53D}Quantum Correlations at Colliders}}$ 
 
@@ -3243,6 +3244,12 @@
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/2781515"> L. Toscani De Col</a>, <a href="https://inspirehep.net/authors/2810685"> T. Riebner</a>, <a href="https://inspirehep.net/authors/2781514"> I. Morawetz</a>, <a href="https://inspirehep.net/authors/1218409"> F. Schneider</a>, <a href="https://inspirehep.net/authors/3147191"> N. Sempelmann</a>, <a href="https://inspirehep.net/authors/3164985"> J. Schlachet-Lépinay</a>, <a href="https://inspirehep.net/authors/2180370"> F. Schaden</a>, <a href="https://inspirehep.net/authors/2140480"> M. Bartokos</a>, <a href="https://inspirehep.net/authors/2088646"> G.A. Kazakov</a>, <a href="https://inspirehep.net/authors/2079185"> K. Beeks</a>, <a href="https://inspirehep.net/authors/3147192"> B. Gerstenecker</a>, <a href="https://inspirehep.net/authors/2577766"> M. Pimon</a>, <a href="https://inspirehep.net/authors/2771685"> S. Lahs</a>, <a href="https://inspirehep.net/authors/3164986"> A. Hellerschmied</a>, <a href="https://inspirehep.net/authors/3164987"> T. Lercher</a>, <a href="https://inspirehep.net/authors/3164988"> J. Premper</a>, <a href="https://inspirehep.net/authors/2544682"> A. Niessner</a>, <a href="https://inspirehep.net/authors/3164989"> M. Matus</a>, <a href="https://inspirehep.net/authors/2305245"> H. Denker</a>, <a href="https://inspirehep.net/authors/2169871"> M. Cizek</a>, <a href="https://inspirehep.net/authors/1875722"> O. Cip</a>, <a href="https://inspirehep.net/authors/1020135"> V. Lal</a>, <a href="https://inspirehep.net/authors/2734129"> G. Zitzer</a>, <a href="https://inspirehep.net/authors/2297037"> V. Petrov</a>, <a href="https://inspirehep.net/authors/2114622"> J. Tiedau</a>, <a href="https://inspirehep.net/authors/2549680"> M.V. Okhapkin</a>, <a href="https://inspirehep.net/authors/1981905"> E. Peik</a>, <a href="https://inspirehep.net/authors/2130462"> T. Schumm</a>
 + <strong>Posted on <a href="https://arxiv.org/abs/2606.04997">arXiv:2606.04997</a>:</strong> 03 June 2026</details>
 
+<details>
+<summary> (2026) <b>Adaptive detection of Rabi signals under composite hypotheses</b> [<a href="https://arxiv.org/abs/2609.16119">arXiv</a>] [<a href="https://inspirehep.net/literature/3203855">INSPIRE</a>] <code>Expand</code><br> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1474093"> So Chigusa</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2609.16119">arXiv:2609.16119</a>:</strong> 14 September 2026</details>
+
 ###  $\textbf{{\color{#9BC53D}Detector Technologies and Simulations}}$ 
 
 <details>
@@ -3867,6 +3874,14 @@
 
 
 
+<details>
+<summary> (2026) <b>Adaptive detection of Rabi signals under composite hypotheses</b> [<a href="https://arxiv.org/abs/2609.16119">arXiv</a>] [<a href="https://inspirehep.net/literature/3203855">INSPIRE</a>] <code>Expand</code><br> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1474093"> So Chigusa</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2609.16119">arXiv:2609.16119</a>:</strong> 14 September 2026</details>
+
+
+
 ##  $\textbf{{\color{#5BC0EB}Quantum Sensors - Optomechanical Sensors}}$ 
 
 ###  $\textbf{{\color{#9BC53D}Dark Matter - Particle-like Dark Matter}}$ 
@@ -4143,6 +4158,14 @@
 
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/2621425"> Ping He</a>, <a href="https://inspirehep.net/authors/1019902"> Jing Shu</a>, <a href="https://inspirehep.net/authors/1675751"> Bin Xu</a>, <a href="https://inspirehep.net/authors/1915155"> Jincheng Xu</a>
 + <strong>Posted on <a href="https://arxiv.org/abs/2512.14821">arXiv:2512.14821</a>:</strong> 16 December 2025</details>
+
+
+
+<details>
+<summary> (2026) <b>Adaptive detection of Rabi signals under composite hypotheses</b> [<a href="https://arxiv.org/abs/2609.16119">arXiv</a>] [<a href="https://inspirehep.net/literature/3203855">INSPIRE</a>] <code>Expand</code><br> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1474093"> So Chigusa</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2609.16119">arXiv:2609.16119</a>:</strong> 14 September 2026</details>
 
 
 
@@ -4452,6 +4475,14 @@
 
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/2621425"> Ping He</a>, <a href="https://inspirehep.net/authors/1019902"> Jing Shu</a>, <a href="https://inspirehep.net/authors/1675751"> Bin Xu</a>, <a href="https://inspirehep.net/authors/1915155"> Jincheng Xu</a>
 + <strong>Posted on <a href="https://arxiv.org/abs/2512.14821">arXiv:2512.14821</a>:</strong> 16 December 2025</details>
+
+
+
+<details>
+<summary> (2026) <b>Adaptive detection of Rabi signals under composite hypotheses</b> [<a href="https://arxiv.org/abs/2609.16119">arXiv</a>] [<a href="https://inspirehep.net/literature/3203855">INSPIRE</a>] <code>Expand</code><br> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1474093"> So Chigusa</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2609.16119">arXiv:2609.16119</a>:</strong> 14 September 2026</details>
 
 
 

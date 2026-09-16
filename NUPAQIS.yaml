@@ -1485,3 +1485,8 @@
 - ID: 3179359
   NUPA_Categories: Nuclear Many-Body Physics - Nuclear Reactions and Response
   QIS_Categories: Quantum Measurement and Tomography
+- ID: 3203855
+  NUPA_Categories: Dark Matter - Wave-like Dark Matter
+  QIS_Categories: Quantum Sensors - Atomic/Molecular/Nuclear Sensors, Quantum Sensors
+    - Optical/Photonic Sensors, Quantum Sensors - Optomechanical Sensors, Quantum
+    Sensors - Solid State Sensors
