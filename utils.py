@@ -639,14 +639,15 @@ def plot_histogram(df, run):
     counts = df['%s_Primary' % run].value_counts()
     title = "Nuclear and Particle Physics" if run == 'NUPA' else "Quantum Information Science"
     sns.set_theme(style="whitegrid")
-    plt.figure(figsize=(18, 8))
+    plt.figure(figsize=(25, 20))
     bar_color = "skyblue" if run == 'NUPA' else "lightgreen"
     # Plot
     bars = plt.bar(counts.index, counts.values, color=bar_color)
-    plt.xlabel("%s Categories" % title, fontsize=13)
-    plt.ylabel("Number of Papers", fontsize=13)
-    plt.title("Number of Papers in the %s Category" % title, fontsize=15, pad=20)
-    plt.xticks(rotation=75, ha='right', fontsize=10)
+    plt.xlabel("%s Categories" % title, fontsize=25)
+    plt.ylabel("Number of Papers", fontsize=25)
+    plt.title("Number of Papers in the %s Category" % title, fontsize=25, pad=20)
+    plt.xticks(rotation=75, ha='right', fontsize=20)
+    plt.yticks(fontsize=20)
 
     # Add value labels above each bar
     for bar in bars:
@@ -654,7 +655,7 @@ def plot_histogram(df, run):
         plt.text(bar.get_x() + bar.get_width() / 2,
                  height + 0.3,
                  str(int(height)),
-                 ha='center', va='bottom', fontsize=9)
+                 ha='center', va='bottom', fontsize=15)
 
     plt.tight_layout()
     plt.savefig("%s_Histogram.png" % run, dpi=300)
@@ -684,8 +685,9 @@ def plot_2D_nupaqis_heatmap(df, categories_nupa, categories_qis, heatmap_nupa, h
     plt.figure(figsize=(16, 14))
     plt.imshow(heatmap_data, cmap=cmap, norm=norm, aspect='auto')
 
-    cbar = plt.colorbar(label='Number of Papers')
-    cbar.ax.tick_params(labelsize=15)
+    cbar = plt.colorbar()
+    cbar.set_label('Number of Papers', fontsize=20, labelpad=15)
+    cbar.ax.tick_params(labelsize=20)
 
     xlabels = ["Reviews and Whitepapers", "Quantum Sensors", "Quantum Entanglement and \nBell Inequalities", "Quantum Simulations", "Quantum Algorithms", "Quantum Machine Learning"]
     # Axis labels
@@ -695,12 +697,12 @@ def plot_2D_nupaqis_heatmap(df, categories_nupa, categories_qis, heatmap_nupa, h
         rotation=45,
         ha='right',
         rotation_mode='anchor',
-        fontsize=15,
+        fontsize=20,
     )
     plt.yticks(
         ticks=np.arange(len(nupa_heatmap)),
         labels=nupa_heatmap,
-        fontsize=15
+        fontsize=20
     )
     plt.xlabel('Quantum Information Science (QIS) Topics', fontsize=20)
     plt.ylabel('Nuclear and Particle Physics (NuPa) Topics', fontsize=20)
@@ -712,14 +714,14 @@ def plot_2D_nupaqis_heatmap(df, categories_nupa, categories_qis, heatmap_nupa, h
             val = heatmap_data[i, j]
 
             # Choose text color based on background intensity
-            if val > max_count * 0.5:
+            if val > max_count * 0.45:
                 text_color = "white"
             else:
                 text_color = "black"
 
             plt.text(j, i, int(val),
                      ha='center', va='center',
-                     fontsize=9, color=text_color)
+                     fontsize=20, color=text_color)
 
     # Grid lines
     plt.gca().set_xticks(np.arange(-0.5, len(qis_heatmap), 1), minor=True)

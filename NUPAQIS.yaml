@@ -221,7 +221,8 @@
 - ID: 1765494
   NUPA_Categories: Nuclear Many-Body Physics - Nuclear Reactions and Response, Effective
     Field Theories
-  QIS_Categories: Quantum Algorithms - Quantum Simulations
+  QIS_Categories: Quantum Algorithms - Quantum Simulations, Quantum Algorithms - Quantum
+    Phase Estimation
 - ID: 1767140
   NUPA_Categories: Gravitational Waves, Dark Matter - Wave-like Dark Matter
   QIS_Categories: Quantum Sensors - Atomic/Molecular/Nuclear Sensors
@@ -398,7 +399,8 @@
   QIS_Categories: Quantum Algorithms - Quantum Simulations
 - ID: 1850530
   NUPA_Categories: Anomaly Detection, Event Classification
-  QIS_Categories: Quantum Computing Paradigms - Continuous Variable Quantum Computing
+  QIS_Categories: Quantum Computing Paradigms - Continuous Variable Quantum Computing,
+    Quantum Machine Learning - Unsupervised Methods
 - ID: 1851893
   NUPA_Categories: Lattice Field Theories - Gauge Theories
   QIS_Categories: Quantum Computing Paradigms - Quantum Annealing
@@ -1304,9 +1306,8 @@
   QIS_Categories: Quantum Sensors - Atomic/Molecular/Nuclear Sensors, Quantum Sensors
     - Solid State Sensors
 - ID: 2892342
-  NUPA_Categories: Quantum Correlations in Scattering Amplitudes
-  QIS_Categories: Quantum Algorithms - Quantum Walks, Quantum Algorithms - Quantum
-    Simulations, Quantum Sensors - Atomic/Molecular/Nuclear Sensors
+  NUPA_Categories: Detector Technologies and Simulations
+  QIS_Categories: Quantum Algorithms - Quantum Walks
 - ID: 2894383
   NUPA_Categories: Event Generation
   QIS_Categories: Quantum Machine Learning - Variational Quantum Algorithms

@@ -319,6 +319,17 @@
 + <strong>Posted on <a href="https://arxiv.org/abs/1804.01505">arXiv:1804.01505</a>:</strong> 04 April 2018 
 + <strong>Published in <a href="https://doi.org/10.1103/PhysRevC.100.034610">Phys. Rev. C 100, 034610 (2019)</a>:</strong> 14 September 2019</details>
 
+###  $\textbf{{\color{#9BC53D}Crosslists}}$ 
+
+<details>
+<summary> (2019) <b>Quantum Computing for Neutrino-Nucleus Scattering</b> [<a href="https://arxiv.org/abs/1911.06368">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.101.074038">DOI</a>] [<a href="https://inspirehep.net/literature/1765494">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1514679"> Alessandro Roggero</a>, <a href="https://inspirehep.net/authors/1723179"> Andy C.Y. Li</a>, <a href="https://inspirehep.net/authors/1014478"> Joseph Carlson</a>, <a href="https://inspirehep.net/authors/1007218"> Rajan Gupta</a>, <a href="https://inspirehep.net/authors/1040364"> Gabriel N. Perdue</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/1911.06368">arXiv:1911.06368</a>:</strong> 14 November 2019 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.101.074038">Phys. Rev. D 101, 074038 (2020)</a>:</strong> 28 April 2020</details>
+
+
+
 ##  $\textbf{{\color{#5BC0EB}Quantum Algorithms - Quantum Simulations}}$ 
 
 ###  $\textbf{{\color{#9BC53D}Beyond the Standard Model}}$ 
@@ -1155,15 +1166,6 @@
 
 
 <details>
-<summary> (2025) <b>Quantum walk based Monte Carlo simulation for photon interaction cross sections</b> [<a href="https://arxiv.org/abs/2502.14374">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.111.116001">DOI</a>] [<a href="https://inspirehep.net/literature/2892342">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1058969"> Euimin Lee</a>, <a href="https://inspirehep.net/authors/2801025"> Sangmin Lee</a>, <a href="https://inspirehep.net/authors/2135406"> Shiho Kim</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2502.14374">arXiv:2502.14374</a>:</strong> 20 February 2025 
-+ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.111.116001">Phys.Rev.D</a>:</strong> 01 June 2025</details>
-
-
-
-<details>
 <summary> (2026) <b>Three-flavor supernova neutrino simulation using a hybrid quantum-classical algorithm with qutrits</b> [<a href="https://arxiv.org/abs/2605.01099">arXiv</a>] [<a href="https://doi.org/10.1103/8kcg-l79c">DOI</a>] [<a href="https://inspirehep.net/literature/3151146">INSPIRE</a>] <code>Expand</code> </summary>
 
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/3178332"> Daniel J. Heimsoth</a>, <a href="https://inspirehep.net/authors/1873686"> Pooja Siwach</a>, <a href="https://inspirehep.net/authors/1017575"> A. Baha Balantekin</a>
@@ -1174,6 +1176,15 @@
 
 ##  $\textbf{{\color{#5BC0EB}Quantum Algorithms - Quantum Walks}}$ 
 
+###  $\textbf{{\color{#9BC53D}Detector Technologies and Simulations}}$ 
+
+<details>
+<summary> (2025) <b>Quantum walk based Monte Carlo simulation for photon interaction cross sections</b> [<a href="https://arxiv.org/abs/2502.14374">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.111.116001">DOI</a>] [<a href="https://inspirehep.net/literature/2892342">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1058969"> Euimin Lee</a>, <a href="https://inspirehep.net/authors/2801025"> Sangmin Lee</a>, <a href="https://inspirehep.net/authors/2135406"> Shiho Kim</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2502.14374">arXiv:2502.14374</a>:</strong> 20 February 2025 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.111.116001">Phys.Rev.D</a>:</strong> 01 June 2025</details>
+
 ###  $\textbf{{\color{#9BC53D}Event Generation}}$ 
 
 <details>
@@ -1182,15 +1193,6 @@
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1933808"> Khadeejah Bepari</a>, <a href="https://inspirehep.net/authors/1055201"> Sarah Malik</a>, <a href="https://inspirehep.net/authors/1045921"> Michael Spannowsky</a>, <a href="https://inspirehep.net/authors/1821879"> Simon Williams</a>
 + <strong>Posted on <a href="https://arxiv.org/abs/2109.13975">arXiv:2109.13975</a>:</strong> 28 September 2021 
 + <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.106.056002">Phys. Rev. D 106 (2022) 056002</a>:</strong> 01 September 2022</details>
-
-###  $\textbf{{\color{#9BC53D}Quantum Correlations in Scattering Amplitudes}}$ 
-
-<details>
-<summary> (2025) <b>Quantum walk based Monte Carlo simulation for photon interaction cross sections</b> [<a href="https://arxiv.org/abs/2502.14374">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.111.116001">DOI</a>] [<a href="https://inspirehep.net/literature/2892342">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1058969"> Euimin Lee</a>, <a href="https://inspirehep.net/authors/2801025"> Sangmin Lee</a>, <a href="https://inspirehep.net/authors/2135406"> Shiho Kim</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2502.14374">arXiv:2502.14374</a>:</strong> 20 February 2025 
-+ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.111.116001">Phys.Rev.D</a>:</strong> 01 June 2025</details>
 
 ##  $\textbf{{\color{#5BC0EB}Quantum Computing Paradigms - Continuous Variable Quantum Computing}}$ 
 
@@ -1719,10 +1721,11 @@
 + <strong>Published in <a href="https://doi.org/10.1103/PhysRevLett.134.111902">Phys.Rev.Lett.</a>:</strong> 19 March 2025</details>
 
 <details>
-<summary> (2025) <b>Quantum Information at the Electron-Ion Collider</b> [<a href="https://arxiv.org/abs/2510.23773">arXiv</a>] [<a href="https://inspirehep.net/literature/3074264">INSPIRE</a>] <code>Expand</code><br> </summary>
+<summary> (2025) <b>Quantum information at the electron-ion collider</b> [<a href="https://arxiv.org/abs/2510.23773">arXiv</a>] [<a href="https://doi.org/10.1103/xytf-nhkh">DOI</a>] [<a href="https://inspirehep.net/literature/3074264">INSPIRE</a>] <code>Expand</code> </summary>
 
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/2620041"> Kun Cheng</a>, <a href="https://inspirehep.net/authors/1006825"> Tao Han</a>, <a href="https://inspirehep.net/authors/1778841"> Sokratis Trifinopoulos</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2510.23773">arXiv:2510.23773</a>:</strong> 27 October 2025</details>
++ <strong>Posted on <a href="https://arxiv.org/abs/2510.23773">arXiv:2510.23773</a>:</strong> 27 October 2025 
++ <strong>Published in <a href="https://doi.org/10.1103/xytf-nhkh">Phys.Rev.D</a>:</strong> 01 September 2026</details>
 
 ###  $\textbf{{\color{#9BC53D}Quantum Correlations at Colliders}}$ 
 
@@ -2442,6 +2445,15 @@
 
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/2043493"> Su Yeon Chang</a>, <a href="https://inspirehep.net/authors/1028732"> Sofia Vallecorsa</a>, <a href="https://inspirehep.net/authors/2072249"> Elías F. Combarro</a>, <a href="https://inspirehep.net/authors/1014467"> Federico Carminati</a>
 + <strong>Posted on <a href="https://arxiv.org/abs/2101.11132">arXiv:2101.11132</a>:</strong> 26 January 2021</details>
+
+
+
+<details>
+<summary> (2021) <b>Unsupervised event classification with graphs on classical and photonic quantum computers</b> [<a href="https://arxiv.org/abs/2103.03897">arXiv</a>] [<a href="https://doi.org/10.1007/JHEP08(2021)170">DOI</a>] [<a href="https://inspirehep.net/literature/1850530">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1783418"> Andrew Blance</a>, <a href="https://inspirehep.net/authors/1045921"> Michael Spannowsky</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2103.03897">arXiv:2103.03897</a>:</strong> 05 March 2021 
++ <strong>Published in <a href="https://doi.org/10.1007/JHEP08(2021)170">J. High Energ. Phys. 2021, 170</a>:</strong> 31 August 2021</details>
 
 
 
@@ -3486,15 +3498,6 @@
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1898823"> Jason Arakawa</a>, <a href="https://inspirehep.net/authors/3075464"> Muhammad H. Zaheer</a>, <a href="https://inspirehep.net/authors/1059400"> Volodymyr Takhistov</a>, <a href="https://inspirehep.net/authors/1896420"> Marianna S. Safronova</a>, <a href="https://inspirehep.net/authors/1497168"> Joshua Eby</a>, <a href="https://inspirehep.net/authors/2636641"> Charles Cheung</a>
 + <strong>Posted on <a href="https://arxiv.org/abs/2502.08716">arXiv:2502.08716</a>:</strong> 12 February 2025 
 + <strong>Published in <a href="https://doi.org/10.1088/1475-7516/2026/02/026">JCAP</a>:</strong> 10 February 2026</details>
-
-
-
-<details>
-<summary> (2025) <b>Quantum walk based Monte Carlo simulation for photon interaction cross sections</b> [<a href="https://arxiv.org/abs/2502.14374">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.111.116001">DOI</a>] [<a href="https://inspirehep.net/literature/2892342">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1058969"> Euimin Lee</a>, <a href="https://inspirehep.net/authors/2801025"> Sangmin Lee</a>, <a href="https://inspirehep.net/authors/2135406"> Shiho Kim</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2502.14374">arXiv:2502.14374</a>:</strong> 20 February 2025 
-+ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.111.116001">Phys.Rev.D</a>:</strong> 01 June 2025</details>
 
 
 

@@ -1,4 +1,4 @@
-# A Living Review of Quantum Information Science in Nuclear and Particle Physics
+# NuPaQIS: A Living Review of the Intersection of Nuclear and Particle Physics and Quantum Information Science
 
 [![DOWNLOAD_PDF](https://img.shields.io/badge/Download-PDF_Version-81b7df)](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/PamelaPajarillo/NUPAQIS-LivingReview/main/NUPAQIS.pdf) [![Preprint Draft for arXiV](https://img.shields.io/badge/arXiV_Post-TBA-blue)](https://www.overleaf.com/read/wkqcjgwhfwpb#e5842a)
 
@@ -8,7 +8,7 @@ Number of Papers: 458
  
 *Inspired by <a href="https://iml-wg.github.io/HEPML-LivingReview/">"A Living Review of Machine Learning for High Energy Physics"</a>, the goal of this repository is to provide an extensive list of citations for those developing and applying quantum information approaches to experimental, phenomenological, or theoretical analyses.  Applications of quantum information science to high energy physics is a relatively new field of research.  This repository will be updated as often as possible with the relevant literature.  Suggestions are most welcome.*
 
-The goal of this repository is to collect references for quantum information science as applied to particle and nuclear physics. The papers are listed in chronological order. Reviews, whitepapers, and inproceedings are listed at the beginning of each section and can be found <a href="/BY_NUPA/README.md#textbfreviews-and-whitepapers"> here </a>. 
+The goal of this repository is to collect references for quantum information science as applied to particle and nuclear physics. The papers are listed in chronological order. Reviews, whitepapers, and inproceedings are listed at the beginning of each section and can be found <a href="/BY_NUPA/README.md#textbfreviews-and-whitepapers"> here</a>. 
 
 The repository is organized in two ways: 
 * [![MAIN_TO_NUPA](https://img.shields.io/badge/Link_to-Living_Review_by_Nuclear_and_Particle_Physics-5BC0EB)](/BY_NUPA#a-living-review-of-quantum-information-science-in-nuclear-and-particle-physics-organized-by-nupa-topics) NuPa topics are the main categories and QIS topics are the subcategories 
@@ -154,6 +154,22 @@ References:
 </details>
 
 <details>
+<summary> <b>Experimental Infrastructure - Detector Technologies: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dexperimental-infrastructure---detector-technologies"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+TBW
+</details>
+
+<details>
+<summary> <b>Experimental Infrastructure - Accelerator Physics: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dexperimental-infrastructure---accelerator-physics"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+TBW
+</details>
+
+<details>
 <summary> <b>Gravitational Waves: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dgravitational-waves"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
@@ -232,6 +248,7 @@ References:
 
 
 TBW
+References:
 </details>
 
 <details>
@@ -240,6 +257,9 @@ TBW
 
 
 An atomic nucleus is a self-bound quantum many-body system: a collection of protons and neutrons, collectively called nucleons, held together by the nuclear force. It differs from an atom in a basic way. Because the nucleus of an atom is thousands of times heavier than its electrons, it can be treated as fixed in place, supplying an external and exactly known Coulomb well for the electrons to occupy. A nucleus has no such center. Its constituents all have comparable masses, and the potential that binds them is one they generate themselves. That potential is also far less well characterized. It has no closed form, being a residual of the strong force acting among the quarks and gluons inside the nucleons: repulsive at short range, attractive at intermediate range, with a long-range tail from one-pion exchange and a dependence on spin and isospin. Realistic Hamiltonians must add three-nucleon forces and the Coulomb repulsion among protons. Chiral effective field theory supplies the two- and three-nucleon pieces consistently, order by order in a single expansion, though phenomenological three-nucleon models remain in wide use. The result is a hard computational problem. The nucleons are strongly correlated, so the wavefunction is poorly approximated by a single Slater determinant, and the space it must be expanded in grows combinatorially with mass number and basis size. Exact solutions are therefore out of reach beyond the lightest nuclei. The topics considered here fall into two groups: (1) nuclear structure and (2) nuclear reactions and response.
+
+TBW
+References:
 </details>
 
 <details>
@@ -248,6 +268,9 @@ An atomic nucleus is a self-bound quantum many-body system: a collection of prot
 
 
 An atomic nucleus is a self-bound quantum many-body system: a collection of protons and neutrons, collectively called nucleons, held together by the nuclear force. It differs from an atom in a basic way. Because the nucleus of an atom is thousands of times heavier than its electrons, it can be treated as fixed in place, supplying an external and exactly known Coulomb well for the electrons to occupy. A nucleus has no such center. Its constituents all have comparable masses, and the potential that binds them is one they generate themselves. That potential is also far less well characterized. It has no closed form, being a residual of the strong force acting among the quarks and gluons inside the nucleons: repulsive at short range, attractive at intermediate range, with a long-range tail from one-pion exchange and a dependence on spin and isospin. Realistic Hamiltonians must add three-nucleon forces and the Coulomb repulsion among protons. Chiral effective field theory supplies the two- and three-nucleon pieces consistently, order by order in a single expansion, though phenomenological three-nucleon models remain in wide use. The result is a hard computational problem. The nucleons are strongly correlated, so the wavefunction is poorly approximated by a single Slater determinant, and the space it must be expanded in grows combinatorially with mass number and basis size. Exact solutions are therefore out of reach beyond the lightest nuclei. The topics considered here fall into two groups: (1) nuclear structure and (2) nuclear reactions and response.
+
+TBW
+References:
 </details>
 
 <details>
@@ -280,7 +303,13 @@ References:
 
 
 
-TBW
+The $'S'$-matrix is the unitary operator that maps the incoming state of a scattering process to the outgoing state. Its matrix element between a specified initial and final configuration is the scattering amplitude $\mathcal{M}$, which describes how likely that particular initial state of particles is to scatter into that particular final state after an interaction. The connection to experiment is that the square of the amplitude gives the cross section, the effective target area that sets how often the process occurs and the quantity actually measured in experiment. Besides their momenta, the colliding particles carry discrete quantum numbers such as helicity and flavor, and once the kinematics are fixed, the $'S'$-matrix acts only on those labels, where it becomes a finite-dimensional unitary that will in general take an uncorrelated initial state into an entangled final state. Unlike the study of quantum correlations at colliders, where the goal is to measure entanglement in data, the study of quantum correlations here are properties of the amplitude itself, and requiring them to be maximal or minimal is used to constrain the form of the underlying interaction. The program of studying quantum correlations in scattering amplitudes has been applied to a wide range of processes, from low-energy nuclear physics to high-energy particle physics. Imposing maximal entanglement on an unconstrained photon-electron coupling reproduces quantum electrodynamics (QED) and predicts a value for the weak mixing angle, while the amplitude for low-energy nucleon-nucleon scattering is least entangling precisely where the strong interaction displays approximate spin-flavor symmetries, suggesting that such symmetries emerge dynamically from a suppresion of entanglement.
+
+References:
+  - Matthew D. Schwartz, *Quantum Field Theory and the Standard Model*
+  - Maximal Entanglement in High Energy Physics: https://arxiv.org/abs/1703.02989
+  - Entanglement Suppression and Emergent Symmetries of Strong Interactions: https://arxiv.org/abs/1812.03138
+  - Entanglement Entropy of Scattering Particles: https://arxiv.org/abs/1602.00720
 </details>
 
 <details>
@@ -311,7 +340,7 @@ The references below contain (static) reviews and whitepapers listed in applicat
 
 
 
-The quantum search algorithm, also known as Grover's algorithm, performs a generic search for a solution to a search problem. Assuming that the solutions of the search problem can be expressed as binary strings of length $n$, such that $N= 2^n$, where $N$ is the dimension of the search space, then any search problem can be represented as a function $f(x)$ where $f(x) = 1$ if $x$ is a solution and $f(x) = 0$ otherwise. Grover's algorithm aims to find an input $x \in \{0,1\}^n$ such that $f(x) = 1$. Suppose the function $f$ is implemented by an oracle, a black box that can recognize solutions to the search problem. Classically, it would take $\mathcal{O}(N)$ queries to the oracle to find the solution, however, using Grover's algorithm would allow this search to be sped up substantially, requiring only $\mathcal{O}(\sqrt{N})$ queries. The quantum oracle can be represented by a unitary operator $O$, defined by its action: $\ket{x} \longmapsto (-1)^{f(x)} \ket{x}$. Therefore, the oracle marks the solution to the search problem by a phase shift. The algorithm starts with the computer with the state $\ket{0}^{\otimes n}$ and acting the Hadamard gates on all $n$ qubits gives us the state $\ket{\psi} = \frac{1}{\sqrt{N}} \sum_{x=0}^{N-1}\ket{x}$. Grover's algorithm consists of repeated applications of a quantum subroutine called Grover iteration which are as follows: (1) Apply the oracle $O$; (2) Apply $H^{\otimes n}$; (3) Perform a conditional phase shift: $\ket{x} \rightarrow -(-1)^{\delta_{x0}}\ket{x}$. (4) Apply $H^{\otimes n}$. This Grover iteration is repeated $\mathcal{O}(\sqrt{N})$ times. This can be extended to a search problem with $M$ solutions, with $1 \leq M \leq N$, and the Grover iteration can be applied $\mathcal{O}(\sqrt{N/M})$ times to get a solution.
+The quantum search algorithm, also known as Grover's algorithm, performs a generic search for a solution to a search problem. Assuming that the solutions of the search problem can be expressed as binary strings of length $n$, such that $N= 2^n$, where $N$ is the dimension of the search space, then any search problem can be represented as a function $f(x)$ where $f(x) = 1$ if $x$ is a solution and $f(x) = 0$ otherwise. Grover's algorithm aims to find an input $x \in \{0,1\}^n$ such that $f(x) = 1$. Suppose the function $f$ is implemented by an oracle, a black box that can recognize solutions to the search problem. Classically, it would take $\mathcal{O}(N)$ queries to the oracle to find the solution, however, using Grover's algorithm would allow this search to be sped up substantially, requiring only $\mathcal{O}(\sqrt{N})$ queries. The quantum oracle can be represented by a unitary operator $O$, defined by its action: $\ket{x} \longmapsto (-1)^{f(x)} \ket{x}$. Therefore, the oracle marks the solution to the search problem by a phase shift. The algorithm starts with the computer with the state $\ket{0}^{\otimes n}$ and acting the Hadamard gates on all $n$ qubits gives the state $\ket{\psi} = \frac{1}{\sqrt{N}} \sum_{x=0}^{N-1}\ket{x}$. Grover's algorithm consists of repeated applications of a quantum subroutine called Grover iteration which are as follows: (1) Apply the oracle $O$; (2) Apply $H^{\otimes n}$; (3) Perform a conditional phase shift: $\ket{x} \rightarrow -(-1)^{\delta_{x0}}\ket{x}$. (4) Apply $H^{\otimes n}$. This Grover iteration is repeated $\mathcal{O}(\sqrt{N})$ times. This can be extended to a search problem with $M$ solutions, with $1 \leq M \leq N$, and the Grover iteration can be applied $\mathcal{O}(\sqrt{N/M})$ times to get a solution.
 
 References:
   - Michael A. Nielsen and Isaac L. Chuang, *Quantum Computation and Quantum Information*
@@ -335,11 +364,11 @@ References:
 
 
 
-Quantum Phase Estimation (QPE) is a quantum algorithm used to estimate the eigenvalue (phase) corresponding to an eigenvector of a unitary operator. 
+Quantum Phase Estimation (QPE) is a quantum algorithm used to estimate the eigenvalue (phase) corresponding to an eigenvector of a unitary operator. Consider the state $\frac{1}{\sqrt{2^n}} \sum_{y=0}^{2^n-1} e^{2\pi i \omega y} \ket{y}$, where $\omega \in (0,1)$. The goal of QPE is to estimate the value of the phase parameter $\omega$.  
 
 References:
   - Michael A. Nielsen and Isaac L. Chuang, *Quantum Computation and Quantum Information*
-  - Quantum Phase Estimation: https://arxiv.org/abs/quant-ph/0008033
+  - Phillip Kaye, Raymond Laflamme, and Michele Mosca, *An Introduction to Quantum Computing*
 </details>
 
 <details>
@@ -347,7 +376,7 @@ References:
 
 
 
-Richard Feynman first proposed the idea of quantum simulation in 1982, where he noted that simulating quantum systems on a classical computer was hard because the number of resources required grows exponentially with the size of the system, and suggested that quantum systems could be efficiently simulated by other quantum systems. Let us consider a general quantum simulation problem: finding the state of a quantum system described by a wavefunction $\ket{\psi}$ at some time $t$. Focusing on the case of time-independent Hamiltonian and assuming $\hbar = 1$, the solution of the Schrödinger equation $\frac{d}{dt}\ket{\psi} = -iH\ket{\psi}$ is given by $\ket{\psi(t)} = e^{-iHt} \ket{\psi(0)}$, where $H$ is the Hamiltonian of the system. The goal is to solve for $\ket{\psi(t)}$ given the initial state $\ket{\psi(0)}$ and the Hamiltonian $H$. Seth Lloyd later showed that Feynman's idea of quantum simulation could be implemented on a quantum computer. For each degree of freedom of the system, a quantum register can be allocated containing a sufficient number of qubits to approximate the state of that degree of freedom to some desired accuracy. The Hamiltonian of the system can be written as as $H = \sum_{l=1}^m H_l$, where each $H_l$ operates on only a few degrees of freedom. The Trotter decomposition can be used to approximate the time evolution operator over a single small step $\Delta t$ as $e^{-iH\Delta t} = e^{-iH_1 \Delta t} e^{-iH_2 \Delta t} \cdots e^{-iH_m \Delta t} + \mathcal{O}(\Delta t^2)$. Each $e^{-iH_l \Delta t}$ can be simulated using quantum gates on the qubits in the register corresponding to the degrees of freedom that $H_l$ operates on. To simulate the time evolution of the system for a total time $t$, this process is repeated $t = n \Delta t$ times, giving us $e^{-iHt} = (e^{-iH\Delta t})^n = \left( \prod_l e^{-iH_l \Delta t} \right)^n + \mathcal{O}\left(\frac{t^2}{n}\right)$. The quantum simulation takes $\mathcal{O}(mn)$ steps, and reproduces the original time evolution to an accuracy of $h^2 t^2 m^2 / n$, where $h$ is the average size of $\lVert[H_j, H_k]\rVert$. This approach allows to simulate quantum systems that are intractable for classical computers, such as many-body quantum systems, quantum chemistry problems, and high-energy physics phenomena.
+Richard Feynman first proposed the idea of quantum simulation in 1982, where he noted that simulating quantum systems on a classical computer was hard because the number of resources required grows exponentially with the size of the system, and suggested that quantum systems could be efficiently simulated by other quantum systems. Consider a general quantum simulation problem: finding the state of a quantum system described by a wavefunction $\ket{\psi}$ at some time $t$. Focusing on the case of time-independent Hamiltonian and assuming $\hbar = 1$, the solution of the Schrödinger equation $\frac{d}{dt}\ket{\psi} = -iH\ket{\psi}$ is given by $\ket{\psi(t)} = e^{-iHt} \ket{\psi(0)}$, where $H$ is the Hamiltonian of the system. The goal is to solve for $\ket{\psi(t)}$ given the initial state $\ket{\psi(0)}$ and the Hamiltonian $H$. Seth Lloyd later showed that Feynman's idea of quantum simulation could be implemented on a quantum computer. For each degree of freedom of the system, a quantum register can be allocated containing a sufficient number of qubits to approximate the state of that degree of freedom to some desired accuracy. The Hamiltonian of the system can be written as as $H = \sum_{l=1}^m H_l$, where each $H_l$ operates on only a few degrees of freedom. The Trotter decomposition can be used to approximate the time evolution operator over a single small step $\Delta t$ as $e^{-iH\Delta t} = e^{-iH_1 \Delta t} e^{-iH_2 \Delta t} \cdots e^{-iH_m \Delta t} + \mathcal{O}(\Delta t^2)$. Each $e^{-iH_l \Delta t}$ can be simulated using quantum gates on the qubits in the register corresponding to the degrees of freedom that $H_l$ operates on. To simulate the time evolution of the system for a total time $t$, this process is repeated $t = n \Delta t$ times, giving $e^{-iHt} = (e^{-iH\Delta t})^n = \left( \prod_l e^{-iH_l \Delta t} \right)^n + \mathcal{O}\left(\frac{t^2}{n}\right)$. The quantum simulation takes $\mathcal{O}(mn)$ steps, and reproduces the original time evolution to an accuracy of $h^2 t^2 m^2 / n$, where $h$ is the average size of $\lVert[H_j, H_k]\rVert$. This approach allows to simulate quantum systems that are intractable for classical computers, such as many-body quantum systems, quantum chemistry problems, and high-energy physics phenomena.
 
 References:
   - Michael A. Nielsen and Isaac L. Chuang, *Quantum Computation and Quantum Information*
@@ -384,7 +413,7 @@ References:
 
 
 
-Quantum annealing is a quantum computing method used to solve optimization problems. It is currently the only quantum computing paradigm that enables architectures with large number of qubits, such as D-Wave Systems' Pegasus quantum processor chip with 5000 qubits. Quantum annealers solve very specific optimization problems called Quadratic Unconstrained Binary Optimization (QUBO) problems. The QUBO problem consists of finding a binary string that is minimal with respect to a quadratic polynomial over binary variables. The main challenge is to rephrase the loss function to a QUBO problem, which is equivalent to finding the ground state of a corresponding Ising model, whose Hamiltonian is given by $H(\sigma) = \sum_{i,j=1}^{n}J_{ij} s_i s_j + \sum_{i=1}^{n} h_i s_i$ where $s_i \in \{-1, +1\}$ are the spin values, and $h_i$ and $J_{ij}$ are adjustable constants that represents biases and coupling strengths, respectively. The Hamiltonian of the quantum version of the Ising model, the transverse field Ising model, is given by $ H_f = \sum_{i,j = 1}^{n}J_{ij}\sigma_{i}^{z}\sigma_{j}^{z} + \sum_{i}^{n}h_i\sigma_{i}^{z}$ where $\sigma_{i}^{z}$ is the Pauli-$Z$ acting on qubit $i$. In quantum annealing, one initializes the system in the ground state of the initial Hamiltonian $H_i$, given by $H_i = \sum_{i=1}^{n}\sigma_{i}^{x} $ corresponding to the state $(\ket{0} + \ket{1})^{\otimes n}$. The quantum adiabatic theorem states that if the transition between two Hamiltonians is gradual, the system will stay in the ground state. After initializing the system, it slowly evolves by changing the Hamiltonian given by $H(t) = \left(1 - \frac{t}{T}\right)H_i + \frac{t}{T} H_f $ where $T$ is the total time in the annealing process. Measuring the final state after the anneal will give the solution to the QUBO problem, since the final system is in an eigenstate of $H_f$.
+Quantum annealing is a quantum computing method used to solve optimization problems. It is currently the only quantum computing paradigm that enables architectures with large number of qubits, such as D-Wave Systems' Pegasus quantum processor chip with 5000 qubits. Quantum annealers solve very specific optimization problems called Quadratic Unconstrained Binary Optimization (QUBO) problems. The QUBO problem consists of finding a binary string that is minimal with respect to a quadratic polynomial over binary variables. The main challenge is to rephrase the loss function to a QUBO problem, which is equivalent to finding the ground state of a corresponding Ising model, whose Hamiltonian is given by $H(\sigma) = \sum_{i,j=1}^{n}J_{ij} s_i s_j + \sum_{i=1}^{n} h_i s_i$ where $s_i \in \{-1, +1\}$ are the spin values, and $h_i$ and $J_{ij}$ are adjustable constants that represents biases and coupling strengths, respectively. The Hamiltonian of the quantum version of the Ising model, the transverse field Ising model, is given by $ H_f = \sum_{i,j = 1}^{n}J_{ij}\sigma_{i}^{z}\sigma_{j}^{z} + \sum_{i}^{n}h_i\sigma_{i}^{z}$ where $\sigma_{i}^{z}$ is the Pauli-$'Z'$ acting on qubit $i$. In quantum annealing, one initializes the system in the ground state of the initial Hamiltonian $H_i$, given by $H_i = \sum_{i=1}^{n}\sigma_{i}^{x}$ corresponding to the state $(\ket{0} + \ket{1})^{\otimes n}$. The quantum adiabatic theorem states that if the transition between two Hamiltonians is gradual, the system will stay in the ground state. After initializing the system, it slowly evolves by changing the Hamiltonian given by $H(t) = \left(1 - \frac{t}{T}\right)H_i + \frac{t}{T} H_f $ where $T$ is the total time in the annealing process. Measuring the final state after the anneal will give the solution to the QUBO problem, since the final system is in an eigenstate of $H_f$.
 
 References:
   - D-Wave Documentation: https://docs.dwavequantum.com/en/latest/quantum_research/quantum_annealing_intro.html
@@ -409,7 +438,10 @@ References:
 
 
 
-TBW
+
+
+References:
+  - Michael A. Nielsen and Isaac L. Chuang, *Quantum Computation and Quantum Information*
 </details>
 
 <details>
@@ -458,6 +490,8 @@ References:
 
 
 Quantum measurement and tomography refer to the techniques used to extract information from quantum systems. Quantum measurement involves the process of obtaining classical information from a quantum state, resulting in the collapse of the state. Quantum tomography is the procedure of reconstructing the full quantum state or process by performing a series of measurements on multiple copies of the systems. 
+References:
+  - 
 </details>
 
 <details>

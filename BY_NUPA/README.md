@@ -1330,6 +1330,15 @@
 
 ##  $\textbf{{\color{#9BC53D}Detector Technologies and Simulations}}$ 
 
+###  $\textbf{{\color{#5BC0EB}Quantum Algorithms - Quantum Walks}}$ 
+
+<details>
+<summary> (2025) <b>Quantum walk based Monte Carlo simulation for photon interaction cross sections</b> [<a href="https://arxiv.org/abs/2502.14374">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.111.116001">DOI</a>] [<a href="https://inspirehep.net/literature/2892342">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1058969"> Euimin Lee</a>, <a href="https://inspirehep.net/authors/2801025"> Sangmin Lee</a>, <a href="https://inspirehep.net/authors/2135406"> Shiho Kim</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2502.14374">arXiv:2502.14374</a>:</strong> 20 February 2025 
++ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.111.116001">Phys.Rev.D</a>:</strong> 01 June 2025</details>
+
 ###  $\textbf{{\color{#5BC0EB}Quantum Computing Paradigms - Continuous Variable Quantum Computing}}$ 
 
 <details>
@@ -1985,6 +1994,10 @@
 + <strong>Published in <a href="https://doi.org/10.5506/APhysPolBSupp.17.2-A14">Acta Phys.Polon.Supp.</a>:</strong> 2024</details>
 
 
+
+##  $\textbf{{\color{#9BC53D}Experimental Infrastructure - Detector Technologies}}$ 
+
+##  $\textbf{{\color{#9BC53D}Experimental Infrastructure - Accelerator Physics}}$ 
 
 ##  $\textbf{{\color{#9BC53D}Gravitational Waves}}$ 
 
@@ -3635,10 +3648,11 @@
 + <strong>Published in <a href="https://doi.org/10.1103/PhysRevLett.134.111902">Phys.Rev.Lett.</a>:</strong> 19 March 2025</details>
 
 <details>
-<summary> (2025) <b>Quantum Information at the Electron-Ion Collider</b> [<a href="https://arxiv.org/abs/2510.23773">arXiv</a>] [<a href="https://inspirehep.net/literature/3074264">INSPIRE</a>] <code>Expand</code><br> </summary>
+<summary> (2025) <b>Quantum information at the electron-ion collider</b> [<a href="https://arxiv.org/abs/2510.23773">arXiv</a>] [<a href="https://doi.org/10.1103/xytf-nhkh">DOI</a>] [<a href="https://inspirehep.net/literature/3074264">INSPIRE</a>] <code>Expand</code> </summary>
 
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/2620041"> Kun Cheng</a>, <a href="https://inspirehep.net/authors/1006825"> Tao Han</a>, <a href="https://inspirehep.net/authors/1778841"> Sokratis Trifinopoulos</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2510.23773">arXiv:2510.23773</a>:</strong> 27 October 2025</details>
++ <strong>Posted on <a href="https://arxiv.org/abs/2510.23773">arXiv:2510.23773</a>:</strong> 27 October 2025 
++ <strong>Published in <a href="https://doi.org/10.1103/xytf-nhkh">Phys.Rev.D</a>:</strong> 01 September 2026</details>
 
 ###  $\textbf{{\color{#5BC0EB}Crosslists}}$ 
 
@@ -4069,15 +4083,6 @@
 
 
 ##  $\textbf{{\color{#9BC53D}Quantum Correlations in Scattering Amplitudes}}$ 
-
-###  $\textbf{{\color{#5BC0EB}Quantum Algorithms - Quantum Walks}}$ 
-
-<details>
-<summary> (2025) <b>Quantum walk based Monte Carlo simulation for photon interaction cross sections</b> [<a href="https://arxiv.org/abs/2502.14374">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevD.111.116001">DOI</a>] [<a href="https://inspirehep.net/literature/2892342">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1058969"> Euimin Lee</a>, <a href="https://inspirehep.net/authors/2801025"> Sangmin Lee</a>, <a href="https://inspirehep.net/authors/2135406"> Shiho Kim</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2502.14374">arXiv:2502.14374</a>:</strong> 20 February 2025 
-+ <strong>Published in <a href="https://doi.org/10.1103/PhysRevD.111.116001">Phys.Rev.D</a>:</strong> 01 June 2025</details>
 
 ###  $\textbf{{\color{#5BC0EB}Quantum Entanglement and Bell Inequalities}}$ 
 
