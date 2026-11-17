@@ -4,7 +4,7 @@
 
 Authors: Pamela Pajarillo, So Chigusa, Jesse Thaler 
  
-Number of Papers: 458 
+Number of Papers: 1022 
  
 *Inspired by <a href="https://iml-wg.github.io/HEPML-LivingReview/">"A Living Review of Machine Learning for High Energy Physics"</a>, the goal of this repository is to provide an extensive list of citations for those developing and applying quantum information approaches to experimental, phenomenological, or theoretical analyses.  Applications of quantum information science to high energy physics is a relatively new field of research.  This repository will be updated as often as possible with the relevant literature.  Suggestions are most welcome.*
 
@@ -19,15 +19,94 @@ The NuPa and QIS topics and a plot of the papers by NuPaQIS are listed below.
 ##  $\textbf{\color{#5BC0EB}{Nuclear and Particle Physics (NuPa) Topics}}$
 
 <details>
-<summary> <b>Reviews, Whitepapers, and Proceedings: </b> <a href="/BY_NUPA/README.md#textbfreviews-and-whitepapers"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+<summary> <b>Dark Matter - Axion-Photon Coupling: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53ddark-matter---axion-photon-coupling"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-The references below contain (static) reviews and whitepapers listed in applications of quantum information science to particle physics. Note that the majority of the references are from the Snowmass Community Planning Exercises.
+Dark Matter (DM) constitutes about 85\% of the matter in the universe but has not been directly observed through electromagnetic interactions. Unlike normal matter, DM does not emit, absorb, or reflect light, making it invisible to electromagnetic observations. The existence of DM is inferred from its gravitational effects on visible matter. The nature of DM is one of the most significant open questions in physics. Understanding dark matter draws on two complementary fronts: particle physics proposes candidate particles and explores their possible interactions with ordinary matter, while general relativity, astrophysics, and cosmology describe how dark matter behaves on large scales and how the universe itself serves as a laboratory for studying it. There are many theoretical candidates for DM, which can be broadly categorized into particle-like and wave-like candidates. The viable candidates span an enormous range of masses, from below $10^{-22}$ eV for the lightest wave-like fields up to roughly $10^{67}$ eV (several solar masses) for compact objects, nearly 90 orders of magnitude, and no single experimental strategy is sensitive across this entire range.
+Axions are hypothetical light particles originally proposed to explain why the strong nuclear interaction produces no observable electric dipole moment of the neutron. Axion-like particles (ALPs) have similar interactions but a less restricted relationship between their mass and interaction strengths. Both are pseudoscalars: their fields change sign under spatial reflection. 
+When these particles constitute sufficiently light, wave-like dark matter, many occupy each de Broglie volume and their collective field behaves as a classical wave. The field oscillates at a frequency set mainly by the particle mass. The halo's velocity spread gives the signal a finite frequency width and coherence time, so its phase remains predictable only over a limited interval.
+A coupling to photons allows an axion to convert into an electromagnetic signal in an applied magnetic field. Haloscopes are detectors designed to search for this local dark matter signal: microwave cavities enhance conversion near a resonance, while resonant electrical circuits and dielectric structures address other mass ranges. Because the mass is unknown, experiments scan frequencies or use broadband measurements to cover a wider range at once.
+References:
+  - New experimental approaches in the search for axion-like particles: https://arxiv.org/abs/1801.08127
+  - Invisible Axion Search Methods: https://arxiv.org/abs/2003.02206
 </details>
 
 <details>
-<summary> <b>Anomaly Detection: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53danomaly-detection"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+<summary> <b>Dark Matter - Axion-Electron Coupling: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53ddark-matter---axion-electron-coupling"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+Dark Matter (DM) constitutes about 85\% of the matter in the universe but has not been directly observed through electromagnetic interactions. Unlike normal matter, DM does not emit, absorb, or reflect light, making it invisible to electromagnetic observations. The existence of DM is inferred from its gravitational effects on visible matter. The nature of DM is one of the most significant open questions in physics. Understanding dark matter draws on two complementary fronts: particle physics proposes candidate particles and explores their possible interactions with ordinary matter, while general relativity, astrophysics, and cosmology describe how dark matter behaves on large scales and how the universe itself serves as a laboratory for studying it. There are many theoretical candidates for DM, which can be broadly categorized into particle-like and wave-like candidates. The viable candidates span an enormous range of masses, from below $10^{-22}$ eV for the lightest wave-like fields up to roughly $10^{67}$ eV (several solar masses) for compact objects, nearly 90 orders of magnitude, and no single experimental strategy is sensitive across this entire range.
+Axions are hypothetical light particles originally proposed to explain why the strong nuclear interaction produces no observable electric dipole moment of the neutron. Axion-like particles (ALPs) have similar interactions but a less restricted relationship between their mass and interaction strengths. Both are pseudoscalars: their fields change sign under spatial reflection.
+When these particles constitute sufficiently light, wave-like dark matter, many occupy each de Broglie volume and their collective field behaves as a classical wave. The field oscillates at a frequency set mainly by the particle mass. The halo's velocity spread gives the signal a finite frequency width and coherence time, so its phase remains predictable only over a limited interval.
+The axion-electron coupling acts on the intrinsic angular momentum, or spin, of an electron. Relative motion between the detector and the Galactic axion field gives an axion-wind interaction that behaves like a weak oscillating magnetic field. It can shift electron spin energies, drive spin precession, or induce transitions between spin states. Experiments use atoms with unpaired electrons or magnetic materials, tuning an applied magnetic field when a resonant response is desired. The orientation dependence and modulation as the Earth rotates provide additional checks on a candidate signal.
+References:
+  - Invisible Axion Search Methods: https://arxiv.org/abs/2003.02206
+  - New Observables for Direct Detection of Axion Dark Matter: https://arxiv.org/abs/1306.6088
+  - Axion Dark Matter Detection using Atomic Transitions: https://arxiv.org/abs/1409.2806
+</details>
+
+<details>
+<summary> <b>Dark Matter - Axion-Nucleon and EDM Coupling: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53ddark-matter---axion-nucleon-and-edm-coupling"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+Dark Matter (DM) constitutes about 85\% of the matter in the universe but has not been directly observed through electromagnetic interactions. Unlike normal matter, DM does not emit, absorb, or reflect light, making it invisible to electromagnetic observations. The existence of DM is inferred from its gravitational effects on visible matter. The nature of DM is one of the most significant open questions in physics. Understanding dark matter draws on two complementary fronts: particle physics proposes candidate particles and explores their possible interactions with ordinary matter, while general relativity, astrophysics, and cosmology describe how dark matter behaves on large scales and how the universe itself serves as a laboratory for studying it. There are many theoretical candidates for DM, which can be broadly categorized into particle-like and wave-like candidates. The viable candidates span an enormous range of masses, from below $10^{-22}$ eV for the lightest wave-like fields up to roughly $10^{67}$ eV (several solar masses) for compact objects, nearly 90 orders of magnitude, and no single experimental strategy is sensitive across this entire range.
+Axions are hypothetical light particles originally proposed to explain why the strong nuclear interaction produces no observable electric dipole moment of the neutron. Axion-like particles (ALPs) have similar interactions but a less restricted relationship between their mass and interaction strengths. Both are pseudoscalars: their fields change sign under spatial reflection.
+When these particles constitute sufficiently light, wave-like dark matter, many occupy each de Broglie volume and their collective field behaves as a classical wave. The field oscillates at a frequency set mainly by the particle mass. The halo's velocity spread gives the signal a finite frequency width and coherence time, so its phase remains predictable only over a limited interval.
+Protons and neutrons, collectively called nucleons, carry the nuclear spins used in these searches. Their direct coupling to the axion field produces an axion-wind signal similar to an oscillating magnetic field. An axion coupling to gluons, the carriers of the strong force, can also generate an oscillating neutron electric dipole moment (EDM) and other nuclear electric moments. An EDM describes a separation of positive and negative charge. In an electric field, the resulting nuclear moment can exert a torque on a spin. Experiments such as the Cosmic Axion Spin Precession Experiment (CASPEr) seek the associated changes in nuclear magnetization using nuclear magnetic resonance. Nuclear structure and screening by atomic electrons determine how these interactions appear in a material.
+References:
+  - Invisible Axion Search Methods: https://arxiv.org/abs/2003.02206
+  - New Observables for Direct Detection of Axion Dark Matter: https://arxiv.org/abs/1306.6088
+  - Cosmic Axion Spin Precession Experiment (CASPEr): https://arxiv.org/abs/1306.6089
+</details>
+
+<details>
+<summary> <b>Dark Matter - Dark Photons and Hidden Sectors: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53ddark-matter---dark-photons-and-hidden-sectors"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+Dark Matter (DM) constitutes about 85\% of the matter in the universe but has not been directly observed through electromagnetic interactions. Unlike normal matter, DM does not emit, absorb, or reflect light, making it invisible to electromagnetic observations. The existence of DM is inferred from its gravitational effects on visible matter. The nature of DM is one of the most significant open questions in physics. Understanding dark matter draws on two complementary fronts: particle physics proposes candidate particles and explores their possible interactions with ordinary matter, while general relativity, astrophysics, and cosmology describe how dark matter behaves on large scales and how the universe itself serves as a laboratory for studying it. There are many theoretical candidates for DM, which can be broadly categorized into particle-like and wave-like candidates. The viable candidates span an enormous range of masses, from below $10^{-22}$ eV for the lightest wave-like fields up to roughly $10^{67}$ eV (several solar masses) for compact objects, nearly 90 orders of magnitude, and no single experimental strategy is sensitive across this entire range.
+A hidden sector is a set of hypothetical particles that interact only weakly with ordinary matter, while possibly having their own forces. A dark photon is a spin-one particle associated with an additional electromagnetic-like force. Through kinetic mixing, a small coupling between the ordinary and dark electromagnetic fields, a massive dark photon can interact weakly with electric charge. A sufficiently light and long-lived dark photon could itself constitute dark matter.
+When these particles constitute sufficiently light, wave-like dark matter, many occupy each de Broglie volume and their collective field behaves as a classical wave. The field oscillates at a frequency set mainly by the particle mass. The halo's velocity spread gives the signal a finite frequency width and coherence time, so its phase remains predictable only over a limited interval.
+Dark photon dark matter produces an oscillating electric force on charges in the laboratory. Searches use resonant circuits, electromagnetic cavities, or absorption in a material to detect the resulting signal. In other models, the dark photon mediates interactions between dark matter and ordinary particles. Accelerator experiments then look for its production through visible decay products or missing energy carried away by hidden particles.
+References:
+  - The Dark Photon: https://arxiv.org/abs/2005.01515
+  - Dark Light, Dark Matter and the Misalignment Mechanism: https://arxiv.org/abs/1105.2812
+</details>
+
+<details>
+<summary> <b>Dark Matter - Scalar Dark Matter: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53ddark-matter---scalar-dark-matter"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+Dark Matter (DM) constitutes about 85\% of the matter in the universe but has not been directly observed through electromagnetic interactions. Unlike normal matter, DM does not emit, absorb, or reflect light, making it invisible to electromagnetic observations. The existence of DM is inferred from its gravitational effects on visible matter. The nature of DM is one of the most significant open questions in physics. Understanding dark matter draws on two complementary fronts: particle physics proposes candidate particles and explores their possible interactions with ordinary matter, while general relativity, astrophysics, and cosmology describe how dark matter behaves on large scales and how the universe itself serves as a laboratory for studying it. There are many theoretical candidates for DM, which can be broadly categorized into particle-like and wave-like candidates. The viable candidates span an enormous range of masses, from below $10^{-22}$ eV for the lightest wave-like fields up to roughly $10^{67}$ eV (several solar masses) for compact objects, nearly 90 orders of magnitude, and no single experimental strategy is sensitive across this entire range.
+Scalar dark matter here means a spin-zero field that is unchanged under spatial reflection, such as a dilaton or modulus. Its couplings can make ordinary particle masses or the fine-structure constant, which sets the strength of electromagnetism, depend on the local field value.
+When these particles constitute sufficiently light, wave-like dark matter, many occupy each de Broglie volume and their collective field behaves as a classical wave. The field oscillates at a frequency set mainly by the particle mass. The halo's velocity spread gives the signal a finite frequency width and coherence time, so its phase remains predictable only over a limited interval.
+Periodic variations of these quantities shift atomic and molecular transition frequencies and can change equilibrium material lengths. Searches therefore compare different atomic clocks, monitor optical cavities, or look for small strains and displacements in mechanical resonators. Different transitions and materials respond differently to variations in particle masses and electromagnetic interactions, providing several complementary ways to identify the same underlying field.
+References:
+  - Searching for dilaton dark matter with atomic clocks: https://arxiv.org/abs/1405.2925
+  - Searching for scalar dark matter with compact mechanical resonators: https://arxiv.org/abs/1910.07574
+</details>
+
+<details>
+<summary> <b>Dark Matter - Particle-like Dark Matter: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53ddark-matter---particle-like-dark-matter"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+Dark Matter (DM) constitutes about 85\% of the matter in the universe but has not been directly observed through electromagnetic interactions. Unlike normal matter, DM does not emit, absorb, or reflect light, making it invisible to electromagnetic observations. The existence of DM is inferred from its gravitational effects on visible matter. The nature of DM is one of the most significant open questions in physics. Understanding dark matter draws on two complementary fronts: particle physics proposes candidate particles and explores their possible interactions with ordinary matter, while general relativity, astrophysics, and cosmology describe how dark matter behaves on large scales and how the universe itself serves as a laboratory for studying it. There are many theoretical candidates for DM, which can be broadly categorized into particle-like and wave-like candidates. The viable candidates span an enormous range of masses, from below $10^{-22}$ eV for the lightest wave-like fields up to roughly $10^{67}$ eV (several solar masses) for compact objects, nearly 90 orders of magnitude, and no single experimental strategy is sensitive across this entire range.
+The distinction between particle-like and wave-like dark matter is controlled by the occupation number: the average number of particles in a de Broglie volume. For bosons making up the local Galactic halo, the crossover is of order $10$ eV in mass, or a few tens of eV depending on the density, velocity distribution, and wavelength convention. Well below this scale, overlapping matter waves have a large occupation number and admit a classical field description; well above it, the occupation is small and individual particles provide the natural description. This is a gradual crossover, and the detector response also depends on the interaction and measurement scale.
+Particle-like dark matter is sought through individual collisions or other localized energy deposits in a detector. A familiar example is a weakly interacting massive particle (WIMP): its abundance can arise when annihilations become too slow to maintain thermal equilibrium as the early universe expands, a process called freeze-out. Direct detection experiments look for the small recoil energy transferred when a passing dark matter particle scatters from a nucleus or electron. Lighter candidates deposit less energy, motivating detectors sensitive to individual ionization electrons, faint light signals, or small amounts of heat. The expected spectrum and rate depend on the particle mass, interaction strength, target material, and Galactic velocity distribution. Indirect searches for annihilation or decay products and accelerator searches for invisible particles provide complementary tests of these models.
+References:
+  - Wave Dark Matter: https://arxiv.org/abs/2101.11735
+  - The Waning of the WIMP? A Review of Models, Searches, and Constraints: https://arxiv.org/abs/1703.07364
+  - Direct Detection of WIMP Dark Matter: Concepts and Status: https://arxiv.org/abs/1903.03026
+  - Direct Detection of Sub-GeV Dark Matter: https://arxiv.org/abs/1108.5383
+</details>
+
+<details>
+<summary> <b>Data Analysis - Anomaly Detection: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53ddata-analysis---anomaly-detection"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
@@ -41,93 +120,7 @@ References:
 </details>
 
 <details>
-<summary> <b>Beyond the Standard Model: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dbeyond-the-standard-model"> Link to Papers </a>  <code>Expand for Description</code> </summary>
-
-
-
-The Standard Model (SM) of particle physics is a quantum field theory that describes the fundamental particles and their interactions: electromagnetic, weak, and strong forces. It has been extensively tested and confirmed through numerous experiments over the past several decades, most notably the discovery of the Higgs boson in 2012. However, the SM is not a complete theory of fundamental physics: it does not include gravity as described by Einstein's theory of General Relativity, does not account for dark matter or dark energy, and does not explain the matter-antimatter asymmetry of the universe or the small but non-zero masses of neutrinos. Beyond the Standard Model (BSM) physics refers to theoretical frameworks that extend or modify the SM to address these shortcomings. Examples of BSM theories include supersymmetry, extra dimensions, grand unified theories, and various dark matter models. The search for BSM physics is a major focus of current and future experimental efforts in particle physics, including collider experiments like the LHC, as well as non-collider experiments such as those searching for dark matter or measuring neutrino properties.
-
-References:
-  - Dave Goldberg, *The Standard Model in a Nutshell*
-  - Matthew D. Schwartz, *Quantum Field Theory and the Standard Model*
-</details>
-
-<details>
-<summary> <b>Dark Matter - Particle-like Dark Matter: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53ddark-matter---particle-like-dark-matter"> Link to Papers </a>  <code>Expand for Description</code> </summary>
-
-
-
-Dark Matter (DM) constitutes about 85\% of the matter in the universe but has not been directly observed through electromagnetic interactions. Unlike normal matter, DM does not emit, absorb, or reflect light, making it invisible to electromagnetic observations. The existence of DM is inferred from its gravitational effects on visible matter. The nature of DM is one of the most significant open questions in physics. Understanding dark matter draws on two complementary fronts: particle physics proposes candidate particles and explores their possible interactions with ordinary matter, while general relativity, astrophysics, and cosmology describe how dark matter behaves on large scales and how the universe itself serves as a laboratory for studying it. There are many theoretical candidates for DM, which can be broadly categorized into particle-like and wave-like candidates. The viable candidates span an enormous range of masses, from below $10^{-22}$ eV for the lightest wave-like fields up to roughly $10^{67}$ eV (several solar masses) for compact objects, nearly 90 orders of magnitude, and no single experimental strategy is sensitive across this entire range.
-
-Particle-like dark matter candidates include:
-  - Weakly Interacting Massive Particles (WIMPs): hypothetical particles with masses roughly in the GeV-TeV range that interact through gravity and the weak nuclear force; if they were in thermal equilibrium in the hot early universe and then "froze out" as it expanded and cooled, a weak-scale interaction strength leaves behind close to the observed dark matter density, a coincidence known as the WIMP miracle.
-  - Light Dark Matter: particles in the roughly MeV-to-GeV mass range, lighter than typical WIMPs; reproducing the observed abundance usually requires a new light force-carrier (a mediator) that links them to ordinary matter.
-  - Millicharged Particles: particles carrying a tiny fraction of the electron's electric charge, which can arise when the force-carrier of a hidden sector (a set of particles with no Standard Model charges) mixes quantum-mechanically with the ordinary photon, a mechanism called kinetic mixing.
-  - Dark Photons (massive): massive force-carriers of a new fundamental interaction in a hidden sector that couple to ordinary matter through this same kinetic mixing with the photon, acting either as dark matter themselves or as the mediator connecting the dark and visible sectors.
-  - Sterile Neutrinos: hypothetical neutrinos that do not feel the weak force the known neutrinos do, interacting only by quantum-mechanically mixing with them; at keV-scale masses they would be "warm" dark matter, moving fast enough in the early universe to wash out the smallest cosmic structures.
-  - Primordial Black Holes: black holes formed from the collapse of large density fluctuations in the very early universe rather than from dying stars; unlike the other candidates they are not a new particle, and their possible abundance is constrained across a wide mass range by gravitational lensing, accretion, and dynamical effects.
-  - Q-balls: stable, localized lumps of a field (a type of soliton) held together by a conserved charge so that they cannot decay away; they can form in extensions of the Standard Model and be produced in the early universe by a process known as Affleck-Dine baryogenesis.
-  - Compact Composite Objects: macroscopic, tightly bound clumps of dark or exotic matter, such as hypothetical nuggets of dense quark matter, that would behave as rare, very heavy objects rather than as individual elementary particles.
-
-
-References:
-  - A Primer on Dark Matter: https://arxiv.org/abs/2411.05062
-  - Dark Matter: https://arxiv.org/abs/2406.01705
-  - The Waning of the WIMP? A Review of Models, Searches, and Constraints: https://arxiv.org/abs/1703.07364
-  - Dark Matter Candidates of a Very Low Mass: https://arxiv.org/abs/2401.03025
-  - Sterile Neutrino Dark Matter: https://arxiv.org/abs/1807.07938
-  - Primordial Black Holes as a Dark Matter Candidate: https://arxiv.org/abs/2007.10722
-  - Dark Photon Limits: A Handbook: https://arxiv.org/abs/2105.04565
-</details>
-
-<details>
-<summary> <b>Dark Matter - Wave-like Dark Matter: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53ddark-matter---wave-like-dark-matter"> Link to Papers </a>  <code>Expand for Description</code> </summary>
-
-
-
-Dark Matter (DM) constitutes about 85\% of the matter in the universe but has not been directly observed through electromagnetic interactions. Unlike normal matter, DM does not emit, absorb, or reflect light, making it invisible to electromagnetic observations. The existence of DM is inferred from its gravitational effects on visible matter. The nature of DM is one of the most significant open questions in physics. Understanding dark matter draws on two complementary fronts: particle physics proposes candidate particles and explores their possible interactions with ordinary matter, while general relativity, astrophysics, and cosmology describe how dark matter behaves on large scales and how the universe itself serves as a laboratory for studying it. There are many theoretical candidates for DM, which can be broadly categorized into particle-like and wave-like candidates. The viable candidates span an enormous range of masses, from below $10^{-22}$ eV for the lightest wave-like fields up to roughly $10^{67}$ eV (several solar masses) for compact objects, nearly 90 orders of magnitude, and no single experimental strategy is sensitive across this entire range.
-
-Wave-like dark matter candidates include:
-  - Axions and Axion-like Particles (ALPs): extremely light spin-zero particles; the QCD axion was proposed to explain the strong-CP problem, a puzzle about why the strong nuclear force does not distinguish matter from antimatter as much as the theory in principle allows, while ALPs are a broader family of similar particles predicted by string theory and other extensions.
-  - Ultralight Dark Matter: bosonic dark matter with masses far below an eV; the enormous number of particles packed within each de Broglie wavelength means the field behaves as a single coherent classical wave rather than as discrete particles.
-  - Fuzzy Dark Matter: a specific ultralight scalar of order $10^{-22}$ eV whose de Broglie wavelength is so large (kiloparsec scale) that wave effects smooth out structure on galactic scales, which may ease some discrepancies between cold-dark-matter simulations and observed galaxies.
-  - Dark Photons (ultralight): the very-low-mass version of the dark photon, behaving as a coherently oscillating classical field; it can be produced in the early universe through quantum fluctuations during inflation or by a "misalignment" mechanism in which the field starts displaced from its equilibrium value and later oscillates.
-
-
-References:
-  - A Primer on Dark Matter: https://arxiv.org/abs/2411.05062
-  - Dark Matter: https://arxiv.org/abs/2406.01705
-  - Wave Dark Matter: https://arxiv.org/abs/2101.11735
-  - The Landscape of QCD Axion Models: https://arxiv.org/abs/2003.01100
-  - The Dark Photon: https://arxiv.org/abs/2005.01515
-</details>
-
-<details>
-<summary> <b>Detector Technologies and Simulations: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53ddetector-technologies-and-simulations"> Link to Papers </a>  <code>Expand for Description</code> </summary>
-
-
-
-Detectors are the instruments that turn the particles produced in collisions, decays, and rare interactions into measurable electronic signals, from which each particle's position, momentum, energy, charge, and arrival time can be reconstructed. A modern collider experiment, such as those at CERN, is built in concentric layers each suited to a different measurement. Innermost are tracking detectors, usually finely segmented silicon, which record the curved paths of charged particles in a magnetic field, and the curvature gives the momentum. Surrounding these are calorimeters, which stop particles entirely and measure the energy released as they cascade into showers of secondary particles, with separate electromagnetic and hadronic sections for different particle types. Outer layers add particle identification and precise timing, and muons, which penetrate everything else, are caught last. Material choices are dictated by resolution, speed, tolerance to radiation damage, and how finely the device is segmented. Turning raw signals back into physics requires detailed simulations of how particles traverse the detector and deposit energy, including the showers they trigger and the response of each sensitive layer. These simulations, typically run with Monte Carlo toolkits such as GEANT4, are among the most computationally demanding tasks in experimental physics, yet they are essential for designing detectors, calibrating them, and comparing data with theory.
-
-References:
-  - Claus Grupen and Boris Shwartz, *Particle Detectors*
-  - GEANT4 - a simulation toolkit: https://doi.org/10.1016/S0168-9002(03)01368-8
-</details>
-
-<details>
-<summary> <b>Effective Field Theories: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53deffective-field-theories"> Link to Papers </a>  <code>Expand for Description</code> </summary>
-
-
-
-An effective field theory (EFT) describes physics at a given energy or distance scale without needing the details of what happens at much shorter distances. Its central principle is a separation of scales: degrees of freedom much heavier than the energy of interest are integrated out, meaning their effects are absorbed into the parameters of a theory written purely in terms of the relevant low-energy fields. That theory is organized as a systematic expansion in the small ratio of the low-energy scale to a high-energy cutoff $\Lambda$, much like a Taylor expansion in which only finitely many terms matter to any desired accuracy. The unknown high-energy physics is packaged entirely into the coefficients of the allowed operators, the Wilson coefficients, with higher-dimension operators suppressed by additional powers of $1/\Lambda$. This bookkeeping, called power counting, turns otherwise intractable problems into controlled approximations with quantifiable uncertainties, and the coefficients are either matched to a known underlying theory or fixed by experiment. EFTs underlie much of modern nuclear and particle physics, from Fermi's theory of the weak interaction and chiral perturbation theory for low-energy QCD to the Standard Model EFT used to parametrize possible new physics.
-
-References:
-  - Introduction to Effective Field Theories: https://arxiv.org/abs/1804.05863
-  - Effective Field Theory: https://arxiv.org/abs/hep-ph/9806303
-</details>
-
-<details>
-<summary> <b>Event Classification: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53devent-classification"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+<summary> <b>Data Analysis - Event Classification: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53ddata-analysis---event-classification"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
@@ -140,7 +133,7 @@ References:
 </details>
 
 <details>
-<summary> <b>Event Generation: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53devent-generation"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+<summary> <b>Data Analysis - Event Generation and Simulation: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53ddata-analysis---event-generation-and-simulation"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
@@ -154,34 +147,18 @@ References:
 </details>
 
 <details>
-<summary> <b>Experimental Infrastructure - Detector Technologies: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dexperimental-infrastructure---detector-technologies"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+<summary> <b>Data Analysis - Track Reconstruction: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53ddata-analysis---track-reconstruction"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-TBW
-</details>
-
-<details>
-<summary> <b>Experimental Infrastructure - Accelerator Physics: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dexperimental-infrastructure---accelerator-physics"> Link to Papers </a>  <code>Expand for Description</code> </summary>
-
-
-
-TBW
-</details>
-
-<details>
-<summary> <b>Gravitational Waves: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dgravitational-waves"> Link to Papers </a>  <code>Expand for Description</code> </summary>
-
-
-
-Gravitational waves are propagating ripples in spacetime, predicted by Einstein's theory of General Relativity. Similar to how accelerating electric charges radiate electromagnetic waves, accelerating masses radiate gravitational waves. Their sources fall into two categories by origin, cosmological and astrophysical. Those of cosmological origin, known as primordial gravitational waves, are produced in the early universe, for example during the inflation and reheating epochs. Those of astrophysical origin arise in a variety of processes, including rotating neutron stars with non-axisymmetric deformations, supernova explosions, and the inspiral, merger, and ringdown of compact binaries containing white dwarfs, neutron stars, and black holes, in which the two bodies spiral together, coalesce, and ring down to a final state. The first direct detection came in 2015, when LIGO observed the merger of two black holes. Different sources radiate in different frequency bands, and current and future ground- and space-based observatories aim to widen this window. Beyond gravitation itself, gravitational-wave physics is closely tied to particle physics, cosmology, and astrophysics.
+Track reconstruction is the process of determining the paths of charged particles as they pass through the concentric layers of a tracking detector surrounding the collision point, including their curvature and point of origin, or vertex, the location of the collision that produced the track. As a charged particle traverses the detector, it leaves small ionization signals, called hits, in each layer. A magnetic field applied within the detector causes the particle to follow a curved path, with the curvature inversely related to its momentum. Accurate vertex reconstruction associates each track with the collision it originated from. This is particularly difficult at high pileup, when a single beam crossing contains many overlapping proton–proton collisions, as expected at the High-Luminosity LHC (HL-LHC), since the collision points lie close together and every track must be assigned to the correct one. Because the detector records only isolated hits, with no label indicating which particle produced each one, the algorithm must infer the assignment of hits to tracks, a combinatorial problem whose difficulty grows steeply with the number of particles and the main reason tracking is among the most computationally demanding stages of reconstruction. Typical tracking algorithms proceed in several steps: spacepoint formation, track seeding, track following, and track fitting. Spacepoint formation combines the raw hits into three-dimensional measurement points (spacepoints). Track seeding then uses these spacepoints to form initial track candidates, providing preliminary estimates of trajectory parameters such as direction, origin, and curvature. Track following refines these seeds by adding more spacepoints along the projected path, leading to the final track fitting stage, in which a trajectory is fit through the spacepoints to estimate the particle's charge, momentum, and origin. Traditional fitting algorithms such as the Kalman filter are sequential and not naturally suited to graphics processing units (GPUs). Modern machine learning approaches instead recast tracking, especially the pattern-recognition step, into a form that maps onto the massively parallel architecture of GPUs.
 
 References:
-  - The Gravitational-Wave Physics: https://arxiv.org/abs/1703.00187
+  - Track reconstruction as a service for collider physics: https://arxiv.org/abs/2501.05520
 </details>
 
 <details>
-<summary> <b>Jet Reconstruction: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53djet-reconstruction"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+<summary> <b>Data Analysis - Jet Reconstruction: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53ddata-analysis---jet-reconstruction"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
@@ -193,7 +170,58 @@ References:
 </details>
 
 <details>
-<summary> <b>Lattice Field Theories - Scalar/Fermion Theories: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dlattice-field-theories---scalar/fermion-theories"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+<summary> <b>Experimental Techniques - Detector Technologies: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dexperimental-techniques---detector-technologies"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+Detectors are the instruments that turn the particles produced in collisions, decays, and rare interactions into measurable electronic signals, from which each particle's position, momentum, energy, charge, and arrival time can be reconstructed. A modern collider experiment, such as those at CERN, is built in concentric layers each suited to a different measurement. Innermost are tracking detectors, usually finely segmented silicon, which record the curved paths of charged particles in a magnetic field, and the curvature gives the momentum. Surrounding these are calorimeters, which stop particles entirely and measure the energy released as they cascade into showers of secondary particles, with separate electromagnetic and hadronic sections for different particle types. Outer layers add particle identification and precise timing, and muons, which penetrate everything else, are caught last. Material choices are dictated by resolution, speed, tolerance to radiation damage, and how finely the device is segmented. Turning raw signals back into physics requires detailed simulations of how particles traverse the detector and deposit energy, including the showers they trigger and the response of each sensitive layer. These simulations, typically run with Monte Carlo toolkits such as GEANT4, are among the most computationally demanding tasks in experimental physics, yet they are essential for designing detectors, calibrating them, and comparing data with theory.
+
+References:
+  - Claus Grupen and Boris Shwartz, *Particle Detectors*
+  - GEANT4 - a simulation toolkit: https://doi.org/10.1016/S0168-9002(03)01368-8
+</details>
+
+<details>
+<summary> <b>Experimental Techniques - Accelerator Physics and Controls: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dexperimental-techniques---accelerator-physics-and-controls"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+TBW
+</details>
+
+<details>
+<summary> <b>Field Theory - Cosmological Backgrounds: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dfield-theory---cosmological-backgrounds"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+TBW
+</details>
+
+<details>
+<summary> <b>Field Theory - Effective Field Theories: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dfield-theory---effective-field-theories"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+An effective field theory (EFT) describes physics at a given energy or distance scale without needing the details of what happens at much shorter distances. Its central principle is a separation of scales: degrees of freedom much heavier than the energy of interest are integrated out, meaning their effects are absorbed into the parameters of a theory written purely in terms of the relevant low-energy fields. That theory is organized as a systematic expansion in the small ratio of the low-energy scale to a high-energy cutoff $\Lambda$, much like a Taylor expansion in which only finitely many terms matter to any desired accuracy. The unknown high-energy physics is packaged entirely into the coefficients of the allowed operators, the Wilson coefficients, with higher-dimension operators suppressed by additional powers of $1/\Lambda$. This bookkeeping, called power counting, turns otherwise intractable problems into controlled approximations with quantifiable uncertainties, and the coefficients are either matched to a known underlying theory or fixed by experiment. EFTs underlie much of modern nuclear and particle physics, from Fermi's theory of the weak interaction and chiral perturbation theory for low-energy QCD to the Standard Model EFT used to parametrize possible new physics.
+
+References:
+  - Introduction to Effective Field Theories: https://arxiv.org/abs/1804.05863
+  - Effective Field Theory: https://arxiv.org/abs/hep-ph/9806303
+</details>
+
+<details>
+<summary> <b>Field Theory - Scattering Amplitudes: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dfield-theory---scattering-amplitudes"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+The $'S'$-matrix is the unitary operator that maps the incoming state of a scattering process to the outgoing state. Its matrix element between a specified initial and final configuration is the scattering amplitude $\mathcal{M}$, which describes how likely that particular initial state of particles is to scatter into that particular final state after an interaction. The connection to experiment is that the square of the amplitude gives the cross section, the effective target area that sets how often the process occurs and the quantity actually measured in experiment. 
+
+References:
+  - Matthew D. Schwartz, *Quantum Field Theory and the Standard Model*
+</details>
+
+<details>
+<summary> <b>Lattice Field Theories - Scalar and Fermion Theories: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dlattice-field-theories---scalar-and-fermion-theories"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
@@ -243,12 +271,62 @@ References:
 </details>
 
 <details>
-<summary> <b>Neutrino Physics: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dneutrino-physics"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+<summary> <b>Gravitation - Gravitational Wave Detection: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dgravitation---gravitational-wave-detection"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+Gravitational waves are propagating ripples in spacetime, predicted by Einstein's theory of General Relativity. Similar to how accelerating electric charges radiate electromagnetic waves, accelerating masses radiate gravitational waves. Their sources fall into two categories by origin, cosmological and astrophysical. Those of cosmological origin, known as primordial gravitational waves, are produced in the early universe, for example during the inflation and reheating epochs. Those of astrophysical origin arise in a variety of processes, including rotating neutron stars with non-axisymmetric deformations, supernova explosions, and the inspiral, merger, and ringdown of compact binaries containing white dwarfs, neutron stars, and black holes, in which the two bodies spiral together, coalesce, and ring down to a final state. The first direct detection came in 2015, when LIGO observed the merger of two black holes. Different sources radiate in different frequency bands, and current and future ground- and space-based observatories aim to widen this window. Beyond gravitation itself, gravitational-wave physics is closely tied to particle physics, cosmology, and astrophysics.
+
+References:
+  - The Gravitational-Wave Physics: https://arxiv.org/abs/1703.00187
+</details>
+
+<details>
+<summary> <b>Neutrino Physics - Collective Flavor Dynamics: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dneutrino-physics---collective-flavor-dynamics"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
 TBW
-References:
+</details>
+
+<details>
+<summary> <b>Neutrino Physics - Mass and Double Beta Decay: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dneutrino-physics---mass-and-double-beta-decay"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+TBW
+</details>
+
+<details>
+<summary> <b>Neutrino Physics - Oscillations and Propagation: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dneutrino-physics---oscillations-and-propagation"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+TBW
+</details>
+
+<details>
+<summary> <b>New Forces and Precision Tests - Exotic Spin-Dependent Interactions: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dnew-forces-and-precision-tests---exotic-spin-dependent-interactions"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+TBW
+</details>
+
+<details>
+<summary> <b>New Forces and Precision Tests - Tests of Gravity and Equivalence Principle: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dnew-forces-and-precision-tests---tests-of-gravity-and-equivalence-principle"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+TBW
+</details>
+
+<details>
+<summary> <b>Nuclear Many-Body Physics - Nuclear Clocks and Isomers: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dnuclear-many-body-physics---nuclear-clocks-and-isomers"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+TBW
 </details>
 
 <details>
@@ -256,10 +334,7 @@ References:
 
 
 
-An atomic nucleus is a self-bound quantum many-body system: a collection of protons and neutrons, collectively called nucleons, held together by the nuclear force. It differs from an atom in a basic way. Because the nucleus of an atom is thousands of times heavier than its electrons, it can be treated as fixed in place, supplying an external and exactly known Coulomb well for the electrons to occupy. A nucleus has no such center. Its constituents all have comparable masses, and the potential that binds them is one they generate themselves. That potential is also far less well characterized. It has no closed form, being a residual of the strong force acting among the quarks and gluons inside the nucleons: repulsive at short range, attractive at intermediate range, with a long-range tail from one-pion exchange and a dependence on spin and isospin. Realistic Hamiltonians must add three-nucleon forces and the Coulomb repulsion among protons. Chiral effective field theory supplies the two- and three-nucleon pieces consistently, order by order in a single expansion, though phenomenological three-nucleon models remain in wide use. The result is a hard computational problem. The nucleons are strongly correlated, so the wavefunction is poorly approximated by a single Slater determinant, and the space it must be expanded in grows combinatorially with mass number and basis size. Exact solutions are therefore out of reach beyond the lightest nuclei. The topics considered here fall into two groups: (1) nuclear structure and (2) nuclear reactions and response.
-
 TBW
-References:
 </details>
 
 <details>
@@ -267,14 +342,84 @@ References:
 
 
 
-An atomic nucleus is a self-bound quantum many-body system: a collection of protons and neutrons, collectively called nucleons, held together by the nuclear force. It differs from an atom in a basic way. Because the nucleus of an atom is thousands of times heavier than its electrons, it can be treated as fixed in place, supplying an external and exactly known Coulomb well for the electrons to occupy. A nucleus has no such center. Its constituents all have comparable masses, and the potential that binds them is one they generate themselves. That potential is also far less well characterized. It has no closed form, being a residual of the strong force acting among the quarks and gluons inside the nucleons: repulsive at short range, attractive at intermediate range, with a long-range tail from one-pion exchange and a dependence on spin and isospin. Realistic Hamiltonians must add three-nucleon forces and the Coulomb repulsion among protons. Chiral effective field theory supplies the two- and three-nucleon pieces consistently, order by order in a single expansion, though phenomenological three-nucleon models remain in wide use. The result is a hard computational problem. The nucleons are strongly correlated, so the wavefunction is poorly approximated by a single Slater determinant, and the space it must be expanded in grows combinatorially with mass number and basis size. Exact solutions are therefore out of reach beyond the lightest nuclei. The topics considered here fall into two groups: (1) nuclear structure and (2) nuclear reactions and response.
-
 TBW
-References:
 </details>
 
 <details>
-<summary> <b>Quantum Chromodynamics: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dquantum-chromodynamics"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+<summary> <b>Particle Scattering and Decays - Top Quarks: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dparticle-scattering-and-decays---top-quarks"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+Particle scattering and decays probe the interactions and internal properties of elementary particles and hadrons. The species, momenta, and angular distributions of the outgoing particles reveal how a reaction proceeds. Measurements of rates, spin polarization, and correlations test the Standard Model and constrain possible new interactions. These studies range from high-energy beam collisions to decays and photon scattering at lower energies.
+The top quark is the heaviest known elementary particle and carries spin $1/2$. It decays predominantly into a $W$ boson and a bottom quark, on a timescale shorter than that for forming ordinary hadrons, the bound states produced by the strong interaction. Its spin information can therefore be inferred from the angular distributions of its decay products without first passing through hadron formation. In top-antitop production, these distributions reveal both the polarization of each top, meaning its preferred spin orientation, and the correlations between the two spins. Charged leptons from the subsequent $W$ decays provide particularly sensitive spin analyzers. These measurements probe the strong and electroweak interactions responsible for production and decay, including possible new interactions. Near the production threshold, where the pair moves slowly, the attraction between top and antitop can also modify the observed distributions.
+References:
+  - Top quark physics at the LHC: https://arxiv.org/abs/0805.1333
+  - A set of top quark spin correlation and polarization observables for the LHC: Standard Model predictions and new physics contributions: https://arxiv.org/abs/1508.05271
+</details>
+
+<details>
+<summary> <b>Particle Scattering and Decays - W, Z and Higgs Bosons: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dparticle-scattering-and-decays---w,-z-and-higgs-bosons"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+Particle scattering and decays probe the interactions and internal properties of elementary particles and hadrons. The species, momenta, and angular distributions of the outgoing particles reveal how a reaction proceeds. Measurements of rates, spin polarization, and correlations test the Standard Model and constrain possible new interactions. These studies range from high-energy beam collisions to decays and photon scattering at lower energies.
+The $W$ and $Z$ bosons carry the weak interaction and have spin one, while the Higgs boson has spin zero and is associated with the field responsible for electroweak symmetry breaking. A massive spin-one boson has longitudinal and transverse polarization states, distinguished by its spin projection along its direction of motion. The relative populations of these states and their joint decay-angle distributions probe the structure of the interactions. Important processes include production and scattering of weak-boson pairs, Higgs decays to real or virtual weak bosons, and Higgs decays to tau-lepton pairs. A virtual boson has an invariant mass different from its usual physical mass. Tau leptons are heavy relatives of electrons; their decay products also carry information about their spins. Measurements of these distributions constrain the interactions of the weak bosons and the Higgs. Models with additional Higgs particles extend these studies to the interactions and symmetries of a larger scalar sector.
+References:
+  - The Anatomy of Electro-Weak Symmetry Breaking. I: The Higgs boson in the Standard Model: https://arxiv.org/abs/hep-ph/0503172
+  - Polarized-boson pairs at NLO in the SMEFT: https://arxiv.org/abs/2507.21768
+  - Theory and phenomenology of two-Higgs-doublet models: https://arxiv.org/abs/1106.0034
+</details>
+
+<details>
+<summary> <b>Particle Scattering and Decays - Hadrons: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dparticle-scattering-and-decays---hadrons"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+Particle scattering and decays probe the interactions and internal properties of elementary particles and hadrons. The species, momenta, and angular distributions of the outgoing particles reveal how a reaction proceeds. Measurements of rates, spin polarization, and correlations test the Standard Model and constrain possible new interactions. These studies range from high-energy beam collisions to decays and photon scattering at lower energies.
+The up, down, strange, charm, and bottom quarks are observed through hadrons formed by the strong interaction, in a process called hadronization. Charm and bottom quarks form hadrons before they decay through the weak interaction. Mesons contain a quark and an antiquark, while ordinary baryons contain three quarks. Quark type is called flavor, and weak interactions allow transitions between flavors, with strengths described by the Cabibbo-Kobayashi-Maskawa (CKM) matrix. Neutral kaons and neutral $B$ mesons can oscillate into their antiparticles; their decay times and final states reveal this evolution and test symmetries relating matter and antimatter. Hadronic resonances such as the $J/\psi$ and $\Upsilon(4S)$ provide sources of particle-antiparticle pairs with well-defined production conditions. Hyperons, baryons containing strange quarks, provide a complementary spin probe: their weak decays favor particular daughter directions relative to the parent spin. Sequential decay distributions reveal baryon polarizations and correlations, and allow comparisons of particle and antiparticle decay parameters. Spin information about bottom quarks can likewise be accessed through the baryons they form. Correlations between pairs of hadrons can also be used to infer the spin correlations of the light quarks that produced them. Such inferences require a description of how spin information is transferred during hadronization.
+References:
+  - The Physics of the B Factories: https://arxiv.org/abs/1406.6311
+  - Hyperon Physics at BESIII: https://arxiv.org/abs/2509.06304
+  - CKM Quark-Mixing Matrix: https://pdg.lbl.gov/2024/reviews/rpp2024-rev-ckm-matrix.pdf
+</details>
+
+<details>
+<summary> <b>Particle Scattering and Decays - Charged Leptons: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dparticle-scattering-and-decays---charged-leptons"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+Particle scattering and decays probe the interactions and internal properties of elementary particles and hadrons. The species, momenta, and angular distributions of the outgoing particles reveal how a reaction proceeds. Measurements of rates, spin polarization, and correlations test the Standard Model and constrain possible new interactions. These studies range from high-energy beam collisions to decays and photon scattering at lower energies.
+Charged leptons are the electron and its heavier relatives, the muon and tau. All carry spin $1/2$ and interact through the electromagnetic and weak forces. In lepton-pair production, the spin orientations and their correlations depend on the production mechanism and collision energy. The tau decays through the weak interaction before reaching a detector; the directions and energies of its decay products reveal its spin orientation. Reconstructing tau-pair events requires accounting for unobserved neutrinos. Measurements of production rates and decay distributions probe the interactions of charged leptons and constrain possible departures from the Standard Model.
+References:
+  - Precision Tau Physics: https://arxiv.org/abs/1310.7922
+</details>
+
+<details>
+<summary> <b>Particle Scattering and Decays - Photons: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dparticle-scattering-and-decays---photons"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+Particle scattering and decays probe the interactions and internal properties of elementary particles and hadrons. The species, momenta, and angular distributions of the outgoing particles reveal how a reaction proceeds. Measurements of rates, spin polarization, and correlations test the Standard Model and constrain possible new interactions. These studies range from high-energy beam collisions to decays and photon scattering at lower energies.
+Photons are the massless carriers of the electromagnetic interaction. A photon has two helicity states, corresponding to circular polarizations; helicity is the spin projection along its momentum. Linear polarization affects the angular distributions in conversion into an electron-positron pair and in Compton scattering from electrons. These processes allow photon polarization to be inferred from measured particle directions. Positronium, a bound electron-positron system, provides two- and three-photon annihilation channels whose polarization correlations depend on the initial spin state. Studies range from annihilation photons and low-energy scattering to photon-pair production and polarimetry at high-energy colliders, probing the structure of electromagnetic interactions.
+References:
+  - Über die Streuung von Strahlung durch freie Elektronen nach der neuen relativistischen Quantendynamik von Dirac: https://doi.org/10.1007/BF01366453
+  - Three-Photon Annihilation of an Electron-Positron Pair: https://doi.org/10.1103/PhysRev.75.1696
+</details>
+
+<details>
+<summary> <b>Particle Scattering and Decays - General Methods: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dparticle-scattering-and-decays---general-methods"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+Particle scattering and decays probe the interactions and internal properties of elementary particles and hadrons. The species, momenta, and angular distributions of the outgoing particles reveal how a reaction proceeds. Measurements of rates, spin polarization, and correlations test the Standard Model and constrain possible new interactions. These studies range from high-energy beam collisions to decays and photon scattering at lower energies.
+An observable is a quantity inferred from measured events, such as an angular asymmetry or a polarization coefficient. General methods relate scattering and decay amplitudes to such measurable quantities across different particle systems. Helicity amplitudes specify reactions for definite spin projections along the particle momenta; their interference can produce characteristic angular modulations. Angular distributions can then be used to reconstruct spin polarizations and correlations. This requires consistent choices of reference frame and spin axes, treatment of unresolved kinematics, and corrections for detector acceptance and backgrounds. Comparisons of different spin bases, systematic calculations of angular coefficients, and general analyses of what can be inferred from decay measurements provide tools that apply to several production and decay channels.
+References:
+  - On the general theory of collisions for particles with spin: https://doi.org/10.1016/0003-4916(59)90051-X
+  - Measurement of the angular coefficients in Z-boson events using electron and muon pairs from data taken at sqrt(s)=8 TeV with the ATLAS detector: https://arxiv.org/abs/1606.00689
+</details>
+
+<details>
+<summary> <b>Quantum Chromodynamics - Hadron Structure and Deep Inelastic Scattering: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dquantum-chromodynamics---hadron-structure-and-deep-inelastic-scattering"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
@@ -285,42 +430,25 @@ References:
 </details>
 
 <details>
-<summary> <b>Quantum Correlations at Colliders: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dquantum-correlations-at-colliders"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+<summary> <b>Quantum Chromodynamics - Heavy-Ion Collisions and Quark-Gluon Plasma: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dquantum-chromodynamics---heavy-ion-collisions-and-quark-gluon-plasma"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-The study of quantum correlations in particle physics collisions has gained significant traction in recent years, establishing colliders as a testbed for quantum information science. It has been proposed that quantum entanglement can be detected and Bell inequality tests performed at colliders in final states such as top quark pairs, $\tau$ lepton pairs, $\Lambda$ baryon pairs, massive gauge bosons, and vector mesons. Spin variables of particles and correlations among them are accessible at collider experiments through the study of the distribution of momenta of the final state into which the original particle decays. In particular, top quark pair production at the LHC is the flagship process for studying quantum correlations at colliders, since the top quark decays before hadronization, allowing for direct access to its spin information. The entanglement signature is extracted by reconstructing the two-particle spin density matrix $\rho$ of the $t\bar{t}$ pair from the angular distributions of their charged decay products and computing entanglement measures from $\rho$. ATLAS observed quantum entanglement in top quark pairs produced at the LHC in 2023, and CMS subsequently confirmed this observation in 2024, marking a significant milestone in this field.
+Quantum Chromodynamics (QCD) is the theory of the strong interaction, which binds quarks and gluons into protons, neutrons, and other hadrons. It is a non-Abelian gauge theory with color symmetry group $SU(3)$. Unlike the photon, the gluons that carry the force also carry color charge and interact with one another, and these self-interactions drive its distinctive behavior. The QCD Lagrangian is given by $\mathcal L_{\text{QCD}} = -\frac{1}{4} F_{\mu\nu}^a F^{a\mu\nu} + \sum_{f=1}^{N_f} \bar\psi_f (i\gamma^\mu D_\mu - m_f) \psi_f$, where $F_{\mu\nu}^a$ is the gluon field strength tensor, $\psi_f$ are the quark fields for each flavor $f$ with masses $m_f$, and $D_\mu$ is the covariant derivative. QCD has two key regimes: at high energies, asymptotic freedom makes the interaction weak enough for perturbative calculations, while at low energies, confinement binds quarks and gluons into color-neutral hadrons. QCD also spontaneously breaks chiral symmetry, producing the pions as light pseudo-Goldstone bosons. Most of the hadron mass, however, arises from the strong interaction, dominated by confinement and the QCD trace (scale) anomaly, with chiral symmetry breaking contributing only through the light quarks' constituent masses.
 
 References:
-  - Quantum entanglement and Bell inequality violation at colliders: https://arxiv.org/abs/2402.07972
-  - Entanglement and quantum tomography with top quarks at the LHC (Afik & de Nova): https://arxiv.org/abs/2003.02280
-  - Observation of quantum entanglement with top quarks at the ATLAS detector (ATLAS Collaboration): https://arxiv.org/abs/2311.07288
-  - Observation of quantum entanglement in top quark pair production in proton-proton collisions at $\sqrt{s} = 13\text{ TeV}$: https://arxiv.org/abs/2406.03976
+  - R. K. Ellis, W. J. Stirling, and B. R. Webber, *QCD and Collider Physics*
 </details>
 
 <details>
-<summary> <b>Quantum Correlations in Scattering Amplitudes: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dquantum-correlations-in-scattering-amplitudes"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+<summary> <b>Quantum Chromodynamics - Jets and Hadronization: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dquantum-chromodynamics---jets-and-hadronization"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-The $'S'$-matrix is the unitary operator that maps the incoming state of a scattering process to the outgoing state. Its matrix element between a specified initial and final configuration is the scattering amplitude $\mathcal{M}$, which describes how likely that particular initial state of particles is to scatter into that particular final state after an interaction. The connection to experiment is that the square of the amplitude gives the cross section, the effective target area that sets how often the process occurs and the quantity actually measured in experiment. Besides their momenta, the colliding particles carry discrete quantum numbers such as helicity and flavor, and once the kinematics are fixed, the $'S'$-matrix acts only on those labels, where it becomes a finite-dimensional unitary that will in general take an uncorrelated initial state into an entangled final state. Unlike the study of quantum correlations at colliders, where the goal is to measure entanglement in data, the study of quantum correlations here are properties of the amplitude itself, and requiring them to be maximal or minimal is used to constrain the form of the underlying interaction. The program of studying quantum correlations in scattering amplitudes has been applied to a wide range of processes, from low-energy nuclear physics to high-energy particle physics. Imposing maximal entanglement on an unconstrained photon-electron coupling reproduces quantum electrodynamics (QED) and predicts a value for the weak mixing angle, while the amplitude for low-energy nucleon-nucleon scattering is least entangling precisely where the strong interaction displays approximate spin-flavor symmetries, suggesting that such symmetries emerge dynamically from a suppresion of entanglement.
-
-References:
-  - Matthew D. Schwartz, *Quantum Field Theory and the Standard Model*
-  - Maximal Entanglement in High Energy Physics: https://arxiv.org/abs/1703.02989
-  - Entanglement Suppression and Emergent Symmetries of Strong Interactions: https://arxiv.org/abs/1812.03138
-  - Entanglement Entropy of Scattering Particles: https://arxiv.org/abs/1602.00720
-</details>
-
-<details>
-<summary> <b>Track Reconstruction: </b> <a href="/BY_NUPA/README.md#textbfcolor9bc53dtrack-reconstruction"> Link to Papers </a>  <code>Expand for Description</code> </summary>
-
-
-
-Track reconstruction is the process of determining the paths of charged particles as they pass through the concentric layers of a tracking detector surrounding the collision point, including their curvature and point of origin, or vertex, the location of the collision that produced the track. As a charged particle traverses the detector, it leaves small ionization signals, called hits, in each layer. A magnetic field applied within the detector causes the particle to follow a curved path, with the curvature inversely related to its momentum. Accurate vertex reconstruction associates each track with the collision it originated from. This is particularly difficult at high pileup, when a single beam crossing contains many overlapping proton–proton collisions, as expected at the High-Luminosity LHC (HL-LHC), since the collision points lie close together and every track must be assigned to the correct one. Because the detector records only isolated hits, with no label indicating which particle produced each one, the algorithm must infer the assignment of hits to tracks, a combinatorial problem whose difficulty grows steeply with the number of particles and the main reason tracking is among the most computationally demanding stages of reconstruction. Typical tracking algorithms proceed in several steps: spacepoint formation, track seeding, track following, and track fitting. Spacepoint formation combines the raw hits into three-dimensional measurement points (spacepoints). Track seeding then uses these spacepoints to form initial track candidates, providing preliminary estimates of trajectory parameters such as direction, origin, and curvature. Track following refines these seeds by adding more spacepoints along the projected path, leading to the final track fitting stage, in which a trajectory is fit through the spacepoints to estimate the particle's charge, momentum, and origin. Traditional fitting algorithms such as the Kalman filter are sequential and not naturally suited to graphics processing units (GPUs). Modern machine learning approaches instead recast tracking, especially the pattern-recognition step, into a form that maps onto the massively parallel architecture of GPUs.
+Quantum Chromodynamics (QCD) is the theory of the strong interaction, which binds quarks and gluons into protons, neutrons, and other hadrons. It is a non-Abelian gauge theory with color symmetry group $SU(3)$. Unlike the photon, the gluons that carry the force also carry color charge and interact with one another, and these self-interactions drive its distinctive behavior. The QCD Lagrangian is given by $\mathcal L_{\text{QCD}} = -\frac{1}{4} F_{\mu\nu}^a F^{a\mu\nu} + \sum_{f=1}^{N_f} \bar\psi_f (i\gamma^\mu D_\mu - m_f) \psi_f$, where $F_{\mu\nu}^a$ is the gluon field strength tensor, $\psi_f$ are the quark fields for each flavor $f$ with masses $m_f$, and $D_\mu$ is the covariant derivative. QCD has two key regimes: at high energies, asymptotic freedom makes the interaction weak enough for perturbative calculations, while at low energies, confinement binds quarks and gluons into color-neutral hadrons. QCD also spontaneously breaks chiral symmetry, producing the pions as light pseudo-Goldstone bosons. Most of the hadron mass, however, arises from the strong interaction, dominated by confinement and the QCD trace (scale) anomaly, with chiral symmetry breaking contributing only through the light quarks' constituent masses.
 
 References:
-  - Track reconstruction as a service for collider physics: https://arxiv.org/abs/2501.05520
+  - R. K. Ellis, W. J. Stirling, and B. R. Webber, *QCD and Collider Physics*
 </details>
 
 
@@ -328,51 +456,31 @@ References:
 ##  $\textbf{\color{#9BC53D}{Quantum Information Science (QIS) Topics}}$
 
 <details>
-<summary> <b>Reviews, Whitepapers, and Proceedings: </b> <a href="/BY_QIS/README.md#textbfreviews-and-whitepapers"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+<summary> <b>Quantum Algorithms - Amplitude Amplification and Estimation: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-algorithms---amplitude-amplification-and-estimation"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-The references below contain (static) reviews and whitepapers listed in applications of quantum information science to particle physics. Note that the majority of the references are from the Snowmass Community Planning Exercises.
+TBW
 </details>
 
 <details>
-<summary> <b>Quantum Algorithms - Grover's Search Algorithm: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-algorithms---grover's-search-algorithm"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+<summary> <b>Quantum Algorithms - Error Mitigation and Noise Robustness: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-algorithms---error-mitigation-and-noise-robustness"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-The quantum search algorithm, also known as Grover's algorithm, performs a generic search for a solution to a search problem. Assuming that the solutions of the search problem can be expressed as binary strings of length $n$, such that $N= 2^n$, where $N$ is the dimension of the search space, then any search problem can be represented as a function $f(x)$ where $f(x) = 1$ if $x$ is a solution and $f(x) = 0$ otherwise. Grover's algorithm aims to find an input $x \in \{0,1\}^n$ such that $f(x) = 1$. Suppose the function $f$ is implemented by an oracle, a black box that can recognize solutions to the search problem. Classically, it would take $\mathcal{O}(N)$ queries to the oracle to find the solution, however, using Grover's algorithm would allow this search to be sped up substantially, requiring only $\mathcal{O}(\sqrt{N})$ queries. The quantum oracle can be represented by a unitary operator $O$, defined by its action: $\ket{x} \longmapsto (-1)^{f(x)} \ket{x}$. Therefore, the oracle marks the solution to the search problem by a phase shift. The algorithm starts with the computer with the state $\ket{0}^{\otimes n}$ and acting the Hadamard gates on all $n$ qubits gives the state $\ket{\psi} = \frac{1}{\sqrt{N}} \sum_{x=0}^{N-1}\ket{x}$. Grover's algorithm consists of repeated applications of a quantum subroutine called Grover iteration which are as follows: (1) Apply the oracle $O$; (2) Apply $H^{\otimes n}$; (3) Perform a conditional phase shift: $\ket{x} \rightarrow -(-1)^{\delta_{x0}}\ket{x}$. (4) Apply $H^{\otimes n}$. This Grover iteration is repeated $\mathcal{O}(\sqrt{N})$ times. This can be extended to a search problem with $M$ solutions, with $1 \leq M \leq N$, and the Grover iteration can be applied $\mathcal{O}(\sqrt{N/M})$ times to get a solution.
-
-References:
-  - Michael A. Nielsen and Isaac L. Chuang, *Quantum Computation and Quantum Information*
-  - Phillip Kaye, Raymond Laflamme, and Michele Mosca, *An Introduction to Quantum Computing*
+TBW
 </details>
 
 <details>
-<summary> <b>Quantum Algorithms - Harrow-Hassidim-Lloyd Algorithm: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-algorithms---harrow-hassidim-lloyd-algorithm"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+<summary> <b>Quantum Algorithms - Ground States and Eigenvalue Estimation: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-algorithms---ground-states-and-eigenvalue-estimation"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-The Harrow-Hassidim-Lloyd (HHL) algorithm is a quantum algorithm for solving systems of linear equations. Given an $N \times N$ Hermitian matrix $A$ and a unit vector $\vec{b}$, the HHL algorithm aims to find the solution $\vec{x}$ such that $A \vec{x} = \vec{b}$. The algorithm consists of five main steps: (1) State Preparation: Prepare the state $\ket{\vec{b}}$; (2) Quantum Phase Estimation (QPE): This step estimates the eigenvalues of the matrix $A$ by applying QPE to the unitary operator $e^{iAt}$, where $t$ is a chosen time parameter. This step requires the ability to efficiently implement the Hamiltonian simulation of $A$. (3) Controlled Rotation and Measurement of the Ancilla Qubit: After obtaining the eigenvalues from QPE, controlled rotations are applied to an ancillary qubit based on the inverse of the eigenvalues. This step effectively encodes the solution vector into the amplitudes of the quantum state. (4) Inverse QPE: Finally, the QPE process is reversed to disentangle the ancillary qubits from the system, leaving behind a quantum state that approximates the solution vector $\vec{x}$. (5) Measurement: The final step involves measuring the quantum state to extract information about the solution vector $\vec{x}$. The HHL algorithm provides an exponential speedup over classical algorithms for solving linear systems under certain conditions, such as when $A$ is sparse and well-conditioned.
-
-References:
-  - Quantum algorithm for linear systems of equations: https://doi.org/10.1103/PhysRevLett.103.150502
-  - A step-by-step HHL algorithm walkthrough to enhance understanding of critical quantum computing concepts: https://ieeexplore.ieee.org/document/10189828
+TBW
 </details>
 
 <details>
-<summary> <b>Quantum Algorithms - Quantum Phase Estimation: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-algorithms---quantum-phase-estimation"> Link to Papers </a>  <code>Expand for Description</code> </summary>
-
-
-
-Quantum Phase Estimation (QPE) is a quantum algorithm used to estimate the eigenvalue (phase) corresponding to an eigenvector of a unitary operator. Consider the state $\frac{1}{\sqrt{2^n}} \sum_{y=0}^{2^n-1} e^{2\pi i \omega y} \ket{y}$, where $\omega \in (0,1)$. The goal of QPE is to estimate the value of the phase parameter $\omega$.  
-
-References:
-  - Michael A. Nielsen and Isaac L. Chuang, *Quantum Computation and Quantum Information*
-  - Phillip Kaye, Raymond Laflamme, and Michele Mosca, *An Introduction to Quantum Computing*
-</details>
-
-<details>
-<summary> <b>Quantum Algorithms - Quantum Simulations: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-algorithms---quantum-simulations"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+<summary> <b>Quantum Algorithms - Hamiltonian Simulation and Time Evolution: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-algorithms---hamiltonian-simulation-and-time-evolution"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
@@ -382,6 +490,14 @@ References:
   - Michael A. Nielsen and Isaac L. Chuang, *Quantum Computation and Quantum Information*
   - Quantum Simulation: https://arxiv.org/abs/1308.6253
   - Universal quantum simulators: https://www.science.org/doi/epdf/10.1126/science.273.5278.1073
+</details>
+
+<details>
+<summary> <b>Quantum Algorithms - Linear Systems and Matrix Inversion: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-algorithms---linear-systems-and-matrix-inversion"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+TBW
 </details>
 
 <details>
@@ -396,7 +512,27 @@ References:
 </details>
 
 <details>
-<summary> <b>Quantum Computing Paradigms - Continuous Variable Quantum Computing: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-computing-paradigms---continuous-variable-quantum-computing"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+<summary> <b>Quantum Algorithms - State Preparation and Field Digitization: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-algorithms---state-preparation-and-field-digitization"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+TBW
+</details>
+
+<details>
+<summary> <b>Computing Paradigms - Quantum Annealing: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebcomputing-paradigms---quantum-annealing"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+Quantum annealing is a quantum computing method used to solve optimization problems. It is currently the only quantum computing paradigm that enables architectures with large number of qubits, such as D-Wave Systems' Pegasus quantum processor chip with 5000 qubits. Quantum annealers solve very specific optimization problems called Quadratic Unconstrained Binary Optimization (QUBO) problems. The QUBO problem consists of finding a binary string that is minimal with respect to a quadratic polynomial over binary variables. The main challenge is to rephrase the loss function to a QUBO problem, which is equivalent to finding the ground state of a corresponding Ising model, whose Hamiltonian is given by $H(\sigma) = \sum_{i,j=1}^{n}J_{ij} s_i s_j + \sum_{i=1}^{n} h_i s_i$ where $s_i \in \{-1, +1\}$ are the spin values, and $h_i$ and $J_{ij}$ are adjustable constants that represents biases and coupling strengths, respectively. The Hamiltonian of the quantum version of the Ising model, the transverse field Ising model, is given by $ H_f = \sum_{i,j = 1}^{n}J_{ij}\sigma_{i}^{z}\sigma_{j}^{z} + \sum_{i}^{n}h_i\sigma_{i}^{z}$ where $\sigma_{i}^{z}$ is the Pauli-$'Z'$ acting on qubit $i$. In quantum annealing, one initializes the system in the ground state of the initial Hamiltonian $H_i$, given by $H_i = \sum_{i=1}^{n}\sigma_{i}^{x}$ corresponding to the state $(\ket{0} + \ket{1})^{\otimes n}$. The quantum adiabatic theorem states that if the transition between two Hamiltonians is gradual, the system will stay in the ground state. After initializing the system, it slowly evolves by changing the Hamiltonian given by $H(t) = \left(1 - \frac{t}{T}\right)H_i + \frac{t}{T} H_f $ where $T$ is the total time in the annealing process. Measuring the final state after the anneal will give the solution to the QUBO problem, since the final system is in an eigenstate of $H_f$.
+
+References:
+  - D-Wave Documentation: https://docs.dwavequantum.com/en/latest/quantum_research/quantum_annealing_intro.html
+  - Quantum Annealing and Analog Quantum Computation: https://arxiv.org/abs/0801.2193
+</details>
+
+<details>
+<summary> <b>Computing Paradigms - Continuous Variable and Photonic Quantum Computing: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebcomputing-paradigms---continuous-variable-and-photonic-quantum-computing"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
@@ -409,39 +545,19 @@ References:
 </details>
 
 <details>
-<summary> <b>Quantum Computing Paradigms - Quantum Annealing: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-computing-paradigms---quantum-annealing"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+<summary> <b>Computing Paradigms - Analog Quantum Simulators: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebcomputing-paradigms---analog-quantum-simulators"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-Quantum annealing is a quantum computing method used to solve optimization problems. It is currently the only quantum computing paradigm that enables architectures with large number of qubits, such as D-Wave Systems' Pegasus quantum processor chip with 5000 qubits. Quantum annealers solve very specific optimization problems called Quadratic Unconstrained Binary Optimization (QUBO) problems. The QUBO problem consists of finding a binary string that is minimal with respect to a quadratic polynomial over binary variables. The main challenge is to rephrase the loss function to a QUBO problem, which is equivalent to finding the ground state of a corresponding Ising model, whose Hamiltonian is given by $H(\sigma) = \sum_{i,j=1}^{n}J_{ij} s_i s_j + \sum_{i=1}^{n} h_i s_i$ where $s_i \in \{-1, +1\}$ are the spin values, and $h_i$ and $J_{ij}$ are adjustable constants that represents biases and coupling strengths, respectively. The Hamiltonian of the quantum version of the Ising model, the transverse field Ising model, is given by $ H_f = \sum_{i,j = 1}^{n}J_{ij}\sigma_{i}^{z}\sigma_{j}^{z} + \sum_{i}^{n}h_i\sigma_{i}^{z}$ where $\sigma_{i}^{z}$ is the Pauli-$'Z'$ acting on qubit $i$. In quantum annealing, one initializes the system in the ground state of the initial Hamiltonian $H_i$, given by $H_i = \sum_{i=1}^{n}\sigma_{i}^{x}$ corresponding to the state $(\ket{0} + \ket{1})^{\otimes n}$. The quantum adiabatic theorem states that if the transition between two Hamiltonians is gradual, the system will stay in the ground state. After initializing the system, it slowly evolves by changing the Hamiltonian given by $H(t) = \left(1 - \frac{t}{T}\right)H_i + \frac{t}{T} H_f $ where $T$ is the total time in the annealing process. Measuring the final state after the anneal will give the solution to the QUBO problem, since the final system is in an eigenstate of $H_f$.
-
-References:
-  - D-Wave Documentation: https://docs.dwavequantum.com/en/latest/quantum_research/quantum_annealing_intro.html
-  - Quantum Annealing and Analog Quantum Computation: https://arxiv.org/abs/0801.2193
+TBW
 </details>
 
 <details>
-<summary> <b>Quantum Entanglement and Bell Inequalities: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-entanglement-and-bell-inequalities"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+<summary> <b>Computing Paradigms - Tensor Network Methods: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebcomputing-paradigms---tensor-network-methods"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-One of the main features of quantum information processing is quantum entanglement, a non-classical correlation between two or more quantum systems. A pure bipartite state $|\psi\rangle_{AB}$ is said to be entangled if it cannot be written as a product of individual states of the subsystems, $|\psi\rangle_{AB} \neq |\phi\rangle_A \otimes |\chi\rangle_B$. The canonical examples of entangled states are the Bell states, which are maximally entangled states of two qubits, given by $\ket{\Phi^{\pm}} = \frac{1}{\sqrt{2}}(\ket{00} \pm \ket{11})$ and $\ket{\Psi^{\pm}} = \frac{1}{\sqrt{2}}(\ket{01} \pm \ket{10})$. Bell inequalities place bounds on correlations that can be produced by any local hidden-variable theory. Quantum mechanics predicts that suitable measurements on entangled states can violate these bounds, and such violations have been observed experimentally in a variety of physical systems. The most widely used Bell inequality is the Clauser-Horne-Shimony-Holt (CHSH) inequality. Consider two distant observers, Alice and Bob, who share an ensemble of particle pairs and each randomly choosees between two measurement settings on their particle, $A_1, A_2$ for Alice and $B_1, B_2$ for Bob, with outcomes $\pm 1$. Defining the correlator $E(A_i, B_j) = \langle A_i B_j \rangle$, the CHSH combination is $S = E(A_1, B_1) + E(A_1, B_2) + E(A_2, B_1) - E(A_2, B_2)$. For any local hidden-variable theory, the CHSH inequality states that $|S| \leq 2$. However, quantum mechanics allows for a maximum violation of this inequality, with $|S|$ reaching up to $2\sqrt{2}$ for certain entangled states and measurement settings. The violation of Bell inequalities is a fundamental demonstration of the non-local nature of quantum mechanics.
-
-References:
-  - Michael A. Nielsen and Isaac L. Chuang, *Quantum Computation and Quantum Information*
-  - Quantum entanglement: https://arxiv.org/abs/quant-ph/0702225
-  - Introduction to Bell's inequality in Quantum Mechanics: https://arxiv.org/abs/2409.07597
-</details>
-
-<details>
-<summary> <b>Quantum Error Correction and Mitigation: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-error-correction-and-mitigation"> Link to Papers </a>  <code>Expand for Description</code> </summary>
-
-
-
-
-
-References:
-  - Michael A. Nielsen and Isaac L. Chuang, *Quantum Computation and Quantum Information*
+TBW
 </details>
 
 <details>
@@ -458,7 +574,7 @@ References:
 </details>
 
 <details>
-<summary> <b>Quantum Machine Learning - Unsupervised Methods: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-machine-learning---unsupervised-methods"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+<summary> <b>Quantum Machine Learning - Unsupervised and Generative Methods: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-machine-learning---unsupervised-and-generative-methods"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
@@ -485,21 +601,64 @@ References:
 </details>
 
 <details>
-<summary> <b>Quantum Measurement and Tomography: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-measurement-and-tomography"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+<summary> <b>Quantum Machine Learning - Reinforcement Learning: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-machine-learning---reinforcement-learning"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-Quantum measurement and tomography refer to the techniques used to extract information from quantum systems. Quantum measurement involves the process of obtaining classical information from a quantum state, resulting in the collapse of the state. Quantum tomography is the procedure of reconstructing the full quantum state or process by performing a series of measurements on multiple copies of the systems. 
-References:
-  - 
+TBW
 </details>
 
 <details>
-<summary> <b>Quantum Sensors - Atomic/Molecular/Nuclear Sensors: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-sensors---atomic/molecular/nuclear-sensors"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+<summary> <b>Quantum Information - Entanglement and Bell Nonlocality: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-information---entanglement-and-bell-nonlocality"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-Quantum sensing refers to the use of quantum systems to measure physical quantities, whether classical or quantum, and is typically used to describe one of the following: (1) the use of a quantum system with quantized energy levels to measure a physical quantity; (2) the use of quantum entanglement to improve the precision of a measurement; and (3) the use of quantum coherence to measure a physical quantity. Quantum sensors can be grouped into four main categories: (1) atomic/molecular/nuclear sensors; (2) optical/photonic sensors; (3) optomechanical sensors; and (4) solid state sensors.
+One of the main features of quantum information processing is quantum entanglement, a non-classical correlation between two or more quantum systems. A pure bipartite state $|\psi\rangle_{AB}$ is said to be entangled if it cannot be written as a product of individual states of the subsystems, $|\psi\rangle_{AB} \neq |\phi\rangle_A \otimes |\chi\rangle_B$. The canonical examples of entangled states are the Bell states, which are maximally entangled states of two qubits, given by $\ket{\Phi^{\pm}} = \frac{1}{\sqrt{2}}(\ket{00} \pm \ket{11})$ and $\ket{\Psi^{\pm}} = \frac{1}{\sqrt{2}}(\ket{01} \pm \ket{10})$. Bell inequalities place bounds on correlations that can be produced by any local hidden-variable theory. Quantum mechanics predicts that suitable measurements on entangled states can violate these bounds, and such violations have been observed experimentally in a variety of physical systems. The most widely used Bell inequality is the Clauser-Horne-Shimony-Holt (CHSH) inequality. Consider two distant observers, Alice and Bob, who share an ensemble of particle pairs and each randomly choosees between two measurement settings on their particle, $A_1, A_2$ for Alice and $B_1, B_2$ for Bob, with outcomes $\pm 1$. Defining the correlator $E(A_i, B_j) = \langle A_i B_j \rangle$, the CHSH combination is $S = E(A_1, B_1) + E(A_1, B_2) + E(A_2, B_1) - E(A_2, B_2)$. For any local hidden-variable theory, the CHSH inequality states that $|S| \leq 2$. However, quantum mechanics allows for a maximum violation of this inequality, with $|S|$ reaching up to $2\sqrt{2}$ for certain entangled states and measurement settings. The violation of Bell inequalities is a fundamental demonstration of the non-local nature of quantum mechanics.
+
+References:
+  - Michael A. Nielsen and Isaac L. Chuang, *Quantum Computation and Quantum Information*
+  - Quantum entanglement: https://arxiv.org/abs/quant-ph/0702225
+  - Introduction to Bell's inequality in Quantum Mechanics: https://arxiv.org/abs/2409.07597
+</details>
+
+<details>
+<summary> <b>Quantum Information - Entanglement Entropy and Complexity: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-information---entanglement-entropy-and-complexity"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+TBW
+</details>
+
+<details>
+<summary> <b>Quantum Information - Magic and Nonstabilizerness: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-information---magic-and-nonstabilizerness"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+TBW
+</details>
+
+<details>
+<summary> <b>Quantum Information - Open Quantum Systems and Decoherence: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-information---open-quantum-systems-and-decoherence"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+TBW
+</details>
+
+<details>
+<summary> <b>Quantum Information - State Tomography and Characterization: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-information---state-tomography-and-characterization"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+TBW
+</details>
+
+<details>
+<summary> <b>Quantum Sensors - Atomic, Molecular, and Nuclear Platforms: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-sensors---atomic,-molecular,-and-nuclear-platforms"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+Quantum sensing refers to the use of quantum systems to measure physical quantities, whether classical or quantum, and is typically used to describe one of the following: (1) the use of a quantum system with quantized energy levels to measure a physical quantity; (2) the use of quantum entanglement to improve the precision of a measurement; and (3) the use of quantum coherence to measure a physical quantity. Quantum sensors can be grouped into five main categories: (1) Atomic, Molecular, and Nuclear Platforms; (2) Optical and Photonic Platforms; (3) Optomechanical and Levitated Platforms; (4) Resonant Cavities and Circuits; and (5) Superconducting and Solid-State Platforms.
 
 Atomic sensors include:
   - Atomic clocks: qubits with transitions that are very insensitive to environmental perturbations so that their level splitting serves as an absolute frequency reference.
@@ -528,17 +687,14 @@ References:
 </details>
 
 <details>
-<summary> <b>Quantum Sensors - Optical/Photonic Sensors: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-sensors---optical/photonic-sensors"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+<summary> <b>Quantum Sensors - Optical and Photonic Platforms: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-sensors---optical-and-photonic-platforms"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-Quantum sensing refers to the use of quantum systems to measure physical quantities, whether classical or quantum, and is typically used to describe one of the following: (1) the use of a quantum system with quantized energy levels to measure a physical quantity; (2) the use of quantum entanglement to improve the precision of a measurement; and (3) the use of quantum coherence to measure a physical quantity. Quantum sensors can be grouped into four main categories: (1) atomic/molecular/nuclear sensors; (2) optical/photonic sensors; (3) optomechanical sensors; and (4) solid state sensors.
+Quantum sensing refers to the use of quantum systems to measure physical quantities, whether classical or quantum, and is typically used to describe one of the following: (1) the use of a quantum system with quantized energy levels to measure a physical quantity; (2) the use of quantum entanglement to improve the precision of a measurement; and (3) the use of quantum coherence to measure a physical quantity. Quantum sensors can be grouped into five main categories: (1) Atomic, Molecular, and Nuclear Platforms; (2) Optical and Photonic Platforms; (3) Optomechanical and Levitated Platforms; (4) Resonant Cavities and Circuits; and (5) Superconducting and Solid-State Platforms.
 
-Optical/photonic sensors include:
+Optical and Photonic sensors include:
   - Optical cavities: mirror-based resonators that trap photons between two highly reflective surfaces, providing resonant enhancement of weak optical-frequency signals through very high quality factors.
-  - Microwave cavities: hollow conducting resonators supporting discrete standing-wave electromagnetic modes, whose resonant frequency is set by the cavity geometry and can be swept by moving dielectric or metallic rods through the bore; a signal at the mode frequency is resonantly enhanced by the quality factor $Q$, at the cost of a narrow instantaneous bandwidth $\sim \nu / Q$, so that broad frequency coverage requires stepping the cavity and re-measuring at each setting.
-  - Superconducting radio frequency (SRF) cavities: typically niobium-based superconducting cavities with extremely low microwave losses, used as resonators for precision electromagnetic measurements at GHz frequencies.
-  - Josephson parametric amplifiers (JPAs): microwave resonators whose inductance is supplied by Josephson junctions, so that the resonant frequency depends on the current through them; strongly driving this nonlinearity produces parametric gain, amplifying either both quadratures at the standard quantum limit (phase-insensitive) or one quadrature at the expense of its conjugate (phase-sensitive).
   - Squeezed-state receivers: measurement chains in which a parametric amplifier prepares a squeezed vacuum state that is injected into the resonator under test, and a second amplifier reads out the squeezed quadrature near-noiselessly; the reduced noise in the measured quadrature extends the usable bandwidth away from resonance, increasing the rate at which a tunable resonator can be scanned across frequencies.
   - Superconducting qubits measuring electromagnetic fields: superconducting transmon qubits dispersively coupled to a microwave cavity, in which repeated quantum non-demolition measurements of the cavity photon number allow a single photon to be detected many times, suppressing the qubit readout error that would otherwise dominate.
   - Microwave single-photon detectors: devices that irreversibly map an incoming microwave photon onto the excited state of a superconducting qubit, which is then read out dispersively; in current implementations the mapping is achieved by four-wave mixing, in which the incoming photon and a pump photon excite the qubit while a photon is emitted into a lossy resonator, making the transfer irreversible.
@@ -551,11 +707,11 @@ References:
 </details>
 
 <details>
-<summary> <b>Quantum Sensors - Optomechanical Sensors: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-sensors---optomechanical-sensors"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+<summary> <b>Quantum Sensors - Optomechanical and Levitated Platforms: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-sensors---optomechanical-and-levitated-platforms"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-Quantum sensing refers to the use of quantum systems to measure physical quantities, whether classical or quantum, and is typically used to describe one of the following: (1) the use of a quantum system with quantized energy levels to measure a physical quantity; (2) the use of quantum entanglement to improve the precision of a measurement; and (3) the use of quantum coherence to measure a physical quantity. Quantum sensors can be grouped into four main categories: (1) atomic/molecular/nuclear sensors; (2) optical/photonic sensors; (3) optomechanical sensors; and (4) solid state sensors.
+Quantum sensing refers to the use of quantum systems to measure physical quantities, whether classical or quantum, and is typically used to describe one of the following: (1) the use of a quantum system with quantized energy levels to measure a physical quantity; (2) the use of quantum entanglement to improve the precision of a measurement; and (3) the use of quantum coherence to measure a physical quantity. Quantum sensors can be grouped into five main categories: (1) Atomic, Molecular, and Nuclear Platforms; (2) Optical and Photonic Platforms; (3) Optomechanical and Levitated Platforms; (4) Resonant Cavities and Circuits; and (5) Superconducting and Solid-State Platforms.
 
 Optomechanical sensors include:
   - Mechanical sensors: mechanical resonators such as membranes, cantilevers, or bulk acoustic resonators whose motion is coupled to and read out by an optical or microwave cavity, with the cavity field also exerting radiation-pressure back-action on the resonator.
@@ -570,11 +726,23 @@ References:
 </details>
 
 <details>
-<summary> <b>Quantum Sensors - Solid State Sensors: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-sensors---solid-state-sensors"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+<summary> <b>Quantum Sensors - Resonant Cavities and Circuits: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-sensors---resonant-cavities-and-circuits"> Link to Papers </a>  <code>Expand for Description</code> </summary>
 
 
 
-Quantum sensing refers to the use of quantum systems to measure physical quantities, whether classical or quantum, and is typically used to describe one of the following: (1) the use of a quantum system with quantized energy levels to measure a physical quantity; (2) the use of quantum entanglement to improve the precision of a measurement; and (3) the use of quantum coherence to measure a physical quantity. Quantum sensors can be grouped into four main categories: (1) atomic/molecular/nuclear sensors; (2) optical/photonic sensors; (3) optomechanical sensors; and (4) solid state sensors.
+Quantum sensing refers to the use of quantum systems to measure physical quantities, whether classical or quantum, and is typically used to describe one of the following: (1) the use of a quantum system with quantized energy levels to measure a physical quantity; (2) the use of quantum entanglement to improve the precision of a measurement; and (3) the use of quantum coherence to measure a physical quantity. Quantum sensors can be grouped into five main categories: (1) Atomic, Molecular, and Nuclear Platforms; (2) Optical and Photonic Platforms; (3) Optomechanical and Levitated Platforms; (4) Resonant Cavities and Circuits; and (5) Superconducting and Solid-State Platforms.
+Resonant cavities and circuits include:
+  - Microwave cavities: hollow conducting resonators supporting discrete standing-wave electromagnetic modes, whose resonant frequency is set by the cavity geometry and can be swept by moving dielectric or metallic rods through the bore; a signal at the mode frequency is resonantly enhanced by the quality factor $Q$, at the cost of a narrow instantaneous bandwidth $\sim \nu / Q$, so that broad frequency coverage requires stepping the cavity and re-measuring at each setting.
+  - Superconducting radio frequency (SRF) cavities: typically niobium-based superconducting cavities with extremely low microwave losses, used as resonators for precision electromagnetic measurements at GHz frequencies.
+  - Josephson parametric amplifiers (JPAs): microwave resonators whose inductance is supplied by Josephson junctions, so that the resonant frequency depends on the current through them; strongly driving this nonlinearity produces parametric gain, amplifying either both quadratures at the standard quantum limit (phase-insensitive) or one quadrature at the expense of its conjugate (phase-sensitive).
+</details>
+
+<details>
+<summary> <b>Quantum Sensors - Superconducting and Solid-State Platforms: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-sensors---superconducting-and-solid-state-platforms"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+Quantum sensing refers to the use of quantum systems to measure physical quantities, whether classical or quantum, and is typically used to describe one of the following: (1) the use of a quantum system with quantized energy levels to measure a physical quantity; (2) the use of quantum entanglement to improve the precision of a measurement; and (3) the use of quantum coherence to measure a physical quantity. Quantum sensors can be grouped into five main categories: (1) Atomic, Molecular, and Nuclear Platforms; (2) Optical and Photonic Platforms; (3) Optomechanical and Levitated Platforms; (4) Resonant Cavities and Circuits; and (5) Superconducting and Solid-State Platforms.
 
 Solid state sensors include:
   - Nitrogen-vacancy centers in diamond: electronic spin defects in diamond that can be optically initialized and read out, used as nanoscale magnetometers operating at room temperature.
@@ -588,6 +756,16 @@ References:
   - Quantum sensing for particle physics: https://arxiv.org/abs/2305.11518
   - Nitrogen-vacancy centers in diamond: nanoscale sensors for physics and biology: https://doi.org/10.1146/annurev-physchem-040513-103659
   - Searching for Dark Matter with a Superconducting Qubit: https://arxiv.org/abs/2008.12231
+
+    
+</details>
+
+<details>
+<summary> <b>Quantum Metrology - Entanglement-Enhanced Sensing: </b> <a href="/BY_QIS/README.md#textbfcolor5bc0ebquantum-metrology---entanglement-enhanced-sensing"> Link to Papers </a>  <code>Expand for Description</code> </summary>
+
+
+
+TBW
 </details>
 
 

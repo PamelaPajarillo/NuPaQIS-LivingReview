@@ -50,6 +50,7 @@ _UNICODE_MAP = {
     '\u2264': r'$\leq$', '\u2265': r'$\geq$', '\u221e': r'$\infty$',
     '\u2192': r'$\to$', '\u2032': r"$'$", '\u00b0': r'$^\circ$',
     '\u00ae': r'\textregistered{}', '\u00a9': r'\copyright{}',
+    '\u2020': '', '\u2021': '',   # dagger / double dagger (affiliation markers)
 }
 
 # Greek -> math mode. Latin Modern's roman faces have no Greek at all.
@@ -82,12 +83,16 @@ _STANDALONE = {
 # Codepoints Latin Modern covers, so they can be passed through to LuaLaTeX.
 _SAFE_RANGES = ((0x00a1, 0x00ff), (0x0100, 0x017f), (0x0180, 0x024f))
 
+# East Asian scripts: Latin Modern has no glyphs, and the romanized name is
+# already present, so drop these from the LaTeX output.
+_CJK_RANGES = ((0x2E80, 0x9FFF), (0xAC00, 0xD7AF), (0xF900, 0xFAFF), (0xFF00, 0xFFEF))
+
+def _is_cjk(ch):
+    return any(lo <= ord(ch) <= hi for lo, hi in _CJK_RANGES)
 
 # Greek inside a MathML fragment is already in math mode, so it needs the bare
 # command without dollars. Without this, a raw beta reaches cmmi10 and vanishes.
 _GREEK_MATH = {k: '\\%s ' % v for k, v in _GREEK.items()}
-
-
 def _unwrap_math(value):
     """Strip the delimiters from a '$...$' replacement, for math-mode use."""
     if len(value) > 2 and value.startswith('$') and value.endswith('$'):
@@ -102,11 +107,9 @@ _UNICODE_MATH_MAP = {k: _unwrap_math(v) for k, v in _UNICODE_MAP.items()}
 # A '$...$' span in the source, ignoring escaped '\$'.
 _TEX_MATH = r'(?<!\\)\$.*?(?<!\\)\$'
 
-
 def _math_text(text):
     """Map non-ASCII inside a math fragment to math-mode commands."""
     return ''.join(_GREEK_MATH.get(c, c) for c in text)
-
 
 def _sanitize_tex_math(fragment, context):
     """Pass through an existing '$...$' span, mapping Unicode to math commands.
@@ -128,7 +131,6 @@ def _sanitize_tex_math(fragment, context):
             out.append(ch)
     # '$\Lambda $' -> '$\Lambda$'; the delimiter already ends the control word.
     return re.sub(r'\s+\$$', '$', ''.join(out))
-
 
 def _mathml_node_to_tex(node):
     """Recursively convert one presentation-MathML node to a LaTeX fragment."""
@@ -162,7 +164,6 @@ def _mathml_node_to_tex(node):
         return r'\left(%s\right)' % ''.join(kids)
     return ''.join(kids) if kids else text
 
-
 def _convert_mathml(fragment):
     """Convert one <math>...</math> fragment to inline math, or strip it."""
     try:
@@ -173,7 +174,6 @@ def _convert_mathml(fragment):
     tex = re.sub(r'\s+', ' ', tex).strip()
     return '$%s$' % tex if tex else ''
 
-
 def _map_unicode(text, accents, context):
     out = []
     for ch in text:
@@ -181,6 +181,12 @@ def _map_unicode(text, accents, context):
             out.append(ch)
         elif ch in _UNICODE_MAP:
             out.append(_UNICODE_MAP[ch])
+        elif ch in _UNICODE_MAP:
+            out.append(_UNICODE_MAP[ch])
+        elif _is_cjk(ch):
+            continue                              # drop; romanized name kept
+        elif accents == 'tex':
+            out.append(_to_tex_accent(ch, context))
         elif accents == 'tex':
             out.append(_to_tex_accent(ch, context))
         elif any(lo <= ord(ch) <= hi for lo, hi in _SAFE_RANGES):
@@ -192,7 +198,6 @@ def _map_unicode(text, accents, context):
                 % (ord(ch), unicodedata.name(ch, 'unnamed'), context[:60]))
             out.append(ch)
     return ''.join(out)
-
 
 def _to_tex_accent(ch, context):
     """Decompose an accented letter into a TeX accent command."""
@@ -208,13 +213,11 @@ def _to_tex_accent(ch, context):
                   % (ord(ch), unicodedata.name(ch, 'unnamed'), context[:60]))
     return ch
 
-
 def check_math_balanced(text, label):
     # Checks if 'text' has an odd number of unescaped '$'.
     if len(re.findall(r'(?<!\\)\$', text)) % 2:
         raise ValueError('Unbalanced $ in %s: %r' % (label, text))
     return text
-
 
 @functools.lru_cache(maxsize=8192)
 def sanitize_for_latex(text, accents='tex'):
@@ -245,6 +248,7 @@ def sanitize_for_latex(text, accents='tex'):
     # Merge adjacent math runs, but never consume a literal '\$'.
     result = re.sub(r'(?<!\\)\$\$', '', result)
     result = re.sub(r'(\\,){2,}', r'\\,', result)   # collapse repeated thin spaces
+    result = re.sub(r'\s*[\(（]\s*[\)）]', '', result)   # "Name ()" -> "Name"
     return re.sub(r'[ \t]+', ' ', result).strip()
 
 
@@ -300,7 +304,6 @@ def _mathml_node_to_unicode(node):
         return '(%s)' % ''.join(kids)
     return ''.join(kids) if kids else text
 
-
 def _convert_mathml_unicode(fragment):
     try:
         out = _mathml_node_to_unicode(ET.fromstring(fragment))
@@ -308,7 +311,6 @@ def _convert_mathml_unicode(fragment):
         warnings.warn('Could not parse MathML, stripping tags: %s' % fragment[:60])
         return re.sub(r'<[^>]+>', '', fragment)
     return re.sub(r'\s+', ' ', out).strip()
-
 
 @functools.lru_cache(maxsize=8192)
 def sanitize_for_markdown(text, escape_emphasis=True):
@@ -346,8 +348,7 @@ def sanitize_for_markdown(text, escape_emphasis=True):
 # On-disk HTTP cache - Claude Opus 5 
 # ---------------------------------------------------------------------------
 
-_CACHE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)),
-                          '.inspire_cache')
+_CACHE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), '.inspire_cache')
 _REFRESH = os.environ.get('INSPIRE_REFRESH', '') == '1'
 
 
@@ -366,7 +367,6 @@ def fetch_url(http, url):
         handle.write(text)
     os.replace(tmp, path)
     return text
-
 
 def clear_inspire_cache():
     """Delete every cached InspireHEP response."""
@@ -401,10 +401,23 @@ def format_pub_info(run, date_arxiv, date_doi, eprint, eprint_url, doi, doi_url)
     
     if date_doi != 'nan':
         # Prefix
-        if run == 'md':
+        if doi == 'nan' and doi_url != 'nan':
+            # DOI exists but INSPIRE has no journal name
+            if run == 'md':
+                str_doi = "\n+ <strong>Published in <a href=\"%s\">%s</a>:</strong> " % (doi_url, doi_url.replace('https://doi.org', ''))
+            elif run == 'tex':
+                str_doi = "\item \\textbf{Published:} " 
+        elif doi == 'nan':
+            #Date but no DOI or journal
+            if run == 'md':
+                str_doi = "\n+ <strong>Published: </strong>"
+            elif run == 'tex':
+                str_doi = "\item \\textbf{Published:} "
+        elif run == 'md':
             str_doi = "\n+ <strong>Published in <a href=\"%s\">%s</a>:</strong> " % (doi_url, doi)
         elif run == 'tex':
             str_doi = "\item \\textbf{Published in %s:} " % (doi)
+        
         # Append Date
         if len(date_vec_doi) == 3:
             str_doi += date(int(date_vec_doi[0]), int(date_vec_doi[1]), int(date_vec_doi[2])).strftime("%d %B %Y")
@@ -473,11 +486,13 @@ def get_dataframe(yaml_file, categories_hep, categories_qis):
     
     # Check to make sure each paper's categories are valid
     def check_categories(categories, category_list):
-        for category in categories.split(', '):
+        for category in categories.split('; '):
             if category not in category_list:
                 return False
         return True
     
+    def invalid_categories(categories, category_list):
+        return [cat for cat in str(categories).split('; ') if cat not in category_list]
     
     # Check to make sure each paper has at least one valid NUPA category and at least one valid QIS category
     exit_condition = False
@@ -486,14 +501,18 @@ def get_dataframe(yaml_file, categories_hep, categories_qis):
     df["NUPA_Category_Check"] = df["NUPA_Categories"].apply(lambda x: check_categories(x, categories_hep))
     df["QIS_Category_Check"] = df["QIS_Categories"].apply(lambda x: check_categories(x, categories_qis))
     check_hep = df[~df["NUPA_Check"] | ~df["NUPA_Category_Check"]]
-    check_qis = df[~df["QIS_Check"]| ~df["QIS_Category_Check"]]
+    check_qis = df[~df["QIS_Check"] | ~df["QIS_Category_Check"]]
     if len(check_hep) > 0:
         print("The following papers have invalid NUPA categories:")
-        print(check_hep[['ID']])
+        for paper_id, cats in zip(check_hep['ID'], check_hep['NUPA_Categories']):
+            bad = invalid_categories(cats, categories_hep)
+            print(f"- ID {paper_id}: {','.join(repr(c) for c in bad)}")
         exit_condition = True
     if len(check_qis) > 0:
         print("The following papers have invalid QIS categories:")
-        print(check_qis[['ID']])
+        for paper_id, cats in zip(check_qis['ID'], check_qis['QIS_Categories']):
+            bad = invalid_categories(cats, categories_qis)
+            print(f"- ID {paper_id}: {','.join(repr(c) for c in bad)}")
         exit_condition = True
 
     # Stop if there are any invalid categories
@@ -503,9 +522,9 @@ def get_dataframe(yaml_file, categories_hep, categories_qis):
     # Parse out primary category and secondary categories
     def sort_categories(categories, primary = False):
         if primary:
-            return categories.split(', ', 1)[0]
+            return categories.split('; ', 1)[0]
         else:
-            return categories.split(', ', 1)[1] if len(categories.split(', ')) > 1 else 'N/A'
+            return categories.split('; ', 1)[1] if len(categories.split('; ')) > 1 else 'N/A'
     
     df["NUPA_Primary"] = df["NUPA_Categories"].apply(lambda x: sort_categories(x, primary = True))
     df["NUPA_Secondary"] = df["NUPA_Categories"].apply(lambda x: sort_categories(x, primary = False))
@@ -527,9 +546,10 @@ def get_dataframe(yaml_file, categories_hep, categories_qis):
 
     def get_author_list(metadata):
         author_list = ''
+        
         if 'authors' in metadata['metadata'].keys():
             for i in metadata['metadata']['authors']:
-                author_list += i['full_name'] + " and "
+                author_list += re.sub(r'[\u2020\u2021]', '', i['full_name']).strip() + " and "
             author_list = author_list[:-5]
         else:
             author_list =  'nan'
@@ -541,17 +561,56 @@ def get_dataframe(yaml_file, categories_hep, categories_qis):
             if ',' in author:
                 formatted_author_list.append(author.split(',')[1].strip() + ' ' + author.split(',')[0].strip())
         fixed_author = ', '.join(formatted_author_list)
+
+        # Collaborations
+        collaboration_list = []
+        if 'collaborations' in metadata['metadata'].keys():
+            for c in metadata['metadata']['collaborations']:
+                collaboration_name = c['value'].strip()
+                if 'collaboration' not in collaboration_name.lower():
+                    collaboration_name += ' Collaboration'
+                collaboration_list.append(collaboration_name)
+        if len(collaboration_list) > 0:
+            collaborations = ' and '.join(collaboration_list)
+            # Large collaboration (or no individual authors), list only the collaboration
+            if len(metadata['metadata'].get('authors', [])) > 10 or fixed_author == '':
+                return collaborations
+            # Small collaboration: list the authors followed by the collaboration
+            return fixed_author + ' (' + collaborations + ')' 
+
         return fixed_author
 
     def get_author_url_list(metadata):
         author_list = ''
-        for i in metadata['metadata']['authors']:
-            author_name = i['full_name']
-            if ',' in author_name:
-                author_name = author_name.split(',')[1].strip() + ' ' + author_name.split(',')[0].strip()
-            author_list += "<a href=\"%s\"> %s</a>" % (i['record']['$ref'].replace('/api',''), author_name) + ", "
-        return author_list[:-2]
+
+        if 'authors' in metadata['metadata'].keys():
+            for i in metadata['metadata']['authors']:
+                author_name = i['full_name']
+                if ',' in author_name:
+                    author_name = author_name.split(',')[1].strip() + ' ' + author_name.split(',')[0].strip()
+                author_list += "<a href=\"%s\"> %s</a>" % (i['record']['$ref'].replace('/api',''), author_name) + ", "
+        author_list = author_list[:-2]
     
+        # Collaborations
+        collaboration_list = []
+        if 'collaborations' in metadata['metadata'].keys():
+            for c in metadata['metadata']['collaborations']:
+                collaboration_name = c['value'].strip()
+                if 'collaboration' not in collaboration_name.lower():
+                    collaboration_name += ' Collaboration'
+                if 'record' in c.keys():
+                    collaboration_name = "<a href=\"%s\"> %s </a>" % (c['record']['$ref'].replace('/api',''), collaboration_name)
+                collaboration_list.append(collaboration_name)
+        if len(collaboration_list) > 0:
+            collaborations = ' and '.join(collaboration_list)
+            # Large collaboration (or no individual authors), list only the collaboration
+            if len(metadata['metadata'].get('authors', [])) > 10 or author_list == '':
+                return collaborations
+            # Small collaboration: list the authors followed by the collaboration
+            return author_list + ' (' + collaborations + ')' 
+
+        return author_list
+
     def get_journal_doi(doi, metadata_doi):
         if doi != 'nan':
             if 'publication_info' in metadata_doi.keys():
@@ -581,13 +640,20 @@ def get_dataframe(yaml_file, categories_hep, categories_qis):
     def get_bibtex(metadata, http):
         url = metadata["links"]["bibtex"]
         return fetch_url(http, url)
-            
+
+    def get_title(metadata):
+        titles = metadata['metadata']['titles']
+        for t in titles:
+            if t.get('source') == 'arXiv':
+                return t['title']
+        return titles[0]['title']
+
     # Read InspireHEP entry
     http = urllib3.PoolManager()
     df['ID'] = df['ID'].astype(str)
     df["metadata"] = df.apply(lambda x: get_inspirehep_metadata(x["ID"], http), axis=1)
     df["inspirehep_url"] = "https://inspirehep.net/literature/" + df["ID"]
-    df["title"] = df["metadata"].apply(lambda x: x['metadata']['titles'][0]['title'])
+    df["title"] = df["metadata"].apply(get_title)
     df["authors"] = df["metadata"].apply(lambda x: get_author_list(x))
     df["authors_url"] = df["metadata"].apply(lambda x: get_author_url_list(x))
     df["eprint"] = df["metadata"].apply(lambda x: x['metadata']['arxiv_eprints'][0]['value'] if 'arxiv_eprints' in x['metadata'].keys() else 'nan')
@@ -662,8 +728,9 @@ def plot_histogram(df, run):
 
 def plot_2D_nupaqis_heatmap(df, categories_nupa, categories_qis, heatmap_nupa, heatmap_qis):
 
-    nupa_heatmap = ['Reviews and Whitepapers', 'Dark Matter', 'Quantum Information in Collider Physics', 'Lattice Field Theories', 'Particle Physics', 'Nuclear Physics']
-    qis_heatmap = ['Reviews and Whitepapers', 'Quantum Sensors', 'Quantum Entanglement and Bell Inequalities', 'Quantum Simulations', 'Quantum Algorithms', 'Quantum Machine Learning']
+    nupa_heatmap = ['Dark Matter', 'Data Analysis and Experimental Techniques', 'Field Theory', 'Gravitation', 'Neutrino Physics', 'New Forces and Precision Tests', 'Nuclear Many-Body Physics', 'Particle Scattering and Decays', 'Quantum Chromodynamics']
+    qis_heatmap = ['Quantum Algorithms', 'Computing Paradigms', 'Quantum Machine Learning', 'Quantum Information', 'Quantum Sensing and Metrology']
+
     # Build the matrix
     heatmap_data = np.zeros((len(nupa_heatmap), len(qis_heatmap)))
 
@@ -689,11 +756,10 @@ def plot_2D_nupaqis_heatmap(df, categories_nupa, categories_qis, heatmap_nupa, h
     cbar.set_label('Number of Papers', fontsize=20, labelpad=15)
     cbar.ax.tick_params(labelsize=20)
 
-    xlabels = ["Reviews and Whitepapers", "Quantum Sensors", "Quantum Entanglement and \nBell Inequalities", "Quantum Simulations", "Quantum Algorithms", "Quantum Machine Learning"]
     # Axis labels
     plt.xticks(
         ticks=np.arange(len(qis_heatmap)),
-        labels=xlabels,
+        labels=qis_heatmap,
         rotation=45,
         ha='right',
         rotation_mode='anchor',
@@ -706,7 +772,7 @@ def plot_2D_nupaqis_heatmap(df, categories_nupa, categories_qis, heatmap_nupa, h
     )
     plt.xlabel('Quantum Information Science (QIS) Topics', fontsize=20)
     plt.ylabel('Nuclear and Particle Physics (NuPa) Topics', fontsize=20)
-    plt.title('NuPa vs QIS Topics in NUPAQIS Living Review', fontsize=30, pad=20)
+    plt.suptitle('NuPaQIS Living Review: Papers by Research Area', fontsize=30, fontweight='bold')
 
     # Add numbers inside each cell
     for i in range(len(nupa_heatmap)):
@@ -728,7 +794,7 @@ def plot_2D_nupaqis_heatmap(df, categories_nupa, categories_qis, heatmap_nupa, h
     plt.gca().set_yticks(np.arange(-0.5, len(nupa_heatmap), 1), minor=True)
     plt.grid(which='minor', color='gray', linestyle='-', linewidth=0.2, alpha=0.4)
 
-    plt.tight_layout()
+    plt.tight_layout(pad=3.0)
     plt.savefig('NUPAQIS_2D_Heatmap.png', dpi=300)
     plt.close()
 
@@ -909,4 +975,4 @@ def write_papers_to_tex(df, file, categories_main, categories_sub, main_type, su
 
 def write_bib(df, OUTPUT_FILE_BIB):
     for paper in df.values.tolist():
-        OUTPUT_FILE_BIB.write("%s\n" % paper[16])
+        OUTPUT_FILE_BIB.write("%s\n" % re.sub(r'(\\[A-Za-z]+)(?=[^\x00-\x7F])', r'\1 ', paper[16]))

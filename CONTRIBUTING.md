@@ -1,34 +1,16 @@
 # Contributing
-Thank you for investing your time in contributing to this project!
+Thank you for investing your time in contributing to NuPaQIS!
 
-To contribute to this repository, please open an Issue with the details of changes you would like to make. If you have already contributed to this repository, please open a Pull Request.
+## Adding a paper 
+To suggest a paper, please fill out the [paper submission form](https://forms.gle/LcqXa9XvJXbDN8nJA). Please submit one form per paper.
 
-## Opening an Issue
-To open an issue, select "New Issue" from the [GitHub Issue tracker page](https://github.com/PamelaPajarillo/NuPaQIS-LivingReview/issues). 
-Please search through existing Issues before you open an Issue.
+Before submitting, please:
+- Check the repository to make sure the paper isn't already listed
+- Make sure the paper is at the intersection of nuclear and particle physics and quantum information science
+- Review the category descriptions to choose the best-fitting categories 
 
-## Opening a Pull Request
-Follow the folling instructions to open a Pull Request:
-1. Create a [fork of the project](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo)
-2. Install the following packages
-```
-sudo apt-get install latexmk texlive-full
-pip install pandas urllib3
-```
-3. Create your Pull Request (PR) from your fork (see the FAQ below)
-4. See FAQ below for instructions on adding a paper
-5. Ensure that the tests in the CI are passing
-6. Request that a maintainer review your PR. Your PR may be merged in once you have the sign-off of at least one maintainer
+Submissions are reviewed by the maintainers before being added. Contributors who opt in will be acknowledged in the repository. 
 
-## FAQ
-### How do I add a paper?
+## Other contributions
 
-All paper additions should be submitted as a single pull request on a source branch that isn't `main`.
-
-1. Make a new branch on your fork for the pull request
-2. Find the paper on [INSPIRE](https://inspirehep.net/?ln=en). If you found the paper on [arXiv](https://arxiv.org/), the INSPIRE listing linked is linked under "References & Citations"
-3. Obtain the INSPIRE control number by copying the digits at the end of the URL: `https://inspirehep.net/literature/[CONTROLNUMBER]`
-4. Add the INSPIRE control number, HEP and QIS category identifications, and descriptions to [`NUPAQIS.yaml`](https://github.com/PamelaPajarillo/NuPaQIS-LivingReview/blob/main/NUPAQIS.yaml) in the appropriate categories. The papers in `NUPAQIS.yaml` are listed in reverse order of INSPIRE control number
-5. Run `make refresh` to update the `README`,`PDF`, and `BIB` files with the new references.
-6. Add and commit `NUPAQIS.bib`, `NUPAQIS.yaml`, and the updated `README`,`PDF`, and `BIB` files to your pull request
-7. If you haven't yet, push your branch to GitHub and open a pull request to the main project
+For any other questions, please email Pamela Pajarillo (pampaja@mit.edu).
