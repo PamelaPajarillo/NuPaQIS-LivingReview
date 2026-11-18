@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>NuPaQIS Living Review</title>
+<meta name="description" content="A living review of quantum information science in nuclear and particle physics.">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body data-page="overview">
+
+<button class="drawer-toggle" id="drawer-toggle" aria-expanded="false" aria-controls="sidebar">Menu</button>
+
+<aside class="sidebar" id="sidebar">
+  <header class="masthead">
+    <h1><img class="mark-logo" src="favicon-180.png" alt=""><span class="mark-nupa">NuPa</span><span class="mark-qis">QIS</span></h1>
+    <p class="masthead-sub">A living review of quantum information science in nuclear and particle physics</p>
+    <p class="masthead-authors">Pamela Pajarillo · So Chigusa · Jesse Thaler</p>
+    <p class="masthead-meta" id="masthead-meta"></p>
+  </header>
+  <nav class="sitenav" id="sitenav" aria-label="Sections"></nav>
+  <div id="facets" class="facets"></div>
+  <footer class="sidebar-foot">
+    <a href="https://github.com/PamelaPajarillo/NuPaQIS-LivingReview">Repository</a>
+    <a href="NUPAQIS.pdf">Download the PDF</a>
+    <a href="https://raw.githubusercontent.com/PamelaPajarillo/NuPaQIS-LivingReview/main/NUPAQIS.bib">Full BibTeX</a>
+  </footer>
+</aside>
+
+<main class="canvas">
+  <section class="hero">
+    <h2 class="hero-title"><span class="mark-nupa">NuPa</span><span class="mark-qis">QIS</span>: A Living Review of the Intersection of Nuclear and Particle Physics and Quantum Information Science</h2>
+      <p class="hero-lede"><span class="mark-nupa">NuPa</span><span class="mark-qis">QIS</span> is a collection of research at the intersection of nuclear and particle
+      physics (<span class="mark-nupa">NuPa</span>) and quantum information science (<span class="mark-qis">QIS</span>). As a living review, it is updated
+      regularly to track new developments, and we welcome suggestions for papers to include.</p>
+    <h3 class="block-title">Papers by Research Area</h3>
+    <div class="matrix-wrap"><table class="matrix" id="matrix"></table></div>
+    <p class="hero-note">Rows are nuclear and particle physics areas and columns are quantum information science areas.</p>
+  </section>
+
+  <section class="overview-block">
+    <h3 class="block-title">Papers by Year </h3>
+    <div id="year-chart" class="year-chart"></div>
+    <p class="hero-note">Select a year to open it.</p>
+  </section>
+
+  <section class="overview-block">
+    <h3 class="block-title">Browse by Topic</h3>
+    <div class="entry-grid" id="entry-grid"></div>
+  </section>
+
+  <section class="overview-block">
+    <h3 class="block-title">The review as a document</h3>
+    <div id="pdf-card"></div>
+  </section>
+
+  <section class="overview-block">
+    <div class="block-head">
+      <h3 class="block-title">Most recent additions</h3>
+      <button type="button" id="recent-toggle" class="block-action"></button>
+    </div>
+    <div id="recent"></div>
+  </section>
+</main>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="assets/app.js"></script>
+</body>
+</html>

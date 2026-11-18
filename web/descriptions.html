@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Topic Descriptions — NuPaQIS Living Review</title>
+<meta name="description" content="A Living Review of the Intersection of Nuclear and Particle Physics and Quantum Information Science.">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body data-page="descriptions">
+
+<button class="drawer-toggle" id="drawer-toggle" aria-expanded="false" aria-controls="sidebar">Contents</button>
+
+<aside class="sidebar" id="sidebar">
+  <header class="masthead">
+    <h1><img class="mark-logo" src="favicon-180.png" alt=""><span class="mark-nupa">NuPa</span><span class="mark-qis">QIS</span></h1>
+    <p class="masthead-sub">A Living Review of the Intersection of Nuclear and Particle Physics and Quantum Information Science</p>
+    <p class="masthead-authors">Pamela Pajarillo · So Chigusa · Jesse Thaler</p>
+    <p class="masthead-meta" id="masthead-meta"></p>
+  </header>
+  <nav class="sitenav" id="sitenav" aria-label="Sections"></nav>
+  <div class="control">
+    <label class="control-label" for="search">Search descriptions</label>
+    <input type="search" id="search" placeholder="Term or topic" autocomplete="off">
+  </div>
+  <nav class="contents" id="contents" aria-label="Topic contents"></nav>
+  <footer class="sidebar-foot">
+    <a href="NUPAQIS.pdf">Download the PDF</a>
+    <a href="https://github.com/PamelaPajarillo/NuPaQIS-LivingReview">Repository</a>
+  </footer>
+</aside>
+
+<main class="canvas">
+  <header class="page-head">
+    <h2 class="page-title">Topic Descriptions</h2>
+    <p class="page-lede">This page describes the categories used throughout NuPaQIS and the kinds of papers that belong in each.</p>
+    <p class="tally" id="tally"></p>
+    <p class="tool-actions">
+      <button type="button" id="expand-all">Open all topics</button>
+      <button type="button" id="collapse-all">Close all</button>
+    </p>
+  </header>
+  <div id="descriptions" class="descriptions"></div>
+</main>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="assets/app.js"></script>
+</body>
+</html>

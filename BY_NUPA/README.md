@@ -466,6 +466,51 @@
 ###  $\textbf{{\color{#5BC0EB}Quantum Sensors - Superconducting and Solid-State Platforms}}$ 
 
 <details>
+<summary> (2023) <b>Design and simulation of a transmon qubit chip for Axion detection</b> [<a href="https://arxiv.org/abs/2310.05238">arXiv</a>] [<a href="https://doi.org/10.1109/TASC.2024.3350582">DOI</a>] [<a href="https://inspirehep.net/literature/2709437">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/2066932"> R. Moretti</a>, <a href="https://inspirehep.net/authors/2117050"> H.Atse Corti</a>, <a href="https://inspirehep.net/authors/2117049"> D. Labranca</a>, <a href="https://inspirehep.net/authors/2062823"> F. Ahrens</a>, <a href="https://inspirehep.net/authors/2616612"> G. Avallone</a>, <a href="https://inspirehep.net/authors/1017744"> D. Babusci</a>, <a href="https://inspirehep.net/authors/1958450"> L. Banchi</a>, <a href="https://inspirehep.net/authors/1874371"> C. Barone</a>, <a href="https://inspirehep.net/authors/1067268"> M.M. Beretta</a>, <a href="https://inspirehep.net/authors/1959014"> M. Borghesi</a>, <a href="https://inspirehep.net/authors/1061471"> B. Buonomo</a>, <a href="https://inspirehep.net/authors/1424029"> E. Calore</a>, <a href="https://inspirehep.net/authors/2139984"> G. Carapella</a>, <a href="https://inspirehep.net/authors/1874372"> F. Chiarello</a>, <a href="https://inspirehep.net/authors/1959019"> A. Cian</a>, <a href="https://inspirehep.net/authors/2117051"> A. Cidronali</a>, <a href="https://inspirehep.net/authors/2734655"> F. Costa</a>, <a href="https://inspirehep.net/authors/1423730"> A. Cuccoli</a>, <a href="https://inspirehep.net/authors/2744308"> A. D'Elia</a>, <a href="https://inspirehep.net/authors/1423787"> D. Di Gioacchino</a>, <a href="https://inspirehep.net/authors/2709441"> S. Di Pascoli</a>, <a href="https://inspirehep.net/authors/1035063"> P. Falferi</a>, <a href="https://inspirehep.net/authors/1010375"> M. Fanciulli</a>, <a href="https://inspirehep.net/authors/1424084"> M. Faverzani</a>, <a href="https://inspirehep.net/authors/1010199"> G. Felici</a>, <a href="https://inspirehep.net/authors/1258803"> E. Ferri</a>, <a href="https://inspirehep.net/authors/1874373"> G. Filatrella</a>, <a href="https://inspirehep.net/authors/1423846"> L.G. Foggetta</a>, <a href="https://inspirehep.net/authors/1031273"> C. Gatti</a>, <a href="https://inspirehep.net/authors/1029864"> A. Giachero</a>, <a href="https://inspirehep.net/authors/1874374"> F. Giazotto</a>, <a href="https://inspirehep.net/authors/1959020"> D. Giubertoni</a>, <a href="https://inspirehep.net/authors/2126313"> V. Granata</a>, <a href="https://inspirehep.net/authors/1961238"> C. Guarcello</a>, <a href="https://inspirehep.net/authors/1065983"> G. Lamanna</a>, <a href="https://inspirehep.net/authors/1061526"> C. Ligi</a>, <a href="https://inspirehep.net/authors/999414"> G. Maccarrone</a>, <a href="https://inspirehep.net/authors/2353068"> M. Macucci</a>, <a href="https://inspirehep.net/authors/2734656"> G. Manara</a>, <a href="https://inspirehep.net/authors/1898648"> F. Mantegazzini</a>, <a href="https://inspirehep.net/authors/2353058"> P. Marconcini</a>, <a href="https://inspirehep.net/authors/2126320"> B. Margesin</a>, <a href="https://inspirehep.net/authors/2744693"> F. Mattioli</a>, <a href="https://inspirehep.net/authors/2734657"> A. Miola</a>, <a href="https://inspirehep.net/authors/1057752"> A. Nucciotti</a>, <a href="https://inspirehep.net/authors/2011179"> L. Origo</a>, <a href="https://inspirehep.net/authors/994525"> S. Pagano</a>, <a href="https://inspirehep.net/authors/1874379"> F. Paolucci</a>, <a href="https://inspirehep.net/authors/2244703"> L. Piersanti</a>, <a href="https://inspirehep.net/authors/1874381"> A. Rettaroli</a>, <a href="https://inspirehep.net/authors/1968383"> S. Sanguinetti</a>, <a href="https://inspirehep.net/authors/1077854"> S.F. Schifano</a>, <a href="https://inspirehep.net/authors/987965"> P. Spagnolo</a>, <a href="https://inspirehep.net/authors/1896399"> S. Tocci</a>, <a href="https://inspirehep.net/authors/1423640"> A. Toncelli</a>, <a href="https://inspirehep.net/authors/1874382"> G. Torrioli</a>, <a href="https://inspirehep.net/authors/1046667"> A. Vinante</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2310.05238">arXiv:2310.05238</a>:</strong> 08 October 2023 
++ <strong>Published in <a href="https://doi.org/10.1109/TASC.2024.3350582">IEEE Transactions on Applied Superconductivity, 2024</a>:</strong> May 2024</details>
+
+<details>
+<summary> (2024) <b>Superconducting Qubit Network as a Single Microwave Photon Detector for Galactic Axion Search</b> [<a href="https://doi.org/10.1109/TASC.2023.3340640">DOI</a>] [<a href="https://inspirehep.net/literature/2766704">INSPIRE</a>] <code>Expand</code><br> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1950135"> E. Enrico</a>, <a href="https://inspirehep.net/authors/1921265"> C. Bonavolontà</a>, <a href="https://inspirehep.net/authors/2223917"> G. Brida</a>, <a href="https://inspirehep.net/authors/2766648"> G. Coda</a>, <a href="https://inspirehep.net/authors/1975188"> E. Il'ichev</a>, <a href="https://inspirehep.net/authors/1950132"> L. Fasolo</a>, <a href="https://inspirehep.net/authors/2175601"> M. Fistoul</a>, <a href="https://inspirehep.net/authors/1950133"> A. Meda</a>, <a href="https://inspirehep.net/authors/1874378"> L. Oberto</a>, <a href="https://inspirehep.net/authors/2031798"> G. Oelsner</a>, <a href="https://inspirehep.net/authors/1874380"> M. Rajteri</a>, <a href="https://inspirehep.net/authors/2417315"> B. Ruggiero</a>, <a href="https://inspirehep.net/authors/1992164"> P. Silvestrini</a>, <a href="https://inspirehep.net/authors/1921284"> M. Valentino</a>, <a href="https://inspirehep.net/authors/2766649"> P. Vanacore</a>, <a href="https://inspirehep.net/authors/2616609"> M. Lisitskiy</a>
++ <strong>Published in <a href="https://doi.org/10.1109/TASC.2023.3340640">IEEE Trans.Appl.Supercond.</a>:</strong> May 2024</details>
+
+<details>
+<summary> (2025) <b>Dark matter detection with superconducting qubit in RADES experiment</b> [<a href="https://doi.org/10.22323/1.474.0067">DOI</a>] [<a href="https://inspirehep.net/literature/2936858">INSPIRE</a>] <code>Expand</code><br> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/2695283"> Yikun Gu</a> (RADES Collaboration)
++ <strong>Published in <a href="https://doi.org/10.22323/1.474.0067">PoS</a>:</strong> 05 February 2025</details>
+
+<details>
+<summary> (2025) <b>Annual-modulation fingerprint of the axion wind induced sideband triplet in quantum dot spin qubit sensors</b> [<a href="https://arxiv.org/abs/2511.03630">arXiv</a>] [<a href="https://doi.org/10.1103/886r-126m">DOI</a>] [<a href="https://inspirehep.net/literature/3079091">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/2966544"> Xiangjun Tan</a>, <a href="https://inspirehep.net/authors/2010358"> Zhanning Wang</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2511.03630">arXiv:2511.03630</a>:</strong> 05 November 2025 
++ <strong>Published in <a href="https://doi.org/10.1103/886r-126m">Phys.Rev.D</a>:</strong> 01 January 2026</details>
+
+<details>
+<summary> (2026) <b>Quantum Error Correction Assisted Axion Search in CMOS Spin Qubit Arrays</b> [<a href="https://arxiv.org/abs/2605.17457">arXiv</a>] [<a href="https://doi.org/10.1103/2y5c-x1kz">DOI</a>] [<a href="https://inspirehep.net/literature/3157169">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/2966544"> Xiangjun Tan</a>, <a href="https://inspirehep.net/authors/2010358"> Zhanning Wang</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2605.17457">arXiv:2605.17457</a>:</strong> 17 May 2026 
++ <strong>Published in <a href="https://doi.org/10.1103/2y5c-x1kz">Phys.Rev.D</a>:</strong> 01 June 2026</details>
+
+<details>
+<summary> (2026) <b>Coherent collective response in many-qubit systems for dark matter detection</b> [<a href="https://arxiv.org/abs/2606.26736">arXiv</a>] [<a href="https://inspirehep.net/literature/3173033">INSPIRE</a>] <code>Expand</code><br> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1002736"> Ryuichiro Kitano</a>, <a href="https://inspirehep.net/authors/2660814"> Ryoto Takai</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2606.26736">arXiv:2606.26736</a>:</strong> 25 June 2026</details>
+
+<details>
+<summary> (2026) <b>Multiparameter sensing of axion dark matter with superconducting-qubit networks</b> [<a href="https://arxiv.org/abs/2609.20254">arXiv</a>] [<a href="https://doi.org/10.1103/4s26-75w2">DOI</a>] [<a href="https://inspirehep.net/literature/3204893">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1960440"> Le Bin Ho</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/2609.20254">arXiv:2609.20254</a>:</strong> 28 July 2026</details>
+
+<details>
 <summary> (2011) <b>Design and performance of the ADMX SQUID-based microwave receiver</b> [<a href="https://arxiv.org/abs/1105.4203">arXiv</a>] [<a href="https://doi.org/10.1016/j.nima.2011.07.019">DOI</a>] [<a href="https://inspirehep.net/literature/901005">INSPIRE</a>] <code>Expand</code> </summary>
 
 + <strong>Authors:</strong> <a href="https://inspirehep.net/experiments/1309376"> ADMX Collaboration </a>
@@ -2107,15 +2152,6 @@
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1351142"> Min Jiang</a>, <a href="https://inspirehep.net/authors/1614960"> Haowen Su</a>, <a href="https://inspirehep.net/authors/1653403"> Yifan Chen</a>, <a href="https://inspirehep.net/authors/1269995"> Man Jiao</a>, <a href="https://inspirehep.net/authors/2823181"> Ying Huang</a>, <a href="https://inspirehep.net/authors/1929623"> Yuanhong Wang</a>, <a href="https://inspirehep.net/authors/1667387"> Xing Rong</a>, <a href="https://inspirehep.net/authors/1958004"> Xinhua Peng</a>, <a href="https://inspirehep.net/authors/1862463"> Jiangfeng Du</a>
 + <strong>Posted on <a href="https://arxiv.org/abs/2412.03288">arXiv:2412.03288</a>:</strong> 04 December 2024 
 + <strong>Published in <a href="https://doi.org/10.1088/1361-6633/ad99e6">Rep. Prog. Phys. 88 (2025) 016401</a>:</strong> 13 December 2024</details>
-
-
-
-<details>
-<summary> (2024) <b>Implications of the laser excitation of the Th-229 nucleus for dark matter searches</b> [<a href="https://arxiv.org/abs/2407.15924">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevX.15.021055">DOI</a>] [<a href="https://inspirehep.net/literature/2921397">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1068172"> Elina Fuchs</a>, <a href="https://inspirehep.net/authors/2819661"> Fiona Kirk</a>, <a href="https://inspirehep.net/authors/1696922"> Eric Madge</a>, <a href="https://inspirehep.net/authors/2050466"> Chaitanya Paranjape</a>, <a href="https://inspirehep.net/authors/2383459"> Ekkehard Peik</a>, <a href="https://inspirehep.net/authors/1008388"> Gilad Perez</a>, <a href="https://inspirehep.net/authors/1878087"> Wolfram Ratzinger</a>, <a href="https://inspirehep.net/authors/2114622"> Johannes Tiedau</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2407.15924">arXiv:2407.15924</a>:</strong> 22 July 2024 
-+ <strong>Published in <a href="https://doi.org/10.1103/PhysRevX.15.021055">Phys.Rev.X 15 (2025) 2, 021055</a>:</strong> 01 April 2025</details>
 
 
 
@@ -6909,6 +6945,14 @@
 
 ##  $\textbf{{\color{#9BC53D}New Forces and Precision Tests - Tests of Gravity and Equivalence Principle}}$ 
 
+###  $\textbf{{\color{#5BC0EB}Computing Paradigms - Continuous Variable and Photonic Quantum Computing}}$ 
+
+<details>
+<summary> (2017) <b>Equivalence principle and quantum mechanics: quantum simulation with entangled photons</b> [<a href="https://arxiv.org/abs/1712.02054">arXiv</a>] [<a href="https://doi.org/10.1364/OL.43.000226">DOI</a>] [<a href="https://inspirehep.net/literature/3040590">INSPIRE</a>] <code>Expand</code> </summary>
+
++ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1698205"> Stefano Longhi</a>
++ <strong>Posted on <a href="https://arxiv.org/abs/1712.02054">arXiv:1712.02054</a>:</strong> 06 December 2017</details>
+
 ###  $\textbf{{\color{#5BC0EB}Quantum Information - Entanglement and Bell Nonlocality}}$ 
 
 <details>
@@ -6965,53 +7009,11 @@
 ###  $\textbf{{\color{#5BC0EB}Quantum Sensors - Atomic, Molecular, and Nuclear Platforms}}$ 
 
 <details>
-<summary> (2006) <b>Enhanced effect of temporal variation of the fine structure constant and strong interaction in 229Th</b> [<a href="https://arxiv.org/abs/physics/0604188">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevA.73.034101">DOI</a>] [<a href="https://inspirehep.net/literature/715474">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1009863"> V.V. Flambaum</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/physics/0604188">arXiv:physics/0604188</a>:</strong> April 2006 
-+ <strong>Published in <a href="https://doi.org/10.1103/PhysRevA.73.034101">Phys.Rev.A</a>:</strong> 2006</details>
-
-<details>
-<summary> (2006) <b>Enhanced effect of temporal variation of the fine structure constant in diatomic molecules</b> [<a href="https://arxiv.org/abs/physics/0601034">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevLett.97.092502">DOI</a>] [<a href="https://inspirehep.net/literature/729318">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1009863"> V.V. Flambaum</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/physics/0601034">arXiv:physics/0601034</a>:</strong> 2006 
-+ <strong>Published in <a href="https://doi.org/10.1103/PhysRevLett.97.092502">Phys.Rev.Lett.</a>:</strong> 2006</details>
-
-<details>
-<summary> (2007) <b>Enhanced sensitivity to variation of fundamental constants in the transitions of Th-229 and Bk-249</b> [<a href="https://doi.org/10.1088/0954-3899/34/7/003">DOI</a>] [<a href="https://inspirehep.net/literature/757475">INSPIRE</a>] <code>Expand</code><br> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/2006896"> Xiao-tao He</a>, <a href="https://inspirehep.net/authors/1062945"> Zhong-zhou Ren</a>
-+ <strong>Posted on <a href="nan">arXiv:nan</a>:</strong> 2007 
-+ <strong>Published in <a href="https://doi.org/10.1088/0954-3899/34/7/003">J.Phys.G</a>:</strong> 2007</details>
-
-<details>
-<summary> (2008) <b>Temporal variation of the fine structure constant and the strong interaction parameter in the Th-229 transition</b> [<a href="https://doi.org/10.1016/j.nuclphysa.2008.03.002">DOI</a>] [<a href="https://inspirehep.net/literature/799263">INSPIRE</a>] <code>Expand</code><br> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/2006896"> Xiao-Tao He</a>, <a href="https://inspirehep.net/authors/1062945"> Zhong-Zhou Ren</a>
-+ <strong>Posted on <a href="nan">arXiv:nan</a>:</strong> 2008 
-+ <strong>Published in <a href="https://doi.org/10.1016/j.nuclphysa.2008.03.002">Nucl.Phys.A</a>:</strong> 2008</details>
-
-<details>
 <summary> (2012) <b>A Single-Ion Nuclear Clock for Metrology at the 19th Decimal Place</b> [<a href="https://arxiv.org/abs/1110.2490">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevLett.108.120802">DOI</a>] [<a href="https://inspirehep.net/literature/1112101">INSPIRE</a>] <code>Expand</code> </summary>
 
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/2114919"> C.J. Campbell</a>, <a href="https://inspirehep.net/authors/2418184"> A.G. Radnaev</a>, <a href="https://inspirehep.net/authors/1001419"> A. Kuzmich</a>, <a href="https://inspirehep.net/authors/1011077"> V.A. Dzuba</a>, <a href="https://inspirehep.net/authors/1009863"> V.V. Flambaum</a>, <a href="https://inspirehep.net/authors/1011988"> A. Derevianko</a>
 + <strong>Posted on <a href="https://arxiv.org/abs/1110.2490">arXiv:1110.2490</a>:</strong> 23 March 2012 
 + <strong>Published in <a href="https://doi.org/10.1103/PhysRevLett.108.120802">Phys.Rev.Lett.</a>:</strong> 2012</details>
-
-<details>
-<summary> (2012) <b>Performance of a 229 Thorium solid-state nuclear clock</b> [<a href="https://arxiv.org/abs/1204.3268">arXiv</a>] [<a href="https://doi.org/10.1088/1367-2630/14/8/083019">DOI</a>] [<a href="https://inspirehep.net/literature/3005020">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/2088646"> G.A. Kazakov</a>, <a href="https://inspirehep.net/authors/2477211"> A.N. Litvinov</a>, <a href="https://inspirehep.net/authors/2996476"> V.I. Romanenko</a>, <a href="https://inspirehep.net/authors/2104854"> L.P. Yatsenko</a>, <a href="https://inspirehep.net/authors/2267100"> A.V. Romanenko</a>, <a href="https://inspirehep.net/authors/2540637"> M. Schreitl</a>, <a href="https://inspirehep.net/authors/1926562"> G. Winkler</a>, <a href="https://inspirehep.net/authors/2130462"> T. Schumm</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/1204.3268">arXiv:1204.3268</a>:</strong> 02 October 2012 
-+ <strong>Published in <a href="https://doi.org/10.1088/1367-2630/14/8/083019">New Journal of Physics 14, 083019 (2012)</a>:</strong> 2012</details>
-
-<details>
-<summary> (2020) <b>Sensitivity of $^{229}$Th nuclear clock transition to variation of the fine-structure constant</b> [<a href="https://arxiv.org/abs/2007.00408">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevA.102.052833">DOI</a>] [<a href="https://inspirehep.net/literature/1804518">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1977302"> Pavel Fadeev</a>, <a href="https://inspirehep.net/authors/1061670"> Julian C. Berengut</a>, <a href="https://inspirehep.net/authors/1009863"> Victor V. Flambaum</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2007.00408">arXiv:2007.00408</a>:</strong> 01 July 2020 
-+ <strong>Published in <a href="https://doi.org/10.1103/PhysRevA.102.052833">Phys. Rev. A 102, 052833 (2020)</a>:</strong> 30 November 2020</details>
 
 <details>
 <summary> (2022) <b>Nuclear coherent population transfer to the $^{229m}$Th isomer using x-ray pulses</b> [<a href="https://arxiv.org/abs/2203.15639">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevC.105.064313">DOI</a>] [<a href="https://inspirehep.net/literature/2059432">INSPIRE</a>] <code>Expand</code> </summary>
@@ -7021,46 +7023,11 @@
 + <strong>Published in <a href="https://doi.org/10.1103/PhysRevC.105.064313">Phys.Rev.C</a>:</strong> 24 June 2022</details>
 
 <details>
-<summary> (2023) <b>Effects of electrons on nuclear clock transition frequency in $^{229}$Th ions</b> [<a href="https://arxiv.org/abs/2309.11176">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevLett.131.263002">DOI</a>] [<a href="https://inspirehep.net/literature/2700380">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1011077"> V.A. Dzuba</a>, <a href="https://inspirehep.net/authors/1009863"> V.V. Flambaum</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2309.11176">arXiv:2309.11176</a>:</strong> 20 September 2023 
-+ <strong>Published in <a href="https://doi.org/10.1103/PhysRevLett.131.263002">Phys.Rev.Lett.</a>:</strong> 27 December 2023</details>
-
-<details>
-<summary> (2024) <b>Fine-structure constant sensitivity of the Th-229 nuclear clock transition</b> [<a href="https://arxiv.org/abs/2407.17300">arXiv</a>] [<a href="https://doi.org/10.1038/s41467-025-64191-7">DOI</a>] [<a href="https://inspirehep.net/literature/2810684">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/2079185"> Kjeld Beeks</a>, <a href="https://inspirehep.net/authors/2088646"> Georgy A. Kazakov</a>, <a href="https://inspirehep.net/authors/2180370"> Fabian Schaden</a>, <a href="https://inspirehep.net/authors/2781514"> Ira Morawetz</a>, <a href="https://inspirehep.net/authors/2781515"> Luca Toscani de Col</a>, <a href="https://inspirehep.net/authors/2810685"> Thomas Riebner</a>, <a href="https://inspirehep.net/authors/2140480"> Michael Bartokos</a>, <a href="https://inspirehep.net/authors/2180367"> Tomas Sikorsky</a>, <a href="https://inspirehep.net/authors/2154613"> Thorsten Schumm</a>, <a href="https://inspirehep.net/authors/2012743"> Chuankun Zhang</a>, <a href="https://inspirehep.net/authors/2382876"> Tian Ooi</a>, <a href="https://inspirehep.net/authors/2131936"> Jacob S. Higgins</a>, <a href="https://inspirehep.net/authors/2803107"> Jack F. Doyle</a>, <a href="https://inspirehep.net/authors/1053396"> Jun Ye</a>, <a href="https://inspirehep.net/authors/1896420"> Marianna S. Safronova</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2407.17300">arXiv:2407.17300</a>:</strong> 24 July 2024 
-+ <strong>Published in <a href="https://doi.org/10.1038/s41467-025-64191-7">Nature Commun.</a>:</strong> 15 October 2025</details>
-
-<details>
-<summary> (2024) <b>Temperature sensitivity of a Thorium-229 solid-state nuclear clock</b> [<a href="https://arxiv.org/abs/2409.11590">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevLett.134.113801">DOI</a>] [<a href="https://inspirehep.net/literature/2829876">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/2131936"> Jacob S. Higgins</a>, <a href="https://inspirehep.net/authors/2382876"> Tian Ooi</a>, <a href="https://inspirehep.net/authors/2803107"> Jack F. Doyle</a>, <a href="https://inspirehep.net/authors/2012743"> Chuankun Zhang</a>, <a href="https://inspirehep.net/authors/1053396"> Jun Ye</a>, <a href="https://inspirehep.net/authors/2079185"> Kjeld Beeks</a>, <a href="https://inspirehep.net/authors/2180367"> Tomas Sikorsky</a>, <a href="https://inspirehep.net/authors/2154613"> Thorsten Schumm</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2409.11590">arXiv:2409.11590</a>:</strong> 17 September 2024 
-+ <strong>Published in <a href="https://doi.org/10.1103/PhysRevLett.134.113801">Phys.Rev.Lett.</a>:</strong> 17 March 2025</details>
-
-<details>
 <summary> (2024) <b>Coherent dynamics of a nuclear-spin-isomer superposition</b> [<a href="https://arxiv.org/abs/2409.13322">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevResearch.7.013274">DOI</a>] [<a href="https://inspirehep.net/literature/2831177">INSPIRE</a>] <code>Expand</code> </summary>
 
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/2576257"> Tamar Levin</a>, <a href="https://inspirehep.net/authors/2295616"> Ziv Meir</a>
 + <strong>Posted on <a href="https://arxiv.org/abs/2409.13322">arXiv:2409.13322</a>:</strong> 20 September 2024 
 + <strong>Published in <a href="https://doi.org/10.1103/PhysRevResearch.7.013274">Phys.Rev.Res.</a>:</strong> 17 March 2025</details>
-
-<details>
-<summary> (2024) <b>Using the Th III Ion for a Nuclear Clock and Searches for New Physics</b> [<a href="https://arxiv.org/abs/2412.18308">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevA.111.053109">DOI</a>] [<a href="https://inspirehep.net/literature/2862623">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1011077"> V.A. Dzuba</a>, <a href="https://inspirehep.net/authors/1009863"> V.V. Flambaum</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2412.18308">arXiv:2412.18308</a>:</strong> 24 December 2024 
-+ <strong>Published in <a href="https://doi.org/10.1103/PhysRevA.111.053109">Physical Review A 111, 053109 (2025)</a>:</strong> 13 May 2025</details>
-
-<details>
-<summary> (2024) <b>Implications of the laser excitation of the Th-229 nucleus for dark matter searches</b> [<a href="https://arxiv.org/abs/2407.15924">arXiv</a>] [<a href="https://doi.org/10.1103/PhysRevX.15.021055">DOI</a>] [<a href="https://inspirehep.net/literature/2921397">INSPIRE</a>] <code>Expand</code> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/1068172"> Elina Fuchs</a>, <a href="https://inspirehep.net/authors/2819661"> Fiona Kirk</a>, <a href="https://inspirehep.net/authors/1696922"> Eric Madge</a>, <a href="https://inspirehep.net/authors/2050466"> Chaitanya Paranjape</a>, <a href="https://inspirehep.net/authors/2383459"> Ekkehard Peik</a>, <a href="https://inspirehep.net/authors/1008388"> Gilad Perez</a>, <a href="https://inspirehep.net/authors/1878087"> Wolfram Ratzinger</a>, <a href="https://inspirehep.net/authors/2114622"> Johannes Tiedau</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2407.15924">arXiv:2407.15924</a>:</strong> 22 July 2024 
-+ <strong>Published in <a href="https://doi.org/10.1103/PhysRevX.15.021055">Phys.Rev.X 15 (2025) 2, 021055</a>:</strong> 01 April 2025</details>
 
 ##  $\textbf{{\color{#9BC53D}Nuclear Many-Body Physics - Nuclear Structure}}$ 
 
@@ -7508,12 +7475,6 @@
 
 + <strong>Authors:</strong> <a href="https://inspirehep.net/authors/2226912"> Yi-Ting Lee</a>, <a href="https://inspirehep.net/authors/2687921"> Keerthi Kumaran</a>, <a href="https://inspirehep.net/authors/1968961"> Bibek Pokharel</a>, <a href="https://inspirehep.net/authors/1868455"> Allen Scheie</a>, <a href="https://inspirehep.net/authors/1991819"> Colin L. Sarkis</a>, <a href="https://inspirehep.net/authors/1872850"> David A. Tennant</a>, <a href="https://inspirehep.net/authors/1873520"> Travis Humble</a>, <a href="https://inspirehep.net/authors/1886802"> André Schleife</a>, <a href="https://inspirehep.net/authors/2016716"> Abhinav Kandala</a>, <a href="https://inspirehep.net/authors/1970078"> Arnab Banerjee</a>
 + <strong>Posted on <a href="https://arxiv.org/abs/2603.15608">arXiv:2603.15608</a>:</strong> 16 March 2026</details>
-
-<details>
-<summary> (2026) <b>Quantum Simulation of Non-Hermitian Linear Response via Schrödingerization</b> [<a href="https://arxiv.org/abs/2603.17342">arXiv</a>] [<a href="https://inspirehep.net/literature/3131085">INSPIRE</a>] <code>Expand</code><br> </summary>
-
-+ <strong>Authors:</strong> <a href="https://inspirehep.net/authors/3127135"> Jeongbin Jo</a>
-+ <strong>Posted on <a href="https://arxiv.org/abs/2603.17342">arXiv:2603.17342</a>:</strong> 18 March 2026</details>
 
 ###  $\textbf{{\color{#5BC0EB}Quantum Machine Learning - Variational Quantum Algorithms}}$ 
 

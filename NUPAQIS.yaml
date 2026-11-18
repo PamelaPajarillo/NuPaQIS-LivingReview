@@ -1,54 +1,8 @@
 ---
-
-# NuPaQIS Living Review — all curated entries.
-# 1022 papers, ordered by primary NuPa category (alphabetical), then primary QIS
-# category (alphabetical), then year. Each paper appears exactly once.
-# Category lists use '; '. The first category on each axis is the primary one.
-#
-# Primary-category counts:
-#   Dark Matter - Axion-Electron Coupling                             9
-#   Dark Matter - Axion-Nucleon and EDM Coupling                     15
-#   Dark Matter - Axion-Photon Coupling                              78
-#   Dark Matter - Dark Photons and Hidden Sectors                    25
-#   Dark Matter - Particle-like Dark Matter                          34
-#   Dark Matter - Scalar Dark Matter                                 46
-#   Data Analysis - Anomaly Detection                                 9
-#   Data Analysis - Event Classification                             31
-#   Data Analysis - Event Generation and Simulation                  29
-#   Data Analysis - Jet Reconstruction                               22
-#   Data Analysis - Track Reconstruction                             26
-#   Experimental Techniques - Accelerator Physics and Controls        4
-#   Experimental Techniques - Detector Technologies                  12
-#   Field Theory - Cosmological Backgrounds                           8
-#   Field Theory - Effective Field Theories                          10
-#   Field Theory - Scattering Amplitudes                             14
-#   Gravitation - Gravitational Wave Detection                       41
-#   Lattice Field Theories - Gauge Theories                         106
-#   Lattice Field Theories - Scalar and Fermion Theories             22
-#   Lattice Field Theories - Schwinger Model                         45
-#   Neutrino Physics - Collective Flavor Dynamics                    42
-#   Neutrino Physics - Mass and Double Beta Decay                     6
-#   Neutrino Physics - Oscillations and Propagation                  87
-#   New Forces and Precision Tests - Exotic Spin-Dependent Interactions   14
-#   New Forces and Precision Tests - Tests of Gravity and Equivalence Principle    5
-#   Nuclear Many-Body Physics - Nuclear Clocks and Isomers           14
-#   Nuclear Many-Body Physics - Nuclear Reactions and Response       20
-#   Nuclear Many-Body Physics - Nuclear Structure                    43
-#   Particle Scattering and Decays - Charged Leptons                  6
-#   Particle Scattering and Decays - General Methods                 19
-#   Particle Scattering and Decays - Hadrons                         32
-#   Particle Scattering and Decays - Photons                         10
-#   Particle Scattering and Decays - Top Quarks                      29
-#   Particle Scattering and Decays - W, Z and Higgs Bosons           27
-#   Quantum Chromodynamics - Hadron Structure and Deep Inelastic Scattering   41
-#   Quantum Chromodynamics - Heavy-Ion Collisions and Quark-Gluon Plasma   25
-#   Quantum Chromodynamics - Jets and Hadronization                  16
-
-
 # ----- Dark Matter - Axion-Electron Coupling (9 primary) -----
 
 - ID: 2784195
-  Document_Type: Review
+  Paper_Type: Review
   NUPA_Categories: Dark Matter - Axion-Electron Coupling; Dark Matter - Axion-Nucleon and EDM Coupling; Dark Matter - Scalar Dark Matter
   QIS_Categories: Quantum Sensors - Atomic, Molecular, and Nuclear Platforms; Quantum Metrology - Entanglement-Enhanced Sensing
 
@@ -83,7 +37,9 @@
 - ID: 2914933
   NUPA_Categories: Dark Matter - Axion-Electron Coupling; New Forces and Precision Tests - Exotic Spin-Dependent Interactions
   QIS_Categories: Quantum Sensors - Superconducting and Solid-State Platforms
+
 # ----- Dark Matter - Axion-Nucleon and EDM Coupling (15 primary) -----
+
 
 - ID: 1239921
   NUPA_Categories: Dark Matter - Axion-Nucleon and EDM Coupling
@@ -102,12 +58,10 @@
   QIS_Categories: Quantum Sensors - Atomic, Molecular, and Nuclear Platforms
 
 - ID: 1630892
-  Document_Type: Proceedings
   NUPA_Categories: Dark Matter - Axion-Nucleon and EDM Coupling
   QIS_Categories: Quantum Sensors - Atomic, Molecular, and Nuclear Platforms
 
 - ID: 1638372
-  Document_Type: Proceedings
   NUPA_Categories: Dark Matter - Axion-Nucleon and EDM Coupling
   QIS_Categories: Quantum Sensors - Atomic, Molecular, and Nuclear Platforms
 
@@ -128,7 +82,7 @@
   QIS_Categories: Quantum Sensors - Atomic, Molecular, and Nuclear Platforms
 
 - ID: 1869053
-  Document_Type: Review
+  Paper_Type: Review
   NUPA_Categories: Dark Matter - Axion-Nucleon and EDM Coupling; New Forces and Precision Tests - Exotic Spin-Dependent Interactions
   QIS_Categories: Quantum Sensors - Atomic, Molecular, and Nuclear Platforms
 
@@ -147,7 +101,9 @@
 - ID: 2914923
   NUPA_Categories: Dark Matter - Axion-Nucleon and EDM Coupling
   QIS_Categories: Quantum Sensors - Atomic, Molecular, and Nuclear Platforms
-# ----- Dark Matter - Axion-Photon Coupling (78 primary) -----
+
+# ----- Dark Matter - Axion-Photon Coupling (85 primary) -----
+
 
 - ID: 3079074
   NUPA_Categories: Dark Matter - Axion-Photon Coupling; Dark Matter - Dark Photons and Hidden Sectors
@@ -162,7 +118,7 @@
   QIS_Categories: Quantum Sensors - Atomic, Molecular, and Nuclear Platforms
 
 - ID: 2142619
-  Document_Type: Whitepaper
+  Paper_Type: Whitepaper
   NUPA_Categories: Dark Matter - Axion-Photon Coupling; Dark Matter - Axion-Electron Coupling; Dark Matter - Axion-Nucleon and EDM Coupling; Dark Matter - Scalar Dark Matter; Dark Matter - Dark Photons and Hidden Sectors
   QIS_Categories: Quantum Sensors - Atomic, Molecular, and Nuclear Platforms; Quantum Sensors - Resonant Cavities and Circuits
 
@@ -171,7 +127,7 @@
   QIS_Categories: Quantum Sensors - Atomic, Molecular, and Nuclear Platforms
 
 - ID: 2653761
-  Document_Type: Review
+  Paper_Type: Review
   NUPA_Categories: Dark Matter - Axion-Photon Coupling; Dark Matter - Axion-Nucleon and EDM Coupling; Dark Matter - Scalar Dark Matter
   QIS_Categories: Quantum Sensors - Atomic, Molecular, and Nuclear Platforms; Quantum Metrology - Entanglement-Enhanced Sensing
 
@@ -196,7 +152,7 @@
   QIS_Categories: Quantum Sensors - Atomic, Molecular, and Nuclear Platforms; Quantum Sensors - Optical and Photonic Platforms
 
 - ID: 2721893
-  Document_Type: Review
+  Paper_Type: Review
   NUPA_Categories: Dark Matter - Axion-Photon Coupling; Dark Matter - Dark Photons and Hidden Sectors; Gravitation - Gravitational Wave Detection
   QIS_Categories: Quantum Sensors - Optical and Photonic Platforms; Quantum Sensors - Optomechanical and Levitated Platforms; Quantum Sensors - Superconducting and Solid-State Platforms; Quantum Metrology - Entanglement-Enhanced Sensing
 
@@ -325,7 +281,7 @@
   QIS_Categories: Quantum Sensors - Resonant Cavities and Circuits
 
 - ID: 1978916
-  Document_Type: Review
+  Paper_Type: Review
   NUPA_Categories: Dark Matter - Axion-Photon Coupling
   QIS_Categories: Quantum Sensors - Resonant Cavities and Circuits
 
@@ -413,6 +369,34 @@
   NUPA_Categories: Dark Matter - Axion-Photon Coupling
   QIS_Categories: Quantum Sensors - Resonant Cavities and Circuits
 
+- ID: 2709437
+  NUPA_Categories: Dark Matter - Axion-Photon Coupling
+  QIS_Categories: Quantum Sensors - Superconducting and Solid-State Platforms
+
+- ID: 2766704
+  NUPA_Categories: Dark Matter - Axion-Photon Coupling
+  QIS_Categories: Quantum Sensors - Superconducting and Solid-State Platforms; Quantum Metrology - Entanglement-Enhanced Sensing
+
+- ID: 2936858
+  NUPA_Categories: Dark Matter - Axion-Photon Coupling
+  QIS_Categories: Quantum Sensors - Superconducting and Solid-State Platforms; Quantum Sensors - Resonant Cavities and Circuits
+
+- ID: 3079091
+  NUPA_Categories: Dark Matter - Axion-Photon Coupling
+  QIS_Categories: Quantum Sensors - Superconducting and Solid-State Platforms
+
+- ID: 3157169
+  NUPA_Categories: Dark Matter - Axion-Photon Coupling
+  QIS_Categories: Quantum Sensors - Superconducting and Solid-State Platforms; Quantum Algorithms - Error Mitigation and Noise Robustness
+
+- ID: 3173033
+  NUPA_Categories: Dark Matter - Axion-Photon Coupling
+  QIS_Categories: Quantum Sensors - Superconducting and Solid-State Platforms; Quantum Metrology - Entanglement-Enhanced Sensing
+
+- ID: 3204893
+  NUPA_Categories: Dark Matter - Axion-Photon Coupling
+  QIS_Categories: Quantum Sensors - Superconducting and Solid-State Platforms; Quantum Metrology - Entanglement-Enhanced Sensing
+
 - ID: 901005
   NUPA_Categories: Dark Matter - Axion-Photon Coupling
   QIS_Categories: Quantum Sensors - Superconducting and Solid-State Platforms
@@ -426,7 +410,6 @@
   QIS_Categories: Quantum Sensors - Superconducting and Solid-State Platforms; Quantum Metrology - Entanglement-Enhanced Sensing
 
 - ID: 1495011
-  Document_Type: Proceedings
   NUPA_Categories: Dark Matter - Axion-Photon Coupling; Dark Matter - Dark Photons and Hidden Sectors
   QIS_Categories: Quantum Sensors - Superconducting and Solid-State Platforms
 
@@ -439,7 +422,6 @@
   QIS_Categories: Quantum Sensors - Superconducting and Solid-State Platforms; Quantum Metrology - Entanglement-Enhanced Sensing
 
 - ID: 2674343
-  Document_Type: Proceedings
   NUPA_Categories: Dark Matter - Axion-Photon Coupling
   QIS_Categories: Quantum Sensors - Superconducting and Solid-State Platforms
 
@@ -466,7 +448,9 @@
 - ID: 3075408
   NUPA_Categories: Dark Matter - Axion-Photon Coupling; Dark Matter - Dark Photons and Hidden Sectors
   QIS_Categories: Quantum Sensors - Superconducting and Solid-State Platforms; Quantum Metrology - Entanglement-Enhanced Sensing
+
 # ----- Dark Matter - Dark Photons and Hidden Sectors (25 primary) -----
+
 
 - ID: 2073078
   NUPA_Categories: Dark Matter - Dark Photons and Hidden Sectors
@@ -505,7 +489,6 @@
   QIS_Categories: Quantum Sensors - Resonant Cavities and Circuits
 
 - ID: 1740918
-  Document_Type: Proceedings
   NUPA_Categories: Dark Matter - Dark Photons and Hidden Sectors; Dark Matter - Axion-Photon Coupling
   QIS_Categories: Quantum Sensors - Resonant Cavities and Circuits
 
@@ -568,7 +551,9 @@
 - ID: 3069163
   NUPA_Categories: Dark Matter - Dark Photons and Hidden Sectors; Dark Matter - Axion-Photon Coupling
   QIS_Categories: Quantum Sensors - Superconducting and Solid-State Platforms; Quantum Metrology - Entanglement-Enhanced Sensing
+
 # ----- Dark Matter - Particle-like Dark Matter (34 primary) -----
+
 
 - ID: 1207782
   NUPA_Categories: Dark Matter - Particle-like Dark Matter
@@ -587,7 +572,7 @@
   QIS_Categories: Quantum Metrology - Entanglement-Enhanced Sensing
 
 - ID: 1665450
-  Document_Type: Whitepaper
+  Paper_Type: Whitepaper
   NUPA_Categories: Dark Matter - Particle-like Dark Matter; Dark Matter - Axion-Nucleon and EDM Coupling
   QIS_Categories: Quantum Sensors - Atomic, Molecular, and Nuclear Platforms; Quantum Sensors - Optical and Photonic Platforms; Quantum Sensors - Optomechanical and Levitated Platforms; Quantum Sensors - Superconducting and Solid-State Platforms
 
@@ -600,12 +585,12 @@
   QIS_Categories: Quantum Sensors - Atomic, Molecular, and Nuclear Platforms
 
 - ID: 2051476
-  Document_Type: Whitepaper
+  Paper_Type: Whitepaper
   NUPA_Categories: Dark Matter - Particle-like Dark Matter; New Forces and Precision Tests - Exotic Spin-Dependent Interactions; Dark Matter - Scalar Dark Matter
   QIS_Categories: Quantum Sensors - Atomic, Molecular, and Nuclear Platforms; Quantum Sensors - Optical and Photonic Platforms; Quantum Sensors - Optomechanical and Levitated Platforms; Quantum Sensors - Superconducting and Solid-State Platforms
 
 - ID: 2718883
-  Document_Type: Whitepaper
+  Paper_Type: Whitepaper
   NUPA_Categories: Dark Matter - Particle-like Dark Matter; Dark Matter - Scalar Dark Matter; Dark Matter - Axion-Electron Coupling; Dark Matter - Axion-Nucleon and EDM Coupling
   QIS_Categories: Quantum Sensors - Atomic, Molecular, and Nuclear Platforms; Quantum Sensors - Optical and Photonic Platforms; Quantum Sensors - Optomechanical and Levitated Platforms; Quantum Sensors - Superconducting and Solid-State Platforms
 
@@ -626,7 +611,7 @@
   QIS_Categories: Quantum Sensors - Optomechanical and Levitated Platforms
 
 - ID: 1811777
-  Document_Type: Review
+  Paper_Type: Review
   NUPA_Categories: Dark Matter - Particle-like Dark Matter; Dark Matter - Scalar Dark Matter
   QIS_Categories: Quantum Sensors - Optomechanical and Levitated Platforms
 
@@ -667,7 +652,7 @@
   QIS_Categories: Quantum Sensors - Optomechanical and Levitated Platforms
 
 - ID: 2050075
-  Document_Type: Whitepaper
+  Paper_Type: Whitepaper
   NUPA_Categories: Dark Matter - Particle-like Dark Matter
   QIS_Categories: Quantum Sensors - Superconducting and Solid-State Platforms
 
@@ -710,7 +695,9 @@
 - ID: 3100189
   NUPA_Categories: Dark Matter - Particle-like Dark Matter
   QIS_Categories: Quantum Sensors - Superconducting and Solid-State Platforms
-# ----- Dark Matter - Scalar Dark Matter (46 primary) -----
+
+# ----- Dark Matter - Scalar Dark Matter (47 primary) -----
+
 
 - ID: 1890344
   NUPA_Categories: Dark Matter - Scalar Dark Matter
@@ -733,7 +720,7 @@
   QIS_Categories: Quantum Sensors - Atomic, Molecular, and Nuclear Platforms
 
 - ID: 1628828
-  Document_Type: Review
+  Paper_Type: Review
   NUPA_Categories: Dark Matter - Scalar Dark Matter; Dark Matter - Axion-Photon Coupling; Dark Matter - Axion-Nucleon and EDM Coupling; New Forces and Precision Tests - Exotic Spin-Dependent Interactions
   QIS_Categories: Quantum Sensors - Atomic, Molecular, and Nuclear Platforms
 
@@ -778,12 +765,12 @@
   QIS_Categories: Quantum Sensors - Atomic, Molecular, and Nuclear Platforms; Quantum Sensors - Optical and Photonic Platforms; Quantum Metrology - Entanglement-Enhanced Sensing
 
 - ID: 2059892
-  Document_Type: Whitepaper
+  Paper_Type: Whitepaper
   NUPA_Categories: Dark Matter - Scalar Dark Matter; Dark Matter - Axion-Photon Coupling; Dark Matter - Axion-Nucleon and EDM Coupling
   QIS_Categories: Quantum Sensors - Atomic, Molecular, and Nuclear Platforms; Quantum Sensors - Optical and Photonic Platforms; Quantum Sensors - Optomechanical and Levitated Platforms; Quantum Sensors - Superconducting and Solid-State Platforms
 
 - ID: 2060734
-  Document_Type: Whitepaper
+  Paper_Type: Whitepaper
   NUPA_Categories: Dark Matter - Scalar Dark Matter; Dark Matter - Particle-like Dark Matter
   QIS_Categories: Quantum Sensors - Atomic, Molecular, and Nuclear Platforms; Quantum Sensors - Optical and Photonic Platforms; Quantum Sensors - Optomechanical and Levitated Platforms; Quantum Sensors - Superconducting and Solid-State Platforms; Quantum Metrology - Entanglement-Enhanced Sensing
 
@@ -804,7 +791,7 @@
   QIS_Categories: Quantum Sensors - Atomic, Molecular, and Nuclear Platforms
 
 - ID: 2789872
-  Document_Type: Review
+  Paper_Type: Review
   NUPA_Categories: Dark Matter - Scalar Dark Matter; New Forces and Precision Tests - Exotic Spin-Dependent Interactions
   QIS_Categories: Quantum Sensors - Atomic, Molecular, and Nuclear Platforms; Quantum Metrology - Entanglement-Enhanced Sensing
 
@@ -899,6 +886,7 @@
 - ID: 3204608
   NUPA_Categories: Dark Matter - Scalar Dark Matter
   QIS_Categories: Quantum Sensors - Superconducting and Solid-State Platforms
+
 # ----- Data Analysis - Anomaly Detection (9 primary) -----
 
 - ID: 1850530
@@ -918,7 +906,6 @@
   QIS_Categories: Quantum Machine Learning - Unsupervised and Generative Methods
 
 - ID: 2655301
-  Document_Type: Proceedings
   NUPA_Categories: Data Analysis - Anomaly Detection; Data Analysis - Event Generation and Simulation
   QIS_Categories: Quantum Machine Learning - Unsupervised and Generative Methods
 
@@ -937,7 +924,9 @@
 - ID: 2097616
   NUPA_Categories: Data Analysis - Anomaly Detection
   QIS_Categories: Quantum Machine Learning - Variational Quantum Algorithms
+
 # ----- Data Analysis - Event Classification (31 primary) -----
+
 
 - ID: 3070428
   NUPA_Categories: Data Analysis - Event Classification
@@ -976,17 +965,15 @@
   QIS_Categories: Quantum Machine Learning - Supervised Methods
 
 - ID: 1858884
-  Document_Type: Proceedings
   NUPA_Categories: Data Analysis - Event Classification
   QIS_Categories: Quantum Machine Learning - Supervised Methods; Quantum Machine Learning - Variational Quantum Algorithms
 
 - ID: 2085107
-  Document_Type: Review
+  Paper_Type: Review
   NUPA_Categories: Data Analysis - Event Classification
   QIS_Categories: Quantum Machine Learning - Supervised Methods; Quantum Machine Learning - Variational Quantum Algorithms
 
 - ID: 2633485
-  Document_Type: Proceedings
   NUPA_Categories: Data Analysis - Event Classification
   QIS_Categories: Quantum Machine Learning - Supervised Methods
 
@@ -1003,7 +990,6 @@
   QIS_Categories: Quantum Machine Learning - Supervised Methods
 
 - ID: 3065063
-  Document_Type: Proceedings
   NUPA_Categories: Data Analysis - Event Classification
   QIS_Categories: Quantum Machine Learning - Supervised Methods
 
@@ -1016,7 +1002,6 @@
   QIS_Categories: Quantum Machine Learning - Supervised Methods
 
 - ID: 2633533
-  Document_Type: Proceedings
   NUPA_Categories: Data Analysis - Event Classification
   QIS_Categories: Quantum Machine Learning - Unsupervised and Generative Methods
 
@@ -1067,7 +1052,9 @@
 - ID: 3196718
   NUPA_Categories: Data Analysis - Event Classification
   QIS_Categories: Quantum Machine Learning - Variational Quantum Algorithms
+
 # ----- Data Analysis - Event Generation and Simulation (29 primary) -----
+
 
 - ID: 1843063
   NUPA_Categories: Data Analysis - Event Generation and Simulation
@@ -1126,7 +1113,6 @@
   QIS_Categories: Quantum Machine Learning - Supervised Methods; Quantum Algorithms - Ground States and Eigenvalue Estimation; Quantum Algorithms - Hamiltonian Simulation and Time Evolution; Quantum Machine Learning - Variational Quantum Algorithms
 
 - ID: 1854278
-  Document_Type: Proceedings
   NUPA_Categories: Data Analysis - Event Generation and Simulation
   QIS_Categories: Quantum Machine Learning - Unsupervised and Generative Methods; Quantum Machine Learning - Variational Quantum Algorithms
 
@@ -1139,7 +1125,6 @@
   QIS_Categories: Quantum Machine Learning - Unsupervised and Generative Methods
 
 - ID: 2089215
-  Document_Type: Proceedings
   NUPA_Categories: Data Analysis - Event Generation and Simulation
   QIS_Categories: Quantum Machine Learning - Unsupervised and Generative Methods
 
@@ -1148,7 +1133,6 @@
   QIS_Categories: Quantum Machine Learning - Unsupervised and Generative Methods
 
 - ID: 2659249
-  Document_Type: Proceedings
   NUPA_Categories: Data Analysis - Event Generation and Simulation
   QIS_Categories: Quantum Machine Learning - Unsupervised and Generative Methods
 
@@ -1157,7 +1141,6 @@
   QIS_Categories: Quantum Machine Learning - Unsupervised and Generative Methods
 
 - ID: 2820252
-  Document_Type: Proceedings
   NUPA_Categories: Data Analysis - Event Generation and Simulation; Experimental Techniques - Detector Technologies; Data Analysis - Event Classification
   QIS_Categories: Quantum Machine Learning - Unsupervised and Generative Methods; Quantum Machine Learning - Supervised Methods; Quantum Algorithms - Linear Systems and Matrix Inversion
 
@@ -1186,10 +1169,11 @@
   QIS_Categories: Quantum Machine Learning - Variational Quantum Algorithms
 
 - ID: 2894383
-  Document_Type: Proceedings
   NUPA_Categories: Data Analysis - Event Generation and Simulation
   QIS_Categories: Quantum Machine Learning - Variational Quantum Algorithms
+
 # ----- Data Analysis - Jet Reconstruction (22 primary) -----
+
 
 - ID: 1838791
   NUPA_Categories: Data Analysis - Jet Reconstruction
@@ -1200,7 +1184,7 @@
   QIS_Categories: Computing Paradigms - Quantum Annealing
 
 - ID: 2054075
-  Document_Type: Whitepaper
+  Paper_Type: Whitepaper
   NUPA_Categories: Data Analysis - Jet Reconstruction; Data Analysis - Track Reconstruction; Data Analysis - Event Classification; Data Analysis - Event Generation and Simulation; Experimental Techniques - Detector Technologies
   QIS_Categories: Computing Paradigms - Quantum Annealing; Quantum Machine Learning - Variational Quantum Algorithms; Quantum Machine Learning - Supervised Methods; Quantum Machine Learning - Unsupervised and Generative Methods
 
@@ -1225,12 +1209,11 @@
   QIS_Categories: Quantum Algorithms - Amplitude Amplification and Estimation; Computing Paradigms - Quantum Annealing
 
 - ID: 2153724
-  Document_Type: Proceedings
   NUPA_Categories: Data Analysis - Jet Reconstruction
   QIS_Categories: Quantum Algorithms - Amplitude Amplification and Estimation
 
 - ID: 2752456
-  Document_Type: Review; Proceedings
+  Paper_Type: Review
   NUPA_Categories: Data Analysis - Jet Reconstruction; Data Analysis - Event Generation and Simulation
   QIS_Categories: Quantum Algorithms - Amplitude Amplification and Estimation; Quantum Machine Learning - Variational Quantum Algorithms
 
@@ -1271,7 +1254,6 @@
   QIS_Categories: Quantum Machine Learning - Variational Quantum Algorithms
 
 - ID: 2603222
-  Document_Type: Proceedings
   NUPA_Categories: Data Analysis - Jet Reconstruction
   QIS_Categories: Quantum Machine Learning - Variational Quantum Algorithms
 
@@ -1282,7 +1264,9 @@
 - ID: 3200140
   NUPA_Categories: Data Analysis - Jet Reconstruction
   QIS_Categories: Quantum Machine Learning - Variational Quantum Algorithms
+
 # ----- Data Analysis - Track Reconstruction (26 primary) -----
+
 
 - ID: 1721425
   NUPA_Categories: Data Analysis - Track Reconstruction
@@ -1297,12 +1281,10 @@
   QIS_Categories: Computing Paradigms - Quantum Annealing
 
 - ID: 1785920
-  Document_Type: Proceedings
   NUPA_Categories: Data Analysis - Track Reconstruction
   QIS_Categories: Computing Paradigms - Quantum Annealing
 
 - ID: 1832272
-  Document_Type: Proceedings
   NUPA_Categories: Data Analysis - Track Reconstruction
   QIS_Categories: Computing Paradigms - Quantum Annealing
 
@@ -1315,7 +1297,6 @@
   QIS_Categories: Computing Paradigms - Quantum Annealing
 
 - ID: 1718110
-  Document_Type: Proceedings
   NUPA_Categories: Data Analysis - Track Reconstruction
   QIS_Categories: Quantum Algorithms - Amplitude Amplification and Estimation
 
@@ -1332,7 +1313,6 @@
   QIS_Categories: Quantum Algorithms - Linear Systems and Matrix Inversion
 
 - ID: 1806878
-  Document_Type: Proceedings
   NUPA_Categories: Data Analysis - Track Reconstruction
   QIS_Categories: Quantum Machine Learning - Supervised Methods
 
@@ -1341,7 +1321,6 @@
   QIS_Categories: Quantum Machine Learning - Supervised Methods
 
 - ID: 1834498
-  Document_Type: Proceedings
   NUPA_Categories: Data Analysis - Track Reconstruction
   QIS_Categories: Quantum Machine Learning - Supervised Methods
 
@@ -1350,12 +1329,10 @@
   QIS_Categories: Quantum Machine Learning - Supervised Methods
 
 - ID: 2785199
-  Document_Type: Proceedings
   NUPA_Categories: Data Analysis - Track Reconstruction
   QIS_Categories: Quantum Machine Learning - Supervised Methods
 
 - ID: 2866934
-  Document_Type: Proceedings
   NUPA_Categories: Data Analysis - Track Reconstruction
   QIS_Categories: Quantum Machine Learning - Supervised Methods
 
@@ -1384,19 +1361,19 @@
   QIS_Categories: Quantum Machine Learning - Variational Quantum Algorithms
 
 - ID: 2032051
-  Document_Type: Proceedings
   NUPA_Categories: Data Analysis - Track Reconstruction
   QIS_Categories: Quantum Machine Learning - Variational Quantum Algorithms
 
 - ID: 2645184
-  Document_Type: Proceedings
   NUPA_Categories: Data Analysis - Track Reconstruction
   QIS_Categories: Quantum Machine Learning - Variational Quantum Algorithms
 
 - ID: 2711221
   NUPA_Categories: Data Analysis - Track Reconstruction
   QIS_Categories: Quantum Machine Learning - Variational Quantum Algorithms
+
 # ----- Experimental Techniques - Accelerator Physics and Controls (4 primary) -----
+
 
 - ID: 2155336
   NUPA_Categories: Experimental Techniques - Accelerator Physics and Controls
@@ -1407,14 +1384,15 @@
   QIS_Categories: Quantum Machine Learning - Reinforcement Learning; Computing Paradigms - Quantum Annealing
 
 - ID: 2784879
-  Document_Type: Proceedings
   NUPA_Categories: Experimental Techniques - Accelerator Physics and Controls
   QIS_Categories: Quantum Machine Learning - Variational Quantum Algorithms
 
 - ID: 2931678
   NUPA_Categories: Experimental Techniques - Accelerator Physics and Controls
   QIS_Categories: Quantum Machine Learning - Variational Quantum Algorithms
+
 # ----- Experimental Techniques - Detector Technologies (12 primary) -----
+
 
 - ID: 1750596
   NUPA_Categories: Experimental Techniques - Detector Technologies
@@ -1425,12 +1403,12 @@
   QIS_Categories: Quantum Algorithms - Error Mitigation and Noise Robustness
 
 - ID: 1724800
-  Document_Type: Whitepaper
+  Paper_Type: Whitepaper
   NUPA_Categories: Experimental Techniques - Detector Technologies; Field Theory - Effective Field Theories; Lattice Field Theories - Gauge Theories; Nuclear Many-Body Physics - Nuclear Structure; Nuclear Many-Body Physics - Nuclear Reactions and Response; Quantum Chromodynamics - Hadron Structure and Deep Inelastic Scattering
   QIS_Categories: Quantum Algorithms - Hamiltonian Simulation and Time Evolution; Quantum Machine Learning - Variational Quantum Algorithms; Quantum Information - Entanglement and Bell Nonlocality; Quantum Sensors - Atomic, Molecular, and Nuclear Platforms; Quantum Sensors - Optical and Photonic Platforms; Quantum Sensors - Optomechanical and Levitated Platforms; Computing Paradigms - Analog Quantum Simulators; Quantum Sensors - Superconducting and Solid-State Platforms
 
 - ID: 2637668
-  Document_Type: Whitepaper
+  Paper_Type: Whitepaper
   NUPA_Categories: Experimental Techniques - Detector Technologies; Lattice Field Theories - Gauge Theories; Nuclear Many-Body Physics - Nuclear Structure; Nuclear Many-Body Physics - Nuclear Reactions and Response; Neutrino Physics - Oscillations and Propagation; Quantum Chromodynamics - Hadron Structure and Deep Inelastic Scattering
   QIS_Categories: Quantum Algorithms - Hamiltonian Simulation and Time Evolution; Quantum Machine Learning - Variational Quantum Algorithms; Quantum Sensors - Atomic, Molecular, and Nuclear Platforms; Quantum Sensors - Optical and Photonic Platforms; Quantum Sensors - Optomechanical and Levitated Platforms; Quantum Sensors - Superconducting and Solid-State Platforms; Quantum Information - Entanglement and Bell Nonlocality
 
@@ -1443,7 +1421,7 @@
   QIS_Categories: Quantum Sensors - Atomic, Molecular, and Nuclear Platforms; Quantum Sensors - Optical and Photonic Platforms
 
 - ID: 2661224
-  Document_Type: Review
+  Paper_Type: Review
   NUPA_Categories: Experimental Techniques - Detector Technologies; Dark Matter - Scalar Dark Matter
   QIS_Categories: Quantum Sensors - Atomic, Molecular, and Nuclear Platforms; Quantum Sensors - Optical and Photonic Platforms; Quantum Sensors - Optomechanical and Levitated Platforms; Quantum Sensors - Superconducting and Solid-State Platforms
 
@@ -1466,7 +1444,9 @@
 - ID: 2924179
   NUPA_Categories: Experimental Techniques - Detector Technologies
   QIS_Categories: Quantum Sensors - Superconducting and Solid-State Platforms
+
 # ----- Field Theory - Cosmological Backgrounds (8 primary) -----
+
 
 - ID: 652868
   NUPA_Categories: Field Theory - Cosmological Backgrounds
@@ -1499,7 +1479,9 @@
 - ID: 2849542
   NUPA_Categories: Field Theory - Cosmological Backgrounds
   QIS_Categories: Quantum Information - Open Quantum Systems and Decoherence; Quantum Metrology - Entanglement-Enhanced Sensing
+
 # ----- Field Theory - Effective Field Theories (10 primary) -----
+
 
 - ID: 1765494
   NUPA_Categories: Field Theory - Effective Field Theories
@@ -1540,7 +1522,9 @@
 - ID: 1811389
   NUPA_Categories: Field Theory - Effective Field Theories
   QIS_Categories: Quantum Machine Learning - Variational Quantum Algorithms; Quantum Algorithms - State Preparation and Field Digitization
+
 # ----- Field Theory - Scattering Amplitudes (14 primary) -----
+
 
 - ID: 744118
   NUPA_Categories: Field Theory - Scattering Amplitudes
@@ -1597,7 +1581,9 @@
 - ID: 2897094
   NUPA_Categories: Field Theory - Scattering Amplitudes
   QIS_Categories: Quantum Information - State Tomography and Characterization; Quantum Information - Magic and Nonstabilizerness
+
 # ----- Gravitation - Gravitational Wave Detection (41 primary) -----
+
 
 - ID: 636214
   NUPA_Categories: Gravitation - Gravitational Wave Detection
@@ -1620,7 +1606,6 @@
   QIS_Categories: Quantum Sensors - Atomic, Molecular, and Nuclear Platforms
 
 - ID: 1706164
-  Document_Type: Proceedings
   NUPA_Categories: Gravitation - Gravitational Wave Detection; Dark Matter - Scalar Dark Matter
   QIS_Categories: Quantum Sensors - Atomic, Molecular, and Nuclear Platforms
 
@@ -1763,7 +1748,9 @@
 - ID: 2814427
   NUPA_Categories: Gravitation - Gravitational Wave Detection
   QIS_Categories: Quantum Sensors - Optomechanical and Levitated Platforms; Quantum Metrology - Entanglement-Enhanced Sensing
+
 # ----- Lattice Field Theories - Gauge Theories (106 primary) -----
+
 
 - ID: 927312
   NUPA_Categories: Lattice Field Theories - Gauge Theories
@@ -2188,7 +2175,9 @@
 - ID: 2069448
   NUPA_Categories: Lattice Field Theories - Gauge Theories
   QIS_Categories: Quantum Sensors - Optical and Photonic Platforms
+
 # ----- Lattice Field Theories - Scalar and Fermion Theories (22 primary) -----
+
 
 - ID: 1082274
   NUPA_Categories: Lattice Field Theories - Scalar and Fermion Theories; Field Theory - Effective Field Theories; Field Theory - Scattering Amplitudes
@@ -2277,7 +2266,9 @@
 - ID: 3186837
   NUPA_Categories: Lattice Field Theories - Scalar and Fermion Theories
   QIS_Categories: Quantum Algorithms - State Preparation and Field Digitization
+
 # ----- Lattice Field Theories - Schwinger Model (45 primary) -----
+
 
 - ID: 1237921
   NUPA_Categories: Lattice Field Theories - Schwinger Model; Lattice Field Theories - Gauge Theories
@@ -2458,7 +2449,9 @@
 - ID: 3062810
   NUPA_Categories: Lattice Field Theories - Schwinger Model
   QIS_Categories: Quantum Machine Learning - Variational Quantum Algorithms; Quantum Algorithms - State Preparation and Field Digitization
+
 # ----- Neutrino Physics - Collective Flavor Dynamics (42 primary) -----
+
 
 - ID: 2793024
   NUPA_Categories: Neutrino Physics - Collective Flavor Dynamics
@@ -2627,7 +2620,9 @@
 - ID: 2964571
   NUPA_Categories: Neutrino Physics - Collective Flavor Dynamics; Dark Matter - Axion-Nucleon and EDM Coupling; Dark Matter - Dark Photons and Hidden Sectors
   QIS_Categories: Quantum Sensors - Atomic, Molecular, and Nuclear Platforms; Quantum Metrology - Entanglement-Enhanced Sensing
+
 # ----- Neutrino Physics - Mass and Double Beta Decay (6 primary) -----
+
 
 - ID: 1121307
   NUPA_Categories: Neutrino Physics - Mass and Double Beta Decay; Experimental Techniques - Detector Technologies
@@ -2652,7 +2647,9 @@
 - ID: 2752288
   NUPA_Categories: Neutrino Physics - Mass and Double Beta Decay; Experimental Techniques - Detector Technologies
   QIS_Categories: Quantum Sensors - Superconducting and Solid-State Platforms
+
 # ----- Neutrino Physics - Oscillations and Propagation (87 primary) -----
+
 
 - ID: 3003976
   NUPA_Categories: Neutrino Physics - Oscillations and Propagation
@@ -3001,7 +2998,9 @@
 - ID: 2111184
   NUPA_Categories: Neutrino Physics - Oscillations and Propagation
   QIS_Categories: Quantum Sensors - Optomechanical and Levitated Platforms
+
 # ----- New Forces and Precision Tests - Exotic Spin-Dependent Interactions (14 primary) -----
+
 
 - ID: 1757421
   NUPA_Categories: New Forces and Precision Tests - Exotic Spin-Dependent Interactions; Dark Matter - Axion-Photon Coupling
@@ -3028,7 +3027,7 @@
   QIS_Categories: Quantum Sensors - Atomic, Molecular, and Nuclear Platforms
 
 - ID: 2855970
-  Document_Type: Review
+  Paper_Type: Review
   NUPA_Categories: New Forces and Precision Tests - Exotic Spin-Dependent Interactions; Dark Matter - Scalar Dark Matter; Dark Matter - Axion-Nucleon and EDM Coupling
   QIS_Categories: Quantum Sensors - Atomic, Molecular, and Nuclear Platforms; Quantum Sensors - Superconducting and Solid-State Platforms
 
@@ -3059,7 +3058,13 @@
 - ID: 3085462
   NUPA_Categories: New Forces and Precision Tests - Exotic Spin-Dependent Interactions; Dark Matter - Axion-Electron Coupling; Dark Matter - Axion-Nucleon and EDM Coupling
   QIS_Categories: Quantum Sensors - Superconducting and Solid-State Platforms
-# ----- New Forces and Precision Tests - Tests of Gravity and Equivalence Principle (5 primary) -----
+
+# ----- New Forces and Precision Tests - Tests of Gravity and Equivalence Principle (6 primary) -----
+
+
+- ID: 3040590
+  NUPA_Categories: New Forces and Precision Tests - Tests of Gravity and Equivalence Principle
+  QIS_Categories: Computing Paradigms - Continuous Variable and Photonic Quantum Computing; Quantum Information - Entanglement and Bell Nonlocality
 
 - ID: 1916222
   NUPA_Categories: New Forces and Precision Tests - Tests of Gravity and Equivalence Principle
@@ -3080,49 +3085,15 @@
 - ID: 3212132
   NUPA_Categories: New Forces and Precision Tests - Tests of Gravity and Equivalence Principle
   QIS_Categories: Quantum Sensors - Optomechanical and Levitated Platforms; Quantum Information - Entanglement and Bell Nonlocality
-# ----- Nuclear Many-Body Physics - Nuclear Clocks and Isomers (14 primary) -----
 
-- ID: 715474
-  NUPA_Categories: Nuclear Many-Body Physics - Nuclear Clocks and Isomers
-  QIS_Categories: Quantum Sensors - Atomic, Molecular, and Nuclear Platforms
+# ----- Nuclear Many-Body Physics - Nuclear Clocks and Isomers (3 primary) -----
 
-- ID: 729318
-  NUPA_Categories: Nuclear Many-Body Physics - Nuclear Clocks and Isomers
-  QIS_Categories: Quantum Sensors - Atomic, Molecular, and Nuclear Platforms
-
-- ID: 757475
-  NUPA_Categories: Nuclear Many-Body Physics - Nuclear Clocks and Isomers
-  QIS_Categories: Quantum Sensors - Atomic, Molecular, and Nuclear Platforms
-
-- ID: 799263
-  NUPA_Categories: Nuclear Many-Body Physics - Nuclear Clocks and Isomers
-  QIS_Categories: Quantum Sensors - Atomic, Molecular, and Nuclear Platforms
 
 - ID: 1112101
   NUPA_Categories: Nuclear Many-Body Physics - Nuclear Clocks and Isomers
   QIS_Categories: Quantum Sensors - Atomic, Molecular, and Nuclear Platforms; Quantum Metrology - Entanglement-Enhanced Sensing
 
-- ID: 3005020
-  NUPA_Categories: Nuclear Many-Body Physics - Nuclear Clocks and Isomers
-  QIS_Categories: Quantum Sensors - Atomic, Molecular, and Nuclear Platforms
-
-- ID: 1804518
-  NUPA_Categories: Nuclear Many-Body Physics - Nuclear Clocks and Isomers
-  QIS_Categories: Quantum Sensors - Atomic, Molecular, and Nuclear Platforms
-
 - ID: 2059432
-  NUPA_Categories: Nuclear Many-Body Physics - Nuclear Clocks and Isomers
-  QIS_Categories: Quantum Sensors - Atomic, Molecular, and Nuclear Platforms
-
-- ID: 2700380
-  NUPA_Categories: Nuclear Many-Body Physics - Nuclear Clocks and Isomers
-  QIS_Categories: Quantum Sensors - Atomic, Molecular, and Nuclear Platforms
-
-- ID: 2810684
-  NUPA_Categories: Nuclear Many-Body Physics - Nuclear Clocks and Isomers
-  QIS_Categories: Quantum Sensors - Atomic, Molecular, and Nuclear Platforms
-
-- ID: 2829876
   NUPA_Categories: Nuclear Many-Body Physics - Nuclear Clocks and Isomers
   QIS_Categories: Quantum Sensors - Atomic, Molecular, and Nuclear Platforms
 
@@ -3130,14 +3101,8 @@
   NUPA_Categories: Nuclear Many-Body Physics - Nuclear Clocks and Isomers
   QIS_Categories: Quantum Sensors - Atomic, Molecular, and Nuclear Platforms
 
-- ID: 2862623
-  NUPA_Categories: Nuclear Many-Body Physics - Nuclear Clocks and Isomers
-  QIS_Categories: Quantum Sensors - Atomic, Molecular, and Nuclear Platforms
+# ----- Nuclear Many-Body Physics - Nuclear Reactions and Response (19 primary) -----
 
-- ID: 2921397
-  NUPA_Categories: Nuclear Many-Body Physics - Nuclear Clocks and Isomers; Dark Matter - Scalar Dark Matter
-  QIS_Categories: Quantum Sensors - Atomic, Molecular, and Nuclear Platforms
-# ----- Nuclear Many-Body Physics - Nuclear Reactions and Response (20 primary) -----
 
 - ID: 1665838
   NUPA_Categories: Nuclear Many-Body Physics - Nuclear Reactions and Response
@@ -3203,10 +3168,6 @@
   NUPA_Categories: Nuclear Many-Body Physics - Nuclear Reactions and Response
   QIS_Categories: Quantum Algorithms - Hamiltonian Simulation and Time Evolution
 
-- ID: 3131085
-  NUPA_Categories: Nuclear Many-Body Physics - Nuclear Reactions and Response
-  QIS_Categories: Quantum Algorithms - Hamiltonian Simulation and Time Evolution
-
 - ID: 2730558
   NUPA_Categories: Nuclear Many-Body Physics - Nuclear Reactions and Response
   QIS_Categories: Quantum Information - Entanglement and Bell Nonlocality
@@ -3218,7 +3179,9 @@
 - ID: 2912609
   NUPA_Categories: Nuclear Many-Body Physics - Nuclear Reactions and Response
   QIS_Categories: Quantum Machine Learning - Variational Quantum Algorithms
+
 # ----- Nuclear Many-Body Physics - Nuclear Structure (43 primary) -----
+
 
 - ID: 3068434
   NUPA_Categories: Nuclear Many-Body Physics - Nuclear Structure
@@ -3391,7 +3354,9 @@
 - ID: 3186373
   NUPA_Categories: Nuclear Many-Body Physics - Nuclear Structure
   QIS_Categories: Quantum Machine Learning - Variational Quantum Algorithms; Quantum Algorithms - Ground States and Eigenvalue Estimation
+
 # ----- Particle Scattering and Decays - Charged Leptons (6 primary) -----
+
 
 - ID: 2698185
   NUPA_Categories: Particle Scattering and Decays - Charged Leptons; Particle Scattering and Decays - W, Z and Higgs Bosons
@@ -3402,7 +3367,6 @@
   QIS_Categories: Quantum Information - Entanglement and Bell Nonlocality
 
 - ID: 2835996
-  Document_Type: Proceedings
   NUPA_Categories: Particle Scattering and Decays - Charged Leptons
   QIS_Categories: Quantum Information - Entanglement and Bell Nonlocality
 
@@ -3417,7 +3381,9 @@
 - ID: 3129062
   NUPA_Categories: Particle Scattering and Decays - Charged Leptons
   QIS_Categories: Quantum Information - State Tomography and Characterization
+
 # ----- Particle Scattering and Decays - General Methods (19 primary) -----
+
 
 - ID: 729754
   NUPA_Categories: Particle Scattering and Decays - General Methods
@@ -3452,7 +3418,7 @@
   QIS_Categories: Quantum Information - Entanglement and Bell Nonlocality
 
 - ID: 2757981
-  Document_Type: Review
+  Paper_Type: Review
   NUPA_Categories: Particle Scattering and Decays - General Methods; Particle Scattering and Decays - W, Z and Higgs Bosons; Particle Scattering and Decays - Top Quarks; Particle Scattering and Decays - Hadrons; Particle Scattering and Decays - Charged Leptons; Particle Scattering and Decays - Photons; Field Theory - Effective Field Theories
   QIS_Categories: Quantum Information - Entanglement and Bell Nonlocality; Quantum Information - State Tomography and Characterization
 
@@ -3465,7 +3431,7 @@
   QIS_Categories: Quantum Information - Entanglement and Bell Nonlocality
 
 - ID: 2906652
-  Document_Type: Whitepaper
+  Paper_Type: Whitepaper
   NUPA_Categories: Particle Scattering and Decays - General Methods; Particle Scattering and Decays - Top Quarks; Particle Scattering and Decays - W, Z and Higgs Bosons; Particle Scattering and Decays - Hadrons; Particle Scattering and Decays - Charged Leptons
   QIS_Categories: Quantum Information - Entanglement and Bell Nonlocality
 
@@ -3490,14 +3456,15 @@
   QIS_Categories: Quantum Information - State Tomography and Characterization
 
 - ID: 1759762
-  Document_Type: Proceedings
   NUPA_Categories: Particle Scattering and Decays - General Methods; Particle Scattering and Decays - W, Z and Higgs Bosons
   QIS_Categories: Quantum Information - State Tomography and Characterization; Quantum Information - Entanglement and Bell Nonlocality
 
 - ID: 3089176
   NUPA_Categories: Particle Scattering and Decays - General Methods; Particle Scattering and Decays - Photons
   QIS_Categories: Quantum Information - State Tomography and Characterization; Quantum Information - Entanglement and Bell Nonlocality
+
 # ----- Particle Scattering and Decays - Hadrons (32 primary) -----
+
 
 - ID: 2938333
   NUPA_Categories: Particle Scattering and Decays - Hadrons
@@ -3556,7 +3523,6 @@
   QIS_Categories: Quantum Information - Entanglement and Bell Nonlocality
 
 - ID: 799067
-  Document_Type: Proceedings
   NUPA_Categories: Particle Scattering and Decays - Hadrons
   QIS_Categories: Quantum Information - Entanglement and Bell Nonlocality
 
@@ -3581,7 +3547,7 @@
   QIS_Categories: Quantum Information - Entanglement and Bell Nonlocality
 
 - ID: 2683226
-  Document_Type: Review
+  Paper_Type: Review
   NUPA_Categories: Particle Scattering and Decays - Hadrons
   QIS_Categories: Quantum Information - Entanglement and Bell Nonlocality; Quantum Information - Open Quantum Systems and Decoherence
 
@@ -3618,7 +3584,7 @@
   QIS_Categories: Quantum Information - Entanglement and Bell Nonlocality
 
 - ID: 3130938
-  Document_Type: Review
+  Paper_Type: Review
   NUPA_Categories: Particle Scattering and Decays - Hadrons
   QIS_Categories: Quantum Information - Entanglement and Bell Nonlocality
 
@@ -3629,7 +3595,9 @@
 - ID: 3200050
   NUPA_Categories: Particle Scattering and Decays - Hadrons
   QIS_Categories: Quantum Information - Entanglement and Bell Nonlocality; Quantum Information - State Tomography and Characterization
+
 # ----- Particle Scattering and Decays - Photons (10 primary) -----
+
 
 - ID: 2660572
   NUPA_Categories: Particle Scattering and Decays - Photons; Particle Scattering and Decays - Charged Leptons
@@ -3670,7 +3638,9 @@
 - ID: 3179608
   NUPA_Categories: Particle Scattering and Decays - Photons
   QIS_Categories: Quantum Information - State Tomography and Characterization
+
 # ----- Particle Scattering and Decays - Top Quarks (29 primary) -----
+
 
 - ID: 2828215
   NUPA_Categories: Particle Scattering and Decays - Top Quarks
@@ -3753,7 +3723,6 @@
   QIS_Categories: Quantum Information - Entanglement and Bell Nonlocality; Quantum Information - Entanglement Entropy and Complexity
 
 - ID: 3098820
-  Document_Type: Proceedings
   NUPA_Categories: Particle Scattering and Decays - Top Quarks
   QIS_Categories: Quantum Information - Entanglement and Bell Nonlocality
 
@@ -3762,7 +3731,7 @@
   QIS_Categories: Quantum Information - Entanglement and Bell Nonlocality; Quantum Information - State Tomography and Characterization
 
 - ID: 3210446
-  Document_Type: Review
+  Paper_Type: Review
   NUPA_Categories: Particle Scattering and Decays - Top Quarks
   QIS_Categories: Quantum Information - Entanglement and Bell Nonlocality
 
@@ -3771,7 +3740,6 @@
   QIS_Categories: Quantum Information - Magic and Nonstabilizerness; Quantum Information - Entanglement and Bell Nonlocality
 
 - ID: 2857874
-  Document_Type: Proceedings
   NUPA_Categories: Particle Scattering and Decays - Top Quarks
   QIS_Categories: Quantum Information - Magic and Nonstabilizerness
 
@@ -3784,14 +3752,15 @@
   QIS_Categories: Quantum Information - Magic and Nonstabilizerness; Quantum Information - Entanglement and Bell Nonlocality; Quantum Information - State Tomography and Characterization
 
 - ID: 2177424
-  Document_Type: Proceedings
   NUPA_Categories: Particle Scattering and Decays - Top Quarks; Field Theory - Effective Field Theories
   QIS_Categories: Quantum Information - State Tomography and Characterization
 
 - ID: 3123246
   NUPA_Categories: Particle Scattering and Decays - Top Quarks
   QIS_Categories: Quantum Information - State Tomography and Characterization; Quantum Information - Entanglement and Bell Nonlocality
+
 # ----- Particle Scattering and Decays - W, Z and Higgs Bosons (27 primary) -----
+
 
 - ID: 1866945
   NUPA_Categories: Particle Scattering and Decays - W, Z and Higgs Bosons
@@ -3846,7 +3815,6 @@
   QIS_Categories: Quantum Information - Entanglement and Bell Nonlocality
 
 - ID: 2856261
-  Document_Type: Proceedings
   NUPA_Categories: Particle Scattering and Decays - W, Z and Higgs Bosons
   QIS_Categories: Quantum Information - Entanglement and Bell Nonlocality
 
@@ -3901,7 +3869,9 @@
 - ID: 3206029
   NUPA_Categories: Particle Scattering and Decays - W, Z and Higgs Bosons
   QIS_Categories: Quantum Information - State Tomography and Characterization
+
 # ----- Quantum Chromodynamics - Hadron Structure and Deep Inelastic Scattering (41 primary) -----
+
 
 - ID: 1779477
   NUPA_Categories: Quantum Chromodynamics - Hadron Structure and Deep Inelastic Scattering
@@ -4012,12 +3982,10 @@
   QIS_Categories: Quantum Information - Entanglement Entropy and Complexity
 
 - ID: 2763803
-  Document_Type: Proceedings
   NUPA_Categories: Quantum Chromodynamics - Hadron Structure and Deep Inelastic Scattering
   QIS_Categories: Quantum Information - Entanglement Entropy and Complexity
 
 - ID: 2773020
-  Document_Type: Proceedings
   NUPA_Categories: Quantum Chromodynamics - Hadron Structure and Deep Inelastic Scattering
   QIS_Categories: Quantum Information - Entanglement Entropy and Complexity
 
@@ -4054,7 +4022,6 @@
   QIS_Categories: Quantum Information - Entanglement and Bell Nonlocality
 
 - ID: 2805153
-  Document_Type: Proceedings
   NUPA_Categories: Quantum Chromodynamics - Hadron Structure and Deep Inelastic Scattering
   QIS_Categories: Quantum Information - Entanglement and Bell Nonlocality
 
@@ -4067,10 +4034,12 @@
   QIS_Categories: Quantum Information - Magic and Nonstabilizerness; Quantum Information - Entanglement and Bell Nonlocality
 
 - ID: 3150112
-  Document_Type: Review
+  Paper_Type: Review
   NUPA_Categories: Quantum Chromodynamics - Hadron Structure and Deep Inelastic Scattering; Nuclear Many-Body Physics - Nuclear Structure; Quantum Chromodynamics - Jets and Hadronization
   QIS_Categories: Quantum Information - Magic and Nonstabilizerness; Quantum Information - Entanglement and Bell Nonlocality; Quantum Information - Entanglement Entropy and Complexity; Quantum Algorithms - Hamiltonian Simulation and Time Evolution
+
 # ----- Quantum Chromodynamics - Heavy-Ion Collisions and Quark-Gluon Plasma (25 primary) -----
+
 
 - ID: 1821937
   NUPA_Categories: Quantum Chromodynamics - Heavy-Ion Collisions and Quark-Gluon Plasma; Quantum Chromodynamics - Jets and Hadronization
@@ -4081,7 +4050,6 @@
   QIS_Categories: Quantum Algorithms - Hamiltonian Simulation and Time Evolution
 
 - ID: 3063252
-  Document_Type: Proceedings
   NUPA_Categories: Quantum Chromodynamics - Heavy-Ion Collisions and Quark-Gluon Plasma
   QIS_Categories: Quantum Algorithms - Hamiltonian Simulation and Time Evolution
 
@@ -4122,7 +4090,6 @@
   QIS_Categories: Quantum Information - Open Quantum Systems and Decoherence
 
 - ID: 1779681
-  Document_Type: Proceedings
   NUPA_Categories: Quantum Chromodynamics - Heavy-Ion Collisions and Quark-Gluon Plasma
   QIS_Categories: Quantum Information - Open Quantum Systems and Decoherence
 
@@ -4131,7 +4098,7 @@
   QIS_Categories: Quantum Information - Open Quantum Systems and Decoherence
 
 - ID: 1818462
-  Document_Type: Review
+  Paper_Type: Review
   NUPA_Categories: Quantum Chromodynamics - Heavy-Ion Collisions and Quark-Gluon Plasma
   QIS_Categories: Quantum Information - Open Quantum Systems and Decoherence
 
@@ -4156,7 +4123,6 @@
   QIS_Categories: Quantum Information - Open Quantum Systems and Decoherence
 
 - ID: 2743601
-  Document_Type: Proceedings
   NUPA_Categories: Quantum Chromodynamics - Heavy-Ion Collisions and Quark-Gluon Plasma
   QIS_Categories: Quantum Information - Open Quantum Systems and Decoherence
 
@@ -4175,14 +4141,15 @@
 - ID: 3198197
   NUPA_Categories: Quantum Chromodynamics - Heavy-Ion Collisions and Quark-Gluon Plasma
   QIS_Categories: Quantum Information - Open Quantum Systems and Decoherence; Quantum Algorithms - Hamiltonian Simulation and Time Evolution
+
 # ----- Quantum Chromodynamics - Jets and Hadronization (16 primary) -----
+
 
 - ID: 2944584
   NUPA_Categories: Quantum Chromodynamics - Jets and Hadronization
   QIS_Categories: Computing Paradigms - Analog Quantum Simulators; Quantum Algorithms - Hamiltonian Simulation and Time Evolution
 
 - ID: 1939482
-  Document_Type: Proceedings
   NUPA_Categories: Quantum Chromodynamics - Jets and Hadronization; Quantum Chromodynamics - Heavy-Ion Collisions and Quark-Gluon Plasma
   QIS_Categories: Quantum Algorithms - Hamiltonian Simulation and Time Evolution
 
@@ -4199,12 +4166,10 @@
   QIS_Categories: Quantum Algorithms - Hamiltonian Simulation and Time Evolution
 
 - ID: 2678499
-  Document_Type: Proceedings
   NUPA_Categories: Quantum Chromodynamics - Jets and Hadronization; Quantum Chromodynamics - Heavy-Ion Collisions and Quark-Gluon Plasma
   QIS_Categories: Quantum Algorithms - Hamiltonian Simulation and Time Evolution
 
 - ID: 2845261
-  Document_Type: Proceedings
   NUPA_Categories: Quantum Chromodynamics - Jets and Hadronization
   QIS_Categories: Quantum Algorithms - Hamiltonian Simulation and Time Evolution
 

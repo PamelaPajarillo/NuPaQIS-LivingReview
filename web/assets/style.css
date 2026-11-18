@@ -1,0 +1,1700 @@
+/* Computer Modern — the typeface NUPAQIS.tex already compiles the PDF in, and
+   the same family MathJax renders the 199 inline expressions in, so prose and
+   math sit on one design. */
+
+@font-face {
+  font-family: "CMU Serif";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("https://cdn.jsdelivr.net/npm/computer-modern@0.1.2/fonts/cmu-serif-500-roman.woff2") format("woff2");
+}
+@font-face {
+  font-family: "CMU Serif";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("https://cdn.jsdelivr.net/npm/computer-modern@0.1.2/fonts/cmu-serif-500-italic.woff2") format("woff2");
+}
+@font-face {
+  font-family: "CMU Serif";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("https://cdn.jsdelivr.net/npm/computer-modern@0.1.2/fonts/cmu-serif-700-roman.woff2") format("woff2");
+}
+@font-face {
+  font-family: "CMU Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("https://cdn.jsdelivr.net/npm/computer-modern@0.1.2/fonts/cmu-sans-serif-500-roman.woff2") format("woff2");
+}
+@font-face {
+  font-family: "CMU Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("https://cdn.jsdelivr.net/npm/computer-modern@0.1.2/fonts/cmu-sans-serif-700-roman.woff2") format("woff2");
+}
+
+html {
+  font-size: clamp(16px, 0.45vw + 12.6px, 18px);
+}
+
+:root {
+  /* The repository's two colours, unchanged, used wherever they are a fill:
+     rules, chips, bars, the matrix, borders, and type on the dark sidebar. */
+  --nupa: #5BC0EB;
+  --qis: #9BC53D;
+
+  /* Both fail contrast as text on a light background (1.97:1 and 1.92:1
+     against the page, where 4.5:1 is the floor). These are the same hues at
+     60% value, which pass at 5.03:1 and 4.92:1, for text only. */
+  --nupa-ink: #5BC0EB;
+  --qis-ink: #9BC53D;
+
+  --nupa-tint: #17323F;
+  --qis-tint: #26331A;
+
+  /* Sidebar derived from the NuPa hue (198°) rather than a generic navy, so
+     #5BC0EB reads as the accent of the same family: 8.1:1 against it. */
+  --navy: #1F2A30;
+  --navy-deep: #151E23;
+  --navy-line: #31434C;
+  --sidebar-edge: #3A4A54;
+
+  --cream: #151C21;
+  --paper: #1C242A;
+  --ink: #E4E9EC;
+  --ink-soft: #9DABB4;
+  --rule: #2B3840;
+
+  color-scheme: dark;
+
+  --link: #CBD6DD;
+  --link-hover: #FFFFFF;
+  --accent: #CBD6DD;
+
+  --side-strong: #FFFFFF;
+  --side-text: #D6DDE2;
+  --side-dim: #A3B0B8;
+  --side-label: #8D9BA4;
+  --side-faint: #74838C;
+  --side-faintest: #63717A;
+
+  /* The matrix and the growth chart measure the whole review, not one axis,
+     so they are neutral; these invert with the theme. */
+  --plot-ink: 203, 214, 221;
+  --plot-strong-text: #151C21;
+
+  --sidebar-width: 20rem;
+  --radius: 3px;
+
+  --serif: "CMU Serif", "Latin Modern Roman", Georgia, "Times New Roman", serif;
+  --sans: "CMU Sans", "Latin Modern Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * { transition: none !important; }
+}
+
+body {
+  margin: 0;
+  background: var(--cream);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+a {
+  color: var(--link);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
+a:hover { color: var(--link-hover); }
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* ---------- sidebar ---------- */
+
+.sidebar {
+  position: fixed;
+  inset: 0 auto 0 0;
+  width: var(--sidebar-width);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  background: var(--navy);
+  color: var(--side-text);
+  padding: 2rem 1.5rem 3rem;
+  /* Invisible in light mode, where the cream canvas does the separating. */
+  border-right: 1px solid var(--sidebar-edge, transparent);
+}
+
+.masthead h1 {
+  font-family: var(--serif);
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1;
+  margin: 0;
+  color: var(--side-strong);
+  letter-spacing: -0.01em;
+}
+
+.masthead-sub {
+  font-family: var(--serif);
+  font-size: 1rem;
+  line-height: 1.35;
+  color: var(--side-dim);
+  margin: 0.6rem 0 0;
+}
+
+.masthead-meta {
+  font-size: 0.78rem;
+  color: var(--side-faint);
+  margin: 0.9rem 0 0;
+  padding-bottom: 1.4rem;
+  border-bottom: 1px solid var(--navy-line);
+}
+
+/* The wordmark carries the two axes it is made of. On the canvas it uses the
+   ink variants, which darken for light mode; the sidebar stays dark in both
+   themes, so there it keeps the full-strength colours. */
+.mark-nupa { color: var(--nupa-ink); }
+.mark-qis { color: var(--qis-ink); }
+.masthead h1 .mark-nupa { color: var(--nupa); }
+.masthead h1 .mark-qis { color: var(--qis); }
+
+/* The mark beside the wordmark. The 180px file is used and scaled down so it
+   stays crisp on a high-density screen. */
+.mark-logo {
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: -0.22em;
+  margin-right: 0.35em;
+  border-radius: 4px;
+}
+
+.control { margin-top: 1.5rem; }
+
+.control-label {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--side-label);
+  margin-bottom: 0.45rem;
+}
+
+.control-note {
+  font-size: 0.75rem;
+  line-height: 1.4;
+  color: var(--side-faint);
+  margin: 0.8rem 0 0;
+}
+
+#search {
+  width: 100%;
+  padding: 0.6rem 0.7rem;
+  background: var(--navy-deep);
+  border: 1px solid var(--navy-line);
+  border-radius: var(--radius);
+  color: var(--side-strong);
+  font: inherit;
+  font-size: 0.9rem;
+}
+
+#search::placeholder { color: var(--side-faint); }
+
+.segmented {
+  display: flex;
+  border: 1px solid var(--navy-line);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.segmented button {
+  flex: 1;
+  padding: 0.45rem 0.3rem;
+  background: transparent;
+  border: 0;
+  color: var(--side-dim);
+  font: inherit;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.segmented button.is-active {
+  background: var(--navy-deep);
+  color: var(--side-strong);
+  box-shadow: inset 0 -2px 0 var(--accent);
+}
+
+.facet {
+  margin-top: 1.6rem;
+  border-top: 1px solid var(--navy-line);
+  padding-top: 1.1rem;
+}
+
+.facet-head {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.35rem;
+}
+
+.facet-head h2 {
+  font-size: 0.72rem;
+  line-height: 1.25;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--side-label);
+  margin: 0;
+}
+
+.facet-bulk button,
+.facet-only {
+  background: none;
+  border: 0;
+  padding: 0;
+  color: var(--side-faint);
+  font: inherit;
+  font-size: 0.75rem;
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.facet-bulk button:hover,
+.facet-only:hover { color: var(--side-strong); }
+
+.facet-bulk { display: flex; gap: 0.6rem; }
+
+/* The heatmap areas are the layer above the topics, so they read as
+   headings: brighter, not italic, with a rule and air above them. */
+.facet-group-name {
+  display: flex;
+  align-items: baseline;
+  gap: 0.45rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--side-text);
+  margin: 0 0 0.45rem;
+  padding-top: 0.35rem;
+  border-top: 1px solid var(--navy-line);
+}
+
+.facet-group-name:first-of-type { margin-top: 0.4rem; border-top: 0; padding-top: 0; }
+
+.facet-group-name input { margin: 0; accent-color: var(--nupa); }
+.facet-group-name label { flex: 1; cursor: pointer; line-height: 1.3; }
+.facet-group-name:hover label { color: var(--side-strong); }
+.facet-group-name .facet-count { font-weight: 400; color: var(--side-dim); }
+
+/* Column labels, repeated above each area so they stay in view as you
+   scroll a long filter list. Tight to the rule below them. */
+.facet-legend {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin: 1.5rem 0 0.1rem;
+  font-size: 0.68rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--side-faintest);
+}
+
+.facet-legend:first-of-type { margin-top: 0.5rem; }
+
+.facet-row {
+  display: flex;
+  align-items: baseline;
+  gap: 0.45rem;
+  padding: 0.12rem 0;
+  font-size: 0.87rem;
+}
+
+/* Topics sit under their area's checkbox, so they indent to match. */
+.facet-row { padding-left: calc(13px + 0.45rem); }
+
+/* A facet with no areas has nothing to indent under. */
+.facet-body.is-flat .facet-row { padding-left: 0; }
+
+.facet-row input { margin: 0; accent-color: var(--nupa); }
+
+.facet-row label { flex: 1; cursor: pointer; line-height: 1.3; }
+
+.facet-row.is-empty label,
+.facet-row.is-empty .facet-count { opacity: 0.4; }
+
+.facet-count { color: var(--side-faint); font-size: 0.78rem; font-variant-numeric: tabular-nums; }
+
+.facet-row .facet-only { opacity: 0; }
+.facet-row:hover .facet-only,
+.facet-row:focus-within .facet-only { opacity: 1; }
+
+/* An open facet with 37 topics pushes the other three filters far below the
+   fold. Capping its height keeps every filter heading reachable, and the
+   heading stays put while you scroll inside it. */
+.facet-body {
+  max-height: 20rem;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding-right: 0.3rem;
+}
+
+.facet > summary {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: var(--navy);
+}
+
+.sidebar-foot {
+  margin-top: 2rem;
+  padding-top: 1.1rem;
+  border-top: 1px solid var(--navy-line);
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-size: 0.85rem;
+}
+
+.sidebar-foot a { color: var(--side-dim); text-decoration: none; }
+.sidebar-foot a:hover { color: var(--side-strong); text-decoration: underline; }
+
+/* ---------- canvas ---------- */
+
+.canvas {
+  margin-left: var(--sidebar-width);
+  padding: 3rem clamp(1.25rem, 4vw, 3.5rem) 6rem;
+  max-width: clamp(55rem, 95vw - 20rem, 110rem);
+}
+
+.hero { margin-bottom: 2.5rem; }
+
+.hero-title {
+  font-family: var(--serif);
+  font-size: clamp(1.9rem, 3.6vw, 2.9rem);
+  font-weight: 600;
+  line-height: 1.1;
+  margin: 0 0 0.7rem;
+  letter-spacing: -0.015em;
+  max-width: none;
+}
+
+.hero-lede {
+  font-family: var(--serif);
+  font-size: 1.08rem;
+  line-height: 1.6;
+  color: var(--ink-soft);
+  max-width: none;
+  margin: 0 0 1.6rem;
+}
+
+.matrix-wrap { overflow-x: auto; overflow-y: hidden; max-width: 100%; padding-bottom: 0.35rem; }
+
+.matrix {
+  margin-inline: auto;
+  border-collapse: separate;
+  border-spacing: 2px;
+  font-size: 0.78rem;
+}
+
+.matrix th {
+  font-weight: 500;
+  color: var(--ink-soft);
+  text-align: left;
+  padding: 0.3rem 0.5rem;
+  line-height: 1.2;
+}
+
+.matrix thead th {
+  vertical-align: bottom;
+  max-width: 6.5rem;
+  white-space: normal;
+}
+
+.matrix tbody th { max-width: 11rem; }
+
+.matrix td { padding: 0; }
+
+.matrix button {
+  width: 100%;
+  min-width: 3.1rem;
+  height: 2.1rem;
+  border: 0;
+  border-radius: 2px;
+  color: var(--ink);
+  font: inherit;
+  font-size: 0.78rem;
+  font-variant-numeric: tabular-nums;
+  cursor: pointer;
+}
+
+.matrix button[data-count="0"] { color: #b5b0a0; cursor: default; }
+
+.matrix button.is-selected {
+  outline: 2px solid var(--ink);
+  outline-offset: -2px;
+}
+
+/* The matrix names its axes through the headings: rows are physics, columns
+   are quantum information. The cells themselves stay neutral. */
+.matrix tbody th { color: var(--nupa-ink); }
+.matrix thead th { color: var(--qis-ink); }
+.matrix button { background: rgba(var(--plot-ink), var(--weight, 0)); }
+.matrix button.is-strong { color: var(--plot-strong-text); }
+
+.hero-note {
+  font-size: 0.82rem;
+  color: var(--ink-soft);
+  margin: 0.8rem 0 0;
+}
+
+/* ---------- toolbar ---------- */
+
+.toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.8rem 0;
+  margin-bottom: 1.2rem;
+  background: var(--cream);
+  border-bottom: 1px solid var(--rule);
+}
+
+.tally {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 1.05rem;
+}
+
+.tally strong { font-weight: 600; }
+
+.tool-actions { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+
+.tool-actions button {
+  padding: 0.35rem 0.7rem;
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  color: var(--ink);
+  font: inherit;
+  font-size: 0.82rem;
+  cursor: pointer;
+}
+
+.tool-actions button:hover { border-color: var(--accent); color: var(--link-hover); }
+.tool-actions button.is-quiet { background: transparent; border-color: transparent; color: var(--ink-soft); }
+
+/* ---------- listing ---------- */
+
+.section { margin-bottom: 2.6rem; }
+
+.section-head {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  border-bottom: 2px solid var(--nupa);
+  padding-bottom: 0.3rem;
+  margin-bottom: 0.4rem;
+}
+
+.section.axis-qis .section-head { border-bottom-color: var(--qis); }
+
+.section-head h2 {
+  font-family: var(--serif);
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin: 0;
+  line-height: 1.15;
+}
+
+.section-count {
+  color: var(--ink-soft);
+  font-size: 0.85rem;
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+  white-space: nowrap;
+}
+
+.section-link {
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+  text-decoration: none;
+}
+.section-link:hover { color: var(--link-hover); }
+
+.section-blurb {
+  font-family: var(--serif);
+  color: var(--ink-soft);
+  max-width: 68ch;
+  margin: 0.5rem 0 1.2rem;
+  font-size: 0.98rem;
+}
+
+.section-blurb[hidden] { display: none; }
+
+.blurb-toggle {
+  display: inline-block;
+  background: none;
+  border: 0;
+  padding: 0;
+  margin-bottom: 0.9rem;
+  font: inherit;
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.blurb-toggle:empty { display: none; }
+.blurb-toggle:hover { color: var(--link-hover); }
+
+.subsection {
+  /* a subheading is small text, so it uses the readable variant */
+  font-family: var(--sans);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--qis-ink);
+  margin: 1.4rem 0 0.5rem;
+}
+
+.section.axis-qis .subsection { color: var(--nupa-ink); }
+
+.paper {
+  border-bottom: 1px solid var(--rule);
+}
+
+.paper:last-child { border-bottom: 0; }
+
+.paper > summary {
+  display: grid;
+  grid-template-columns: 3.2rem 1fr;
+  gap: 0.6rem;
+  padding: 0.55rem 0.4rem;
+  cursor: pointer;
+  list-style: none;
+}
+
+.paper > summary:hover { background: var(--paper); }
+
+.paper > summary::-webkit-details-marker { display: none; }
+
+.paper[open] {
+  background: var(--paper);
+  box-shadow: inset 3px 0 0 var(--nupa);
+}
+
+.paper-year {
+  font-variant-numeric: tabular-nums;
+  color: var(--ink-soft);
+  font-size: 0.85rem;
+  padding-top: 0.12rem;
+}
+
+.paper-title {
+  font-family: var(--serif);
+  font-size: 1.06rem;
+  line-height: 1.35;
+}
+
+.paper-main { display: block; }
+
+.paper-meta {
+  display: block;
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+  margin-top: 0.1rem;
+}
+
+.paper-body {
+  padding: 0 0.8rem 0.9rem 4.2rem;
+  font-size: 0.9rem;
+}
+
+.paper-authors { margin: 0 0 0.4rem; color: var(--ink); }
+.paper-authors a { text-decoration: none; }
+.paper-authors a:hover { text-decoration: underline; }
+
+.paper-facts { margin: 0 0 0.6rem; color: var(--ink-soft); font-size: 0.85rem; }
+
+.chips { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-bottom: 0.6rem; }
+
+.chip {
+  border: 0;
+  font-family: var(--sans);
+  cursor: pointer;
+  font-size: 0.74rem;
+  padding: 0.12rem 0.45rem;
+  border-radius: 2px;
+  text-decoration: none;
+  color: var(--ink);
+}
+
+.chip.nupa { background: var(--nupa-tint); color: var(--nupa-ink); }
+.chip.qis { background: var(--qis-tint); color: var(--qis-ink); }
+.chip:hover { box-shadow: inset 0 0 0 1px currentColor; }
+
+.paper-links { display: flex; flex-wrap: wrap; gap: 0.8rem; font-size: 0.85rem; }
+
+.paper-links button {
+  background: none;
+  border: 0;
+  padding: 0;
+  font: inherit;
+  color: var(--link);
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.empty {
+  font-family: var(--serif);
+  font-size: 1.1rem;
+  color: var(--ink-soft);
+  padding: 2.5rem 0;
+}
+
+.empty button {
+  background: none; border: 0; padding: 0; font: inherit;
+  color: var(--link); cursor: pointer; text-decoration: underline;
+}
+
+/* ---------- toast ---------- */
+
+.toast {
+  position: fixed;
+  left: 50%;
+  bottom: 1.5rem;
+  transform: translate(-50%, 1rem);
+  background: #1A2228;
+  color: #F2EFE5;
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius);
+  font-size: 0.88rem;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.18s ease, transform 0.18s ease;
+}
+
+.toast.is-visible { opacity: 1; transform: translate(-50%, 0); }
+
+/* ---------- responsive ---------- */
+
+.drawer-toggle {
+  display: none;
+  position: fixed;
+  z-index: 20;
+  top: 0.75rem;
+  left: 0.75rem;
+  padding: 0.45rem 0.85rem;
+  background: var(--navy);
+  color: var(--side-strong);
+  border: 0;
+  border-radius: var(--radius);
+  font: inherit;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+@media (max-width: 60rem) {
+  .drawer-toggle { display: block; }
+  .sidebar { transform: translateX(-100%); transition: transform 0.2s ease; z-index: 15; width: min(20rem, 88vw); }
+  .sidebar.is-open { transform: none; }
+  .canvas { margin-left: 0; padding-top: 4rem; }
+  .paper-body { padding-left: 0.8rem; }
+}
+
+/* ---------- three-page variant ---------- */
+
+.sitenav {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.4rem;
+  border-top: 1px solid var(--navy-line);
+  border-bottom: 1px solid var(--navy-line);
+  padding: 0.5rem 0;
+}
+
+.sitenav a {
+  padding: 0.3rem 0.6rem;
+  margin: 0.05rem -0.6rem;
+  color: var(--side-dim);
+  text-decoration: none;
+  font-size: 0.95rem;
+  border-left: 2px solid transparent;
+}
+
+.sitenav a:hover { color: var(--side-strong); }
+
+.sitenav a.is-current {
+  color: var(--side-strong);
+  border-left-color: var(--accent);
+  background: var(--navy-deep);
+}
+
+.page-head { margin-bottom: 1.6rem; }
+
+.page-title {
+  font-family: var(--serif);
+  font-size: clamp(1.8rem, 3.2vw, 2.6rem);
+  font-weight: 600;
+  line-height: 1.12;
+  letter-spacing: -0.015em;
+  margin: 0 0 0.6rem;
+  max-width: none;
+}
+
+.page-lede {
+  font-family: var(--serif);
+  font-size: 1.05rem;
+  color: var(--ink-soft);
+  max-width: none;
+  margin: 0 0 1.1rem;
+}
+
+.jumpbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.15rem 0.9rem;
+  font-size: 0.82rem;
+  margin: 0;
+  padding-top: 0.9rem;
+  border-top: 1px solid var(--rule);
+}
+
+.jump-label { color: var(--ink-soft); }
+.jumpbar a { text-decoration: none; color: var(--nupa-ink); }
+.jumpbar a:hover { text-decoration: underline; }
+
+.overview-block { margin: 3rem 0; }
+
+.block-title {
+  font-family: var(--serif);
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0 0 1rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+/* growth chart */
+
+.bars {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.35rem;
+  height: 11rem;
+}
+
+.bars.is-tight .bar-label {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  text-align: right;
+  padding-top: 0;
+  padding-right: 0.25rem;
+  line-height: 1;
+}
+
+.bars.is-tight { height: 13rem; }
+
+.bar {
+  flex: 1;
+  min-width: 0;
+  /* Three rows: count, the bar's track, label. The track is the only
+     flexible one, so .bar-fill's percentage height has something definite
+     to resolve against. As a flex column it was shrunk to fit instead, and
+     every tall bar flattened to the same height. */
+  display: grid;
+  grid-template-rows: 1fr auto;
+  height: 100%;
+  background: none;
+  border: 0;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+}
+
+/* The track is the only flexible row, so the fill's percentage height has
+   something definite to resolve against. The padding reserves headroom for
+   the number that sits on top of the tallest bar. */
+.bar-track {
+  display: flex;
+  align-items: flex-end;
+  min-height: 0;
+  padding-top: 1.05rem;
+  box-sizing: border-box;
+}
+
+.bar-count {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  margin-bottom: 0.15rem;
+  font-size: 0.7rem;
+  color: var(--ink-soft);
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+
+.bar-fill {
+  position: relative;
+  display: block;
+  flex: 0 0 auto;
+  width: 100%;
+  min-height: 2px;
+  background: rgba(var(--plot-ink), 0.55);
+  opacity: 0.75;
+  border-radius: 2px 2px 0 0;
+}
+
+.bar:hover .bar-fill { background: rgba(var(--plot-ink), 0.85); }
+
+.bar-label {
+  font-size: 0.68rem;
+  color: var(--ink-soft);
+  text-align: center;
+  padding-top: 0.25rem;
+  font-variant-numeric: tabular-nums;
+}
+
+/* topic index */
+
+.entry-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+  gap: 1.5rem;
+}
+
+.entry {
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-top: 3px solid var(--nupa);
+  border-radius: var(--radius);
+  padding: 1.2rem 1.3rem 1.3rem;
+}
+
+.entry-qis { border-top-color: var(--qis); }
+
+.entry h4 {
+  font-family: var(--serif);
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0 0 0.3rem;
+}
+
+.entry-blurb {
+  font-size: 0.88rem;
+  color: var(--ink-soft);
+  margin: 0 0 0.9rem;
+}
+
+.topic-list { list-style: none; margin: 0 0 1rem; padding: 0; }
+
+.topic-list li {
+  /* Fixed columns for the badge and the count, so they form two straight
+     edges down the list even where a topic name wraps. */
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) max-content 4.6rem;
+  column-gap: 0.4rem;
+  align-items: baseline;
+  padding: 0.16rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+  font-size: 0.9rem;
+}
+
+.topic-list > li > a:first-child { text-decoration: none; }
+.topic-list .topic-define { grid-column: 2; justify-self: start; }
+.topic-list .topic-count { grid-column: 3; }
+.topic-list a:hover { text-decoration: underline; }
+.topic-count {
+  margin-left: auto;
+  padding-left: 0.6rem;
+  color: var(--ink-soft);
+  font-size: 0.8rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.entry-open { font-size: 0.9rem; text-decoration: none; font-weight: 500; }
+.entry-open:hover { text-decoration: underline; }
+
+@media (max-width: 40rem) {
+  .bars { height: 8rem; }
+  .bar-count { display: none; }
+  .bar-label { font-size: 0.6rem; overflow: hidden; }
+}
+
+/* ---------- descriptions page ---------- */
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+  font-size: 0.85rem;
+}
+
+.contents-group { display: flex; flex-direction: column; margin-bottom: 1rem; }
+
+.contents-axis {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--side-label);
+  margin: 0.6rem 0 0.4rem;
+}
+
+.contents a {
+  color: var(--side-dim);
+  text-decoration: none;
+  padding: 0.12rem 0;
+  line-height: 1.3;
+}
+
+.contents a:hover { color: var(--side-strong); }
+.contents a.is-stub { color: var(--side-faintest); font-style: italic; }
+
+.axis-heading {
+  color: var(--nupa-ink);
+  font-family: var(--serif);
+  font-size: 1.7rem;
+  font-weight: 600;
+  margin: 3rem 0 1.2rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 2px solid var(--nupa);
+}
+
+.axis-heading:first-child { margin-top: 1rem; }
+.axis-heading.axis-qis {
+  color: var(--qis-ink);
+  border-bottom-color: var(--qis);
+}
+
+.desc {
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  padding: 1.3rem 1.5rem 1.4rem;
+  margin-bottom: 1rem;
+  scroll-margin-top: 1.5rem;
+}
+
+.desc-head { display: flex; align-items: baseline; gap: 0.6rem; flex-wrap: wrap; }
+
+.desc-head h4 {
+  color: var(--nupa-ink);
+  font-family: var(--serif);
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.badge {
+  font-size: 0.68rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 0.12rem 0.4rem;
+  border-radius: 2px;
+}
+
+.badge-stub { background: #3A3320; color: #E8D9A6; }
+
+.desc-todo { color: var(--ink-soft); font-style: italic; margin: 0 0 0.9rem; }
+
+.desc-link {
+  display: inline-block;
+  margin-top: 0.9rem;
+  font-size: 0.88rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.desc-link:hover { text-decoration: underline; }
+
+/* hand-written prose */
+
+.prose {
+  font-family: var(--serif);
+  font-size: 1.02rem;
+  line-height: 1.65;
+  max-width: 82ch;
+}
+
+.prose p { margin: 0 0 0.9rem; }
+
+.prose-list {
+  margin: 0 0 1rem;
+  padding-left: 1.2rem;
+}
+
+.prose-list li { margin-bottom: 0.4rem; }
+
+.prose-refs-label {
+  font-family: var(--sans);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin-top: 1.2rem;
+}
+
+.prose a { word-break: break-word; }
+
+mjx-container { font-size: 1em !important; }
+mjx-container svg { vertical-align: -0.12em; }
+
+/* ---------- collapsible sections ---------- */
+
+/* Anchors and permalinks must clear the sticky toolbar. */
+.section, .desc, .paper { scroll-margin-top: 5rem; }
+
+.section { margin-bottom: 1.4rem; }
+
+.section > summary {
+  /* Fixed widths on the last two columns, because each section is its own
+     grid: "auto" would size them per row and nothing would line up. */
+  display: grid;
+  grid-template-columns: 0.9rem minmax(0, 1fr) 5rem 8rem;
+  column-gap: 0.6rem;
+  align-items: baseline;
+  cursor: pointer;
+  list-style: none;
+  padding: 0.45rem 0.4rem 0.35rem;
+  border-bottom: 2px solid var(--nupa);
+}
+
+.section > summary::-webkit-details-marker { display: none; }
+.section > summary:hover { background: var(--paper); }
+.section.axis-qis > summary { border-bottom-color: var(--qis); }
+
+/* A caret so it reads as openable. */
+.section > summary::before {
+  content: "▸";
+  color: var(--ink-soft);
+  font-size: 0.8rem;
+  line-height: 1;
+}
+
+.section[open] > summary::before { content: "▾"; }
+
+.section-head h2 {
+  flex: 0 1 auto;
+  color: var(--nupa-ink);
+}
+
+.section.axis-qis .section-head h2 { color: var(--qis-ink); }
+
+.section-tools {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0;
+  font-size: 0.78rem;
+}
+
+.section-tools > a {
+  flex: 0 0 4rem;
+  text-align: right;
+}
+
+/* Kept in the layout when there is no description, so the permalinks of
+   every section still sit in the same column. */
+.section-about:empty { visibility: hidden; }
+
+.section-about, .section-link { color: var(--ink-soft); text-decoration: none; }
+.section-about:hover, .section-link:hover { color: var(--link-hover); }
+
+/* ---------- active filters ---------- */
+
+.active-filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem;
+  margin: 0 0 1.2rem;
+}
+
+.active-label {
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+  margin-right: 0.2rem;
+}
+
+.active-chip {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.35rem;
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  padding: 0.15rem 0.6rem;
+  font: inherit;
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  color: var(--ink);
+  cursor: pointer;
+}
+
+.active-chip:hover { border-color: var(--nupa-ink); }
+.active-kind { color: var(--ink-soft); font-size: 0.7rem; }
+.active-x { color: var(--ink-soft); }
+
+.active-clear {
+  background: none;
+  border: 0;
+  font: inherit;
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* ---------- facets, folded ---------- */
+
+.facet > summary {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 0.5rem;
+  cursor: pointer;
+  list-style: none;
+  padding: 0.2rem 0;
+}
+
+.facet > summary::-webkit-details-marker { display: none; }
+
+.facet > summary::before {
+  content: "▸";
+  color: var(--side-faint);
+  font-size: 0.7rem;
+}
+
+.facet[open] > summary::before { content: "▾"; }
+.facet > summary:hover h2 { color: var(--side-strong); }
+
+.facet-chosen { font-size: 0.72rem; color: var(--side-dim); margin-left: auto; white-space: nowrap;}
+.facet-chosen:empty { display: none; }
+
+.facet-clear {
+  background: none;
+  border: 0;
+  padding: 0;
+  font: inherit;
+  font-size: 0.72rem;
+  color: var(--side-faint);
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.facet-clear:hover { color: var(--side-strong); }
+.facet-note { font-size: 0.7rem; color: var(--side-faint); margin: 0.3rem 0 0; }
+
+/* year filter as a small chart */
+
+.year-facet {
+  display: flex;
+  align-items: flex-end;
+  gap: 2px;
+  height: 3.6rem;
+  margin-top: 0.5rem;
+}
+
+.yf {
+  flex: 1;
+  min-width: 0;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  height: 100%;
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.yf-fill {
+  display: block;
+  align-self: end;
+  min-height: 2px;
+  background: #3C5766;
+  border-radius: 1px 1px 0 0;
+}
+
+.yf:hover .yf-fill { background: var(--nupa); }
+.yf.is-on .yf-fill { background: var(--nupa); }
+
+.yf-tick {
+  font-family: var(--sans);
+  font-size: 0.55rem;
+  color: var(--side-faint);
+  text-align: center;
+  padding-top: 0.2rem;
+}
+
+.yf.is-on .yf-tick { color: var(--side-strong); }
+
+/* ---------- labelled chips ---------- */
+
+.chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.3rem;
+  margin-bottom: 0.35rem;
+}
+
+.chip-label {
+  /* Set as written, not uppercased: the project spells itself NuPaQIS. */
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  letter-spacing: 0.02em;
+  color: var(--ink-soft);
+  width: 2.8rem;
+  flex: none;
+}
+
+/* ---------- jump picker ---------- */
+
+.jump-select {
+  font: inherit;
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  padding: 0.3rem 0.5rem;
+  background: var(--paper);
+  color: var(--ink);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  max-width: 22rem;
+}
+
+/* ---------- descriptions, folded ---------- */
+
+.desc { padding: 0; }
+
+.desc > summary {
+  display: block;
+  cursor: pointer;
+  list-style: none;
+  padding: 0.9rem 1.3rem;
+}
+
+.desc > summary::-webkit-details-marker { display: none; }
+.desc > summary:hover { background: #222B31; }
+.desc[open] > summary { border-bottom: 1px solid var(--rule); }
+.desc .prose, .desc .desc-todo, .desc .desc-link { margin-left: 1.3rem; margin-right: 1.3rem; }
+.desc .prose { padding-top: 1rem; }
+.desc .desc-link { display: inline-block; margin-bottom: 1.2rem; }
+.desc .desc-meta { margin: 0.2rem 0 0; }
+
+.subsection.is-cross { color: var(--ink-soft); }
+
+@media (max-width: 40rem) {
+  .section > summary { grid-template-columns: 0.9rem minmax(0, 1fr); }
+  .section-count, .section-tools { grid-column: 2; }
+  .section-tools { justify-content: flex-start; }
+  .section-tools > a { flex: 0 0 auto; margin-right: 1.2rem; text-align: left; }
+  .section-about:empty { display: none; }
+  .jump-select { max-width: 100%; width: 100%; }
+}
+
+/* ---------- the PDF ---------- */
+
+.pdf-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  align-items: flex-start;
+  justify-content: space-between;
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-left: 3px solid var(--ink-soft);
+  border-radius: var(--radius);
+  padding: 1.2rem 1.3rem;
+}
+
+.pdf-body { flex: 1 1 22rem; }
+
+.pdf-card h4 {
+  font-family: var(--serif);
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0 0 0.4rem;
+}
+
+.pdf-blurb {
+  font-family: var(--serif);
+  color: var(--ink-soft);
+  margin: 0 0 0.6rem;
+  max-width: none;
+}
+
+.pdf-facts {
+  font-size: 0.85rem;
+  margin: 0;
+  font-variant-numeric: tabular-nums;
+}
+
+.pdf-note {
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+  margin: 0.3rem 0 0;
+  max-width: 48ch;
+}
+
+.pdf-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  flex: 0 0 auto;
+}
+
+.pdf-open, .pdf-get {
+  display: block;
+  text-align: center;
+  padding: 0.45rem 1.1rem;
+  border-radius: var(--radius);
+  text-decoration: none;
+  font-family: var(--sans);
+  font-size: 0.88rem;
+}
+
+.pdf-open { background: var(--ink); color: var(--cream); }
+.pdf-open:hover { background: var(--link-hover); color: var(--cream); }
+
+.pdf-get { border: 1px solid var(--rule); color: var(--ink); }
+.pdf-get:hover { border-color: var(--accent); color: var(--link-hover); }
+
+/* ---------- contribute page ---------- */
+
+.form-block { margin-bottom: 3rem; }
+
+.form-blurb {
+  font-family: var(--serif);
+  color: var(--ink-soft);
+  max-width: none;
+  margin: 0 0 0.9rem;
+}
+
+.form-open {
+  display: inline-block;
+  padding: 0.4rem 0.9rem;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  background: var(--paper);
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  text-decoration: none;
+  color: var(--ink);
+}
+
+.form-open:hover { border-color: var(--accent); color: var(--link-hover); }
+
+.form-frame-wrap {
+  /* The form keeps Google's own light styling; soften the edge. */
+  background: #E9E7E0;
+  margin-top: 1rem;
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.form-frame {
+  display: block;
+  width: 100%;
+  height: 46rem;
+  border: 0;
+}
+
+.form-note {
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  max-width: none;
+}
+
+@media (max-width: 40rem) {
+  .form-frame { height: 38rem; }
+}
+
+.form-blocked {
+  margin-top: 0.9rem;
+  padding: 0.7rem 0.9rem;
+  border: 1px solid var(--rule);
+  border-left: 3px solid var(--ink-soft);
+  border-radius: var(--radius);
+  background: var(--paper);
+  font-size: 0.88rem;
+  color: var(--ink-soft);
+  max-width: 60ch;
+}
+
+/* definition marker in the topic index */
+
+.topic-list .topic-define {
+  flex: 0 0 auto;
+  margin-left: 0.1rem;
+  padding: 0.05rem 0.4rem;
+  border-radius: 2px;
+  font-family: var(--sans);
+  font-size: 0.68rem;
+  white-space: nowrap;
+  text-decoration: none;
+  color: var(--ink-soft);
+  background: rgba(255, 255, 255, 0.07);
+}
+
+.topic-list .topic-define:hover { background: var(--nupa-tint); color: var(--nupa-ink); }
+/* The marker belongs to its column, so it keeps that column's colour. */
+
+.entry-links { display: flex; flex-wrap: wrap; gap: 0.3rem 1.2rem; }
+
+/* A topic description under the QIS half of the page. */
+.desc.axis-qis .desc-head h4 { color: var(--qis-ink); }
+
+/* The two columns of the topic index on the front page. */
+.entry h4 { color: var(--nupa-ink); }
+.entry-qis h4 { color: var(--qis-ink); }
+
+.theme-switch {
+  display: flex;
+  gap: 2px;
+  margin-top: 1rem;
+  padding: 2px;
+  border: 1px solid var(--navy-line);
+  border-radius: var(--radius);
+}
+
+.theme-opt {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+  padding: 0.3rem 0.4rem;
+  background: transparent;
+  border: 0;
+  border-radius: 2px;
+  color: var(--side-faint);
+  font: inherit;
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  cursor: pointer;
+}
+
+.theme-opt:hover { color: var(--side-strong); }
+
+.theme-opt.is-on {
+  background: var(--navy-deep);
+  color: var(--side-strong);
+  box-shadow: inset 0 -2px 0 var(--accent);
+}
+
+.theme-glyph { font-size: 0.85rem; line-height: 1; }
+
+
+/* ---------- light theme ----------
+   Dark is the site's default. A reader who prefers light picks it from the
+   sidebar, and the choice is remembered in their browser. */
+
+:root[data-theme="light"] {
+  color-scheme: light;
+
+  --plot-ink: 26, 31, 36;
+  --plot-strong-text: #FBFAF5;
+  
+  --link: #2E3942;
+  --link-hover: #000000;
+  --accent: #3C4752;
+
+  --cream: #F2EFE5;
+  --paper: #FBFAF5;
+  --ink: #1A1F24;
+  --ink-soft: #55606B;
+  --rule: #DDD7C6;
+
+  /* On a light ground the brand colours fail as text (1.97:1 and 1.92:1),
+     so text uses the same hues at 60% value. Fills keep the originals. */
+  --nupa-ink: #36738D;
+  --qis-ink: #5D7624;
+  --nupa-tint: #E2F3FB;
+  --qis-tint: #EDF4DE;
+
+  --navy: #0B2028;
+  --navy-deep: #06161C;
+  --navy-line: #23414D;
+  --sidebar-edge: transparent;
+
+  --side-strong: #FFFFFF;
+  --side-text: #D7DEEA;
+  --side-dim: #9FB0C8;
+  --side-label: #8A9BB5;
+  --side-faint: #6D7D95;
+  --side-faintest: #5F6F88;
+}
+
+:root[data-theme="light"] .badge-stub { background: #EFE5C8; color: #6B5A25; }
+:root[data-theme="light"] .desc > summary:hover { background: #F5F2E8; }
+:root[data-theme="light"] .topic-define { background: rgba(0, 0, 0, 0.04); }
+:root[data-theme="light"] .topic-list li { border-bottom-color: rgba(0, 0, 0, 0.05); }
+:root[data-theme="light"] .yf-fill { background: #4B657F; }
+:root[data-theme="light"] .pdf-open { background: var(--ink); color: var(--paper); }
+:root[data-theme="light"] .pdf-open:hover { background: #000000; color: var(--paper); }
+:root[data-theme="light"] .form-frame-wrap { background: var(--paper); }
+
+/* The quantum information column carries its own colour throughout, not just
+   on the heading: topic links, the definition markers and the two footer
+   links. The physics column keeps the blue it inherits. */
+
+/* Each column's links take that column's colour. The physics one needs an
+   explicit rule now that links are neutral by default elsewhere. */
+.entry-nupa a { color: var(--nupa-ink); }
+.entry-qis a { color: var(--qis-ink); }
+.entry-qis .topic-define { color: var(--ink-soft); }
+.entry-qis .topic-define:hover { background: var(--qis-tint); color: var(--qis-ink); }
+
+/* Inside a topic's own section the "see the papers" link belongs to that
+   axis, so it keeps the axis colour rather than the neutral link tone. */
+.desc.axis-nupa .desc-link { color: var(--nupa-ink); }
+.desc.axis-qis .desc-link { color: var(--qis-ink); }
+.entry a, .entry-qis a { text-decoration: none; }
+
+.block-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  border-bottom: 1px solid var(--rule);
+  margin-bottom: 1rem;
+}
+
+.block-head .block-title {
+  border-bottom: 0;
+  margin-bottom: 0;
+  padding-bottom: 0.3rem;
+}
+
+.block-action {
+  flex: none;
+  background: none;
+  border: 0;
+  padding: 0 0 0.3rem;
+  font: inherit;
+  font-family: var(--sans);
+  font-size: 0.82rem;
+  color: var(--link);
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.block-action:hover { color: var(--link-hover); }
+
+/* The column heading doubles as the way into that axis's listing. */
+.entry-heading-link {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.4rem;
+  color: inherit;
+  text-decoration: none;
+}
+
+.entry-heading-link:hover { color: inherit; text-decoration: underline; }
+
+.entry-arrow {
+  font-family: var(--sans);
+  font-size: 0.8em;
+  opacity: 0.55;
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+.entry-heading-link:hover .entry-arrow {
+  opacity: 1;
+  transform: translateX(3px);
+}
+
+/* The destination tag beside a column heading. */
+/* Inline, so the tag follows the last word of the heading rather than
+   stranding itself beside the first line when the heading wraps. */
+.entry h4 { display: block; }
+.entry-heading-link { display: inline; }
+
+.entry-dest {
+  display: inline-flex;
+  align-items: baseline;
+  vertical-align: 0.1em;
+  gap: 0.3rem;
+  margin-left: 0.45rem;
+  padding: 0.1rem 0.45rem;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  font-family: var(--sans);
+  font-size: 0.68rem;
+  white-space: nowrap;
+  opacity: 0.75;
+}
+
+.entry-heading-link:hover .entry-dest { opacity: 1; }
+.entry-heading-link:hover { text-decoration: none; }
+.entry-heading-link:hover > span:first-child { text-decoration: underline; }
+
+/* Who maintains the review. Between the tagline and the counts, so the
+   credit reads as part of the masthead rather than as another statistic. */
+.masthead-authors {
+  font-family: var(--serif);
+  font-size: 0.92rem;
+  line-height: 1.45;
+  color: var(--side-text);
+  margin: 0.7rem 0 0;
+}
+
+.group-heading {
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--nupa-ink);
+  margin: 2rem 0 0.7rem;
+}
+
+.group-heading.axis-qis { color: var(--qis-ink); }
+.group-heading:first-of-type { margin-top: 0.5rem; }
+
+.contents-group-name {
+  font-size: 0.7rem;
+  color: var(--side-faint);
+  font-style: italic;
+  margin: 0.7rem 0 0.2rem;
+}
+
+.desc-count {
+  font-family: var(--sans);
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+  font-variant-numeric: tabular-nums;
+}

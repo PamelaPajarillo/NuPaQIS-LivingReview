@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>By QIS topic — NuPaQIS Living Review</title>
+<meta name="description" content="A Living Review of the Intersection of Nuclear and Particle Physics and Quantum Information Science.">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body data-page="qis">
+
+<button class="drawer-toggle" id="drawer-toggle" aria-expanded="false" aria-controls="sidebar">Filters</button>
+
+<aside class="sidebar" id="sidebar">
+  <header class="masthead">
+    <h1><img class="mark-logo" src="favicon-180.png" alt=""><span class="mark-nupa">NuPa</span><span class="mark-qis">QIS</span></h1>
+    <p class="masthead-sub">A Living Review of the Intersection of Nuclear and Particle Physics and Quantum Information Science</p>
+    <p class="masthead-authors">Pamela Pajarillo · So Chigusa · Jesse Thaler</p>
+    <p class="masthead-meta" id="masthead-meta"></p>
+  </header>
+  <nav class="sitenav" id="sitenav" aria-label="Sections"></nav>
+  <div class="control">
+    <label class="control-label" for="search">Search</label>
+    <input type="search" id="search" placeholder="Title, author, or citation key" autocomplete="off">
+  </div>
+  <div class="facets" id="facets"></div>
+    </div>
+      <p class="control-note">Filter below by nuclear and particle physics topic, quantum information topic, year, and paper type. Scroll the sidebar to find all filters.</p>
+  <div class="facets" id="facets"></div>
+  <footer class="sidebar-foot">
+    <a href="https://github.com/PamelaPajarillo/NuPaQIS-LivingReview">Repository</a>
+    <a href="NUPAQIS.pdf">Download the PDF</a>
+    <a href="https://raw.githubusercontent.com/PamelaPajarillo/NuPaQIS-LivingReview/main/NUPAQIS.bib">Full BibTeX</a>
+  </footer>
+</aside>
+
+<main class="canvas">
+  <header class="page-head">
+    <h2 class="page-title">Papers by Quantum Information Science Topic</h2>
+    <p class="page-lede">Papers are grouped by their primary quantum information science topic, then by nuclear and particle physics topic. Use the sidebar to filter by topic, year, or paper type, or search by title, author, or citation key.</p>
+    <p class="jumpbar" id="jumpbar"></p>
+  </header>
+
+  <div class="toolbar" id="toolbar">
+    <p class="tally" id="tally"></p>
+    <div class="tool-actions">
+      <button type="button" id="expand-all">Open all topics</button>
+      <button type="button" id="collapse-all">Close all</button>
+      <button type="button" id="download-bib">Download BibTeX</button>
+      <button type="button" id="copy-keys">Copy citation keys</button>
+      <button type="button" id="reset" class="is-quiet">Reset filters</button>
+    </div>
+  </div>
+
+  <div id="active-filters" class="active-filters" hidden></div>
+
+  <div id="listing" class="listing" aria-live="polite"></div>
+</main>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="assets/app.js"></script>
+</body>
+</html>

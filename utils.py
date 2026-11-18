@@ -666,12 +666,39 @@ def get_dataframe(yaml_file, categories_hep, categories_qis):
     df["journal_name"] = df.apply(lambda x: get_journal_doi(x['doi'], x['metadata_doi']), axis=1)
     df["Publish_Info_md"] = df.apply(lambda x: format_pub_info('md', str(x['arxiv_date']), str(x['doi_date']), str(x['eprint']), str(x['eprint_url']), str(x['journal_name']), str(x['doi_url'])), axis=1)
     df["Publish_Info_latex"] = df.apply(lambda x: format_pub_info('tex', str(x['arxiv_date']), str(x['doi_date']), str(x['eprint']), str(x['eprint_url']), str(x['journal_name']), str(x['doi_url'])), axis=1)
+    
+    # What kind of paper each entry is
+    inspire_paper_types = {
+        'conference paper': 'Conference paper',
+        'book chapter': 'Book chapter',
+        'note': 'Note',
+        'thesis': 'Thesis',
+        'report': 'Report',
+        'book': 'Book',
+    }
+
+    def get_paper_types(metadata, tagged):
+        found = []
+        if tagged and str(tagged).lower() not in ('nan', 'none', ''):
+            found += [part.strip() for part in str(tagged).split(';') if part.strip()]
+        for value in metadata['metadata'].get('document_type') or []:
+            label = inspire_paper_types.get(value)
+            if label and label not in found:
+                found.append(label)
+        return found or ['Research paper']
+
+    has_tags = 'Paper_Type' in df.columns
+    df["Paper_Types"] = df.apply(
+        lambda x: get_paper_types(x["metadata"],
+                                  x['Paper_Type'] if has_tags else None), axis=1)
+    df["Paper_Types_str"] = df["Paper_Types"].apply(lambda x: '; '.join(x))
+    
     df["bibtex_tag"] = df["metadata"].apply(lambda x: x['metadata']['texkeys'][0])
     df["bibtex"] = df["metadata"].apply(lambda x: get_bibtex(x, http))
     df["year"] = df.apply(lambda x: get_year(str(x['arxiv_date']), str(x['doi_date'])), axis=1)
     # Compress dataframe with useful information
     df = df[["ID", "title", "authors", "authors_url", "eprint", "doi", "eprint_url", "doi_url", "inspirehep_url", "Publish_Info_md", "Publish_Info_latex",
-             "NUPA_Primary", "NUPA_Secondary", "QIS_Primary", "QIS_Secondary", "bibtex_tag", "bibtex", "year"]]
+             "NUPA_Primary", "NUPA_Secondary", "QIS_Primary", "QIS_Secondary", "bibtex_tag", "bibtex", "year", "Paper_Types", "Paper_Types_str"]]
     
     # Check for identical bibtex entries
     if df['bibtex'].duplicated().any():

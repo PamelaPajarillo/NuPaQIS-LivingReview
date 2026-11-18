@@ -1,0 +1,34 @@
+{
+  "_readme": [
+    "Paste your Google Form links below. Use the full form URL, the one that",
+    "ends in /viewform, not a forms.gle short link: short links cannot be",
+    "embedded in a page.",
+    "",
+    "To find it: open the form, click Send, choose the link tab, and UNTICK",
+    "'Shorten URL'. It looks like",
+    "https://docs.google.com/forms/d/e/1FAIpQLSc.../viewform",
+    "",
+    "Leave a url empty and the site quietly falls back to GitHub issues for",
+    "that one, so nothing breaks while you are still setting the forms up.",
+    "",
+    "topicField is optional. Give it the entry id of a short-answer question",
+    "in the feedback form and every topic on the site gets its own feedback",
+    "link that arrives with the topic name already filled in. To find the id:",
+    "open the form, click the three dots, 'Get pre-filled link', type anything",
+    "into that question, click 'Get link', and copy the entry.123456789 part",
+    "out of the URL it gives you."
+  ],
+  "forms": {
+    "suggest": {
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSeQowqMgJ_kZi9tcfS40JHwpE2RZbfu1Zv3ramRLDqQJ7hXSw/viewform",
+      "label": "Submit a paper",
+      "blurb": "Know a paper that belongs in the review? Send it here — you will need its INSPIRE control number and a sense of which physics and quantum information topics it sits between. No GitHub account required."
+    },
+    "feedback": {
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSeSeEoT2VgjS81ns5n_YGv2w6oIGcNiDcxCofjw1vyXVvpOoA/viewform",
+      "label": "Feedback and suggestions",
+      "topicField": "",
+      "blurb": "Report a misclassified paper, suggest a new category, or point out an error anywhere in the review or on this site. To add a paper, use the form above instead."
+    }
+  }
+}

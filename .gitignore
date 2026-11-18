@@ -10,6 +10,8 @@ TODO*
 TEMPLATE.tex
 NUPAQIS original.yaml
 NUPAQIS todo.yaml
+web/data/
+web/NUPAQIS.pdf
 .inspire_cache/
 
 ## Core latex/pdflatex auxiliary files:
