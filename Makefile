@@ -27,7 +27,7 @@ yaml: sort_yaml.py NUPAQIS.yaml
 	mv NUPAQIS_copy.yaml NUPAQIS.yaml
 
 main:
-	latexmk -bibtex -logfilewarnings -f -interaction=nonstopmode NUPAQIS
+	latexmk -lualatex -bibtex -logfilewarnings -f -interaction=nonstopmode NUPAQIS
 	mkdir -p DRAFTS
 	rsync NUPAQIS.pdf DRAFTS/draft_$(date).pdf
 

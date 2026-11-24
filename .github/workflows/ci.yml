@@ -3,55 +3,83 @@ name: CI
 on:
   push:
   pull_request:
-  # Run daily at 0:01 UTC
+  # Daily at 00:01 UTC: pull fresh INSPIRE metadata and propose it as a PR
   schedule:
-  - cron:  '1 0 * * *'
+    - cron: '1 0 * * *'
+  workflow_dispatch:
 
 jobs:
-  test:
+  # On push and PR: check the data and that the generator runs.
+  # Does not compare against committed output, so INSPIRE changes can't fail it.
+  check:
+    if: github.event_name == 'push' || github.event_name == 'pull_request'
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        python-version: [ '3.x' ]
-
     steps:
-    - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
-    - name: Set up Python ${{ matrix.python-version }}
-      uses: actions/setup-python@v3
-      with:
-        python-version: ${{ matrix.python-version }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
 
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip setuptools wheel pandas urllib3 pyyaml matplotlib seaborn
-        python -m pip list
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install pandas urllib3 pyyaml matplotlib seaborn numpy
 
-    - name: Test README generation
-      run: |
-        cp BY_NUPA/README.md BY_NUPA/README.bak
-        cp BY_QIS/README.md BY_QIS/README.bak
-        cp NUPAQIS.bib NUPAQIS.bak
-        python make_nupaqis.py
-        if [[ "$(diff BY_NUPA/README.md BY_NUPA/README.bak)" ]]; then
-           diff BY_NUPA/README.md BY_NUPA/README.bak
-           echo "ERROR: NUPA README is out of sync"
-           echo "       run make_nupaqis.py and commit changes"
-           exit 1
-        fi
-        if [[ "$(diff BY_QIS/README.md BY_QIS/README.bak)" ]]; then
-           diff BY_QIS/README.md BY_QIS/README.bak
-           echo "ERROR: QIS README is out of sync"
-           echo "       run make_nupaqis.py and commit changes"
-           exit 1
-        fi
-        if [[ "$(diff NUPAQIS.bib NUPAQIS.bak)" ]]; then
-           diff NUPAQIS.bib NUPAQIS.bak
-           echo "ERROR: BIBTEX is out of sync"
-           echo "       run make_nupaqis.py and commit changes"
-           exit 1
-        fi
-        ls -lhtra
+      - name: Validate YAML files
+        run: python .github/scripts/validate_yaml.py
 
-    - name: List directory contents
-      run: ls -lhtra
+      # Same cache as the Pages workflow, so most requests are served locally
+      - name: Restore INSPIRE cache
+        uses: actions/cache@v4
+        with:
+          path: .inspire_cache
+          key: inspire-${{ hashFiles('NUPAQIS.yaml') }}
+          restore-keys: inspire-
+
+      - name: Check that generation succeeds
+        run: python make_nupaqis.py
+
+  # On the schedule: regenerate from live INSPIRE data and open (or update)
+  # a pull request with whatever changed. No change means no PR.
+  refresh:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install pandas urllib3 pyyaml matplotlib seaborn numpy
+
+      - name: Regenerate from INSPIRE
+        env:
+          INSPIRE_REFRESH: '1'
+        run: python make_nupaqis.py
+
+      - name: Open or update the refresh pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: inspire-refresh
+          delete-branch: true
+          commit-message: Refresh INSPIRE metadata
+          title: Refresh INSPIRE metadata
+          body: |
+            Automatic daily refresh: these files changed because INSPIRE
+            metadata was updated (new DOIs, journal references, title or
+            author corrections). Review the diff and merge if it looks right.
+            The PDF is not rebuilt here; run `make main` locally if needed.
+          add-paths: |
+            README.md
+            BY_NUPA/README.md
+            BY_QIS/README.md
+            NUPAQIS.bib
+            *.png

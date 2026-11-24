@@ -3,6 +3,7 @@ import re
 import os
 import html
 import hashlib
+import time
 import functools
 import unicodedata
 import warnings
@@ -352,15 +353,55 @@ _CACHE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), '.inspire_
 _REFRESH = os.environ.get('INSPIRE_REFRESH', '') == '1'
 
 
+# INSPIRE allows about 15 requests per 5 seconds per IP, so stay under 3 per second.
+_MIN_INTERVAL = 0.35        # seconds between network requests
+_MAX_ATTEMPTS = 5           # first try plus 4 retries
+_RETRY_STATUSES = {429, 500, 502, 503, 504}
+_last_request = [0.0]
+
 def fetch_url(http, url):
-    """GET a URL, returning the response body as text, cached on disk."""
+    """GET a URL, returning the response body as text, cached on disk.
+
+    Requests are throttled, temporary failures (rate limits, server errors,
+    dropped connections) are retried with increasing waits, and only
+    successful responses are cached. Anything else raises an error that names
+    the URL, so a bad response can never end up in the generated files.
+    """
     path = os.path.join(_CACHE_DIR,
                         hashlib.sha1(url.encode('utf-8')).hexdigest())
     if not _REFRESH and os.path.exists(path):
         with open(path, 'r', encoding='utf-8') as handle:
             return handle.read()
 
-    text = http.request('GET', url).data.decode('utf-8')
+    problem = ''
+    for attempt in range(_MAX_ATTEMPTS):
+        wait = _MIN_INTERVAL - (time.monotonic() - _last_request[0])
+        if wait > 0:
+            time.sleep(wait)
+        _last_request[0] = time.monotonic()
+
+        delay = 2 ** attempt                   # 1, 2, 4, 8 seconds between tries
+        try:
+            response = http.request('GET', url, retries=False, timeout=30.0)
+        except urllib3.exceptions.HTTPError as err:
+            problem = 'connection error (%s)' % err.__class__.__name__
+        else:
+            if response.status == 200:
+                break
+            problem = 'HTTP %d' % response.status
+            if response.status not in _RETRY_STATUSES:
+                raise RuntimeError('INSPIRE request failed with %s: %s' % (problem, url))
+            retry_after = response.headers.get('Retry-After', '')
+            if retry_after.isdigit():
+                delay = max(delay, int(retry_after))
+        if attempt < _MAX_ATTEMPTS - 1:
+            print('  %s for %s, retrying in %d s' % (problem, url, delay), file=sys.stderr)
+            time.sleep(delay)
+    else:
+        raise RuntimeError('INSPIRE request still failing after %d attempts (%s): %s'
+                           % (_MAX_ATTEMPTS, problem, url))
+
+    text = response.data.decode('utf-8')
     os.makedirs(_CACHE_DIR, exist_ok=True)
     tmp = path + '.tmp'                       # atomic: never cache a partial read
     with open(tmp, 'w', encoding='utf-8') as handle:
@@ -385,7 +426,7 @@ def format_pub_info(run, date_arxiv, date_doi, eprint, eprint_url, doi, doi_url)
     str_arxiv = ''
     str_doi = ''
 
-    if date_arxiv != 'nan':
+    if date_arxiv != 'nan' and eprint != 'nan':
         # Prefix 
         if run == 'md':
             str_arxiv = "\n+ <strong>Posted on <a href=\"%s\">arXiv:%s</a>:</strong> " % (eprint_url, eprint)
@@ -544,6 +585,7 @@ def get_dataframe(yaml_file, categories_hep, categories_qis):
         else:
             return json.loads('{}')
 
+    MAX_AUTHORS_SHOWN = 10  # longer author lists are cut to this many + 'et al.'
     def get_author_list(metadata):
         author_list = ''
         
@@ -560,7 +602,9 @@ def get_dataframe(yaml_file, categories_hep, categories_qis):
         for author in author_list:
             if ',' in author:
                 formatted_author_list.append(author.split(',')[1].strip() + ' ' + author.split(',')[0].strip())
-        fixed_author = ', '.join(formatted_author_list)
+        fixed_author = ', '.join(formatted_author_list[:MAX_AUTHORS_SHOWN])
+        if len(formatted_author_list) > MAX_AUTHORS_SHOWN:
+            fixed_author += ' et al.'
 
         # Collaborations
         collaboration_list = []
@@ -584,12 +628,14 @@ def get_dataframe(yaml_file, categories_hep, categories_qis):
         author_list = ''
 
         if 'authors' in metadata['metadata'].keys():
-            for i in metadata['metadata']['authors']:
+            for i in metadata['metadata']['authors'][:MAX_AUTHORS_SHOWN]:
                 author_name = i['full_name']
                 if ',' in author_name:
                     author_name = author_name.split(',')[1].strip() + ' ' + author_name.split(',')[0].strip()
                 author_list += "<a href=\"%s\"> %s</a>" % (i['record']['$ref'].replace('/api',''), author_name) + ", "
         author_list = author_list[:-2]
+        if len(metadata['metadata'].get('authors', [])) > MAX_AUTHORS_SHOWN:
+            author_list += ' et al.'
     
         # Collaborations
         collaboration_list = []

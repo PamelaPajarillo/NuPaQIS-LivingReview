@@ -754,8 +754,8 @@
     el.descriptions.innerHTML = '';
     el.contents.innerHTML = '';
 
-    [['nupa', 'Nuclear and particle physics'],
-     ['qis', 'Quantum information science']].forEach(function (pair) {
+    [['nupa', 'Nuclear and Particle Physics'],
+     ['qis', 'Quantum Information Science']].forEach(function (pair) {
       var axis = pair[0];
       var categories = byGroup(data.categories[axis]).map(function (name) {
         return (axis === 'nupa' ? index.nupaInfo : index.qisInfo)[name];
@@ -1022,8 +1022,8 @@
     }, []))).sort();
 
     var blocks = {
-      nupa: ['Nuclear and particle physics', 'nupa', nupaNames, index.nupaGroup],
-      qis: ['Quantum information science', 'qis', qisNames, index.qisGroup]
+      nupa: ['Nuclear and Particle Physics', 'nupa', nupaNames, index.nupaGroup],
+      qis: ['Quantum Information Science', 'qis', qisNames, index.qisGroup]
     };
     // The page's own axis comes first; all four open, each capped in height.
     var order = PAGE === 'qis' ? ['qis', 'nupa'] : ['nupa', 'qis'];
